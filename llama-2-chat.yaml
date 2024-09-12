@@ -1,0 +1,87 @@
+---
+
+project:
+    name: LLaMA2 Chat
+    link: https://ai.meta.com/resources/models-and-libraries/llama/
+    notes:
+    llmbase: LLaMA2
+    rlbase: Meta, StackExchange, Anthropic
+    license: Unclear
+
+org:
+    name: Facebook Research
+    link: https://github.com/facebookresearch
+    notes:
+
+# availability:
+opencode:
+    class: closed
+    link: https://github.com/facebookresearch/llama/tree/main
+    notes: Repository only offers 'a minimal example to load Llama 2 models and run inference'; no training, fine-tuning, evaluation code made available
+
+llmdata:
+    class: closed
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+
+llmweights:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+rldata:
+    class: closed
+    link:
+    notes: RLHF data including 1 million Meta-specific tuning prompts not made available (even as it incorporates some open RLHF datasets)
+
+rlweights:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+license:
+    class: closed
+    link: https://github.com/facebookresearch/llama/blob/main/LICENSE
+    notes: Usage requires signing Meta's bespoke 'community license', not an OSI recognised open license
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: Code only covers minimal examples; no documentation available. 
+
+architecture:
+    class: partial
+    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+    notes: Architecture sketched in preprint, though many details missing.
+
+preprint:
+    class: partial
+    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+    notes: Corporate preprint quite some detail on pretraining, RLHF, and safety measures but none on datasets.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: partial
+    link: https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md
+    notes: There is a model card, but it provides the absolute minimum of detail, and none whatsoever on training data.
+
+datasheet:
+    class: closed
+    link:
+    notes: Datasheet not provided.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: Package not provided
+
+api:
+    class: partial
+    link:
+    notes: API only available behind a privacy-defying signup form

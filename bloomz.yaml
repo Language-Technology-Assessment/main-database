@@ -1,0 +1,86 @@
+---
+project:
+    name: BLOOMZ
+    link: https://huggingface.co/bigscience/bloomz
+    notes:
+    llmbase: BLOOMZ, mT0
+    rlbase: xP3
+    license: Apache 2.0 and RAIL (responsible AI license)
+
+org:
+    name: bigscience-workshop
+    link: https://github.com/bigscience-workshop
+    notes:
+
+# availability:
+opencode:
+    class: open
+    link: https://github.com/bigscience-workshop/xmtf
+    notes: Repository provides a guided overview to all components
+
+llmdata:
+    class: open
+    link: https://github.com/bigscience-workshop/xmtf#data
+    notes: Data made available & documented in detail in repo and preprint
+
+llmweights:
+    class: open
+    link: https://github.com/bigscience-workshop/xmtf#models
+    notes: Model made available on github
+
+rldata:
+    class: open
+    link: https://huggingface.co/datasets/bigscience/xP3all
+    notes: From the documentation 'xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks'
+
+rlweights:
+    class: partial
+    link: https://huggingface.co/bigscience/bloomz-optimizer-states/tree/main
+    notes: Fine-tuned checkpoint available for download
+
+license:
+    class: partial
+    link: https://bigscience.huggingface.co/blog/the-bigscience-rail-license
+    notes: Code licensed under Apache 2.0, model under bespoke 'Responsible AI License' which imposes some limitations
+
+# documentation
+code:
+    class: open
+    link: https://github.com/bigscience-workshop/xmtf
+    notes: Code well documented and actively maintained
+
+architecture:
+    class: open
+    link: https://github.com/bigscience-workshop/xmtf#create-xp3x
+    notes: Architecture described in preprint, code available in github repo, recipe on HuggingFace
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2211.05100
+    notes: Preprint (updated June 2023) of 65 pages + 10 page appendix
+
+paper:
+    class: open
+    link: https://aclanthology.org/2023.acl-long.891/
+    notes: Peer-reviewed paper of 9 pages + 114 page appendix describes the multitask finetuning (instruction tuning) of BLOOM (see preprint) to form BLOOMZ
+
+modelcard:
+    class: open
+    link: https://huggingface.co/bigscience/bloomz
+    notes: Model card
+
+datasheet:
+    class: open
+    link: https://huggingface.co/datasets/bigscience/xP3
+    notes: Dataset documented in dataset card at HuggingFace
+
+# access
+package:
+    class: closed
+    link:
+    notes: No packages published
+
+api:
+    class: open
+    link: https://huggingface.co/spaces/bigscience/petals-api
+    notes: Petals API via HuggingFace not always available ('not enough hardware capacity')

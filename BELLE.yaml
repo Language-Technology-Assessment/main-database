@@ -1,0 +1,86 @@
+---
+project:
+    name: BELLE
+    link: https://github.com/LianjiaTech/BELLE
+    notes:
+    llmbase: LLaMA & BLOOMZ
+    rlbase: alpaca, shareGPT, Belle (synthetic)
+    license: Apache License 2.0
+
+org:
+    name: KE Technologies
+    link: http://www.ke.com
+    notes:
+
+# availability:
+opencode:
+    class: open
+    link: https://github.com/LianjiaTech/BELLE
+    notes: Repository contains a fair bit of code
+
+llmdata:
+    class: partial
+    link:
+    notes: Open for variants based on BLOOMZ. Closed for variants based on LLaMA, whose pretraining data is nowhere disclosed or documented.
+
+llmweights:
+    class: partial
+    link:
+    notes: LLaMA based but copyright status unclear
+
+rldata:
+    class: partial
+    link: https://github.com/LianjiaTech/BELLE/tree/main/data/1.5M
+    notes: Synthetic BELLE training data in Chinese released in batches
+
+rlweights:
+    class: partial
+    link: https://github.com/LianjiaTech/BELLE/tree/main/models
+    notes: Some models available, most only as delta weights requiring separate access to LLaMA
+
+license:
+    class: closed
+    link:
+    notes: Lowest common denominator is non-OSI approved LLaMA licence agreement
+
+# documentation
+code:
+    class: partial
+    link: https://github.com/LianjiaTech/BELLE/blob/main/README_en.md
+    notes: Quite some documentation on Github, though not all well-organized 
+
+architecture:
+    class: open
+    link: https://github.com/LianjiaTech/BELLE/blob/main/README_en.md
+    notes: Specified in a fair bit of detail on github
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2303.14742
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: closed
+    link:
+    notes: No model card found
+
+datasheet:
+    class: partial
+    link:
+    notes: No data sheet found
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No dedicated package available
+
+api:
+    class: closed
+    link:
+    notes: No API found

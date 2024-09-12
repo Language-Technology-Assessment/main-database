@@ -1,0 +1,86 @@
+---
+project:
+    name: Stanford Alpaca
+    link: https://crfm.stanford.edu/2023/03/13/alpaca.html
+    notes: project_notes
+    llmbase: LLaMA
+    rlbase: Self-Instruct (synthetic)
+    license: LLaMA license agreement
+
+org:
+    name: Stanford University CRFM
+    link: https://crfm.stanford.edu/
+    notes: 
+
+# availability:
+opencode:
+    class: open
+    link: 
+    notes: 
+
+llmdata:
+    class: closed
+    link: 
+    notes: Based on LLaMA, whose pretraining data is nowhere disclosed or documented.
+
+llmweights:
+    class: partial
+    link: 
+    notes: LLaMA based, copyright status unclear
+
+rldata:
+    class: partial
+    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
+    notes: alpaca_data.json contains 52K instruction-following data we used for fine-tuning the Alpaca model. 
+
+rlweights:
+    class: partial
+    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
+    notes: LLaMA based
+
+license:
+    class: closed
+    link: https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform
+    notes: Pegged to LLaMA licence agreement
+
+# documentation:
+code:
+    class: partial
+    link:  https://github.com/tatsu-lab/stanford_alpaca
+    notes: Insofar as code is made available it is fairly well documented
+
+architecture:
+    class: open
+    link:  https://github.com/tatsu-lab/stanford_alpaca#fine-tuning
+    notes: Fair bit of documentation available on github repository
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint found; uses the release-by-blogpost playbook
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed work found.
+
+modelcard:
+    class: closed
+    link: 
+    notes: No model card found
+
+datasheet:
+    class: closed
+    link: 
+    notes: No data sheet found
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: 

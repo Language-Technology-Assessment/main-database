@@ -1,0 +1,86 @@
+---
+project:
+    name: Falcon-40B-instruct
+    link: https://huggingface.co/tiiuae/falcon-40b-instruct
+    notes:
+    llmbase: Falcon 40B
+    rlbase: Baize (synthetic)
+    license:  Apache 2.0 license
+
+org:
+    name: Technology Innovation Institute
+    link: https://falconllm.tii.ae
+    notes:
+
+# availability:
+opencode:
+    class: closed
+    link: https://huggingface.co/tiiuae/falcon-40b-instruct
+    notes: No source code shared, even though the term "open source" is used.
+
+llmdata:
+    class: partial
+    link: https://huggingface.co/datasets/tiiuae/falcon-refinedweb
+    notes: From the documentation 'The key ingredient for the high quality of the Falcon models is their training data, predominantly based (>80%) on RefinedWeb — a novel massive web dataset based on CommonCrawl' (https://huggingface.co/blog/falcon). However, only a small sample is made available.
+
+llmweights:
+    class: open
+    link: https://huggingface.co/tiiuae/falcon-40b-instruct/tree/main
+    notes: Model weights available through HuggingFace library
+
+rldata:
+    class: partial
+    link: https://github.com/project-baize/baize-chatbot
+    notes: RL data inherited from Baize but provenance not well-documented. From the documentation 'Falcon-40B-Instruct was finetuned on a 150M tokens from Baize mixed with 5% of RefinedWeb data.'
+
+rlweights:
+    class: closed
+    link: https://github.com/project-baize/baize-chatbot#v1
+    notes: No RL weights or checkpoints made available
+
+license:
+    class: open
+    link:
+    notes: First release came with a legally murky license that was swiftly criticised and now generates a 404. Current documentation 'Falcon-40B-Instruct is made available under the Apache 2.0 license.'
+
+# documentation
+code:
+    class: closed
+    link:
+    notes: No source code found, therefore no documentation found.
+
+architecture:
+    class: partial
+    link:
+    notes: Architecture sketched on HuggingFace as "Falcon-40B-Instruct is a 40B parameters causal decoder-only model built by TII based on Falcon-40B and finetuned on a mixture of Baize."
+
+preprint:
+    class: partial
+    link: https://arxiv.org/abs/2306.01116
+    notes: Preprint covers the creation and curation of RefinedWeb dataset, but not other aspects of the model, hence partial.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper known.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/tiiuae/falcon-40b-instruct
+    notes: Model card on HuggingFace is mostly used to advertise the model, not to document its training and evaluation details.
+
+datasheet:
+    class: closed
+    link:
+    notes: There is no datasheet available.
+
+# access
+package:
+    class: closed
+    link:
+    notes: There is no package.
+
+api:
+    class: closed
+    link: https://huggingface.co/tiiuae/falcon-40b-instruct
+    notes: There is no API, and HuggingFace inference API is disabled for this model.

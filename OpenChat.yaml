@@ -1,0 +1,87 @@
+---
+
+project:
+    name: OpenChat 3.5 7B
+    link: https://github.com/imoneoi/openchat
+    notes:
+    llmbase: Mistral 7B
+    rlbase: ShareGPT with C-RLFT
+    license: Apache 2.0
+
+org:
+    name: Tshinghua University
+    link: https://github.com/imoneoi
+    notes: OpenChat notes 'We are a student team from Tsinghua University'
+
+# availability:
+opencode:
+    class: open
+    link: https://github.com/imoneoi/openchat/tree/master/ochat
+    notes: Repository offers a large amount of fairly well-organized code for data curation and model
+
+llmdata:
+    class: closed
+    link:
+    notes: Pretraining data for Mistral is nowhere disclosed or documented
+
+llmweights:
+    class: open
+    link: https://github.com/mistralai/mistral-src#download-the-model
+    notes: Mistral 7B weights available via Mistral repository
+
+rldata:
+    class: closed
+    link:
+    notes: "Preprint says shareGPT dataset 'collected from sharegpt.com' but not disclosed or made available by this project"
+
+rlweights:
+    class: open
+    link: https://huggingface.co/openchat/openchat_3.5/tree/main
+    notes: Instruction-tuned model weights made available via HuggingFace
+
+license:
+    class: open
+    link: https://github.com/imoneoi/openchat/blob/master/LICENSE
+    notes: Code and model released under Apache 2.0
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/imoneoi/openchat/tree/master/ochat
+    notes: There is plenty of code in the github repository but only some of it is documented
+
+architecture:
+    class: open
+    link: https://arxiv.org/abs/2309.11235
+    notes: Architecture quite well described in preprint
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2309.11235
+    notes: Preprint describes the model architecture and instruction tuning approach, though is hampered by building on notoriously closed Llama2
+
+paper:
+    class: open
+    link: https://openreview.net/forum?id=AOJyfhWYHf
+    notes: Paper reviewed and accepted for ICLR 2024
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/openchat/openchat_v3.2
+    notes: There is a model card that provides some details on architecture and evaluation
+
+datasheet:
+    class: closed
+    link:
+    notes: Datasheet not provided.
+
+# access:
+package:
+    class: open
+    link: https://github.com/imoneoi/openchat/tree/master#installation
+    notes: Python package 'ochat' provided through pip
+
+api:
+    class: partial
+    link:
+    notes: Model too large to load onto HuggingFace free inference API, so only available through Inference Endpoints or package
