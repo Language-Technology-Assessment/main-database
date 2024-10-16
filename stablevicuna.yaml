@@ -1,11 +1,22 @@
 ---
-project:
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: StableVicuna-13B
     link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
     notes: StableVicuna-13B is a Vicuna-13B v0 model fine-tuned using reinforcement learning from human feedback (RLHF) via Proximal Policy Optimization (PPO) on various conversational and instructional datasets
-    llmbase: LLaMA
-    rlbase: OASST1 (human), GPT4All (human), Alpaca (synthetic)
-    license:
+    type: text 
+    basemodelname: LLaMA
+    endmodelname: OASST1 (human), GPT4All (human), Alpaca (synthetic)
+    endmodellicense:
 
 org:
     name: CarperAI
@@ -13,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
+        notes: Based on LLaMA whose pretraining data has nowhere been disclosed or documented.
+    endmodel:
+        class: partial
+        link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
+        notes: From the documentation 'The reward model used during RLHF was also trained on OpenAssistant Conversations Dataset (OASST1) along with two other datasets Anthropic HH-RLHF, a dataset of preferences about AI assistant helpfulness and harmlessness; and Stanford Human Preferences Dataset a dataset of 385K collective human preferences over responses to questions/instructions in 18 different subject areas, from cooking to legal advice.'
+
+weights: 
+    basemodel:
+        class: partial
+        link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta#apply-delta-weights
+        notes: Model not functional out of the box as weights require a delta computation. From the docs 'StableVicuna-13B cannot be used from the CarperAI/stable-vicuna-13b-delta weights alone. To obtain the correct model, one must add back the difference between LLaMA 13B and CarperAI/stable-vicuna-13b-delta weights.'
+    endmodel:
+        class: partial
+        link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta/discussions/7
+        notes: The HuggingFace community page has an open question for release of the RL model
+
+trainingcode:
     class: partial
     link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta/tree/main
     notes: Some elements of the code made available through HuggingFace
-
-llmdata:
-    class: closed
-    link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
-    notes: Based on LLaMA whose pretraining data has nowhere been disclosed or documented.
-
-llmweights:
-    class: partial
-    link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta#apply-delta-weights
-    notes: Model not functional out of the box as weights require a delta computation. From the docs 'StableVicuna-13B cannot be used from the CarperAI/stable-vicuna-13b-delta weights alone. To obtain the correct model, one must add back the difference between LLaMA 13B and CarperAI/stable-vicuna-13b-delta weights.'
-
-rldata:
-    class: partial
-    link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
-    notes: From the documentation 'The reward model used during RLHF was also trained on OpenAssistant Conversations Dataset (OASST1) along with two other datasets Anthropic HH-RLHF, a dataset of preferences about AI assistant helpfulness and harmlessness; and Stanford Human Preferences Dataset a dataset of 385K collective human preferences over responses to questions/instructions in 18 different subject areas, from cooking to legal advice.'
-
-rlweights:
-    class: partial
-    link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta/discussions/7
-    notes: The HuggingFace community page has an open question for release of the RL model
-
-license:
-    class: partial
-    link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
-    notes: CC-BY-NC-SA-4.0. License for LLaMA is more murky, hence partial. As they say 'License for the base LLaMA model's weights is Meta's non-commercial bespoke license.'
 
 # documentation
 code:
@@ -84,3 +90,10 @@ api:
     class: partial
     link: https://github.com/lm-sys/FastChat/tree/main#api
     notes: Addressable via FastChat / HuggingFace API
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
+    notes: CC-BY-NC-SA-4.0. License for LLaMA is more murky, hence partial. As they say 'License for the base LLaMA model's weights is Meta's non-commercial bespoke license.'
+

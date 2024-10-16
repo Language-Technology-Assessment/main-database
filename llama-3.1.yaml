@@ -1,12 +1,22 @@
 ---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
 
-project:
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: Llama 3.1
     link: https://huggingface.co/meta-llama/Meta-Llama-3.1-405B
     notes:
-    llmbase: Meta Llama 3
-    rlbase: Meta, undocumented
-    license: Meta Llama 3 Community License
+    type: text 
+    basemodelname: Meta Llama 3
+    endmodelname: Meta, undocumented
+    endmodellicense: Meta Llama 3 Community License
 
 org:
     name: Facebook Research
@@ -14,35 +24,29 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link:
+        notes: Data nowhere disclosed or documented, and described in the llama 3.1 paper as "obtained from the web" 
+    endmodel:
+        class: closed
+        link:
+        notes: No information available on instruction-tuning.
+
+weights: 
+    basemodel:
+        class: partial
+        link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
+        notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
+    endmodel:
+        class: closed
+        link: 
+        notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
+trainingcode:
     class: partial
     link: https://github.com/meta-llama/llama3
     notes: Repository only offers code for inference pipeline
-
-llmdata:
-    class: closed
-    link:
-    notes: Data nowhere disclosed or documented, and described in the llama 3.1 paper as "obtained from the web" 
-
-llmweights:
-    class: partial
-    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
-    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
-
-rldata:
-    class: closed
-    link:
-    notes: No information available on instruction-tuning.
-
-rlweights:
-    class: closed
-    link: 
-    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
-
-license:
-    class: closed
-    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
-    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
 
 # documentation:
 code:
@@ -85,3 +89,9 @@ api:
     class: partial
     link: https://www.meta.ai/?utm_source=ai_meta_site&utm_medium=web&utm_content=AI_nav&utm_campaign=April_moment
     notes: API only available behind a privacy-defying signup form
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
+    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license

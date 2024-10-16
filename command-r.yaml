@@ -9,13 +9,14 @@
 
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
-project:
+system:
     name: Command R+
     link: https://huggingface.co/CohereForAI/c4ai-command-r-v01
+    type: text
+    basemodelname: 
+    endmodelname: Aya Collection
+    endmodellicense: CC-BY-NC and C4AI acceptable use policy
     notes:
-    llmbase: 
-    rlbase: Aya Collection
-    license: CC-BY-NC and C4AI acceptable use policy
 
 org:
     name: Cohere AI
@@ -23,35 +24,30 @@ org:
     notes: 
 
 # availability:
-opencode:
+trainingcode:
     class: closed
     link:
     notes: No codebase available to study or adjust model architecture, training, or inner workings.
 
-llmdata:
-    class: closed
-    link: https://docs.cohere.com/docs/data-statement
-    notes: No documentation, listing or audit of pre-training data available. Cohere itself identifies it as coheretext-filtered and gives the size as 200Gb.
+datasources:
+    basemodel:
+        class: closed
+        link: https://docs.cohere.com/docs/data-statement
+        notes: No documentation, listing or audit of pre-training data available. Cohere itself identifies it as coheretext-filtered and gives the size as 200Gb.
+    endmodel:
+        class: open
+        link: https://huggingface.co/collections/CohereForAI/aya-datasets-660415741bd4852f01c81c77
+        notes: Aya Collection (Aya Open Science initiative) is a multilingual collection of 513 million instances of promts and completions including instruction-style templates.
 
-llmweights:
-    class: closed
-    link: 
-    notes: No checkpoint or model prior to SFT and instruction-tuning made available
-
-rldata:
-    class: open
-    link: https://huggingface.co/collections/CohereForAI/aya-datasets-660415741bd4852f01c81c77
-    notes: Aya Collection (Aya Open Science initiative) is a multilingual collection of 513 million instances of promts and completions including instruction-style templates.
-
-rlweights:
-    class: open
-    link: https://huggingface.co/CohereForAI/c4ai-command-r-v01/tree/main
-    notes: Fine-tuned model weights made available for download
-
-license:
-    class: partial
-    link: https://docs.cohere.com/docs/c4ai-acceptable-use-policy
-    notes: Licensed under CC-BY-NC and requires agreeing to C4AI acceptable use policy
+weights:
+    basemodel:
+        class: closed
+        link: 
+        notes: No checkpoint or model prior to SFT and instruction-tuning made available
+    endmodel:
+        class: open
+        link: https://huggingface.co/CohereForAI/c4ai-command-r-v01/tree/main
+        notes: Fine-tuned model weights made available for download
 
 # documentation:
 code:
@@ -94,3 +90,9 @@ api:
     class: closed
     link:
     notes: API access available only when signing up.
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: https://docs.cohere.com/docs/c4ai-acceptable-use-policy
+    notes: Licensed under CC-BY-NC and requires agreeing to C4AI acceptable use policy

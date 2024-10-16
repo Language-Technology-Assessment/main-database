@@ -1,13 +1,22 @@
 ---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
-project:
+system:
     name: Yi 34B Chat
     link: https://huggingface.co/01-ai/Yi-34B-Chat
     notes: The Yi series models are the next generation of open-source large language models trained from scratch by 01.AI. Targeted as a bilingual language model and trained on 3T multilingual corpus.
-    llmbase: Yi 34B
-    rlbase: unspecified
-    license: Apache 2.0 and bespoke Yi Series Community License Agreement 2.1
+    type: text 
+    basemodelname: Yi 34B
+    endmodelname: unspecified
+    endmodellicense: Apache 2.0 and bespoke Yi Series Community License Agreement 2.1
 
 org:
     name: 01.AI
@@ -15,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link:
+        notes: Training data for base model undocumented, though preprint mentions CommonCrawl as one source
+    endmodel:
+        class: closed
+        link: https://huggingface.co/datasets/BAAI/COIG
+        notes: Model docs mention COIG but only as an example. Code also shows rm-static is also used in instruction tuning, but not shared.
+
+weights: 
+    basemodel:
+        class: open
+        link: https://huggingface.co/01-ai/Yi-34B/tree/main
+            notes: Base model weights shared via HuggingFace
+    endmodel:
+        class: open
+        link: https://huggingface.co/01-ai/Yi-34B-Chat/tree/main
+        notes: Instruction-tuned weights shared via HuggingFace
+
+trainingcode:
     class: partial
     link: https://github.com/01-ai/Yi
     notes: repository contains some code for demos and for instruction tuning, but only sparse examples of code for initial training and model architecture
-
-llmdata:
-    class: closed
-    link:
-    notes: Training data for base model undocumented, though preprint mentions CommonCrawl as one source
-
-llmweights:
-    class: open
-    link: https://huggingface.co/01-ai/Yi-34B/tree/main
-    notes: Base model weights shared via HuggingFace
-
-rldata:
-    class: closed
-    link: https://huggingface.co/datasets/BAAI/COIG
-    notes: Model docs mention COIG but only as an example. Code also shows rm-static is also used in instruction tuning, but not shared.
-
-rlweights:
-    class: open
-    link: https://huggingface.co/01-ai/Yi-34B-Chat/tree/main
-    notes: Instruction-tuned weights shared via HuggingFace
-
-license:
-    class: partial
-    link:
-    notes: Model code licensed under Apache 2.0, model weights licensed under Llama-inspired community license with limitations
 
 # documentation:
 code:
@@ -86,3 +90,10 @@ api:
     class: partial
     link:
     notes: limited access via HF API, otherwise gated and commercially available
+    metaprompt: closed
+    
+licenses:
+    class: partial
+    link:
+    notes: Model code licensed under Apache 2.0, model weights licensed under Llama-inspired community license with limitations
+

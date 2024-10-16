@@ -1,11 +1,22 @@
 ---
-project:
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: Open Assistant
     link: https://open-assistant.io/
     notes:
-    llmbase: Pythia 12B
-    rlbase: OpenAssistant Conversations
-    license: Apache 2.0
+    type: text 
+    basemodelname: Pythia 12B
+    endmodelname: OpenAssistant Conversations
+    endmodellicense: Apache 2.0
 
 org:
     name: LAION-AI
@@ -13,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: open
+        link: https://github.com/LAION-AI/Open-Assistant/tree/main/data/datasets
+        notes: Datasets documented in detail and recipes for cleaning up and downloading provided in code notebooks.
+    endmodel:
+        class: open
+        link: https://huggingface.co/datasets/OpenAssistant/oasst1
+        notes: OpenAssistant Conversations is 'a human-generated, human-annotated assistant-style conversation corpus consisting of 161443 messages distributed across 66497 conversation trees, in 35 different languages, annotated with 461292 quality ratings' (preprint)
+
+weights: 
+    basemodel:
+        class: open
+        link: https://huggingface.co/OpenAssistant
+        notes: Model weights in several variants downloadable through HuggingFace
+    endmodel:
+        class: closed
+        link:
+        notes: RLHF weights not separately released
+
+trainingcode:
     class: open
     link: https://github.com/LAION-AI/Open-Assistant
     notes: Code includes guide for developers
-
-llmdata:
-    class: open
-    link: https://github.com/LAION-AI/Open-Assistant/tree/main/data/datasets
-    notes: Datasets documented in detail and recipes for cleaning up and downloading provided in code notebooks.
-
-llmweights:
-    class: open
-    link: https://huggingface.co/OpenAssistant
-    notes: Model weights in several variants downloadable through HuggingFace
-
-rldata:
-    class: open
-    link: https://huggingface.co/datasets/OpenAssistant/oasst1
-    notes: OpenAssistant Conversations is 'a human-generated, human-annotated assistant-style conversation corpus consisting of 161443 messages distributed across 66497 conversation trees, in 35 different languages, annotated with 461292 quality ratings' (preprint)
-
-rlweights:
-    class: closed
-    link:
-    notes: RLHF weights not separately released
-
-license:
-    class: open
-    link: https://projects.laion.ai/Open-Assistant/docs/faq#what-license-does-open-assistant-use
-    notes: Apache 2.0
 
 # documentation
 code:
@@ -84,3 +90,10 @@ api:
     class: open
     link: https://projects.laion.ai/Open-Assistant/api
     notes:
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://projects.laion.ai/Open-Assistant/docs/faq#what-license-does-open-assistant-use
+    notes: Apache 2.0
+

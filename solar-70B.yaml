@@ -1,12 +1,22 @@
 ---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
 
-project:
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: Solar 70B
     link: https://huggingface.co/upstage/SOLAR-0-70b-16bit
     notes: HuggingFace profile says 'Solar is a great example of the progress enabled by open source.'
-    llmbase: LLaMA2
-    rlbase: Orca-style, Alpaca-style
-    license: Meta Community license, CC-BY-NC
+    type: text 
+    basemodelname: LLaMA2
+    endmodelname: Orca-style, Alpaca-style
+    endmodellicense: Meta Community license, CC-BY-NC
 
 org:
     name: Upstage AI
@@ -14,35 +24,30 @@ org:
     notes: Korean venture
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link:
+        notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+    endmodel:
+        class: closed
+        link:
+        notes: No RLHF datasets specified or shared, docs say 'Orca-style dataset, Alpaca-style dataset'
+
+weights: 
+    basemodel:
+        class: partial
+        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+        notes: Download only after requesting access; requires signing a consent form
+    endmodel:
+        class: partial
+        link: https://huggingface.co/upstage/SOLAR-0-70b-16bit/tree/main
+        notes: Finetuned checkpoints only shared through CC-BY-NC
+
+trainingcode:
     class: closed
     link: 
     notes: No code repository found
-
-llmdata:
-    class: closed
-    link:
-    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
-
-llmweights:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
-
-rldata:
-    class: closed
-    link:
-    notes: No RLHF datasets specified or shared, docs say 'Orca-style dataset, Alpaca-style dataset'
-
-rlweights:
-    class: partial
-    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit/tree/main
-    notes: Finetuned checkpoints only shared through CC-BY-NC
-
-license:
-    class: closed
-    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit#model-details
-    notes: Meta Community License for base model, and CC-BY-NC 4.0 for fine-tuned model weights
 
 # documentation:
 code:
@@ -85,3 +90,10 @@ api:
     class: partial
     link:
     notes: API only available by signing up for 'private LLM' service
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit#model-details
+    notes: Meta Community License for base model, and CC-BY-NC 4.0 for fine-tuned model weights
+

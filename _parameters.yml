@@ -1,0 +1,41 @@
+- name: Availability
+  ref: availability
+  params: 
+    - name: Training Data Sources
+      ref: datasources
+        - ref: basemodel
+          name: Base Model
+        - ref: endmodel
+          name: End User Model
+    - name: Model weights
+      ref: weights
+        - ref: basemodel
+          name: Base Model
+        - ref: endmodel
+          name: End User Model
+    - ref: trainingcode
+    name: Training Code    
+- name: Documentation
+  ref: documentation
+  params: 
+    - ref: code
+      name: Code
+    - ref: architecture
+      name: Architecture
+    - ref: preprint
+      name: Preprint
+    - ref: paper
+      name: Paper
+    - ref: modelcard
+      name: Modelcard
+    - ref: datasheet
+      name: Datasheet
+- name: Access
+  ref: access
+  params: 
+    - ref: package
+      name: Package
+    - ref: api
+      name: API
+    - ref: licenses
+      name: Licenses

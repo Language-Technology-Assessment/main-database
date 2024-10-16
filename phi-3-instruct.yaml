@@ -9,13 +9,14 @@
 
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
-project:
+system:
     name: Phi 3 Instruct
     link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct
     notes: 
-    llmbase: Phi3
-    rlbase: Unspecified
-    license: MIT License
+    type: text 
+    basemodelname: Phi3
+    endmodelname: Unspecified
+    endmodellicense: MIT License
 
 org:
     name: Microsoft
@@ -23,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link:
+        notes: No datasets made available and no information on datasets disclosed except very generic claims about filtering for high quality.
+    endmodel:
+        class: closed
+        link:
+        notes: No post-training datasets made available and no information on datasets disclosed except very generic claims about filtering for high quality.
+
+weights: 
+    basemodel:
+        class: closed
+        link:
+        notes: No base model of the instruction-tuned Phi-3 was released
+    endmodel:
+        class: open
+        link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct/tree/main
+        notes: Instruction-tuned model weights shared through HuggingFace
+
+trainingcode:
     class: closed
     link:
     notes: No source code found for pretraining, posttraining, or evaluation
-
-llmdata:
-    class: closed
-    link:
-    notes: No datasets made available and no information on datasets disclosed except very generic claims about filtering for high quality.
-
-llmweights:
-    class: closed
-    link:
-    notes: No base model of the instruction-tuned Phi-3 was released
-
-rldata:
-    class: closed
-    link:
-    notes: No post-training datasets made available and no information on datasets disclosed except very generic claims about filtering for high quality.
-
-rlweights:
-    class: open
-    link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct/tree/main
-    notes: Instruction-tuned model weights shared through HuggingFace
-
-license:
-    class: open
-    link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct/blob/main/LICENSE
-    notes: MIT License
 
 # documentation:
 code:
@@ -94,3 +90,10 @@ api:
     class: open
     link:
     notes: Available through HuggingFace API
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct/blob/main/LICENSE
+    notes: MIT License
+

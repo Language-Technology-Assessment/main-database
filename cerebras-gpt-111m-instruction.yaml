@@ -1,11 +1,22 @@
 ---
-project:
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: Cerebras GPT 111M Instruction
     link: https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction
+    type: text
+    basemodelname: Cerebras
+    endmodelname: Alpaca (synthetic)
+    endmodellicense: Apache 2.0
     notes:
-    llmbase: Cerebras
-    rlbase: Alpaca (synthetic)
-    license: Apache 2.0
 
 org:
     name: Cerebras + Schramm
@@ -13,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources:
+    basemodel:
+        class: open
+        link: https://huggingface.co/datasets/EleutherAI/pile
+        notes: Eleuther AI's The Pile
+    endmodel:
+        class: open
+        link: https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data.json
+        notes: Alpaca GPT4
+
+weights:
+    basemodel:
+        class: open
+        link: https://huggingface.co/cerebras/Cerebras-GPT-111M
+        notes: base model available via Cerebras
+    endmodel:
+        class: open
+        link: https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction/tree/main
+        notes: Finetuned model weights available
+
+trainingcode:
     class: partial
     link: https://github.com/Cerebras/gigaGPT
     notes: Some of the training code available in GigaGPT, but fine-tuning
-
-llmdata:
-    class: open
-    link: https://huggingface.co/datasets/EleutherAI/pile
-    notes: Eleuther AI's The Pile
-
-llmweights:
-    class: open
-    link: https://huggingface.co/cerebras/Cerebras-GPT-111M
-    notes: base model available via Cerebras
-
-rldata:
-    class: open
-    link: https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data.json
-    notes: Alpaca GPT4
-
-rlweights:
-    class: open
-    link: https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction/tree/main
-    notes: Finetuned model weights available
-
-license:
-    class: partial
-    link: https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction/
-    notes: Licensing situation unclear as model page mentions no license (base model is licensed Apache 2.0)
 
 # documentation
 code:
@@ -84,3 +90,9 @@ api:
     class: open
     link:
     notes: Available through HuggingFace inference API
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction/
+    notes: Licensing situation unclear as model page mentions no license (base model is licensed Apache 2.0)

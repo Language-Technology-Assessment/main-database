@@ -1,48 +1,53 @@
 ---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
 
-project:
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: LLaMA2 Chat
     link: https://ai.meta.com/resources/models-and-libraries/llama/
+    type: text 
+    basemodelname: LLaMA2
+    endmodelname: Meta, StackExchange, Anthropic
+    endmodellicense: Unclear
     notes:
-    llmbase: LLaMA2
-    rlbase: Meta, StackExchange, Anthropic
-    license: Unclear
-
+    
 org:
     name: Facebook Research
     link: https://github.com/facebookresearch
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link:
+        notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+    endmodel:
+        class: closed
+        link:
+        notes: RLHF data including 1 million Meta-specific tuning prompts not made available (even as it incorporates some open RLHF datasets)
+
+weights: 
+    basemodel:
+        class: partial
+        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+        notes: Download only after requesting access; requires signing a consent form
+    endmodel:
+        class: partial
+        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+        notes: Download only after requesting access; requires signing a consent form
+
+trainingcode:
     class: closed
     link: https://github.com/facebookresearch/llama/tree/main
     notes: Repository only offers 'a minimal example to load Llama 2 models and run inference'; no training, fine-tuning, evaluation code made available
-
-llmdata:
-    class: closed
-    link:
-    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
-
-llmweights:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
-
-rldata:
-    class: closed
-    link:
-    notes: RLHF data including 1 million Meta-specific tuning prompts not made available (even as it incorporates some open RLHF datasets)
-
-rlweights:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
-
-license:
-    class: closed
-    link: https://github.com/facebookresearch/llama/blob/main/LICENSE
-    notes: Usage requires signing Meta's bespoke 'community license', not an OSI recognised open license
 
 # documentation:
 code:
@@ -85,3 +90,9 @@ api:
     class: partial
     link:
     notes: API only available behind a privacy-defying signup form
+    metaprompt: closed 
+    
+licenses:
+    class: closed
+    link: https://github.com/facebookresearch/llama/blob/main/LICENSE
+    notes: Usage requires signing Meta's bespoke 'community license', not an OSI recognised open license

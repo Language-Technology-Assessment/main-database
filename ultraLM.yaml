@@ -1,12 +1,22 @@
 ---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
 
-project:
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: UltraLM
     link: https://huggingface.co/openbmb/UltraRM-13b
     notes:
-    llmbase: LLaMA2
-    rlbase: UltraFeedback (part synthetic)
-    license: Meta Community License
+    type: text 
+    basemodelname: LLaMA2
+    endmodelname: UltraFeedback (part synthetic)
+    endmodellicense: Meta Community License
 
 org:
     name: OpenBMB
@@ -14,35 +24,30 @@ org:
     notes: "OpenBMB (Open Lab for Big Model Base), founded by TsinghuaNLP & ModelBest Inc (面壁智能), aims to build foundation models and systems towards AGI."
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link:
+        notes: Based on Llama2, which means pretraining data is nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+    endmodel:
+        class: open
+        link: https://huggingface.co/datasets/openbmb/UltraFeedback
+        notes: UltraFeedback dataset made available along with model release
+
+weights: 
+    basemodel:
+        class: partial
+        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+        notes: Download only after requesting access; requires signing a consent form
+    endmodel:
+        class: partial
+        link: https://huggingface.co/openbmb/UltraLM-13b-v2.0
+        notes: Online materials appear to be in flux and several HuggingFace links generate 404 errors, hence partial
+
+trainingcode:
     class: closed
     link: 
     notes: 
-
-llmdata:
-    class: closed
-    link:
-    notes: Based on Llama2, which means pretraining data is nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
-
-llmweights:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
-
-rldata:
-    class: open
-    link: https://huggingface.co/datasets/openbmb/UltraFeedback
-    notes: UltraFeedback dataset made available along with model release
-
-rlweights:
-    class: partial
-    link: https://huggingface.co/openbmb/UltraLM-13b-v2.0
-    notes: Online materials appear to be in flux and several HuggingFace links generate 404 errors, hence partial
-
-license:
-    class: closed
-    link: https://huggingface.co/openbmb/UltraLM-13b#model-details
-    notes: Usage requires signing Meta's bespoke 'community license', not an OSI recognised open license
 
 # documentation:
 code:
@@ -85,3 +90,10 @@ api:
     class: closed
     link:
     notes: API not provided and model too big for HuggingFace inference API
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/openbmb/UltraLM-13b#model-details
+    notes: Usage requires signing Meta's bespoke 'community license', not an OSI recognised open license
+

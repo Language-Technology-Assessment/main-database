@@ -9,13 +9,14 @@
 
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
-project:
+system:
     name: Tulu V2 DPO 70B 
     link: https://huggingface.co/allenai/tulu-2-dpo-70b
     notes: A new DPO model from AllenAI called Tülu
-    llmbase: Llama2
-    rlbase: Tulu SFT, Ultrafeedback
-    license: AI2 ImpACT license
+    type: text 
+    basemodelname: Llama2
+    endmodelname: Tulu SFT, Ultrafeedback
+    endmodellicense: AI2 ImpACT license
 
 org:
     name: AllenAI
@@ -23,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link:
+        notes: Based on Llama2 so nothing known about training data
+    endmodel:
+        class: open
+        link: https://github.com/allenai/open-instruct
+        notes: Codebase used for fine-tuning this model and made available for others
+
+weights: 
+    basemodel:
+        class: partial
+        link: https://github.com/meta-llama/
+        notes: Base model made available via Meta (requires privacy-defying signup)
+    endmodel:
+        class: open
+        link: https://huggingface.co/allenai/tulu-2-dpo-70b/tree/main
+        notes: Fine-tuned weights available
+
+trainingcode:
     class: open
     link: https://github.com/allenai/open-instruct
     notes: Important effort to make available fine-tuning procedure and source code. Not seen a repository for base model training yet.
-
-llmdata:
-    class: closed
-    link:
-    notes: Based on Llama2 so nothing known about training data
-
-llmweights:
-    class: partial
-    link: https://github.com/meta-llama/
-    notes: Base model made available via Meta (requires privacy-defying signup)
-
-rldata:
-    class: open
-    link: https://github.com/allenai/open-instruct
-    notes: Codebase used for fine-tuning this model and made available for others
-
-rlweights:
-    class: open
-    link: https://huggingface.co/allenai/tulu-2-dpo-70b/tree/main
-    notes: Fine-tuned weights available
-
-license:
-    class: partial
-    link: https://allenai.org/impact-license
-    notes: Meta Community License and AI2 Impact license
 
 # documentation:
 code:
@@ -94,3 +90,10 @@ api:
     class: open
     link:
     notes: Available via various APIs
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: https://allenai.org/impact-license
+    notes: Meta Community License and AI2 Impact license
+

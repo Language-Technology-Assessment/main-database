@@ -1,12 +1,22 @@
 ---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
 
-project:
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: Orca 2
     link: https://www.microsoft.com/en-us/research/project/orca/
     notes: This file applies to Orca 2 7B and 13B, both fine-tunes of corresponding Llama2 base models.
-    llmbase: LLaMA2
-    rlbase: FLAN, Math, undisclosed (synthetic)
-    license: Microsoft Research License, Llama Community License
+    type: text 
+    basemodelname: LLaMA2
+    endmodelname: FLAN, Math, undisclosed (synthetic)
+    endmodellicense: Microsoft Research License, Llama Community License
 
 org:
     name: Microsoft Research
@@ -14,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link:
+        notes: Llama pretraining Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+    endmodel:
+        class: closed
+        link:
+        notes: Instruction-tuning and explanation-tuning data described in preprint, but not disclosed or made available
+
+weights: 
+    basemodel:
+        class: partial
+        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+        notes: Download only after requesting access; requires signing a consent form
+    endmodel:
+        class: open
+        link: https://huggingface.co/microsoft/Orca-2-7b
+        notes: 7B and 13B finetunes of Llama2 made available through HuggingFace
+
+trainingcode:
     class: closed
     link: 
     notes: No source code made available anywhere for data curation, training, fine-tuning, or evaluation
-
-llmdata:
-    class: closed
-    link:
-    notes: Llama pretraining Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
-
-llmweights:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
-
-rldata:
-    class: closed
-    link:
-    notes: Instruction-tuning and explanation-tuning data described in preprint, but not disclosed or made available
-
-rlweights:
-    class: open
-    link: https://huggingface.co/microsoft/Orca-2-7b
-    notes: 7B and 13B finetunes of Llama2 made available through HuggingFace
-
-license:
-    class: closed
-    link: https://github.com/facebookresearch/llama/blob/main/LICENSE
-    notes: Licensed under Microsoft Research License and Meta's bespoke community license, neither OSI recognised
 
 # documentation:
 code:
@@ -85,3 +90,10 @@ api:
     class: partial
     link:
     notes: Model too large to load on HuggingFace inference library
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://github.com/facebookresearch/llama/blob/main/LICENSE
+    notes: Licensed under Microsoft Research License and Meta's bespoke community license, neither OSI recognised
+

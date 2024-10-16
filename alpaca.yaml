@@ -1,11 +1,22 @@
 ---
-project:
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
     name: Stanford Alpaca
     link: https://crfm.stanford.edu/2023/03/13/alpaca.html
-    notes: project_notes
-    llmbase: LLaMA
-    rlbase: Self-Instruct (synthetic)
-    license: LLaMA license agreement
+    type: text
+    basemodelname: LLaMA
+    endmodelname: Self-Instruct (synthetic)
+    endmodellicense: LLaMA license agreement
+    notes:
 
 org:
     name: Stanford University CRFM
@@ -13,35 +24,30 @@ org:
     notes: 
 
 # availability:
-opencode:
+datasources:
+    basemodel:
+        class: closed
+        link: 
+        notes: Based on LLaMA, whose pretraining data is nowhere disclosed or documented.
+    endmodel:
+        class: partial
+        link: https://github.com/tatsu-lab/stanford_alpaca#data-release
+        notes: alpaca_data.json contains 52K instruction-following data we used for fine-tuning the Alpaca model. 
+
+weights:
+    basemodel:
+        class: partial
+        link: 
+        notes: LLaMA based, copyright status unclear
+    endmodel:
+        class: partial
+        link: https://github.com/tatsu-lab/stanford_alpaca#data-release
+        notes: LLaMA based
+
+trainingcode:
     class: open
     link: 
     notes: 
-
-llmdata:
-    class: closed
-    link: 
-    notes: Based on LLaMA, whose pretraining data is nowhere disclosed or documented.
-
-llmweights:
-    class: partial
-    link: 
-    notes: LLaMA based, copyright status unclear
-
-rldata:
-    class: partial
-    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
-    notes: alpaca_data.json contains 52K instruction-following data we used for fine-tuning the Alpaca model. 
-
-rlweights:
-    class: partial
-    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
-    notes: LLaMA based
-
-license:
-    class: closed
-    link: https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform
-    notes: Pegged to LLaMA licence agreement
 
 # documentation:
 code:
@@ -84,3 +90,9 @@ api:
     class: closed
     link: 
     notes: 
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform
+    notes: Pegged to LLaMA licence agreement

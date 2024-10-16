@@ -9,13 +9,14 @@
 
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
-project:
+system:
     name: Mixtral 8x7B Instruct
     link: https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1
     notes: 
-    llmbase: Mistral
-    rlbase: Unspecified
-    license: Apache 2.0
+    type: text 
+    basemodelname: Mistral
+    endmodelname: Unspecified
+    endmodellicense: Apache 2.0
 
 org:
     name: Mistral AI
@@ -23,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link: 
+        notes: No information provided on pretraining data
+    endmodel:
+        class: closed
+        link: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1/tree/main
+        notes: No information provided online or in the preprint
+
+weights: 
+    basemodel:
+        class: open
+        link: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1/tree/main
+        notes: Weights shared via torrent and via HuggingFace
+    endmodel:
+        class: partial
+        link: https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1/tree/main
+        notes: Instruct version of model weights made available but no information on fine-tuning procedure provided
+
+trainingcode:
     class: closed
     link: 
     notes: No training code for Mixtral 8x7B made available
-
-llmdata:
-    class: closed
-    link: 
-    notes: No information provided on pretraining data
-
-llmweights:
-    class: open
-    link: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1/tree/main
-    notes: Weights shared via torrent and via HuggingFace
-
-rldata:
-    class: closed
-    link: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1/tree/main
-    notes: No information provided online or in the preprint
-
-rlweights:
-    class: partial
-    link: https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1/tree/main
-    notes: Instruct version of model weights made available but no information on fine-tuning procedure provided
-
-license:
-    class: open
-    link: https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1/blob/main/README.md
-    notes: Apache 2.0
 
 # documentation:
 code:
@@ -94,3 +90,10 @@ api:
     class: closed
     link: https://console.mistral.ai/
     notes: Only paid API access available
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1/blob/main/README.md
+    notes: Apache 2.0
+

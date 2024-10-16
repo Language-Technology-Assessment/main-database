@@ -1,11 +1,22 @@
 ---
-project:
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: Vicuna 13B v 1.3
     link: https://huggingface.co/lmsys/vicuna-13b-v1.3
     notes: 'Vicuna is a chat assistant trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT.'
-    llmbase: LLaMA
-    rlbase: ShareGPT
-    license: Non-commercial license
+    type: text 
+    basemodelname: LLaMA
+    endmodelname: ShareGPT
+    endmodellicense: Non-commercial license
 
 org:
     name: LMSYS
@@ -13,35 +24,30 @@ org:
     notes: According to its website, 'The Large Model Systems Organisation develops large models and systems that are open, accessible and scalable'
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: partial
+        link: https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md#training-dataset
+        notes: Vicuna is fine-tuned LLaMA, and LLaMA in turn is based on 'publicly available datasets' that are not all specified or easily downloadable.
+    endmodel:
+        class: closed
+        link: https://github.com/lm-sys/FastChat#fine-tuning
+        notes: From the documentation 'We will not release the ShareGPT dataset'. Also 'Vicuna v1.3 is fine-tuned from LLaMA with supervised instruction fine-tuning. The training data is around 140K conversations collected from ShareGPT.com.'
+
+weights: 
+    basemodel:
+        class: open
+        link: https://github.com/lm-sys/FastChat#vicuna-weights
+        notes: Unlike Vicuna 13B v0, these weights do not require applying delta
+    endmodel:
+        class: closed
+        link: https://github.com/lm-sys/FastChat#fine-tuning
+        notes: No model weights are shared for the instruction tuning
+
+trainingcode:
     class: open
     link: https://github.com/lm-sys/FastChat
     notes: Actively maintained repository
-
-llmdata:
-    class: partial
-    link: https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md#training-dataset
-    notes: Vicuna is fine-tuned LLaMA, and LLaMA in turn is based on 'publicly available datasets' that are not all specified or easily downloadable.
-
-llmweights:
-    class: open
-    link: https://github.com/lm-sys/FastChat#vicuna-weights
-    notes: Unlike Vicuna 13B v0, these weights do not require applying delta
-
-rldata:
-    class: closed
-    link: https://github.com/lm-sys/FastChat#fine-tuning
-    notes: From the documentation 'We will not release the ShareGPT dataset'. Also 'Vicuna v1.3 is fine-tuned from LLaMA with supervised instruction fine-tuning. The training data is around 140K conversations collected from ShareGPT.com.'
-
-rlweights:
-    class: closed
-    link: https://github.com/lm-sys/FastChat#fine-tuning
-    notes: No model weights are shared for the instruction tuning
-
-license:
-    class: partial
-    link: https://github.com/lm-sys/FastChat#vicuna-weights
-    notes: From the documentation 'Vicuna is based on LLaMA and should be used under LLaMA's model license.'
 
 # documentation
 code:
@@ -84,3 +90,10 @@ api:
     class: partial
     link: https://github.com/lm-sys/FastChat#api
     notes: Support provided for several APIs OpenAI restful, HuggingFace, Langchain
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: https://github.com/lm-sys/FastChat#vicuna-weights
+    notes: From the documentation 'Vicuna is based on LLaMA and should be used under LLaMA's model license.'
+

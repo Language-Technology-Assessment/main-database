@@ -1,13 +1,22 @@
 ---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
-project:
+system:
     name: WizardLM-7B
     link: https://github.com/nlpxucan/WizardLM
     notes: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
-    llmbase: LLaMA-7B
-    rlbase: Evol-Instruct (synthetic)
-    license: CC-BY-NC-4.0
+    type: text 
+    basemodelname: LLaMA-7B
+    endmodelname: Evol-Instruct (synthetic)
+    endmodellicense: CC-BY-NC-4.0
 
 org:
     name: Microsoft & Peking University
@@ -15,35 +24,30 @@ org:
     notes: 
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: partial
+        link:
+        notes: Based on LLaMA, which is claimed to be public but nowhere exactly documented.
+    endmodel:
+        class: open
+        link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM#training-data
+        notes: The Evol-Instruct dataset contains 70k instruction-following sequences generated from Evol-Instruct
+
+weights: 
+    basemodel:
+        class: closed
+        link:
+        notes: Based on LLaMA weights, which are not openly available though a leaked versions is in wide circulation.
+    endmodel:
+        class: partial
+        link: https://huggingface.co/WizardLM/WizardLM-7B-V1.0/tree/main
+        notes: Model weights offered as a delta to LLaMA
+
+trainingcode:
     class: partial
     link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM
     notes: Fast-evolving repository contains WizardLM code
-
-llmdata:
-    class: partial
-    link:
-    notes: Based on LLaMA, which is claimed to be public but nowhere exactly documented.
-
-llmweights:
-    class: closed
-    link:
-    notes: Based on LLaMA weights, which are not openly available though a leaked versions is in wide circulation.
-
-rldata:
-    class: open
-    link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM#training-data
-    notes: The Evol-Instruct dataset contains 70k instruction-following sequences generated from Evol-Instruct
-
-rlweights:
-    class: partial
-    link: https://huggingface.co/WizardLM/WizardLM-7B-V1.0/tree/main
-    notes: Model weights offered as a delta to LLaMA
-
-license:
-    class: partial
-    link: https://github.com/nlpxucan/WizardLM/blob/main/WizardLM/MODEL_DIFF_LICENSE
-    notes: Restricted for academic research purposes only. Code and Model diff release under CC-BY-NC-4.0, software code under Apache 2.0
 
 # documentation:
 code:
@@ -86,3 +90,10 @@ api:
     class: closed
     link:
     notes: No API available
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: https://github.com/nlpxucan/WizardLM/blob/main/WizardLM/MODEL_DIFF_LICENSE
+    notes: Restricted for academic research purposes only. Code and Model diff release under CC-BY-NC-4.0, software code under Apache 2.0
+

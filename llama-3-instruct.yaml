@@ -1,12 +1,22 @@
 ---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
 
-project:
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: Llama 3 Instruct
     link: https://huggingface.co/collections/meta-llama/meta-llama-3-66214712577ca38149ebb2b6
     notes:
-    llmbase: Meta Llama 3
-    rlbase: Meta, undocumented
-    license: Meta Llama 3 Community License
+    type: text 
+    basemodelname: Meta Llama 3
+    endmodelname: Meta, undocumented
+    endmodellicense: Meta Llama 3 Community License
 
 org:
     name: Facebook Research
@@ -14,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link:
+        notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a release blog post
+    endmodel:
+        class: closed
+        link:
+        notes: No information available on instruction-tuning.
+
+weights: 
+    basemodel:
+        class: partial
+        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+        notes: Download only after requesting access; requires signing a consent form
+    endmodel:
+        class: partial
+        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+        notes: Download only after requesting access; requires signing a consent form
+
+trainingcode:
     class: closed
     link: https://github.com/meta-llama/llama3
     notes: Repository only offers minimal code
-
-llmdata:
-    class: closed
-    link:
-    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a release blog post
-
-llmweights:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
-
-rldata:
-    class: closed
-    link:
-    notes: No information available on instruction-tuning.
-
-rlweights:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
-
-license:
-    class: closed
-    link: https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct/tree/main
-    notes: Even inspecting the model requires signing Meta Llama 3's bespoke 'community license', not an OSI recognised open license
 
 # documentation:
 code:
@@ -85,3 +90,9 @@ api:
     class: partial
     link:
     notes: API only available behind a privacy-defying signup form
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct/tree/main
+    notes: Even inspecting the model requires signing Meta Llama 3's bespoke 'community license', not an OSI recognised open license

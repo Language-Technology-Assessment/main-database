@@ -9,13 +9,14 @@
 
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
-project:
+system:
     name: RedPajama-INCITE-Instruct-7B
     link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct
     notes:
-    llmbase: RedPajama-INCITE-7B-Base
-    rlbase: various (GPT-JT recipe)
-    license: Apache 2.0
+    type: text 
+    basemodelname: RedPajama-INCITE-7B-Base
+    endmodelname: various (GPT-JT recipe)
+    endmodellicense: Apache 2.0
 
 org:
     name: TogetherComputer
@@ -23,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: open
+        link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T
+        notes: RedPajama-Data-1T made available on HuggingFace
+    endmodel:
+        class: open
+        link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-Instruct
+        notes: The model was trained on a large collection of diverse data, including Chain-of-Thought (CoT), Public Pool of Prompts (P3) dataset, Natural-Instructions (NI) dataset.
+
+weights: 
+    basemodel:
+        class: open
+        link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base
+        notes: Base is RedPajama-INCITE-7B-Base
+    endmodel:
+        class: open
+        link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct
+        notes: Instruction-tuned version made available in paralle with base version
+
+trainingcode:
     class: partial
     link: https://github.com/togethercomputer/redpajama.cpp/tree/master/examples/redpajama
     notes: Code for datasets made available in exemplary ways; code for training and tuning harder to find
-
-llmdata:
-    class: open
-    link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T
-    notes: RedPajama-Data-1T made available on HuggingFace
-
-llmweights:
-    class: open
-    link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base
-    notes: Base is RedPajama-INCITE-7B-Base
-
-rldata:
-    class: open
-    link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-Instruct
-    notes: The model was trained on a large collection of diverse data, including Chain-of-Thought (CoT), Public Pool of Prompts (P3) dataset, Natural-Instructions (NI) dataset.
-
-rlweights:
-    class: open
-    link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct
-    notes: Instruction-tuned version made available in paralle with base version
-
-license:
-    class: partial
-    link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct/blob/main/README.md
-    notes: Models licensed under Apache 2.0, but note that the data itself is variably licensed and so imposes some limitations.
 
 # documentation:
 code:
@@ -94,3 +90,10 @@ api:
     class: partial
     link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct
     notes: Hosted inference API available through HuggingFace
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct/blob/main/README.md
+    notes: Models licensed under Apache 2.0, but note that the data itself is variably licensed and so imposes some limitations.
+

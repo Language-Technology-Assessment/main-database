@@ -1,11 +1,22 @@
 ---
-project:
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
     name: Airoboros L2 70B GPT4
     link: https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1
-    notes: 
-    llmbase: Llama2
-    rlbase: Airoboros (synthetic)
-    license: Purposely left ambiguous
+    type: text
+    basemodelname: Llama2
+    endmodelname: Airoboros (synthetic)
+    endmodellicense: Purposely left ambiguous
+    notes:
 
 org:
     name: Jon Durbin
@@ -13,35 +24,30 @@ org:
     notes: Only active on GitHub since May 2023
 
 # availability:
-opencode:
+datasources:
+    basemodel:
+        class: closed
+        link:
+        notes: Llama2 training data is nowhere documented or disclosed
+    endmodel:
+        class: open
+        link: https://github.com/jondurbin/airoboros
+        notes: Airoboros, an implementation of the Self-Instruct paper
+
+weights:
+    basemodel:
+        class: partial
+        link:
+        notes: Llama2, made conditionally available by Meta
+    endmodel:
+        class: open
+        link: https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1/tree/main
+        notes: Made available through HuggingFace
+
+trainingcode:
     class: partial
     link: https://gist.github.com/jondurbin/87fc040b92a3073125ed516b04bc6e19
     notes: Repo exists for RL data but only a gist exists for model training and architecture
-
-llmdata:
-    class: closed
-    link:
-    notes: Llama2 training data is nowhere documented or disclosed
-
-llmweights:
-    class: partial
-    link:
-    notes: Llama2, made conditionally available by Meta
-
-rldata:
-    class: open
-    link: https://github.com/jondurbin/airoboros
-    notes: Airoboros, an implementation of the Self-Instruct paper
-
-rlweights:
-    class: open
-    link: https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1/tree/main
-    notes: Made available through HuggingFace
-
-license:
-    class: partial
-    link: https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1#licence-and-usage-restrictions
-    notes: Licensing left ambiguous because of murky status of OpenAI-derived Self-Instruct data
 
 # documentation:
 code:
@@ -84,3 +90,9 @@ api:
     class: closed
     link:
     notes: No API found
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1#licence-and-usage-restrictions
+    notes: Licensing left ambiguous because of murky status of OpenAI-derived Self-Instruct data

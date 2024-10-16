@@ -1,11 +1,22 @@
 ---
-project:
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: Pythia-Chat-Base-7B-v0.16
     link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B
     notes:
-    llmbase: EleutherAI pythia
-    rlbase: OIG
-    license: Apache 2.0 license
+    type: text 
+    basemodelname: EleutherAI pythia
+    endmodelname: OIG
+    endmodellicense: Apache 2.0 license
 
 org:
     name: togethercomputer
@@ -13,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: open
+        link: https://github.com/togethercomputer/OpenDataHub
+        notes: Training data curated and shared in separate repository
+    endmodel:
+        class: open
+        link: https://huggingface.co/datasets/laion/OIG
+        notes: From the documentation 'This is our attempt to create a large instruction dataset of medium quality along with a smaller high quality instruciton dataset (OIG-small-chip2).'
+
+weights: 
+    basemodel:
+        class: open
+        link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B/tree/main
+        notes: Model weights available via HuggingFace
+    endmodel:
+        class: closed
+        link:
+        notes: RL weights not separately made available
+
+trainingcode:
     class: open
     link:
     notes:
-
-llmdata:
-    class: open
-    link: https://github.com/togethercomputer/OpenDataHub
-    notes: Training data curated and shared in separate repository
-
-llmweights:
-    class: open
-    link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B/tree/main
-    notes: Model weights available via HuggingFace
-
-rldata:
-    class: open
-    link: https://huggingface.co/datasets/laion/OIG
-    notes: From the documentation 'This is our attempt to create a large instruction dataset of medium quality along with a smaller high quality instruciton dataset (OIG-small-chip2).'
-
-rlweights:
-    class: closed
-    link:
-    notes: RL weights not separately made available
-
-license:
-    class: open
-    link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B#model-details
-    notes: Apache 2.0
 
 # documentation
 code:
@@ -84,3 +90,10 @@ api:
     class: closed
     link:
     notes:
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B#model-details
+    notes: Apache 2.0
+

@@ -1,12 +1,22 @@
 ---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
 
-project:
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: OpenChat 3.5 7B
     link: https://github.com/imoneoi/openchat
     notes:
-    llmbase: Mistral 7B
-    rlbase: ShareGPT with C-RLFT
-    license: Apache 2.0
+    type: text 
+    basemodelname: Mistral 7B
+    endmodelname: ShareGPT with C-RLFT
+    endmodellicense: Apache 2.0
 
 org:
     name: Tshinghua University
@@ -14,35 +24,30 @@ org:
     notes: OpenChat notes 'We are a student team from Tsinghua University'
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link:
+        notes: Pretraining data for Mistral is nowhere disclosed or documented
+    endmodel:
+        class: closed
+        link:
+        notes: "Preprint says shareGPT dataset 'collected from sharegpt.com' but not disclosed or made available by this project"
+
+weights: 
+    basemodel:
+        class: open
+        link: https://github.com/mistralai/mistral-src#download-the-model
+        notes: Mistral 7B weights available via Mistral repository
+    endmodel:
+        class: open
+        link: https://huggingface.co/openchat/openchat_3.5/tree/main
+        notes: Instruction-tuned model weights made available via HuggingFace
+
+trainingcode:
     class: open
     link: https://github.com/imoneoi/openchat/tree/master/ochat
     notes: Repository offers a large amount of fairly well-organized code for data curation and model
-
-llmdata:
-    class: closed
-    link:
-    notes: Pretraining data for Mistral is nowhere disclosed or documented
-
-llmweights:
-    class: open
-    link: https://github.com/mistralai/mistral-src#download-the-model
-    notes: Mistral 7B weights available via Mistral repository
-
-rldata:
-    class: closed
-    link:
-    notes: "Preprint says shareGPT dataset 'collected from sharegpt.com' but not disclosed or made available by this project"
-
-rlweights:
-    class: open
-    link: https://huggingface.co/openchat/openchat_3.5/tree/main
-    notes: Instruction-tuned model weights made available via HuggingFace
-
-license:
-    class: open
-    link: https://github.com/imoneoi/openchat/blob/master/LICENSE
-    notes: Code and model released under Apache 2.0
 
 # documentation:
 code:
@@ -85,3 +90,10 @@ api:
     class: partial
     link:
     notes: Model too large to load onto HuggingFace free inference API, so only available through Inference Endpoints or package
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://github.com/imoneoi/openchat/blob/master/LICENSE
+    notes: Code and model released under Apache 2.0
+

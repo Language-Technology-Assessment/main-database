@@ -1,11 +1,22 @@
 ---
-project:
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: BELLE
     link: https://github.com/LianjiaTech/BELLE
+    type: text
+    basemodelname: LLaMA & BLOOMZ
+    endmodelname: alpaca, shareGPT, Belle (synthetic)
+    endmodellicense: Apache License 2.0
     notes:
-    llmbase: LLaMA & BLOOMZ
-    rlbase: alpaca, shareGPT, Belle (synthetic)
-    license: Apache License 2.0
 
 org:
     name: KE Technologies
@@ -13,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources:
+    basemodel:
+        class: partial
+        link:
+        notes: Open for variants based on BLOOMZ. Closed for variants based on LLaMA, whose pretraining data is nowhere disclosed or documented.
+    endmodel:
+        class: partial
+        link: https://github.com/LianjiaTech/BELLE/tree/main/data/1.5M
+        notes: Synthetic BELLE training data in Chinese released in batches
+
+weights:
+    basemodel:
+        class: partial
+        link:
+        notes: LLaMA based but copyright status unclear
+    endmodel:
+        class: partial
+        link: https://github.com/LianjiaTech/BELLE/tree/main/models
+        notes: Some models available, most only as delta weights requiring separate access to LLaMA
+
+trainingcode:
     class: open
     link: https://github.com/LianjiaTech/BELLE
     notes: Repository contains a fair bit of code
-
-llmdata:
-    class: partial
-    link:
-    notes: Open for variants based on BLOOMZ. Closed for variants based on LLaMA, whose pretraining data is nowhere disclosed or documented.
-
-llmweights:
-    class: partial
-    link:
-    notes: LLaMA based but copyright status unclear
-
-rldata:
-    class: partial
-    link: https://github.com/LianjiaTech/BELLE/tree/main/data/1.5M
-    notes: Synthetic BELLE training data in Chinese released in batches
-
-rlweights:
-    class: partial
-    link: https://github.com/LianjiaTech/BELLE/tree/main/models
-    notes: Some models available, most only as delta weights requiring separate access to LLaMA
-
-license:
-    class: closed
-    link:
-    notes: Lowest common denominator is non-OSI approved LLaMA licence agreement
 
 # documentation
 code:
@@ -84,3 +90,9 @@ api:
     class: closed
     link:
     notes: No API found
+    metaprompt: closed 
+    
+licenses:
+    class: closed
+    link:
+    notes: Lowest common denominator is non-OSI approved LLaMA licence agreement

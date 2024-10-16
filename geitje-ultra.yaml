@@ -9,13 +9,14 @@
 
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
-project:
+system:
     name: Geitje Ultra 7B
     link: https://huggingface.co/BramVanroy/GEITje-7B-ultra
+    type: text
+    basemodelname: Mistral 7B
+    endmodelname: Ultrafeedback Dutch (synthetic)
+    endmodellicense: CC-BY-ND
     notes: Dutch instruction-tuned model based on Mistral 7B
-    llmbase: Mistral 7B
-    rlbase: Ultrafeedback Dutch (synthetic)
-    license: CC-BY-ND
 
 org:
     name: Bram van Roy
@@ -23,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources:
+    basemodel:
+        class: partial
+        link: https://huggingface.co/Rijgersberg/GEITje-7B#geitje--trained-further-on-dutch-texts
+        notes: Mistral provides no documentation of any of its pretraining data. Geitje Ultra 7B is based on Geitje 7B, which does disclose that Dutch pretraining data includes Gigacorpus and MADLAD.
+    endmodel:
+        class: open
+        link: https://huggingface.co/datasets/BramVanroy/ultra_feedback_dutch
+        notes: Ultrafeedback Dutch (synthetic)
+
+weights:
+    basemodel:
+        class: open
+        link: https://github.com/mistralai/mistral-src#download-the-model
+        notes: Mistral base model is available for downloading
+    endmodel:
+        class: open
+        link: https://huggingface.co/BramVanroy/GEITje-7B-ultra/tree/main
+        notes: Instruction-tuned model made available through HuggingFace
+
+trainingcode:
     class: closed
     link: https://huggingface.co/BramVanroy/GEITje-7B-ultra#training-procedure
     notes: Mistral has limited source code available. No training code for Geitje found apart from the recipe used with the alignment handbook.
-
-llmdata:
-    class: partial
-    link: https://huggingface.co/Rijgersberg/GEITje-7B#geitje--trained-further-on-dutch-texts
-    notes: Mistral provides no documentation of any of its pretraining data. Geitje Ultra 7B is based on Geitje 7B, which does disclose that Dutch pretraining data includes Gigacorpus and MADLAD.
-
-llmweights:
-    class: open
-    link: https://github.com/mistralai/mistral-src#download-the-model
-    notes: Mistral base model is available for downloading
-
-rldata:
-    class: open
-    link: https://huggingface.co/datasets/BramVanroy/ultra_feedback_dutch
-    notes: Ultrafeedback Dutch (synthetic)
-
-rlweights:
-    class: open
-    link: https://huggingface.co/BramVanroy/GEITje-7B-ultra/tree/main
-    notes: Instruction-tuned model made available through HuggingFace
-
-license:
-    class: closed
-    link: https://huggingface.co/BramVanroy/GEITje-7B-ultra
-    notes: Licensed as CC-BY-ND-4.0 on HuggingFace, though no specific license file or statement found 
 
 # documentation:
 code:
@@ -94,3 +90,9 @@ api:
     class: partial
     link:
     notes: Model available through HuggingFace API
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/BramVanroy/GEITje-7B-ultra
+    notes: Licensed as CC-BY-ND-4.0 on HuggingFace, though no specific license file or statement found 

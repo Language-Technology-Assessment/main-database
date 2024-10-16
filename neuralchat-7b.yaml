@@ -9,13 +9,14 @@
 
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
-project:
+system:
     name: NeuralChat 7B
     link: https://huggingface.co/Intel/neural-chat-7b-v3-1
     notes: A mistral-based Orca-finetuned chat model
-    llmbase: Mistral 7B
-    rlbase: Orca
-    license: Apache 2.0
+    type: text 
+    basemodelname: Mistral 7B
+    endmodelname: Orca
+    endmodellicense: Apache 2.0
 
 org:
     name: Intel
@@ -23,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link:
+        notes: Mistral has not disclosed anything about its training data
+    endmodel:
+        class: open
+        link: https://huggingface.co/datasets/Open-Orca/SlimOrca
+        notes: RL dataset used for post-training is shared and available
+
+weights: 
+    basemodel:
+        class: open
+        link: https://huggingface.co/mistralai/Mistral-7B-v0.1
+        notes: Based on Mistral 7B 0.1
+    endmodel:
+        class: open
+        link: https://huggingface.co/Intel/neural-chat-7b-v3-1/tree/main
+        notes: finetuned model made openly available by Intel
+
+trainingcode:
     class: partial
     link: https://github.com/intel/intel-extension-for-transformers/tree/main/intel_extension_for_transformers/neural_chat/examples/finetuning/finetune_neuralchat_v3
     notes: Mistral base model is not open, but repo gives sample code for fine-tuning based on that
-
-llmdata:
-    class: closed
-    link:
-    notes: Mistral has not disclosed anything about its training data
-
-llmweights:
-    class: open
-    link: https://huggingface.co/mistralai/Mistral-7B-v0.1
-    notes: Based on Mistral 7B 0.1
-
-rldata:
-    class: open
-    link: https://huggingface.co/datasets/Open-Orca/SlimOrca
-    notes: RL dataset used for post-training is shared and available
-
-rlweights:
-    class: open
-    link: https://huggingface.co/Intel/neural-chat-7b-v3-1/tree/main
-    notes: finetuned model made openly available by Intel
-
-license:
-    class: open
-    link: https://huggingface.co/Intel/neural-chat-7b-v3-1/blob/main/LICENSE
-    notes: Apache 2.0
 
 # documentation:
 code:
@@ -94,3 +90,10 @@ api:
     class: closed
     link: 
     notes: Provided through HuggingFace but model too large to run via inference API, local deployment or paid access needed 
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/Intel/neural-chat-7b-v3-1/blob/main/LICENSE
+    notes: Apache 2.0
+

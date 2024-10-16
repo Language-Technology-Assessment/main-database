@@ -1,47 +1,53 @@
 ---
-project:
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: AmberChat
     link: https://huggingface.co/LLM360/AmberChat
+    type: text
+    basemodelname: Amber
+    endmodelname: ShareGPT + Evol-Instruct (synthetic)
+    endmodellicense: Apache 2.0
     notes:
-    llmbase: Amber
-    rlbase: ShareGPT + Evol-Instruct (synthetic)
-    license: Apache 2.0
-
+    
 org:
     name: LLM360
     link: https://www.llm360.ai/index.html
     notes: LLM360, an initiative to fully open-source LLMs
 
 # availability:
-opencode:
+datasources:
+    basemodel:
+        class: open
+        link: https://huggingface.co/datasets/LLM360/AmberDatasets
+        notes: data well-documented and openly available
+    endmodel:
+        class: open
+        link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
+        notes: RL and fine-tuning data shared and documented
+
+weights:
+    basemodel:
+        class: open
+        link: https://huggingface.co/LLM360/Amber
+        notes: 360 model checkpoints released
+    endmodel:
+        class: open
+        link: https://huggingface.co/LLM360/AmberChat
+        notes: Finetuned model available for download.
+
+trainingcode:
     class: open
     link: https://github.com/LLM360/amber-train/tree/main
     notes: amber-train repository includes code for training and finetuning.
-
-llmdata:
-    class: open
-    link: https://huggingface.co/datasets/LLM360/AmberDatasets
-    notes: data well-documented and openly available
-
-llmweights:
-    class: open
-    link: https://huggingface.co/LLM360/Amber
-    notes: 360 model checkpoints released
-
-rldata:
-    class: open
-    link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
-    notes: RL and fine-tuning data shared and documented
-
-rlweights:
-    class: open
-    link: https://huggingface.co/LLM360/AmberChat
-    notes: Finetuned model available for download.
-
-license:
-    class: open
-    link: https://huggingface.co/LLM360/AmberChat
-    notes: Everything licensed under Apache 2.0
 
 # documentation:
 code:
@@ -84,3 +90,9 @@ api:
     class: open
     link: https://huggingface.co/LLM360/AmberChat
     notes: Free Huggingface inference API.
+    metaprompt: closed
+    
+licenses:
+    class: open
+    link: https://huggingface.co/LLM360/AmberChat
+    notes: Everything licensed under Apache 2.0

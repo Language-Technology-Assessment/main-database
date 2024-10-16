@@ -1,11 +1,22 @@
 ---
-project:
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: minChatGPT
     link: hhttps://github.com/ethanyanjiali/minChatGPT
     notes:
-    llmbase: GPT2
-    rlbase: anthropic
-    license: GNU General Public License v3.0
+    type: text 
+    basemodelname: GPT2
+    endmodelname: anthropic
+    endmodellicense: GNU General Public License v3.0
 
 org:
     name: ethanyanjiali
@@ -13,32 +24,26 @@ org:
     notes:
 
 # availability:
-opencode:
-    class: open
-    link:
-    notes:
+datasources: 
+    basemodel:
+        class: open
+        link:
+        notes:
+    endmodel:
+            class: partial
+            link:
+            notes:
+weights: 
+    basemodel:
+        class: open
+        link:
+        notes:
+    endmodel:
+        class: closed
+        link:
+        notes:
 
-llmdata:
-    class: open
-    link:
-    notes:
-
-llmweights:
-    class: open
-    link:
-    notes:
-
-rldata:
-    class: partial
-    link:
-    notes:
-
-rlweights:
-    class: closed
-    link:
-    notes:
-
-license:
+trainingcode:
     class: open
     link:
     notes:
@@ -81,6 +86,12 @@ package:
     notes:
 
 api:
+    class: open
+    link:
+    notes:
+    metaprompt: closed
+
+licenses:
     class: open
     link:
     notes:

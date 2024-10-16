@@ -1,11 +1,22 @@
 ---
-project:
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
     name: BLOOMZ
     link: https://huggingface.co/bigscience/bloomz
+    type: text
+    basemodelname: BLOOMZ, mT0
+    endmodelname: xP3
+    endmodellicense: Apache 2.0 and RAIL (responsible AI license)
     notes:
-    llmbase: BLOOMZ, mT0
-    rlbase: xP3
-    license: Apache 2.0 and RAIL (responsible AI license)
 
 org:
     name: bigscience-workshop
@@ -13,35 +24,30 @@ org:
     notes:
 
 # availability:
-opencode:
+datasources:
+    basemodel:
+        class: open
+        link: https://github.com/bigscience-workshop/xmtf#data
+        notes: Data made available & documented in detail in repo and preprint
+    endmodel:
+        class: open
+        link: https://huggingface.co/datasets/bigscience/xP3all
+        notes: From the documentation 'xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks'
+
+weights:
+    basemodel:
+        class: open
+        link: https://github.com/bigscience-workshop/xmtf#models
+        notes: Model made available on github
+    endmodel:
+        class: partial
+        link: https://huggingface.co/bigscience/bloomz-optimizer-states/tree/main
+        notes: Fine-tuned checkpoint available for download
+
+trainingcode:
     class: open
     link: https://github.com/bigscience-workshop/xmtf
     notes: Repository provides a guided overview to all components
-
-llmdata:
-    class: open
-    link: https://github.com/bigscience-workshop/xmtf#data
-    notes: Data made available & documented in detail in repo and preprint
-
-llmweights:
-    class: open
-    link: https://github.com/bigscience-workshop/xmtf#models
-    notes: Model made available on github
-
-rldata:
-    class: open
-    link: https://huggingface.co/datasets/bigscience/xP3all
-    notes: From the documentation 'xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks'
-
-rlweights:
-    class: partial
-    link: https://huggingface.co/bigscience/bloomz-optimizer-states/tree/main
-    notes: Fine-tuned checkpoint available for download
-
-license:
-    class: partial
-    link: https://bigscience.huggingface.co/blog/the-bigscience-rail-license
-    notes: Code licensed under Apache 2.0, model under bespoke 'Responsible AI License' which imposes some limitations
 
 # documentation
 code:
@@ -84,3 +90,9 @@ api:
     class: open
     link: https://huggingface.co/spaces/bigscience/petals-api
     notes: Petals API via HuggingFace not always available ('not enough hardware capacity')
+    metaprompt: closed
+    
+licenses:
+    class: partial
+    link: https://bigscience.huggingface.co/blog/the-bigscience-rail-license
+    notes: Code licensed under Apache 2.0, model under bespoke 'Responsible AI License' which imposes some limitations

@@ -9,13 +9,14 @@
 
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
-project:
+system:
     name: Qwen 1.5
     link: https://qwenlm.github.io/blog/qwen1.5/
     notes: This is based on the 72B version, the largest of 8 available model sizes.
-    llmbase: QwenLM
-    rlbase: Unspecified
-    license: Qianwen License
+    type: text 
+    basemodelname: QwenLM
+    endmodelname: Unspecified
+    endmodellicense: Qianwen License
 
 org:
     name: Alibaba Cloud
@@ -23,35 +24,30 @@ org:
     notes: "Qwen (abbr. for Tongyi Qianwen 通义千问) refers to the large language model family built by Alibaba Cloud"
 
 # availability:
-opencode:
+datasources: 
+    basemodel:
+        class: closed
+        link:
+        notes: Pretraining data not specified or documented.
+    endmodel:
+        class: closed
+        link: https://qwen.readthedocs.io/en/latest/training/SFT/llama_factory.html
+        notes: Data not specified or documented. Some example code in repo provides directions but no details.
+
+weights: 
+    basemodel:
+        class: open
+        link: https://huggingface.co/Qwen/Qwen1.5-72B/tree/main
+        notes: Also available in smaller model sizes
+    endmodel:
+        class: open
+        link: https://huggingface.co/Qwen/Qwen1.5-72B-Chat/tree/main
+        notes: Also available in smaller model sizes
+
+trainingcode:
     class: partial
     link: https://github.com/QwenLM/Qwen1.5/
     notes: Repository provides sparse source code and some examples for SFT
-
-llmdata:
-    class: closed
-    link:
-    notes: Pretraining data not specified or documented.
-
-llmweights:
-    class: open
-    link: https://huggingface.co/Qwen/Qwen1.5-72B/tree/main
-    notes: Also available in smaller model sizes
-
-rldata:
-    class: closed
-    link: https://qwen.readthedocs.io/en/latest/training/SFT/llama_factory.html
-    notes: Data not specified or documented. Some example code in repo provides directions but no details.
-
-rlweights:
-    class: open
-    link: https://huggingface.co/Qwen/Qwen1.5-72B-Chat/tree/main
-    notes: Also available in smaller model sizes
-
-license:
-    class: closed
-    link:
-    notes: Qianwen License
 
 # documentation:
 code:
@@ -94,3 +90,10 @@ api:
     class: open
     link:
     notes: Available through various APIs
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link:
+    notes: Qianwen License
+
