@@ -38,7 +38,7 @@ weights:
     basemodel:
         class: open
         link: https://huggingface.co/01-ai/Yi-34B/tree/main
-            notes: Base model weights shared via HuggingFace
+        notes: Base model weights shared via HuggingFace
     endmodel:
         class: open
         link: https://huggingface.co/01-ai/Yi-34B-Chat/tree/main
