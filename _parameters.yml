@@ -1,18 +1,14 @@
 - name: Availability
   ref: availability
   params: 
-    - name: Training Data Sources
-      ref: datasources
-        - ref: basemodel
-          name: Base Model
-        - ref: endmodel
-          name: End User Model
-    - name: Model weights
-      ref: weights
-        - ref: basemodel
-          name: Base Model
-        - ref: endmodel
-          name: End User Model
+    - ref: basemodel
+      name: Base Model Data
+    - ref: endmodel
+      name: End User Model Data 
+    - ref: basemodel
+      name: Base Model Weights
+    - ref: endmodel
+      name: End User Model Weights
     - ref: trainingcode
     name: Training Code    
 - name: Documentation
