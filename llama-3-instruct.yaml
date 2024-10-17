@@ -12,11 +12,12 @@
 system:
     name: Llama 3 Instruct
     link: https://huggingface.co/collections/meta-llama/meta-llama-3-66214712577ca38149ebb2b6
-    notes:
     type: text 
     basemodelname: Meta Llama 3
     endmodelname: Meta, undocumented
     endmodellicense: Meta Llama 3 Community License
+    releasedate: 
+    notes:
 
 org:
     name: Facebook Research
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link:
-        notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a release blog post
-    endmodel:
-        class: closed
-        link:
-        notes: No information available on instruction-tuning.
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a release blog post
 
-weights: 
-    basemodel:
-        class: partial
-        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-        notes: Download only after requesting access; requires signing a consent form
-    endmodel:
-        class: partial
-        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-        notes: Download only after requesting access; requires signing a consent form
+datasources_endmodel:
+    class: closed
+    link:
+    notes: No information available on instruction-tuning.
+
+weights_basemodel:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+weights_endmodel:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
 
 trainingcode:
     class: closed

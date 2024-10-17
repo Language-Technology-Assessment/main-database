@@ -16,6 +16,7 @@ system:
     basemodelname: LLaMA & BLOOMZ
     endmodelname: alpaca, shareGPT, Belle (synthetic)
     endmodellicense: Apache License 2.0
+    releasedate: 
     notes:
 
 org:
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources:
-    basemodel:
-        class: partial
-        link:
-        notes: Open for variants based on BLOOMZ. Closed for variants based on LLaMA, whose pretraining data is nowhere disclosed or documented.
-    endmodel:
-        class: partial
-        link: https://github.com/LianjiaTech/BELLE/tree/main/data/1.5M
-        notes: Synthetic BELLE training data in Chinese released in batches
+datasources_basemodel:
+    class: partial
+    link:
+    notes: Open for variants based on BLOOMZ. Closed for variants based on LLaMA, whose pretraining data is nowhere disclosed or documented.
 
-weights:
-    basemodel:
-        class: partial
-        link:
-        notes: LLaMA based but copyright status unclear
-    endmodel:
-        class: partial
-        link: https://github.com/LianjiaTech/BELLE/tree/main/models
-        notes: Some models available, most only as delta weights requiring separate access to LLaMA
+datasources_endmodel:
+    class: partial
+    link: https://github.com/LianjiaTech/BELLE/tree/main/data/1.5M
+    notes: Synthetic BELLE training data in Chinese released in batches
+
+weights_basemodel:
+    class: partial
+    link:
+    notes: LLaMA based but copyright status unclear
+
+weights_endmodel:
+    class: partial
+    link: https://github.com/LianjiaTech/BELLE/tree/main/models
+    notes: Some models available, most only as delta weights requiring separate access to LLaMA
 
 trainingcode:
     class: open

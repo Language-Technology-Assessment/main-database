@@ -16,6 +16,7 @@ system:
     basemodelname: EleutherAI pythia
     endmodelname: databricks-dolly-15k
     endmodellicense:
+    releasedate: 
     notes:
 
 org:
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources:
-    basemodel:
-        class: open
-        link:
-        notes:
-    endmodel:
-        class: open
-        link:
-        notes:
+datasources_basemodel:
+    class: open
+    link:
+    notes:
+    
+datasources_endmodel:
+    class: open
+    link:
+    notes:
 
-weights:
-    basemodel:
-        class: open
-        link:
-        notes:
-    endmodel:
-        class: closed
-        link:
-        notes:
+weights_basemodel:
+    class: open
+    link:
+    notes:
+
+weights_endmodel:
+    class: closed
+    link:
+    notes:
 
 trainingcode:
     class: open

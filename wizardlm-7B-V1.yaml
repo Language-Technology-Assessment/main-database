@@ -12,11 +12,12 @@
 system:
     name: WizardLM-7B
     link: https://github.com/nlpxucan/WizardLM
-    notes: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
     type: text 
     basemodelname: LLaMA-7B
     endmodelname: Evol-Instruct (synthetic)
     endmodellicense: CC-BY-NC-4.0
+    releasedate: 
+    notes: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
 
 org:
     name: Microsoft & Peking University
@@ -24,25 +25,25 @@ org:
     notes: 
 
 # availability:
-datasources: 
-    basemodel:
-        class: partial
-        link:
-        notes: Based on LLaMA, which is claimed to be public but nowhere exactly documented.
-    endmodel:
-        class: open
-        link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM#training-data
-        notes: The Evol-Instruct dataset contains 70k instruction-following sequences generated from Evol-Instruct
+datasources_basemodel:
+    class: partial
+    link:
+    notes: Based on LLaMA, which is claimed to be public but nowhere exactly documented.
 
-weights: 
-    basemodel:
-        class: closed
-        link:
-        notes: Based on LLaMA weights, which are not openly available though a leaked versions is in wide circulation.
-    endmodel:
-        class: partial
-        link: https://huggingface.co/WizardLM/WizardLM-7B-V1.0/tree/main
-        notes: Model weights offered as a delta to LLaMA
+datasources_endmodel:
+    class: open
+    link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM#training-data
+    notes: The Evol-Instruct dataset contains 70k instruction-following sequences generated from Evol-Instruct
+
+weights_basemodel:
+    class: closed
+    link:
+    notes: Based on LLaMA weights, which are not openly available though a leaked versions is in wide circulation.
+    
+weights_endmodel:
+    class: partial
+    link: https://huggingface.co/WizardLM/WizardLM-7B-V1.0/tree/main
+    notes: Model weights offered as a delta to LLaMA
 
 trainingcode:
     class: partial

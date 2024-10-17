@@ -12,11 +12,12 @@
 system:
     name: Open Assistant
     link: https://open-assistant.io/
-    notes:
     type: text 
     basemodelname: Pythia 12B
     endmodelname: OpenAssistant Conversations
     endmodellicense: Apache 2.0
+    releasedate: 
+    notes:
 
 org:
     name: LAION-AI
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: open
-        link: https://github.com/LAION-AI/Open-Assistant/tree/main/data/datasets
-        notes: Datasets documented in detail and recipes for cleaning up and downloading provided in code notebooks.
-    endmodel:
-        class: open
-        link: https://huggingface.co/datasets/OpenAssistant/oasst1
-        notes: OpenAssistant Conversations is 'a human-generated, human-annotated assistant-style conversation corpus consisting of 161443 messages distributed across 66497 conversation trees, in 35 different languages, annotated with 461292 quality ratings' (preprint)
+datasources_basemodel:
+    class: open
+    link: https://github.com/LAION-AI/Open-Assistant/tree/main/data/datasets
+    notes: Datasets documented in detail and recipes for cleaning up and downloading provided in code notebooks.
 
-weights: 
-    basemodel:
-        class: open
-        link: https://huggingface.co/OpenAssistant
-        notes: Model weights in several variants downloadable through HuggingFace
-    endmodel:
-        class: closed
-        link:
-        notes: RLHF weights not separately released
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/OpenAssistant/oasst1
+    notes: OpenAssistant Conversations is 'a human-generated, human-annotated assistant-style conversation corpus consisting of 161443 messages distributed across 66497 conversation trees, in 35 different languages, annotated with 461292 quality ratings' (preprint)
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/OpenAssistant
+    notes: Model weights in several variants downloadable through HuggingFace
+    
+weights_endmodel:
+    class: closed
+    link:
+    notes: RLHF weights not separately released
 
 trainingcode:
     class: open

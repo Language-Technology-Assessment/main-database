@@ -16,6 +16,7 @@ system:
     basemodelname: Mistral 7B
     endmodelname: Ultrafeedback Dutch (synthetic)
     endmodellicense: CC-BY-ND
+    releasedate: 
     notes: Dutch instruction-tuned model based on Mistral 7B
 
 org:
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources:
-    basemodel:
-        class: partial
-        link: https://huggingface.co/Rijgersberg/GEITje-7B#geitje--trained-further-on-dutch-texts
-        notes: Mistral provides no documentation of any of its pretraining data. Geitje Ultra 7B is based on Geitje 7B, which does disclose that Dutch pretraining data includes Gigacorpus and MADLAD.
-    endmodel:
-        class: open
-        link: https://huggingface.co/datasets/BramVanroy/ultra_feedback_dutch
-        notes: Ultrafeedback Dutch (synthetic)
+datasources_basemodel:
+    class: partial
+    link: https://huggingface.co/Rijgersberg/GEITje-7B#geitje--trained-further-on-dutch-texts
+    notes: Mistral provides no documentation of any of its pretraining data. Geitje Ultra 7B is based on Geitje 7B, which does disclose that Dutch pretraining data includes Gigacorpus and MADLAD.
 
-weights:
-    basemodel:
-        class: open
-        link: https://github.com/mistralai/mistral-src#download-the-model
-        notes: Mistral base model is available for downloading
-    endmodel:
-        class: open
-        link: https://huggingface.co/BramVanroy/GEITje-7B-ultra/tree/main
-        notes: Instruction-tuned model made available through HuggingFace
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/BramVanroy/ultra_feedback_dutch
+    notes: Ultrafeedback Dutch (synthetic)
+
+weights_basemodel:
+    class: open
+    link: https://github.com/mistralai/mistral-src#download-the-model
+    notes: Mistral base model is available for downloading
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/BramVanroy/GEITje-7B-ultra/tree/main
+    notes: Instruction-tuned model made available through HuggingFace
 
 trainingcode:
     class: closed

@@ -12,11 +12,12 @@
 system:
     name: MPT-30B Instruct
     link: https://huggingface.co/mosaicml/mpt-30b-instruct
-    notes:
     type: text 
     basemodelname: MosaicML
     endmodelname: dolly, anthropic
     endmodellicense: CC-By-SA-3.0
+    releasedate: 
+    notes:
 
 org:
     name: MosaicML
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: partial
-        link: https://huggingface.co/datasets/c4
-        notes: C4 is part of the dataset but a precise specification of source data is hard to find
-    endmodel:
-        class: partial
-        link: https://huggingface.co/datasets/mosaicml/dolly_hhrlhf
-        notes: dolly-hhrlhf, combination of Databrick dolly-15k dataset and a filtered subset of Anthropic HH-RLHF
+datasources_basemodel:
+    class: partial
+    link: https://huggingface.co/datasets/c4
+    notes: C4 is part of the dataset but a precise specification of source data is hard to find
 
-weights: 
-    basemodel:
-        class: open
-        link: https://huggingface.co/mosaicml/mpt-30b-instruct/tree/main
-        notes: Weights available via HuggingFace
-    endmodel:
-        class: closed
-        link:
-        notes:
+datasources_endmodel:
+    class: partial
+    link: https://huggingface.co/datasets/mosaicml/dolly_hhrlhf
+    notes: dolly-hhrlhf, combination of Databrick dolly-15k dataset and a filtered subset of Anthropic HH-RLHF
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/mosaicml/mpt-30b-instruct/tree/main
+    notes: Weights available via HuggingFace
+    
+weights_endmodel:
+    class: closed
+    link:
+    notes:
 
 trainingcode:
     class: open

@@ -12,11 +12,12 @@
 system:
     name: Mixtral 8x7B Instruct
     link: https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1
-    notes: 
     type: text 
     basemodelname: Mistral
     endmodelname: Unspecified
     endmodellicense: Apache 2.0
+    releasedate: 
+    notes:
 
 org:
     name: Mistral AI
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link: 
-        notes: No information provided on pretraining data
-    endmodel:
-        class: closed
-        link: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1/tree/main
-        notes: No information provided online or in the preprint
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: No information provided on pretraining data
 
-weights: 
-    basemodel:
-        class: open
-        link: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1/tree/main
-        notes: Weights shared via torrent and via HuggingFace
-    endmodel:
-        class: partial
-        link: https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1/tree/main
-        notes: Instruct version of model weights made available but no information on fine-tuning procedure provided
+datasources_endmodel:
+    class: closed
+    link: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1/tree/main
+    notes: No information provided online or in the preprint
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1/tree/main
+    notes: Weights shared via torrent and via HuggingFace
+    
+weights_endmodel:
+    class: partial
+    link: https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1/tree/main
+    notes: Instruct version of model weights made available but no information on fine-tuning procedure provided
 
 trainingcode:
     class: closed

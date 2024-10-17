@@ -16,33 +16,34 @@ system:
     basemodelname: LLaMA2
     endmodelname: Meta, StackExchange, Anthropic
     endmodellicense: Unclear
+    releasedate: 
     notes:
-    
+
 org:
     name: Facebook Research
     link: https://github.com/facebookresearch
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link:
-        notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
-    endmodel:
-        class: closed
-        link:
-        notes: RLHF data including 1 million Meta-specific tuning prompts not made available (even as it incorporates some open RLHF datasets)
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
 
-weights: 
-    basemodel:
-        class: partial
-        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-        notes: Download only after requesting access; requires signing a consent form
-    endmodel:
-        class: partial
-        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-        notes: Download only after requesting access; requires signing a consent form
+datasources_endmodel:
+    class: closed
+    link:
+    notes: RLHF data including 1 million Meta-specific tuning prompts not made available (even as it incorporates some open RLHF datasets)
+
+weights_basemodel:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+weights_endmodel:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
 
 trainingcode:
     class: closed

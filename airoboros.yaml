@@ -16,6 +16,7 @@ system:
     basemodelname: Llama2
     endmodelname: Airoboros (synthetic)
     endmodellicense: Purposely left ambiguous
+    releasedate: 
     notes:
 
 org:
@@ -24,25 +25,25 @@ org:
     notes: Only active on GitHub since May 2023
 
 # availability:
-datasources:
-    basemodel:
-        class: closed
-        link:
-        notes: Llama2 training data is nowhere documented or disclosed
-    endmodel:
-        class: open
-        link: https://github.com/jondurbin/airoboros
-        notes: Airoboros, an implementation of the Self-Instruct paper
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Llama2 training data is nowhere documented or disclosed
 
-weights:
-    basemodel:
-        class: partial
-        link:
-        notes: Llama2, made conditionally available by Meta
-    endmodel:
-        class: open
-        link: https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1/tree/main
-        notes: Made available through HuggingFace
+datasources_endmodel:
+    class: open
+    link: https://github.com/jondurbin/airoboros
+    notes: Airoboros, an implementation of the Self-Instruct paper
+
+weights_basemodel:
+    class: partial
+    link:
+    notes: Llama2, made conditionally available by Meta
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1/tree/main
+    notes: Made available through HuggingFace
 
 trainingcode:
     class: partial

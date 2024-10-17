@@ -16,6 +16,7 @@ system:
     basemodelname: OLMo 7B
     endmodelname: OpenInstruct
     endmodellicense: Apache 2.0
+    releasedate: 
     notes:
 
 org:
@@ -24,25 +25,25 @@ org:
     notes: Allen Institute for AI (non-profit research institute)
 
 # availability:
-datasources:
-    basemodel:
-        class: open
-        link: https://huggingface.co/datasets/allenai/dolma
-        notes: Dolma training data released and documented in exemplary way
-    endmodel:
-        class: open
-        link: https://huggingface.co/datasets/allenai/ultrafeedback_binarized_cleaned
-        notes: Instruction tuning datasets documented and made available in exemplary ways
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/datasets/allenai/dolma
+    notes: Dolma training data released and documented in exemplary way
 
-weights:
-    basemodel:
-        class: open
-        link: https://huggingface.co/collections/allenai/olmo-suite-65aeaae8fe5b6b2122b46778
-        notes: OLMo 7B and many training checkpoints available
-    endmodel:
-        class: open
-        link: https://huggingface.co/allenai/OLMo-7B-Instruct/tree/main
-        notes: Full model weights made available
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/allenai/ultrafeedback_binarized_cleaned
+    notes: Instruction tuning datasets documented and made available in exemplary ways
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/collections/allenai/olmo-suite-65aeaae8fe5b6b2122b46778
+    notes: OLMo 7B and many training checkpoints available
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/allenai/OLMo-7B-Instruct/tree/main
+    notes: Full model weights made available
 
 trainingcode:
     class: open

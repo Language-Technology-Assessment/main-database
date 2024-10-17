@@ -12,11 +12,13 @@
 system:
     name: Vicuna 13B v 1.3
     link: https://huggingface.co/lmsys/vicuna-13b-v1.3
-    notes: 'Vicuna is a chat assistant trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT.'
     type: text 
     basemodelname: LLaMA
     endmodelname: ShareGPT
     endmodellicense: Non-commercial license
+    releasedate: 
+    notes: 'Vicuna is a chat assistant trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT.'
+ 
 
 org:
     name: LMSYS
@@ -24,25 +26,25 @@ org:
     notes: According to its website, 'The Large Model Systems Organisation develops large models and systems that are open, accessible and scalable'
 
 # availability:
-datasources: 
-    basemodel:
-        class: partial
-        link: https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md#training-dataset
-        notes: Vicuna is fine-tuned LLaMA, and LLaMA in turn is based on 'publicly available datasets' that are not all specified or easily downloadable.
-    endmodel:
-        class: closed
-        link: https://github.com/lm-sys/FastChat#fine-tuning
-        notes: From the documentation 'We will not release the ShareGPT dataset'. Also 'Vicuna v1.3 is fine-tuned from LLaMA with supervised instruction fine-tuning. The training data is around 140K conversations collected from ShareGPT.com.'
+datasources_basemodel:
+    class: partial
+    link: https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md#training-dataset
+    notes: Vicuna is fine-tuned LLaMA, and LLaMA in turn is based on 'publicly available datasets' that are not all specified or easily downloadable.
 
-weights: 
-    basemodel:
-        class: open
-        link: https://github.com/lm-sys/FastChat#vicuna-weights
-        notes: Unlike Vicuna 13B v0, these weights do not require applying delta
-    endmodel:
-        class: closed
-        link: https://github.com/lm-sys/FastChat#fine-tuning
-        notes: No model weights are shared for the instruction tuning
+datasources_endmodel:
+    class: closed
+    link: https://github.com/lm-sys/FastChat#fine-tuning
+    notes: From the documentation 'We will not release the ShareGPT dataset'. Also 'Vicuna v1.3 is fine-tuned from LLaMA with supervised instruction fine-tuning. The training data is around 140K conversations collected from ShareGPT.com.'
+
+weights_basemodel:
+    class: open
+    link: https://github.com/lm-sys/FastChat#vicuna-weights
+    notes: Unlike Vicuna 13B v0, these weights do not require applying delta
+
+weights_endmodel:
+    class: closed
+    link: https://github.com/lm-sys/FastChat#fine-tuning
+    notes: No model weights are shared for the instruction tuning
 
 trainingcode:
     class: open

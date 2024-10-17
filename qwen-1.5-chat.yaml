@@ -12,11 +12,12 @@
 system:
     name: Qwen 1.5
     link: https://qwenlm.github.io/blog/qwen1.5/
-    notes: This is based on the 72B version, the largest of 8 available model sizes.
     type: text 
     basemodelname: QwenLM
     endmodelname: Unspecified
     endmodellicense: Qianwen License
+    releasedate: 
+    notes: This is based on the 72B version, the largest of 8 available model sizes.
 
 org:
     name: Alibaba Cloud
@@ -24,25 +25,25 @@ org:
     notes: "Qwen (abbr. for Tongyi Qianwen 通义千问) refers to the large language model family built by Alibaba Cloud"
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link:
-        notes: Pretraining data not specified or documented.
-    endmodel:
-        class: closed
-        link: https://qwen.readthedocs.io/en/latest/training/SFT/llama_factory.html
-        notes: Data not specified or documented. Some example code in repo provides directions but no details.
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Pretraining data not specified or documented.
 
-weights: 
-    basemodel:
-        class: open
-        link: https://huggingface.co/Qwen/Qwen1.5-72B/tree/main
-        notes: Also available in smaller model sizes
-    endmodel:
-        class: open
-        link: https://huggingface.co/Qwen/Qwen1.5-72B-Chat/tree/main
-        notes: Also available in smaller model sizes
+datasources_endmodel:
+    class: closed
+    link: https://qwen.readthedocs.io/en/latest/training/SFT/llama_factory.html
+    notes: Data not specified or documented. Some example code in repo provides directions but no details.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/Qwen/Qwen1.5-72B/tree/main
+    notes: Also available in smaller model sizes
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/Qwen/Qwen1.5-72B-Chat/tree/main
+    notes: Also available in smaller model sizes
 
 trainingcode:
     class: partial

@@ -16,6 +16,7 @@ system:
     basemodelname: 
     endmodelname: Aya Collection
     endmodellicense: CC-BY-NC and C4AI acceptable use policy
+    releasedate: 
     notes:
 
 org:
@@ -29,25 +30,25 @@ trainingcode:
     link:
     notes: No codebase available to study or adjust model architecture, training, or inner workings.
 
-datasources:
-    basemodel:
-        class: closed
-        link: https://docs.cohere.com/docs/data-statement
-        notes: No documentation, listing or audit of pre-training data available. Cohere itself identifies it as coheretext-filtered and gives the size as 200Gb.
-    endmodel:
-        class: open
-        link: https://huggingface.co/collections/CohereForAI/aya-datasets-660415741bd4852f01c81c77
-        notes: Aya Collection (Aya Open Science initiative) is a multilingual collection of 513 million instances of promts and completions including instruction-style templates.
+datasources_basemodel:
+    class: closed
+    link: https://docs.cohere.com/docs/data-statement
+    notes: No documentation, listing or audit of pre-training data available. Cohere itself identifies it as coheretext-filtered and gives the size as 200Gb.
 
-weights:
-    basemodel:
-        class: closed
-        link: 
-        notes: No checkpoint or model prior to SFT and instruction-tuning made available
-    endmodel:
-        class: open
-        link: https://huggingface.co/CohereForAI/c4ai-command-r-v01/tree/main
-        notes: Fine-tuned model weights made available for download
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/collections/CohereForAI/aya-datasets-660415741bd4852f01c81c77
+    notes: Aya Collection (Aya Open Science initiative) is a multilingual collection of 513 million instances of promts and completions including instruction-style templates.
+
+weights_basemodel:
+    class: closed
+    link: 
+    notes: No checkpoint or model prior to SFT and instruction-tuning made available
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/CohereForAI/c4ai-command-r-v01/tree/main
+    notes: Fine-tuned model weights made available for download
 
 # documentation:
 code:

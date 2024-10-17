@@ -16,6 +16,7 @@ system:
     basemodelname: BLOOMZ, mT0
     endmodelname: xP3
     endmodellicense: Apache 2.0 and RAIL (responsible AI license)
+    releasedate: 
     notes:
 
 org:
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources:
-    basemodel:
-        class: open
-        link: https://github.com/bigscience-workshop/xmtf#data
-        notes: Data made available & documented in detail in repo and preprint
-    endmodel:
-        class: open
-        link: https://huggingface.co/datasets/bigscience/xP3all
-        notes: From the documentation 'xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks'
+datasources_basemodel:
+    class: open
+    link: https://github.com/bigscience-workshop/xmtf#data
+    notes: Data made available & documented in detail in repo and preprint
+    
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/bigscience/xP3all
+    notes: From the documentation 'xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks'
 
-weights:
-    basemodel:
-        class: open
-        link: https://github.com/bigscience-workshop/xmtf#models
-        notes: Model made available on github
-    endmodel:
-        class: partial
-        link: https://huggingface.co/bigscience/bloomz-optimizer-states/tree/main
-        notes: Fine-tuned checkpoint available for download
+weights_basemodel:
+    class: open
+    link: https://github.com/bigscience-workshop/xmtf#models
+    notes: Model made available on github
+
+weights_endmodel:
+    class: partial
+    link: https://huggingface.co/bigscience/bloomz-optimizer-states/tree/main
+    notes: Fine-tuned checkpoint available for download
 
 trainingcode:
     class: open

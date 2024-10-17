@@ -12,11 +12,12 @@
 system:
     name: WizardLM 13B v1.2
     link: https://huggingface.co/WizardLM/WizardLM-13B-V1.2
-    notes: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
     type: text 
     basemodelname: LLaMA2-13B
     endmodelname: Evol-Instruct (synthetic)
     endmodellicense: CC-BY-NC-4.0
+    releasedate: 
+    notes: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
 
 org:
     name: Microsoft & Peking University
@@ -24,25 +25,25 @@ org:
     notes: 
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link:  https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main/projects/llama-2-chat.yaml
-        notes: Based on LLaMA2, which is claimed to be public but nowhere exactly documented.
-    endmodel:
-        class: open
-        link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
-        notes: The Evol-Instruct V2 dataset contains 196k instruction-following sequences generated from Evol-Instruct
+datasources_basemodel:
+    class: closed
+    link:  https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main/projects/llama-2-chat.yaml
+    notes: Based on LLaMA2, which is claimed to be public but nowhere exactly documented.
+    
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
+    notes: The Evol-Instruct V2 dataset contains 196k instruction-following sequences generated from Evol-Instruct
 
-weights: 
-    basemodel:
-        class: partial
-        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-        notes: Based on LLaMA2 weights, which are made conditionally available by Meta.
-    endmodel:
-        class: open
-        link: https://huggingface.co/WizardLM/WizardLM-13B-V1.2
-        notes: Model weights offered in HuggingFace repository
+weights_basemodel:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Based on LLaMA2 weights, which are made conditionally available by Meta.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/WizardLM/WizardLM-13B-V1.2
+    notes: Model weights offered in HuggingFace repository
 
 trainingcode:
     class: partial

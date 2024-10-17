@@ -16,6 +16,7 @@ system:
     basemodelname: Gemma
     endmodelname: Unspecified
     endmodellicense:
+    releasedate:     
     notes: Model weights and developer tools
 
 org:
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources:
-    basemodel:
-        class: closed
-        link:
-        notes: No details provided on pre-training data.
-    endmodel:
-        class: closed
-        link:
-        notes: "Documentation says 'These versions of the model are trained with human language interactions and can respond to conversational input, similar to a chat bot.' "
+datasources_basemodel:
+    class: closed
+    link:
+    notes: No details provided on pre-training data.
 
-weights:
-    basemodel:
-        class: partial
-        link: https://www.kaggle.com/models/keras/gemma/frameworks/keras/variations/gemma_7b_en
-        notes: Base model weights shared via Kaggle, requires privacy-defying access request.
-    endmodel:
-        class: partial
-        link:
-        notes: Instruction-tuned model weights shared via Kaggle, requires privacy-defying access request
+datasources_endmodel:
+    class: closed
+    link:
+    notes: "Documentation says 'These versions of the model are trained with human language interactions and can respond to conversational input, similar to a chat bot.' "
+
+weights_basemodel:
+    class: partial
+    link: https://www.kaggle.com/models/keras/gemma/frameworks/keras/variations/gemma_7b_en
+    notes: Base model weights shared via Kaggle, requires privacy-defying access request.
+
+weights_endmodel:
+    class: partial
+    link:
+    notes: Instruction-tuned model weights shared via Kaggle, requires privacy-defying access request
 
 trainingcode:
     class: partial

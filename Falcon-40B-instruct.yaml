@@ -16,6 +16,7 @@ system:
     basemodelname: Falcon 40B
     endmodelname: Baize (synthetic)
     endmodellicense:  Apache 2.0 license
+    releasedate: 
     notes:
 
 org:
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources:
-    basemodel:
-        class: partial
-        link: https://huggingface.co/datasets/tiiuae/falcon-refinedweb
-        notes: From the documentation 'The key ingredient for the high quality of the Falcon models is their training data, predominantly based (>80%) on RefinedWeb — a novel massive web dataset based on CommonCrawl' (https://huggingface.co/blog/falcon). However, only a small sample is made available.
-    endmodel:
-        class: partial
-        link: https://github.com/project-baize/baize-chatbot
-        notes: RL data inherited from Baize but provenance not well-documented. From the documentation 'Falcon-40B-Instruct was finetuned on a 150M tokens from Baize mixed with 5% of RefinedWeb data.'
+datasources_basemodel:
+    class: partial
+    link: https://huggingface.co/datasets/tiiuae/falcon-refinedweb
+    notes: From the documentation 'The key ingredient for the high quality of the Falcon models is their training data, predominantly based (>80%) on RefinedWeb — a novel massive web dataset based on CommonCrawl' (https://huggingface.co/blog/falcon). However, only a small sample is made available.
 
-weights:
-    basemodel:
-        class: open
-        link: https://huggingface.co/tiiuae/falcon-40b-instruct/tree/main
-        notes: Model weights available through HuggingFace library
-    endmodel:
-        class: closed
-        link: https://github.com/project-baize/baize-chatbot#v1
-        notes: No RL weights or checkpoints made available
+datasources_endmodel:
+    class: partial
+    link: https://github.com/project-baize/baize-chatbot
+    notes: RL data inherited from Baize but provenance not well-documented. From the documentation 'Falcon-40B-Instruct was finetuned on a 150M tokens from Baize mixed with 5% of RefinedWeb data.'
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/tiiuae/falcon-40b-instruct/tree/main
+    notes: Model weights available through HuggingFace library
+
+weights_endmodel:
+    class: closed
+    link: https://github.com/project-baize/baize-chatbot#v1
+    notes: No RL weights or checkpoints made available
 
 trainingcode:
     class: closed

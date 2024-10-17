@@ -16,6 +16,7 @@ system:
     basemodelname: LLaMA
     endmodelname: Self-Instruct (synthetic)
     endmodellicense: LLaMA license agreement
+    releasedate: 
     notes:
 
 org:
@@ -24,25 +25,25 @@ org:
     notes: 
 
 # availability:
-datasources:
-    basemodel:
-        class: closed
-        link: 
-        notes: Based on LLaMA, whose pretraining data is nowhere disclosed or documented.
-    endmodel:
-        class: partial
-        link: https://github.com/tatsu-lab/stanford_alpaca#data-release
-        notes: alpaca_data.json contains 52K instruction-following data we used for fine-tuning the Alpaca model. 
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: Based on LLaMA, whose pretraining data is nowhere disclosed or documented.
 
-weights:
-    basemodel:
-        class: partial
-        link: 
-        notes: LLaMA based, copyright status unclear
-    endmodel:
-        class: partial
-        link: https://github.com/tatsu-lab/stanford_alpaca#data-release
-        notes: LLaMA based
+datasources_endmodel:
+    class: partial
+    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
+    notes: alpaca_data.json contains 52K instruction-following data we used for fine-tuning the Alpaca model. 
+
+weights_basemodel:
+    class: partial
+    link: 
+    notes: LLaMA based, copyright status unclear
+
+weights_endmodel:
+    class: partial
+    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
+    notes: LLaMA based
 
 trainingcode:
     class: open

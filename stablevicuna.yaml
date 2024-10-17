@@ -12,11 +12,12 @@
 system:
     name: StableVicuna-13B
     link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
-    notes: StableVicuna-13B is a Vicuna-13B v0 model fine-tuned using reinforcement learning from human feedback (RLHF) via Proximal Policy Optimization (PPO) on various conversational and instructional datasets
     type: text 
     basemodelname: LLaMA
     endmodelname: OASST1 (human), GPT4All (human), Alpaca (synthetic)
     endmodellicense:
+    releasedate: 
+    notes: StableVicuna-13B is a Vicuna-13B v0 model fine-tuned using reinforcement learning from human feedback (RLHF) via Proximal Policy Optimization (PPO) on various conversational and instructional datasets
 
 org:
     name: CarperAI
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
-        notes: Based on LLaMA whose pretraining data has nowhere been disclosed or documented.
-    endmodel:
-        class: partial
-        link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
-        notes: From the documentation 'The reward model used during RLHF was also trained on OpenAssistant Conversations Dataset (OASST1) along with two other datasets Anthropic HH-RLHF, a dataset of preferences about AI assistant helpfulness and harmlessness; and Stanford Human Preferences Dataset a dataset of 385K collective human preferences over responses to questions/instructions in 18 different subject areas, from cooking to legal advice.'
+datasources_basemodel:
+    class: closed
+    link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
+    notes: Based on LLaMA whose pretraining data has nowhere been disclosed or documented.
 
-weights: 
-    basemodel:
-        class: partial
-        link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta#apply-delta-weights
-        notes: Model not functional out of the box as weights require a delta computation. From the docs 'StableVicuna-13B cannot be used from the CarperAI/stable-vicuna-13b-delta weights alone. To obtain the correct model, one must add back the difference between LLaMA 13B and CarperAI/stable-vicuna-13b-delta weights.'
-    endmodel:
-        class: partial
-        link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta/discussions/7
-        notes: The HuggingFace community page has an open question for release of the RL model
+datasources_endmodel:
+    class: partial
+    link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
+    notes: From the documentation 'The reward model used during RLHF was also trained on OpenAssistant Conversations Dataset (OASST1) along with two other datasets Anthropic HH-RLHF, a dataset of preferences about AI assistant helpfulness and harmlessness; and Stanford Human Preferences Dataset a dataset of 385K collective human preferences over responses to questions/instructions in 18 different subject areas, from cooking to legal advice.'
+
+weights_basemodel:
+    class: partial
+    link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta#apply-delta-weights
+    notes: Model not functional out of the box as weights require a delta computation. From the docs 'StableVicuna-13B cannot be used from the CarperAI/stable-vicuna-13b-delta weights alone. To obtain the correct model, one must add back the difference between LLaMA 13B and CarperAI/stable-vicuna-13b-delta weights.'
+
+weights_endmodel:
+    class: partial
+    link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta/discussions/7
+    notes: The HuggingFace community page has an open question for release of the RL model
 
 trainingcode:
     class: partial

@@ -16,6 +16,7 @@ system:
     basemodelname:
     endmodelname:
     endmodellicense:
+    releasedate: 
     notes:
 
 org:
@@ -29,25 +30,25 @@ trainingcode:
     link:
     notes:
 
-datasources:
-    basemodel:
-        class: closed
-        link:
-        notes:
-    endmodel:
-        class: closed
-        link:
-        notes:
-        
-weights:
-    basemodel:
-        class: closed
-        link:
-        notes:
-    endmodel:
-        class: closed
-        link:
-        notes:
+datasources_basemodel:
+    class: closed
+    link:
+    notes:
+    
+datasources_endmodel:
+    class: closed
+    link:
+    notes:
+    
+weights_basemodel:
+    class: closed
+    link:
+    notes:
+
+datasources_endmodel:
+    class: closed
+    link:
+    notes:
 
 # documentation:
 code:

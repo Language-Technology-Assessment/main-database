@@ -16,6 +16,7 @@ system:
     basemodelname: RWKV-LM
     endmodelname: alpaca, shareGPT (synthetic)
     endmodellicense:
+    releasedate: 
     notes:
 
 org:
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources:
-    basemodel:
-        class: partial
-        link: https://pile.eleuther.ai/
-        notes: Trained on The Pile. Recent versions also build on Red Pajama (https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T)
-    endmodel:
-        class: closed
-        link:
-        notes: Instruction tuning data not separately available. Documentation 'These are RWKV-4-Pile 1.5/3/7/14B models finetuned on Alpaca, CodeAlpaca, Guanaco, GPT4All, ShareGPT and more'
+datasources_basemodel:
+    class: partial
+    link: https://pile.eleuther.ai/
+    notes: Trained on The Pile. Recent versions also build on Red Pajama (https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T)
 
-weights:
-    basemodel:
-        class: open
-        link: https://huggingface.co/BlinkDL/rwkv-4-world/tree/main
-        notes: Model weights released across different HuggingFace spaces
-    endmodel:
-        class: closed
-        link:
-        notes: Weights not separately available.
+datasources_endmodel:
+    class: closed
+    link:
+    notes: Instruction tuning data not separately available. Documentation 'These are RWKV-4-Pile 1.5/3/7/14B models finetuned on Alpaca, CodeAlpaca, Guanaco, GPT4All, ShareGPT and more'
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/BlinkDL/rwkv-4-world/tree/main
+    notes: Model weights released across different HuggingFace spaces
+
+weights_endmodel:
+    class: closed
+    link:
+    notes: Weights not separately available.
 
 trainingcode:
     class: open

@@ -12,11 +12,12 @@
 system:
     name: Llama 3.1
     link: https://huggingface.co/meta-llama/Meta-Llama-3.1-405B
-    notes:
     type: text 
     basemodelname: Meta Llama 3
     endmodelname: Meta, undocumented
     endmodellicense: Meta Llama 3 Community License
+    releasedate: 
+    notes:
 
 org:
     name: Facebook Research
@@ -24,25 +25,26 @@ org:
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link:
-        notes: Data nowhere disclosed or documented, and described in the llama 3.1 paper as "obtained from the web" 
-    endmodel:
-        class: closed
-        link:
-        notes: No information available on instruction-tuning.
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Data nowhere disclosed or documented, and described in the llama 3.1 paper as "obtained from the web" 
+    
+datasources_endmodel:
+    class: closed
+    link:
+    notes: No information available on instruction-tuning.
 
-weights: 
-    basemodel:
-        class: partial
-        link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
-        notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
-    endmodel:
-        class: closed
-        link: 
-        notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
+weights_basemodel:
+    class: partial
+    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
+    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
+
+weights_endmodel:
+    class: closed
+    link: 
+    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
+
 trainingcode:
     class: partial
     link: https://github.com/meta-llama/llama3

@@ -12,11 +12,12 @@
 system:
     name: 
     link: https://github.com/oobabooga/text-generation-webui
-    notes: not an LLM RLHF model
     type: text 
     basemodelname: various
     endmodelname: various
     endmodellicense: GNU Affero General Public License v3.0
+    releasedate: 
+    notes: not an LLM RLHF model
 
 org:
     name: Oobabooga
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: open
-        link: https://huggingface.co/models?sort=downloads&search=eleutherai%2Fpythia+deduped
-        notes:
-    endmodel:
-        class: closed
-        link:
-        notes:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/models?sort=downloads&search=eleutherai%2Fpythia+deduped
+    notes:
 
-weights: 
-    basemodel:
-        class: open
-        link:
-        notes:
-    endmodel:
-        class: closed
-        link:
-        notes:
+datasources_endmodel:
+    class: closed
+    link:
+    notes:
+
+weights_basemodel:
+    class: open
+    link:
+    notes:
+
+weights_endmodel:
+    class: closed
+    link:
+    notes:
 
 trainingcode:
     class: open

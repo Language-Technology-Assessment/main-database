@@ -12,11 +12,12 @@
 system:
     name: RedPajama-INCITE-Instruct-7B
     link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct
-    notes:
     type: text 
     basemodelname: RedPajama-INCITE-7B-Base
     endmodelname: various (GPT-JT recipe)
     endmodellicense: Apache 2.0
+    releasedate: 
+    notes:
 
 org:
     name: TogetherComputer
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: open
-        link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T
-        notes: RedPajama-Data-1T made available on HuggingFace
-    endmodel:
-        class: open
-        link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-Instruct
-        notes: The model was trained on a large collection of diverse data, including Chain-of-Thought (CoT), Public Pool of Prompts (P3) dataset, Natural-Instructions (NI) dataset.
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T
+    notes: RedPajama-Data-1T made available on HuggingFace
 
-weights: 
-    basemodel:
-        class: open
-        link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base
-        notes: Base is RedPajama-INCITE-7B-Base
-    endmodel:
-        class: open
-        link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct
-        notes: Instruction-tuned version made available in paralle with base version
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-Instruct
+    notes: The model was trained on a large collection of diverse data, including Chain-of-Thought (CoT), Public Pool of Prompts (P3) dataset, Natural-Instructions (NI) dataset.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base
+    notes: Base is RedPajama-INCITE-7B-Base
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct
+    notes: Instruction-tuned version made available in paralle with base version
 
 trainingcode:
     class: partial

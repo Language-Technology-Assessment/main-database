@@ -12,11 +12,12 @@
 system:
     name: Tulu V2 DPO 70B 
     link: https://huggingface.co/allenai/tulu-2-dpo-70b
-    notes: A new DPO model from AllenAI called Tülu
     type: text 
     basemodelname: Llama2
     endmodelname: Tulu SFT, Ultrafeedback
     endmodellicense: AI2 ImpACT license
+    releasedate: 
+    notes: A new DPO model from AllenAI called Tülu
 
 org:
     name: AllenAI
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link:
-        notes: Based on Llama2 so nothing known about training data
-    endmodel:
-        class: open
-        link: https://github.com/allenai/open-instruct
-        notes: Codebase used for fine-tuning this model and made available for others
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Based on Llama2 so nothing known about training data
 
-weights: 
-    basemodel:
-        class: partial
-        link: https://github.com/meta-llama/
-        notes: Base model made available via Meta (requires privacy-defying signup)
-    endmodel:
-        class: open
-        link: https://huggingface.co/allenai/tulu-2-dpo-70b/tree/main
-        notes: Fine-tuned weights available
+datasources_endmodel:
+    class: open
+    link: https://github.com/allenai/open-instruct
+    notes: Codebase used for fine-tuning this model and made available for others
+
+weights_basemodel:
+    class: partial
+    link: https://github.com/meta-llama/
+    notes: Base model made available via Meta (requires privacy-defying signup)
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/allenai/tulu-2-dpo-70b/tree/main
+    notes: Fine-tuned weights available
 
 trainingcode:
     class: open

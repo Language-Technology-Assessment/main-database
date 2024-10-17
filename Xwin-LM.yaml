@@ -12,11 +12,12 @@
 system:
     name: Xwin-LM
     link: https://huggingface.co/Xwin-LM/Xwin-LM-7B-V0.1
-    notes: "Xwin-LM aims to develop and open-source alignment technologies for large language models"
     type: text 
     basemodelname: LLaMA2
     endmodelname: unknown
     endmodellicense: Llama 2 license
+    releasedate: 
+    notes: "Xwin-LM aims to develop and open-source alignment technologies for large language models"
 
 org:
     name: Xwin-LM
@@ -24,25 +25,25 @@ org:
     notes: "Xwin-LM aims to develop and open-source alignment technologies for large language models"
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link:
-        notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
-    endmodel:
-        class: closed
-        link:
-        notes: RLHF data for Llama includes 1 million Meta-specific tuning prompts not made available, no other details known about RLHF and alignment tuning added by Xwin-LM
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
 
-weights: 
-    basemodel:
-        class: partial
-        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-        notes: Download only after requesting access; requires signing a consent form
-    endmodel:
-        class: closed
-        link: https://huggingface.co/Xwin-LM/Xwin-LM-70B-V0.1/tree/main
-        notes: Downloadable model presumably includes RLHF tuning but no documentation available
+datasources_endmodel:
+    class: closed
+    link:
+    notes: RLHF data for Llama includes 1 million Meta-specific tuning prompts not made available, no other details known about RLHF and alignment tuning added by Xwin-LM
+
+weights_basemodel:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+weights_endmodel:
+    class: closed
+    link: https://huggingface.co/Xwin-LM/Xwin-LM-70B-V0.1/tree/main
+    notes: Downloadable model presumably includes RLHF tuning but no documentation available
 
 trainingcode:
     class: closed

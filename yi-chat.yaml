@@ -12,11 +12,12 @@
 system:
     name: Yi 34B Chat
     link: https://huggingface.co/01-ai/Yi-34B-Chat
-    notes: The Yi series models are the next generation of open-source large language models trained from scratch by 01.AI. Targeted as a bilingual language model and trained on 3T multilingual corpus.
     type: text 
     basemodelname: Yi 34B
     endmodelname: unspecified
     endmodellicense: Apache 2.0 and bespoke Yi Series Community License Agreement 2.1
+    releasedate: 
+    notes: The Yi series models are the next generation of open-source large language models trained from scratch by 01.AI. Targeted as a bilingual language model and trained on 3T multilingual corpus.
 
 org:
     name: 01.AI
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link:
-        notes: Training data for base model undocumented, though preprint mentions CommonCrawl as one source
-    endmodel:
-        class: closed
-        link: https://huggingface.co/datasets/BAAI/COIG
-        notes: Model docs mention COIG but only as an example. Code also shows rm-static is also used in instruction tuning, but not shared.
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Training data for base model undocumented, though preprint mentions CommonCrawl as one source
 
-weights: 
-    basemodel:
-        class: open
-        link: https://huggingface.co/01-ai/Yi-34B/tree/main
-        notes: Base model weights shared via HuggingFace
-    endmodel:
-        class: open
-        link: https://huggingface.co/01-ai/Yi-34B-Chat/tree/main
-        notes: Instruction-tuned weights shared via HuggingFace
+datasources_endmodel:
+    class: closed
+    link: https://huggingface.co/datasets/BAAI/COIG
+    notes: Model docs mention COIG but only as an example. Code also shows rm-static is also used in instruction tuning, but not shared.
+ 
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/01-ai/Yi-34B/tree/main
+    notes: Base model weights shared via HuggingFace
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/01-ai/Yi-34B-Chat/tree/main
+    notes: Instruction-tuned weights shared via HuggingFace
 
 trainingcode:
     class: partial

@@ -12,11 +12,12 @@
 system:
     name: Orca 2
     link: https://www.microsoft.com/en-us/research/project/orca/
-    notes: This file applies to Orca 2 7B and 13B, both fine-tunes of corresponding Llama2 base models.
     type: text 
     basemodelname: LLaMA2
     endmodelname: FLAN, Math, undisclosed (synthetic)
     endmodellicense: Microsoft Research License, Llama Community License
+    releasedate: 
+    notes: 
 
 org:
     name: Microsoft Research
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link:
-        notes: Llama pretraining Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
-    endmodel:
-        class: closed
-        link:
-        notes: Instruction-tuning and explanation-tuning data described in preprint, but not disclosed or made available
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Llama pretraining Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
 
-weights: 
-    basemodel:
-        class: partial
-        link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-        notes: Download only after requesting access; requires signing a consent form
-    endmodel:
-        class: open
-        link: https://huggingface.co/microsoft/Orca-2-7b
-        notes: 7B and 13B finetunes of Llama2 made available through HuggingFace
+datasources_endmodel:
+    class: closed
+    link:
+    notes: Instruction-tuning and explanation-tuning data described in preprint, but not disclosed or made available
+
+weights_basemodel:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/microsoft/Orca-2-7b
+    notes: 7B and 13B finetunes of Llama2 made available through HuggingFace
 
 trainingcode:
     class: closed

@@ -16,33 +16,34 @@ system:
     basemodelname: Amber
     endmodelname: ShareGPT + Evol-Instruct (synthetic)
     endmodellicense: Apache 2.0
+    releasedate: 
     notes:
-    
+
 org:
     name: LLM360
     link: https://www.llm360.ai/index.html
     notes: LLM360, an initiative to fully open-source LLMs
 
 # availability:
-datasources:
-    basemodel:
-        class: open
-        link: https://huggingface.co/datasets/LLM360/AmberDatasets
-        notes: data well-documented and openly available
-    endmodel:
-        class: open
-        link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
-        notes: RL and fine-tuning data shared and documented
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/datasets/LLM360/AmberDatasets
+    notes: data well-documented and openly available
 
-weights:
-    basemodel:
-        class: open
-        link: https://huggingface.co/LLM360/Amber
-        notes: 360 model checkpoints released
-    endmodel:
-        class: open
-        link: https://huggingface.co/LLM360/AmberChat
-        notes: Finetuned model available for download.
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
+    notes: RL and fine-tuning data shared and documented
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/LLM360/Amber
+    notes: 360 model checkpoints released
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/LLM360/AmberChat
+    notes: Finetuned model available for download.
 
 trainingcode:
     class: open

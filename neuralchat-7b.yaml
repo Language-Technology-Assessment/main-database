@@ -12,11 +12,12 @@
 system:
     name: NeuralChat 7B
     link: https://huggingface.co/Intel/neural-chat-7b-v3-1
-    notes: A mistral-based Orca-finetuned chat model
     type: text 
     basemodelname: Mistral 7B
     endmodelname: Orca
     endmodellicense: Apache 2.0
+    releasedate: 
+    notes: A mistral-based Orca-finetuned chat model
 
 org:
     name: Intel
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link:
-        notes: Mistral has not disclosed anything about its training data
-    endmodel:
-        class: open
-        link: https://huggingface.co/datasets/Open-Orca/SlimOrca
-        notes: RL dataset used for post-training is shared and available
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Mistral has not disclosed anything about its training data
 
-weights: 
-    basemodel:
-        class: open
-        link: https://huggingface.co/mistralai/Mistral-7B-v0.1
-        notes: Based on Mistral 7B 0.1
-    endmodel:
-        class: open
-        link: https://huggingface.co/Intel/neural-chat-7b-v3-1/tree/main
-        notes: finetuned model made openly available by Intel
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/Open-Orca/SlimOrca
+    notes: RL dataset used for post-training is shared and available
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/mistralai/Mistral-7B-v0.1
+    notes: Based on Mistral 7B 0.1
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/Intel/neural-chat-7b-v3-1/tree/main
+    notes: finetuned model made openly available by Intel
 
 trainingcode:
     class: partial

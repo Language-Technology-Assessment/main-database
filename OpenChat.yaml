@@ -12,11 +12,12 @@
 system:
     name: OpenChat 3.5 7B
     link: https://github.com/imoneoi/openchat
-    notes:
     type: text 
     basemodelname: Mistral 7B
     endmodelname: ShareGPT with C-RLFT
     endmodellicense: Apache 2.0
+    releasedate: 
+    notes:
 
 org:
     name: Tshinghua University
@@ -24,25 +25,25 @@ org:
     notes: OpenChat notes 'We are a student team from Tsinghua University'
 
 # availability:
-datasources: 
-    basemodel:
-        class: closed
-        link:
-        notes: Pretraining data for Mistral is nowhere disclosed or documented
-    endmodel:
-        class: closed
-        link:
-        notes: "Preprint says shareGPT dataset 'collected from sharegpt.com' but not disclosed or made available by this project"
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Pretraining data for Mistral is nowhere disclosed or documented
+    
+datasources_endmodel:
+    class: closed
+    link:
+    notes: "Preprint says shareGPT dataset 'collected from sharegpt.com' but not disclosed or made available by this project"
 
-weights: 
-    basemodel:
-        class: open
-        link: https://github.com/mistralai/mistral-src#download-the-model
-        notes: Mistral 7B weights available via Mistral repository
-    endmodel:
-        class: open
-        link: https://huggingface.co/openchat/openchat_3.5/tree/main
-        notes: Instruction-tuned model weights made available via HuggingFace
+weights_basemodel:
+    class: open
+    link: https://github.com/mistralai/mistral-src#download-the-model
+    notes: Mistral 7B weights available via Mistral repository
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/openchat/openchat_3.5/tree/main
+    notes: Instruction-tuned model weights made available via HuggingFace
 
 trainingcode:
     class: open

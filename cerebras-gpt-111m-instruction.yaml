@@ -16,6 +16,7 @@ system:
     basemodelname: Cerebras
     endmodelname: Alpaca (synthetic)
     endmodellicense: Apache 2.0
+    releasedate: 
     notes:
 
 org:
@@ -24,25 +25,25 @@ org:
     notes:
 
 # availability:
-datasources:
-    basemodel:
-        class: open
-        link: https://huggingface.co/datasets/EleutherAI/pile
-        notes: Eleuther AI's The Pile
-    endmodel:
-        class: open
-        link: https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data.json
-        notes: Alpaca GPT4
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/datasets/EleutherAI/pile
+    notes: Eleuther AI's The Pile
 
-weights:
-    basemodel:
-        class: open
-        link: https://huggingface.co/cerebras/Cerebras-GPT-111M
-        notes: base model available via Cerebras
-    endmodel:
-        class: open
-        link: https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction/tree/main
-        notes: Finetuned model weights available
+datasources_endmodel:
+    class: open
+    link: https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data.json
+    notes: Alpaca GPT4
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/cerebras/Cerebras-GPT-111M
+    notes: base model available via Cerebras
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction/tree/main
+    notes: Finetuned model weights available
 
 trainingcode:
     class: partial
