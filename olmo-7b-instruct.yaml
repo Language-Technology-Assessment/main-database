@@ -27,7 +27,9 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link: https://huggingface.co/datasets/allenai/dolma
+    link: 
+        - https://huggingface.co/datasets/allenai/dolma
+        - https://blog.allenai.org/making-a-switch-dolma-moves-to-odc-by-8f0e73852f44
     notes: Dolma training data released and documented in exemplary way
 
 datasources_endmodel:
