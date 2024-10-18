@@ -62,8 +62,8 @@ architecture:
     notes: Architecture described in paper, energy consumtion and environmental impact disclosed in model card, but not in paper; training process not fully documented
 
 preprint:
-    class: closed
-    link: 
+    class: open 
+    link: ["https://arxiv.org/abs/2407.21783","https://ai.meta.com/blog/meta-llama-3-1/"]
     notes: No preprint or any other scientific documentation available.
 
 paper:
