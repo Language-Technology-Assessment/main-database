@@ -1,0 +1,37 @@
+- name: Availability
+  ref: availability
+  params: 
+    - ref: datasources
+      name: Model Data
+    - ref: weihts
+      name: Model Weights 
+    - ref: watermarking
+      name: Watermarking
+    - ref: prompt_moderation
+      name: Prompt Moderation
+    - ref: trainingcode
+      name: Training Code    
+- name: Documentation
+  ref: documentation
+  params: 
+    - ref: code
+      name: Code
+    - ref: architecture
+      name: Architecture
+    - ref: preprint
+      name: Preprint
+    - ref: paper
+      name: Paper
+    - ref: modelcard
+      name: Modelcard
+    - ref: datasheet
+      name: Datasheet
+- name: Access
+  ref: access
+  params: 
+    - ref: package
+      name: Package
+    - ref: api
+      name: API
+    - ref: licenses
+      name: Licenses

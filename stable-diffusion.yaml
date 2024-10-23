@@ -1,0 +1,98 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
+    name: Stable Diffusion
+    link: https://stability.ai/stable-image
+    type: image
+    modelname: Stable Diffusion 3.5 large
+    endlicense: Stability AI Community License
+    releasedate: 
+    notes:
+
+org:
+    name: Stability AI
+    link: https://stability.ai/
+    notes:
+
+# availability:
+datasources:
+    class: open
+    link:
+    notes:
+    
+weights:
+    class: open
+    link:
+    notes:
+
+watermarking:
+    class: open
+    link:
+    notes:
+
+prompt_moderation:
+    class: open
+    link:
+    notes:
+
+trainingcode:
+    class: open
+    link:
+    notes:
+
+# documentation:
+code:
+    class: open
+    link:
+    notes:
+
+architecture:
+    class: open
+    link:
+    notes:
+
+preprint:
+    class: open
+    link:
+    notes:
+
+paper:
+    class: open
+    link:
+    notes:
+
+modelcard:
+    class: open
+    link:
+    notes:
+
+datasheet:
+    class: open
+    link:
+    notes:
+
+# access:
+package:
+    class: partial
+    link:
+    notes:
+
+api:
+    class: partial
+    link:
+    notes:
+    metaprompts:
+
+licenses:
+    class: open
+    link:
+    notes:
