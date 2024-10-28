@@ -1,0 +1,36 @@
+datasources_basemodel:
+  en: Description of datasources_basemodel.
+datasources_endmodel:
+  en: Description of datasources_endmodel.
+weights_basemodel:
+  en: Description of weights_basemodel.
+weights_endmodel:
+  en: Description of weights_endmodel.
+trainingcode:
+  en: Description of trainingcode.
+datasources:
+  en: Description of datasources.
+weights:
+  en: Description of weights.
+watermarking:
+  en: Description of watermarking.
+prompt_moderation:
+  en: Description of prompt_moderation.
+code:
+  en: Description of code.
+architecture:
+  en: Description of architecture.
+preprint:
+  en: Description of preprint.
+paper:
+  en: Description of paper.
+modelcard:
+  en: Description of modelcard.
+datasheet:
+  en: Description of datasheet.
+package:
+  en: Description of package.
+api:
+  en: Description of api.
+licenses:
+  en: Description of licenses.
