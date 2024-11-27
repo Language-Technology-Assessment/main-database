@@ -24,7 +24,7 @@ For each model, the yaml files in this database collect (1)some general informat
     
     endmodellicense: License that applies to enduser interaction with the model.
 
-    releasedate: Release date of the model, in YYYY MMM format, e.g. 2024 NOV.
+    releasedate: Earliest release date of the model through any offical source, in YYYY MMM format, e.g. 2024 NOV.
 
 ## **Organisation**
 
