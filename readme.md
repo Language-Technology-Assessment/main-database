@@ -80,9 +80,9 @@ For each model, the yaml files in this database collect (1)some general informat
  
     🟥 Code documentation not available.
     
-    🟧 Some components of the project features code documentation.
+    🟧 Some components of the system features code documentation, but not every step of base and/or end model training and tuning  is documented (irrespective of whether these components are shared).
     
-    🟩 All components of the project features a comprehensive code documentation.
+    🟩 All components of the system features a comprehensive code documentation.
 
 **Architecture**
 
