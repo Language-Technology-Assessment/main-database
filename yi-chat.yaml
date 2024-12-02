@@ -15,8 +15,8 @@ system:
     type: text 
     basemodelname: Yi 34B
     endmodelname: unspecified
-    endmodellicense: Apache 2.0 and bespoke Yi Series Community License Agreement 2.1
-    releasedate: 
+    endmodellicense: Apache 2.0
+    releasedate: 2023-11-03
     notes: The Yi series models are the next generation of open-source large language models trained from scratch by 01.AI. Targeted as a bilingual language model and trained on 3T multilingual corpus.
 
 org:
@@ -52,9 +52,9 @@ trainingcode:
 
 # documentation:
 code:
-    class: closed
+    class: partial
     link: https://github.com/01-ai/Yi/
-    notes: Documentation only describes how to deploy, training and fine-tuning code not available or where available not commented or documented
+    notes: Inference and fine-tuning code is documented, training code is not documented.
 
 architecture:
     class: closed
@@ -72,8 +72,8 @@ paper:
     notes: No paper found
 
 modelcard:
-    class: closed
-    link:
+    class: partial
+    link: https://huggingface.co/01-ai/Yi-34B-Chat
     notes: Model card used for advertising and navigation purposes, does not follow general model card specifications.
 
 datasheet:
@@ -90,11 +90,11 @@ package:
 api:
     class: partial
     link:
-    notes: limited access via HF API, otherwise gated and commercially available
+    notes: Model is gated and commercially available
     metaprompt: closed
     
 licenses:
-    class: partial
-    link:
-    notes: Model code licensed under Apache 2.0, model weights licensed under Llama-inspired community license with limitations
+    class: full
+    link: https://github.com/01-ai/Yi
+    notes: Model code licensed under Apache 2.0
 

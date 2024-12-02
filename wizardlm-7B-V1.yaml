@@ -15,8 +15,8 @@ system:
     type: text 
     basemodelname: LLaMA-7B
     endmodelname: Evol-Instruct (synthetic)
-    endmodellicense: CC-BY-NC-4.0
-    releasedate: 
+    endmodellicense: Llama 2 license
+    releasedate: 2023-04-23
     notes: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
 
 org:
@@ -27,7 +27,7 @@ org:
 # availability:
 datasources_basemodel:
     class: partial
-    link:
+    link: https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main/projects/llama-2-chat.yaml
     notes: Based on LLaMA, which is claimed to be public but nowhere exactly documented.
 
 datasources_endmodel:
@@ -46,15 +46,15 @@ weights_endmodel:
     notes: Model weights offered as a delta to LLaMA
 
 trainingcode:
-    class: partial
+    class: open
     link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM
-    notes: Fast-evolving repository contains WizardLM code
+    notes: 
 
 # documentation:
 code:
-    class: partial
+    class: open
     link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM
-    notes: Code is only partially documented, not clearly versioned, and appears to be in flux.
+    notes: Code is comprehensively documented and contains demos.
 
 architecture:
     class: open
@@ -69,23 +69,23 @@ preprint:
 paper:
     class: closed
     link:
-    notes: No peer-reviewed paper or data audit found
+    notes: No peer-reviewed paper or data audit found. Preprint mentions it is 'under review'.
 
 modelcard:
     class: closed
     link: https://huggingface.co/WizardLM/WizardLM-7B-V1.0
-    notes: Model card is only a placeholder and generates an error (missing yaml metadata)
+    notes: Model card is available, however contains links to pages talking about the model architecture, training, fine-tuning, and evaluation rather than containing them itself.
 
 datasheet:
     class: closed
     link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
-    notes: Dataset card for Evol-Instruct generates an error
+    notes: Dataset card is available, but provides no information about data collection and curation. The preprint outlines data collection (based on a 52K instruction dataset from Alpaca) and curation at a high level.
 
 # access:
 package:
     class: closed
     link:
-    notes: No package available
+    notes: No package available. A package is available on PyPi, however its origin is dubious (https://github.com/pypi/support/issues/3178).
 
 api:
     class: closed

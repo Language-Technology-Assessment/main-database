@@ -16,7 +16,7 @@ system:
     basemodelname: LLaMA2
     endmodelname: unknown
     endmodellicense: Llama 2 license
-    releasedate: 
+    releasedate: 2023-09-16
     notes: "Xwin-LM aims to develop and open-source alignment technologies for large language models"
 
 org:
@@ -31,9 +31,9 @@ datasources_basemodel:
     notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
 
 datasources_endmodel:
-    class: closed
-    link:
-    notes: RLHF data for Llama includes 1 million Meta-specific tuning prompts not made available, no other details known about RLHF and alignment tuning added by Xwin-LM
+    class: open
+    link: https://huggingface.co/datasets/WizardLMTeam/WizardLM_evol_instruct_V2_196k
+    notes: Data sources outlined in preprint. ShareGPT-4o, which is included in Evol-instruct, is gated behind sharing some personal information and agreeing to do no harm, but for the rest the dataset is fully open to inspection.
 
 weights_basemodel:
     class: partial
@@ -43,7 +43,7 @@ weights_basemodel:
 weights_endmodel:
     class: closed
     link: https://huggingface.co/Xwin-LM/Xwin-LM-70B-V0.1/tree/main
-    notes: Downloadable model presumably includes RLHF tuning but no documentation available
+    notes: Downloadable model includes further finetuning but no weights are made available
 
 trainingcode:
     class: closed
@@ -54,17 +54,17 @@ trainingcode:
 code:
     class: closed
     link:
-    notes: No documentation available. 
+    notes: No documentation available. Some evaluation code is available and documented for the coding and math variants of the model.
 
 architecture:
-    class: closed
-    link: https://github.com/Xwin-LM/Xwin-LM#news
-    notes: No information available beyond that it is based on Llama and "RLHF plays crucial role"
+    class: open
+    link: https://arxiv.org/pdf/2405.20335
+    notes: Architecture is fully outlined in the preprint.
 
 preprint:
-    class: closed
-    link: https://github.com/Xwin-LM/Xwin-LM#news
-    notes: No preprint available; "Coming soon (Stay tuned)"
+    class: open
+    link: https://arxiv.org/pdf/2405.20335
+    notes: An ArXiv pre-print is available.
 
 paper:
     class: closed

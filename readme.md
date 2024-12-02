@@ -140,7 +140,7 @@ For each model, the yaml files in this database collect (1)some general informat
 
     🟥 No API access.
     
-    🟧 Commerial or restircted-access user API is available.
+    🟧 Commerial or restricted-access user API is available.
     
     🟩 An open API available that provides unrestricted access to the text generator (other than security and CDN restrictions).
 

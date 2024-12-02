@@ -15,8 +15,8 @@ system:
     type: text 
     basemodelname: LLaMA2-13B
     endmodelname: Evol-Instruct (synthetic)
-    endmodellicense: CC-BY-NC-4.0
-    releasedate: 
+    endmodellicense: Llama 2 license
+    releasedate: 2023-07-25
     notes: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
 
 org:
@@ -33,7 +33,7 @@ datasources_basemodel:
 datasources_endmodel:
     class: open
     link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
-    notes: The Evol-Instruct V2 dataset contains 196k instruction-following sequences generated from Evol-Instruct
+    notes: The Evol-Instruct V2 dataset contains 196k instruction-following sequences generated from Evol-Instruct. ShareGPT-4o, which is included in Evol-instruct, is gated behind sharing some personal information and agreeing to do no harm, but for the rest the dataset is fully open to inspection. The model card mentions recent changes in the open-source policy of the parent company leading to potential future issues with data sources.
 
 weights_basemodel:
     class: partial
@@ -46,15 +46,15 @@ weights_endmodel:
     notes: Model weights offered in HuggingFace repository
 
 trainingcode:
-    class: partial
+    class: open
     link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM
-    notes: Fast-evolving repository contains WizardLM code
+    notes: 
 
 # documentation:
 code:
-    class: partial
+    class: open
     link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM
-    notes: Code is only partially documented, not clearly versioned, and appears to be in flux.
+    notes: Code is comprehensively documented and contains demos.
 
 architecture:
     class: open
@@ -69,23 +69,23 @@ preprint:
 paper:
     class: closed
     link:
-    notes: No peer-reviewed paper or data audit found
+    notes: No peer-reviewed paper or data audit found. Preprint mentions it is 'under review'.
 
 modelcard:
     class: closed
     link: https://huggingface.co/WizardLM/WizardLM-13B-V1.2
-    notes: Model card is only a placeholder and generates an error (missing yaml metadata)
+    notes: Model card is available, however contains links to pages talking about the model architecture, training, fine-tuning, and evaluation rather than containing them itself.
 
 datasheet:
     class: closed
     link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
-    notes: Dataset card for Evol-Instruct generates an error
+    notes: Dataset card is available, but provides no information about data collection and curation. The preprint outlines data collection (based on a 52K instruction dataset from Alpaca) and curation at a high level.
 
 # access:
 package:
     class: closed
     link:
-    notes: No package available
+    notes: No package available. A package is available on PyPi, however its origin is dubious (https://github.com/pypi/support/issues/3178).
 
 api:
     class: closed
