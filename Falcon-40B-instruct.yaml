@@ -62,9 +62,11 @@ architecture:
     notes: Architecture sketched on HuggingFace as "Falcon-40B-Instruct is a 40B parameters causal decoder-only model built by TII based on Falcon-40B and finetuned on a mixture of Baize."
 
 preprint:
-    class: partial
-    link: https://arxiv.org/abs/2306.01116
-    notes: Preprint covers the creation and curation of RefinedWeb dataset, but not other aspects of the model, hence partial.
+    class: open
+    link: 
+        - https://arxiv.org/abs/2306.01116
+        - https://arxiv.org/abs/2311.16867
+    notes: First preprint covers the creation and curation of RefinedWeb dataset, but not other aspects of the model. The second preprint provides more details about the model architecture, implementation, evaluation results, and limitations.
 
 paper:
     class: closed
@@ -77,9 +79,9 @@ modelcard:
     notes: Model card on HuggingFace is mostly used to advertise the model, not to document its training and evaluation details.
 
 datasheet:
-    class: closed
-    link:
-    notes: There is no datasheet available.
+    class: open
+    link: https://arxiv.org/abs/2306.01116
+    notes: The preprint on RefinedWeb dataset presents a datasheet in a section named "RefinedWeb Datasheet", which goes into quite a bit of detail on collection, preprocessing etc.
 
 # access
 package:
