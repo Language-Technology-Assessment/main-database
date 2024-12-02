@@ -62,24 +62,28 @@ architecture:
     notes: Architecture described as  "causal decoder-only" and "optimized for inference", but very few details available.
 
 preprint:
-    class: partial
-    link: https://arxiv.org/abs/2306.01116
-    notes: Preprint covers the creation and curation of RefinedWeb dataset, but not other aspects of the model, hence partial.
+    class: open
+    link: 
+        - https://arxiv.org/abs/2306.01116
+        - https://arxiv.org/abs/2311.16867
+    notes: First preprint covers the creation and curation of RefinedWeb dataset, but not other aspects of the model. The second preprint provides more details about the model architecture, implementation, evaluation results, and limitations.
 
 paper:
     class: closed
     link:
-    notes: No peer-reviewed paper known.
+    notes: No peer-reviewed paper known; HuggingFace repository says "coming soon".
 
 modelcard:
-    class: partial
-    link: https://huggingface.co/tiiuae/falcon-180B-chat
-    notes: Model card on HuggingFace is mostly used to advertise the model, not to document its training and evaluation details.
+    class: open
+    link:
+        - https://huggingface.co/tiiuae/falcon-180B-chat
+        - https://arxiv.org/abs/2311.16867
+    notes: Model card on HuggingFace is mostly used to advertise the model, not to document its training and evaluation details. However, the preprint has a "Model card" section where these details are presented.
 
 datasheet:
-    class: closed
-    link:
-    notes: There is no datasheet available.
+    class: open
+    link: https://arxiv.org/abs/2306.01116
+    notes: The preprint on RefinedWeb dataset presents a datasheet in a section named "RefinedWeb Datasheet", which goes into quite a bit of detail on collection, preprocessing etc.
 
 # access
 package:
