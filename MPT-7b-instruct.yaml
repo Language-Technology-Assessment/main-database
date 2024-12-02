@@ -15,7 +15,7 @@ system:
     type: text 
     basemodelname: MosaicML
     endmodelname: dolly, anthropic
-    endmodellicense: CC-By-SA-3.0
+    endmodellicense: Apache 2.0
     releasedate: 
     notes:
 
@@ -96,5 +96,5 @@ api:
 licenses:
     class: open
     link:
-    notes: CC-by-SA 3.0
+    notes: Apache 2.0
 
