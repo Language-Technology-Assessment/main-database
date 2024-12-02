@@ -16,7 +16,7 @@ system:
     basemodelname: LLaMA2
     endmodelname: UltraFeedback (part synthetic)
     endmodellicense: Meta Community License
-    releasedate: 
+    releasedate: 2023-09-22
     notes:
 
 org:
@@ -58,7 +58,7 @@ code:
 
 architecture:
     class: partial
-    link: https://huggingface.co/openbmb/UltraLM-13b#model-details
+    link: https://arxiv.org/pdf/2310.01377
     notes: Architecture sketched in online materials.
 
 preprint:
@@ -73,7 +73,7 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/openbmb/UltraLM-13b#model-details
+    link: https://huggingface.co/openbmb/UltraLM-13b
     notes: Model card on HuggingFace available for 13b (Llama1) model, but not for newer releases, hence partial
 
 datasheet:
@@ -95,6 +95,6 @@ api:
 
 licenses:
     class: closed
-    link: https://huggingface.co/openbmb/UltraLM-13b#model-details
+    link: https://huggingface.co/openbmb/UltraLM-13b
     notes: Usage requires signing Meta's bespoke 'community license', not an OSI recognised open license
 
