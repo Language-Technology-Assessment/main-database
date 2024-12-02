@@ -73,13 +73,13 @@ paper:
 
 modelcard:
     class: partial
-    link:
-    notes: No model card found
-
-datasheet:
-    class: partial
     link: https://huggingface.co/BelleGroup
     notes: Provide model cards for various BELLE models on their Huggingface page; most are not fully detailed and are missing certain aspects e.g. hyperparameters.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No data sheet found
 
 # access:
 package:
