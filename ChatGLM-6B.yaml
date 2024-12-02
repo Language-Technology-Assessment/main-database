@@ -13,8 +13,8 @@ system:
     name: ChatGLM-6B
     link: https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md
     type: text
-    basemodel: GLM (own)
-    datasources_endmodel: Unspecified
+    basemodelname: GLM (own)
+    endmodelname: Unspecified
     endmodellicense: Apache 2.0
     releasedate: 
     notes: From the readme, "ChatGLM-6B uses technology similar to ChatGPT, optimized for Chinese QA and dialogue. The model is trained for about 1T tokens of Chinese and English corpus, supplemented by supervised fine-tuning, feedback bootstrap, and reinforcement learning wit human feedback. With only about 6.2 billion parameters, the model is able to generate answers that are in line with human preference."
@@ -25,15 +25,12 @@ org:
     notes: Knowledge Engineering Group (KEG) & Data Mining at Tsinghua University
 
 # availability:
-trainingcode:
-    class: partial
-    link: https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md#deployment
-    notes: Some code made available on Github
-
 datasources_basemodel:
     class: partial
-    link: http://doi.org/10.18653/v1/2022.acl-long.26
-    notes: Training data not centrally made available, but described in 2022 ACL paper, appears to be mostly public datasets
+    link: 
+        - http://doi.org/10.18653/v1/2022.acl-long.26
+        - https://arxiv.org/abs/2406.12793
+    notes: Training data not centrally made available, but described in 2022 ACL paper, appears to be mostly public datasets. Preprint also mentions "Our pre-training corpus consists of multilingual (mostly English and Chinese) documents from a mixture of different sources, including webpages, Wikipedia, books, code, and research papers", but does not go into more detail.
 
 datasources_endmodel:
     class: closed
@@ -42,13 +39,20 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/THUDM/chatglm-6b/tree/main
-    notes: Model made available through HuggingFace
+    link: 
+        - https://huggingface.co/THUDM/chatglm-6b/tree/main
+        - https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md#introduction
+    notes: Model made available through HuggingFace. Readme also mentions "free commercial use is allowed after completing the questionnaire".
 
 weights_endmodel:
     class: closed
     link:
     notes: No weights or checkpoints corresponding to the delta of the LLM vs RLHF provided
+
+trainingcode:
+    class: partial
+    link: https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md#deployment
+    notes: Some code made available on Github
 
 # documentation:
 code:
@@ -62,9 +66,9 @@ architecture:
     notes: Full details of architecture not specified in a single place
 
 preprint:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://arxiv.org/abs/2406.12793
+    notes: Describes training data, architecture, and shows performance evaluation results of various ChatGLM models.
 
 paper:
     class: partial
@@ -89,8 +93,10 @@ package:
 
 api:
     class: open
-    link: https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md#api-deployment
-    notes: API provided through fastapi uvicorn
+    link: 
+        - https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md#api-deployment
+        - https://bigmodel.cn/
+    notes: API provided through fastapi uvicorn, also has a Chinese site with detailed API documentation.
     metaprompt: closed
 
 licenses:
