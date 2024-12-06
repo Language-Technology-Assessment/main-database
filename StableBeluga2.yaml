@@ -16,7 +16,7 @@ system:
     basemodelname: LLaMA2
     endmodelname: Orca-style (synthetic)
     endmodellicense: Stable Beluga Non-Commercial Community License
-    releasedate: 
+    releasedate: 2023-07
     notes:
 
 org:
@@ -41,9 +41,9 @@ weights_basemodel:
     notes: Download only after requesting access; requires signing a consent form
 
 weights_endmodel:
-    class: open
+    class: partial
     link: https://huggingface.co/stabilityai/StableBeluga2/tree/main
-    notes: Instruction-tuned model weights available
+    notes: Instruction-tuned model weights provided as binary
 
 trainingcode:
     class: closed
@@ -88,7 +88,7 @@ package:
     notes: Package not provided
 
 api:
-    class: partial
+    class: closed
     link:
     notes: model too large to run on HuggingFace free inference API
     metaprompt: closed
