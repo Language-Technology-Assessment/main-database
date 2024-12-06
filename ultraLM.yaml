@@ -16,7 +16,7 @@ system:
     basemodelname: LLaMA2
     endmodelname: UltraFeedback (part synthetic)
     endmodellicense: Meta Community License
-    releasedate: 2023-09-22
+    releasedate: 2023-09
     notes:
 
 org:

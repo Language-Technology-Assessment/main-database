@@ -16,7 +16,7 @@ system:
     basemodelname: LLaMA2
     endmodelname: unknown
     endmodellicense: Llama 2 license
-    releasedate: 2023-09-16
+    releasedate: 2023-09
     notes: "Xwin-LM aims to develop and open-source alignment technologies for large language models"
 
 org:

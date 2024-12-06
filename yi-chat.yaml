@@ -16,7 +16,7 @@ system:
     basemodelname: Yi 34B
     endmodelname: unspecified
     endmodellicense: Apache 2.0
-    releasedate: 2023-11-03
+    releasedate: 2023-11
     notes: The Yi series models are the next generation of open-source large language models trained from scratch by 01.AI. Targeted as a bilingual language model and trained on 3T multilingual corpus.
 
 org:
