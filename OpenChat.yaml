@@ -11,12 +11,12 @@
 
 system:
     name: OpenChat 3.5 7B
-    link: https://github.com/imoneoi/openchat
+    link: https://huggingface.co/openchat/openchat_3.5
     type: text 
     basemodelname: Mistral 7B
     endmodelname: ShareGPT with C-RLFT
     endmodellicense: Apache 2.0
-    releasedate: 
+    releasedate: 2023-05
     notes:
 
 org:
@@ -31,9 +31,9 @@ datasources_basemodel:
     notes: Pretraining data for Mistral is nowhere disclosed or documented
     
 datasources_endmodel:
-    class: closed
-    link:
-    notes: "Preprint says shareGPT dataset 'collected from sharegpt.com' but not disclosed or made available by this project"
+    class: open
+    link: https://huggingface.co/openchat/openchat_3.5
+    notes: All data sources linked on model page.
 
 weights_basemodel:
     class: open
@@ -77,9 +77,9 @@ modelcard:
     notes: There is a model card that provides some details on architecture and evaluation
 
 datasheet:
-    class: closed
-    link:
-    notes: Datasheet not provided.
+    class: partial
+    link: https://huggingface.co/openchat/openchat_3.5
+    notes: Datasheet are provided, however contain minimal information.
 
 # access:
 package:
