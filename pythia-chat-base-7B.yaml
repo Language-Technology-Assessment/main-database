@@ -16,12 +16,12 @@ system:
     basemodelname: EleutherAI pythia
     endmodelname: OIG
     endmodellicense: Apache 2.0 license
-    releasedate: 
+    releasedate: 2023-03
     notes:
 
 org:
-    name: togethercomputer
-    link: https://github.com/togethercomputer
+    name: TogetherComputer
+    link: https://together.ai/
     notes:
 
 # availability:
@@ -47,8 +47,8 @@ weights_endmodel:
 
 trainingcode:
     class: open
-    link:
-    notes:
+    link: https://github.com/togethercomputer/OpenChatKit/tree/main/training
+    notes: Training code is made available through GitHub
 
 # documentation
 code:
@@ -59,7 +59,7 @@ code:
 architecture:
     class: open
     link: https://github.com/togethercomputer/OpenChatKit#reproducing-pythia-chat-base-7b
-    notes: Architecture and recipe for reproducing model provided
+    notes: Architecture and full recipe for reproducing model provided
 
 preprint:
     class: partial
@@ -67,30 +67,30 @@ preprint:
     notes: Preprint describes LM base (Pythia) but not instruction tuning details
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper or data audit found
+    class: partial
+    link: https://arxiv.org/abs/2304.01373
+    notes: Foundational paper has been peer-reviewed
 
 modelcard:
     class: partial
     link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B
-    notes: Model card partially available but fairly minimally specified
+    notes: Model card partially available but does not go into much detail about model specifics.
 
 datasheet:
     class: partial
-    link: https://huggingface.co/datasets/laion/OIG
-    notes: OIG instruction dataset documented
+    link: https://github.com/togethercomputer/OpenDataHub, https://huggingface.co/datasets/laion/OIG
+    notes: Both base- and end model dataset documented.
 
 # access
 package:
-    class: open
-    link:
-    notes:
+    class: partial
+    link: https://pypi.org/project/openchatkit/
+    notes: Package is available on PyPi, however no reference is made to it on GitHub and the maintainter's authenticity has not been verified. Documentation of the package seems thorough.
 
 api:
     class: closed
     link:
-    notes:
+    notes: Reference seems to be made to a feedback app on HuggingFace, however the link redirects to a 404 page.
     metaprompt: closed
 
 licenses:
