@@ -16,7 +16,7 @@ system:
     basemodelname: RedPajama-INCITE-7B-Base
     endmodelname: various (GPT-JT recipe)
     endmodellicense: Apache 2.0
-    releasedate: 
+    releasedate: 2023-03
     notes:
 
 org:
@@ -74,7 +74,7 @@ paper:
 modelcard:
     class: open
     link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct
-    notes: Model card and readme provide details on datasets and 
+    notes: Model card and readme provide details on datasets and training procedure.
 
 datasheet:
     class: open
