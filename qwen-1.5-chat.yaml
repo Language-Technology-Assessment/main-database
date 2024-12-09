@@ -16,12 +16,12 @@ system:
     basemodelname: QwenLM
     endmodelname: Unspecified
     endmodellicense: Qianwen License
-    releasedate: 
-    notes: This is based on the 72B version, the largest of 8 available model sizes.
+    releasedate: 2024-02
+    notes: This is based on the 110B version, the largest of 8 available model sizes.
 
 org:
     name: Alibaba Cloud
-    link:
+    link: https://www.alibabacloud.com/
     notes: "Qwen (abbr. for Tongyi Qianwen 通义千问) refers to the large language model family built by Alibaba Cloud"
 
 # availability:
@@ -37,12 +37,12 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/Qwen/Qwen1.5-72B/tree/main
+    link: https://huggingface.co/Qwen/Qwen1.5-110B/tree/main
     notes: Also available in smaller model sizes
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/Qwen/Qwen1.5-72B-Chat/tree/main
+    link: https://huggingface.co/Qwen/Qwen1.5-110B-Chat/tree/main
     notes: Also available in smaller model sizes
 
 trainingcode:
@@ -53,18 +53,18 @@ trainingcode:
 # documentation:
 code:
     class: partial
-    link:
+    link: https://github.com/QwenLM/Qwen1.5/
     notes: Repository is fairly well-documented.
 
 architecture:
     class: partial
-    link:
-    notes: No clear description of architecture found.
+    link: https://arxiv.org/abs/2309.16609
+    notes: Architecture only described in terms of how it was modified wrt Llama.
 
 preprint:
-    class: closed
-    link:
-    notes: No preprint found.
+    class: open
+    link: https://arxiv.org/abs/2309.16609
+    notes: Pre-print describes various techniques used when training the model and goes in-depth on model performance.
 
 paper:
     class: closed
@@ -74,7 +74,7 @@ paper:
 modelcard:
     class: closed
     link:
-    notes: Model card on HF only serves as a pointer to the model, no actual info provided.
+    notes: Model card on HF only serves as a pointer to the model, no in-depth info provided.
 
 datasheet:
     class: closed
@@ -85,7 +85,7 @@ datasheet:
 package:
     class: partial
     link:
-    notes: No specific package provided but integrates well with many widely used packages
+    notes: No specific package provided by the authors but integrates well with many widely used packages
 
 api:
     class: open
