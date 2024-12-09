@@ -15,8 +15,8 @@ system:
     type: image
     modelname: Stable Diffusion 3.5 large
     endlicense: Stability AI Community License
-    releasedate: 
-    notes:
+    releasedate: 2024-10
+    notes: Various different versions exist. This model card considers the recently released Stable Diffusion 3.5
 
 org:
     name: Stability AI
@@ -25,14 +25,14 @@ org:
 
 # availability:
 datasources:
-    class: open
-    link:
-    notes:
+    class: partial
+    link: https://arxiv.org/abs/2210.08402
+    notes: Originally trained on LAION-5B, which is ostensibly open. In general the language used is not very clear, however.
     
 weights:
-    class: open
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+    notes: Available through HuggingFace in the form of SafeTensors, however requires providing contact information and agreeing to a license agreement.
 
 watermarking:
     class: open
