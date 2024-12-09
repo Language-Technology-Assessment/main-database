@@ -45,7 +45,7 @@ weights_basemodel:
     link:
     notes:
 
-datasources_endmodel:
+weights_endmodel:
     class: closed
     link:
     notes:
