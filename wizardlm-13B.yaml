@@ -16,7 +16,7 @@ system:
     basemodelname: LLaMA2-13B
     endmodelname: Evol-Instruct (synthetic)
     endmodellicense: Llama 2 license
-    releasedate: 2023-07-25
+    releasedate: 2023-07
     notes: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
 
 org:

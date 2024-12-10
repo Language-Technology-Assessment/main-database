@@ -16,7 +16,7 @@ system:
     basemodelname: LLaMA2
     endmodelname: FLAN, Math, undisclosed (synthetic)
     endmodellicense: Microsoft Research License, Llama Community License
-    releasedate: 
+    releasedate: 2024-01
     notes: 
 
 org:
@@ -58,12 +58,12 @@ code:
 
 architecture:
     class: partial
-    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
-    notes: Architecture sketched in corporate preprints, though many details missing.
+    link: https://www.microsoft.com/en-us/research/publication/orca-2-teaching-small-language-models-how-to-reason/
+    notes: Architecture sketched in corporate preprints, goes into detail regarding the specific approach taken.
 
 preprint:
-    class: partial
-    link: https://arxiv.org/pdf/2311.11045.pdf
+    class: open
+    link: https://www.microsoft.com/en-us/research/publication/orca-2-teaching-small-language-models-how-to-reason/
     notes: Corporate preprint from Microsoft Research has some detail on instruction-tuning, explanation-tuning and evaluation
 
 paper:
@@ -90,11 +90,11 @@ package:
 api:
     class: partial
     link:
-    notes: Model too large to load on HuggingFace inference library
+    notes: Model too large to load on HuggingFace inference library, however is available through Azure AI Studio
     metaprompt: closed
 
 licenses:
     class: closed
-    link: https://github.com/facebookresearch/llama/blob/main/LICENSE
+    link: https://huggingface.co/microsoft/Orca-2-7b/blob/main/LICENSE, https://github.com/facebookresearch/llama/blob/main/LICENSE
     notes: Licensed under Microsoft Research License and Meta's bespoke community license, neither OSI recognised
 

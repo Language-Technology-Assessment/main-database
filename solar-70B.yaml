@@ -15,8 +15,8 @@ system:
     type: text 
     basemodelname: LLaMA2
     endmodelname: Orca-style, Alpaca-style
-    endmodellicense: Meta Community license, CC-BY-NC
-    releasedate: 
+    endmodellicense: Meta Community license, CC-BY-NC 4.0
+    releasedate: 2023-07
     notes: HuggingFace profile says 'Solar is a great example of the progress enabled by open source.'
 
 org:
@@ -58,13 +58,13 @@ code:
 
 architecture:
     class: closed
-    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit
+    link: 
     notes: Precise architecture, training, fine-tuning procedures not given.
 
 preprint:
     class: closed
     link: 
-    notes: No preprint or any form of scientific docuentation found.
+    notes: No preprint or any form of scientific documentation found.
 
 paper:
     class: closed

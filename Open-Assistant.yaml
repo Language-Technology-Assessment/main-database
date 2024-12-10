@@ -67,19 +67,19 @@ preprint:
     notes: Preprint describes creation of OpenAssistant Conversations corpus for instruction tuning, but not the base LLM, hence partial.
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper or published data audit found
+    class: partial
+    link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/949f0f8f32267d297c2d4e3ee10a2e7e-Abstract-Datasets_and_Benchmarks.html
+    notes: Preprint was published in NeurIPS
 
 modelcard:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/OpenAssistant
+    notes: Various model cards exist
 
 datasheet:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://docs.google.com/spreadsheets/d/1NYYa6vHiRnk5kwnyYaCT0cBO62--Tm3w4ihdBtp4ISk/edit?pli=1&gid=1537161081#gid=1537161081
+    notes: Most data sets are linked and some contain a data sheet.
 
 # access
 package:

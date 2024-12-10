@@ -16,7 +16,7 @@ system:
     basemodelname: Llama2
     endmodelname: Tulu SFT, Ultrafeedback
     endmodellicense: AI2 ImpACT license
-    releasedate: 2023-06-09
+    releasedate: 2023-06
     notes: A new DPO model from AllenAI called Tülu
 
 org:
