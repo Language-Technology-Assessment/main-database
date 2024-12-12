@@ -118,6 +118,8 @@ For each model, the yaml files in this database collect (1)some general informat
 
 **Datasheet**
 
+A datasheet should follow the standards defined in [Datasheets for Datasets](https://doi.org/10.1145/3458723) by Gebru et al. (2021)
+
     🟥 Datasheet(s) are not available.
     
     🟧 Datasheet(s) that provide partial insight on data collection and curation are available.
