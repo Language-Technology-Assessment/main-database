@@ -16,7 +16,7 @@ system:
     basemodelname: LLaMA & BLOOMZ
     endmodelname: alpaca, shareGPT, Belle (synthetic)
     endmodellicense: Apache License 2.0
-    releasedate: 
+    releasedate: 2023-03
     notes:
 
 org:
