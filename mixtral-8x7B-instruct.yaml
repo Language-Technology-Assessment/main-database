@@ -16,7 +16,7 @@ system:
     basemodelname: Mistral
     endmodelname: Unspecified
     endmodellicense: Apache 2.0
-    releasedate: 
+    releasedate: 2023-12
     notes:
 
 org:
@@ -52,13 +52,13 @@ trainingcode:
 
 # documentation:
 code:
-    class: closed
-    link: https://github.com/mistralai/mistral-src
-    notes: the little code that is available is uncommented and undocumented, and relates to a reference implementation of the 7B version
+    class: partial
+    link: https://github.com/mistralai/mistral-inference/tree/main/src/mistral_inference
+    notes: repository contains minimal code to run the models; also open source code, althought it is mostly uncommented and not documented very well.
 
 architecture:
     class: partial
-    link: https://github.com/mistralai/mistral-src
+    link: https://github.com/mistralai/mistral-inference
     notes: Some information on architecture provided in github repo and in preprint
 
 preprint:
