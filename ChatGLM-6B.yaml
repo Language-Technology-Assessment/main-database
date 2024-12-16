@@ -16,7 +16,7 @@ system:
     basemodelname: GLM (own)
     endmodelname: Unspecified
     endmodellicense: Apache 2.0
-    releasedate: 
+    releasedate: 2023-03
     notes: From the readme, "ChatGLM-6B uses technology similar to ChatGPT, optimized for Chinese QA and dialogue. The model is trained for about 1T tokens of Chinese and English corpus, supplemented by supervised fine-tuning, feedback bootstrap, and reinforcement learning wit human feedback. With only about 6.2 billion parameters, the model is able to generate answers that are in line with human preference."
     
 org:
