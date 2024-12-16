@@ -16,7 +16,7 @@ system:
     basemodelname: Llama2
     endmodelname: Airoboros (synthetic)
     endmodellicense: Purposely left ambiguous
-    releasedate: 
+    releasedate: 2023-07
     notes:
 
 org:
@@ -53,7 +53,7 @@ trainingcode:
 # documentation:
 code:
     class: partial
-    link:
+    link: https://github.com/jondurbin/airoboros/tree/main/airoboros
     notes: What little code available is not very systematically documented
 
 architecture:
@@ -83,9 +83,9 @@ datasheet:
 
 # access:
 package:
-    class: closed
-    link:
-    notes: No package found
+    class: open
+    link: https://pypi.org/project/airoboros/
+    notes: Pip package available.
 
 api:
     class: closed
