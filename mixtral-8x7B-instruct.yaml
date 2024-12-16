@@ -37,13 +37,13 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1/tree/main
-    notes: Weights shared via torrent and via HuggingFace
+    link: https://github.com/mistralai/mistral-inference
+    notes: Models downloadable as .rar files through their repository
     
 weights_endmodel:
-    class: partial
-    link: https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1/tree/main
-    notes: Instruct version of model weights made available but no information on fine-tuning procedure provided
+    class: open
+    link: https://github.com/mistralai/mistral-inference
+    notes: Models downloadable as .rar files through their repository
 
 trainingcode:
     class: closed
