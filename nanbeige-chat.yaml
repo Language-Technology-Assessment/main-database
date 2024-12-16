@@ -16,7 +16,7 @@ system:
     basemodelname: Unknown
     endmodelname: Unknown
     endmodellicense: Apache 2.0 and bespoke community license
-    releasedate: 
+    releasedate: 2024-03
     notes: Comes in 8B and 16B versions
 
 org:
@@ -64,7 +64,7 @@ architecture:
 preprint:
     class: closed
     link:
-    notes: No preprint found
+    notes: No preprint found. Paper linked on HuggingFace was authored by LMSYS.
 
 paper:
     class: closed

@@ -16,7 +16,7 @@ system:
     basemodelname: Pythia 12B
     endmodelname: OpenAssistant Conversations
     endmodellicense: Apache 2.0
-    releasedate: 
+    releasedate: 2023-02
     notes:
 
 org:

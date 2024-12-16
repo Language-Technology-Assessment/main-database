@@ -16,7 +16,7 @@ system:
     basemodelname: MosaicML
     endmodelname: dolly, anthropic
     endmodellicense: Apache 2.0
-    releasedate: 
+    releasedate: 2023-06
     notes:
 
 org:
