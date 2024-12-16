@@ -16,7 +16,7 @@ system:
     basemodelname: unclear
     endmodelname: unspecified
     endmodellicense: Apache 2.0
-    releasedate: 
+    releasedate: 2023-09
     notes:
 
 org:
@@ -37,13 +37,13 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://github.com/mistralai/mistral-src#download-the-model
-    notes: Base LLM model made available for download
+    link: https://github.com/mistralai/mistral-inference
+    notes: Models available for download through their GitHub repository as .rar archives
     
 weights_endmodel:
-    class: partial
-    link: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/tree/main
-    notes: Instruct version of the model made available but no information on fine-tuning procedure provided
+    class: open
+    link: https://github.com/mistralai/mistral-inference
+    notes: Models available for download through their GitHub repository as .rar archives
 
 trainingcode:
     class: partial
@@ -52,9 +52,9 @@ trainingcode:
 
 # documentation:
 code:
-    class: closed
-    link: https://github.com/mistralai/mistral-src
-    notes: the little code that is available is uncommented and undocumented
+    class: partial
+    link: https://github.com/mistralai/mistral-inference/tree/main/src/mistral_inference
+    notes: repository contains minimal code to run the models; also open source code, althought it is mostly uncommented and not documented very well.
 
 architecture:
     class: partial
