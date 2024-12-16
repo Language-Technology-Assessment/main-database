@@ -16,7 +16,7 @@ system:
     basemodelname: RWKV-LM
     endmodelname: alpaca, shareGPT (synthetic)
     endmodellicense:
-    releasedate: 
+    releasedate: 2023-01
     notes:
 
 org:
