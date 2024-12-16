@@ -16,7 +16,7 @@ system:
     basemodelname: Falcon 40B
     endmodelname: Baize (synthetic)
     endmodellicense:  Apache 2.0 license
-    releasedate: 
+    releasedate: 2023-05
     notes:
 
 org:
