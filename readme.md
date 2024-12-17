@@ -6,7 +6,7 @@ You're free to build on this work and reuse the data. It is licensed under CC-BY
 
 > Andreas Liesenfeld, Alianda Lopez, and Mark Dingemanse. 2023. Opening up ChatGPT: Tracking openness, transparency, and accountability in instruction-tuned text generators. In _Proceedings of the 5th Conference on Conversational User Interfaces (CUI ’23)_, July 19–21, 2023, Eindhoven, The Netherlands.
 
-# Which models do we include?
+# Which models are included?
 
 The index aims to include any *instruct-tuned generative AI system or model* that is described by the responsible organisation or builder as "open-source" or "open", or that is marketed as such by offical outlets of the responsible organisation or builder. Generally, the index aims to:
 
