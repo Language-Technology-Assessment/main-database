@@ -1,36 +1,36 @@
 datasources_basemodel:
-  en: Description of datasources_basemodel.
+  en: Are datasources for training the base model comprehensively documented and freely made available? 
 datasources_endmodel:
-  en: Description of datasources_endmodel.
+  en: Are datasources for training the model that the enduser interacts with comprehensively documented and freely made available? 
 weights_basemodel:
-  en: Description of weights_basemodel.
+  en: Are the weights of the base models made freely available?
 weights_endmodel:
-  en: Description of weights_endmodel.
+  en: Are the weights of the model that the enduser interacts with made freely available?
 trainingcode:
-  en: Description of trainingcode.
+  en: Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
 datasources:
-  en: Description of datasources.
+  en: Are datasources for training the model comprehensively documented and freely made available? 
 weights:
-  en: Description of weights.
+  en: Are the weights of the model that the enduser interacts with made freely available?
 watermarking:
-  en: Description of watermarking.
+  en: Are watermarking techniques comprehensively documented and shared? 
 prompt_moderation:
-  en: Description of prompt_moderation.
+  en: Is prompt moderation comprehensively documented and shared? 
 code:
-  en: Description of code.
+  en: Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
 architecture:
-  en: Description of architecture.
+  en: Is the hardware architecture used for datasource processing and model training comprehensively documented?
 preprint:
-  en: Description of preprint.
+  en: Are archived preprint(s) are available that detail all major parts of the system including datasource processing, model training and tuning steps?
 paper:
-  en: Description of paper.
+  en: Are peer-reviewed scientific publications available that detail all major parts of the system including datasource processing, model training and tuning steps?
 modelcard:
-  en: Description of modelcard.
+  en: Is a model card in standardized format available that provides comprehensive insight on model architecture, training, fine-tuning, and evaluation are available?
 datasheet:
-  en: Description of datasheet.
+  en: Is a datasheet as defined in "Datasheets for Datasets" (Gebru et al. 2021) available?
 package:
-  en: Description of package.
+  en: Is a packaged release of the model available on a software repository (e.g. a Python Package Index, Homebrew)?
 api:
-  en: Description of api.
+  en: Is an API available that provides unrestricted access to the model (other than security and CDN restrictions)?
 licenses:
-  en: Description of licenses.
+  en: Is the project fully covered by Open Source Initiative (OSI)-approved licenses, including all data sources and training pipeline code?
