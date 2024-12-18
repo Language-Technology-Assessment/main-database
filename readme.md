@@ -54,6 +54,7 @@ Are datasources for training the base model comprehensively documented and freel
     🟩 All training  data sources of base large language model are not open for inspection or shared.
 
 **datasources_endmodel**
+
 Are datasources for training the model that the enduser interacts with comprehensively documented and freely made available? 
 
     🟥 Training data sources of the end model are not open for inspection or shared.
@@ -63,6 +64,7 @@ Are datasources for training the model that the enduser interacts with comprehen
     🟩 All training  data sources of end large language model are not open for inspection or shared.
 
 **weights_basemodel**
+
 Are the weights of the base models made freely available?
 
     🟥 Weights of the base model are not shared.
@@ -72,6 +74,7 @@ Are the weights of the base models made freely available?
     🟩 Weights of the base model are shared.
 
 **weights_endmodel**
+
 Are the weights of the model that the enduser interacts with made freely available?
 
     🟥 Weights of the user-facing end model are not shared.
@@ -81,6 +84,7 @@ Are the weights of the model that the enduser interacts with made freely availab
     🟩 Weights of the user-facing end model are shared.
 
  **trainingcode**
+ 
  Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
 
     🟥 No source code available.
@@ -92,6 +96,7 @@ Are the weights of the model that the enduser interacts with made freely availab
 ## **Documentation**
 
 **Code**
+
 Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
    
     🟥 Code documentation not available.
@@ -101,6 +106,7 @@ Is the source code of datasource processing, model training and tuining comprehe
     🟩 All components of the system features a comprehensive code documentation.
 
 **Architecture**
+
 Is the hardware architecture used for datasource processing and model training comprehensively documented?
 
     🟥 System architecture and model training setup are not documented.
@@ -110,6 +116,7 @@ Is the hardware architecture used for datasource processing and model training c
     🟩 System architecture and model training setup is fully documented.
 
 **Preprint**
+
 Are archived preprint(s) are available that detail all major parts of the system including datasource processing, model training and tuning steps?
 
     🟥 No archived preprint(s) available.
@@ -119,6 +126,7 @@ Are archived preprint(s) are available that detail all major parts of the system
     🟩 Archived preprint(s) are available that detail all major parts of the system including datasource processing, model training and tuning steps.
 
 **Paper**
+
 Are peer-reviewed scientific publications available that detail all major parts of the system including datasource processing, model training and tuning steps?
 
     🟥 No peer-reviewed paper(s) available.
@@ -128,6 +136,7 @@ Are peer-reviewed scientific publications available that detail all major parts 
     🟩 Peer-reviewed paper(s) are available that cover all parts of the software including base models, fine-tuning, and RLHF components.
 
 **Model card**
+
 Is a model card in standardized format available that provides comprehensive insight on model architecture, training, fine-tuning, and evaluation are available?
 
     🟥 Model card(s) not available.
@@ -137,6 +146,7 @@ Is a model card in standardized format available that provides comprehensive ins
     🟩 Model card(s) are available that provide comprehensive insight on model architecture, training, fine-tuning, and evaluation are available.
 
 **Datasheet**
+
 Is a datasheet as defined in "Datasheets for Datasets" (Gebru et al. 2021) available?
 
     🟥 Datasheet(s) are not available.
@@ -149,6 +159,7 @@ Is a datasheet as defined in "Datasheets for Datasets" (Gebru et al. 2021) avail
 ## **Access methods**
 
 **Package**
+
 Is a packaged release of the model available on a software repository (e.g. a Python Package Index, Homebrew)?
 
     🟥 No index software package is available.
@@ -159,6 +170,7 @@ Is a packaged release of the model available on a software repository (e.g. a Py
 
 
 **API**
+
 Is an API available that provides unrestricted access to the model (other than security and CDN restrictions)?
 
     🟥 No API access.
@@ -169,6 +181,7 @@ Is an API available that provides unrestricted access to the model (other than s
 
     
 **Licenses**
+
 Is the project fully covered by Open Source Initiative (OSI)-approved licenses, including all data sources and training pipeline code?
 
     🟥 The project is not licensed clearly or does not use an Open Source Initiative (OSI)-approved license.
