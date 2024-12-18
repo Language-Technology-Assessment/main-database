@@ -44,6 +44,7 @@ For each model, the yaml files in this database collect (1)some general informat
 ## **Availability**
 
 **datasources_basemodel**
+Are datasources for training the base model comprehensively documented and freely made available? 
   
     🟥 Training data sources of base large language model are not open for inspection or shared.
     
@@ -52,6 +53,7 @@ For each model, the yaml files in this database collect (1)some general informat
     🟩 All training  data sources of base large language model are not open for inspection or shared.
 
 **datasources_endmodel**
+Are datasources for training the model that the enduser interacts with comprehensively documented and freely made available? 
 
     🟥 Training data sources of the end model are not open for inspection or shared.
     
@@ -60,6 +62,7 @@ For each model, the yaml files in this database collect (1)some general informat
     🟩 All training  data sources of end large language model are not open for inspection or shared.
 
 **weights_basemodel**
+Are the weights of the base models made freely available?
 
     🟥 Weights of the base model are not shared.
     
@@ -68,6 +71,7 @@ For each model, the yaml files in this database collect (1)some general informat
     🟩 Weights of the base model are shared.
 
 **weights_endmodel**
+Are the weights of the model that the enduser interacts with made freely available?
 
     🟥 Weights of the user-facing end model are not shared.
     
@@ -76,8 +80,9 @@ For each model, the yaml files in this database collect (1)some general informat
     🟩 Weights of the user-facing end model are shared.
 
  **trainingcode**
+ Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
 
-    🟥 Project is closed source code.
+    🟥 No source code available.
     
     🟧 Some source code is open.
     
@@ -86,7 +91,8 @@ For each model, the yaml files in this database collect (1)some general informat
 ## **Documentation**
 
 **Code**
- 
+Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
+   
     🟥 Code documentation not available.
     
     🟧 Some components of the system features code documentation, but not every step of base and/or end model training and tuning  is documented (irrespective of whether these components are shared).
@@ -94,6 +100,7 @@ For each model, the yaml files in this database collect (1)some general informat
     🟩 All components of the system features a comprehensive code documentation.
 
 **Architecture**
+Is the hardware architecture used for datasource processing and model training comprehensively documented?
 
     🟥 System architecture and model training setup are not documented.
     
@@ -102,14 +109,16 @@ For each model, the yaml files in this database collect (1)some general informat
     🟩 System architecture and model training setup is fully documented.
 
 **Preprint**
+Are archived preprint(s) are available that detail all major parts of the system including datasource processing, model training and tuning steps?
 
     🟥 No archived preprint(s) available.
     
-    🟧 Archived preprint(s) that detail parts of the software including base models, fine-tuning, or RLHF components are available.
+    🟧 Archived preprint(s) that detail some parts of the system including datasource processing, model training and tuning steps.
     
-    🟩 Archived preprint(s) are available that cover all parts of the software including base models, fine-tuning, and RLHF components.
+    🟩 Archived preprint(s) are available that detail all major parts of the system including datasource processing, model training and tuning steps.
 
 **Paper**
+Are peer-reviewed scientific publications available that detail all major parts of the system including datasource processing, model training and tuning steps?
 
     🟥 No peer-reviewed paper(s) available.
     
@@ -118,6 +127,7 @@ For each model, the yaml files in this database collect (1)some general informat
     🟩 Peer-reviewed paper(s) are available that cover all parts of the software including base models, fine-tuning, and RLHF components.
 
 **Model card**
+Is a model card in standardized format available that provides comprehensive insight on model architecture, training, fine-tuning, and evaluation are available?
 
     🟥 Model card(s) not available.
     
@@ -126,42 +136,44 @@ For each model, the yaml files in this database collect (1)some general informat
     🟩 Model card(s) are available that provide comprehensive insight on model architecture, training, fine-tuning, and evaluation are available.
 
 **Datasheet**
-
-A datasheet should follow the standards defined in [Datasheets for Datasets](https://doi.org/10.1145/3458723) by Gebru et al. (2021)
+Is a datasheet as defined in "Datasheets for Datasets" (Gebru et al. 2021) available?
 
     🟥 Datasheet(s) are not available.
     
     🟧 Datasheet(s) that provide partial insight on data collection and curation are available.
     
-    🟩 Datasheet(s) are available that provide comprehensive insight on data collection and curation are available.
+    🟩 Datasheet(s) are available that provide comprehensive insight on data collection and curation are available following the standards defined in [Datasheets for Datasets](https://doi.org/10.1145/3458723) by Gebru et al. (2021)
 
 
 ## **Access methods**
 
 **Package**
+Is a packaged release of the model available on a software repository (e.g. a Python Package Index, Homebrew)?
 
     🟥 No index software package is available.
     
     🟧 User-oriented code or web-interface is available but not as a versioned package.
     
-    🟩 A packaged release of fully open-source software (e.g. a Python Package Index, Homebrew) is available.
+    🟩 A packaged release of the model available on a software repository is available (e.g. a Python Package Index, Homebrew).
 
 
 **API**
+Is an API available that provides unrestricted access to the model (other than security and CDN restrictions)?
 
     🟥 No API access.
     
     🟧 Commerial or restricted-access user API is available.
     
-    🟩 An open API available that provides unrestricted access to the text generator (other than security and CDN restrictions).
+    🟩 An API available that provides unrestricted access to the model (other than security and CDN restrictions).
 
     
 **Licenses**
+Is the project fully covered by Open Source Initiative (OSI)-approved licenses, including all data sources and training pipeline code?
 
     🟥 The project is not licensed clearly or does not use an Open Source Initiative (OSI)-approved license.
     
     🟧 Only parts of the model and data sources are released under an  Open Source Initiative (OSI)-approved license, such as model weights.
     
-    🟩 The project is fully covered by a true Open Source Initiative (OSI)-approved license, including all data sources and training pipeline code.
+    🟩 The project is fully covered by Open Source Initiative (OSI)-approved license, including all data sources and training pipeline code.
        
 
