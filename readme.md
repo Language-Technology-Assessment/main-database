@@ -191,3 +191,26 @@ Is the project fully covered by Open Source Initiative (OSI)-approved licenses, 
     🟩 The project is fully covered by Open Source Initiative (OSI)-approved license, including all data sources and training pipeline code.
        
 
+# Additional openness criteria for text-to-image generators only
+
+**Watermarking**
+
+Are watermarking techniques comprehensively documented and shared? 
+
+    🟥 Watermarking techniques is used but not documented. 
+    
+    🟧 Some information about watermarking techniques are documented and/or shared. 
+    
+    🟩 Watermarking techniques are comprehensively documented and shared or not applied. 
+
+
+**Prompt moderation**
+
+Is prompt moderation comprehensively documented and shared? 
+
+    🟥 Prompt moderation is used but not documented. 
+    
+    🟧 Some information about prompt moderation is documented and/or shared. 
+    
+    🟩 Prompt moderation is comprehensively documented and shared or not applied. 
+
