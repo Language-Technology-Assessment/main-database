@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
+    name: SmolLM2
+    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct
+    type: text 
+    basemodelname: SmollLM2
+    endmodelname: SmolLM2-Instruct
+    endmodellicense: Apache-2.0
+    releasedate: 2024-10
+    notes: 
+
+org:
+    name: HuggingFace
+    link: https://www.huggingface.co/
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link:
+    notes: Data sources described in very broad terms in model card as 'FineWeb-Edu, DCLM, The Stack, along with new mathematics and coding datasets that we curated and will release soon'.
+
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/HuggingFaceTB/smoltalk
+    notes: Data sources for fine-tuning provided through HuggingFace.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B/tree/main
+    notes: Weights for the base model freely available under Apache-2.0 license.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct/tree/main
+    notes: Weights for the fine-tuned model freely available under Apache-2.0 license.
+
+trainingcode:
+    class: open
+    link: https://github.com/huggingface/smollm
+    notes: Training code made available on GitHub, though pre-training code does not mention the datasets to use.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/huggingface/smollm
+    notes: GitHub repository is well-documented.
+
+architecture:
+    class: closed
+    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct
+    notes: Model card only mentions architecture is a 'transformer decoder', no details provided.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint found.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct
+    notes: Model card provides information about training, fine-tuning, and evaluation, but not about architecture.
+
+datasheet:
+    class: open
+    link: https://huggingface.co/datasets/HuggingFaceTB/smoltalk
+    notes: Datasheet contains requisite information.
+
+# access:
+package:
+    class: partial
+    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct#how-to-use
+    notes: Available through transformers library or trl.
+
+api:
+    class: partial
+    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct
+    notes: model available through HuggingFace inference API. 
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B#license, https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct#license
+    notes: Both base model and fine-tuned model are licensed under Apache-2.0.
+

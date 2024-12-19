@@ -89,10 +89,10 @@ package:
     notes: Package not provided
 
 api:
-    class: partial
-    link:
-    notes: API only available behind a privacy-defying signup form
-    metaprompt: closed 
+    class: closed
+    link: https://www.meta.ai/?utm_source=ai_meta_site&utm_medium=web&utm_content=AI_nav&utm_campaign=April_moment
+    notes: API not available in EU.
+    metaprompt: closed
     
 licenses:
     class: closed

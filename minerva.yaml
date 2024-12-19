@@ -1,0 +1,99 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
+    name: Minerva-7B
+    link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0
+    type: text 
+    basemodelname: Minerva-7B-base-v1.0
+    endmodelname: Minerva-7B-instruct-v1.0
+    endmodellicense: Apache 2.0
+    releasedate: 2024-11
+    notes:
+
+org:
+    name: Sapienza Natural Language Processing Group
+    link: https://nlp.uniroma1.it/
+    notes:
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: https://huggingface.co/sapienzanlp/Minerva-7B-base-v1.0#training-data
+    notes: Data mixture is shared, but not all data in listed datasets is used and no data set containing selected data is provided.
+
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0#sft-training
+    notes: Data mixture is provided with links, though again it is not always indicated which parts of the datasets are used.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/sapienzanlp/Minerva-7B-base-v1.0
+    notes: Base LLM model made available for download
+    
+weights_endmodel:
+    class: Open
+    link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0
+    notes: Instruct version of the model made available
+
+trainingcode:
+    class: partial
+    link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0
+    notes: Model card contains very broad description of how the model was trained.
+
+# documentation:
+code:
+    class: closed
+    link: 
+    notes: No explicit code is provided, so consequently no documentation of code exists.
+
+architecture:
+    class: partial
+    link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0#model-architecture
+    notes: Architecture described at a high level in model card.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint found.
+
+paper:
+    class: closed
+    link:
+    notes: No peer reviewed paper available
+
+modelcard:
+    class: open
+    link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0
+    notes: Model card is made available and provides insights into necessary components.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet available.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API available.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md
+    notes: Apache 2.0
