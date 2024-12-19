@@ -13,6 +13,7 @@ system:
     name: NeuralChat 7B
     link: https://huggingface.co/Intel/neural-chat-7b-v3-1
     type: text 
+    performanceclass: 
     basemodelname: Mistral 7B
     endmodelname: Orca
     endmodellicense: Apache 2.0

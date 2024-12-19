@@ -13,6 +13,7 @@ system:
     name: Open Assistant
     link: https://open-assistant.io/
     type: text 
+    performanceclass: 
     basemodelname: Pythia 12B
     endmodelname: OpenAssistant Conversations
     endmodellicense: Apache 2.0

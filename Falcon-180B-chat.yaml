@@ -13,6 +13,7 @@ system:
     name: Falcon-180B-chat
     link: https://huggingface.co/tiiuae/falcon-180B-chat
     type: text
+    performanceclass: 
     basemodelname: Falcon 180B
     endmodelname: OpenPlatypus, Ultrachat, Airoboros (synthetic)
     endmodellicense: FALCON 180B TII LICENSE VERSION 1.0

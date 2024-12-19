@@ -13,6 +13,7 @@ system:
     name: Koala 13B
     link: https://bair.berkeley.edu/blog/2023/04/03/koala/
     type: text
+    performanceclass: 
     basemodel: LLaMA 13B
     datasources_endmodel: HC3, ShareGPT, alpaca (synthetic)
     endmodellicense: Mixed

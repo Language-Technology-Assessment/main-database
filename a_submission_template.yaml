@@ -13,6 +13,7 @@ system:
     name:
     link:
     type:
+    performanceclass: 
     basemodelname:
     endmodelname:
     endmodellicense:

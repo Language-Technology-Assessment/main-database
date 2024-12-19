@@ -13,6 +13,7 @@ system:
     name: AmberChat
     link: https://huggingface.co/LLM360/AmberChat
     type: text
+    performanceclass: 
     basemodelname: Amber
     endmodelname: ShareGPT + Evol-Instruct (synthetic)
     endmodellicense: Apache 2.0

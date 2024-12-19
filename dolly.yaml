@@ -13,6 +13,7 @@ system:
     name: dolly
     link: https://github.com/databrickslabs/dolly
     type: text
+    performanceclass: 
     basemodelname: EleutherAI pythia
     endmodelname: databricks-dolly-15k
     endmodellicense:

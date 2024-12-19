@@ -13,6 +13,7 @@ system:
     name: Teuken-7B-instruct
     link: https://huggingface.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4
     type: text
+    performanceclass: 
     basemodelname: Teuken-7B-base
     endmodelname: Teuken-7B-instruct
     endmodellicense: Apache 2.0

@@ -13,6 +13,7 @@ system:
     name: StableVicuna-13B
     link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
     type: text 
+    performanceclass: 
     basemodelname: LLaMA
     endmodelname: OASST1 (human), GPT4All (human), Alpaca (synthetic)
     endmodellicense: Meta Community License

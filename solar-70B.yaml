@@ -13,6 +13,7 @@ system:
     name: Solar 70B
     link: https://huggingface.co/upstage/SOLAR-0-70b-16bit
     type: text 
+    performanceclass: 
     basemodelname: LLaMA2
     endmodelname: Orca-style, Alpaca-style
     endmodellicense: Meta Community license, CC-BY-NC 4.0

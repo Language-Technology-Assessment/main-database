@@ -13,6 +13,7 @@ system:
     name: DeepFloyd IF
     link: https://github.com/deep-floyd/IF
     type: image
+    performanceclass: 
     modelname: IF-I-XL-v1.0 
     endlicense: deepfloyd-if-license
     releasedate: 

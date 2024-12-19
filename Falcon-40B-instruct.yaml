@@ -13,6 +13,7 @@ system:
     name: Falcon-40B-instruct
     link: https://huggingface.co/tiiuae/falcon-40b-instruct
     type: text
+    performanceclass: 
     basemodelname: Falcon 40B
     endmodelname: Baize (synthetic)
     endmodellicense:  Apache 2.0 license

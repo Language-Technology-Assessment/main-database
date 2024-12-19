@@ -13,6 +13,7 @@ system:
     name: ChatGLM-6B
     link: https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md
     type: text
+    performanceclass: 
     basemodelname: GLM (own)
     endmodelname: Unspecified
     endmodellicense: Apache 2.0

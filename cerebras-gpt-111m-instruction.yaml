@@ -13,6 +13,7 @@ system:
     name: Cerebras GPT 111M Instruction
     link: https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction
     type: text
+    performanceclass: 
     basemodelname: Cerebras
     endmodelname: Alpaca (synthetic)
     endmodellicense: Apache 2.0

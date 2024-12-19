@@ -13,6 +13,7 @@ system:
     name: Yi 34B Chat
     link: https://huggingface.co/01-ai/Yi-34B-Chat
     type: text 
+    performanceclass: 
     basemodelname: Yi 34B
     endmodelname: unspecified
     endmodellicense: Apache 2.0

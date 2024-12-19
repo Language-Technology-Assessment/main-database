@@ -13,6 +13,7 @@ system:
     name: Stable Diffusion
     link: https://stability.ai/stable-image
     type: image
+    performanceclass: 
     modelname: Stable Diffusion 3.5 large
     endlicense: Stability AI Community License
     releasedate: 2024-10

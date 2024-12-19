@@ -13,6 +13,7 @@ system:
     name: Command R+
     link: https://huggingface.co/CohereForAI/c4ai-command-r-v01
     type: text
+    performanceclass: 
     basemodelname: 
     endmodelname: Aya Collection
     endmodellicense: CC-BY-NC and C4AI acceptable use policy

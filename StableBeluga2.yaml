@@ -13,6 +13,7 @@ system:
     name: Stable Beluga 2
     link: https://huggingface.co/stabilityai/StableBeluga2
     type: text 
+    performanceclass: 
     basemodelname: LLaMA2
     endmodelname: Orca-style (synthetic)
     endmodellicense: Stable Beluga Non-Commercial Community License

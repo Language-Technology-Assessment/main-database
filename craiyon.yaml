@@ -13,6 +13,7 @@ system:
     name: Craiyon
     link: https://www.craiyon.com
     type: image
+    performanceclass: 
     modelname: Craiyon v4
     endlicense: Stability AI Community License
     releasedate: custom license

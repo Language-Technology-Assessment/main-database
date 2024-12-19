@@ -13,6 +13,7 @@ system:
     name: Gemma 7B Instruct
     link: https://ai.google.dev/gemma/docs
     type: text
+    performanceclass: 
     basemodelname: Gemma
     endmodelname: Unspecified
     endmodellicense:

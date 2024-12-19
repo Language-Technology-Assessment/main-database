@@ -13,6 +13,7 @@ system:
     name: MPT-7B Instruct
     link: https://huggingface.co/mosaicml/mpt-7b-instruct
     type: text 
+    performanceclass: 
     basemodelname: MosaicML
     endmodelname: dolly, anthropic
     endmodellicense: Apache 2.0

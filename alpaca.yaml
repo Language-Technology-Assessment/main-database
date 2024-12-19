@@ -13,6 +13,7 @@ system:
     name: Stanford Alpaca
     link: https://crfm.stanford.edu/2023/03/13/alpaca.html
     type: text
+    performanceclass: 
     basemodelname: LLaMA
     endmodelname: Self-Instruct (synthetic)
     endmodellicense: LLaMA license agreement

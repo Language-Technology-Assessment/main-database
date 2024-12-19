@@ -13,6 +13,7 @@ system:
     name: Geitje Ultra 7B
     link: https://huggingface.co/BramVanroy/GEITje-7B-ultra
     type: text
+    performanceclass: 
     basemodelname: Mistral 7B
     endmodelname: Ultrafeedback Dutch (synthetic)
     endmodellicense: CC-BY-ND

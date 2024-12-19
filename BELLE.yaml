@@ -13,6 +13,7 @@ system:
     name: BELLE
     link: https://github.com/LianjiaTech/BELLE
     type: text
+    performanceclass: 
     basemodelname: LLaMA & BLOOMZ
     endmodelname: alpaca, shareGPT, Belle (synthetic)
     endmodellicense: Apache License 2.0

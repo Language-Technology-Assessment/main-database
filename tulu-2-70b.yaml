@@ -13,6 +13,7 @@ system:
     name: Tulu V2 DPO 70B 
     link: https://huggingface.co/allenai/tulu-2-dpo-70b
     type: text 
+    performanceclass: 
     basemodelname: Llama2
     endmodelname: Tulu SFT, Ultrafeedback
     endmodellicense: AI2 ImpACT license
