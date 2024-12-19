@@ -10,50 +10,50 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Llama 3.1
-    link: https://huggingface.co/meta-llama/Meta-Llama-3.1-405B
+    name: Llama 3.3
+    link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
     type: text 
-    basemodelname: Meta Llama 3
-    endmodelname: Meta, undocumented
-    endmodellicense: Meta Llama 3 Community License
-    releasedate: 
+    basemodelname: Llama 3.3 70B
+    endmodelname: Llama 3.3 70B Instruct
+    endmodellicense: Llama 3.3 Community License Agreement
+    releasedate: 2024-12
     notes:
 
 org:
-    name: Facebook Research
-    link: https://github.com/facebookresearch
+    name: Meta Llama
+    link: https://github.com/meta-llama
     notes:
 
 # availability:
 datasources_basemodel:
     class: closed
     link:
-    notes: Data nowhere disclosed or documented, and described in the llama 3.1 paper as "obtained from the web" 
+    notes: Data nowhere disclosed or documented, and described in the model card as "a new mix of publicly available online data."
     
 datasources_endmodel:
     class: closed
     link:
-    notes: No information available on instruction-tuning.
+    notes: Data nowhere disclosed or documented, the only information regarding fine-tuning data is an assurance that the data was collected with high quality standards.
 
 weights_basemodel:
-    class: partial
-    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
-    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
+    class: closed
+    link:  
+    notes: No HuggingFace page exists for the base model.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
+    class: partial
+    link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
+    notes: Inspecting the training weights requires signing the Llama 3.3 Community License Agreement, not an OSI recognised open license
 
 trainingcode:
     class: partial
-    link: https://github.com/meta-llama/llama3
+    link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
     notes: Repository only offers code for inference pipeline
 
 # documentation:
 code:
     class: partial
-    link:
+    link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
     notes: Code provide only model architecture and an inferencing pipeline examples; some files are documented.
 
 architecture:
@@ -62,9 +62,9 @@ architecture:
     notes: Architecture described in paper, energy consumtion and environmental impact disclosed in model card, but not in paper; training process not fully documented
 
 preprint:
-    class: open 
-    link: ["https://arxiv.org/abs/2407.21783","https://ai.meta.com/blog/meta-llama-3-1/"]
-    notes: No preprint or any other scientific documentation available.
+    class: closed
+    link: "https://arxiv.org/abs/2407.21783"
+    notes: Preprint only exists for the base Llama 3 modoel
 
 paper:
     class: closed
@@ -73,7 +73,7 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/meta-llama/Meta-Llama-3.1-405B
+    link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
     notes: There is a model card, but it does not disclose the training process
 
 datasheet:
@@ -83,9 +83,9 @@ datasheet:
 
 # access:
 package:
-    class: open
+    class: closed
     link: https://pypi.org/project/llama-models/
-    notes: Package is provided in Pypi
+    notes: Package is provided in Pypi, but does not yet incorporate Llama 3.3.
 
 api:
     class: closed
@@ -95,5 +95,5 @@ api:
 
 licenses:
     class: closed
-    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
-    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
+    link:  https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
+    notes: Inspecting the training weights requires signing the Llama 3.3 Community License Agreement, not an OSI recognised open license
