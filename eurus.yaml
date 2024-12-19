@@ -1,0 +1,99 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
+    name: Eurus
+    link: https://huggingface.co/openbmb/Eurus-70b-nca
+    type: text
+    basemodelname: CodeLlama-70B
+    endmodelname: Eurus-70B-NCA
+    endmodellicense: Apache 2.0 
+    releasedate: 2024-04
+    notes:
+
+org:
+    name: OpenBMB
+    link: https://www.openbmb.cn/
+    notes:
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: No data sources were disclosed for the training of CodeLlama. The paper merely refers to abstract 'code'.
+    
+datasources_endmodel:
+    class: open
+    link: https://arxiv.org/abs/2404.02078
+    notes: Data mixture used is laid out consisely and clearly in source paper.
+
+weights_basemodel:
+    class: partial
+    link: https://huggingface.co/meta-llama/CodeLlama-70b-hf/tree/main
+    notes: CodeLlama weights published on HuggingFace as a gated model.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/openbmb/Eurus-70b-nca/tree/main
+    notes: Weights published on HuggingFace.
+
+trainingcode:
+    class: closed
+    link:
+    notes: No training code provided.
+
+# documentation
+code:
+    class: partial
+    link: https://github.com/OpenBMB/Eurus/tree/main
+    notes: Only evaluation code found in the repositories, which is documented to a small extent.
+
+architecture:
+    class: open
+    link: https://arxiv.org/abs/2404.02078
+    notes: Architecture described in detail in the paper.
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2404.02078
+    notes: Preprint published on ArXiV
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/openbmb/Eurus-70b-nca
+    notes: Model card provides a decent overview of the model.
+
+datasheet:
+    class: partial
+    link: https://huggingface.co/datasets/openbmb/UltraFeedback, https://huggingface.co/datasets/openbmb/UltraInteract_sft
+    notes: Some data sheets are provided, however no data sheet for the combined mixtures. Some linked sheets lead to 404 pages.
+
+# access
+package:
+    class: closed
+    link:
+    notes: No package found.
+
+api:
+    class: closed
+    link:
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/openbmb/Eurus-70b-nca/tree/main
+    notes: Apache 2.0
