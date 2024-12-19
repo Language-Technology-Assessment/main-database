@@ -1,0 +1,99 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: ÒLMo-2
+    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct
+    type: text 
+    basemodelname: OLMo-2-1124-13B
+    endmodelname: OLMo-2-1124-13B-Instruct
+    endmodellicense: Apache 2.0
+    releasedate: 2024-11
+    notes:
+
+org:
+    name: Ai2
+    link: https://allenai.org
+    notes: Allen Institute for AI (non-profit research institute)
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/datasets/allenai/olmo-mix-1124, https://huggingface.co/datasets/allenai/dolmino-mix-1124
+    notes: Training data for base model released and use documented.
+
+datasources_endmodel:
+    class: partial
+    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct/blob/main/allenai/tulu-3-sft-olmo-2-mixture, https://huggingface.co/datasets/allenai/olmo-2-1124-13b-preference-mix, https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints
+    notes: Data for fine-tuning published in a well-organized manner, however one of the data sets linked leads to a 404 page.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/collections/allenai/olmo-2-674117b93ab84e98afc72edc
+    notes: Model weights available in many stages.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/collections/allenai/olmo-2-674117b93ab84e98afc72edc
+    notes: Model weights available in many stages.
+
+trainingcode:
+    class: open
+    link: https://github.com/allenai/OLMo
+    notes: Multiple repos with training, architecture and fine-tuning code available
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/allenai/OLMo
+    notes: repositories and code well-described, commented and documented
+
+architecture:
+    class: partial
+    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct#model-sources
+    notes: Architecture documented in some detail, however a technical blog post and/or paper is as yet missing to provide full info.
+
+preprint:
+    class: closed
+    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct#model-sources
+    notes: Model card states that paper is 'coming soon'.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct
+    notes: Model card provides broad overview and links to full details.
+
+datasheet:
+    class: partial
+    link: https://huggingface.co/datasets/allenai/olmo-2-1124-13b-preference-mix, https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints
+    notes: Data sheets are well-documented for extant links, however one link is currently not working.
+
+# access:
+package:
+    class: partial
+    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct
+    notes: Package only available through transformers.
+
+api:
+    class: partial
+    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct
+    notes: Available through HuggingFace though model is too large to run on free inference API
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct#license-and-use
+    notes: Apache 2.0
