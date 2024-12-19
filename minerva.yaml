@@ -95,5 +95,5 @@ api:
 
 licenses:
     class: open
-    link: https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md
+    link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0
     notes: Apache 2.0
