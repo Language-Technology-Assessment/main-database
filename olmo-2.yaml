@@ -13,6 +13,7 @@ system:
     name: ÒLMo-2
     link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct
     type: text 
+    performanceclass: 
     basemodelname: OLMo-2-1124-13B
     endmodelname: OLMo-2-1124-13B-Instruct
     endmodellicense: Apache 2.0

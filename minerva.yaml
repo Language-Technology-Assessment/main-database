@@ -13,6 +13,7 @@ system:
     name: Minerva-7B
     link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0
     type: text 
+    performanceclass: 
     basemodelname: Minerva-7B-base-v1.0
     endmodelname: Minerva-7B-instruct-v1.0
     endmodellicense: Apache 2.0
