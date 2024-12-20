@@ -13,6 +13,7 @@ system:
     name: Eurus
     link: https://huggingface.co/openbmb/Eurus-70b-nca
     type: text
+    performanceclass: 
     basemodelname: CodeLlama-70B
     endmodelname: Eurus-70B-NCA
     endmodellicense: Apache 2.0 

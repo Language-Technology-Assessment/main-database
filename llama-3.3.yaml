@@ -13,6 +13,7 @@ system:
     name: Llama 3.3
     link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
     type: text 
+    performanceclass: 
     basemodelname: Llama 3.3 70B
     endmodelname: Llama 3.3 70B Instruct
     endmodellicense: Llama 3.3 Community License Agreement
