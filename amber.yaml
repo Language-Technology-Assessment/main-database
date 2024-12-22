@@ -17,7 +17,7 @@ system:
     basemodelname: Amber
     endmodelname: ShareGPT + Evol-Instruct (synthetic)
     endmodellicense: Apache 2.0
-    releasedate: 
+    releasedate: 2023-11
     notes:
 
 org:
