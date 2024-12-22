@@ -17,7 +17,7 @@ system:
     basemodelname: Cerebras
     endmodelname: Alpaca (synthetic)
     endmodellicense: Apache 2.0
-    releasedate: 
+    releasedate: 2023-04
     notes:
 
 org:
