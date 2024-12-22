@@ -17,7 +17,7 @@ system:
     basemodelname: LLaMA
     endmodelname: Self-Instruct (synthetic)
     endmodellicense: LLaMA license agreement
-    releasedate: 
+    releasedate: 2024-03
     notes:
 
 org:
