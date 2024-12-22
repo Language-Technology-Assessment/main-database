@@ -18,7 +18,7 @@ system:
     datasources_endmodel: HC3, ShareGPT, alpaca (synthetic)
     endmodellicense: Mixed
     notes: From the documentation 'Koala is fine-tuned on freely available interaction data scraped from the web, but with a specific focus on data that includes interaction with highly capable closed-source models such as ChatGPT.'
-    releasedate:
+    releasedate: 2023-03
 
 org:
     name: BAIR
