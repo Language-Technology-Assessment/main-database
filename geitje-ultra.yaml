@@ -17,7 +17,7 @@ system:
     basemodelname: Mistral 7B
     endmodelname: Ultrafeedback Dutch (synthetic)
     endmodellicense: CC-BY-ND
-    releasedate: 
+    releasedate: 2024-01
     notes: Dutch instruction-tuned model based on Mistral 7B
 
 org:
@@ -53,9 +53,9 @@ trainingcode:
 
 # documentation:
 code:
-    class: closed
-    link:
-    notes: Only limited code repositories and no clear centralized documentation of code
+    class: partial
+    link: https://github.com/mistralai/mistral-inference/tree/main/src/mistral_inference
+    notes: collection of code on github repository, although not very clearly documented and commented.
 
 architecture:
     class: partial
