@@ -17,7 +17,7 @@ system:
     basemodelname: EleutherAI pythia
     endmodelname: databricks-dolly-15k
     endmodellicense:
-    releasedate: 
+    releasedate: 2023-03
     notes:
 
 org:
@@ -33,8 +33,8 @@ datasources_basemodel:
     
 datasources_endmodel:
     class: open
-    link:
-    notes:
+    link: https://huggingface.co/datasets/databricks/databricks-dolly-15k
+    notes: fine-tuning data hosted on huggingface.
 
 weights_basemodel:
     class: open
@@ -43,13 +43,13 @@ weights_basemodel:
 
 weights_endmodel:
     class: closed
-    link:
-    notes:
+    link: https://huggingface.co/databricks/dolly-v2-7b
+    notes: downloadable on their huggingface repositories.
 
 trainingcode:
     class: open
-    link:
-    notes:
+    link: https://github.com/databrickslabs/dolly/tree/master/training
+    notes: training code available on the github repository.
 
 # documentation
 code:
