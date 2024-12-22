@@ -16,7 +16,7 @@ system:
     performanceclass: 
     modelname: IF-I-XL-v1.0 
     endlicense: deepfloyd-if-license
-    releasedate: 
+    releasedate: 2023-04
     notes:
 
 org:
@@ -27,13 +27,13 @@ org:
 # availability:
 datasources:
     class: partial
-    link:
-    notes:
+    link: https://huggingface.co/DeepFloyd/IF-I-L-v1.0
+    notes: training data is described, but no in-depth insights.
     
 weights:
     class: open
-    link:
-    notes:
+    link: https://huggingface.co/DeepFloyd/IF-I-L-v1.0/tree/main
+    notes: weights available for download on the huggingface repository.
 
 watermarking:
     class: closed
@@ -53,8 +53,8 @@ trainingcode:
 # documentation:
 code:
     class: partial
-    link:
-    notes:
+    link: https://github.com/deep-floyd/IF/tree/develop/deepfloyd_if
+    notes: github repository provides code, although not clearly documented.
 
 architecture:
     class: partial
@@ -73,8 +73,8 @@ paper:
 
 modelcard:
     class: open
-    link:
-    notes:
+    link: https://huggingface.co/DeepFloyd/IF-I-L-v1.0
+    notes: comprehensive model card with insights on architecture, training, and evaluation. 
 
 datasheet:
     class: closed
