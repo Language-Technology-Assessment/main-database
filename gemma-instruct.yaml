@@ -17,7 +17,7 @@ system:
     basemodelname: Gemma
     endmodelname: Unspecified
     endmodellicense:
-    releasedate:     
+    releasedate: 2024-02
     notes: Model weights and developer tools
 
 org:
