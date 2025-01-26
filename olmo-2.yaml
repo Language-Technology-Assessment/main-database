@@ -63,9 +63,9 @@ architecture:
     notes: Architecture documented in some detail, however a technical blog post and/or paper is as yet missing to provide full info.
 
 preprint:
-    class: closed
-    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct#model-sources
-    notes: Model card states that paper is 'coming soon'.
+    class: open
+    link: https://arxiv.org/abs/2501.00656
+    notes: Pre-print goes into impressive detail about the data, training process, architecture, and evaluation.
 
 paper:
     class: closed
