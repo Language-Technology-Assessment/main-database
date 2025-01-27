@@ -10,13 +10,13 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Deepseek V3
+    name: DeepSeek V3
     link: https://github.com/deepseek-ai/DeepSeek-V3
     type: text 
     performanceclass: 
-    basemodelname: Deepseek
-    endmodelname: Unspecified
-    endmodellicense: MIT Model License
+    basemodelname: DeepSeek-V3-Base
+    endmodelname: DeepSeek-V3
+    endmodellicense: DeepSeek License Agreement
     releasedate: 2025-01
     notes: 
 
@@ -29,12 +29,12 @@ org:
 datasources_basemodel:
     class: closed
     link:
-    notes: Pretraining data not specified or documented besides the claim that it amounts to 14.8T tokens in Chinese and English.
+    notes: Pretraining data not specified or documented besides the claim that it amounts to 14.8T tokens in Chinese and English. Proprietary dataset.
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: Post-training data not specified or documented.
+    notes: Post-training data not specified or documented. Said to include '1.5M instances'.
 
 weights_basemodel:
     class: open
@@ -54,7 +54,7 @@ trainingcode:
 # documentation:
 code:
     class: partial
-    link: https://github.com/QwenLM/Qwen1.5/
+    link: https://github.com/deepseek-ai/DeepSeek-V3/
     notes: Repository is sparsely documented.
 
 architecture:
