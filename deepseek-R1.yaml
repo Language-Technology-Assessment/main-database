@@ -10,12 +10,12 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: DeepSeek V3
-    link: https://github.com/deepseek-ai/DeepSeek-V3
+    name: DeepSeek R1
+    link: https://github.com/deepseek-ai/DeepSeek-R1
     type: text 
     performanceclass: 
     basemodelname: DeepSeek-V3-Base
-    endmodelname: DeepSeek-V3
+    endmodelname: DeepSeek-R1
     endmodellicense: DeepSeek License Agreement
     releasedate: 2025-01
     notes: 
@@ -43,29 +43,29 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/deepseek-ai/DeepSeek-V3
-    notes: Also available in smaller model sizes
+    link: https://huggingface.co/deepseek-ai/DeepSeek-R1
+    notes: 
 
 trainingcode:
-    class: partial
-    link: https://github.com/deepseek-ai/DeepSeek-V3/tree/main/inference
-    notes: Repository provides sparse source code and some examples for inference
+    class: closed
+    link: https://github.com/deepseek-ai/DeepSeek-R1
+    notes: Repository does not contain code.
 
 # documentation:
 code:
-    class: partial
+    class: closed
     link: https://github.com/deepseek-ai/DeepSeek-V3/
-    notes: Repository is sparsely documented.
+    notes: No code, so no documentation.
 
 architecture:
     class: partial
-    link:  https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf
-    notes: Model architecture described in a fair bit of detail in technical report
+    link:  https://arxiv.org/pdf/2412.19437
+    notes: Model architecture described in a fair bit of detail in base model technical report.
 
 preprint:
     class: open
-    link: https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf
-    notes: Corporate technical report provides info on infrastructure compute, performance, but nothing on pre- or post-training data.
+    link: https://arxiv.org/pdf/2501.12948
+    notes: Paper provides information about techniques used for constructing model, but nothing on pre- or post-training data.
 
 paper:
     class: closed
@@ -75,7 +75,7 @@ paper:
 modelcard:
     class: partial
     link: https://huggingface.co/deepseek-ai/DeepSeek-V3-Base
-    notes: Model card on HF provides basic summary but no info on intended downstream uses, scope, biases, risks and limitations
+    notes: Model card on HF provides basic summary but no info on intended downstream uses, scope, biases, risks and limitations.
 
 datasheet:
     class: closed
@@ -86,15 +86,15 @@ datasheet:
 package:
     class: partial
     link:
-    notes: No specific package provided by the authors but integrates well with many widely used packages
+    notes: No specific package provided by the authors but integrates well with many widely used packages.
 
 api:
     class: open
     link: platform.deepseek.com
-    notes: Available through various APIs
+    notes: Available through various APIs.
     metaprompt: closed
 
 licenses:
     class: partial
     link: https://huggingface.co/deepseek-ai/DeepSeek-V3-Base/blob/main/LICENSE-MODEL
-    notes: MIT License and a separate Model License
+    notes: MIT License and a separate Model License. Derived model (R1) claims to be fully licensed through MIT.
