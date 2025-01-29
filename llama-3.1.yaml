@@ -65,7 +65,7 @@ architecture:
 preprint:
     class: open 
     link: ["https://arxiv.org/abs/2407.21783","https://ai.meta.com/blog/meta-llama-3-1/"]
-    notes: No preprint or any other scientific documentation available.
+    notes: Technical report mentions some details about architecture but none about data used for pre and post-training.
 
 paper:
     class: closed
@@ -80,7 +80,7 @@ modelcard:
 datasheet:
     class: closed
     link:
-    notes: Datasheet not provided at all
+    notes: No datasheet found, and nothing is known about the data used for training or fine-tuning.
 
 # access:
 package:
