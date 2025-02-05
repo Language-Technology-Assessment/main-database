@@ -47,9 +47,9 @@ weights_endmodel:
     notes: Model weights offered as a delta to LLaMA
 
 trainingcode:
-    class: open
+    class: partial
     link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM
-    notes: 
+    notes: Reasonably useful source code repository but as this is based on Llama, the underlying source is not available.
 
 # documentation:
 code:
@@ -58,7 +58,7 @@ code:
     notes: Code is comprehensively documented and contains demos.
 
 architecture:
-    class: open
+    class: partial
     link: https://arxiv.org/abs/2304.12244
     notes: Architecture described in preprint and partly accessible in code repository
 
