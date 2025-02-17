@@ -47,9 +47,9 @@ weights_endmodel:
     notes: Fine-tuned weights available
 
 trainingcode:
-    class: open
+    class: partial
     link: https://github.com/allenai/open-instruct
-    notes: Important effort to make available fine-tuning procedure and source code. Not seen a repository for base model training yet.
+    notes: Important effort to make available fine-tuning procedure and source code. Not seen a repository for base model training yet, so partial.
 
 # documentation:
 code:
@@ -75,7 +75,7 @@ paper:
 modelcard:
     class: partial
     link: https://huggingface.co/allenai/tulu-2-70b
-    notes: Model card offers little details
+    notes: Model card offers little detail
 
 datasheet:
     class: partial
