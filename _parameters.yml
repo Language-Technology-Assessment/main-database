@@ -1,21 +1,21 @@
 - name: Availability
   ref: availability
   params: 
-    - ref: datasources_basemodel
-      name: Base Model Data
-      types: ['text']
-    - ref: datasources_endmodel
-      name: End User Model Data 
-      types: ['text']
-    - ref: weights_basemodel
-      name: Base Model Weights
-      types: ['text']
-    - ref: weights_endmodel
-      name: End User Model Weights
-      types: ['text']
     - ref: trainingcode
       name: Training Code
-      types: ['text', 'image']
+      types: ['text', 'image','code']
+    - ref: datasources_basemodel
+      name: Base Model Data
+      types: ['text','code']
+    - ref: datasources_endmodel
+      name: End User Model Data 
+      types: ['text','code']
+    - ref: weights_basemodel
+      name: Base Model Weights
+      types: ['text','code']
+    - ref: weights_endmodel
+      name: End User Model Weights
+      types: ['text','code']
     - ref: datasources
       name: Model Data
       types: ['image']
@@ -33,31 +33,31 @@
   params: 
     - ref: code
       name: Code
-      types: ['text', 'image']
+      types: ['text', 'image','code']
     - ref: architecture
       name: Architecture
-      types: ['text', 'image']
+      types: ['text', 'image','code']
     - ref: preprint
       name: Preprint
-      types: ['text', 'image']
+      types: ['text', 'image','code']
     - ref: paper
       name: Paper
-      types: ['text', 'image']
+      types: ['text', 'image','code']
     - ref: modelcard
       name: Modelcard
-      types: ['text', 'image']
+      types: ['text', 'image','code']
     - ref: datasheet
       name: Datasheet
-      types: ['text', 'image']
+      types: ['text', 'image','code']
 - name: Access
   ref: access
   params: 
     - ref: package
       name: Package
-      types: ['text', 'image']
+      types: ['text', 'image','code']
     - ref: api
       name: API
-      types: ['text', 'image']
+      types: ['text', 'image','code']
     - ref: licenses
       name: Licenses
-      types: ['text', 'image']
+      types: ['text', 'image','code']
