@@ -10,12 +10,12 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
 
 system:
-    name: Airoboros L2 70B GPT4
-    link: https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1
+    name: Airoboros
+    link: https://huggingface.co/jondurbin/airoboros-dpo-110b-3.3
     type: text
     performanceclass: 
-    basemodelname: Llama2
-    endmodelname: Airoboros (synthetic)
+    basemodelname: Airoboros-110B-3.3
+    endmodelname: Airoboros-DPO-110B-3.3
     endmodellicense: Purposely left ambiguous
     releasedate: 2023-07
     notes:

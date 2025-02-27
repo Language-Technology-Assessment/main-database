@@ -11,11 +11,11 @@
 
 system:
     name: BLOOMZ
-    link: https://huggingface.co/bigscience/bloomz
+    link: https://huggingface.co/bigscience/bloomz-p3
     type: text
     performanceclass: 
-    basemodelname: BLOOMZ, mT0
-    endmodelname: xP3
+    basemodelname: BLOOM
+    endmodelname: BLOOMZ-P3
     endmodellicense: Apache 2.0 and RAIL (responsible AI license)
     releasedate: 2022-09
     notes:

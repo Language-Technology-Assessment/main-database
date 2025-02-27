@@ -11,14 +11,14 @@
 
 system:
     name: Eurus
-    link: https://huggingface.co/openbmb/Eurus-70b-nca
+    link: https://huggingface.co/openbmb/Eurux-8x22b-nca
     type: text
     performanceclass: 
-    basemodelname: CodeLlama-70B
-    endmodelname: Eurus-70B-NCA
+    basemodelname: Mixtral-8x22B-v0.1
+    endmodelname: Eurux-8x22B-NCA
     endmodellicense: Apache 2.0 
     releasedate: 2024-04
-    notes:
+    notes: New model, should update fields still.
 
 org:
     name: OpenBMB

@@ -10,15 +10,15 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: NeuralChat 7B
-    link: https://huggingface.co/Intel/neural-chat-7b-v3-1
+    name: NeuralChat
+    link: https://huggingface.co/Intel/neural-chat-7b-v3-3
     type: text 
     performanceclass: 
-    basemodelname: Mistral 7B
-    endmodelname: Orca
+    basemodelname: Mistral-7B-v0.1
+    endmodelname: Neural-Chat-7B-v3.3
     endmodellicense: Apache 2.0
     releasedate: 2023-11
-    notes: A mistral-based Orca-finetuned chat model
+    notes: New model. TODO update fields. A mistral-based Orca-finetuned chat model
 
 org:
     name: Intel

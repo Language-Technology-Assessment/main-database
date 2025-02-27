@@ -10,13 +10,13 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Falcon-40B-instruct
-    link: https://huggingface.co/tiiuae/falcon-40b-instruct
+    name: Falcon
+    link: https://huggingface.co/tiiuae/Falcon3-10B-Instruct
     type: text
     performanceclass: 
-    basemodelname: Falcon 40B
-    endmodelname: Baize (synthetic)
-    endmodellicense:  Apache 2.0 license
+    basemodelname: Falcon3-10B-Base
+    endmodelname: Falcon3-10B-Instruct
+    endmodellicense: Falcon-LLM-License
     releasedate: 2023-05
     notes:
 

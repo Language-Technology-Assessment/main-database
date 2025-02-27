@@ -10,12 +10,12 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: AmberChat
-    link: https://huggingface.co/LLM360/AmberChat
+    name: Amber
+    link: https://huggingface.co/LLM360/AmberSafe
     type: text
     performanceclass: 
     basemodelname: Amber
-    endmodelname: ShareGPT + Evol-Instruct (synthetic)
+    endmodelname: AmberSafe
     endmodellicense: Apache 2.0
     releasedate: 2023-11
     notes:

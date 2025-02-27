@@ -18,7 +18,7 @@ system:
     endmodelname: OpenPlatypus, Ultrachat, Airoboros (synthetic)
     endmodellicense: FALCON 180B TII LICENSE VERSION 1.0
     releasedate: 2023-09
-    notes: "Falcon-180B-Chat is a 180B parameters causal decoder-only model built by TII based on Falcon-180B and finetuned on a mixture of Ultrachat, Platypus and Airoboros."
+    notes: To remove? "Falcon-180B-Chat is a 180B parameters causal decoder-only model built by TII based on Falcon-180B and finetuned on a mixture of Ultrachat, Platypus and Airoboros."
     
 org:
     name: Technology Innovation Institute

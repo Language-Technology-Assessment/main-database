@@ -14,8 +14,8 @@ system:
     link: https://huggingface.co/mosaicml/mpt-30b-instruct
     type: text 
     performanceclass: 
-    basemodelname: MosaicML
-    endmodelname: dolly, anthropic
+    basemodelname: MPT-30B
+    endmodelname: MPT-30B-Instruct
     endmodellicense: Apache 2.0
     releasedate: 2023-06
     notes:

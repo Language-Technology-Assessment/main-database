@@ -10,15 +10,15 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In Proceedings of CUI’23. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316.
 
 system:
-    name: ChatGLM-6B
-    link: https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md
+    name: GLM
+    link: https://huggingface.co/THUDM/glm-4-9b-chat-1m
     type: text
     performanceclass: 
-    basemodelname: GLM (own)
-    endmodelname: Unspecified
-    endmodellicense: Apache 2.0
-    releasedate: 2023-03
-    notes: From the readme, "ChatGLM-6B uses technology similar to ChatGPT, optimized for Chinese QA and dialogue. The model is trained for about 1T tokens of Chinese and English corpus, supplemented by supervised fine-tuning, feedback bootstrap, and reinforcement learning wit human feedback. With only about 6.2 billion parameters, the model is able to generate answers that are in line with human preference."
+    basemodelname: GLM-4-9B
+    endmodelname: GLM-4-9B-Chat-1M
+    endmodellicense: GLM-4 License
+    releasedate: 
+    notes: New model, TODO update fields.
     
 org:
     name: THUDM

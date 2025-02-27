@@ -10,18 +10,18 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Gemma 7B Instruct
+    name: Gemma
     link: https://ai.google.dev/gemma/docs
     type: text
     performanceclass: 
-    basemodelname: Gemma
-    endmodelname: Unspecified
-    endmodellicense:
+    basemodelname: Gemma-2-27B
+    endmodelname: Gemma-2-27B-IT
+    endmodellicense: Gemma Terms of Use
     releasedate: 2024-02
     notes: Model weights and developer tools
 
 org:
-    name: Google DeepMind
+    name: Google
     link: https://ai.google.dev/gemma/docs
     notes:
 
