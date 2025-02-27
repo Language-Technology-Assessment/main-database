@@ -32,10 +32,10 @@
   ref: documentation
   params: 
     - ref: code
-      name: Code
+      name: Code Documentation
       types: ['text', 'image','code']
     - ref: architecture
-      name: Architecture
+      name: Architecture Documentation
       types: ['text', 'image','code']
     - ref: preprint
       name: Preprint
