@@ -16,9 +16,9 @@ watermarking:
   en: Are watermarking techniques comprehensively documented and shared? 
 prompt_moderation:
   en: Is prompt moderation comprehensively documented and shared? 
-code:
-  en: Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
-architecture:
+code_documentation:
+  en: Is the source code of datasource processing, model training and tuning comprehensively documented?
+architecture_documentation:
   en: Is the hardware architecture used for datasource processing and model training comprehensively documented?
 preprint:
   en: Are archived preprint(s) are available that detail all major parts of the system including datasource processing, model training and tuning steps?
