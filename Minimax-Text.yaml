@@ -13,7 +13,7 @@ system:
     name: Minimax-Text
     link: https://huggingface.co/MiniMaxAI/MiniMax-Text-01
     type: text
-    performanceclass: 
+    performanceclass: latest
     basemodelname: MiniMax-Text-01
     endmodelname: MiniMax-Text-01
     endmodellicense: Minimax Model License

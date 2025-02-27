@@ -13,7 +13,7 @@ system:
     name: AquilaCode
     link: https://huggingface.co/BAAI/AquilaCode-multi
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: Aquila-7B
     endmodelname: AquilaCode-multi
     endmodellicense: BAAI Aquila Model Licence Agreement

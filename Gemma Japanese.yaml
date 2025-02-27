@@ -13,7 +13,7 @@ system:
     name: Gemma Japanese
     link: https://huggingface.co/google/gemma-2-2b-jpn-it
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Gemma-2-2B
     endmodelname: Gemma-2-2B-JPN-IT
     endmodellicense: Gemma Terms of Use
