@@ -10,15 +10,15 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: OpenChat 3.5 7B
-    link: https://huggingface.co/openchat/openchat_3.5
+    name: OpenChat
+    link: https://huggingface.co/openchat/openchat-3.6-8b-20240522
     type: text 
     performanceclass: full
-    basemodelname: Mistral 7B
-    endmodelname: ShareGPT with C-RLFT
-    endmodellicense: Apache 2.0
+    basemodelname: Meta-Llama-3-8B
+    endmodelname: OpenChat-3.6-8B-20240522
+    endmodellicense: Llama 3 Community License Agreement
     releasedate: 2023-05
-    notes:
+    notes: New model. TODO update fields.
 
 org:
     name: Tshinghua University

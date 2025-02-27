@@ -14,7 +14,7 @@ system:
     link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct
     type: text 
     performanceclass: full
-    basemodelname: SmollLM2
+    basemodelname: SmolLM2-1.7B
     endmodelname: SmolLM2-Instruct
     endmodellicense: Apache-2.0
     releasedate: 2024-10

@@ -10,15 +10,15 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Tulu V2 DPO 70B 
-    link: https://huggingface.co/allenai/tulu-2-dpo-70b
+    name: Tulu
+    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B
     type: text 
     performanceclass: full
-    basemodelname: Llama2
-    endmodelname: Tulu SFT, Ultrafeedback
+    basemodelname: Llama-3.1-405B
+    endmodelname: Llama-3.1-Tulu-3-405B
     endmodellicense: AI2 ImpACT license
     releasedate: 2023-06
-    notes: A new DPO model from AllenAI called Tülu
+    notes: New model. TODO update fields. A new DPO model from AllenAI called Tülu
 
 org:
     name: AllenAI

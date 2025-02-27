@@ -10,19 +10,19 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
 
 system:
-    name: Snowflake Arctic
-    link: https://huggingface.co/Snowflake/snowflake-arctic-instruct
+    name: RWKV
+    link: https://huggingface.co/BlinkDL/rwkv-7-world
     type: text
     performanceclass: 
-    basemodelname: Snowflake-Arctic-Base
-    endmodelname: Snowflake-Arctic-Instruct
+    basemodelname: RWKV-x070-Pile-1.47B-ctx4096
+    endmodelname: RWKV-x070-World-1.5B-v3-20250127-ctx4096
     endmodellicense: Apache-2.0
     releasedate: 
-    notes: 
+    notes: Model under active development.
 
 org:
-    name: Snowflake
-    link: https://huggingface.co/Snowflake
+    name: BlinkDL
+    link: https://huggingface.co/BlinkDL
     notes: 
 
 # availability:

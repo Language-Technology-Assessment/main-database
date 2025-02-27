@@ -11,14 +11,14 @@
 
 system:
     name: Xwin-LM
-    link: https://huggingface.co/Xwin-LM/Xwin-LM-7B-V0.1
+    link: https://huggingface.co/Xwin-LM/Xwin-LM-13B-V0.2
     type: text 
     performanceclass: full
-    basemodelname: LLaMA2
-    endmodelname: unknown
-    endmodellicense: Llama 2 license
+    basemodelname: Llama-2-13B
+    endmodelname: Xwin-LM-13B-v0.2
+    endmodellicense: Llama 2 Community License Agreement
     releasedate: 2023-09
-    notes: "Xwin-LM aims to develop and open-source alignment technologies for large language models"
+    notes: New model. TODO update fields. "Xwin-LM aims to develop and open-source alignment technologies for large language models"
 
 org:
     name: Xwin-LM
