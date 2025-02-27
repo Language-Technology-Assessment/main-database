@@ -17,7 +17,7 @@ watermarking:
 prompt_moderation:
   en: Is prompt moderation comprehensively documented and shared? 
 code:
-  en: Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
+  en: Is the source code of datasource processing, model training and tuning comprehensively documented?
 architecture:
   en: Is the hardware architecture used for datasource processing and model training comprehensively documented?
 preprint:
