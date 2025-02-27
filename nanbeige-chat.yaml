@@ -13,7 +13,7 @@ system:
     name: Nanbeige2-Chat
     link: https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat
     type: text 
-    performanceclass: 
+    performanceclass: limited
     basemodelname: Unknown
     endmodelname: Unknown
     endmodellicense: Apache 2.0 and bespoke community license

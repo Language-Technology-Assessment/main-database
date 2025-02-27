@@ -13,7 +13,7 @@ system:
     name: minChatGPT
     link: hhttps://github.com/ethanyanjiali/minChatGPT
     type: text 
-    performanceclass: 
+    performanceclass: limited
     basemodelname: GPT2
     endmodelname: anthropic
     endmodellicense: GNU General Public License v3.0

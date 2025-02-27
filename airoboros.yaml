@@ -13,7 +13,7 @@ system:
     name: Airoboros
     link: https://huggingface.co/jondurbin/airoboros-dpo-110b-3.3
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Airoboros-110B-3.3
     endmodelname: Airoboros-DPO-110B-3.3
     endmodellicense: Purposely left ambiguous

@@ -13,7 +13,7 @@ system:
     name: Openjourney
     link: https://openjourney.art
     type: image
-    performanceclass: 
+    performanceclass: full
     modelname: openjourney v4
     endlicense: creativeml-openrail-m
     releasedate: 2022-11

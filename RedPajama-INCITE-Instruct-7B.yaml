@@ -13,7 +13,7 @@ system:
     name: RedPajama-INCITE-Instruct-7B
     link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: RedPajama-INCITE-7B-Base
     endmodelname: various (GPT-JT recipe)
     endmodellicense: Apache 2.0

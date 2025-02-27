@@ -13,7 +13,7 @@ system:
     name: Amber
     link: https://huggingface.co/LLM360/AmberSafe
     type: text
-    performanceclass: 
+    performanceclass: limited
     basemodelname: Amber
     endmodelname: AmberSafe
     endmodellicense: Apache 2.0

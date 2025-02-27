@@ -13,7 +13,7 @@ system:
     name: Mistral NeMo Instruct
     link: https://mistral.ai/news/mistral-nemo/
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: Mistral NeMo
     endmodelname: unspecified
     endmodellicense: Apache 2.0 (model weights only)

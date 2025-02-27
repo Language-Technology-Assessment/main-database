@@ -13,7 +13,7 @@ system:
     name: Falcon
     link: https://huggingface.co/tiiuae/Falcon3-10B-Instruct
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Falcon3-10B-Base
     endmodelname: Falcon3-10B-Instruct
     endmodellicense: Falcon-LLM-License

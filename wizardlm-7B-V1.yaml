@@ -13,7 +13,7 @@ system:
     name: WizardLM-7B
     link: https://github.com/nlpxucan/WizardLM
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: LLaMA-7B
     endmodelname: Evol-Instruct (synthetic)
     endmodellicense: Llama 2 license

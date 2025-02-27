@@ -13,7 +13,7 @@ system:
     name: UltraLM
     link: https://huggingface.co/openbmb/UltraRM-13b
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: LLaMA2
     endmodelname: UltraFeedback (part synthetic)
     endmodellicense: Meta Community License

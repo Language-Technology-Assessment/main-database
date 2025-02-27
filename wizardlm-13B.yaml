@@ -13,7 +13,7 @@ system:
     name: WizardLM 13B v1.2
     link: https://huggingface.co/WizardLM/WizardLM-13B-V1.2
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: LLaMA2-13B
     endmodelname: Evol-Instruct (synthetic)
     endmodellicense: Llama 2 license

@@ -13,7 +13,7 @@ system:
     name: Eurus
     link: https://huggingface.co/openbmb/Eurux-8x22b-nca
     type: text
-    performanceclass: 
+    performanceclass: limited
     basemodelname: Mixtral-8x22B-v0.1
     endmodelname: Eurux-8x22B-NCA
     endmodellicense: Apache 2.0 

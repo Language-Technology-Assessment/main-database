@@ -13,7 +13,7 @@ system:
     name: OLMo 7B Instruct
     link: https://blog.allenai.org/olmo-open-language-model-87ccfc95f580
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: OLMo 7B
     endmodelname: OpenInstruct
     endmodellicense: Apache 2.0

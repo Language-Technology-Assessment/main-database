@@ -13,7 +13,7 @@ system:
     name: Qwen 1.5
     link: https://qwenlm.github.io/blog/qwen1.5/
     type: text 
-    performanceclass: 
+    performanceclass: latest
     basemodelname: QwenLM
     endmodelname: Unspecified
     endmodellicense: Qianwen License

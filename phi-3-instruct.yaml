@@ -13,7 +13,7 @@ system:
     name: Phi 3 Instruct
     link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: Phi3
     endmodelname: Unspecified
     endmodellicense: MIT License

@@ -13,7 +13,7 @@ system:
     name: Orca 2
     link: https://www.microsoft.com/en-us/research/project/orca/
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: LLaMA2
     endmodelname: FLAN, Math, undisclosed (synthetic)
     endmodellicense: Microsoft Research License, Llama Community License

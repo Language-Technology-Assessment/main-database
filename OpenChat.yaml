@@ -13,7 +13,7 @@ system:
     name: OpenChat 3.5 7B
     link: https://huggingface.co/openchat/openchat_3.5
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: Mistral 7B
     endmodelname: ShareGPT with C-RLFT
     endmodellicense: Apache 2.0

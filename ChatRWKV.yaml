@@ -13,7 +13,7 @@ system:
     name: ChatRWKV
     link: https://github.com/BlinkDL/ChatRWKV
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: RWKV-LM
     endmodelname: alpaca, shareGPT (synthetic)
     endmodellicense:

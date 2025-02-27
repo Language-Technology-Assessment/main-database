@@ -13,7 +13,7 @@ system:
     name: BLOOMZ
     link: https://huggingface.co/bigscience/bloomz-p3
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: BLOOM
     endmodelname: BLOOMZ-P3
     endmodellicense: Apache 2.0 and RAIL (responsible AI license)

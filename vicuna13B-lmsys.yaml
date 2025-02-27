@@ -13,7 +13,7 @@ system:
     name: Vicuna 13B v 1.3
     link: https://huggingface.co/lmsys/vicuna-13b-v1.3
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: LLaMA
     endmodelname: ShareGPT
     endmodellicense: Non-commercial license

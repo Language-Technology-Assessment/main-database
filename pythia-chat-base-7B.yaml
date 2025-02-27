@@ -13,7 +13,7 @@ system:
     name: Pythia-Chat-Base-7B-v0.16
     link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: EleutherAI pythia
     endmodelname: OIG
     endmodellicense: Apache 2.0 license

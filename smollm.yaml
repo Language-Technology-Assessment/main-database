@@ -13,7 +13,7 @@ system:
     name: SmolLM2
     link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: SmollLM2
     endmodelname: SmolLM2-Instruct
     endmodellicense: Apache-2.0

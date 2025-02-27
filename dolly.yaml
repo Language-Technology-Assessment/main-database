@@ -13,7 +13,7 @@ system:
     name: Dolly
     link: https://huggingface.co/databricks/dolly-v2-12b
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Pythia-12B
     endmodelname: Dolly-V2-12B
     endmodellicense:

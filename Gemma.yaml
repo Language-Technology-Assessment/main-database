@@ -13,7 +13,7 @@ system:
     name: Gemma
     link: https://ai.google.dev/gemma/docs
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Gemma-2-27B
     endmodelname: Gemma-2-27B-IT
     endmodellicense: Gemma Terms of Use

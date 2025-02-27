@@ -13,7 +13,7 @@ system:
     name: NeuralChat
     link: https://huggingface.co/Intel/neural-chat-7b-v3-3
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: Mistral-7B-v0.1
     endmodelname: Neural-Chat-7B-v3.3
     endmodellicense: Apache 2.0
