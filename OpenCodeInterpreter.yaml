@@ -13,7 +13,7 @@ system:
     name: OpenCodeInterpreter
     link: https://huggingface.co/m-a-p/OpenCodeInterpreter-CL-70B
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: Llama-2-70B
     endmodelname: OpenCodeInterpreter-CL-70B
     endmodellicense: Apache-2.0

@@ -13,7 +13,7 @@ system:
     name: NexusRaven
     link: https://huggingface.co/Nexusflow/NexusRaven-V2-13B
     type: code
-    performanceclass: 
+    performanceclass: limited
     basemodelname: Llama-2-13B
     endmodelname: NexusRaven-V2-13B
     endmodellicense: NexusFlow community license

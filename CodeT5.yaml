@@ -13,7 +13,7 @@ system:
     name: CodeT5+
     link: https://huggingface.co/Salesforce/instructcodet5p-16b
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: CodeGen-16B-NL
     endmodelname: InstructCodeT5p-16B
     endmodellicense: BSD 3-Clause

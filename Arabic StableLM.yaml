@@ -13,7 +13,7 @@ system:
     name: Arabic StableLM
     link: https://huggingface.co/stabilityai/ar-stablelm-2-chat
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: StableLM-2-1.6B
     endmodelname: Arabic-StableLM-2-Chat
     endmodellicense: Stability AI Non-Commercial Research Community License Agreement

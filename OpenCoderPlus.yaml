@@ -13,7 +13,7 @@ system:
     name: OpenCoderPlus
     link: https://huggingface.co/openchat/opencoderplus
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: StarCoderBase
     endmodelname: OpenCoderPlus
     endmodellicense: unknown

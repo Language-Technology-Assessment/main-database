@@ -13,7 +13,7 @@ system:
     name: StarCoder
     link: https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1
     type: code
-    performanceclass: 
+    performanceclass: latest
     basemodelname: StarCoder2-15B
     endmodelname: StarCoder2-15B-Instruct-v0.1
     endmodellicense: BigCode OpenRAIL-M v1 license agreement

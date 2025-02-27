@@ -13,7 +13,7 @@ system:
     name: AlchemistCoder
     link: https://huggingface.co/internlm/AlchemistCoder-DS-6.7B
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: DeepSeek-Coder-6.7B-Base
     endmodelname: AlchemistCoder-DS-6.7B
     endmodellicense: Apache-2.0

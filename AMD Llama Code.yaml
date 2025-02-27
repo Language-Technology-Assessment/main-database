@@ -13,7 +13,7 @@ system:
     name: AMD Llama Code
     link: https://huggingface.co/amd/AMD-Llama-135m-code
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: AMD-Llama-135m
     endmodelname: AMD-Llama-135m-code
     endmodellicense: Apache-2.0

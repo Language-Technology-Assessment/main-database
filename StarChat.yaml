@@ -13,7 +13,7 @@ system:
     name: StarChat
     link: https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1
     type: code
-    performanceclass: 
+    performanceclass: latest
     basemodelname: StarCoder2-15B
     endmodelname: StarChat2-15B-v0.1
     endmodellicense: BigCode OpenRAIL-M v1 license agreement

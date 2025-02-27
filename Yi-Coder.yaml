@@ -13,7 +13,7 @@ system:
     name: Yi-Coder
     link: https://huggingface.co/01-ai/Yi-Coder-9B-Chat
     type: code
-    performanceclass: 
+    performanceclass: latest
     basemodelname: Yi-9B
     endmodelname: Yi-Coder-9B-Chat
     endmodellicense: Apache 2.0

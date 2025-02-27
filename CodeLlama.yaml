@@ -13,7 +13,7 @@ system:
     name: CodeLlama
     link: https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: Llama-2-70B
     endmodelname: CodeLlama-70B-Instruct
     endmodellicense: Llama 2 License

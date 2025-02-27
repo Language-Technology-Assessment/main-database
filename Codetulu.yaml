@@ -13,7 +13,7 @@ system:
     name: Codetulu
     link: https://huggingface.co/allenai/codetulu-2-34b
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: Llama-2-34B
     endmodelname: Codetulu-2-34B
     endmodellicense: AI2 ImpACT Low-risk license

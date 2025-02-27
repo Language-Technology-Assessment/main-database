@@ -13,7 +13,7 @@ system:
     name: DeepSeek-Coder
     link: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724
     type: code
-    performanceclass: 
+    performanceclass: latest
     basemodelname: DeepSeek-v2
     endmodelname: DeepSeek-Coder-v2-Instruct-0724
     endmodellicense: DeepSeek License

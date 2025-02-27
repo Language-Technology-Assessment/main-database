@@ -13,7 +13,7 @@ system:
     name: Granite
     link: https://huggingface.co/ibm-granite/granite-3.2-8b-instruct-preview
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Granite-3.1-8B-Base
     endmodelname: Granite-3.2-8B-Instruct-Preview
     endmodellicense: Apache-2.0

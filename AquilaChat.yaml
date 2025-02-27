@@ -13,7 +13,7 @@ system:
     name: AquilaChat
     link: https://huggingface.co/BAAI/AquilaChat2-70B-Expr
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Aquila2-70B-Expr
     endmodelname: AquilaChat2-70B-Expr
     endmodellicense: BAAI Aquila Model Licence Agreement

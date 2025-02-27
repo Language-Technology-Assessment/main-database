@@ -13,7 +13,7 @@ system:
     name: CodeGemma
     link: https://huggingface.co/google/codegemma-1.1-7b-it
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: Gemma-7B
     endmodelname: CodeGemma-1.1-7B-IT
     endmodellicense: Gemma license

@@ -13,7 +13,7 @@ system:
     name: CodeGeeX
     link: https://huggingface.co/THUDM/codegeex4-all-9b
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: GLM-4-9B
     endmodelname: CodeGeeX4-ALL-9B
     endmodellicense: CodeGeeX4 license

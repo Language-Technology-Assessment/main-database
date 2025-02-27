@@ -13,7 +13,7 @@ system:
     name: WaveCoder
     link: https://huggingface.co/microsoft/wavecoder-ultra-6.7b
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: Deepseek-Coder-6.7B-Base
     endmodelname: WaveCoder-Ultra-6.7B
     endmodellicense: MIT license

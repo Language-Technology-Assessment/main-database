@@ -13,7 +13,7 @@ system:
     name: CodeGen
     link: https://huggingface.co/Salesforce/codegen25-7b-instruct_P
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: CodeGen25-7B-Multi-P
     endmodelname: CodeGen25-7B-Instruct-P
     endmodellicense: unknown (research purposes only)
