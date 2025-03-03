@@ -10,19 +10,19 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
 
 system:
-    name: Baichuan
-    link: https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat
-    type: text
+    name: AMD Nitro Diffusion
+    link: https://huggingface.co/amd/SD2.1-Nitro
+    type: image
     performanceclass: 
-    basemodelname: Baichuan2-13B-Base
-    endmodelname: Baichuan2-13B-Chat
-    endmodellicense: Apache-2.0 + Community License for Baichuan2 Model
+    basemodelname: Stable-Diffusion-2.1-Base
+    endmodelname: SD2.1-Nitro
+    endmodellicense: Apache-2.0
     releasedate: 
-    notes: Bilingual Chinese-English model
+    notes: 
 
 org:
-    name: Baichuan Intelligent Technology
-    link: https://huggingface.co/baichuan-inc
+    name: AMD
+    link: https://huggingface.co/amd
     notes: 
 
 # availability:
