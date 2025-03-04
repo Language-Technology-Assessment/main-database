@@ -10,7 +10,7 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Geitje Ultra 7B
+    name: Geitje
     link: https://huggingface.co/BramVanroy/GEITje-7B-ultra
     type: text
     performanceclass: limited

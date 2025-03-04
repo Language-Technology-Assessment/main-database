@@ -10,12 +10,12 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Solar 70B
+    name: Solar
     link: https://huggingface.co/upstage/SOLAR-0-70b-16bit
     type: text 
     performanceclass: latest
     basemodelname: LLaMA2
-    endmodelname: Orca-style, Alpaca-style
+    endmodelname: Solar-0-70B
     endmodellicense: Meta Community license, CC-BY-NC 4.0
     releasedate: 2023-07
     notes: HuggingFace profile says 'Solar is a great example of the progress enabled by open source.'

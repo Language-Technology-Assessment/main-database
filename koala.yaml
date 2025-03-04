@@ -10,7 +10,7 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Koala 13B
+    name: Koala
     link: https://bair.berkeley.edu/blog/2023/04/03/koala/
     type: text
     performanceclass: full

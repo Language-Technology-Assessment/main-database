@@ -10,14 +10,14 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: MPT-7B Instruct
-    link: https://huggingface.co/mosaicml/mpt-7b-instruct
+    name: MPT
+    link: https://huggingface.co/mosaicml/mpt-30b-instruct
     type: text 
     performanceclass: full
-    basemodelname: MosaicML
-    endmodelname: dolly, anthropic
+    basemodelname: MPT-30B
+    endmodelname: MPT-30B-Instruct
     endmodellicense: Apache 2.0
-    releasedate: 2023-05
+    releasedate: 2023-06
     notes:
 
 org:
@@ -38,7 +38,7 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/mosaicml/mpt-7b-instruct/tree/main
+    link: https://huggingface.co/mosaicml/mpt-30b-instruct/tree/main
     notes: Weights available via HuggingFace
     
 weights_endmodel:
@@ -55,11 +55,11 @@ trainingcode:
 code:
     class: open
     link: https://github.com/mosaicml/llm-foundry/
-    notes: LLM Foundry codebase is well-documented and in active development
+    notes: LLM Foundry codebase is well-documented and in active development.
 
 architecture:
     class: partial
-    link: https://huggingface.co/mosaicml/mpt-7b-instruct
+    link: https://huggingface.co/mosaicml/mpt-30b-instruct
     notes: Architecture reasonably well-documented
 
 preprint:
@@ -73,14 +73,14 @@ paper:
     notes:
 
 modelcard:
-    class: open
-    link: https://huggingface.co/mosaicml/mpt-7b-instruct
-    notes: 
+    class: partial
+    link: https://huggingface.co/mosaicml/mpt-30b-instruct
+    notes: Modelcard is somewhat lacking in detail
 
 datasheet:
     class: closed
-    link:
-    notes:
+    link: https://www.mosaicml.com/blog/mpt-30b
+    notes: Datasheet not available; data somewhat documented in blog post at link
 
 # access
 package:
@@ -89,13 +89,12 @@ package:
     notes:
 
 api:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: 
+    notes: API via HuggingFace
     metaprompt: closed
 
 licenses:
     class: open
     link:
     notes: Apache 2.0
-
