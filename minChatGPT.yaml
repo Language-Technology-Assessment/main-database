@@ -11,7 +11,7 @@
 
 system:
     name: minChatGPT
-    link: hhttps://github.com/ethanyanjiali/minChatGPT
+    link: https://github.com/ethanyanjiali/minChatGPT
     type: text 
     performanceclass: limited
     basemodelname: GPT2
