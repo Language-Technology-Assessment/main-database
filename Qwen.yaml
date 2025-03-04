@@ -10,7 +10,7 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Qwen 1.5
+    name: Qwen
     link: https://qwenlm.github.io/blog/qwen1.5/
     type: text 
     performanceclass: latest
@@ -18,7 +18,7 @@ system:
     endmodelname: Unspecified
     endmodellicense: Qianwen License
     releasedate: 2024-02
-    notes: This is based on the 110B version, the largest of 8 available model sizes.
+    notes: This is based on the 72B version, the largest of 8 available model sizes.
 
 org:
     name: Alibaba Cloud

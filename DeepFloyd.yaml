@@ -1,0 +1,99 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
+    name: DeepFloyd IF
+    link: https://github.com/deep-floyd/IF
+    type: image
+    performanceclass: full
+    modelname: IF-I-XL-v1.0 
+    endlicense: deepfloyd-if-license
+    releasedate: 2023-04
+    notes:
+
+org:
+    name: Stability AI
+    link: https://stability.ai/
+    notes:
+
+# availability:
+datasources:
+    class: partial
+    link: https://huggingface.co/DeepFloyd/IF-I-L-v1.0
+    notes: training data is described, but no in-depth insights.
+    
+weights:
+    class: open
+    link: https://huggingface.co/DeepFloyd/IF-I-L-v1.0/tree/main
+    notes: weights available for download on the huggingface repository.
+
+watermarking:
+    class: closed
+    link:
+    notes:
+
+prompt_moderation:
+    class: closed
+    link:
+    notes:
+
+trainingcode:
+    class: partial
+    link:
+    notes:
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/deep-floyd/IF/tree/develop/deepfloyd_if
+    notes: github repository provides code, although not clearly documented.
+
+architecture:
+    class: partial
+    link:
+    notes:
+
+preprint:
+    class: partial
+    link:
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: open
+    link: https://huggingface.co/DeepFloyd/IF-I-L-v1.0
+    notes: comprehensive model card with insights on architecture, training, and evaluation. 
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: open
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:
+    metaprompts:
+
+licenses:
+    class: partial
+    link:
+    notes:

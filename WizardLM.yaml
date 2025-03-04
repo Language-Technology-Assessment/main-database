@@ -10,14 +10,14 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: WizardLM 13B v1.2
-    link: https://huggingface.co/WizardLM/WizardLM-13B-V1.2
+    name: WizardLM
+    link: https://github.com/nlpxucan/WizardLM
     type: text 
     performanceclass: full
-    basemodelname: LLaMA2-13B
+    basemodelname: LLaMA-7B
     endmodelname: Evol-Instruct (synthetic)
     endmodellicense: Llama 2 license
-    releasedate: 2023-07
+    releasedate: 2023-04
     notes: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
 
 org:
@@ -27,24 +27,24 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link:  https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main/projects/llama-2-chat.yaml
-    notes: Based on LLaMA2, which is claimed to be public but nowhere exactly documented.
-    
+    class: partial
+    link: https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main/projects/llama-2-chat.yaml
+    notes: Based on LLaMA, which is claimed to be public but nowhere exactly documented.
+
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
-    notes: The Evol-Instruct V2 dataset contains 196k instruction-following sequences generated from Evol-Instruct. ShareGPT-4o, which is included in Evol-instruct, is gated behind sharing some personal information and agreeing to do no harm, but for the rest the dataset is fully open to inspection. The model card mentions recent changes in the open-source policy of the parent company leading to potential future issues with data sources.
+    link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM#training-data
+    notes: The Evol-Instruct dataset contains 70k instruction-following sequences generated from Evol-Instruct
 
 weights_basemodel:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Based on LLaMA2 weights, which are made conditionally available by Meta.
-
+    class: closed
+    link:
+    notes: Based on LLaMA weights, which are not openly available though a leaked versions is in wide circulation.
+    
 weights_endmodel:
-    class: open
-    link: https://huggingface.co/WizardLM/WizardLM-13B-V1.2
-    notes: Model weights offered in HuggingFace repository
+    class: partial
+    link: https://huggingface.co/WizardLM/WizardLM-7B-V1.0/tree/main
+    notes: Model weights offered as a delta to LLaMA
 
 trainingcode:
     class: open
@@ -74,7 +74,7 @@ paper:
 
 modelcard:
     class: closed
-    link: https://huggingface.co/WizardLM/WizardLM-13B-V1.2
+    link: https://huggingface.co/WizardLM/WizardLM-7B-V1.0
     notes: Model card is available, however contains links to pages talking about the model architecture, training, fine-tuning, and evaluation rather than containing them itself.
 
 datasheet:
