@@ -14,8 +14,9 @@ system:
     link: https://huggingface.co/THUDM/CogView3-Plus-3B
     type: image
     performanceclass: 
-    modelname: CogView3-Plus-3B
-    endlicense: Apache-2.0
+    basemodelname: 
+    endmodelname: CogView3-Plus-3B
+    endmodellicense:  Apache-2.0
     releasedate: 
     notes: 
 
@@ -25,23 +26,23 @@ org:
     notes: 
 
 # availability:
-datasources:
-    class: closed
-    link: 
-    notes: 
-    
-weights:
-    class: closed
-    link: 
-    notes: 
-
-watermarking:
-    class: closed
+datasources_basemodel:
+    class: 
     link:
     notes:
 
-prompt_moderation:
-    class: closed
+datasources_endmodel:
+    class: 
+    link:
+    notes:
+
+weights_basemodel:
+    class: 
+    link:
+    notes:
+    
+weights_endmodel:
+    class: 
     link:
     notes:
 

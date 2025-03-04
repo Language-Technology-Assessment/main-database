@@ -14,8 +14,10 @@ system:
     link: https://huggingface.co/amd/SD2.1-Nitro
     type: image
     performanceclass: 
-    modelname: SD2.1-Nitro
-    endlicense: Apache-2.0
+    basemodelname: 
+    endmodelname: SD2.1-Nitro
+    endmodellicense:  Apache-2.0
+    modelname: 
     releasedate: 
     notes: 
 
@@ -25,23 +27,23 @@ org:
     notes: 
 
 # availability:
-datasources:
-    class: closed
-    link: 
-    notes: 
-    
-weights:
-    class: closed
-    link: 
-    notes: 
-
-watermarking:
-    class: closed
+datasources_basemodel:
+    class: 
     link:
     notes:
 
-prompt_moderation:
-    class: closed
+datasources_endmodel:
+    class: 
+    link:
+    notes:
+
+weights_basemodel:
+    class: 
+    link:
+    notes:
+    
+weights_endmodel:
+    class: 
     link:
     notes:
 

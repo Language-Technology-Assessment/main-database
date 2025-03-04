@@ -14,8 +14,9 @@ system:
     link: https://openjourney.art
     type: image
     performanceclass: full
-    modelname: openjourney v4
-    endlicense: creativeml-openrail-m
+    basemodelname: 
+    endmodelname: openjourney v4
+    endmodellicense: creativeml-openrail-m
     releasedate: 2022-11
     notes:
 
@@ -25,28 +26,39 @@ org:
     notes:
 
 # availability:
-datasources:
-    class: closed
-    link: https://huggingface.co/prompthero/openjourney
-    notes: Model card mentions the model was fine-tuned on Midjourney images however no link is provided. Given that the model creators also own a Midjourney image database it can be assumed the model was fine-tuned on these images.
+# datasources:
+#     class: closed
+#     link: https://huggingface.co/prompthero/openjourney
+#     notes: Model card mentions the model was fine-tuned on Midjourney images however no link is provided. Given that the model creators also own a Midjourney image database it can be assumed the model was fine-tuned on these images.
     
-weights:
-    class: partial
-    link: https://huggingface.co/prompthero/openjourney/tree/main
-    notes: Weights are provided as a safetensors file.
+# weights:
+#     class: partial
+#     link: https://huggingface.co/prompthero/openjourney/tree/main
+#     notes: Weights are provided as a safetensors file.
 
-watermarking:
-    class: closed
+
+datasources_basemodel:
+    class: 
     link:
     notes:
 
-prompt_moderation:
-    class: closed
+datasources_endmodel:
+    class: 
+    link:
+    notes:
+
+weights_basemodel:
+    class: 
+    link:
+    notes:
+    
+weights_endmodel:
+    class: 
     link:
     notes:
 
 trainingcode:
-    class: closed
+    class: 
     link:
     notes:
 

@@ -14,8 +14,9 @@ system:
     link: https://huggingface.co/Shitao/OmniGen-v1
     type: image
     performanceclass: 
-    modelname: OmniGen-v1
-    endlicense: MIT License
+    basemodelname: 
+    endmodelname: 
+    endmodellicense: MIT License
     releasedate: 
     notes: 
 
@@ -25,28 +26,28 @@ org:
     notes: 
 
 # availability:
-datasources:
-    class: closed
-    link: 
-    notes: 
-    
-weights:
-    class: closed
-    link: 
-    notes: 
-
-watermarking:
-    class: closed
+datasources_basemodel:
+    class: 
     link:
     notes:
 
-prompt_moderation:
-    class: closed
+datasources_endmodel:
+    class: 
+    link:
+    notes:
+
+weights_basemodel:
+    class: 
+    link:
+    notes:
+    
+weights_endmodel:
+    class: 
     link:
     notes:
 
 trainingcode:
-    class: closed
+    class: 
     link:
     notes:
 

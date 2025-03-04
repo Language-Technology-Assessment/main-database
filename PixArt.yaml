@@ -14,8 +14,10 @@ system:
     link: https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS
     type: image
     performanceclass: 
-    modelname: PixArt-Sigma-XL-2-1024-MS
-    endlicense: CreativeML Open RAIL++-M License
+    basemodelname: PixArt-Sigma-XL-2-1024-MS
+    endmodelname:
+    endmodellicense: CreativeML Open RAIL++-M License
+    endlicense:
     releasedate: 
     notes: 
 
@@ -25,28 +27,28 @@ org:
     notes: 
 
 # availability:
-datasources:
-    class: closed
-    link: 
-    notes: 
-    
-weights:
-    class: closed
-    link: 
-    notes: 
-
-watermarking:
-    class: closed
+datasources_basemodel:
+    class: 
     link:
     notes:
 
-prompt_moderation:
-    class: closed
+datasources_endmodel:
+    class: 
+    link:
+    notes:
+
+weights_basemodel:
+    class: 
+    link:
+    notes:
+    
+weights_endmodel:
+    class: 
     link:
     notes:
 
 trainingcode:
-    class: closed
+    class: 
     link:
     notes:
 

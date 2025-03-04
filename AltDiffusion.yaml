@@ -14,8 +14,10 @@ system:
     link: https://huggingface.co/BAAI/DreamBooth-AltDiffusion
     type: image
     performanceclass: 
-    modelname: Stable-Diffusion-2.1-Base
-    endlicense: CreativeML Open RAIL-M License
+    basemodelname: 
+    endmodelname: 
+    endmodellicense: CreativeML Open RAIL-M License
+    endlicense:
     releasedate: 
     notes: 
 
@@ -25,23 +27,23 @@ org:
     notes: 
 
 # availability:
-datasources:
-    class: closed
-    link: 
-    notes: 
-    
-weights:
-    class: closed
-    link: 
-    notes: 
-
-watermarking:
-    class: closed
+datasources_basemodel:
+    class: 
     link:
     notes:
 
-prompt_moderation:
-    class: closed
+datasources_endmodel:
+    class: 
+    link:
+    notes:
+
+weights_basemodel:
+    class: 
+    link:
+    notes:
+    
+weights_endmodel:
+    class: 
     link:
     notes:
 
