@@ -3,61 +3,61 @@
   params: 
     - ref: trainingcode
       name: Training Code
-      types: ['text', 'image','code']
+      types: ['text', 'image','code','video','audio']
     - ref: datasources_basemodel
       name: Base Model Data
-      types: ['text','code']
+      types: ['text', 'image','code','video','audio']
     - ref: datasources_endmodel
       name: End User Model Data 
-      types: ['text','code']
+      types: ['text', 'image','code','video','audio']
     - ref: weights_basemodel
       name: Base Model Weights
-      types: ['text','code']
+      types: ['text', 'image','code','video','audio']
     - ref: weights_endmodel
       name: End User Model Weights
-      types: ['text','code']
+      types: ['text', 'image','code','video','audio']
     - ref: datasources
       name: Model Data
-      types: ['image']
+      types: []
     - ref: weights
       name: Model Weights 
-      types: ['image']
+      types: []
     - ref: watermarking
       name: Watermarking
-      types: ['image']
+      types: []
     - ref: prompt_moderation
       name: Prompt Moderation
-      types: ['image']
+      types: []
 - name: Documentation
   ref: documentation
   params: 
     - ref: code
       name: Code Documentation
-      types: ['text', 'image','code']
+      types: ['text', 'image','code','video','audio']
     - ref: architecture
       name: Architecture Documentation
-      types: ['text', 'image','code']
+      types: ['text', 'image','code','video','audio']
     - ref: preprint
       name: Preprint
-      types: ['text', 'image','code']
+      types: ['text', 'image','code','video','audio']
     - ref: paper
       name: Paper
-      types: ['text', 'image','code']
+      types: ['text', 'image','code','video','audio']
     - ref: modelcard
       name: Modelcard
-      types: ['text', 'image','code']
+      types: ['text', 'image','code','video','audio']
     - ref: datasheet
       name: Datasheet
-      types: ['text', 'image','code']
+      types: ['text', 'image','code','video','audio']
 - name: Access
   ref: access
   params: 
     - ref: package
       name: Package
-      types: ['text', 'image','code']
+      types: ['text', 'image','code','video','audio']
     - ref: api
-      name: API
-      types: ['text', 'image','code']
+      name: API and Metaprompts
+      types: ['text', 'image','code','video','audio']
     - ref: licenses
       name: Licenses
-      types: ['text', 'image','code']
+      types: ['text', 'image','code','video','audio']
