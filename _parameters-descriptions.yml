@@ -23,6 +23,6 @@ datasheet:
 package:
   en: Is a packaged release of the model available on a software repository (e.g. a Python Package Index, Homebrew)?
 api:
-  en: Is an API available that provides unrestricted access to the model (other than security and CDN restrictions)? If applicable, this entry also collects information on the use and availability of metaprompts.
+  en: Is an API available that provides unrestricted access to the model (other than security and CDN restrictions)? If applicable, this entry also collects information on the use and availability of meta prompts.
 licenses:
   en: Is the project fully covered by Open Source Initiative (OSI)-approved licenses, including all data sources and training pipeline code?
