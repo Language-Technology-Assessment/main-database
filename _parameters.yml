@@ -56,7 +56,7 @@
       name: Package
       types: ['text', 'image','code','video','audio']
     - ref: api
-      name: API and meta prompts
+      name: API and Meta Prompts
       types: ['text', 'image','code','video','audio']
     - ref: licenses
       name: Licenses
