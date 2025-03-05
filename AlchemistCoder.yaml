@@ -17,84 +17,84 @@ system:
     basemodelname: DeepSeek-Coder-6.7B-Base
     endmodelname: AlchemistCoder-DS-6.7B
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-05
     notes: Multiple versions exist with different base models.
 
 org:
     name: Shanghai AI Laboratory
     link: https://huggingface.co/internlm
-    notes: 
+    notes: National-level Chinese research institute.
 
 # availability:
 datasources_basemodel:
     class: closed
-    link: 
-    notes: 
+    link: https://arxiv.org/pdf/2401.14196
+    notes: GitHub is mentioned as a primary source for code data. For the rest the data mixture is left abstract.
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://arxiv.org/pdf/2405.19265
+    notes: The model makes use of both regular open-source data and synthetic data. Though the open-source data is outlined in the paper, the synthetic data generated is not provided.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base
+    notes: Weights available through HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/internlm/AlchemistCoder-DS-6.7B
+    notes: Weights available through HuggingFace.
 
 trainingcode:
     class: closed
-    link: 
-    notes: 
+    link: https://github.com/InternLM/AlchemistCoder/
+    notes: A repository exists which purportedly contains source code. However, this repository does not contain code.
 
 # documentation:
 code:
     class: closed
-    link:  
-    notes: 
+    link: https://github.com/InternLM/AlchemistCoder/
+    notes: No code available.
 
 architecture:
     class: closed
-    link:  
-    notes: 
+    link: 
+    notes: No hardware architecture outlined.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2405.19265
+    notes: Preprint made available on arXiv.
 
 paper:
     class: closed
-    link: 
-    notes: 
+    link: https://openreview.net/pdf?id=E5ZHBvWrXIU
+    notes: Paper has been submitted to ACL, however it has not been published yet.
 
 modelcard:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/internlm/AlchemistCoder-DS-6.7B
+    notes: Model card contains some information, mainly describing the model and providing usage instructions.
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/datasets/nickrosh/Evol-Instruct-Code-80k-v1, https://huggingface.co/datasets/codefuse-ai/CodeExercise-Python-27k, https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1
+    notes: Data sheets available for some data sources, however synthetic data is not made publicly available.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found. 
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md
+    notes: Model licensed under Apache-2.0.

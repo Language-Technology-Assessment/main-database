@@ -23,7 +23,7 @@ system:
 org:
     name: Jon Durbin
     link: https://github.com/jondurbin
-    notes: Primary contributor to chutes.ai.
+    notes: Individual. Primary contributor to chutes.ai.
 
 # availability:
 datasources_basemodel:
@@ -49,7 +49,7 @@ weights_endmodel:
 trainingcode:
     class: partial
     link: https://github.com/jondurbin/qlora
-    notes: Repo exists only for general fine-tuning implementation.
+    notes: Repo exists only for general fine-tuning implementation. Earlier airoboros model versions included some architecture and training information. Latest versions (>3.1.2) do not. 
 
 # documentation:
 code:
@@ -60,7 +60,7 @@ code:
 architecture:
     class: closed
     link: 
-    notes: Earlier airoboros model versions included architecture information. Latest versions (>3.1.2) do not. 
+    notes: Earlier airoboros model versions included some architecture and training information. Latest versions (>3.1.2) do not. 
 
 preprint:
     class: closed
@@ -78,9 +78,9 @@ modelcard:
     notes: Model card contains some information, mainly relating to inference and licensing.
 
 datasheet:
-    class: closed
+    class: partial
     link: https://huggingface.co/datasets/jondurbin/airoboros-3.2, https://huggingface.co/datasets/bluemoon-fandom-1-1-rp-cleaned, https://huggingface.co/datasets/boolq, https://huggingface.co/datasets/jondurbin/gutenberg-dpo-v0.1, https://huggingface.co/datasets/LDJnr/Capybara, https://huggingface.co/datasets/jondurbin/cinematika-v0.1, https://huggingface.co/datasets/glaiveai/glaive-function-calling-v2, https://huggingface.co/datasets/grimulkan/LimaRP-augmented, https://huggingface.co/datasets/piqa, https://huggingface.co/datasets/Vezora/Tested-22k-Python-Alpaca, https://huggingface.co/datasets/mattpscott/airoboros-summarization, https://huggingface.co/datasets/unalignment/toxic-dpo-v0.2
-    notes: Datasheets contain differing levels of documentation. Exact data used as well as data collection and curation procedure unknown.
+    notes: Datasheets contain differing levels of documentation. Exact data used as well as data collection and curation procedure unknown. No data sheet for base model data exists.
 
 # access:
 package:
