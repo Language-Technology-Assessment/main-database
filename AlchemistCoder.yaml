@@ -49,7 +49,7 @@ weights_endmodel:
 trainingcode:
     class: closed
     link: https://github.com/InternLM/AlchemistCoder/
-    notes: A repository exists which purportedly contains source code. However, this repository does not contain code.
+    notes: A repository exists which purportedly contains source code. However, this repository contains no code.
 
 # documentation:
 code:

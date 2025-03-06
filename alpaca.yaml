@@ -18,12 +18,12 @@ system:
     endmodelname: Alpaca-7B
     endmodellicense: LLaMA license agreement
     releasedate: 2024-03
-    notes:
+    notes: Very early open-source model.
 
 org:
     name: Stanford University CRFM
     link: https://crfm.stanford.edu/
-    notes: 
+    notes: Stanford University's Centre for Research on Foundation Models.
 
 # availability:
 datasources_basemodel:
@@ -39,62 +39,62 @@ datasources_endmodel:
 weights_basemodel:
     class: partial
     link: 
-    notes: LLaMA based, copyright status unclear
+    notes: LLaMA 1 based, copyright status unclear.
 
 weights_endmodel:
     class: partial
     link: https://github.com/tatsu-lab/stanford_alpaca#data-release
-    notes: LLaMA based
+    notes: LLaMA 1 based, so weights are published through a diff.
 
 trainingcode:
     class: open
-    link: 
-    notes: 
+    link: https://github.com/tatsu-lab/stanford_alpaca?tab=readme-ov-file#fine-tuning
+    notes: Training code documented in repo.
 
 # documentation:
 code:
     class: partial
     link:  https://github.com/tatsu-lab/stanford_alpaca
-    notes: Insofar as code is made available it is fairly well documented
+    notes: Insofar as code is made available it is fairly well documented.
 
 architecture:
     class: open
     link:  https://github.com/tatsu-lab/stanford_alpaca#fine-tuning
-    notes: Fair bit of documentation available on github repository
+    notes: Fair bit of documentation available on github repository.
 
 preprint:
     class: closed
-    link: 
-    notes: No preprint found; uses the release-by-blogpost playbook
+    link: https://crfm.stanford.edu/2023/03/13/alpaca.html
+    notes: No preprint found; uses the release-by-blogpost playbook.
 
 paper:
     class: closed
     link: 
-    notes: No peer-reviewed work found.
+    notes: No peer-reviewed paper found.
 
 modelcard:
     class: closed
     link: 
-    notes: No model card found
+    notes: No model card found.
 
 datasheet:
     class: closed
     link: 
-    notes: No data sheet found
+    notes: No data sheet found.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
     class: closed
     link: https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform
-    notes: Pegged to LLaMA licence agreement
+    notes: Pegged to LLaMA licence agreement.
