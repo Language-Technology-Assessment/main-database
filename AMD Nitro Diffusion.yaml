@@ -14,59 +14,58 @@ system:
     link: https://huggingface.co/amd/SD2.1-Nitro
     type: image
     performanceclass: 
-    basemodelname: 
+    basemodelname: Stable-Diffusion-2-Base
     endmodelname: SD2.1-Nitro
-    endmodellicense:  Apache-2.0
-    modelname: 
-    releasedate: 
-    notes: 
+    endlicense:  Apache-2.0
+    releasedate: 2024-11
+    notes: More efficient implementation of Stable Diffusion 2.1.
 
 org:
     name: AMD
     link: https://huggingface.co/amd
-    notes: 
+    notes: AMD, a major chip manufacturer.
 
 # availability:
 datasources_basemodel:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://laion.ai/blog/laion-5b/
+    notes: Trained on a subset of LAION-5B, an openly available dataset.
 
 datasources_endmodel:
-    class: 
+    class: open
     link:
-    notes:
+    notes: Distilled model, so not applicable.
 
 weights_basemodel:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/stabilityai/stable-diffusion-2-base
+    notes: Weights available through HuggingFace.
     
 weights_endmodel:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/amd/SD2.1-Nitro
+    notes: Weights available through HuggingFace.
 
 trainingcode:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://github.com/AMD-AIG-AIMA/AMD-Diffusion-Distillation
+    notes: Training code made available through GitHub.
 
 # documentation:
 code:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://github.com/AMD-AIG-AIMA/AMD-LLM
+    notes: Model code well-documented.
 
 architecture:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/amd/SD2.1-Nitro
+    notes: Hardware outlined in model card.
 
 preprint:
     class: closed
     link:
-    notes:
+    notes: No preprint available.
 
 paper:
     class: closed
@@ -74,28 +73,28 @@ paper:
     notes:
 
 modelcard:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/amd/SD2.1-Nitro
+    notes: Model card provides superficial knowledge about architecture, training, the fine-tuning approach used, and evaluation. 
 
 datasheet:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://arxiv.org/pdf/2210.08402
+    notes: Data collection procedures for LAION are outlined in a corresponding paper.
 
 # access:
 package:
     class: closed
     link:
-    notes:
+    notes: No package found.
 
 api:
     class: closed
     link:
-    notes:
+    notes: No API found.
     metaprompts:
 
 licenses:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/amd/SD2.1-Nitro#license
+    notes: Model licensed under Apache-2.0, an OSI-approved license.

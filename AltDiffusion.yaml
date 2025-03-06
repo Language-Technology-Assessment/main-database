@@ -17,7 +17,6 @@ system:
     basemodelname: Stable-Diffusion-2-Base
     endmodelname: AltDiffusion
     endmodellicense: CreativeML Open RAIL-M License
-    endlicense: CreativeML Open RAIL-M License
     releasedate: 2022-12
     notes: Early multilingual text-to-image model.
 
