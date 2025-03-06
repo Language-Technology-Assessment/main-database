@@ -11,91 +11,91 @@
 
 system:
     name: AltDiffusion
-    link: https://huggingface.co/BAAI/DreamBooth-AltDiffusion
+    link: https://huggingface.co/BAAI/AltDiffusion
     type: image
     performanceclass: 
-    basemodelname: 
-    endmodelname: 
+    basemodelname: Stable-Diffusion-2-Base
+    endmodelname: AltDiffusion
     endmodellicense: CreativeML Open RAIL-M License
-    endlicense:
-    releasedate: 
-    notes: 
+    endlicense: CreativeML Open RAIL-M License
+    releasedate: 2022-12
+    notes: Early multilingual text-to-image model.
 
 org:
     name: Beijing Academy of Artificial Intelligence
     link: https://huggingface.co/BAAI
-    notes: 
+    notes: Chinese non-profit AI lab.
 
 # availability:
 datasources_basemodel:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://laion.ai/blog/laion-5b/
+    notes: Trained on a subset of LAION-5B, an openly available dataset.
 
 datasources_endmodel:
     class: 
-    link:
-    notes:
+    link: https://laion.ai/blog/laion-5b/, https://data.baai.ac.cn/details/WuDaoCorporaText
+    notes: Fine-tuned on LAION and WuDao. Both ostensibly publicly available.
 
 weights_basemodel:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/stabilityai/stable-diffusion-2-base
+    notes: Weights available through HuggingFace.
     
 weights_endmodel:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/BAAI/AltDiffusion
+    notes: Weights available through HuggingFace.
 
 trainingcode:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://github.com/superhero-7/AltDiffusion
+    notes: GitHub available containing training code.
 
 # documentation:
 code:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://github.com/superhero-7/AltDiffusion/
+    notes: Code sparsely documented in Chinese.
 
 architecture:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://arxiv.org/pdf/2308.09991
+    notes: Hardware architecture outlined in preprint.
 
 preprint:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://arxiv.org/pdf/2308.09991
+    notes: Preprint available through arXiv.
 
 paper:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://dl.acm.org/doi/10.1609/aaai.v38i7.28487
+    notes: Paper published in ACM.
 
 modelcard:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/BAAI/AltDiffusion
+    notes: Model card primarily contains information about inference, examples, and licensing information.
 
 datasheet:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://arxiv.org/pdf/2210.08402, https://github.com/BAAI-WuDao/Data
+    notes: Data collection procedures for LAION are outlined in a corresponding paper. The WuDao dataset is only sparsely documented, primarily in Chinese.
 
 # access:
 package:
     class: closed
     link:
-    notes:
+    notes: No package found. Model available through diffusers.
 
 api:
     class: closed
-    link:
-    notes:
+    link: https://huggingface.co/spaces/BAAI/AltDiffusion
+    notes: HuggingFace space exists, however displays a runtime error.
     metaprompts:
 
 licenses:
     class: closed
-    link:
-    notes:
+    link: https://huggingface.co/BAAI/AltDiffusion#%E8%AE%B8%E5%8F%AFlicense
+    notes: CreativeML Open RAIL-M License. Not an OSI-approved license.
