@@ -27,28 +27,28 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://www.tensorflow.org/datasets/catalog/c4#c4multilingual
+    notes: mC4, a subset of C4
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://github.com/bigscience-workshop/xmtf?tab=readme-ov-file#data
+    notes: xP3
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/bigscience/mt0-xxl-mt
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/bigscience/mt0-large
+    notes: various variants available
 
 trainingcode:
-    class: closed
-    link: 
+    class: partial
+    link: https://arxiv.org/pdf/2010.11934
     notes: 
 
 # documentation:
@@ -58,28 +58,28 @@ code:
     notes: 
 
 architecture:
-    class: closed
+    class: partial
     link:  
-    notes: 
+    notes: Architecture: Same as mt5-xxl, also refer to the config.json file
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/abs/2211.01786
     notes: 
 
 paper:
-    class: closed
-    link: 
+    class: open
+    link: https://virtual2023.aclweb.org/paper_P283.html
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/bigscience/mt0-xxl
     notes: 
 
 datasheet:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/datasets/bigscience/xP3
     notes: 
 
 # access:
@@ -91,10 +91,11 @@ package:
 api:
     class: closed
     link: 
-    notes: 
+    notes: none found
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: open
     link: 
-    notes: 
+    notes: model weights and finetuning dataset (xP3) and basemodel dataset (mC4) all under apache-2.0, 
+
