@@ -34,17 +34,17 @@ datasources_basemodel:
 datasources_endmodel:
     class: open
     link: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
-    notes: UltraChat and openbmb/UltraFeedback 
+    notes: "UltraChat and openbmb/UltraFeedback"
 
 weights_basemodel:
     class: open
-    link: 
-    notes: https://huggingface.co/mistralai/Mistral-7B-v0.1
+    link: https://huggingface.co/mistralai/Mistral-7B-v0.1
+    notes: 
 
 weights_endmodel:
     class: open
-    link: 
-    notes: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+    link: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+    notes: 
 
 trainingcode:
     class: closed
@@ -54,8 +54,8 @@ trainingcode:
 # documentation:
 code:
     class: closed
-    link:  
-    notes: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+    link: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+    notes:
 
 architecture:
     class: closed
@@ -97,4 +97,4 @@ api:
 licenses:
     class: partial
     link: 
-    notes: weights under MIT, datasets mixed
+    notes: "weights under MIT, datasets mixed"
