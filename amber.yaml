@@ -18,28 +18,28 @@ system:
     endmodelname: AmberSafe
     endmodellicense: Apache 2.0
     releasedate: 2023-11
-    notes:
+    notes: Model released to make LLM training knowledge accessible to all.
 
 org:
     name: LLM360
     link: https://www.llm360.ai/index.html
-    notes: LLM360, an initiative to fully open-source LLMs
+    notes: LLM360, an initiative to fully open-source LLMs.
 
 # availability:
 datasources_basemodel:
     class: open
     link: https://huggingface.co/datasets/LLM360/AmberDatasets
-    notes: data well-documented and openly available
+    notes: data well-documented and openly available.
 
 datasources_endmodel:
     class: open
     link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
-    notes: RL and fine-tuning data shared and documented
+    notes: RL and fine-tuning data shared and documented.
 
 weights_basemodel:
     class: open
     link: https://huggingface.co/LLM360/Amber
-    notes: 360 model checkpoints released
+    notes: 360 model checkpoints released.
     
 weights_endmodel:
     class: open
@@ -75,18 +75,18 @@ paper:
 modelcard:
     class: partial
     link: https://huggingface.co/LLM360/AmberChat
-    notes: Model card doesn't specify use or limitations
+    notes: Model card doesn't specify use or limitations.
 
 datasheet:
     class: partial
     link: https://huggingface.co/datasets/LLM360/AmberDatasets
-    notes: Concise description (better than most), but doesn't specify funders, purposes, representativeness, legal status as prescribed by datasheets industry standard
+    notes: Concise description (better than most), but doesn't specify funders, purposes, representativeness, legal status as prescribed by datasheets industry standard.
 
 # access:
 package:
     class: closed
     link:
-    notes: No released package found
+    notes: No released package found.
 
 api:
     class: open
@@ -97,4 +97,4 @@ api:
 licenses:
     class: open
     link: https://huggingface.co/LLM360/AmberChat
-    notes: Everything licensed under Apache 2.0
+    notes: Everything licensed under Apache 2.0.
