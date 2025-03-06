@@ -60,7 +60,7 @@ code:
 architecture:
     class: partial
     link:  
-    notes: Architecture: Same as mt5-xxl, also refer to the config.json file
+    notes: "Architecture: Same as mt5-xxl, also refer to the config.json file"
 
 preprint:
     class: open
@@ -97,5 +97,5 @@ api:
 licenses:
     class: open
     link: 
-    notes: model weights and finetuning dataset (xP3) and basemodel dataset (mC4) all under apache-2.0, 
+    notes: "model weights and finetuning dataset (xP3) and basemodel dataset (mC4) all under apache-2.0" 
 
