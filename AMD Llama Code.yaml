@@ -17,84 +17,84 @@ system:
     basemodelname: AMD-Llama-135m
     endmodelname: AMD-Llama-135m-code
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-07
     notes: Very tiny coder model, useful for speculative decoding.
 
 org:
     name: AMD
     link: https://huggingface.co/amd
-    notes: 
+    notes: AMD, a major chip manufacturer.
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/cerebras/SlimPajama-627B, https://huggingface.co/datasets/manu/project_gutenberg
+    notes: Data sources used to train the base model shared. Model uses a combination of SlimPajama and Project Gutenberg.
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/bigcode/starcoderdata
+    notes: Model uses the Python split of StarCoder. 
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/amd/AMD-Llama-135m
+    notes: Weights published on HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/amd/AMD-Llama-135m-code
+    notes: Weights published on HuggingFace.
 
 trainingcode:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://github.com/AMD-AIG-AIMA/AMD-LLM
+    notes: Training code shared on GitHub.
 
 # documentation:
 code:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://github.com/AMD-AIG-AIMA/AMD-LLM
+    notes: Model code well-documented.
 
 architecture:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://huggingface.co/amd/AMD-Llama-135m-code
+    notes: Hardware architecture shared on model card.
 
 preprint:
     class: closed
-    link: 
-    notes: 
+    link: https://www.amd.com/en/developer/resources/technical-articles/introducing-amd-first-slm-135m-model-fuels-ai-advancements.html
+    notes: No preprint available.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No paper found. 
 
 modelcard:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://github.com/AMD-AIG-AIMA/AMD-LLM
+    notes: Model card provides detail on model architecture, training, fine-tuning, and evaluation.
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/cerebras/SlimPajama-627B, https://huggingface.co/datasets/manu/project_gutenberg, https://huggingface.co/datasets/bigcode/starcoderdata
+    notes: All data sources are well-documented.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/amd/AMD-Llama-135m-code#license
+    notes: Licensed under Apache-2.0, an OSI-approved license.
