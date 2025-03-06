@@ -17,84 +17,84 @@ system:
     basemodelname: Aquila2-70B-Expr
     endmodelname: AquilaChat2-70B-Expr
     endmodellicense: BAAI Aquila Model Licence Agreement
-    releasedate: 
+    releasedate: 2023-11
     notes: Bilingual (English-Chinese) language model.
 
 org:
     name: Beijing Academy of Artificial Intelligence
     link: https://huggingface.co/BAAI
-    notes: 
+    notes: Chinese non-profit AI lab.
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2408.07410
+    notes: Paper thoroughly outlines pretraining data sources.
 
 datasources_endmodel:
     class: closed
-    link: 
-    notes: 
+    link: https://arxiv.org/pdf/2408.07410
+    notes: No explicit mention in paper of which instruction data was used.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/BAAI/Aquila2-70B-Expr
+    notes: Weights available through HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/BAAI/AquilaChat2-70B-Expr
+    notes: Weights available through HuggingFace.
 
 trainingcode:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://github.com/FlagOpen/FlagScale, https://github.com/FlagAI-Open/Aquila2
+    notes: Training code made available through GitHub.
 
 # documentation:
 code:
-    class: closed
-    link:  
-    notes: 
+    class: partial
+    link: https://github.com/FlagOpen/FlagScale, https://github.com/FlagAI-Open/Aquila2
+    notes: Code sparsely documented. Quite a few examples are provided.
 
 architecture:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2408.07410
+    notes: Training setup outlined in paper.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2408.07410
+    notes: Preprint available through arXiv.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No peer-reviewed version of the paper available.
 
 modelcard:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/BAAI/AquilaChat2-70B-Expr
+    notes: Model card only provides information about inference and licensing.
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://arxiv.org/pdf/2408.07410
+    notes: Data sheets available for some data sources.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://github.com/FlagAI-Open/Aquila2/blob/main/assets/wechat-qrcode.jpg
+    notes: API accessible through WeChat.
     metaprompt: closed
 
 licenses:
     class: closed
-    link: 
-    notes: 
+    link: BAAI Aquila Model Licence Agreement
+    notes: BAAI Aquila Model Licence Agreement, not an OSI-approved license.
