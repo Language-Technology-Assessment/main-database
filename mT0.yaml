@@ -13,11 +13,11 @@ system:
     name: mT0
     link: https://huggingface.co/bigscience/mt0-xxl-p3
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: mT5-XXL
     endmodelname: mT0-XXL-P3
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2023-05
     notes: 
 
 org:
