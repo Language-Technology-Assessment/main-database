@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: BERT
+    link: https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/
+    type: text
+    performanceclass: limited
+    basemodelname: BERT
+    endmodelname: BERT
+    endmodellicense: Apache 2.0
+    releasedate: 2018-11
+    notes: "This entry collates base BERT and its many derivatives"
+
+org:
+    name: Google AI
+    link: https://ai.google
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: https://github.com/google-research/bert
+    notes: "English Wikipedia, Bookcorpus (no longer available). See also: https://en.wikipedia.org/wiki/BookCorpus"
+
+datasources_endmodel:
+    class: closed
+    link: https://github.com/google-research/bert
+    notes: "English Wikipedia, Bookcorpus (no longer available). See also: https://en.wikipedia.org/wiki/BookCorpus"
+
+weights_basemodel:
+    class: open
+    link: https://github.com/google-research/bert
+    notes: 
+
+weights_endmodel:
+    class: open
+    link: https://github.com/google-research/bert
+    notes: 
+
+trainingcode:
+    class: partial
+    link: https://github.com/google-research/bert
+    notes: 
+
+# documentation:
+code:
+    class: partial
+    link:  https://github.com/google-research/bert
+    notes: 
+
+architecture:
+    class: open
+    link:  https://github.com/google-research/bert
+    notes: 
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/1810.04805
+    notes: 
+
+paper:
+    class: open
+    link: https://aclanthology.org/N19-1423.pdf
+    notes: 
+
+modelcard:
+    class: open
+    link: https://github.com/google-research/bert
+    notes: 
+
+datasheet:
+    class: partial
+    link: https://github.com/google-research/bert
+    notes: 
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: 
+    notes: "weights under apache 2.0, training data unclear"

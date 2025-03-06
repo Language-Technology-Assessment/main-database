@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: T5
+    link: https://huggingface.co/docs/transformers/en/model_doc/t5
+    type: text
+    performanceclass: limited
+    basemodelname: T5
+    endmodelname: T5X
+    endmodellicense: Apache 2.0
+    releasedate: 2019-10
+    notes: "This entry collates T5 base, T5X, and FLAN T5"
+
+org:
+    name: Google AI
+    link: https://ai.google
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: https://github.com/google-research/t5x, https://github.com/google-research/text-to-text-transfer-transformer/blob/main/README.md#dataset-preparation
+    notes: "C4; pretraining T5X on The Pile and for finetuning on SQuAD and MNLI."
+
+datasources_endmodel:
+    class: partial
+    link: 
+    notes: finetuning on SQuAD and MNLI
+
+weights_basemodel:
+    class: open
+    link: https://github.com/google-research/text-to-text-transfer-transformer?tab=readme-ov-file#released-model-checkpoints
+    notes: 
+
+weights_endmodel:
+    class: open
+    link: https://github.com/google-research/t5x
+    notes: 
+
+trainingcode:
+    class: partial
+    link: https://github.com/google-research/t5x
+    notes: 
+
+# documentation:
+code:
+    class: partial
+    link:  https://github.com/google-research/t5x
+    notes: 
+
+architecture:
+    class: partial
+    link:  https://arxiv.org/pdf/1910.10683
+    notes: 
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/1910.10683
+    notes: 
+
+paper:
+    class: open
+    link: http://www.jmlr.org/papers/v21/20-074.html
+    notes: 
+
+modelcard:
+    class: open
+    link: https://huggingface.co/docs/transformers/en/model_doc/t5, https://huggingface.co/google-t5/t5-11b
+    notes: 
+
+datasheet:
+    class: partial
+    link: https://huggingface.co/google-t5/t5-11b#training-details
+    notes: 
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: 
+    notes: "weights under apache 2.0, base model data unclear"
