@@ -28,53 +28,53 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/papers/2404.14619
+    notes: publically available datasets cited as training data but not further specified 
 
 datasources_endmodel:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/papers/2404.14619
+    notes: publically available datasets cited as training data but not further specified
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/apple/OpenELM-3B
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/apple/OpenELM-3B-Instruct/tree/main
     notes: 
 
 trainingcode:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: config and generation code on Hugginface
 
 # documentation:
 code:
-    class: closed
-    link:  
+    class: partial
+    link:  https://huggingface.co/apple/OpenELM-3B-Instruct/tree/main
     notes: 
 
 architecture:
-    class: closed
+    class: partial
     link:  
-    notes: 
+    notes: some details on the modelcard 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/abs/2404.14619
     notes: 
 
 paper:
-    class: closed
-    link: 
+    class: open
+    link: https://openreview.net/pdf?id=XNMbTkxroF
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/apple/OpenELM-3B-Instruct
     notes: 
 
 datasheet:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights under custom Apple license 
