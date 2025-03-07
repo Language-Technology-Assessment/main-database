@@ -17,39 +17,39 @@ system:
     basemodelname: Baichuan2-13B-Base
     endmodelname: Baichuan2-13B-Chat
     endmodellicense: Apache-2.0 + Community License for Baichuan2 Model
-    releasedate: 
+    releasedate: 2023-07
     notes: Bilingual Chinese-English model
 
 org:
     name: Baichuan Intelligent Technology
     link: https://huggingface.co/baichuan-inc
-    notes: 
+    notes: Chinese AI start-up
 
 # availability:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: No information regarding data sources found.
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: No information regarding data sources found.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/baichuan-inc/Baichuan2-13B-Base
+    notes: Weights available through HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat
+    notes: Weights available through HuggingFace.
 
 trainingcode:
     class: closed
-    link: 
-    notes: 
+    link: https://github.com/baichuan-inc/Baichuan2
+    notes: GitHub exists, but does not contain training code for the model.
 
 # documentation:
 code:
@@ -60,12 +60,12 @@ code:
 architecture:
     class: closed
     link:  
-    notes: 
+    notes: No hardware information found.
 
 preprint:
     class: closed
     link: 
-    notes: 
+    notes: No preprint found.
 
 paper:
     class: closed
@@ -74,8 +74,8 @@ paper:
 
 modelcard:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat
+    notes: Model card primarily contains information about using the model and licensing. No information about model architecture or training.
 
 datasheet:
     class: closed
@@ -84,17 +84,17 @@ datasheet:
 
 # access:
 package:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://pypi.org/project/langchain-baichuanai/0.0.1/
+    notes: Package available on PyPi.
 
 api:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://ying.baichuan-ai.com/chat
+    notes: Interfacing with the model is possible through site.
     metaprompt: closed
 
 licenses:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat
+    notes: Community License for Baichuan2 Model, not an OSI-recognized model.
