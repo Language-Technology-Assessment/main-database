@@ -29,26 +29,26 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: based on llama2
 
 datasources_endmodel:
-    class: closed
-    link: 
+    class: partial
+    link: https://huggingface.co/datasets/berkeley-nest/Nectar
     notes: 
 
 weights_basemodel:
-    class: closed
+    class: open
     link: 
-    notes: 
+    notes: llama2
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/Nexusflow/Starling-LM-7B-beta
     notes: 
 
 trainingcode:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/Nexusflow/Starling-LM-7B-beta
     notes: 
 
 # documentation:
@@ -65,7 +65,7 @@ architecture:
 preprint:
     class: closed
     link: 
-    notes: 
+    notes: linked preprint not by model creators 
 
 paper:
     class: closed
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/Nexusflow/Starling-LM-7B-beta
     notes: 
 
 datasheet:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights as apache2
