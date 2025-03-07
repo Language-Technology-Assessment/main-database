@@ -17,7 +17,7 @@ system:
     basemodelname: StripedHyena-Hessian-7B
     endmodelname: StripedHyena-Nous-7B
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2023-11
     notes: 
 
 org:
@@ -29,21 +29,21 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: "trained on a mix of the RedPajama dataset, augmented with longer-context data"
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: "trained on a mix of the RedPajama dataset, augmented with longer-context data"
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/togethercomputer/StripedHyena-Nous-7B
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/togethercomputer/StripedHyena-Hessian-7B
     notes: 
 
 trainingcode:
@@ -63,9 +63,9 @@ architecture:
     notes: 
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/abs/2302.10866
+    notes: various research preprints available
 
 paper:
     class: closed
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/togethercomputer/StripedHyena-Hessian-7B
     notes: 
 
 datasheet:
@@ -97,4 +97,4 @@ api:
 licenses:
     class: closed
     link: 
-    notes: 
+    notes: unclear
