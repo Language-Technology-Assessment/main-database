@@ -17,7 +17,7 @@ system:
     basemodelname: Salamandra-7B
     endmodelname: Salamandra-7B-Instruct
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-09
     notes: 
 
 org:
@@ -27,45 +27,45 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: detailed in model card but not readily available or linked
 
 datasources_endmodel:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: finetuning data listed in model card but not linked or shared
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/BSC-LT/salamandra-7b
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/BSC-LT/salamandra-7b-instruct
     notes: 
 
 trainingcode:
     class: closed
     link: 
-    notes: 
+    notes: no training code found
 
 # documentation:
 code:
     class: closed
     link:  
-    notes: 
+    notes: no code documentation found
 
 architecture:
-    class: closed
+    class: open
     link:  
-    notes: 
+    notes: model card contains details
 
 preprint:
-    class: closed
+    class: open
     link: 
-    notes: 
+    notes: various preprints available
 
 paper:
     class: closed
@@ -73,14 +73,14 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/BSC-LT/salamandra-7b-instruct
     notes: 
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/BSC-LT/salamandra-7b-instruct
+    notes: datasheet part of model cart
 
 # access:
 package:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights as apache 2
