@@ -13,11 +13,11 @@ system:
     name: OPT
     link: https://huggingface.co/facebook/opt-iml-max-30b
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: OPT-30B
     endmodelname: OPT-IML-Max-30B
     endmodellicense: OPT-IML 175B License Agreement
-    releasedate: 
+    releasedate: 2023-01
     notes: 
 
 org:
@@ -29,12 +29,12 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: preprint cites specialized datasets related to reasoning and dialogue but not further detailed
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: preprint cites specialized datasets related to reasoning and dialogue but not further detailed
 
 weights_basemodel:
     class: closed
@@ -42,8 +42,8 @@ weights_basemodel:
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/facebook/opt-iml-max-30b
     notes: 
 
 trainingcode:
@@ -63,8 +63,8 @@ architecture:
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/abs/2212.12017
     notes: 
 
 paper:
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/facebook/opt-iml-max-30b
     notes: 
 
 datasheet:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: custom RAIL
