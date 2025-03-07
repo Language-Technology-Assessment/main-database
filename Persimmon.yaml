@@ -13,11 +13,11 @@ system:
     name: Persimmon
     link: https://huggingface.co/adept/persimmon-8b-chat
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Persimmon-8B-Base
     endmodelname: Persimmon-8B-Chat
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2023-09
     notes: 
 
 org:
@@ -37,13 +37,13 @@ datasources_endmodel:
     notes: 
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/adept/persimmon-8b-base
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/adept/persimmon-8b-chat
     notes: 
 
 trainingcode:
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/adept/persimmon-8b-chat
     notes: 
 
 datasheet:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights under apache 2
