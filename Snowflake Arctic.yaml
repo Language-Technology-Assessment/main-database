@@ -12,12 +12,12 @@
 system:
     name: Snowflake Arctic
     link: https://huggingface.co/Snowflake/snowflake-arctic-instruct
-    type: text
-    performanceclass: 
+    type: text, code
+    performanceclass: full
     basemodelname: Snowflake-Arctic-Base
     endmodelname: Snowflake-Arctic-Instruct
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-04
     notes: 
 
 org:
@@ -38,12 +38,12 @@ datasources_endmodel:
 
 weights_basemodel:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/Snowflake/snowflake-arctic-base
+    notes: restricted access via API
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/Snowflake/snowflake-arctic-instruct
     notes: 
 
 trainingcode:
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/Snowflake/snowflake-arctic-instruct
     notes: 
 
 datasheet:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights as apache 2
