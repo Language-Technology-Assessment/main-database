@@ -12,7 +12,7 @@
 system:
     name: Snowflake Arctic
     link: https://huggingface.co/Snowflake/snowflake-arctic-instruct
-    type: text
+    type: text, code
     performanceclass: full
     basemodelname: Snowflake-Arctic-Base
     endmodelname: Snowflake-Arctic-Instruct
