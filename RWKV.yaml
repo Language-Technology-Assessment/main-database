@@ -13,11 +13,11 @@ system:
     name: RWKV
     link: https://huggingface.co/BlinkDL/rwkv-7-world
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: RWKV-x070-Pile-1.47B-ctx4096
     endmodelname: RWKV-x070-World-1.5B-v3-20250127-ctx4096
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-12
     notes: Model under active development.
 
 org:
@@ -29,21 +29,21 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: some datasets listed on model card but use not detailed
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: some datasets listed on model card but use not detailed
 
 weights_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: not found
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/BlinkDL/rwkv-7-world
     notes: 
 
 trainingcode:
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/BlinkDL/rwkv-7-world
     notes: 
 
 datasheet:
@@ -84,8 +84,8 @@ datasheet:
 
 # access:
 package:
-    class: closed
-    link: 
+    class: open
+    link: https://pypi.org/project/rwkv/
     notes: 
 
 api:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights as apache 2
