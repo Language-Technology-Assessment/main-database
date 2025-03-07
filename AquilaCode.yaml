@@ -17,39 +17,39 @@ system:
     basemodelname: Aquila-7B
     endmodelname: AquilaCode-multi
     endmodellicense: BAAI Aquila Model Licence Agreement
-    releasedate: 
+    releasedate: 2023-07
     notes: Bilingual (English-Chinese) language model.
 
 org:
     name: Beijing Academy of Artificial Intelligence
     link: https://huggingface.co/BAAI
-    notes: 
+    notes: Chinese non-profit AI lab.
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2408.07410
+    notes: Paper thoroughly outlines pretraining data sources.
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: No data sources mentioned.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/BAAI/Aquila-7B
+    notes: Weights available through HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/BAAI/AquilaCode-multi
+    notes: Weights available through HuggingFace.
 
 trainingcode:
     class: closed
     link: 
-    notes: 
+    notes: No training code repository easily available.
 
 # documentation:
 code:
@@ -60,12 +60,12 @@ code:
 architecture:
     class: closed
     link:  
-    notes: 
+    notes: Only minimal architecture information available.
 
 preprint:
     class: closed
     link: 
-    notes: 
+    notes: No preprint available.
 
 paper:
     class: closed
@@ -73,9 +73,9 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: Model card does not go very in-depth, mainly providing information about inference and global model information. 
 
 datasheet:
     class: closed
@@ -86,15 +86,15 @@ datasheet:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/BAAI/AquilaCode-multi/blob/main/BAAI%20Aquila%20Model%20License%20Agreement.pdf
+    notes: BAAI Aquila Model Licence Agreement, not an OSI-approved license.

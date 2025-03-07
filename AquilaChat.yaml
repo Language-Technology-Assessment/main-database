@@ -96,5 +96,5 @@ api:
 
 licenses:
     class: closed
-    link: BAAI Aquila Model Licence Agreement
+    link: https://huggingface.co/BAAI/AquilaChat2-70B-Expr/blob/main/BAAI-Aquila-70B-Model-License-Agreement.pdf.pdf
     notes: BAAI Aquila Model Licence Agreement, not an OSI-approved license.
