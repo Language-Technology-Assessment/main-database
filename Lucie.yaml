@@ -13,7 +13,7 @@ system:
     name: Lucie
     link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-v1.1
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Lucie-7B
     endmodelname: Lucie-7B-Instruct-v1.1
     endmodellicense: Apache-2.0
@@ -27,45 +27,45 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
     notes: 
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
+    notes: many listed but some not shared
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
     notes: 
 
 trainingcode:
-    class: closed
-    link: 
+    class: partial
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
     notes: 
 
 # documentation:
 code:
-    class: closed
-    link:  
+    class: partial
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
     notes: 
 
 architecture:
-    class: closed
-    link:  
+    class: open
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
     notes: 
 
 preprint:
     class: closed
     link: 
-    notes: 
+    notes: mentioned but not found
 
 paper:
     class: closed
@@ -73,14 +73,14 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
     notes: 
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
+    notes: links to datasets that have sheets
 
 # access:
 package:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: models under apache 2
