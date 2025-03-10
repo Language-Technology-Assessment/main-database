@@ -34,7 +34,7 @@ datasources_basemodel:
 datasources_endmodel:
     class: open
     link: https://huggingface.co/datasets/Anthropic/hh-rlhf
-    notes:  Anthropic-HH-RLHF
+    notes:  "Anthropic-HH-RLHF"
 
 weights_basemodel:
     class: open
