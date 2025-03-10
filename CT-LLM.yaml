@@ -13,11 +13,11 @@ system:
     name: CT-LLM
     link: https://huggingface.co/m-a-p/CT-LLM-SFT-DPO
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: CT-LLM-Base
     endmodelname: CT-LLM-SFT-DPO
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-04
     notes: Chinese-only model
 
 org:
@@ -27,44 +27,44 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/m-a-p/CT-LLM-Base
+    notes: some datasets listed 
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/m-a-p/CT-LLM-SFT-DPO
+    notes: list of datasets provided 
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/m-a-p/CT-LLM-Base
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/abs/2404.04167
     notes: 
 
 trainingcode:
-    class: closed
-    link: 
+    class: partial
+    link: https://github.com/multimodal-art-projection/Megatron-LM-NEO/tree/5215161b12485e5f09eb93b3997d7f3233d9fda9/neo
     notes: 
 
 # documentation:
 code:
-    class: closed
-    link:  
+    class: partial
+    link:  https://github.com/Chinese-Tiny-LLM/Chinese-Tiny-LLM
     notes: 
 
 architecture:
-    class: closed
-    link:  
+    class: partial
+    link: https://github.com/Chinese-Tiny-LLM/Chinese-Tiny-LLM?tab=readme-ov-file
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/abs/2404.04167
     notes: 
 
 paper:
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/m-a-p/CT-LLM-SFT-DPO
     notes: 
 
 datasheet:
@@ -97,4 +97,4 @@ api:
 licenses:
     class: closed
     link: 
-    notes: 
+    notes: weights as apache2
