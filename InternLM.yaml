@@ -13,11 +13,11 @@ system:
     name: InternLM
     link: https://huggingface.co/internlm/internlm3-8b-instruct
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: InternLM3-8B
     endmodelname: InternLM3-8B-Instruct
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-03
     notes: 
 
 org:
@@ -27,35 +27,35 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://arxiv.org/pdf/2403.17297
+    notes: mainly from common crawl otherwise no details in preprint
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: not found
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/internlm/internlm3-8b-instruct
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/internlm/internlm3-8b-instruct
     notes: 
 
 trainingcode:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://github.com/InternLM/InternLM?tab=readme-ov-file
+    notes: some shared
 
 # documentation:
 code:
-    class: closed
-    link:  
-    notes: 
+    class: partial
+    link: https://github.com/InternLM/InternLM?tab=readme-ov-file 
+    notes: some code documented
 
 architecture:
     class: closed
@@ -63,8 +63,8 @@ architecture:
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/abs/2403.17297
     notes: 
 
 paper:
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/internlm/internlm3-8b-instruct
     notes: 
 
 datasheet:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights under apache 2
