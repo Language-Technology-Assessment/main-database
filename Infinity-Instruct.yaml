@@ -13,11 +13,11 @@ system:
     name: Infinity-Instruct
     link: https://huggingface.co/BAAI/Infinity-Instruct-7M-Gen-Llama3_1-70B
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Llama-3.1-70B
     endmodelname: Infinity-Instruct-7M-Gen-Llama3.1-70B
     endmodellicense: Llama 3.1 Community License Agreement
-    releasedate: 
+    releasedate: 2024-08
     notes: 
 
 org:
@@ -29,27 +29,27 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: based on Llama3
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/datasets/BAAI/Infinity-Instruct
+    notes: partially on HF
 
 weights_basemodel:
-    class: closed
+    class: open
     link: 
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/BAAI/Infinity-Instruct-7M-Gen-Llama3_1-70B
     notes: 
 
 trainingcode:
     class: closed
     link: 
-    notes: 
+    notes: soon to be released
 
 # documentation:
 code:
@@ -65,7 +65,7 @@ architecture:
 preprint:
     class: closed
     link: 
-    notes: 
+    notes: dead link
 
 paper:
     class: closed
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/BAAI/Infinity-Instruct-7M-Gen-Llama3_1-70B
     notes: 
 
 datasheet:
@@ -97,4 +97,4 @@ api:
 licenses:
     class: closed
     link: 
-    notes: 
+    notes: weights under meta custom license
