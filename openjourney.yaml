@@ -56,7 +56,7 @@ code:
     link:
     notes: No training code found, so no documentation.
 
-architecture:
+hardware_architecture:
     class: closed
     link:
     notes: No detailed architecture information provided.

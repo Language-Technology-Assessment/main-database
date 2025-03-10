@@ -57,7 +57,7 @@ code:
     link: https://github.com/jondurbin/qlora
     notes: Code is not very systematically documented.
 
-architecture:
+hardware_architecture:
     class: closed
     link: 
     notes: Earlier airoboros model versions included some architecture and training information. Latest versions (>3.1.2) do not. 

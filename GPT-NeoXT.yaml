@@ -57,7 +57,7 @@ code:
     link:  
     notes: 
 
-architecture:
+hardware_architecture:
     class: open
     link:  https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B
     notes: 

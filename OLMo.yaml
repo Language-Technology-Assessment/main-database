@@ -57,7 +57,7 @@ code:
     link: https://github.com/allenai/OLMo
     notes: repositories and code well-described, commented and documented
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct#model-sources
     notes: Architecture documented in some detail, however a technical blog post and/or paper is as yet missing to provide full info.

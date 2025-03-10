@@ -57,7 +57,7 @@ code:
     link: https://github.com/imoneoi/openchat/tree/master/ochat
     notes: There is plenty of code in the github repository but only some of it is documented
 
-architecture:
+hardware_architecture:
     class: open
     link: https://arxiv.org/abs/2309.11235
     notes: Architecture quite well described in preprint

@@ -57,7 +57,7 @@ code:
     link:
     notes: Code only covers minimal examples; no documentation available. 
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://arxiv.org/pdf/2310.01377
     notes: Architecture sketched in online materials.

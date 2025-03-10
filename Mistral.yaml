@@ -57,7 +57,7 @@ code:
     link: https://github.com/mistralai/mistral-inference/tree/main/src/mistral_inference
     notes: repository contains minimal code to run the models; also open source code, althought it is mostly uncommented and not documented very well.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://github.com/mistralai/mistral-src
     notes: Some information on architecture provided in github repo

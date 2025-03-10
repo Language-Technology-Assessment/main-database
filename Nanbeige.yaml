@@ -57,7 +57,7 @@ code:
     link:
     notes: No documentation of the codebase
 
-architecture:
+hardware_architecture:
     class: closed
     link:
     notes: Architecture not clearly specified

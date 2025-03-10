@@ -57,7 +57,7 @@ code:
     link: https://github.com/deepseek-ai/DeepSeek-V3/
     notes: Repository is sparsely documented.
 
-architecture:
+hardware_architecture:
     class: partial
     link:  https://arxiv.org/pdf/2412.19437
     notes: Model architecture described in a fair bit of detail in technical report.

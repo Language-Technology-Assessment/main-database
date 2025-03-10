@@ -57,7 +57,7 @@ code:
     link: https://github.com/InternLM/InternLM?tab=readme-ov-file 
     notes: some code documented
 
-architecture:
+hardware_architecture:
     class: closed
     link:  
     notes: 

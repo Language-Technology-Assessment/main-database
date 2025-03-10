@@ -61,7 +61,7 @@ code:
     link: https://github.com/THUDM/ChatGLM-6B/blob/main/ptuning/README_en.md
     notes: Some documentation available, but a lot of code is not commented or explained.
 
-architecture:
+hardware_architecture:
     class: partial
     link: 
     notes: Full details of architecture not specified in a single place

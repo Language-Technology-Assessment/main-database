@@ -10,7 +10,7 @@ trainingcode:
   en: Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
 code:
   en: Is the source code of datasource processing, model training and tuning comprehensively documented?
-architecture:
+hardware_architecture:
   en: Is the hardware architecture used for datasource processing and model training comprehensively documented?
 preprint:
   en: Are archived preprint(s) are available that detail all major parts of the system including datasource processing, model training and tuning steps?

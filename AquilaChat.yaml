@@ -57,7 +57,7 @@ code:
     link: https://github.com/FlagOpen/FlagScale, https://github.com/FlagAI-Open/Aquila2
     notes: Code sparsely documented. Quite a few examples are provided.
 
-architecture:
+hardware_architecture:
     class: open
     link: https://arxiv.org/pdf/2408.07410
     notes: Training setup outlined in paper.

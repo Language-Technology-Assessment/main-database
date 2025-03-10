@@ -57,7 +57,7 @@ code:
     link: https://github.com/OpenBMB/Eurus/tree/main
     notes: Only evaluation code found in the repositories, which is documented to a small extent.
 
-architecture:
+hardware_architecture:
     class: open
     link: https://arxiv.org/abs/2404.02078
     notes: Architecture described in detail in the paper.

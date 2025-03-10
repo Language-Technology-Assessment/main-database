@@ -57,7 +57,7 @@ code:
     link:
     notes:
 
-architecture:
+hardware_architecture:
     class: open
     link: https://arxiv.org/abs/2410.03730
     notes: Preprint shows architecture, providing details about design decisions and hyperparameters. 

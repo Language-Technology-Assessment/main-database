@@ -57,7 +57,7 @@ code:
     link: https://github.com/VectorSpaceLab/OmniGen
     notes: Fine-tuning code is sparsely documented.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://arxiv.org/pdf/2409.11340
     notes: Training setup is sparsely documented.

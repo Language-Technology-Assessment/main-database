@@ -59,7 +59,7 @@ code:
     link:
     notes: No training code, so no documentation.
 
-architecture:
+hardware_architecture:
     class: open
     link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0
     notes: Hardware information provided.

@@ -57,7 +57,7 @@ code:
     link: https://github.com/QwenLM/Qwen1.5/
     notes: Repository is fairly well-documented.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://arxiv.org/abs/2309.16609
     notes: Architecture only described in terms of how it was modified wrt Llama.

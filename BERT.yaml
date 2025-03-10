@@ -57,7 +57,7 @@ code:
     link:  https://github.com/google-research/bert
     notes: 
 
-architecture:
+hardware_architecture:
     class: open
     link:  https://github.com/google-research/bert
     notes: 

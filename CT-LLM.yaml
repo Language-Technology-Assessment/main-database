@@ -57,7 +57,7 @@ code:
     link:  https://github.com/Chinese-Tiny-LLM/Chinese-Tiny-LLM
     notes: 
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://github.com/Chinese-Tiny-LLM/Chinese-Tiny-LLM?tab=readme-ov-file
     notes: 

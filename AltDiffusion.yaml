@@ -57,7 +57,7 @@ code:
     link: https://github.com/superhero-7/AltDiffusion/
     notes: Code sparsely documented in Chinese.
 
-architecture:
+hardware_architecture:
     class: open
     link: https://arxiv.org/pdf/2308.09991
     notes: Hardware architecture outlined in preprint.

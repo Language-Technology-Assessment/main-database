@@ -57,7 +57,7 @@ code:
     link: https://github.com/axolotl-ai-cloud/axolotl/tree/main/docs
     notes: Training library is well-documented.
 
-architecture:
+hardware_architecture:
     class: open
     link: https://arxiv.org/pdf/2412.04277
     notes: Hardware architecture thoroughly documented in paper.

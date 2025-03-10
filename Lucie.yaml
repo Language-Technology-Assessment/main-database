@@ -57,7 +57,7 @@ code:
     link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
     notes: 
 
-architecture:
+hardware_architecture:
     class: open
     link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
     notes: 

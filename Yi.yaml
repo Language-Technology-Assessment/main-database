@@ -57,7 +57,7 @@ code:
     link: https://github.com/01-ai/Yi/
     notes: Inference and fine-tuning code is documented, training code is not documented.
 
-architecture:
+hardware_architecture:
     class: closed
     link:
     notes: Model architecture only described in the most general terms.

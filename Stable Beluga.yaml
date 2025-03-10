@@ -57,7 +57,7 @@ code:
     link:
     notes: Code on HuggingFace only covers minimal examples; no documentation available. 
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://huggingface.co/stabilityai/StableBeluga2#model-details
     notes: "Says 'Stable Beluga 2 is a Llama2 70B model finetuned on an Orca style Dataset'."

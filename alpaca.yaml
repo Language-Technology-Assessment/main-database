@@ -57,7 +57,7 @@ code:
     link:  https://github.com/tatsu-lab/stanford_alpaca
     notes: Insofar as code is made available it is fairly well documented.
 
-architecture:
+hardware_architecture:
     class: open
     link:  https://github.com/tatsu-lab/stanford_alpaca#fine-tuning
     notes: Fair bit of documentation available on github repository.

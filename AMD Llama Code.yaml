@@ -57,7 +57,7 @@ code:
     link: https://github.com/AMD-AIG-AIMA/AMD-LLM
     notes: Model code well-documented.
 
-architecture:
+hardware_architecture:
     class: open
     link: https://huggingface.co/amd/AMD-Llama-135m-code
     notes: Hardware architecture shared on model card.

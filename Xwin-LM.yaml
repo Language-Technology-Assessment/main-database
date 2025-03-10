@@ -57,7 +57,7 @@ code:
     link:
     notes: No documentation available. Some evaluation code is available and documented for the coding and math variants of the model.
 
-architecture:
+hardware_architecture:
     class: open
     link: https://arxiv.org/pdf/2405.20335
     notes: Architecture is fully outlined in the preprint.

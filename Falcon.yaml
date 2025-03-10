@@ -57,7 +57,7 @@ code:
     link:
     notes: No source code found, therefore no documentation found.
 
-architecture:
+hardware_architecture:
     class: partial
     link:
     notes: Architecture sketched on HuggingFace as "Falcon-40B-Instruct is a 40B parameters causal decoder-only model built by TII based on Falcon-40B and finetuned on a mixture of Baize."

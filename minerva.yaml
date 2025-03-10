@@ -57,7 +57,7 @@ code:
     link: 
     notes: No explicit code is provided, so consequently no documentation of code exists.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0#model-architecture
     notes: Architecture described at a high level in model card.

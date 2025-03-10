@@ -57,7 +57,7 @@ code:
     link: https://github.com/mosaicml/llm-foundry/
     notes: LLM Foundry codebase is well-documented and in active development.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://huggingface.co/mosaicml/mpt-30b-instruct
     notes: Architecture reasonably well-documented

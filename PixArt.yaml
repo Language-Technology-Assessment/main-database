@@ -57,7 +57,7 @@ code:
     link: https://github.com/PixArt-alpha/PixArt-sigma
     notes: Training code usage documented in README, no documentation in training code itself.
 
-architecture:
+hardware_architecture:
     class: open
     link: https://arxiv.org/pdf/2403.04692
     notes: Architecture described in paper.

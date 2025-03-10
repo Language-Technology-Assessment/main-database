@@ -57,7 +57,7 @@ code:
     link:  https://github.com/google-research/t5x
     notes: 
 
-architecture:
+hardware_architecture:
     class: partial
     link:  https://arxiv.org/pdf/1910.10683
     notes: 

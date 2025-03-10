@@ -57,7 +57,7 @@ code:
     link: https://github.com/mistralai/mistral-inference/tree/main/src/mistral_inference
     notes: collection of code on github repository, although not very clearly documented and commented.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://huggingface.co/BramVanroy/GEITje-7B-ultra
     notes: Some information on architecture provided in github repo and HF model card. Training was done using alignment handbook.

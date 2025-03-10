@@ -57,7 +57,7 @@ code:
     link: https://github.com/LLM360
     notes: Code documented in helpful readme.md files but only partly inline.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://arxiv.org/abs/2312.06550
     notes: Architecture described in preprint, but not all details documented.

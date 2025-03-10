@@ -57,7 +57,7 @@ code:
     link:  https://github.com/BramVanroy/fietje-2/tree/main/training
     notes: 
 
-architecture:
+hardware_architecture:
     class: open
     link: https://huggingface.co/BramVanroy/fietje-2-chat
     notes: 

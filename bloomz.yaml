@@ -57,7 +57,7 @@ code:
     link: https://github.com/bigscience-workshop/xmtf
     notes: Code well documented and actively maintained
 
-architecture:
+hardware_architecture:
     class: open
     link: https://github.com/bigscience-workshop/xmtf#create-xp3x
     notes: Architecture described in preprint, code available in github repo, recipe on HuggingFace

@@ -58,7 +58,7 @@ code:
     link: https://github.com/lm-sys/FastChat
     notes: Code is quite well-documented and released as part of the FastChat framework.
 
-architecture:
+hardware_architecture:
     class: closed
     link:
     notes:

@@ -105,7 +105,7 @@ Is the source code of datasource processing, model training and tuning comprehen
     
     🟩 All components of the system features a comprehensive code documentation.
 
-**Architecture Documentation**
+**Hardware Architecture Documentation**
 
 Is the hardware architecture used for datasource processing and model training comprehensively documented?
 

@@ -57,7 +57,7 @@ code:
     link:
     notes: No source code available, so no documentation of code.
 
-architecture:
+hardware_architecture:
     class: closed
     link:
     notes: Architecture only sparsely documented.

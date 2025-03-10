@@ -57,7 +57,7 @@ code:
     link:
     notes: No pretraining or finetuning code found. No code documentation except for deployment of the open weights.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://www.kaggle.com/models/google/gemma
     notes: Architecture described in very general terms in model card

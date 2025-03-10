@@ -57,7 +57,7 @@ code:
     link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
     notes: Code provide only model architecture and an inferencing pipeline examples; some files are documented.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://ai.meta.com/research/publications/the-llama-3-herd-of-models/
     notes: Architecture described in paper, energy consumtion and environmental impact disclosed in model card, but not in paper; training process not fully documented

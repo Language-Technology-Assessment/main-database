@@ -57,7 +57,7 @@ code:
     link: https://github.com/LianjiaTech/BELLE/blob/main/README_en.md
     notes: Quite some documentation on Github, though not all well-organized 
 
-architecture:
+hardware_architecture:
     class: open
     link: https://github.com/LianjiaTech/BELLE/blob/main/README_en.md
     notes: Specified in a fair bit of detail on github

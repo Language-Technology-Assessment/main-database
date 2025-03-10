@@ -57,7 +57,7 @@ code:
     link:
     notes: Code for base LLM and instruction tuning datasets beautifully documented; code specifying training and fine-tuning sparsely documented.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://together.ai/blog/redpajama
     notes: Architecture detailed on model card, crucial parts appear to be forked from GPT-NeoX 

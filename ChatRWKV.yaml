@@ -57,7 +57,7 @@ code:
     link:
     notes: Code documentation scattered across github repo and HuggingFace spaces
 
-architecture:
+hardware_architecture:
     class: partial
     link:
     notes: Architecture described in preprint (LM part) but not all details clearly documented.

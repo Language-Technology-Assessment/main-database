@@ -57,7 +57,7 @@ code:
     link:
     notes: No source code, so no documentation of source code found
 
-architecture:
+hardware_architecture:
     class: open
     link: https://arxiv.org/abs/2404.14219
     notes: Architecture described in model card and preprint

@@ -57,7 +57,7 @@ code:
     link:
     notes: HuggingFace code only comprises configuration json; no documentation available. 
 
-architecture:
+hardware_architecture:
     class: closed
     link: 
     notes: Precise architecture, training, fine-tuning procedures not given.

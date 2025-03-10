@@ -57,7 +57,7 @@ code:
     link: https://github.com/huggingface/smollm
     notes: GitHub repository is well-documented.
 
-architecture:
+hardware_architecture:
     class: closed
     link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct
     notes: Model card only mentions architecture is a 'transformer decoder', no details provided.

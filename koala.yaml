@@ -57,7 +57,7 @@ code:
     link: https://github.com/young-geng/EasyLM
     notes: Code scattered across various repositories and not systematically documented.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://github.com/young-geng/EasyLM
     notes: Architecture visually illustrated and described in some detail.

@@ -57,7 +57,7 @@ code:
     link: https://github.com/hf-lin/ChatMusician
     notes: partially documented
 
-architecture:
+hardware_architecture:
     class: partial
     link:
     notes:

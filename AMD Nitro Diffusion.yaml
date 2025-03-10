@@ -57,7 +57,7 @@ code:
     link: https://github.com/AMD-AIG-AIMA/AMD-LLM
     notes: Model code well-documented.
 
-architecture:
+hardware_architecture:
     class: open
     link: https://huggingface.co/amd/SD2.1-Nitro
     notes: Hardware outlined in model card.
