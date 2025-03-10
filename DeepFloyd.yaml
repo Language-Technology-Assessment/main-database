@@ -18,7 +18,7 @@ system:
     endmodelname: IF-I-XL-V1.0
     endmodellicense: DeepFloyd IF Research License Agreement
     releasedate: 2023-04
-    notes: 
+    notes: Pixel-based triple-cascaded diffusion model.
 
 org:
     name: DeepFloyd, StabilityAI
@@ -28,75 +28,75 @@ org:
 # availability:
 
 datasources_basemodel:
-    class: 
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0#training
+    notes: Model training partially based on LAION-A, however also uses internal datasets.
 
 datasources_endmodel:
-    class: 
+    class: partial
     link:
     notes:
 
 weights_basemodel:
-    class: 
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0
+    notes: Gated model made available through HuggingFace.
     
 weights_endmodel:
-    class: 
+    class: partial
     link:
     notes:
 
 trainingcode:
     class: closed
-    link:
-    notes:
+    link: https://github.com/deep-floyd/IF
+    notes: No training code found.
 
 
 # documentation:
 code:
     class: closed
     link:
-    notes:
+    notes: No training code, so no documentation.
 
 architecture:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0
+    notes: Hardware information provided.
 
 preprint:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://arxiv.org/pdf/2205.11487
+    notes: Model inspired by paper, however does not have a paper of its own.
 
 paper:
     class: closed
     link:
-    notes:
+    notes: No paper found.
 
 modelcard:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0
+    notes: Model card provides the desired information.
 
 datasheet:
     class: closed
     link:
-    notes:
+    notes: No datasheet found.
 
 # access:
 package:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://pypi.org/project/deepfloyd-if/
+    notes: Package available on PyPi.
 
 api:
     class: closed
     link:
-    notes:
+    notes: No API found.
     metaprompts:
 
 licenses:
     class: closed
-    link:
-    notes:
+    link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0#model-details
+    notes: DeepFloyd IF Research License Agreement, not an OSI-approved license.
