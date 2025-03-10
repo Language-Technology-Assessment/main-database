@@ -13,11 +13,11 @@ system:
     name: BTLM
     link: https://huggingface.co/cerebras/btlm-3b-8k-chat
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: BTLM-3B-8K-Base
     endmodelname: BTLM-3B-8K-Chat
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2023-12
     notes: 
 
 org:
@@ -27,39 +27,39 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/datasets/cerebras/SlimPajama-627B
     notes: 
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/Anthropic/hh-rlhf
+    notes:  Anthropic-HH-RLHF
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/cerebras/btlm-3b-8k-base
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/cerebras/btlm-3b-8k-chat
     notes: 
 
 trainingcode:
-    class: closed
+    class: partial
     link: 
     notes: 
 
 # documentation:
 code:
-    class: closed
+    class: partial
     link:  
     notes: 
 
 architecture:
-    class: closed
-    link:  
+    class: partial
+    link:  https://huggingface.co/cerebras/btlm-3b-8k-chat
     notes: 
 
 preprint:
@@ -73,14 +73,14 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/cerebras/btlm-3b-8k-chat
     notes: 
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/datasets/Anthropic/hh-rlhf
+    notes: available for tuning data
 
 # access:
 package:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights under apache 2
