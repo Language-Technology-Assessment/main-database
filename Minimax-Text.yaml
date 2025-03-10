@@ -17,7 +17,7 @@ system:
     basemodelname: MiniMax-Text-01
     endmodelname: MiniMax-Text-01
     endmodellicense: Minimax Model License
-    releasedate: 
+    releasedate: 2025-01
     notes: Only end model released.
 
 org:
@@ -42,8 +42,8 @@ weights_basemodel:
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/MiniMaxAI/MiniMax-Text-01
     notes: 
 
 trainingcode:
@@ -63,8 +63,8 @@ architecture:
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/pdf/2501.08313
     notes: 
 
 paper:
@@ -91,10 +91,10 @@ package:
 api:
     class: closed
     link: 
-    notes: 
+    notes: closed API only
     metaprompt: closed
 
 licenses:
     class: closed
     link: 
-    notes: 
+    notes: custom license  
