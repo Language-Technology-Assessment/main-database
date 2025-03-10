@@ -17,7 +17,7 @@ system:
     basemodelname: Gemma-2-2B
     endmodelname: Gemma-2-2B-JPN-IT
     endmodellicense: Gemma Terms of Use
-    releasedate: 
+    releasedate: 2024-10
     notes: 
 
 org:
@@ -37,19 +37,19 @@ datasources_endmodel:
     notes: 
 
 weights_basemodel:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: behind consent form
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/google/gemma-2-2b-jpn-it
+    notes: behind consent form
 
 trainingcode:
     class: closed
     link: 
-    notes: 
+    notes: no info found
 
 # documentation:
 code:
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/google/gemma-2-2b-jpn-it
     notes: 
 
 datasheet:
@@ -97,4 +97,4 @@ api:
 licenses:
     class: closed
     link: 
-    notes: 
+    notes: weights released with custom license 
