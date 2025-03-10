@@ -32,7 +32,7 @@ datasources_basemodel:
     notes: Trained on a subset of LAION-5B, an openly available dataset.
 
 datasources_endmodel:
-    class: 
+    class: open
     link: https://laion.ai/blog/laion-5b/, https://data.baai.ac.cn/details/WuDaoCorporaText
     notes: Fine-tuned on LAION and WuDao. Both ostensibly publicly available.
 
