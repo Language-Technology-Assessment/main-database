@@ -13,11 +13,11 @@ system:
     name: Neo
     link: https://huggingface.co/m-a-p/neo_7b_instruct_v0.1
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Neo-7B
     endmodelname: Neo-7B-Instruct-v0.1
-    endmodellicense: Apache-2.0
-    releasedate: 
+    endmodellicense: Apache 2.0
+    releasedate: 2024-05
     notes: 
 
 org:
@@ -27,44 +27,44 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/m-a-p/Matrix
+    notes:  
 
 datasources_endmodel:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: "some datasets listed in preprint but some missing, quote: we collect over 100k multi-turn dialogue data sourced from real user conversations"
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/m-a-p/neo_7b
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/m-a-p/neo_7b_instruct_v0.1
     notes: 
 
 trainingcode:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://github.com/multimodal-art-projection/MAP-NEO
+    notes: some code shared via github mostly based on NVIDIAs megatron
 
 # documentation:
 code:
-    class: closed
+    class: partial
     link:  
     notes: 
 
 architecture:
-    class: closed
+    class: partial
     link:  
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: MAP-Neo: Highly Capable and Transparent Bilingual Large Language Model Series
     notes: 
 
 paper:
@@ -73,14 +73,14 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/m-a-p/neo_7b_instruct_v0.1
     notes: 
 
 datasheet:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: shared via preprint for base model
 
 # access:
 package:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: models under apache 2 code under MIT but not all datasets available 
