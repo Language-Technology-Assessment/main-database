@@ -13,11 +13,11 @@ system:
     name: Jais
     link: https://huggingface.co/inceptionai/jais-adapted-70b-chat
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Llama-2-70B
     endmodelname: Jais-Adapted-70B-Chat
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-10
     notes: 
 
 org:
@@ -39,12 +39,12 @@ datasources_endmodel:
 weights_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: based on LLama2
 
 weights_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: behind consent form
 
 trainingcode:
     class: closed
@@ -58,13 +58,13 @@ code:
     notes: 
 
 architecture:
-    class: closed
-    link:  
+    class: partial
+    link:  https://huggingface.co/inceptionai/jais-adapted-70b-chat
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/abs/2308.16149
     notes: 
 
 paper:
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: opem
+    link: https://huggingface.co/inceptionai/jais-adapted-70b-chat
     notes: 
 
 datasheet:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights under apache 2
