@@ -15,68 +15,67 @@ system:
     type: image
     performanceclass: 
     basemodelname: PixArt-Sigma-XL-2-1024-MS
-    endmodelname:
+    endmodelname: PixArt-Sigma-XL-2-1024-MS
     endmodellicense: CreativeML Open RAIL++-M License
-    endlicense:
-    releasedate: 
-    notes: 
+    releasedate: 2024-04
+    notes: Weak-to-strong-trained model (higher quality data incorporated later) for text-to-image generation.
 
 org:
     name: PixArt-Alpha
     link: https://huggingface.co/PixArt-alpha
-    notes: 
+    notes: Collaboration between Huawei's Noah's Ark Lab and two Chinese universities.
 
 # availability:
 datasources_basemodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: Internal dataset, apparantly undisclosed.
 
 datasources_endmodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: 
 
 weights_basemodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS
     notes:
     
 weights_endmodel:
-    class: 
+    class: open
     link:
-    notes:
+    notes: Weights available through HuggingFace.
 
 trainingcode:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://github.com/PixArt-alpha/PixArt-sigma
+    notes: Training code made available on GitHub.
 
 # documentation:
 code:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://github.com/PixArt-alpha/PixArt-sigma
+    notes: Training code usage documented in README, no documentation in training code itself.
 
 architecture:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://arxiv.org/pdf/2403.04692
+    notes: Architecture described in paper.
 
 preprint:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://arxiv.org/pdf/2403.04692
+    notes: Preprint made available on arXiv.
 
 paper:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04633.pdf
+    notes: Paper published as conference paper.
 
 modelcard:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS
+    notes: Model card provides surface-level information, refers to GitHub and paper for further information.
 
 datasheet:
     class: closed
@@ -87,15 +86,15 @@ datasheet:
 package:
     class: closed
     link:
-    notes:
+    notes: No package found.
 
 api:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS
+    notes: Inference API available through HuggingFace.
     metaprompts:
 
 licenses:
     class: closed
-    link:
-    notes:
+    link: https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS#model-description
+    notes: CreativeML Open RAIL++-M License. Not an OSI-approved license.
