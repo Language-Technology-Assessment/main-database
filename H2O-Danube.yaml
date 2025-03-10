@@ -13,11 +13,11 @@ system:
     name: H2O-Danube
     link: https://huggingface.co/h2oai/h2o-danube3.1-4b-chat
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: H2O-Danube3.1-4B-Chat
     endmodelname: H2O-Danube3.1-4B-Chat
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-07
     notes: Only end model released.
 
 org:
@@ -37,13 +37,13 @@ datasources_endmodel:
     notes: 
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/h2oai/h2o-danube3-4b-base
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/h2oai/h2o-danube3.1-4b-chat
     notes: 
 
 trainingcode:
@@ -63,8 +63,8 @@ architecture:
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/abs/2407.09276
     notes: 
 
 paper:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights as apache 2
