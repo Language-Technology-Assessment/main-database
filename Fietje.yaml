@@ -13,11 +13,11 @@ system:
     name: Fietje
     link: https://huggingface.co/BramVanroy/fietje-2-chat
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Phi-2
     endmodelname: Fietje-2-Chat
     endmodellicense: MIT License
-    releasedate: 
+    releasedate: 2024-04
     notes: 
 
 org:
@@ -29,42 +29,42 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: based on phi2 by microsoft
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/BramVanroy/wikipedia_culturax_dutch
+    notes: Wikipedia and CulturaX mix see link
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/microsoft/phi-2
+    notes: phi2
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/papers/2412.15450
     notes: 
 
 trainingcode:
-    class: closed
-    link: 
+    class: open
+    link: https://github.com/BramVanroy/fietje-2/tree/main/training
     notes: 
 
 # documentation:
 code:
-    class: closed
-    link:  
+    class: open 
+    link:  https://github.com/BramVanroy/fietje-2/tree/main/training
     notes: 
 
 architecture:
-    class: closed
-    link:  
+    class: open
+    link: https://huggingface.co/BramVanroy/fietje-2-chat
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/abs/2412.15450
     notes: 
 
 paper:
@@ -73,14 +73,14 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/BramVanroy/fietje-2-chat
     notes: 
 
 datasheet:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: not for base model
 
 # access:
 package:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights under MIT data unclear
