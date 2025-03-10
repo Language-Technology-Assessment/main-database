@@ -11,90 +11,90 @@
 
 system:
     name: CogView
-    link: https://huggingface.co/THUDM/CogView3-Plus-3B
+    link: https://huggingface.co/THUDM/CogView4-6B
     type: image
     performanceclass: 
-    basemodelname: 
-    endmodelname: CogView3-Plus-3B
-    endmodellicense:  Apache-2.0
-    releasedate: 
-    notes: 
+    basemodelname: CogView4-6B
+    endmodelname: CogView4-6B
+    endmodellicense: Apache-2.0
+    releasedate: 2025-03
+    notes: Chinese-English image generation model.
 
 org:
     name: THUDM
     link: https://huggingface.co/THUDM
-    notes: 
+    notes: Knowledge Engineering Group & Data Mining at Tsinghua University.
 
 # availability:
 datasources_basemodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: No data sources found.
 
 datasources_endmodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: No data sources found.
 
 weights_basemodel:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/THUDM/CogView4-6B
+    notes: Weights made available on HuggingFace.
     
 weights_endmodel:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/THUDM/CogView4-6B
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
     class: closed
-    link:
-    notes:
+    link: https://github.com/THUDM/CogView4
+    notes: Only inference code made available on GitHub.
 
 # documentation:
 code:
     class: closed
     link:
-    notes:
+    notes: No training code, so no documentation.
 
 architecture:
     class: closed
     link:
-    notes:
+    notes: No hardware information found.
 
 preprint:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://arxiv.org/pdf/2403.05121
+    notes: Preprint exists for previous version of the model.
 
 paper:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://dl.acm.org/doi/10.1007/978-3-031-72980-5_1
+    notes: Paper for previous version of the model was published.
 
 modelcard:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/THUDM/CogView4-6B
+    notes: Model card only contains information about inference and licensing.
 
 datasheet:
     class: closed
     link:
-    notes:
+    notes: No datasheet found.
 
 # access:
 package:
     class: closed
     link:
-    notes:
+    notes: No package found.
 
 api:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/spaces/THUDM-HF-SPACE/CogView4
+    notes: HuggingFace space containing API is available.
     metaprompts:
 
 licenses:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/THUDM/CogView4-6B#license
+    notes: Apache-2.0, an OSI-approved license.
