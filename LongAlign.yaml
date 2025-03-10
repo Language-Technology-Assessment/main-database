@@ -13,11 +13,11 @@ system:
     name: LongAlign
     link: https://huggingface.co/THUDM/LongAlign-13B-64k
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Llama-2-13B
     endmodelname: LongAlign-13B-64k
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-01
     notes: 
 
 org:
@@ -29,12 +29,12 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: based on Llama2
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/datasets/THUDM/LongAlign-10k
+    notes: some on HF
 
 weights_basemodel:
     class: closed
@@ -42,8 +42,8 @@ weights_basemodel:
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/THUDM/LongAlign-13B-64k
     notes: 
 
 trainingcode:
@@ -63,13 +63,13 @@ architecture:
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/pdf/2401.18058
     notes: 
 
 paper:
-    class: closed
-    link: 
+    class: open
+    link: https://aclanthology.org/2024.findings-emnlp.74/
     notes: 
 
 modelcard:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights under Apache 2
