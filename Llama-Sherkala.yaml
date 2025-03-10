@@ -13,11 +13,11 @@ system:
     name: Llama-Sherkala
     link: https://huggingface.co/inceptionai/Llama-3.1-Sherkala-8B-Chat
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Llama-3.1-8B
     endmodelname: Llama-3.1-Sherkala-8B-Chat
     endmodellicense: CC-BY-NC-SA-4.0
-    releasedate: 
+    releasedate: 2025-03
     notes: 
 
 org:
@@ -29,22 +29,22 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: based on LLama3
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: few shared 
 
 weights_basemodel:
-    class: closed
+    class: open
     link: 
-    notes: 
+    notes: LLama3
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/inceptionai/Llama-3.1-Sherkala-8B-Chat
+    notes: behind consent form
 
 trainingcode:
     class: closed
@@ -63,8 +63,8 @@ architecture:
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/abs/2503.01493
     notes: 
 
 paper:
@@ -95,6 +95,7 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: "weights as cc-by-nc-sa-4.0"
+
