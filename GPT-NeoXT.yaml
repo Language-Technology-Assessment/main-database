@@ -17,7 +17,7 @@ system:
     basemodelname: GPT-NeoX-20B
     endmodelname: GPT-NeoXT-Chat-Base-20B
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2023-03
     notes: 
 
 org:
@@ -27,39 +27,39 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://github.com/togethercomputer/OpenDataHub
     notes: 
 
 datasources_endmodel:
-    class: closed
-    link: 
+    class: partial
+    link: https://github.com/togethercomputer/OpenDataHub
     notes: 
 
 weights_basemodel:
-    class: closed
+    class: open
     link: 
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B
     notes: 
 
 trainingcode:
-    class: closed
-    link: 
+    class: partial
+    link: https://github.com/togethercomputer/OpenDataHub
     notes: 
 
 # documentation:
 code:
-    class: closed
+    class: partial
     link:  
     notes: 
 
 architecture:
-    class: closed
-    link:  
+    class: open
+    link:  https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B
     notes: 
 
 preprint:
@@ -73,13 +73,13 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://github.com/togethercomputer/OpenDataHub
     notes: 
 
 datasheet:
-    class: closed
-    link: 
+    class: partial
+    link: https://github.com/togethercomputer/OpenDataHub
     notes: 
 
 # access:
@@ -91,10 +91,10 @@ package:
 api:
     class: closed
     link: 
-    notes: 
+    notes: not available 
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights under apache 2
