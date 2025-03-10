@@ -13,11 +13,11 @@ system:
     name: K2
     link: https://huggingface.co/LLM360/K2-Chat
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: K2
     endmodelname: K2-Chat
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-05
     notes: 
 
 org:
@@ -27,44 +27,44 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/LLM360/K2-Chat
     notes: 
 
 datasources_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/LLM360/K2-Chat
     notes: 
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/LLM360/K2-Chat
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/LLM360/K2-Chat
     notes: 
 
 trainingcode:
-    class: closed
-    link: 
+    class: open
+    link: https://github.com/LLM360
     notes: 
 
 # documentation:
 code:
-    class: closed
-    link:  
+    class: open
+    link:  https://github.com/LLM360
     notes: 
 
 architecture:
-    class: closed
-    link:  
+    class: open
+    link:  https://github.com/LLM360
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/abs/2501.07124
     notes: 
 
 paper:
@@ -73,14 +73,14 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/LLM360/K2-Chat
     notes: 
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/LLM360/K2-Chat
+    notes: some found
 
 # access:
 package:
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes:  "code and models under Apache 2, datasets complicated"
