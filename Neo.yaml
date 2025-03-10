@@ -34,7 +34,7 @@ datasources_basemodel:
 datasources_endmodel:
     class: partial
     link: 
-    notes: "some datasets listed in preprint but some missing, quote: we collect over 100k multi-turn dialogue data sourced from real user conversations"
+    notes: some datasets listed in preprint but some missing quote we collect over 100k multiturn dialogue data sourced from real user conversations
 
 weights_basemodel:
     class: open
@@ -64,8 +64,8 @@ architecture:
 
 preprint:
     class: open
-    link: MAP-Neo: Highly Capable and Transparent Bilingual Large Language Model Series
-    notes: 
+    link: https://arxiv.org/abs/2405.19327
+    notes:
 
 paper:
     class: closed
