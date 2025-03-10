@@ -14,98 +14,86 @@ system:
     link: https://openjourney.art
     type: image
     performanceclass: full
-    basemodelname: 
-    endmodelname: openjourney v4
+    basemodelname: Stable-Diffusion-v1.5
+    endmodelname: OpenJourney-v4
     endmodellicense: creativeml-openrail-m
     releasedate: 2022-11
-    notes:
+    notes: Model trained on MidJourney images.
 
 org:
     name: Prompthero
     link: https://prompthero.com/
-    notes:
-
-# availability:
-# datasources:
-#     class: closed
-#     link: https://huggingface.co/prompthero/openjourney
-#     notes: Model card mentions the model was fine-tuned on Midjourney images however no link is provided. Given that the model creators also own a Midjourney image database it can be assumed the model was fine-tuned on these images.
-    
-# weights:
-#     class: partial
-#     link: https://huggingface.co/prompthero/openjourney/tree/main
-#     notes: Weights are provided as a safetensors file.
-
+    notes: Prompt engineering site.
 
 datasources_basemodel:
-    class: 
-    link:
-    notes:
+    class: partial
+    link: https://arxiv.org/abs/2210.08402
+    notes: Originally trained on LAION-5B, which is ostensibly open.
 
 datasources_endmodel:
-    class: 
-    link:
-    notes:
+    class: closed
+    link: https://huggingface.co/prompthero/openjourney
+    notes: Model card mentions the model was fine-tuned on Midjourney images however no link is provided. Given that the model creators also own a Midjourney image database it can be assumed the model was fine-tuned on these images.
 
 weights_basemodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: Model not made publicly available.
     
 weights_endmodel:
-    class: 
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/prompthero/openjourney/tree/main
+    notes: Weights are provided as a safetensors file.
 
 trainingcode:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: No training code found.
 
 # documentation:
 code:
     class: closed
     link:
-    notes:
+    notes: No training code found, so no documentation.
 
 architecture:
     class: closed
     link:
-    notes:
+    notes: No detailed architecture information provided.
 
 preprint:
     class: closed
     link:
-    notes:
+    notes: No preprint found.
 
 paper:
     class: closed
     link:
-    notes:
+    notes: No paper found.
 
 modelcard:
     class: closed
     link:
-    notes:
+    notes: Model card only contains minimal information.
 
 datasheet:
     class: closed
     link:
-    notes:
+    notes: No data published, so no data sheet.
 
 # access:
 package:
     class: closed
     link:
-    notes:
+    notes: No package found.
 
 api:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/prompthero/openjourney-v4
+    notes: Inference API available through HuggingFace.
     metaprompts:
 
-licenses:
-    class: partial
-    link:
-    notes:
+license:
+    class: closed
+    link: https://huggingface.co/prompthero/openjourney-v4
+    notes: Creativeml-OpenRail-M, not an OSI-approved license.
