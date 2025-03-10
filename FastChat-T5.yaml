@@ -13,11 +13,11 @@ system:
     name: FastChat-T5
     link: https://huggingface.co/lmsys/fastchat-t5-3b-v1.0
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Llama-3.1-70B
     endmodelname: FastChat-T5-3B-v1.0
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2023-03
     notes: 
 
 org:
@@ -29,21 +29,21 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: based on LLama3
 
 datasources_endmodel:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: ShareGPT so now proprietary 
 
 weights_basemodel:
-    class: closed
+    class: open
     link: 
-    notes: 
+    notes: Llama3
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/lmsys/fastchat-t5-3b-v1.0
     notes: 
 
 trainingcode:
@@ -73,9 +73,9 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/lmsys/fastchat-t5-3b-v1.0
+    notes: on HF but little detail
 
 datasheet:
     class: closed
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial    
     link: 
-    notes: 
+    notes: weights under apache2
