@@ -13,11 +13,11 @@ system:
     name: JASCO
     link: https://huggingface.co/facebook/jasco-chords-drums-melody-1B
     type: audio
-    performanceclass: 
+    performanceclass: limited
     basemodelname: JASCO-Chords-Drums-Melody-1B
     endmodelname: JASCO-Chords-Drums-Melody-1B
     endmodellicense: CC-BY-NC-4.0
-    releasedate: 
+    releasedate: 2025-01
     notes: Conditional audio generation based on audio samples or text.
 
 org:
@@ -27,23 +27,23 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: 
+    class: closed
     link:
     notes:
 
 datasources_endmodel:
-    class: 
+    class: closed
     link:
     notes:
 
 weights_basemodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/facebook/jasco-chords-drums-melody-1B
     notes:
     
 weights_endmodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/facebook/jasco-chords-drums-melody-1B
     notes:
 
 trainingcode:
@@ -63,19 +63,19 @@ architecture:
     notes:
 
 preprint:
-    class: closed
-    link:
+    class: open
+    link: https://arxiv.org/abs/2406.10970
     notes:
 
 paper:
-    class: closed
-    link:
+    class: open
+    link: https://openreview.net/forum?id=VuQjbeLaj4
     notes:
 
 modelcard:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/papers/2406.10970
+    notes:  
 
 datasheet:
     class: closed
@@ -95,6 +95,6 @@ api:
     metaprompts:
 
 licenses:
-    class: closed
+    class: partial
     link:
-    notes:
+    notes: "weights as CC-BY-NC-4.0"
