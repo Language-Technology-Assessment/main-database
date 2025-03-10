@@ -13,12 +13,12 @@ system:
     name: DeepHermes
     link: https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Llama-3.1-8B
     endmodelname: DeepHermes-3-Llama-3-8B-Preview
     endmodellicense: Llama 3 Community License Agreement
     releasedate: 
-    notes: 
+    notes: Evaluated model only available as preview. 
 
 org:
     name: Nous Research
@@ -29,21 +29,21 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: based on LLama3
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: mix of synthetic data
 
 weights_basemodel:
-    class: closed
+    class: open
     link: 
-    notes: 
+    notes: Llama3
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview
     notes: 
 
 trainingcode:
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview
     notes: 
 
 datasheet:
@@ -97,4 +97,4 @@ api:
 licenses:
     class: closed
     link: 
-    notes: 
+    notes: Meta custom license
