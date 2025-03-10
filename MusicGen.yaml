@@ -13,11 +13,11 @@ system:
     name: MusicGen
     link: https://huggingface.co/facebook/musicgen-stereo-melody-large
     type: audio
-    performanceclass: 
+    performanceclass: full
     basemodelname: MusicGen-Melody-Large
     endmodelname: MusicGen-Stereo-Melody-Large
     endmodellicense: CC-BY-NC-4.0
-    releasedate: 
+    releasedate: 2024-02
     notes: 
 
 org:
@@ -27,29 +27,29 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: internal 10k hrs and ShutterStock and Pond5 music data referenced in paper
 
 datasources_endmodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: internal 10k hrs and ShutterStock and Pond5 music data referenced in paper
 
 weights_basemodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
     notes:
     
 weights_endmodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
     notes:
 
 trainingcode:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: just demo code found
 
 # documentation:
 code:
@@ -63,18 +63,18 @@ architecture:
     notes:
 
 preprint:
-    class: closed
-    link:
+    class: open
+    link: https://arxiv.org/abs/2306.05284
     notes:
 
 paper:
-    class: closed
-    link:
+    class: open
+    link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/94b472a1842cd7c56dcb125fb2765fbd-Abstract-Conference.html
     notes:
 
 modelcard:
-    class: closed
-    link:
+    class: open
+    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
     notes:
 
 datasheet:
@@ -89,12 +89,13 @@ package:
     notes:
 
 api:
-    class: closed
+    class: partial
     link:
-    notes:
+    notes: limited access API 
     metaprompts:
 
 licenses:
-    class: closed
+    class: partial
     link:
-    notes:
+    notes: "weights as cc-by-nc-4.0"
+
