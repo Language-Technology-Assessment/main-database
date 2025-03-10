@@ -13,12 +13,12 @@ system:
     name: ChatMusician
     link: https://huggingface.co/m-a-p/ChatMusician
     type: audio
-    performanceclass: 
+    performanceclass: limited
     basemodelname: ChatMusician-Base
     endmodelname: ChatMusician
     endmodellicense: MIT License
-    releasedate: 
-    notes: Model for understanding and creating music through text. Symbolic instead of diffusion model.
+    releasedate: 2024-04
+    notes: Model for understanding and creating music through text. Symbolic instead of diffusion model. Predominantly generates music in the style of Irish music.
 
 org:
     name: Multimodal Art Projection
@@ -27,54 +27,54 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: 
-    link:
+    class: partial
+    link: https://huggingface.co/datasets/m-a-p/MusicPile
     notes:
 
 datasources_endmodel:
-    class: 
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/datasets/m-a-p/MusicPile
+    notes: 
 
 weights_basemodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/m-a-p/ChatMusician
     notes:
     
 weights_endmodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/m-a-p/ChatMusician
     notes:
 
 trainingcode:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://github.com/hf-lin/ChatMusician
+    notes: 
 
 # documentation:
 code:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://github.com/hf-lin/ChatMusician
+    notes: partially documented
 
 architecture:
-    class: closed
+    class: partial
     link:
     notes:
 
 preprint:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://arxiv.org/abs/2402.16153
+    notes: 
 
 paper:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://aclanthology.org/2024.findings-acl.373/
+    notes: 
 
 modelcard:
-    class: closed
-    link:
+    class: open
+    link: https://huggingface.co/m-a-p/ChatMusician
     notes:
 
 datasheet:
@@ -95,6 +95,6 @@ api:
     metaprompts:
 
 licenses:
-    class: closed
+    class: open
     link:
-    notes:
+    notes: weights as MIT MusicPile as cc
