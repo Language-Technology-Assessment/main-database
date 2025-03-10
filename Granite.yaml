@@ -11,13 +11,13 @@
 
 system:
     name: Granite
-    link: https://huggingface.co/ibm-granite/granite-3.2-8b-instruct-preview
+    link: https://huggingface.co/ibm-granite/granite-3.2-8b-instruct
     type: text
     performanceclass: full
     basemodelname: Granite-3.1-8B-Base
     endmodelname: Granite-3.2-8B-Instruct-Preview
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2025-02
     notes: 
 
 org:
@@ -29,21 +29,21 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: mix of available and internal datasets
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: mix of available and internal datasets
 
 weights_basemodel:
-    class: closed
+    class: open
     link: 
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/ibm-granite/granite-3.2-8b-instruct
     notes: 
 
 trainingcode:
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/ibm-granite/granite-3.2-8b-instruct
     notes: 
 
 datasheet:
@@ -97,4 +97,4 @@ api:
 licenses:
     class: closed
     link: 
-    notes: 
+    notes: weights under apache 2
