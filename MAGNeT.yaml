@@ -13,11 +13,11 @@ system:
     name: MAGNeT
     link: https://huggingface.co/facebook/hybrid-magnet-medium
     type: audio
-    performanceclass: 
+    performanceclass: limited
     basemodelname: Hybrid-MAGNeT-Medium
     endmodelname: Hybrid-MAGNeT-Medium
     endmodellicense: CC-BY-NC-4.0
-    releasedate: 
+    releasedate: 2024-02
     notes: Mixture between autoregressive and masked generative non-autoregressive transformers.
 
 org:
@@ -27,27 +27,27 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: "ShutterStock, Pond5, and proprietary data"
 
 datasources_endmodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: "ShutterStock, Pond5, and proprietary data"
 
 weights_basemodel:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/facebook/hybrid-magnet-medium
+    notes: 
     
 weights_endmodel:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/facebook/hybrid-magnet-medium
+    notes: 
 
 trainingcode:
-    class: 
+    class: closed
     link:
     notes:
 
@@ -63,18 +63,18 @@ architecture:
     notes:
 
 preprint:
-    class: closed
-    link:
+    class: open
+    link: https://arxiv.org/abs/2401.04577
     notes:
 
 paper:
-    class: closed
-    link:
+    class: open
+    link: https://openreview.net/forum?id=Ny8NiVfi95
     notes:
 
 modelcard:
-    class: closed
-    link:
+    class: open
+    link: https://huggingface.co/facebook/hybrid-magnet-medium
     notes:
 
 datasheet:
@@ -95,6 +95,6 @@ api:
     metaprompts:
 
 licenses:
-    class: closed
+    class: partial
     link:
-    notes:
+    notes: "weights as cc-by-nc-4.0"
