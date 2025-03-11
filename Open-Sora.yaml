@@ -13,11 +13,11 @@ system:
     name: Open-Sora
     link: https://huggingface.co/hpcai-tech/OpenSora-STDiT-v4
     type: video
-    performanceclass: 
+    performanceclass: limited
     basemodelname: Open-Sora
     endmodelname: Open-Sora
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-03
     notes: 
 
 org:
@@ -27,44 +27,44 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: datasets listed in paper but not made available 
 
 datasources_endmodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: datasets listed in paper but not made available 
 
 weights_basemodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/hpcai-tech/Open-Sora/tree/main
     notes:
     
 weights_endmodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/hpcai-tech/Open-Sora/tree/main
     notes:
 
 trainingcode:
-    class: 
-    link:
+    class: open
+    link: https://github.com/hpcaitech/Open-Sora
     notes:
 
 # documentation:
 code:
-    class: closed
-    link:
+    class: open
+    link: https://github.com/hpcaitech/Open-Sora
     notes:
 
 hardware_architecture:
-    class: closed
-    link:
+    class: open
+    link: https://github.com/hpcaitech/Open-Sora
     notes:
 
 preprint:
-    class: closed
-    link:
+    class: open
+    link: https://arxiv.org/abs/2412.20404
     notes:
 
 paper:
@@ -73,9 +73,9 @@ paper:
     notes:
 
 modelcard:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/hpcai-tech/Open-Sora
+    notes: lack of detail
 
 datasheet:
     class: closed
@@ -95,6 +95,6 @@ api:
     metaprompts:
 
 licenses:
-    class: closed
+    class: partial
     link:
-    notes:
+    notes: weights and code as apache 2
