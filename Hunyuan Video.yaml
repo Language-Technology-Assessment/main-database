@@ -11,13 +11,13 @@
 
 system:
     name: Hunyuan Video
-    link: https://huggingface.co/tencent/HunyuanVideo
+    link: https://aivideo.hunyuan.tencent.com
     type: video
-    performanceclass: 
+    performanceclass: full
     basemodelname: HunyuanVideo-T2V-720P
     endmodelname: HunyuanVideo-T2V-720P
     endmodellicense: Tencent Hunyuan Community License Agreement
-    releasedate: 
+    releasedate: 2024-12
     notes: 
 
 org:
@@ -27,27 +27,27 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: 
+    class: closed
     link:
     notes:
 
 datasources_endmodel:
-    class: 
+    class: closed
     link:
     notes:
 
 weights_basemodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/tencent/HunyuanVideo/tree/main
     notes:
     
 weights_endmodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/tencent/HunyuanVideo/tree/main
     notes:
 
 trainingcode:
-    class: 
+    class: closed
     link:
     notes:
 
@@ -58,13 +58,13 @@ code:
     notes:
 
 hardware_architecture:
-    class: closed
+    class: partial
     link:
     notes:
 
 preprint:
-    class: closed
-    link:
+    class: open
+    link: https://arxiv.org/abs/2412.03603
     notes:
 
 paper:
@@ -73,8 +73,8 @@ paper:
     notes:
 
 modelcard:
-    class: closed
-    link:
+    class: open
+    link: https://huggingface.co/tencent/HunyuanVideo
     notes:
 
 datasheet:
@@ -95,6 +95,6 @@ api:
     metaprompts:
 
 licenses:
-    class: closed
+    class: partial
     link:
-    notes:
+    notes: Tencent Community License
