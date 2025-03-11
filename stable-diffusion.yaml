@@ -46,54 +46,54 @@ weights_endmodel:
     notes: Available through HuggingFace in the form of SafeTensors, however requires providing contact information and agreeing to a license agreement.
 
 trainingcode:
-    class: open
-    link:
-    notes: No training code repository found.
+    class: closed
+    link: https://arxiv.org/pdf/2403.03206
+    notes: No training code repository found. Linked repository only contains inference information.
 
 # documentation:
 code:
-    class: open
+    class: closed
     link:
-    notes:
+    notes: No training code, so no documentation.
 
 hardware_architecture:
-    class: open
-    link:
-    notes:
+    class: closed
+    link: 
+    notes: No information about hardware architecture found.
 
 preprint:
     class: open
-    link:
-    notes:
+    link: https://arxiv.org/pdf/2403.03206
+    notes: Preprint made available on arXiv.
 
 paper:
     class: open
-    link:
-    notes:
+    link: https://dl.acm.org/doi/10.5555/3692070.3692573
+    notes: Paper published on ACM.
 
 modelcard:
-    class: open
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+    notes: Model card primarily contains inference information.
 
 datasheet:
     class: open
-    link:
-    notes:
+    link: https://arxiv.org/pdf/2210.08402
+    notes: Data collection procedures for LAION are outlined in a corresponding paper.
 
 # access:
 package:
-    class: partial
-    link:
-    notes:
+    class: open
+    link: https://pypi.org/project/stable-diffusion/
+    notes: Package available on PyPI.
 
 api:
-    class: partial
-    link:
-    notes:
+    class: open
+    link: https://platform.stability.ai/docs/api-reference#tag/Generate/paths/~1v2beta~1stable-image~1generate~1sd3/post
+    notes: API publicly available.
     metaprompts:
 
 licenses:
-    class: open
-    link:
-    notes:
+    class: closed
+    link: Stability AI Community License
+    notes: Stability AI Community License, not an OSI-approved license.
