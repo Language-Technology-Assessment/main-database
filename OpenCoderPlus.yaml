@@ -17,39 +17,39 @@ system:
     basemodelname: StarCoderBase
     endmodelname: OpenCoderPlus
     endmodellicense: unknown
-    releasedate: 
-    notes: License presumable Apache-2.0, but not explicitly stated.
+    releasedate: 2023-06
+    notes: Early coder model. License presumably Apache-2.0, but not explicitly stated.
 
 org:
     name: OpenChat
     link: https://huggingface.co/openchat
-    notes: 
+    notes: Student team from Tsinghua University.
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/bigcode/starcoderbase
+    notes: Data obtained from The Stack v1.2.
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/openchat/opencoderplus
+    notes: Data source listed as ShareGPT.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/bigcode/starcoderbase
+    notes: Gated model whose weights are made available through HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/openchat/opencoderplus
+    notes: Weights made available through HuggingFace.
 
 trainingcode:
     class: closed
     link: 
-    notes: 
+    notes: No repository containing training code found.
 
 # documentation:
 code:
@@ -60,41 +60,41 @@ code:
 hardware_architecture:
     class: closed
     link:  
-    notes: 
+    notes: No training code, so no documentation.
 
 preprint:
     class: closed
     link: 
-    notes: 
+    notes: No preprint found.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No paper found.
 
 modelcard:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/openchat/opencoderplus
+    notes: Model card primarily contains information about inference.
 
 datasheet:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/datasets/openchat/openchat_sharegpt_v3
+    notes: Datasheet does not provide insight on data selection or curation.
 
 # access:
 package:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://pypi.org/project/ochat/3.1.0/
+    notes: Package for model is available on PyPi.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
     class: closed
     link: 
-    notes: 
+    notes: No license for model found.
