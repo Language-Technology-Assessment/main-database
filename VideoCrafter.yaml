@@ -13,7 +13,7 @@ system:
     name: VideoCrafter
     link: https://huggingface.co/VideoCrafter/VideoCrafter2
     type: video
-    performanceclass: full
+    performanceclass: limited
     basemodelname: VideoCrafter2
     endmodelname: VideoCrafter2
     endmodellicense: Apache-2.0
