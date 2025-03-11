@@ -13,38 +13,38 @@ system:
     name: Phi
     link: https://huggingface.co/microsoft/phi-4
     type: text 
-    performanceclass: 
+    performanceclass: latest
     basemodelname: Phi-4
     endmodelname: Phi-4
     endmodellicense: MIT License
     releasedate: 2024-05
-    notes: New model, TODO update fields.
+    notes: Text-based LLM by Microsoft.
 
 org:
     name: Microsoft
     link: https://huggingface.co/microsoft
-    notes:
+    notes: Major technology company.
 
 # availability:
 datasources_basemodel:
     class: closed
     link:
-    notes: No datasets made available and no information on datasets disclosed except very generic claims about filtering for high quality.
+    notes: No datasets made available and no information on datasets disclosed except very generic claims about filtering for high quality. Large amount of synthetic data used.
 
 datasources_endmodel:
     class: closed
     link:
-    notes: No post-training datasets made available and no information on datasets disclosed except very generic claims about filtering for high quality.
+    notes: No post-training datasets made available and no information on datasets disclosed except very generic claims about filtering for high quality. Large amount of synthetic data used.
 
 weights_basemodel:
-    class: closed
-    link:
-    notes: No base model of the instruction-tuned Phi-3 was released
+    class: open
+    link: https://huggingface.co/microsoft/phi-4
+    notes: Weights made available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct/tree/main
-    notes: Instruction-tuned model weights shared through HuggingFace
+    link: https://huggingface.co/microsoft/phi-4
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
     class: closed
@@ -59,43 +59,43 @@ code:
 
 hardware_architecture:
     class: open
-    link: https://arxiv.org/abs/2404.14219
+    link: https://arxiv.org/pdf/2412.08905
     notes: Architecture described in model card and preprint
 
 preprint:
-    class: partial
-    link: https://arxiv.org/abs/2404.14219
-    notes: Preprint describes model architecture but not training data, focusing mostly on benchmarks and evalution
+    class: open
+    link: https://arxiv.org/pdf/2412.08905
+    notes: Preprint madde available through arXiv.
 
 paper:
     class: closed
     link:
-    notes: No paper found
+    notes: No peer-reviewed paper found.
 
 modelcard:
     class: open
-    link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct/blob/main/LICENSE
-    notes: Model card provides reasonable level of detail
+    link: https://huggingface.co/microsoft/phi-4
+    notes: Model card provides required information.
 
 datasheet:
     class: closed
     link:
-    notes: No datasheet made available
+    notes: No datasheet made available.
 
 # access:
 package:
     class: partial
     link:
-    notes: Available through development version of transformers
+    notes: Available through development version of transformers.
 
 api:
     class: open
     link:
-    notes: Available through HuggingFace API
+    notes: Available through HuggingFace API.
     metaprompt: closed
 
 licenses:
     class: open
-    link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct/blob/main/LICENSE
-    notes: MIT License
+    link: https://huggingface.co/microsoft/phi-4#model-summary
+    notes: MIT License, an OSI-approved license.
 
