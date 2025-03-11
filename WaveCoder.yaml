@@ -17,84 +17,84 @@ system:
     basemodelname: Deepseek-Coder-6.7B-Base
     endmodelname: WaveCoder-Ultra-6.7B
     endmodellicense: MIT license
-    releasedate: 
+    releasedate: 2024-07
     notes: Not absolutely clear that base rather than instruct-tuned model was used, but can be assumed.
 
 org:
     name: Microsoft
     link: https://huggingface.co/microsoft
-    notes: 
+    notes: Microsoft, a major technology company.
 
 # availability:
 datasources_basemodel:
     class: closed
-    link: 
-    notes: 
+    link: https://arxiv.org/pdf/2401.14196
+    notes: Data sources of base model described only at the highest level.
 
 datasources_endmodel:
     class: closed
-    link: 
-    notes: 
+    link: https://arxiv.org/pdf/2312.14187
+    notes: End model makes heavy use of synthetic data which does not seem to have been published. Some non-synthetic data was used which is not described in detail.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base
+    notes: Weights made available on HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/microsoft/wavecoder-ultra-6.7b
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://github.com/microsoft/WaveCoder
+    notes: Training script and data processing architecture made available on GitHub. Fine-tuning script not made available.
 
 # documentation:
 code:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://github.com/microsoft/WaveCoder
+    notes: Codebase is well-documented.
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2312.14187
+    notes: Hardware architecture described in paper.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2312.14187
+    notes: Preprint made available on arXiv.
 
 paper:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://aclanthology.org/2024.acl-long.280/
+    notes: Paper published in ACL.
 
 modelcard:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/microsoft/wavecoder-ultra-6.7b
+    notes: Model card primarily contains information regarding inference and licensing.
 
 datasheet:
     class: closed
     link: 
-    notes: 
+    notes: No datasheet found.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/microsoft/wavecoder-ultra-6.7b#%F0%9F%93%96-license
+    notes: Code licensed under MIT license, and OSI-approved license. (Base?) model licensed under DeepSeek's license.
