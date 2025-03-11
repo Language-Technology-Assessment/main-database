@@ -17,84 +17,84 @@ system:
     basemodelname: SantaCoder
     endmodelname: SantaCoder
     endmodellicense: BigCode OpenRAIL-M v1 license agreement
-    releasedate: 
-    notes: 
+    releasedate: 2022-12
+    notes: Early coder model.
 
 org:
     name: BigCode
     link: https://huggingface.co/bigcode
-    notes: 
+    notes: Open scientific collaboration for creating LLMs.
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2301.03988, https://huggingface.co/datasets/bigcode/the-stack
+    notes: Model trained from filtered data from The Stack v1.1.
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2301.03988, https://huggingface.co/datasets/bigcode/the-stack
+    notes: Model trained from filtered data from The Stack v1.1.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/bigcode/santacoder
+    notes: Weights made available on HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/bigcode/santacoder
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://github.com/bigcode-project/Megatron-LM
+    notes: Training done using an open-source project.
 
 # documentation:
 code:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://github.com/bigcode-project/Megatron-LM
+    notes: Project is well-documented.
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://huggingface.co/bigcode/santacoder#training
+    notes: Training setup described in detail.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2301.03988
+    notes: Preprint made available on arXiv.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No paper found.
 
 modelcard:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/bigcode/santacoder
+    notes: Model card contains the requisite information.
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/bigcode/the-stack
+    notes: Detailed data sheet available.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/bigcode/santacoder
+    notes: HuggingFace inference API available.
     metaprompt: closed
 
 licenses:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/bigcode/santacoder#license
+    notes: BigCode OpenRAIL-M v1 license agreement, not an OSI-approved license.
