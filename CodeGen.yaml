@@ -32,9 +32,9 @@ datasources_basemodel:
     notes: Starcoderdata mentioned in modelcard and some more mentioned in paper
 
 datasources_endmodel:
-    class: partial
-    link: https://huggingface.co/datasets/bigcode/starcoderdata
-    notes: Starcoderdata mentioned in modelcard and some more mentioned in paper
+    class: closed
+    link: 
+    notes: no information found
 
 weights_basemodel:
     class: open
