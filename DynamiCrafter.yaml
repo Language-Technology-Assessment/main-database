@@ -13,11 +13,11 @@ system:
     name: DynamiCrafter
     link: https://huggingface.co/Doubiiu/DynamiCrafter_1024
     type: video
-    performanceclass: 
+    performanceclass: limited
     basemodelname: Stable-Diffusion-2-Base
     endmodelname: DynamiCrafter-1024
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-02
     notes: 
 
 org:
@@ -27,54 +27,54 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: 
-    link:
-    notes:
+    class: closed
+    link: 
+    notes: "WebVid-10M mentioned in paper"
 
 datasources_endmodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: "WebVid-10M mentioned in paper"
 
 weights_basemodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/Doubiiu/DynamiCrafter_1024/tree/main
     notes:
     
 weights_endmodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/Doubiiu/DynamiCrafter_1024/tree/main
     notes:
 
 trainingcode:
-    class: 
-    link:
+    class: open
+    link: https://github.com/Doubiiu/DynamiCrafter
     notes:
 
 # documentation:
 code:
-    class: closed
-    link:
+    class: open
+    link: https://github.com/Doubiiu/DynamiCrafter
     notes:
 
 hardware_architecture:
-    class: closed
+    class: partial
     link:
     notes:
 
 preprint:
-    class: closed
-    link:
+    class: open
+    link: https://arxiv.org/abs/2310.12190
     notes:
 
 paper:
-    class: closed
-    link:
+    class: open
+    link: https://dl.acm.org/doi/abs/10.1007/978-3-031-72952-2_23
     notes:
 
 modelcard:
-    class: closed
-    link:
+    class: open
+    link: https://huggingface.co/Doubiiu/DynamiCrafter_1024
     notes:
 
 datasheet:
@@ -97,4 +97,4 @@ api:
 licenses:
     class: closed
     link:
-    notes:
+    notes: unspecified 
