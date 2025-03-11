@@ -95,5 +95,5 @@ api:
 
 licenses:
     class: closed
-    link: Stability AI Community License
+    link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large/blob/main/LICENSE.md
     notes: Stability AI Community License, not an OSI-approved license.
