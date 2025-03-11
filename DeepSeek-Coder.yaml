@@ -17,84 +17,84 @@ system:
     basemodelname: DeepSeek-v2
     endmodelname: DeepSeek-Coder-v2-Instruct-0724
     endmodellicense: DeepSeek License
-    releasedate: 
+    releasedate: 2024-09
     notes: Continued pretrained from an intermediate checkpoint of DeepSeek-v2; model inheritance is arguable.
 
 org:
     name: DeepSeek
     link: https://huggingface.co/deepseek-ai
-    notes: 
+    notes: "DeepSeek (深度求索), founded in 2023, is a Chinese company dedicated to making AGI a reality."
 
 # availability:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: Proprietary dataset.
 
 datasources_endmodel:
     class: closed
-    link: 
-    notes: 
+    link: https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/paper.pdf
+    notes: Data mentioned as consisting of public GitHub repositories and the CommonCrawl. No dataset provided.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/paper.pdf
+    notes: Weights made available on HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/paper.pdf
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
     class: closed
-    link: 
-    notes: 
+    link: https://github.com/deepseek-ai/DeepSeek-Coder-V2/
+    notes: Repo exists, but does not contain any training code.
 
 # documentation:
 code:
     class: closed
     link:  
-    notes: 
+    notes: No training code, so no documentation.
 
 hardware_architecture:
     class: closed
     link:  
-    notes: 
+    notes: No hardware architecture information provided.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2406.11931
+    notes: Preprint made available through arXiv.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No paper found.
 
 modelcard:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724
+    notes: Model card primarily contains inference and licensing information.
 
 datasheet:
     class: closed
     link: 
-    notes: 
+    notes: No datasheet found.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724#6-license
+    notes: Code licensed under MIT, an open-source license. Model licensed under DeepSeek-License, not an OSI-approved license.
