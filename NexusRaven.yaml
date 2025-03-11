@@ -17,84 +17,84 @@ system:
     basemodelname: Llama-2-13B
     endmodelname: NexusRaven-V2-13B
     endmodellicense: NexusFlow community license
-    releasedate: 
+    releasedate: 2023-12
     notes: Function-calling LLM.
 
 org:
     name: NexusFlow
     link: https://huggingface.co/Nexusflow
-    notes: 
+    notes: Company developing GenAI agents for enterprise workflows.
 
 # availability:
 datasources_basemodel:
     class: closed
-    link: 
-    notes: 
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: Proprietary dataset used.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/meta-llama/Llama-2-70b-hf
+    notes: Gated model available on HuggingFace.
 
 weights_endmodel:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/Nexusflow/NexusRaven-V2-13B
+    notes: Weights made available through HuggingFace.
 
 trainingcode:
     class: closed
-    link: 
-    notes: 
+    link: https://github.com/nexusflowai/NexusRaven-V2
+    notes: Repo exists, but does not contain training code.
 
 # documentation:
 code:
     class: closed
     link:  
-    notes: 
+    notes: No training code, so no documentation.
 
 hardware_architecture:
     class: closed
     link:  
-    notes: 
+    notes: No architecture information found.
 
 preprint:
     class: closed
-    link: 
-    notes: 
+    link: https://nexusflow.ai/blogs/ravenv2
+    notes: Model only publicized through blog post.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No paper found.
 
 modelcard:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/Nexusflow/NexusRaven-V2-13B
+    notes: Model card contains general information, but none about model architecture, training, or fine-tuning.
 
 datasheet:
     class: closed
     link: 
-    notes: 
+    notes: No datasheet found.
 
 # access:
 package:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://pypi.org/project/nexusraven/
+    notes: Package made available on PyPi.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
     class: closed
     link: 
-    notes: 
+    notes: NexusFlow community license, not an OSI-approved license.

@@ -32,9 +32,9 @@ datasources_basemodel:
     notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
 
 datasources_endmodel:
-    class: open
+    class: closed
     link: https://huggingface.co/datasets/m-a-p/Code-Feedback
-    notes: Dataset published on HuggingFace.
+    notes: Dataset for end model published on HuggingFace. Proprietary dataset used in intermediate CodeLlama model.
 
 weights_basemodel:
     class: partial
