@@ -16,86 +16,86 @@ system:
     performanceclass: full
     basemodelname: Llama-3.1-405B
     endmodelname: Llama-3.1-Tulu-3-405B
-    endmodellicense: AI2 ImpACT license
+    endmodellicense: Llama 3.1 Community License Agreement
     releasedate: 2023-06
-    notes: New model. TODO update fields. A new DPO model from AllenAI called Tülu
+    notes: Tülu, a Llama-based model from AllenAI.
 
 org:
     name: AllenAI
     link: https://allenai.org/
-    notes:
+    notes: AI research lab.
 
 # availability:
 datasources_basemodel:
     class: closed
     link:
-    notes: Based on Llama2 so nothing known about training data
+    notes: Based on Llama3.1 so nothing known about training data.
 
 datasources_endmodel:
     class: open
-    link: https://github.com/allenai/open-instruct
-    notes: Codebase used for fine-tuning this model and made available for others
+    link: https://arxiv.org/pdf/2411.15124
+    notes: Data sources outlined in paper.
 
 weights_basemodel:
     class: partial
-    link: https://github.com/meta-llama/
-    notes: Base model made available via Meta (requires privacy-defying signup)
+    link: https://huggingface.co/meta-llama/Llama-3.1-405B
+    notes: Gated model available through HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/allenai/tulu-2-dpo-70b/tree/main
-    notes: Fine-tuned weights available
+    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B
+    notes: Model weights available through HuggingFace.
 
 trainingcode:
     class: open
     link: https://github.com/allenai/open-instruct
-    notes: Important effort to make available fine-tuning procedure and source code. Not seen a repository for base model training yet.
+    notes: Important effort to make available fine-tuning procedure and source code.
 
 # documentation:
 code:
     class: partial
     link: https://github.com/allenai/open-instruct
-    notes: OpenInstruct code well-documented
+    notes: OpenInstruct code well-documented.
 
 hardware_architecture:
     class: partial
-    link: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
-    notes: Post-llama2 aspects quite well described in papers, e.g. DPO based on Zephyr Beta, but base model is irrevocably closed
+    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B
+    notes: Fine-tuning hardware architecture well-documented, but base model is irrevocably closed.
 
 preprint:
     class: open
-    link: https://arxiv.org/abs/2311.10702
-    notes: Preprint covers the training of Tulu2
+    link: https://arxiv.org/pdf/2411.15124
+    notes: Preprint available through arXiv.
 
 paper:
     class: closed
     link:
-    notes: No peer-reviewed work found
+    notes: No peer-reviewed work found.
 
 modelcard:
-    class: partial
-    link: https://huggingface.co/allenai/tulu-2-70b
-    notes: Model card offers little details
+    class: open
+    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B
+    notes: Model card provides the requisite detail.
 
 datasheet:
     class: partial
-    link: https://huggingface.co/datasets/allenai/tulu-v2-sft-mixture
+    link: https://arxiv.org/pdf/2411.15124
     notes: Some datasheets available (for instruction tuning), but base model entirely undocumented.
 
 # access:
 package:
     class: closed
     link: 
-    notes: No separate package found 
+    notes: No separate package found.
 
 api:
     class: open
-    link:
-    notes: Available via various APIs
+    link: https://playground.allenai.org/
+    notes: Available via various APIs.
     metaprompt: closed
 
 licenses:
-    class: partial
-    link: https://allenai.org/impact-license
-    notes: Meta Community License and AI2 Impact license
+    class: closed
+    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B#model-description
+    notes: Llama 3.1 Community License Agreement, not an OSI-approved license.
 
