@@ -47,15 +47,15 @@ weights_endmodel:
     notes:
 
 trainingcode:
-    class: 
-    link:
-    notes:
+    class: open 
+    link: https://github.com/facebookresearch/audiocraft
+    notes: Training code provided through GitHub.
 
 # documentation:
 code:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://github.com/facebookresearch/audiocraft
+    notes: Repository thoroughly documented.
 
 hardware_architecture:
     class: closed

@@ -95,7 +95,7 @@ api:
     metaprompt: closed
     
 licenses:
-    class: full
+    class: open
     link: https://github.com/01-ai/Yi
     notes: Model code licensed under Apache 2.0
 

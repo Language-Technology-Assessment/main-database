@@ -42,7 +42,7 @@ weights_basemodel:
     notes: Base LLM model made available for download
     
 weights_endmodel:
-    class: Open
+    class: open
     link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0
     notes: Instruct version of the model made available
 
