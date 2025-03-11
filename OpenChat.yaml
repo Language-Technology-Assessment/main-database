@@ -12,90 +12,90 @@
 system:
     name: OpenChat
     link: https://huggingface.co/openchat/openchat-3.6-8b-20240522
-    type: text 
+    type: text,code
     performanceclass: full
     basemodelname: Meta-Llama-3-8B
     endmodelname: OpenChat-3.6-8B-20240522
     endmodellicense: Llama 3 Community License Agreement
     releasedate: 2023-05
-    notes: New model. TODO update fields.
+    notes: Model trained with mixed-quality data.
 
 org:
-    name: Tshinghua University
+    name: OpenChat
     link: https://github.com/imoneoi
-    notes: OpenChat notes 'We are a student team from Tsinghua University'
+    notes: Student team from Tsinghua University.
 
 # availability:
 datasources_basemodel:
     class: closed
     link:
-    notes: Pretraining data for Mistral is nowhere disclosed or documented
+    notes: Data nowhere disclosed or documented.
     
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/openchat/openchat_3.5
-    notes: All data sources linked on model page.
+    link: https://huggingface.co/datasets/openchat/openchat_sharegpt_v3
+    notes: Model trained on publicly available ShareGPT dataset.
 
 weights_basemodel:
-    class: open
-    link: https://github.com/mistralai/mistral-src#download-the-model
-    notes: Mistral 7B weights available via Mistral repository
+    class: partial
+    link: https://huggingface.co/meta-llama/Meta-Llama-3-8B
+    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/openchat/openchat_3.5/tree/main
-    notes: Instruction-tuned model weights made available via HuggingFace
+    link: https://huggingface.co/openchat/openchat-3.6-8b-20240522
+    notes: Weights made available via HuggingFace.
 
 trainingcode:
     class: open
     link: https://github.com/imoneoi/openchat/tree/master/ochat
-    notes: Repository offers a large amount of fairly well-organized code for data curation and model
+    notes: Repository offers a large amount of fairly well-organized code for data curation and model.
 
 # documentation:
 code:
     class: partial
     link: https://github.com/imoneoi/openchat/tree/master/ochat
-    notes: There is plenty of code in the github repository but only some of it is documented
+    notes: There is plenty of code in the github repository but only some of it is documented.
 
 hardware_architecture:
     class: open
     link: https://arxiv.org/abs/2309.11235
-    notes: Architecture quite well described in preprint
+    notes: Architecture quite well described in preprint.
 
 preprint:
     class: open
     link: https://arxiv.org/abs/2309.11235
-    notes: Preprint describes the model architecture and instruction tuning approach, though is hampered by building on notoriously closed Llama2
+    notes: Preprint describes the model architecture and instruction tuning approach, though is hampered by building on notoriously closed Llama2.
 
 paper:
     class: open
     link: https://openreview.net/forum?id=AOJyfhWYHf
-    notes: Paper reviewed and accepted for ICLR 2024
+    notes: Paper reviewed and accepted for ICLR 2024.
 
 modelcard:
     class: partial
-    link: https://huggingface.co/openchat/openchat_v3.2
-    notes: There is a model card that provides some details on architecture and evaluation
+    link: https://huggingface.co/openchat/openchat-3.6-8b-20240522
+    notes: Model card exists, however primarily provides evaluation information.
 
 datasheet:
     class: partial
-    link: https://huggingface.co/openchat/openchat_3.5
-    notes: Datasheet are provided, however contain minimal information.
+    link: https://huggingface.co/datasets/openchat/openchat_sharegpt_v3
+    notes: Datasheet is provided, however contain minimal information.
 
 # access:
 package:
     class: open
-    link: https://github.com/imoneoi/openchat/tree/master#installation
-    notes: Python package 'ochat' provided through pip
+    link: https://pypi.org/project/ochat/
+    notes: Python package 'ochat' provided through PyPi.
 
 api:
     class: partial
     link:
-    notes: Model too large to load onto HuggingFace free inference API, so only available through Inference Endpoints or package
+    notes: Model only available through inference endpoints, local API, or package.
     metaprompt: closed
 
 licenses:
-    class: open
-    link: https://github.com/imoneoi/openchat/blob/master/LICENSE
-    notes: Code and model released under Apache 2.0
+    class: closed
+    link: https://huggingface.co/openchat/openchat-3.6-8b-20240522
+    notes: Model licensed under Llama 3 Community License Agreement.
 
