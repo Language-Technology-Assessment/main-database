@@ -23,7 +23,7 @@ system:
 org:
     name: EleutherAI, Together Computer
     link: https://huggingface.co/EleutherAI, https://together.ai/
-    notes: base model developed by EleutherAI, a major player in the open-source space. Fine-tune by Together Computer, a cloud platform for generative AI.
+    notes: Base model developed by EleutherAI, a major player in the open-source space. Fine-tune by Together Computer, a cloud platform for generative AI.
 
 # availability:
 datasources_basemodel:
