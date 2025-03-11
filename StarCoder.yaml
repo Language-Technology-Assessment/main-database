@@ -17,84 +17,84 @@ system:
     basemodelname: StarCoder2-15B
     endmodelname: StarCoder2-15B-Instruct-v0.1
     endmodellicense: BigCode OpenRAIL-M v1 license agreement
-    releasedate: 
-    notes: 
+    releasedate: 2024-04
+    notes: Self-aligned LLM.
 
 org:
     name: BigCode
     link: https://huggingface.co/bigcode
-    notes: 
+    notes: Open scientific collaboration for creating LLMs.
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2402.19173
+    notes: Unfiltered data sources described in paper.
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2410.24198
+    notes: Unfiltered data sources described in paper.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/bigcode/starcoder2-15b
+    notes: Weights made available on HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://github.com/bigcode-project/selfcodealign
+    notes: All training code made available on GitHub.
 
 # documentation:
 code:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://github.com/bigcode-project/selfcodealign
+    notes: Training code is well-documented.
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2410.24198
+    notes: Hardware architecture described in paper.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2410.24198
+    notes: Preprint made available on arXiv.
 
 paper:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://ccs.neu.edu/~arjunguha/main/papers/2024-wei-starcoder-self-alignment.html
+    notes: Paper published in NeurIPS.
 
 modelcard:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1
+    notes: Model card provides the requisite information.
 
 datasheet:
     class: closed
     link: 
-    notes: 
+    notes: No data sheet found.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1
+    notes: BigCode OpenRAIL-M v1 license agreement, not an OSI-approved license.
