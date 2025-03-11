@@ -13,7 +13,7 @@ system:
     name: Open Assistant
     link: https://open-assistant.io/
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: Pythia 12B
     endmodelname: OpenAssistant Conversations
     endmodellicense: Apache 2.0
@@ -57,7 +57,7 @@ code:
     link: https://projects.laion.ai/Open-Assistant/docs/intro
     notes: Separate website provides entry point to comprehensive documentation
 
-architecture:
+hardware_architecture:
     class: open
     link: https://github.com/LAION-AI/Open-Assistant/tree/main/model
     notes: Instructions to tune the pipeline on training data

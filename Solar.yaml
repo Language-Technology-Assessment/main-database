@@ -1,0 +1,101 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
+    name: Solar
+    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit
+    type: text 
+    performanceclass: latest
+    basemodelname: LLaMA2
+    endmodelname: Solar-0-70B
+    endmodellicense: Meta Community license, CC-BY-NC 4.0
+    releasedate: 2023-07
+    notes: HuggingFace profile says 'Solar is a great example of the progress enabled by open source.'
+
+org:
+    name: Upstage AI
+    link: https://en.upstage.ai/
+    notes: Korean venture
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+
+datasources_endmodel:
+    class: closed
+    link:
+    notes: No RLHF datasets specified or shared, docs say 'Orca-style dataset, Alpaca-style dataset'
+
+weights_basemodel:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+weights_endmodel:
+    class: partial
+    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit/tree/main
+    notes: Finetuned checkpoints only shared through CC-BY-NC
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No code repository found
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: HuggingFace code only comprises configuration json; no documentation available. 
+
+hardware_architecture:
+    class: closed
+    link: 
+    notes: Precise architecture, training, fine-tuning procedures not given.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint or any form of scientific documentation found.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit
+    notes: HuggingFace model card used mostly as advertising, omits many details on training, fine-tuning, evaluation.
+
+datasheet:
+    class: closed
+    link:
+    notes: Datasheet not provided.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: Package not provided
+
+api:
+    class: partial
+    link:
+    notes: API only available by signing up for 'private LLM' service
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit#model-details
+    notes: Meta Community License for base model, and CC-BY-NC 4.0 for fine-tuned model weights
+

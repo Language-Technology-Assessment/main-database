@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: Jais
+    link: https://huggingface.co/inceptionai/jais-adapted-70b-chat
+    type: text
+    performanceclass: full
+    basemodelname: Llama-2-70B
+    endmodelname: Jais-Adapted-70B-Chat
+    endmodellicense: Apache-2.0
+    releasedate: 2024-10
+    notes: 
+
+org:
+    name: G42
+    link: https://huggingface.co/inceptionai
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: 
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: 
+
+weights_basemodel:
+    class: closed
+    link: 
+    notes: based on LLama2
+
+weights_endmodel:
+    class: closed
+    link: 
+    notes: behind consent form
+
+trainingcode:
+    class: closed
+    link: 
+    notes: 
+
+# documentation:
+code:
+    class: closed
+    link:  
+    notes: 
+
+hardware_architecture:
+    class: partial
+    link:  https://huggingface.co/inceptionai/jais-adapted-70b-chat
+    notes: 
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2308.16149
+    notes: 
+
+paper:
+    class: closed
+    link: 
+    notes: 
+
+modelcard:
+    class: opem
+    link: https://huggingface.co/inceptionai/jais-adapted-70b-chat
+    notes: 
+
+datasheet:
+    class: closed
+    link: 
+    notes: 
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: 
+    notes: weights under apache 2

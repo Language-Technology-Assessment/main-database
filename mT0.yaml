@@ -1,0 +1,101 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: mT0
+    link: https://huggingface.co/bigscience/mt0-xxl-p3
+    type: text
+    performanceclass: full
+    basemodelname: mT5-XXL
+    endmodelname: mT0-XXL-P3
+    endmodellicense: Apache-2.0
+    releasedate: 2023-05
+    notes: 
+
+org:
+    name: BigScience
+    link: https://huggingface.co/bigscience
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://www.tensorflow.org/datasets/catalog/c4#c4multilingual
+    notes: mC4, a subset of C4
+
+datasources_endmodel:
+    class: open
+    link: https://github.com/bigscience-workshop/xmtf?tab=readme-ov-file#data
+    notes: xP3
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/bigscience/mt0-xxl-mt
+    notes: 
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/bigscience/mt0-large
+    notes: various variants available
+
+trainingcode:
+    class: partial
+    link: https://arxiv.org/pdf/2010.11934
+    notes: 
+
+# documentation:
+code:
+    class: closed
+    link:  
+    notes: 
+
+hardware_architecture:
+    class: partial
+    link:  
+    notes: "Architecture: Same as mt5-xxl, also refer to the config.json file"
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2211.01786
+    notes: 
+
+paper:
+    class: open
+    link: https://virtual2023.aclweb.org/paper_P283.html
+    notes: 
+
+modelcard:
+    class: open
+    link: https://huggingface.co/bigscience/mt0-xxl
+    notes: 
+
+datasheet:
+    class: open
+    link: https://huggingface.co/datasets/bigscience/xP3
+    notes: 
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: none found
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: 
+    notes: "model weights and finetuning dataset (xP3) and basemodel dataset (mC4) all under apache-2.0" 
+

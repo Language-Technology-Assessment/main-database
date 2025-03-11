@@ -10,10 +10,10 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: StableVicuna-13B
+    name: StableVicuna
     link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: LLaMA
     endmodelname: OASST1 (human), GPT4All (human), Alpaca (synthetic)
     endmodellicense: Meta Community License
@@ -57,7 +57,7 @@ code:
     link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta/tree/main
     notes: Code is minimally documented and deployment requires non-trivial configuration, e.g. 'StableVicuna-13B cannot be used from the CarperAI/stable-vicuna-13b-delta weights alone. To obtain the correct model, one must add back the difference between LLaMA 13B and CarperAI/stable-vicuna-13b-delta weights.'
 
-architecture:
+hardware_architecture:
     class: partial
     link:
     notes: Architecture is described at a high level in scattered places, but there is no clear and exhaustive overview.

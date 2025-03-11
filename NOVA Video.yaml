@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: NOVA Video
+    link: https://huggingface.co/BAAI/nova-d48w1024-osp480
+    type: video
+    performanceclass: limited
+    basemodelname: NOVA-D48W1024-OSP480
+    endmodelname: NOVA-D48W1024-OSP480
+    endmodellicense: Apache-2.0
+    releasedate: 2024-12
+    notes: 
+
+org:
+    name: Beijing Academy of Artificial Intelligence
+    link: https://huggingface.co/BAAI
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: https://huggingface.co/BAAI/nova-d48w1024-osp480
+    notes: "web datasets LAION-5B and COYO-700M"
+
+datasources_endmodel:
+    class: partial
+    link: https://huggingface.co/BAAI/nova-d48w1024-osp480
+    notes: "web datasets LAION-5B and COYO-700M"
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/BAAI/nova-d48w1024-osp480/tree/main
+    notes:
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/BAAI/nova-d48w1024-osp480/tree/main
+    notes:
+
+trainingcode:
+    class: partial
+    link: https://huggingface.co/BAAI/nova-d48w1024-osp480/tree/main
+    notes:
+
+# documentation:
+code:
+    class: partial
+    link: https://huggingface.co/BAAI/nova-d48w1024-osp480/tree/main
+    notes:
+
+hardware_architecture:
+    class: partial
+    link: https://huggingface.co/BAAI/nova-d48w1024-osp480
+    notes:
+
+preprint:
+    class: closed
+    link: https://arxiv.org/abs/2412.14169
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: open
+    link: https://huggingface.co/BAAI/nova-d48w1024-osp480
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:
+    metaprompts:
+
+licenses:
+    class: partial
+    link:
+    notes: weights and code under apache 2

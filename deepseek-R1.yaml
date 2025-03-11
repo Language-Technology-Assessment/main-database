@@ -13,7 +13,7 @@ system:
     name: DeepSeek R1
     link: https://github.com/deepseek-ai/DeepSeek-R1
     type: text 
-    performanceclass: 
+    performanceclass: latest
     basemodelname: DeepSeek-V3-Base
     endmodelname: DeepSeek-R1
     endmodellicense: DeepSeek License Agreement
@@ -57,7 +57,7 @@ code:
     link: https://github.com/deepseek-ai/DeepSeek-V3/
     notes: No code, so no documentation.
 
-architecture:
+hardware_architecture:
     class: partial
     link:  https://arxiv.org/pdf/2412.19437
     notes: Model architecture described in a fair bit of detail in base model technical report.

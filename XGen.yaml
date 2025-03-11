@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: XGen
+    link: https://huggingface.co/Salesforce/xgen-7b-8k-inst
+    type: text
+    performanceclass: full
+    basemodelname: XGen-7B-4K-Base
+    endmodelname: XGen-7B-8k-Inst
+    endmodellicense: Research purposes only
+    releasedate: 2023-09
+    notes: 
+
+org:
+    name: Salesforce
+    link: https://huggingface.co/Salesforce
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: 
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: 
+
+weights_basemodel:
+    class: closed
+    link: https://huggingface.co/Salesforce/xgen-7b-4k-base
+    notes: 
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/Salesforce/xgen-7b-8k-inst
+    notes: 
+
+trainingcode:
+    class: closed
+    link: 
+    notes: 
+
+# documentation:
+code:
+    class: closed
+    link:  
+    notes: 
+
+hardware_architecture:
+    class: closed
+    link:  
+    notes: 
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2309.03450
+    notes: 
+
+paper:
+    class: closed
+    link: 
+    notes: 
+
+modelcard:
+    class: open
+    link: https://huggingface.co/Salesforce/xgen-7b-8k-inst
+    notes: 
+
+datasheet:
+    class: closed
+    link: 
+    notes: 
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: 
+    notes: research purposes only

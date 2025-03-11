@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: AltDiffusion
+    link: https://huggingface.co/BAAI/AltDiffusion
+    type: image
+    performanceclass: 
+    basemodelname: Stable-Diffusion-2-Base
+    endmodelname: AltDiffusion
+    endmodellicense: CreativeML Open RAIL-M License
+    releasedate: 2022-12
+    notes: Early multilingual text-to-image model.
+
+org:
+    name: Beijing Academy of Artificial Intelligence
+    link: https://huggingface.co/BAAI
+    notes: Chinese non-profit AI lab.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://laion.ai/blog/laion-5b/
+    notes: Trained on a subset of LAION-5B, an openly available dataset.
+
+datasources_endmodel:
+    class: open
+    link: https://laion.ai/blog/laion-5b/, https://data.baai.ac.cn/details/WuDaoCorporaText
+    notes: Fine-tuned on LAION and WuDao. Both ostensibly publicly available.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/stabilityai/stable-diffusion-2-base
+    notes: Weights available through HuggingFace.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/BAAI/AltDiffusion
+    notes: Weights available through HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/superhero-7/AltDiffusion
+    notes: GitHub available containing training code.
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/superhero-7/AltDiffusion/
+    notes: Code sparsely documented in Chinese.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2308.09991
+    notes: Hardware architecture outlined in preprint.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2308.09991
+    notes: Preprint available through arXiv.
+
+paper:
+    class: open
+    link: https://dl.acm.org/doi/10.1609/aaai.v38i7.28487
+    notes: Paper published in ACM.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/BAAI/AltDiffusion
+    notes: Model card primarily contains information about inference, examples, and licensing information.
+
+datasheet:
+    class: partial
+    link: https://arxiv.org/pdf/2210.08402, https://github.com/BAAI-WuDao/Data
+    notes: Data collection procedures for LAION are outlined in a corresponding paper. The WuDao dataset is only sparsely documented, primarily in Chinese.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found. Model available through diffusers.
+
+api:
+    class: closed
+    link: https://huggingface.co/spaces/BAAI/AltDiffusion
+    notes: HuggingFace space exists, however displays a runtime error.
+    metaprompts:
+
+licenses:
+    class: closed
+    link: https://huggingface.co/BAAI/AltDiffusion#%E8%AE%B8%E5%8F%AFlicense
+    notes: CreativeML Open RAIL-M License. Not an OSI-approved license.

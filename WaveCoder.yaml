@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: WaveCoder
+    link: https://huggingface.co/microsoft/wavecoder-ultra-6.7b
+    type: code
+    performanceclass: full
+    basemodelname: Deepseek-Coder-6.7B-Base
+    endmodelname: WaveCoder-Ultra-6.7B
+    endmodellicense: MIT license
+    releasedate: 2024-07
+    notes: Not absolutely clear that base rather than instruct-tuned model was used, but can be assumed.
+
+org:
+    name: Microsoft
+    link: https://huggingface.co/microsoft
+    notes: Major technology company.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: https://arxiv.org/pdf/2401.14196
+    notes: Data sources of base model described only at the highest level.
+
+datasources_endmodel:
+    class: closed
+    link: https://arxiv.org/pdf/2312.14187
+    notes: End model makes heavy use of synthetic data which does not seem to have been published. Some non-synthetic data was used which is not described in detail.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-base
+    notes: Weights made available on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/microsoft/wavecoder-ultra-6.7b
+    notes: Weights made available on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/microsoft/WaveCoder
+    notes: Training script and data processing architecture made available on GitHub. Fine-tuning script not made available.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/microsoft/WaveCoder
+    notes: Codebase is well-documented.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2312.14187
+    notes: Hardware architecture described in paper.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2312.14187
+    notes: Preprint made available on arXiv.
+
+paper:
+    class: open
+    link: https://aclanthology.org/2024.acl-long.280/
+    notes: Paper published in ACL.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/microsoft/wavecoder-ultra-6.7b
+    notes: Model card primarily contains information regarding inference and licensing.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: https://huggingface.co/microsoft/wavecoder-ultra-6.7b#%F0%9F%93%96-license
+    notes: Code licensed under MIT license, and OSI-approved license. (Base?) model licensed under DeepSeek's license.

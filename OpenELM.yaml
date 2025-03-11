@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: OpenELM
+    link: https://huggingface.co/apple/OpenELM-3B-Instruct
+    type: text
+    performanceclass: 
+    basemodelname: OpenELM-3B
+    endmodelname: OpenELM-3B-Instruct
+    endmodellicense: Apple Sample Code License
+    releasedate: 
+    notes: 
+
+org:
+    name: Apple
+    link: https://huggingface.co/apple
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: https://huggingface.co/papers/2404.14619
+    notes: publically available datasets cited as training data but not further specified 
+
+datasources_endmodel:
+    class: closed
+    link: https://huggingface.co/papers/2404.14619
+    notes: publically available datasets cited as training data but not further specified
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/apple/OpenELM-3B
+    notes: 
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/apple/OpenELM-3B-Instruct/tree/main
+    notes: 
+
+trainingcode:
+    class: partial
+    link: 
+    notes: config and generation code on Hugginface
+
+# documentation:
+code:
+    class: partial
+    link:  https://huggingface.co/apple/OpenELM-3B-Instruct/tree/main
+    notes: 
+
+hardware_architecture:
+    class: partial
+    link:  
+    notes: some details on the modelcard 
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2404.14619
+    notes: 
+
+paper:
+    class: open
+    link: https://openreview.net/pdf?id=XNMbTkxroF
+    notes: 
+
+modelcard:
+    class: open
+    link: https://huggingface.co/apple/OpenELM-3B-Instruct
+    notes: 
+
+datasheet:
+    class: closed
+    link: 
+    notes: 
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: 
+    notes: weights under custom Apple license 

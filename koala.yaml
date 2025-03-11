@@ -10,10 +10,10 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Koala 13B
+    name: Koala
     link: https://bair.berkeley.edu/blog/2023/04/03/koala/
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodel: LLaMA 13B
     datasources_endmodel: HC3, ShareGPT, alpaca (synthetic)
     endmodellicense: Mixed
@@ -57,7 +57,7 @@ code:
     link: https://github.com/young-geng/EasyLM
     notes: Code scattered across various repositories and not systematically documented.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://github.com/young-geng/EasyLM
     notes: Architecture visually illustrated and described in some detail.

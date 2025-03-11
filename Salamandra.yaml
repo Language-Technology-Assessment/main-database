@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: Salamandra
+    link: https://huggingface.co/BSC-LT/salamandra-7b-instruct
+    type: text
+    performanceclass: 
+    basemodelname: Salamandra-7B
+    endmodelname: Salamandra-7B-Instruct
+    endmodellicense: Apache-2.0
+    releasedate: 2024-09
+    notes: 
+
+org:
+    name: Barcelona Supercomputing Center
+    link: https://huggingface.co/BSC-LT
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: 
+    notes: detailed in model card but not readily available or linked
+
+datasources_endmodel:
+    class: partial
+    link: 
+    notes: finetuning data listed in model card but not linked or shared
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/BSC-LT/salamandra-7b
+    notes: 
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/BSC-LT/salamandra-7b-instruct
+    notes: 
+
+trainingcode:
+    class: closed
+    link: 
+    notes: no training code found
+
+# documentation:
+code:
+    class: closed
+    link:  
+    notes: no code documentation found
+
+hardware_architecture:
+    class: open
+    link:  
+    notes: model card contains details
+
+preprint:
+    class: open
+    link: 
+    notes: various preprints available
+
+paper:
+    class: closed
+    link: 
+    notes: 
+
+modelcard:
+    class: open
+    link: https://huggingface.co/BSC-LT/salamandra-7b-instruct
+    notes: 
+
+datasheet:
+    class: open
+    link: https://huggingface.co/BSC-LT/salamandra-7b-instruct
+    notes: datasheet part of model cart
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: 
+    notes: weights as apache 2

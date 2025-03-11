@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: SantaCoder
+    link: https://huggingface.co/bigcode/santacoder
+    type: code
+    performanceclass: 
+    basemodelname: SantaCoder
+    endmodelname: SantaCoder
+    endmodellicense: BigCode OpenRAIL-M v1 license agreement
+    releasedate: 2022-12
+    notes: Early coder model.
+
+org:
+    name: BigCode
+    link: https://huggingface.co/bigcode
+    notes: Open scientific collaboration for creating LLMs.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://arxiv.org/pdf/2301.03988, https://huggingface.co/datasets/bigcode/the-stack
+    notes: Model trained from filtered data from The Stack v1.1.
+
+datasources_endmodel:
+    class: open
+    link: https://arxiv.org/pdf/2301.03988, https://huggingface.co/datasets/bigcode/the-stack
+    notes: Model trained from filtered data from The Stack v1.1.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/bigcode/santacoder
+    notes: Weights made available on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/bigcode/santacoder
+    notes: Weights made available on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/bigcode-project/Megatron-LM
+    notes: Training done using an open-source project.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/bigcode-project/Megatron-LM
+    notes: Project is well-documented.
+
+hardware_architecture:
+    class: open
+    link: https://huggingface.co/bigcode/santacoder#training
+    notes: Training setup described in detail.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2301.03988
+    notes: Preprint made available on arXiv.
+
+paper:
+    class: closed
+    link: 
+    notes: No paper found.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/bigcode/santacoder
+    notes: Model card contains the requisite information.
+
+datasheet:
+    class: open
+    link: https://huggingface.co/datasets/bigcode/the-stack
+    notes: Detailed data sheet available.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: open
+    link: https://huggingface.co/bigcode/santacoder
+    notes: HuggingFace inference API available.
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/bigcode/santacoder#license
+    notes: BigCode OpenRAIL-M v1 license agreement, not an OSI-approved license.

@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: MAGNeT
+    link: https://huggingface.co/facebook/hybrid-magnet-medium
+    type: audio
+    performanceclass: limited
+    basemodelname: Hybrid-MAGNeT-Medium
+    endmodelname: Hybrid-MAGNeT-Medium
+    endmodellicense: CC-BY-NC-4.0
+    releasedate: 2024-02
+    notes: Mixture between autoregressive and masked generative non-autoregressive transformers.
+
+org:
+    name: Meta
+    link: https://huggingface.co/facebook
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: "ShutterStock, Pond5, and proprietary data"
+
+datasources_endmodel:
+    class: closed
+    link:
+    notes: "ShutterStock, Pond5, and proprietary data"
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/facebook/hybrid-magnet-medium
+    notes: 
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/facebook/hybrid-magnet-medium
+    notes: 
+
+trainingcode:
+    class: closed
+    link:
+    notes:
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes:
+
+hardware_architecture:
+    class: closed
+    link:
+    notes:
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2401.04577
+    notes:
+
+paper:
+    class: open
+    link: https://openreview.net/forum?id=Ny8NiVfi95
+    notes:
+
+modelcard:
+    class: open
+    link: https://huggingface.co/facebook/hybrid-magnet-medium
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:
+    metaprompts:
+
+licenses:
+    class: partial
+    link:
+    notes: "weights as cc-by-nc-4.0"

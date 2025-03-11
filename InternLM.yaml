@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: InternLM
+    link: https://huggingface.co/internlm/internlm3-8b-instruct
+    type: text
+    performanceclass: full
+    basemodelname: InternLM3-8B
+    endmodelname: InternLM3-8B-Instruct
+    endmodellicense: Apache-2.0
+    releasedate: 2024-03
+    notes: 
+
+org:
+    name: Shanghai AI Laboratory
+    link: https://huggingface.co/internlm
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: https://arxiv.org/pdf/2403.17297
+    notes: mainly from common crawl otherwise no details in preprint
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: not found
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/internlm/internlm3-8b-instruct
+    notes: 
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/internlm/internlm3-8b-instruct
+    notes: 
+
+trainingcode:
+    class: partial
+    link: https://github.com/InternLM/InternLM?tab=readme-ov-file
+    notes: some shared
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/InternLM/InternLM?tab=readme-ov-file 
+    notes: some code documented
+
+hardware_architecture:
+    class: closed
+    link:  
+    notes: 
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2403.17297
+    notes: 
+
+paper:
+    class: closed
+    link: 
+    notes: 
+
+modelcard:
+    class: open
+    link: https://huggingface.co/internlm/internlm3-8b-instruct
+    notes: 
+
+datasheet:
+    class: closed
+    link: 
+    notes: 
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: 
+    notes: weights under apache 2

@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
+    name: Nanbeige
+    link: https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat
+    type: text 
+    performanceclass: limited
+    basemodelname: Unknown
+    endmodelname: Unknown
+    endmodellicense: Apache 2.0 and bespoke community license
+    releasedate: 2024-03
+    notes: Comes in 8B and 16B versions
+
+org:
+    name: Nanbeige LLM lab
+    link: https://huggingface.co/Nanbeige
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: No information on pre-training datasets except a claim of 4.5T tokens. Request for information on HF community was closed without comment.
+
+datasources_endmodel:
+    class: closed
+    link: https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat/discussions/2#6621e15a4d17641cf788cbd5
+    notes: No information on finetuning and DPO datasets. Some information provided on request (see link), but official documentation not updated.
+
+weights_basemodel:
+    class: closed
+    link:
+    notes: Base model not shared
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat/tree/main
+    notes: Model weights for finetuned model shared 
+
+trainingcode:
+    class: open
+    link: https://github.com/Nanbeige/Nanbeige
+    notes: github repo contains sparse but clear code for training, tuning, and inference
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: No documentation of the codebase
+
+hardware_architecture:
+    class: closed
+    link:
+    notes: Architecture not clearly specified
+
+preprint:
+    class: closed
+    link:
+    notes: No preprint found. Paper linked on HuggingFace was authored by LMSYS.
+
+paper:
+    class: closed
+    link:
+    notes: No paper found
+
+modelcard:
+    class: closed
+    link:
+    notes: No model card found
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found
+
+api:
+    class: partial
+    link: https://huggingface.co/spaces/Nanbeige/Nanbeige-Plus-Chat-v0.1
+    notes: No API, but HuggingFace space available
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link:
+    notes: Apache 2.0 but commercial use requires signup and an additional community license 

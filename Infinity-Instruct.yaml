@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: Infinity-Instruct
+    link: https://huggingface.co/BAAI/Infinity-Instruct-7M-Gen-Llama3_1-70B
+    type: text
+    performanceclass: full
+    basemodelname: Llama-3.1-70B
+    endmodelname: Infinity-Instruct-7M-Gen-Llama3.1-70B
+    endmodellicense: Llama 3.1 Community License Agreement
+    releasedate: 2024-08
+    notes: 
+
+org:
+    name: Beijing Academy of Artificial Intelligence
+    link: https://huggingface.co/BAAI
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: based on Llama3
+
+datasources_endmodel:
+    class: partial
+    link: https://huggingface.co/datasets/BAAI/Infinity-Instruct
+    notes: partially on HF
+
+weights_basemodel:
+    class: open
+    link: 
+    notes: 
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/BAAI/Infinity-Instruct-7M-Gen-Llama3_1-70B
+    notes: 
+
+trainingcode:
+    class: closed
+    link: 
+    notes: soon to be released
+
+# documentation:
+code:
+    class: closed
+    link:  
+    notes: 
+
+hardware_architecture:
+    class: closed
+    link:  
+    notes: 
+
+preprint:
+    class: closed
+    link: 
+    notes: dead link
+
+paper:
+    class: closed
+    link: 
+    notes: 
+
+modelcard:
+    class: open
+    link: https://huggingface.co/BAAI/Infinity-Instruct-7M-Gen-Llama3_1-70B
+    notes: 
+
+datasheet:
+    class: closed
+    link: 
+    notes: 
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: 
+    notes: weights under meta custom license

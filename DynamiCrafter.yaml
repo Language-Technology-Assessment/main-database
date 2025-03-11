@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: DynamiCrafter
+    link: https://huggingface.co/Doubiiu/DynamiCrafter_1024
+    type: video
+    performanceclass: limited
+    basemodelname: Stable-Diffusion-2-Base
+    endmodelname: DynamiCrafter-1024
+    endmodellicense: Apache-2.0
+    releasedate: 2024-02
+    notes: 
+
+org:
+    name: Jinbo Xing
+    link: https://huggingface.co/Doubiiu
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: "WebVid-10M mentioned in paper"
+
+datasources_endmodel:
+    class: closed
+    link:
+    notes: "WebVid-10M mentioned in paper"
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/Doubiiu/DynamiCrafter_1024/tree/main
+    notes:
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/Doubiiu/DynamiCrafter_1024/tree/main
+    notes:
+
+trainingcode:
+    class: partial
+    link: https://github.com/Doubiiu/DynamiCrafter
+    notes:
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/Doubiiu/DynamiCrafter
+    notes:
+
+hardware_architecture:
+    class: partial
+    link:
+    notes:
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2310.12190
+    notes:
+
+paper:
+    class: open
+    link: https://dl.acm.org/doi/abs/10.1007/978-3-031-72952-2_23
+    notes:
+
+modelcard:
+    class: open
+    link: https://huggingface.co/Doubiiu/DynamiCrafter_1024
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:
+    metaprompts:
+
+licenses:
+    class: closed
+    link:
+    notes: unspecified 

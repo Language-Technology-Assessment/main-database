@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: Cosmos
+    link: https://huggingface.co/nvidia/Cosmos-1.0-Diffusion-14B-Video2World
+    type: video
+    performanceclass: full
+    basemodelname: Cosmos-1.0-Diffusion-14B-Text2World
+    endmodelname: Cosmos-1.0-Diffusion-14B-Video2World
+    endmodellicense: NVIDIA Open Model License
+    releasedate: 2025-01
+    notes: Given a text or video input, predicts the next 120 frames.
+
+org:
+    name: NVIDIA
+    link: https://huggingface.co/nvidia
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: https://arxiv.org/pdf/2501.03575
+    notes: "We use both proprietary video datasets and publicly available open-domain Internet videos to train our models."
+
+datasources_endmodel:
+    class: closed
+    link: https://arxiv.org/pdf/2501.03575
+    notes: "We use both proprietary video datasets and publicly available open-domain Internet videos to train our models."
+
+weights_basemodel:
+    class: partial
+    link: https://huggingface.co/nvidia/Cosmos-1.0-Diffusion-14B-Video2World/tree/main
+    notes: behind consent form
+    
+weights_endmodel:
+    class: partial
+    link: https://huggingface.co/nvidia/Cosmos-1.0-Diffusion-14B-Video2World/tree/main
+    notes: behind consent form
+
+trainingcode:
+    class: closed
+    link:
+    notes:
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes:
+
+hardware_architecture:
+    class: closed
+    link:
+    notes:
+
+preprint:
+    class: closed
+    link: https://arxiv.org/abs/2501.03575
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: open
+    link: https://huggingface.co/nvidia/Cosmos-1.0-Diffusion-14B-Video2World
+    notes: 
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:
+    metaprompts:
+
+licenses:
+    class: closed
+    link:
+    notes: weights under Nvidia Open World License and some code under Apache 2

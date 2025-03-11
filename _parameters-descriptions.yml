@@ -1,24 +1,16 @@
 datasources_basemodel:
-  en: Are datasources for training the base model comprehensively documented and freely made available? 
+  en: Are datasources for training the base model comprehensively documented and freely made available? In case a distinction between base (foundation) and end (user) model is not applicable, this mirrors the end model data entries.
 datasources_endmodel:
   en: Are datasources for training the model that the enduser interacts with comprehensively documented and freely made available? 
 weights_basemodel:
-  en: Are the weights of the base models made freely available?
+  en: Are the weights of the base models made freely available? In case a distinction between base (foundation) and end (user) model is not applicable, this mirrors the end model data entries.
 weights_endmodel:
   en: Are the weights of the model that the enduser interacts with made freely available?
 trainingcode:
   en: Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
-datasources:
-  en: Are datasources for training the model comprehensively documented and freely made available? 
-weights:
-  en: Are the weights of the model that the enduser interacts with made freely available?
-watermarking:
-  en: Are watermarking techniques comprehensively documented and shared? 
-prompt_moderation:
-  en: Is prompt moderation comprehensively documented and shared? 
 code:
   en: Is the source code of datasource processing, model training and tuning comprehensively documented?
-architecture:
+hardware_architecture:
   en: Is the hardware architecture used for datasource processing and model training comprehensively documented?
 preprint:
   en: Are archived preprint(s) are available that detail all major parts of the system including datasource processing, model training and tuning steps?
@@ -31,6 +23,6 @@ datasheet:
 package:
   en: Is a packaged release of the model available on a software repository (e.g. a Python Package Index, Homebrew)?
 api:
-  en: Is an API available that provides unrestricted access to the model (other than security and CDN restrictions)?
+  en: Is an API available that provides unrestricted access to the model (other than security and CDN restrictions)? If applicable, this entry also collects information on the use and availability of meta prompts.
 licenses:
   en: Is the project fully covered by Open Source Initiative (OSI)-approved licenses, including all data sources and training pipeline code?

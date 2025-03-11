@@ -1,0 +1,23 @@
+name: Deploy Preview site
+
+on:
+  push:
+    branches: ["preview"]
+
+  # Allows you to run this workflow manually from the Actions tab ?
+  workflow_dispatch:
+
+  repository_dispatch:
+    types: [trigger-workflow]
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger preview deployment
+        run: |
+          curl -X POST \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Authorization: token ${{ secrets.PAT }}" \
+          https://api.github.com/repos/Language-Technology-Assessment/preview/actions/workflows/preview.yml/dispatches \
+          -d '{"ref":"main"}'

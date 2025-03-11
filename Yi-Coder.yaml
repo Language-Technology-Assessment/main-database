@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: Yi-Coder
+    link: https://huggingface.co/01-ai/Yi-Coder-9B-Chat
+    type: code
+    performanceclass: latest
+    basemodelname: Yi-9B
+    endmodelname: Yi-Coder-9B-Chat
+    endmodellicense: Apache 2.0
+    releasedate: 2024-07 
+    notes: Arguable that Yi-6B is the base model instead, since Yi-9B was created from Yi-6B. Unclear whether the code model was based on the regular 9B model or the context-length-extended one.
+
+org:
+    name: 01-ai
+    link: https://huggingface.co/01-ai
+    notes: Chinese AI start-up.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: https://arxiv.org/pdf/2403.04652
+    notes: Pretraining data only described as coming from 'various sources'.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: No information found about data sources of the end model.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/01-ai/Yi-9B
+    notes: Weights made available through HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/01-ai/Yi-Coder-9B-Chat
+    notes: Weights made available through HuggingFace.
+
+trainingcode:
+    class: closed
+    link: https://github.com/01-ai/Yi
+    notes: GitHub repo does not appear to contain training code.
+
+# documentation:
+code:
+    class: closed
+    link: https://github.com/01-ai/Yi
+    notes: No training code, so no documentation.
+
+hardware_architecture:
+    class: closed
+    link: https://arxiv.org/pdf/2403.04652
+    notes: Hardware architecture seemingly only described for Yi-VL series of models.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2403.04652
+    notes: Preprint made available on arXiv.
+
+paper:
+    class: closed
+    link: 
+    notes: No paper found.
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/01-ai/Yi-Coder-9B-Chat
+    notes: Model card only provides a high-level introduction and usage instructions.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: partial
+    link: https://platform.01.ai/docs
+    notes: Commercial API available.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/01-ai/Yi-Coder-9B-Chat
+    notes: Apache-2.0, an OSI-approved license.

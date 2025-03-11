@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: K2
+    link: https://huggingface.co/LLM360/K2-Chat
+    type: text
+    performanceclass: full
+    basemodelname: K2
+    endmodelname: K2-Chat
+    endmodellicense: Apache-2.0
+    releasedate: 2024-05
+    notes: 
+
+org:
+    name: LLM360
+    link: https://huggingface.co/LLM360
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/LLM360/K2-Chat
+    notes: 
+
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/LLM360/K2-Chat
+    notes: 
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/LLM360/K2-Chat
+    notes: 
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/LLM360/K2-Chat
+    notes: 
+
+trainingcode:
+    class: open
+    link: https://github.com/LLM360
+    notes: 
+
+# documentation:
+code:
+    class: open
+    link:  https://github.com/LLM360
+    notes: 
+
+hardware_architecture:
+    class: open
+    link:  https://github.com/LLM360
+    notes: 
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2501.07124
+    notes: 
+
+paper:
+    class: closed
+    link: 
+    notes: 
+
+modelcard:
+    class: open
+    link: https://huggingface.co/LLM360/K2-Chat
+    notes: 
+
+datasheet:
+    class: partial
+    link: https://huggingface.co/LLM360/K2-Chat
+    notes: some found
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: 
+    notes:  "code and models under Apache 2, datasets complicated"

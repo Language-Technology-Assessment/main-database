@@ -1,0 +1,101 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: MusicGen
+    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
+    type: audio
+    performanceclass: full
+    basemodelname: MusicGen-Melody-Large
+    endmodelname: MusicGen-Stereo-Melody-Large
+    endmodellicense: CC-BY-NC-4.0
+    releasedate: 2024-02
+    notes: 
+
+org:
+    name: Meta
+    link: https://huggingface.co/facebook
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: internal 10k hrs and ShutterStock and Pond5 music data referenced in paper
+
+datasources_endmodel:
+    class: closed
+    link:
+    notes: internal 10k hrs and ShutterStock and Pond5 music data referenced in paper
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
+    notes:
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
+    notes:
+
+trainingcode:
+    class: closed
+    link:
+    notes: just demo code found
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes:
+
+hardware_architecture:
+    class: closed
+    link:
+    notes:
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2306.05284
+    notes:
+
+paper:
+    class: open
+    link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/94b472a1842cd7c56dcb125fb2765fbd-Abstract-Conference.html
+    notes:
+
+modelcard:
+    class: open
+    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: partial
+    link:
+    notes: limited access API 
+    metaprompts:
+
+licenses:
+    class: partial
+    link:
+    notes: "weights as cc-by-nc-4.0"
+

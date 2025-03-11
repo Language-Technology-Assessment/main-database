@@ -13,87 +13,87 @@ system:
     name: Openjourney
     link: https://openjourney.art
     type: image
-    performanceclass: 
-    modelname: openjourney v4
-    endlicense: creativeml-openrail-m
+    performanceclass: full
+    basemodelname: Stable-Diffusion-v1.5
+    endmodelname: OpenJourney-v4
+    endmodellicense: creativeml-openrail-m
     releasedate: 2022-11
-    notes:
+    notes: Model trained on MidJourney images.
 
 org:
     name: Prompthero
     link: https://prompthero.com/
-    notes:
+    notes: Prompt engineering site.
 
-# availability:
-datasources:
+datasources_basemodel:
+    class: partial
+    link: https://arxiv.org/abs/2210.08402
+    notes: Originally trained on LAION-5B, which is ostensibly open.
+
+datasources_endmodel:
     class: closed
     link: https://huggingface.co/prompthero/openjourney
     notes: Model card mentions the model was fine-tuned on Midjourney images however no link is provided. Given that the model creators also own a Midjourney image database it can be assumed the model was fine-tuned on these images.
+
+weights_basemodel:
+    class: closed
+    link:
+    notes: Model not made publicly available.
     
-weights:
+weights_endmodel:
     class: partial
     link: https://huggingface.co/prompthero/openjourney/tree/main
     notes: Weights are provided as a safetensors file.
 
-watermarking:
-    class: closed
-    link:
-    notes:
-
-prompt_moderation:
-    class: closed
-    link:
-    notes:
-
 trainingcode:
     class: closed
     link:
-    notes:
+    notes: No training code found.
 
 # documentation:
 code:
     class: closed
     link:
-    notes:
+    notes: No training code found, so no documentation.
 
-architecture:
+hardware_architecture:
     class: closed
     link:
-    notes:
+    notes: No detailed architecture information provided.
 
 preprint:
     class: closed
     link:
-    notes:
+    notes: No preprint found.
 
 paper:
     class: closed
     link:
-    notes:
+    notes: No paper found.
 
 modelcard:
     class: closed
     link:
-    notes:
+    notes: Model card only contains minimal information.
 
 datasheet:
     class: closed
     link:
-    notes:
+    notes: No data published, so no data sheet.
 
 # access:
 package:
     class: closed
     link:
-    notes:
+    notes: No package found.
 
 api:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/prompthero/openjourney-v4
+    notes: Inference API available through HuggingFace.
     metaprompts:
 
-licenses:
-    class: partial
-    link:
-    notes:
+license:
+    class: closed
+    link: https://huggingface.co/prompthero/openjourney-v4
+    notes: Creativeml-OpenRail-M, not an OSI-approved license.

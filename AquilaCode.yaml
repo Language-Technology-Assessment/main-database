@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: AquilaCode
+    link: https://huggingface.co/BAAI/AquilaCode-multi
+    type: code
+    performanceclass: full
+    basemodelname: Aquila-7B
+    endmodelname: AquilaCode-multi
+    endmodellicense: BAAI Aquila Model Licence Agreement
+    releasedate: 2023-07
+    notes: Bilingual (English-Chinese) language model.
+
+org:
+    name: Beijing Academy of Artificial Intelligence
+    link: https://huggingface.co/BAAI
+    notes: Chinese non-profit AI lab.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://arxiv.org/pdf/2408.07410
+    notes: Paper thoroughly outlines pretraining data sources.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: No data sources mentioned.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/BAAI/Aquila-7B
+    notes: Weights available through HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/BAAI/AquilaCode-multi
+    notes: Weights available through HuggingFace.
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No training code repository easily available.
+
+# documentation:
+code:
+    class: closed
+    link:  
+    notes: 
+
+hardware_architecture:
+    class: closed
+    link:  
+    notes: Only minimal architecture information available.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint available.
+
+paper:
+    class: closed
+    link: 
+    notes: 
+
+modelcard:
+    class: partial
+    link: 
+    notes: Model card does not go very in-depth, mainly providing information about inference and global model information. 
+
+datasheet:
+    class: closed
+    link: 
+    notes: 
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/BAAI/AquilaCode-multi/blob/main/BAAI%20Aquila%20Model%20License%20Agreement.pdf
+    notes: BAAI Aquila Model Licence Agreement, not an OSI-approved license.

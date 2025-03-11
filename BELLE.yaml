@@ -11,11 +11,11 @@
 
 system:
     name: BELLE
-    link: https://github.com/LianjiaTech/BELLE
+    link: https://huggingface.co/BELLE-2/BELLE-Llama2-13B-chat-0.4M
     type: text
     performanceclass: 
-    basemodelname: LLaMA & BLOOMZ
-    endmodelname: alpaca, shareGPT, Belle (synthetic)
+    basemodelname: Llama-2-13B
+    endmodelname: BELLE-Llama2-13B-Chat-0.4M
     endmodellicense: Apache License 2.0
     releasedate: 2023-03
     notes:
@@ -57,7 +57,7 @@ code:
     link: https://github.com/LianjiaTech/BELLE/blob/main/README_en.md
     notes: Quite some documentation on Github, though not all well-organized 
 
-architecture:
+hardware_architecture:
     class: open
     link: https://github.com/LianjiaTech/BELLE/blob/main/README_en.md
     notes: Specified in a fair bit of detail on github

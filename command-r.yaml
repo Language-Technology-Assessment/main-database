@@ -10,10 +10,10 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Command R+
+    name: Command-R
     link: https://huggingface.co/CohereForAI/c4ai-command-r-v01
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: 
     endmodelname: Aya Collection
     endmodellicense: CC-BY-NC and C4AI acceptable use policy
@@ -57,7 +57,7 @@ code:
     link:
     notes: No source code available, so no documentation of code.
 
-architecture:
+hardware_architecture:
     class: closed
     link:
     notes: Architecture only sparsely documented.

@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: AMD Llama Code
+    link: https://huggingface.co/amd/AMD-Llama-135m-code
+    type: code
+    performanceclass: full
+    basemodelname: AMD-Llama-135m
+    endmodelname: AMD-Llama-135m-code
+    endmodellicense: Apache-2.0
+    releasedate: 2024-07
+    notes: Very tiny coder model, useful for speculative decoding.
+
+org:
+    name: AMD
+    link: https://huggingface.co/amd
+    notes: AMD, a major chip manufacturer.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/datasets/cerebras/SlimPajama-627B, https://huggingface.co/datasets/manu/project_gutenberg
+    notes: Data sources used to train the base model shared. Model uses a combination of SlimPajama and Project Gutenberg.
+
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/bigcode/starcoderdata
+    notes: Model uses the Python split of StarCoder. 
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/amd/AMD-Llama-135m
+    notes: Weights published on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/amd/AMD-Llama-135m-code
+    notes: Weights published on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/AMD-AIG-AIMA/AMD-LLM
+    notes: Training code shared on GitHub.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/AMD-AIG-AIMA/AMD-LLM
+    notes: Model code well-documented.
+
+hardware_architecture:
+    class: open
+    link: https://huggingface.co/amd/AMD-Llama-135m-code
+    notes: Hardware architecture shared on model card.
+
+preprint:
+    class: closed
+    link: https://www.amd.com/en/developer/resources/technical-articles/introducing-amd-first-slm-135m-model-fuels-ai-advancements.html
+    notes: No preprint available.
+
+paper:
+    class: closed
+    link: 
+    notes: No paper found. 
+
+modelcard:
+    class: open
+    link: https://github.com/AMD-AIG-AIMA/AMD-LLM
+    notes: Model card provides detail on model architecture, training, fine-tuning, and evaluation.
+
+datasheet:
+    class: open
+    link: https://huggingface.co/datasets/cerebras/SlimPajama-627B, https://huggingface.co/datasets/manu/project_gutenberg, https://huggingface.co/datasets/bigcode/starcoderdata
+    notes: All data sources are well-documented.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/amd/AMD-Llama-135m-code#license
+    notes: Licensed under Apache-2.0, an OSI-approved license.

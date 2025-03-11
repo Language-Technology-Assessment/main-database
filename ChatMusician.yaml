@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: ChatMusician
+    link: https://huggingface.co/m-a-p/ChatMusician
+    type: audio
+    performanceclass: limited
+    basemodelname: ChatMusician-Base
+    endmodelname: ChatMusician
+    endmodellicense: MIT License
+    releasedate: 2024-04
+    notes: Model for understanding and creating music through text. Symbolic instead of diffusion model. Predominantly generates music in the style of Irish music.
+
+org:
+    name: Multimodal Art Projection
+    link: https://huggingface.co/m-a-p
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: https://huggingface.co/datasets/m-a-p/MusicPile
+    notes:
+
+datasources_endmodel:
+    class: partial
+    link: https://huggingface.co/datasets/m-a-p/MusicPile
+    notes: 
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/m-a-p/ChatMusician
+    notes:
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/m-a-p/ChatMusician
+    notes:
+
+trainingcode:
+    class: open
+    link: https://github.com/hf-lin/ChatMusician
+    notes: 
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/hf-lin/ChatMusician
+    notes: partially documented
+
+hardware_architecture:
+    class: partial
+    link:
+    notes:
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2402.16153
+    notes: 
+
+paper:
+    class: open
+    link: https://aclanthology.org/2024.findings-acl.373/
+    notes: 
+
+modelcard:
+    class: open
+    link: https://huggingface.co/m-a-p/ChatMusician
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:
+    metaprompts:
+
+licenses:
+    class: open
+    link:
+    notes: weights as MIT MusicPile as cc

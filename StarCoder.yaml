@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: StarCoder
+    link: https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1
+    type: code
+    performanceclass: latest
+    basemodelname: StarCoder2-15B
+    endmodelname: StarCoder2-15B-Instruct-v0.1
+    endmodellicense: BigCode OpenRAIL-M v1 license agreement
+    releasedate: 2024-04
+    notes: Self-aligned LLM.
+
+org:
+    name: BigCode
+    link: https://huggingface.co/bigcode
+    notes: Open scientific collaboration for creating LLMs.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://arxiv.org/pdf/2402.19173
+    notes: Unfiltered data sources described in paper.
+
+datasources_endmodel:
+    class: open
+    link: https://arxiv.org/pdf/2410.24198
+    notes: Unfiltered data sources described in paper.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/bigcode/starcoder2-15b
+    notes: Weights made available on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1
+    notes: Weights made available on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/bigcode-project/selfcodealign
+    notes: All training code made available on GitHub.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/bigcode-project/selfcodealign
+    notes: Training code is well-documented.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2410.24198
+    notes: Hardware architecture described in paper.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2410.24198
+    notes: Preprint made available on arXiv.
+
+paper:
+    class: open
+    link: https://ccs.neu.edu/~arjunguha/main/papers/2024-wei-starcoder-self-alignment.html
+    notes: Paper published in NeurIPS.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1
+    notes: Model card provides the requisite information.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No data sheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1
+    notes: BigCode OpenRAIL-M v1 license agreement, not an OSI-approved license.

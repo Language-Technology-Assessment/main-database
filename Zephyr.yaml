@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: Zephyr
+    link: https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1
+    type: text
+    performanceclass: full
+    basemodelname: Mixtral-8x22B-v0.1
+    endmodelname: Zephyr-ORPO-141B-A35B-v0.1
+    endmodellicense: Apache-2.0
+    releasedate: 2023-10
+    notes: 
+
+org:
+    name: HuggingFace
+    link: https://www.huggingface.co/
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: Mixtral-8x22B-v0.1
+
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+    notes: "UltraChat and openbmb/UltraFeedback"
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/mistralai/Mistral-7B-v0.1
+    notes: 
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+    notes: 
+
+trainingcode:
+    class: closed
+    link: 
+    notes: 
+
+# documentation:
+code:
+    class: closed
+    link: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+    notes:
+
+hardware_architecture:
+    class: closed
+    link:  
+    notes: 
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2310.16944
+    notes: 
+
+paper:
+    class: closed
+    link: 
+    notes: 
+
+modelcard:
+    class: open
+    link: 
+    notes: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+
+datasheet:
+    class: closed
+    link: 
+    notes: 
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: 
+    notes: "weights under MIT, datasets mixed"

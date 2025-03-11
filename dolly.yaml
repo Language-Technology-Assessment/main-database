@@ -10,18 +10,18 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: dolly
-    link: https://github.com/databrickslabs/dolly
+    name: Dolly
+    link: https://huggingface.co/databricks/dolly-v2-12b
     type: text
-    performanceclass: 
-    basemodelname: EleutherAI pythia
-    endmodelname: databricks-dolly-15k
+    performanceclass: full
+    basemodelname: Pythia-12B
+    endmodelname: Dolly-V2-12B
     endmodellicense:
     releasedate: 2023-03
     notes:
 
 org:
-    name: databricks
+    name: Databricks
     link: https://www.databricks.com
     notes:
 
@@ -57,7 +57,7 @@ code:
     link:
     notes:
 
-architecture:
+hardware_architecture:
     class: open
     link:
     notes:

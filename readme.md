@@ -43,7 +43,7 @@ For each model, the yaml files in this database collect (1)some general informat
 
 ## **Availability**
 
-**datasources_basemodel**
+**Datasources Basemodel**
 
 Are datasources for training the base model comprehensively documented and freely made available? 
   
@@ -53,7 +53,7 @@ Are datasources for training the base model comprehensively documented and freel
     
     🟩 All training  data sources of base large language model are not open for inspection or shared.
 
-**datasources_endmodel**
+**Datasources Endmodel**
 
 Are datasources for training the model that the enduser interacts with comprehensively documented and freely made available? 
 
@@ -63,7 +63,7 @@ Are datasources for training the model that the enduser interacts with comprehen
     
     🟩 All training  data sources of end large language model are not open for inspection or shared.
 
-**weights_basemodel**
+**Weights basemodel**
 
 Are the weights of the base models made freely available?
 
@@ -73,7 +73,7 @@ Are the weights of the base models made freely available?
     
     🟩 Weights of the base model are shared.
 
-**weights_endmodel**
+**Weights endmodel**
 
 Are the weights of the model that the enduser interacts with made freely available?
 
@@ -83,9 +83,9 @@ Are the weights of the model that the enduser interacts with made freely availab
     
     🟩 Weights of the user-facing end model are shared.
 
- **trainingcode**
+ **Training Code**
  
- Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
+ Is the source code of datasource processing, model training and tuning comprehensively and freely made available?
 
     🟥 No source code available.
     
@@ -95,9 +95,9 @@ Are the weights of the model that the enduser interacts with made freely availab
 
 ## **Documentation**
 
-**Code**
+**Code Documentation**
 
-Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
+Is the source code of datasource processing, model training and tuning comprehensively documented?
    
     🟥 Code documentation not available.
     
@@ -105,7 +105,7 @@ Is the source code of datasource processing, model training and tuining comprehe
     
     🟩 All components of the system features a comprehensive code documentation.
 
-**Architecture**
+**Hardware Architecture Documentation**
 
 Is the hardware architecture used for datasource processing and model training comprehensively documented?
 

@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: OmniGen
+    link: https://huggingface.co/Shitao/OmniGen-v1
+    type: image
+    performanceclass: 
+    basemodelname: OmniGen-v1
+    endmodelname: OmniGen-v1
+    endmodellicense: MIT License
+    releasedate: 2024-10
+    notes: Model designed to generate images from multimodal prompts.
+
+org:
+    name: Beijing Academy of Artificial Intelligence
+    link: https://huggingface.co/Shitao
+    notes: Chinese non-profit AI lab.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/collections/yzwang/x2i-dataset-674c66d1d700f7f816a9590d, https://arxiv.org/pdf/2409.11340
+    notes: Dataset made available, public datasets used to create it outlined in paper.
+
+datasources_endmodel:
+    class: open
+    link:
+    notes:
+
+weights_basemodel:
+    class: open 
+    link: https://huggingface.co/Shitao/OmniGen-v1
+    notes: Weights made available on HuggingFace.
+    
+weights_endmodel:
+    class: open
+    link: 
+    notes:
+
+trainingcode:
+    class: partial
+    link: https://github.com/VectorSpaceLab/OmniGen
+    notes: Only fine-tuning code made available on GitHub.
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/VectorSpaceLab/OmniGen
+    notes: Fine-tuning code is sparsely documented.
+
+hardware_architecture:
+    class: partial
+    link: https://arxiv.org/pdf/2409.11340
+    notes: Training setup is sparsely documented.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2409.11340
+    notes: preprint made available on arXiv.
+
+paper:
+    class: closed
+    link: 
+    notes:
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/Shitao/OmniGen-v1
+    notes: Model card provides information about inference and fine-tuning, but not model architecture or training.
+
+datasheet:
+    class: open
+    link: https://huggingface.co/datasets/yzwang/X2I-subject-driven, https://huggingface.co/datasets/yzwang/X2I-text-to-image, https://huggingface.co/datasets/yzwang/X2I-mm-instruction, https://huggingface.co/datasets/yzwang/X2I-in-context-learning, https://huggingface.co/datasets/yzwang/X2I-computer-vision
+    notes: Data thoroughly outlined.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found.
+
+api:
+    class: open
+    link: https://omnigenai.org/playground
+    notes: Online API available.
+    metaprompts:
+
+licenses:
+    class: open
+    link: https://huggingface.co/Shitao/OmniGen-v1#license
+    notes: MIT license, an OSI-approved license.

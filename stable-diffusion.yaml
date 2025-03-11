@@ -13,9 +13,10 @@ system:
     name: Stable Diffusion
     link: https://stability.ai/stable-image
     type: image
-    performanceclass: 
-    modelname: Stable Diffusion 3.5 large
-    endlicense: Stability AI Community License
+    performanceclass: latest
+    basemodelname: Stable Diffusion 3.5 large
+    endmodelname: Stable Diffusion 3.5 large
+    endmodellicense: Stability AI Community License
     releasedate: 2024-10
     notes: Various different versions exist. This model card considers the recently released Stable Diffusion 3.5
 
@@ -25,28 +26,39 @@ org:
     notes:
 
 # availability:
-datasources:
-    class: partial
-    link: https://arxiv.org/abs/2210.08402
-    notes: Originally trained on LAION-5B, which is ostensibly open. In general the language used is not very clear, however.
+# datasources:
+#     class: partial
+#     link: https://arxiv.org/abs/2210.08402
+#     notes: Originally trained on LAION-5B, which is ostensibly open. In general the language used is not very clear, however.
     
-weights:
-    class: partial
-    link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
-    notes: Available through HuggingFace in the form of SafeTensors, however requires providing contact information and agreeing to a license agreement.
+# weights:
+#     class: partial
+#     link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+#     notes: Available through HuggingFace in the form of SafeTensors, however requires providing contact information and agreeing to a license agreement.
 
-watermarking:
-    class: open
+
+datasources_basemodel:
+    class: 
     link:
     notes:
 
-prompt_moderation:
-    class: open
+datasources_endmodel:
+    class: 
+    link:
+    notes:
+
+weights_basemodel:
+    class: 
+    link:
+    notes:
+    
+weights_endmodel:
+    class: 
     link:
     notes:
 
 trainingcode:
-    class: open
+    class: 
     link:
     notes:
 
@@ -56,7 +68,7 @@ code:
     link:
     notes:
 
-architecture:
+hardware_architecture:
     class: open
     link:
     notes:

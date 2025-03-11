@@ -10,10 +10,10 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Minerva-7B
+    name: Minerva
     link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: Minerva-7B-base-v1.0
     endmodelname: Minerva-7B-instruct-v1.0
     endmodellicense: Apache 2.0
@@ -57,7 +57,7 @@ code:
     link: 
     notes: No explicit code is provided, so consequently no documentation of code exists.
 
-architecture:
+hardware_architecture:
     class: partial
     link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0#model-architecture
     notes: Architecture described at a high level in model card.

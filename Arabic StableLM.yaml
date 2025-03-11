@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: Arabic StableLM
+    link: https://huggingface.co/stabilityai/ar-stablelm-2-chat
+    type: text
+    performanceclass: full
+    basemodelname: StableLM-2-1.6B
+    endmodelname: Arabic-StableLM-2-Chat
+    endmodellicense: Stability AI Non-Commercial Research Community License Agreement
+    releasedate: 2024-07
+    notes: Arabic-tuned model.
+
+org:
+    name: StabilityAI
+    link: https://huggingface.co/stabilityai
+    notes: UK-based AI company known for its diffusion models.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://arxiv.org/pdf/2402.17834
+    notes: Data sources for base model outlined in corresponding paper.
+
+datasources_endmodel:
+    class: open
+    link: https://arxiv.org/pdf/2412.04277
+    notes: Data sources for fine-tune outlined in corresponding paper.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/stabilityai/stablelm-2-1_6b
+    notes: Weights available through HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/stabilityai/ar-stablelm-2-chat
+    notes: Weights available through HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/axolotl-ai-cloud/axolotl
+    notes: Training done using an open-source library.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/axolotl-ai-cloud/axolotl/tree/main/docs
+    notes: Training library is well-documented.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2412.04277
+    notes: Hardware architecture thoroughly documented in paper.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2412.04277
+    notes: Preprint made available through arXiv.
+
+paper:
+    class: closed
+    link: 
+    notes: No published version of the paper available.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/stabilityai/ar-stablelm-2-chat
+    notes: Model card comprehensively documents the model.
+
+datasheet:
+    class: partial
+    link: https://huggingface.co/datasets/CohereForAI/aya_dataset, https://huggingface.co/datasets/ClusterlabAi/InstAr-500k
+    notes: Datasheets and documentation available for fine-tuning datasets used. Base model data sources contain a few data sources without data sheets and a few datasets which are now unavailable.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/stabilityai/ar-stablelm-2-chat#model-details
+    notes: Stability AI Non-Commercial Research Community License Agreement, not an OSI-approved license.
