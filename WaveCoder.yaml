@@ -23,7 +23,7 @@ system:
 org:
     name: Microsoft
     link: https://huggingface.co/microsoft
-    notes: Microsoft, a major technology company.
+    notes: Major technology company.
 
 # availability:
 datasources_basemodel:

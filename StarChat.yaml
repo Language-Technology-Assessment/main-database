@@ -17,84 +17,84 @@ system:
     basemodelname: StarCoder2-15B
     endmodelname: StarChat2-15B-v0.1
     endmodellicense: BigCode OpenRAIL-M v1 license agreement
-    releasedate: 
-    notes: Possibly redundant with StarCoder.
+    releasedate: 2024-05
+    notes: StarCoder-based model by HuggingFace.
 
 org:
     name: HuggingFace
     link: https://huggingface.co/HuggingFaceH4
-    notes: 
+    notes: Major player in the AI space.
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2402.19173
+    notes: Unfiltered data sources described in paper.
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized, https://huggingface.co/datasets/HuggingFaceH4/orca_dpo_pairs
+    notes: Data sources for end model published on HuggingFace. Data sources for intermediate model not published.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1
+    notes: Weights made available on HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/bigcode/starcoder2-15b
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
     class: closed
     link: 
-    notes: 
+    notes: No repository containing training code found.
 
 # documentation:
 code:
     class: closed
     link:  
-    notes: 
+    notes: No code, so no documentation.
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1
+    notes: Training setup documented in model card.
 
 preprint:
     class: closed
     link: 
-    notes: 
+    notes: No preprint found.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No paper found.
 
 modelcard:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1
+    notes: Model card contains the requisite information.
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized, https://huggingface.co/datasets/HuggingFaceH4/orca_dpo_pairs
+    notes: Data sheets exist for end model data sources, but not intermediate model ones.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1
+    notes: API available through HuggingFace inference.
     metaprompt: closed
 
 licenses:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1
+    notes: BigCode OpenRAIL-M v1 license agreement, not an OSI-approved license.
