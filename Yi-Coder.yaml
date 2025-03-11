@@ -17,84 +17,84 @@ system:
     basemodelname: Yi-9B
     endmodelname: Yi-Coder-9B-Chat
     endmodellicense: Apache 2.0
-    releasedate: 
+    releasedate: 2024-07 
     notes: Arguable that Yi-6B is the base model instead, since Yi-9B was created from Yi-6B. Unclear whether the code model was based on the regular 9B model or the context-length-extended one.
 
 org:
     name: 01-ai
     link: https://huggingface.co/01-ai
-    notes: 
+    notes: Chinese AI start-up.
 
 # availability:
 datasources_basemodel:
     class: closed
-    link: 
-    notes: 
+    link: https://arxiv.org/pdf/2403.04652
+    notes: Pretraining data only described as coming from 'various sources'.
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: No information found about data sources of the end model.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/01-ai/Yi-9B
+    notes: Weights made available through HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/01-ai/Yi-Coder-9B-Chat
+    notes: Weights made available through HuggingFace.
 
 trainingcode:
     class: closed
-    link: 
-    notes: 
+    link: https://github.com/01-ai/Yi
+    notes: GitHub repo does not appear to contain training code.
 
 # documentation:
 code:
     class: closed
-    link:  
-    notes: 
+    link: https://github.com/01-ai/Yi
+    notes: No training code, so no documentation.
 
 hardware_architecture:
     class: closed
-    link:  
-    notes: 
+    link: https://arxiv.org/pdf/2403.04652
+    notes: Hardware architecture seemingly only described for Yi-VL series of models.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2403.04652
+    notes: Preprint made available on arXiv.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No paper found.
 
 modelcard:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/01-ai/Yi-Coder-9B-Chat
+    notes: Model card only provides a high-level introduction and usage instructions.
 
 datasheet:
     class: closed
     link: 
-    notes: 
+    notes: No datasheet found.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://platform.01.ai/docs
+    notes: Commercial API available.
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/01-ai/Yi-Coder-9B-Chat
+    notes: Apache-2.0, an OSI-approved license.
