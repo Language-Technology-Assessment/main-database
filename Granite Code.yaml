@@ -13,88 +13,88 @@ system:
     name: Granite Code
     link: https://huggingface.co/ibm-granite/granite-20b-code-instruct-r1.1
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: Granite-20B-Code-Base-r1.1
     endmodelname: Granite-20B-Code-Instruct-r1.1
     endmodellicense: Apache-2.0
-    releasedate: 
-    notes: 
+    releasedate: 2024-07
+    notes: Open foundation code model.
 
 org:
     name: IBM
     link: https://huggingface.co/ibm-granite
-    notes: 
+    notes: Major technology company.
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/open-web-math/open-web-math, https://huggingface.co/datasets/codeparrot/github-code-clean, https://huggingface.co/datasets/bigcode/starcoderdata
+    notes: Base model data shared on HuggingFace.
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/bigcode/commitpackft, https://huggingface.co/datasets/meta-math/MetaMathQA, https://huggingface.co/datasets/TIGER-Lab/MathInstruct
+    notes: End model data shared on HuggingFace.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/ibm-granite/granite-20b-code-base-r1.1
+    notes: Weights made available on HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/ibm-granite/granite-20b-code-instruct-r1.1
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
     class: closed
-    link: 
-    notes: 
+    link: https://github.com/ibm-granite/granite-code-models
+    notes: Repo exists, but does not contain training code.
 
 # documentation:
 code:
     class: closed
-    link:  
-    notes: 
+    link: https://github.com/ibm-granite/granite-code-models
+    notes: No code, so no documentation.
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://github.com/ibm-granite/granite-code-models
+    notes: Hardware architecture outlined in model card.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2405.04324
+    notes: Preprint made available on arXiv.
 
 paper:
     class: closed
-    link: 
-    notes: 
+    link: https://openreview.net/forum?id=xviitwRwwD
+    notes: No peer-reviewed paper found.
 
 modelcard:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/ibm-granite/granite-20b-code-instruct-r1.1
+    notes: Model card contains information about training and evaluation.
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/datasets/open-web-math/open-web-math, https://huggingface.co/datasets/codeparrot/github-code-clean, https://huggingface.co/datasets/bigcode/starcoderdata, https://huggingface.co/datasets/bigcode/commitpackft, https://huggingface.co/datasets/meta-math/MetaMathQA, https://huggingface.co/datasets/TIGER-Lab/MathInstruct
+    notes: Some data sources are well-documented, but not all.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/ibm-granite/granite-20b-code-instruct-r1.1
+    notes: Apache-2.0, an OSI-approved license.
