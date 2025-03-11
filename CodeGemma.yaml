@@ -37,7 +37,7 @@ datasources_endmodel:
     notes: "All CodeGemma v1.0 models are further trained on 500 billion tokens of primarily English language data from web documents, mathematics, and code."
 
 weights_basemodel:
-    class: closed
+    class: partial
     link: 
     notes: Behind constent form
 
