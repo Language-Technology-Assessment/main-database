@@ -47,13 +47,13 @@ weights_endmodel:
     notes:
 
 trainingcode:
-    class: open
+    class: partial
     link: https://github.com/Doubiiu/DynamiCrafter
     notes:
 
 # documentation:
 code:
-    class: open
+    class: partial
     link: https://github.com/Doubiiu/DynamiCrafter
     notes:
 
