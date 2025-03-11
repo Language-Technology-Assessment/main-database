@@ -17,84 +17,84 @@ system:
     basemodelname: Llama-2-70B
     endmodelname: OpenCodeInterpreter-CL-70B
     endmodellicense: Apache-2.0
-    releasedate: 
-    notes: 
+    releasedate: 2024-02
+    notes: Coder model integrating execution and iterative refinement functionalities.
 
 org:
     name: Multimodal Art Projection
     link: https://huggingface.co/m-a-p
-    notes: 
+    notes: Open-source AI research community.
 
 # availability:
 datasources_basemodel:
     class: closed
-    link: 
-    notes: 
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/m-a-p/Code-Feedback
+    notes: Dataset published on HuggingFace.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/meta-llama/Llama-2-70b-hf
+    notes: Gated model available on HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/m-a-p/Code-Feedback
+    notes: Model weights published on HuggingFace.
 
 trainingcode:
     class: closed
-    link: 
-    notes: 
+    link: https://github.com/OpenCodeInterpreter/OpenCodeInterpreter/
+    notes: Repo exists, but does not contain training code.
 
 # documentation:
 code:
     class: closed
     link:  
-    notes: 
+    notes: No code, so no documentation.
 
 hardware_architecture:
     class: closed
     link:  
-    notes: 
+    notes: No hardware architecture description provided.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2402.14658
+    notes: Preprint made available through arXiv.
 
 paper:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://aclanthology.org/2024.findings-acl.762/
+    notes: Paper published in ACL.
 
 modelcard:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/m-a-p/OpenCodeInterpreter-CL-70B
+    notes: Model card provides minimal information, only describing benchmarking and usage.s
 
 datasheet:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/datasets/m-a-p/Code-Feedback
+    notes: Datasheet for base model unavailable. Datasheet for end model contains limited information.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/spaces/m-a-p/OpenCodeInterpreter_demo
+    notes: HuggingFace space containing model available.
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/m-a-p/OpenCodeInterpreter-CL-70B
+    notes: Apache-2.0, an OSI-approved license.
