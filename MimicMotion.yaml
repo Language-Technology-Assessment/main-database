@@ -11,13 +11,13 @@
 
 system:
     name: MimicMotion
-    link: https://huggingface.co/tencent/MimicMotion
+    link: https://tencent.github.io/MimicMotion/
     type: video
-    performanceclass: 
+    performanceclass: limited
     basemodelname: Stable-Diffusion-2-Base
     endmodelname: MimicMotion-1.1
     endmodellicense: Custom license
-    releasedate: 
+    releasedate: 2024-07
     notes: 
 
 org:
@@ -27,44 +27,44 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: 
+    class: closed
     link:
     notes:
 
 datasources_endmodel:
-    class: 
+    class: closed
     link:
     notes:
 
 weights_basemodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/tencent/MimicMotion
     notes:
     
 weights_endmodel:
-    class: 
-    link:
+    class: open
+    link: https://huggingface.co/tencent/MimicMotion
     notes:
 
 trainingcode:
-    class: 
-    link:
+    class: partial
+    link: https://github.com/Tencent/MimicMotion
     notes:
 
 # documentation:
 code:
-    class: closed
-    link:
+    class: partial
+    link: https://github.com/Tencent/MimicMotion
     notes:
 
 hardware_architecture:
-    class: closed
+    class: partial
     link:
     notes:
 
 preprint:
-    class: closed
-    link:
+    class: open
+    link: https://arxiv.org/abs/2406.19680
     notes:
 
 paper:
@@ -74,7 +74,7 @@ paper:
 
 modelcard:
     class: closed
-    link:
+    link: https://huggingface.co/tencent/MimicMotion
     notes:
 
 datasheet:
@@ -95,6 +95,6 @@ api:
     metaprompts:
 
 licenses:
-    class: closed
+    class: partial
     link:
-    notes:
+    notes: code and weights as apache 2
