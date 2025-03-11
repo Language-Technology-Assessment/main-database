@@ -17,84 +17,84 @@ system:
     basemodelname: Llama-2-34B
     endmodelname: Codetulu-2-34B
     endmodellicense: AI2 ImpACT Low-risk license
-    releasedate: 
-    notes: 
+    releasedate: 2023-11
+    notes: Open code model based on Llama.
 
 org:
     name: Ai2
     link: https://huggingface.co/allenai
-    notes: 
+    notes: AI research lab.
 
 # availability:
 datasources_basemodel:
     class: closed
-    link: 
-    notes: 
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
 
 datasources_endmodel:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/datasets/allenai/tulu-v2-sft-mixture
+    notes: Dataset for end model published on HuggingFace. Proprietary dataset used in intermediate CodeLlama model.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/meta-llama/Llama-2-34b-hf
+    notes: Gated model available on HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/allenai/codetulu-2-34b
+    notes: Model weights published on HuggingFace.
 
 trainingcode:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://github.com/allenai/open-instruct
+    notes: Training code made available on GitHub, open-source project.
 
 # documentation:
 code:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://github.com/allenai/open-instruct
+    notes: Training code is well-documented.
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2311.10702
+    notes: Hardware architecture described in paper.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2311.10702
+    notes: Preprint made available on arXiv.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No paper found.
 
 modelcard:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/allenai/codetulu-2-34b
+    notes: Model card provides the requisite detail.
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/datasets/allenai/tulu-v2-sft-mixture
+    notes: End model data mix very well-documented, however CodeLlama and base model data are unavailable.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/allenai/codetulu-2-34b#model-description
+    notes: AI2 ImpACT Low-risk license, not an OSI-approved license.
