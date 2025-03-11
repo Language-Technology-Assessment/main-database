@@ -13,11 +13,11 @@ system:
     name: VideoCrafter
     link: https://huggingface.co/VideoCrafter/VideoCrafter2
     type: video
-    performanceclass: 
+    performanceclass: full
     basemodelname: VideoCrafter2
     endmodelname: VideoCrafter2
     endmodellicense: Apache-2.0
-    releasedate: 
+    releasedate: 2024-01
     notes: 
 
 org:
@@ -27,29 +27,29 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: promised but not found
 
 datasources_endmodel:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: promised but not found
 
 weights_basemodel:
-    class: 
-    link:
+    class: open
+    link: https://github.com/AILab-CVC/VideoCrafter
     notes:
     
 weights_endmodel:
-    class: 
-    link:
+    class: open
+    link: https://github.com/AILab-CVC/VideoCrafter
     notes:
 
 trainingcode:
-    class: 
+    class: closed
     link:
-    notes:
+    notes: only demo code 
 
 # documentation:
 code:
@@ -63,19 +63,19 @@ hardware_architecture:
     notes:
 
 preprint:
-    class: closed
-    link:
+    class: open
+    link: https://arxiv.org/abs/2401.09047
     notes:
 
 paper:
-    class: closed
-    link:
+    class: open
+    link: https://openreview.net/forum?id=31K494Mn2f
     notes:
 
 modelcard:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/VideoCrafter/VideoCrafter2
+    notes: not complete
 
 datasheet:
     class: closed
@@ -95,6 +95,6 @@ api:
     metaprompts:
 
 licenses:
-    class: closed
+    class: partial
     link:
-    notes:
+    notes: code data and weights promised to be apache2
