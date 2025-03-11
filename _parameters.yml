@@ -35,7 +35,7 @@
       name: Code Documentation
       types: ['text', 'image','code','video','audio']
     - ref: hardware_architecture
-      name: Hardware Architecture Documentation
+      name: Hardware Architecture
       types: ['text', 'image','code','video','audio']
     - ref: preprint
       name: Preprint
