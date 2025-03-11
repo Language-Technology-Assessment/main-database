@@ -17,7 +17,7 @@ system:
     basemodelname: GLM-4-9B
     endmodelname: CodeGeeX4-ALL-9B
     endmodellicense: CodeGeeX4 license
-    releasedate: 
+    releasedate: 2024-07
     notes: 
 
 org:
@@ -29,7 +29,7 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: "Our pre-training corpus consists of multilingual (mostly English and Chinese) documents from a mixture of different sources, including webpages, Wikipedia, books, code, and research papers."
 
 datasources_endmodel:
     class: closed
@@ -37,13 +37,13 @@ datasources_endmodel:
     notes: 
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link:  https://github.com/THUDM/GLM-4
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/THUDM/codegeex4-all-9b/tree/main
     notes: 
 
 trainingcode:
@@ -63,8 +63,8 @@ hardware_architecture:
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/pdf/2406.12793
     notes: 
 
 paper:
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/THUDM/codegeex4-all-9b
     notes: 
 
 datasheet:
@@ -97,4 +97,4 @@ api:
 licenses:
     class: closed
     link: 
-    notes: 
+    notes: The CodeGeeX4 License
