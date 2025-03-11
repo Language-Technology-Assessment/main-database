@@ -73,7 +73,7 @@ paper:
     notes: 
 
 modelcard:
-    class: opem
+    class: open
     link: https://huggingface.co/inceptionai/jais-adapted-70b-chat
     notes: 
 

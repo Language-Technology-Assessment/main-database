@@ -17,7 +17,7 @@ system:
     basemodelname: Gemma-7B
     endmodelname: CodeGemma-1.1-7B-IT
     endmodellicense: Gemma license
-    releasedate: 
+    releasedate: 2024-07
     notes: 
 
 org:
@@ -29,22 +29,22 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: "All CodeGemma v1.0 models are further trained on 500 billion tokens of primarily English language data from web documents, mathematics, and code."
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: "All CodeGemma v1.0 models are further trained on 500 billion tokens of primarily English language data from web documents, mathematics, and code."
 
 weights_basemodel:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: Behind constent form
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/google/codegemma-1.1-7b-it/tree/main
+    notes: Behind constent form
 
 trainingcode:
     class: closed
@@ -63,8 +63,8 @@ hardware_architecture:
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://arxiv.org/abs/2406.11409
     notes: 
 
 paper:
@@ -73,8 +73,8 @@ paper:
     notes: 
 
 modelcard:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/google/codegemma-1.1-7b-it
     notes: 
 
 datasheet:
@@ -97,4 +97,4 @@ api:
 licenses:
     class: closed
     link: 
-    notes: 
+    notes: custom

@@ -13,17 +13,17 @@ system:
     name: RedPajama
     link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Chat
     type: text 
-    performanceclass: 
+    performanceclass: limited
     basemodelname: RedPajama-INCITE-7B-Base
     endmodelname: RedPajama-INCITE-7B-Chat
     endmodellicense: Apache-2.0
     releasedate: 2023-03
-    notes: New model. TODO update fields.
+    notes: Open AI model developed as a collaboration between various open-source entities.
 
 org:
-    name: Together
+    name: Together Computer
     link: https://together.ai/
-    notes:
+    notes: Together Computer, a cloud platform for generative AI.
 
 # availability:
 datasources_basemodel:
@@ -33,8 +33,8 @@ datasources_basemodel:
 
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-Instruct
-    notes: The model was trained on a large collection of diverse data, including Chain-of-Thought (CoT), Public Pool of Prompts (P3) dataset, Natural-Instructions (NI) dataset.
+    link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-Instruct, https://huggingface.co/datasets/databricks/databricks-dolly-15k, https://huggingface.co/datasets/OpenAssistant/oasst1
+    notes: The model was trained on a large collection of diverse data, including Chain-of-Thought (CoT), Public Pool of Prompts (P3) dataset, Natural-Instructions (NI) dataset. Chat-tuning using Databricks-Dolly and OASST1.
 
 weights_basemodel:
     class: open
@@ -43,18 +43,18 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct
-    notes: Instruction-tuned version made available in paralle with base version
+    link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Chat
+    notes: Instruction-tuned version made available in parallel with base version.
 
 trainingcode:
     class: partial
     link: https://github.com/togethercomputer/redpajama.cpp/tree/master/examples/redpajama
-    notes: Code for datasets made available in exemplary ways; code for training and tuning harder to find
+    notes: Code for datasets made available in exemplary ways; code for training and tuning harder to find.
 
 # documentation:
 code:
     class: partial
-    link:
+    link: https://github.com/togethercomputer/redpajama.cpp/tree/master/examples/redpajama
     notes: Code for base LLM and instruction tuning datasets beautifully documented; code specifying training and fine-tuning sparsely documented.
 
 hardware_architecture:
@@ -65,33 +65,33 @@ hardware_architecture:
 preprint:
     class: closed
     link:
-    notes: No preprint found
+    notes: No preprint found.
 
 paper:
     class: closed
     link:
-    notes: No paper found
+    notes: No paper found.
 
 modelcard:
     class: open
-    link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct
+    link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Chat
     notes: Model card and readme provide details on datasets and training procedure.
 
 datasheet:
     class: open
-    link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T
-    notes: Data sheet includes links to data and recipes to create from scratch
+    link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T, https://huggingface.co/datasets/togethercomputer/RedPajama-Data-Instruct, https://huggingface.co/datasets/databricks/databricks-dolly-15k, https://huggingface.co/datasets/OpenAssistant/oasst1
+    notes: Base data sheet includes links to data and recipes to create from scratch. Other datasets are well-documented.
 
 # access:
 package:
     class: closed
     link:
-    notes: No separate package found
+    notes: No separate package found.
 
 api:
     class: partial
     link: https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Instruct
-    notes: Hosted inference API available through HuggingFace
+    notes: Hosted inference API available through HuggingFace.
     metaprompt: closed
 
 licenses:

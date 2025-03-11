@@ -13,64 +13,64 @@ system:
     name: Pythia
     link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B
     type: text 
-    performanceclass: 
+    performanceclass: full
     basemodelname: Pythia-6.9B
     endmodelname: Pythia-Chat-Base-7B
     endmodellicense: Apache-2.0
     releasedate: 2023-03
-    notes: New model. TODO update fields.
+    notes: Open-source model and open-source tool for building chatbots.
 
 org:
-    name: Together
-    link: https://together.ai/
-    notes:
+    name: EleutherAI, Together Computer
+    link: https://huggingface.co/EleutherAI, https://together.ai/
+    notes: Base model developed by EleutherAI, a major player in the open-source space. Fine-tune by Together Computer, a cloud platform for generative AI.
 
 # availability:
 datasources_basemodel:
     class: open
-    link: https://github.com/togethercomputer/OpenDataHub
-    notes: Training data curated and shared in separate repository
+    link: https://huggingface.co/datasets/EleutherAI/the_pile_deduplicated
+    notes: Training data published on HuggingFace.
 
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/datasets/laion/OIG
-    notes: From the documentation 'This is our attempt to create a large instruction dataset of medium quality along with a smaller high quality instruciton dataset (OIG-small-chip2).'
+    link: https://github.com/togethercomputer/OpenDataHub
+    notes: End model data shared on GitHub.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B/tree/main
-    notes: Model weights available via HuggingFace
+    link: https://huggingface.co/EleutherAI/pythia-6.9b
+    notes: Model weights available via HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link:
-    notes: RL weights not separately made available
+    class: open
+    link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B
+    notes: Model weights available via HuggingFace.
 
 trainingcode:
     class: open
     link: https://github.com/togethercomputer/OpenChatKit/tree/main/training
-    notes: Training code is made available through GitHub
+    notes: Training code is made available through GitHub.
 
 # documentation
 code:
     class: open
     link: https://github.com/togethercomputer/OpenChatKit
-    notes: Actively maintained repository
+    notes: Well-documented repository.
 
 hardware_architecture:
     class: open
     link: https://github.com/togethercomputer/OpenChatKit#reproducing-pythia-chat-base-7b
-    notes: Architecture and full recipe for reproducing model provided
+    notes: Architecture and full recipe for reproducing model provided.
 
 preprint:
     class: partial
     link: https://arxiv.org/abs/2304.01373
-    notes: Preprint describes LM base (Pythia) but not instruction tuning details
+    notes: Preprint describes LM base (Pythia) but not instruction tuning details.
 
 paper:
     class: partial
     link: https://arxiv.org/abs/2304.01373
-    notes: Foundational paper has been peer-reviewed
+    notes: Foundational paper has been peer-reviewed.
 
 modelcard:
     class: partial
@@ -79,14 +79,14 @@ modelcard:
 
 datasheet:
     class: partial
-    link: https://github.com/togethercomputer/OpenDataHub, https://huggingface.co/datasets/laion/OIG
-    notes: Both base- and end model dataset documented.
+    link: https://huggingface.co/datasets/EleutherAI/the_pile_deduplicated, https://github.com/togethercomputer/OpenDataHub
+    notes: Only end model dataset documented.
 
 # access
 package:
     class: partial
     link: https://pypi.org/project/openchatkit/
-    notes: Package is available on PyPi, however no reference is made to it on GitHub and the maintainter's authenticity has not been verified. Documentation of the package seems thorough.
+    notes: Package is available on PyPi.
 
 api:
     class: closed

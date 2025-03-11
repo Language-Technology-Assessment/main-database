@@ -11,101 +11,89 @@
 
 system:
     name: Stable Diffusion
-    link: https://stability.ai/stable-image
+    link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
     type: image
     performanceclass: latest
     basemodelname: Stable Diffusion 3.5 large
     endmodelname: Stable Diffusion 3.5 large
     endmodellicense: Stability AI Community License
     releasedate: 2024-10
-    notes: Various different versions exist. This model card considers the recently released Stable Diffusion 3.5
+    notes: Popular image-generation model.
 
 org:
     name: Stability AI
     link: https://stability.ai/
-    notes:
-
-# availability:
-# datasources:
-#     class: partial
-#     link: https://arxiv.org/abs/2210.08402
-#     notes: Originally trained on LAION-5B, which is ostensibly open. In general the language used is not very clear, however.
-    
-# weights:
-#     class: partial
-#     link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
-#     notes: Available through HuggingFace in the form of SafeTensors, however requires providing contact information and agreeing to a license agreement.
-
+    notes: Major image-generation model creator.
 
 datasources_basemodel:
-    class: 
-    link:
-    notes:
+    class: partial
+    link: https://arxiv.org/abs/2210.08402
+    notes: Originally trained on LAION-5B, which is ostensibly open. In general the language used is not very clear, however.
 
 datasources_endmodel:
-    class: 
-    link:
-    notes:
+    class: partial
+    link: https://arxiv.org/abs/2210.08402
+    notes: Originally trained on LAION-5B, which is ostensibly open. In general the language used is not very clear, however.
 
 weights_basemodel:
-    class: 
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+    notes: Available through HuggingFace in the form of SafeTensors, however requires providing contact information and agreeing to a license agreement.
     
 weights_endmodel:
-    class: 
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+    notes: Available through HuggingFace in the form of SafeTensors, however requires providing contact information and agreeing to a license agreement.
 
 trainingcode:
-    class: 
-    link:
-    notes:
+    class: closed
+    link: https://arxiv.org/pdf/2403.03206
+    notes: No training code repository found. Linked repository only contains inference information.
 
 # documentation:
 code:
-    class: open
+    class: closed
     link:
-    notes:
+    notes: No training code, so no documentation.
 
 hardware_architecture:
-    class: open
-    link:
-    notes:
+    class: closed
+    link: 
+    notes: No information about hardware architecture found.
 
 preprint:
     class: open
-    link:
-    notes:
+    link: https://arxiv.org/pdf/2403.03206
+    notes: Preprint made available on arXiv.
 
 paper:
     class: open
-    link:
-    notes:
+    link: https://dl.acm.org/doi/10.5555/3692070.3692573
+    notes: Paper published on ACM.
 
 modelcard:
-    class: open
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+    notes: Model card primarily contains inference information.
 
 datasheet:
     class: open
-    link:
-    notes:
+    link: https://arxiv.org/pdf/2210.08402
+    notes: Data collection procedures for LAION are outlined in a corresponding paper.
 
 # access:
 package:
-    class: partial
-    link:
-    notes:
+    class: open
+    link: https://pypi.org/project/stable-diffusion/
+    notes: Package available on PyPI.
 
 api:
-    class: partial
-    link:
-    notes:
+    class: open
+    link: https://platform.stability.ai/docs/api-reference#tag/Generate/paths/~1v2beta~1stable-image~1generate~1sd3/post
+    notes: API publicly available.
     metaprompts:
 
 licenses:
-    class: open
-    link:
-    notes:
+    class: closed
+    link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large/blob/main/LICENSE.md
+    notes: Stability AI Community License, not an OSI-approved license.

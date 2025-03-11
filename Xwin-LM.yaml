@@ -18,7 +18,7 @@ system:
     endmodelname: Xwin-LM-13B-v0.2
     endmodellicense: Llama 2 Community License Agreement
     releasedate: 2023-09
-    notes: New model. TODO update fields. "Xwin-LM aims to develop and open-source alignment technologies for large language models"
+    notes: "Xwin-LM aims to develop and open-source alignment technologies for large language models"
 
 org:
     name: Xwin-LM
@@ -29,7 +29,7 @@ org:
 datasources_basemodel:
     class: closed
     link:
-    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta.
 
 datasources_endmodel:
     class: open
@@ -39,16 +39,16 @@ datasources_endmodel:
 weights_basemodel:
     class: partial
     link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
+    notes: Download only after requesting access; requires signing a consent form.
 
 weights_endmodel:
-    class: closed
-    link: https://huggingface.co/Xwin-LM/Xwin-LM-70B-V0.1/tree/main
-    notes: Downloadable model includes further finetuning but no weights are made available
+    class: open
+    link: https://huggingface.co/Xwin-LM/Xwin-LM-13B-V0.2
+    notes: Weights made available through HuggingFace.
 
 trainingcode:
     class: closed
-    link: https://huggingface.co/Xwin-LM/Xwin-LM-7B-V0.1
+    link: https://huggingface.co/Xwin-LM/Xwin-LM-13B-V0.2
     notes: HuggingFace page notes 'to do ":" Release the source code'
 
 # documentation:
@@ -70,32 +70,32 @@ preprint:
 paper:
     class: closed
     link:
-    notes: No peer-reviewed paper available
+    notes: No peer-reviewed paper available.
 
 modelcard:
-    class: closed
-    link: https://huggingface.co/Xwin-LM/Xwin-LM-70B-V0.1
-    notes: HuggingFace "model card" used to advertise model, but no details available.
+    class: partial
+    link: https://huggingface.co/Xwin-LM/Xwin-LM-13B-V0.2
+    notes: Model card provides limited information.
 
 datasheet:
-    class: closed
-    link:
-    notes: Datasheet not provided.
+    class: partial
+    link: https://huggingface.co/datasets/WizardLMTeam/WizardLM_evol_instruct_V2_196k
+    notes: Datasheet provides limited information about model.
 
 # access:
 package:
     class: closed
     link:
-    notes: Package not provided
+    notes: No package found.
 
 api:
     class: partial
     link:
-    notes: API available through vllm and HuggingFace
+    notes: API available through vllm and HuggingFace.
     metaprompt: closed
 
 licenses:
     class: closed
     link: https://github.com/facebookresearch/llama/blob/main/LICENSE
-    notes: Usage requires signing Meta's bespoke 'community license', not an OSI recognised open license
+    notes: Usage requires signing Meta's bespoke 'community license', not an OSI recognised open license.
 

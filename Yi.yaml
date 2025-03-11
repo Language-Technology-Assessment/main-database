@@ -17,8 +17,8 @@ system:
     basemodelname: Yi-34B
     endmodelname: Yi-1.5-34B-Chat-16K
     endmodellicense: Apache 2.0
-    releasedate: 2023-11
-    notes: New model. TODO update fields. The Yi series models are the next generation of open-source large language models trained from scratch by 01.AI. Targeted as a bilingual language model and trained on 3T multilingual corpus.
+    releasedate: 2024-05
+    notes: The Yi series models are the next generation of open-source large language models trained from scratch by 01.AI. Targeted as a bilingual language model and trained on 3T multilingual corpus.
 
 org:
     name: 01.AI
@@ -33,18 +33,18 @@ datasources_basemodel:
 
 datasources_endmodel:
     class: closed
-    link: https://huggingface.co/datasets/BAAI/COIG
-    notes: Model docs mention COIG but only as an example. Code also shows rm-static is also used in instruction tuning, but not shared.
+    link: 
+    notes: No end model data sources found.
  
 weights_basemodel:
     class: open
-    link: https://huggingface.co/01-ai/Yi-34B/tree/main
+    link: https://huggingface.co/01-ai/Yi-34B
     notes: Base model weights shared via HuggingFace
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/01-ai/Yi-34B-Chat/tree/main
-    notes: Instruction-tuned weights shared via HuggingFace
+    link: https://huggingface.co/01-ai/Yi-1.5-34B-Chat-16K
+    notes: Instruction-tuned weights shared via HuggingFace.
 
 trainingcode:
     class: partial
@@ -58,9 +58,9 @@ code:
     notes: Inference and fine-tuning code is documented, training code is not documented.
 
 hardware_architecture:
-    class: closed
-    link:
-    notes: Model architecture only described in the most general terms.
+    class: open
+    link: https://arxiv.org/pdf/2403.04652
+    notes: Model architecture described in paper.
 
 preprint:
     class: open
@@ -73,9 +73,9 @@ paper:
     notes: No paper found
 
 modelcard:
-    class: partial
-    link: https://huggingface.co/01-ai/Yi-34B-Chat
-    notes: Model card used for advertising and navigation purposes, does not follow general model card specifications.
+    class: closed
+    link: https://huggingface.co/01-ai/Yi-1.5-34B-Chat-16K
+    notes: Model card provides limited relevant information.
 
 datasheet:
     class: closed
@@ -86,16 +86,16 @@ datasheet:
 package:
     class: closed
     link:
-    notes: no package found
+    notes: No package found.
 
 api:
     class: partial
-    link:
-    notes: Model is gated and commercially available
+    link: https://platform.01.ai/docs
+    notes: Model is gated and commercially available.
     metaprompt: closed
     
 licenses:
-    class: full
-    link: https://github.com/01-ai/Yi
-    notes: Model code licensed under Apache 2.0
+    class: open
+    link: https://huggingface.co/01-ai/Yi-1.5-34B-Chat-16K
+    notes: Model licensed under Apache 2.0
 

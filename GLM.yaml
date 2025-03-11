@@ -13,17 +13,17 @@ system:
     name: GLM
     link: https://huggingface.co/THUDM/glm-4-9b-chat-1m
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: GLM-4-9B
     endmodelname: GLM-4-9B-Chat-1M
     endmodellicense: GLM-4 License
-    releasedate: 
-    notes: New model, TODO update fields.
+    releasedate: 2024-06
+    notes: Performant English-Chinese open-source model.
     
 org:
-    name: THUDM
+    name: Zhipu AI
     link: https://github.com/THUDM
-    notes: Knowledge Engineering Group (KEG) & Data Mining at Tsinghua University
+    notes: Zhipu AI, one of China's AI start-up tigers.
 
 # availability:
 datasources_basemodel:
@@ -36,35 +36,33 @@ datasources_basemodel:
 datasources_endmodel:
     class: closed
     link:
-    notes: docs mention "supervised fine-tuning, feedback bootstrap, and reinforcement learning wit human feedback", but none of the datasets used are clearly specified.
+    notes: Docs mention "supervised fine-tuning, feedback bootstrap, and reinforcement learning wit human feedback", but none of the datasets used are clearly specified.
 
 weights_basemodel:
     class: open
-    link: 
-        - https://huggingface.co/THUDM/chatglm-6b/tree/main
-        - https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md#introduction
-    notes: Model made available through HuggingFace. Readme also mentions "free commercial use is allowed after completing the questionnaire".
+    link: https://huggingface.co/THUDM/glm-4-9b
+    notes: Model weights made available through HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link:
-    notes: No weights or checkpoints corresponding to the delta of the LLM vs RLHF provided
+    class: open
+    link: https://huggingface.co/THUDM/glm-4-9b-chat-1m
+    notes: Model weights made available through HuggingFace.
 
 trainingcode:
     class: partial
-    link: https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md#deployment
-    notes: Some code made available on Github
+    link: https://github.com/THUDM/GLM-4
+    notes: Some code made available on Github.
 
 # documentation:
 code:
     class: partial
-    link: https://github.com/THUDM/ChatGLM-6B/blob/main/ptuning/README_en.md
+    link: https://github.com/THUDM/GLM-4/blob/main/README_en.md
     notes: Some documentation available, but a lot of code is not commented or explained.
 
 hardware_architecture:
-    class: partial
+    class: closed
     link: 
-    notes: Full details of architecture not specified in a single place
+    notes: No hardware architecture information found.
 
 preprint:
     class: open
@@ -77,30 +75,28 @@ paper:
     notes: ACL 2022 paper describes the training of the GLM base model, but the RLHF portion is more recent (there is also a related ICLR paper for a newer generation https://openreview.net/forum?id=-Aw0rrrPUF)
 
 modelcard:
-    class: closed
-    link: https://huggingface.co/THUDM/chatglm-6b
-    notes: No modelcard; the HuggingFace modelcard spot is used just as the homepage for the model.
+    class: partial
+    link: https://huggingface.co/THUDM/glm-4-9b-chat-1m
+    notes: Model card is provided, however only contains general and inference information.
 
 datasheet:
     class: closed
     link:
-    notes: No datasheet
+    notes: No datasheet found.
 
 # access:
 package:
     class: closed
     link:
-    notes: No package
+    notes: No package found.
 
 api:
-    class: open
-    link: 
-        - https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md#api-deployment
-        - https://bigmodel.cn/
-    notes: API provided through fastapi uvicorn, also has a Chinese site with detailed API documentation.
+    class: partial
+    link: https://bigmodel.cn/
+    notes: Model has a paid API
     metaprompt: closed
 
 licenses:
-    class: open
-    link: https://github.com/THUDM/ChatGLM-6B/blob/main/LICENSE
-    notes: Apache 2.0
+    class: closed
+    link: https://huggingface.co/THUDM/glm-4-9b-chat-1m/blob/main/LICENSE
+    notes: GLM-4 License, not an OSI-approved license.

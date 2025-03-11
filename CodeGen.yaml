@@ -17,7 +17,7 @@ system:
     basemodelname: CodeGen25-7B-Multi-P
     endmodelname: CodeGen25-7B-Instruct-P
     endmodellicense: unknown (research purposes only)
-    releasedate: 
+    releasedate: 2023-06
     notes: Base model licensed under Apache 2.0.
 
 org:
@@ -27,23 +27,23 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/datasets/bigcode/starcoderdata
+    notes: Starcoderdata mentioned in modelcard and some more mentioned in paper
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: no information found
 
 weights_basemodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/Salesforce/codegen25-7b-instruct_P/tree/main
     notes: 
 
 weights_endmodel:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/Salesforce/codegen25-7b-instruct_P/tree/main
     notes: 
 
 trainingcode:
@@ -63,14 +63,14 @@ hardware_architecture:
     notes: 
 
 preprint:
-    class: closed
-    link: 
+    class: open
+    link: https://huggingface.co/papers/2305.02309
     notes: 
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: Preprint reported to be published as a conference paper at ICLR 2023 but not found
 
 modelcard:
     class: closed
@@ -95,6 +95,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: partial
     link: 
-    notes: 
+    notes: weights under apache 2

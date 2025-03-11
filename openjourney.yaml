@@ -93,7 +93,7 @@ api:
     notes: Inference API available through HuggingFace.
     metaprompts:
 
-license:
+licenses:
     class: closed
     link: https://huggingface.co/prompthero/openjourney-v4
     notes: Creativeml-OpenRail-M, not an OSI-approved license.
