@@ -17,84 +17,84 @@ system:
     basemodelname: Llama-2-70B
     endmodelname: CodeLlama-70B-Instruct
     endmodellicense: Llama 2 License
-    releasedate: 
-    notes: 
+    releasedate: 2024-03
+    notes: Coder model by Meta.
 
 org:
     name: Meta
     link: https://huggingface.co/meta-llama
-    notes: 
+    notes: Major technology company.
 
 # availability:
 datasources_basemodel:
     class: closed
-    link: 
-    notes: 
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: Proprietary dataset used.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/meta-llama/Llama-2-70b-hf
+    notes: Gated model available on HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf
+    notes: Gated model available on HuggingFace.
 
 trainingcode:
     class: closed
-    link: 
-    notes: 
+    link: https://github.com/meta-llama/codellama
+    notes: Repo exists, but does not contain training code.
 
 # documentation:
 code:
     class: closed
     link:  
-    notes: 
+    notes: No training code, so undocumented.
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: 
+    class: partial
+    link: https://arxiv.org/pdf/2308.12950
+    notes: Hardware architecture discussed in aggregate and with a low level of detail in the model's paper.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2308.12950
+    notes: Preprint available through arXiv.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No peer-reviewed paper found.
 
 modelcard:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf
+    notes: Model card provides some information about training and inference, however mostly contains usage instructions.
 
 datasheet:
     class: closed
     link: 
-    notes: 
+    notes: No datasheet found.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
-    class: closed
+    class: open
     link: 
-    notes: 
+    notes: Model available on various APIs.
     metaprompt: closed
 
 licenses:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf#model-details
+    notes: Llama 2 Community License Agreement, not an OSI-approved license.

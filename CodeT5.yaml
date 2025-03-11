@@ -17,84 +17,84 @@ system:
     basemodelname: CodeGen-16B-NL
     endmodelname: InstructCodeT5p-16B
     endmodellicense: BSD 3-Clause
-    releasedate: 
-    notes: Model components initialized with CodeGen.
+    releasedate: 2023-05
+    notes: T5-based open code model. Model components initialized with CodeGen.
 
 org:
     name: Salesforce
-    link: https://huggingface.co/Salesforce
-    notes: 
+    link: https://www.salesforceairesearch.com/
+    notes: Major AI research company.
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://pile.eleuther.ai/, https://cloud.google.com/bigquery/docs/datasets-intro
+    notes: Model trained on The Pile, BigQuery datasets, and BigQuery. Not all datasets were found.
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/code-search-net/code_search_net, https://huggingface.co/datasets/codeparrot/github-code, https://github.com/sahil280114/codealpaca
+    notes: Pretraining data from CodeSearchNet and GitHub Code. Instruction-tuning data from CodeAlpaca.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/Salesforce/codegen-16B-nl
+    notes: Model weights made available on HuggingFace.
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/Salesforce/instructcodet5p-16b
+    notes: Model weights made available on HuggingFace.
 
 trainingcode:
     class: closed
-    link: 
-    notes: 
+    link: https://github.com/salesforce/CodeT5/tree/main
+    notes: Repo exists, but does not contain training code.
 
 # documentation:
 code:
     class: closed
     link:  
-    notes: 
+    notes: No training code, so no documentation.
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2305.07922
+    notes: Hardware architecture described in preprint.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2305.07922
+    notes: Preprint available on arXiv.
 
 paper:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://aclanthology.org/2023.emnlp-main.68/
+    notes: Paper published as conference paper.
 
 modelcard:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/Salesforce/instructcodet5p-16b
+    notes: Model card provides the requisite detail.
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://pile.eleuther.ai/, https://cloud.google.com/bigquery/docs/datasets-intro, https://huggingface.co/datasets/code-search-net/code_search_net, https://huggingface.co/datasets/codeparrot/github-code, https://github.com/sahil280114/codealpaca
+    notes: Data sheets available for most data sources, with varying levels of detail regarding collection and curation procedures.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/Salesforce/instructcodet5p-16b
+    notes: BSD 3-Clause, an open-source license.
