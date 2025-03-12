@@ -18,12 +18,12 @@ system:
     endmodelname: BLOOMZ-P3
     endmodellicense: Apache 2.0 and RAIL (responsible AI license)
     releasedate: 2022-09
-    notes:
+    notes: Large open multilingual language model.
 
 org:
     name: bigscience-workshop
     link: https://github.com/bigscience-workshop
-    notes:
+    notes: Research workshop on large multilingual models.
 
 # availability:
 datasources_basemodel:
