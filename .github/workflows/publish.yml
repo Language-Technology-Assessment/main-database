@@ -1,37 +1,23 @@
-name: Trigger Generate Website
+name: Publish with latest database
+
 on:
   push:
     branches: ["main"]
 
+  # Allows you to run this workflow manually from the Actions tab ?
   workflow_dispatch:
-    inputs:
-      target_service:
-        description: 'Language-Technology-Assessment/website'
-        required: true
-      target_version:
-        description: 'v1.0.0'
-        required: true
 
-permissions:
-  actions: read
-  id-token: write
+  repository_dispatch:
+    types: [trigger-workflow]
 
 jobs:
   trigger:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Workflow in Language-Technology-Assessment/website
+      - name: Trigger preview deployment
         run: |
-          repo_owner="Language-Technology-Assessment" 
-          repo_name="website"  
-          event_type="trigger-workflow" 
-          service="${{ github.event.inputs.target_service }}"
-          version="${{ github.event.inputs.target_version }}"
-  
-          curl -L \
-            -X POST \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer ${{ secrets.PAT }}" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            https://api.github.com/repos/$repo_owner/$repo_name/dispatches \
-            -d "{\"event_type\": \"$event_type\", \"client_payload\": {\"service\": \"$service\", \"version\": \"$version\", \"unit\": false, \"integration\": true}}"
+          curl -X POST \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Authorization: token ${{ secrets.PAT }}" \
+          https://api.github.com/repos/Language-Technology-Assessment/website/actions/workflows/publish.yml/dispatches \
+          -d '{"ref":"main"}'
