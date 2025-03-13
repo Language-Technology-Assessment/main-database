@@ -17,8 +17,8 @@ system:
     basemodelname: Llama-7B
     endmodelname: Alpaca-7B
     endmodellicense: LLaMA license agreement
-    releasedate: 2024-03
-    notes: Very early open-source model.
+    releasedate: 2023-03
+    notes: Very early open-source LLM.
 
 org:
     name: Stanford University CRFM

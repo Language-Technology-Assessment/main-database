@@ -18,12 +18,12 @@ system:
     endmodelname: InternLM3-8B-Instruct
     endmodellicense: Apache-2.0
     releasedate: 2024-03
-    notes: 
+    notes: Leading open-source instruction-following model.
 
 org:
     name: Shanghai AI Laboratory
-    link: https://huggingface.co/internlm
-    notes: 
+    link: https://www.shlab.org.cn/
+    notes: National-level Chinese research institute.
 
 # availability:
 datasources_basemodel:

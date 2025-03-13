@@ -23,7 +23,7 @@ system:
 org:
     name: Stability AI
     link: https://stability.ai/
-    notes: Major image-generation model creator.
+    notes: UK-based AI company known for its diffusion models.
 
 datasources_basemodel:
     class: partial

@@ -13,7 +13,7 @@ system:
     name: AMD Nitro Diffusion
     link: https://huggingface.co/amd/SD2.1-Nitro
     type: image
-    performanceclass: 
+    performanceclass: full
     basemodelname: Stable-Diffusion-2-Base
     endmodelname: SD2.1-Nitro
     endlicense:  Apache-2.0
@@ -22,7 +22,7 @@ system:
 
 org:
     name: AMD
-    link: https://huggingface.co/amd
+    link: https://www.amd.com/en.html
     notes: AMD, a major chip manufacturer.
 
 # availability:

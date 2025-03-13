@@ -13,17 +13,17 @@ system:
     name: BELLE
     link: https://huggingface.co/BELLE-2/BELLE-Llama2-13B-chat-0.4M
     type: text
-    performanceclass: 
+    performanceclass: limited
     basemodelname: Llama-2-13B
     endmodelname: BELLE-Llama2-13B-Chat-0.4M
     endmodellicense: Apache License 2.0
     releasedate: 2023-03
-    notes:
+    notes: Llama-2 fine-tuned on a small amount of Chinese data.
 
 org:
     name: KE Technologies
     link: http://www.ke.com
-    notes:
+    notes: Company specializing in advanced technology solutions.
 
 # availability:
 datasources_basemodel:

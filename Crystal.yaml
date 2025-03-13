@@ -18,12 +18,12 @@ system:
     endmodelname: CrystalChat
     endmodellicense: Apache-2.0
     releasedate: 2024-01
-    notes: 
+    notes: Research-oriented llama-based model.
 
 org:
     name: LLM360
-    link: https://huggingface.co/LLM360
-    notes: 
+    link: https://www.llm360.ai/index.html
+    notes: LLM360, an initiative to fully open-source LLMs.
 
 # availability:
 datasources_basemodel:

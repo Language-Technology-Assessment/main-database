@@ -13,7 +13,7 @@ system:
     name: Baichuan
     link: https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Baichuan2-13B-Base
     endmodelname: Baichuan2-13B-Chat
     endmodellicense: Apache-2.0 + Community License for Baichuan2 Model
@@ -22,7 +22,7 @@ system:
 
 org:
     name: Baichuan Intelligent Technology
-    link: https://huggingface.co/baichuan-inc
+    link: https://www.baichuan-ai.com/home
     notes: Chinese AI start-up
 
 # availability:

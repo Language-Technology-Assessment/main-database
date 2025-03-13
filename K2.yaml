@@ -18,12 +18,12 @@ system:
     endmodelname: K2-Chat
     endmodellicense: Apache-2.0
     releasedate: 2024-05
-    notes: 
+    notes: Large fully-reproducible model.
 
 org:
     name: LLM360
-    link: https://huggingface.co/LLM360
-    notes: 
+    link: https://www.llm360.ai/index.html
+    notes: LLM360, an initiative to fully open-source LLMs.
 
 # availability:
 datasources_basemodel:

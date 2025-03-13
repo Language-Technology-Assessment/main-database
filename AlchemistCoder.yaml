@@ -18,11 +18,11 @@ system:
     endmodelname: AlchemistCoder-DS-6.7B
     endmodellicense: Apache-2.0
     releasedate: 2024-05
-    notes: Multiple versions exist with different base models.
+    notes: Open model trained by harmonizing different data sources. Multiple versions exist with different base models.
 
 org:
     name: Shanghai AI Laboratory
-    link: https://huggingface.co/internlm
+    link: https://www.shlab.org.cn/
     notes: National-level Chinese research institute.
 
 # availability:
