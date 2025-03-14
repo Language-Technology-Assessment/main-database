@@ -18,12 +18,12 @@ system:
     endmodelname: Mistral-Large-Instruct-2411
     endmodellicense: Mistral AI Research License
     releasedate: 2023-09
-    notes:
+    notes: Dense LLM trained by Mistral AI.
 
 org:
     name: Mistral AI
     link: https://mistral.ai/
-    notes:
+    notes: Mistral, a French AI company.
 
 # availability:
 datasources_basemodel:

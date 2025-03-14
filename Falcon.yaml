@@ -18,12 +18,12 @@ system:
     endmodelname: Falcon3-10B-Instruct
     endmodellicense: Falcon-LLM-License
     releasedate: 2023-05
-    notes:
+    notes: Open foundation model.
 
 org:
     name: Technology Innovation Institute
     link: https://falconllm.tii.ae
-    notes:
+    notes: The Technology Innovation Institute, a research center. Part of the Abu Dhabi Government’s Advanced Technology Research Council (ATRC).
 
 # availability:
 datasources_basemodel:

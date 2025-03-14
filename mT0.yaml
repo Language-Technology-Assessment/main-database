@@ -18,12 +18,12 @@ system:
     endmodelname: mT0-XXL-P3
     endmodellicense: Apache-2.0
     releasedate: 2023-05
-    notes: 
+    notes: Large open multilingual language model.
 
 org:
-    name: BigScience
-    link: https://huggingface.co/bigscience
-    notes: 
+    name: bigscience-workshop
+    link: https://github.com/bigscience-workshop
+    notes: Research workshop on large multilingual models.
 
 # availability:
 datasources_basemodel:

@@ -21,9 +21,9 @@ system:
     notes: Dutch instruction-tuned model based on Mistral 7B
 
 org:
-    name: Bram van Roy
-    link: https://huggingface.co/BramVanroy/GEITje-7B-ultra
-    notes:
+    name: Bram Vanroy
+    link: https://bramvanroy.github.io/
+    notes: Independent model creator.
 
 # availability:
 datasources_basemodel:

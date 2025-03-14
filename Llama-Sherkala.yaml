@@ -18,12 +18,12 @@ system:
     endmodelname: Llama-3.1-Sherkala-8B-Chat
     endmodellicense: CC-BY-NC-SA-4.0
     releasedate: 2025-03
-    notes: 
+    notes: Kazakh-tuned LLM (with additional capabilities in English, Russian, and Turkish).
 
 org:
     name: G42
-    link: https://huggingface.co/inceptionai
-    notes: 
+    link: https://g42.ai/
+    notes: Abu Dhabi-based AI company.
 
 # availability:
 datasources_basemodel:

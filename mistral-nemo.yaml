@@ -18,12 +18,12 @@ system:
     endmodelname: unspecified
     endmodellicense: Apache 2.0 (model weights only)
     releasedate: 2024-07
-    notes:
+    notes: Multilingual model trained by Mistral AI.
 
 org:
-    name: Mistral AI
-    link: https://mistral.ai/
-    notes:
+    name: Mistral AI, NVIDIA
+    link: https://mistral.ai/, https://www.nvidia.com
+    notes: Jointly trained by Mistral, a French AI company, and NVIDIA, a major chip manufacturer.
 
 # availability:
 datasources_basemodel:

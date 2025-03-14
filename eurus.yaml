@@ -18,12 +18,12 @@ system:
     endmodelname: Eurux-8x22B-NCA
     endmodellicense: Apache 2.0 
     releasedate: 2024-04
-    notes: New model, should update fields still.
+    notes: Reasoning MoE model.
 
 org:
     name: OpenBMB
     link: https://www.openbmb.cn/
-    notes:
+    notes: "OpenBMB (Open Lab for Big Model Base), founded by TsinghuaNLP & ModelBest Inc (面壁智能), aims to build foundation models and systems towards AGI."
 
 # availability:
 datasources_basemodel:

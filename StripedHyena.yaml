@@ -21,9 +21,9 @@ system:
     notes: 
 
 org:
-    name: Together
-    link: https://huggingface.co/togethercomputer
-    notes: 
+    name: Together Computer
+    link: https://together.ai/
+    notes: Together Computer, a cloud platform for generative AI.
 
 # availability:
 datasources_basemodel:

@@ -18,12 +18,12 @@ system:
     endmodelname: MimicMotion-1.1
     endmodellicense: Custom license
     releasedate: 2024-07
-    notes: 
+    notes: Human-motion video generator.
 
 org:
     name: Tencent
-    link: https://huggingface.co/tencent
-    notes: 
+    link: https://www.tencent.com/
+    notes: Tencent, a Chinese conglomerate.
 
 # availability:
 datasources_basemodel:

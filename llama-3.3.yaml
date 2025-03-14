@@ -18,12 +18,12 @@ system:
     endmodelname: Llama 3.3 70B Instruct
     endmodellicense: Llama 3.3 Community License Agreement
     releasedate: 2024-12
-    notes:
+    notes: Llama AI model family by Meta. This entry provides information about Llama version 3.3.
 
 org:
-    name: Meta Llama
-    link: https://github.com/meta-llama
-    notes:
+    name: Meta
+    link: https://ai.meta.com/
+    notes: Meta, a major technology company.
 
 # availability:
 datasources_basemodel:

@@ -18,12 +18,12 @@ system:
     endmodelname: MusicGen-Stereo-Melody-Large
     endmodellicense: CC-BY-NC-4.0
     releasedate: 2024-02
-    notes: 
+    notes: Music generation model.
 
 org:
     name: Meta
-    link: https://huggingface.co/facebook
-    notes: 
+    link: https://ai.meta.com/
+    notes: Meta, a major technology company.
 
 # availability:
 datasources_basemodel:

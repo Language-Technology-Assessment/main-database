@@ -16,14 +16,14 @@ system:
     performanceclass: full
     basemodelname: Pythia-12B
     endmodelname: Dolly-V2-12B
-    endmodellicense:
+    endmodellicense: MIT license
     releasedate: 2023-03
-    notes:
+    notes: Pythia-based instruction-following model.
 
 org:
     name: Databricks
     link: https://www.databricks.com
-    notes:
+    notes: Databricks, a data platform.
 
 # availability:
 datasources_basemodel:

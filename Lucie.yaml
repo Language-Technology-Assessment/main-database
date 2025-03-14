@@ -18,7 +18,7 @@ system:
     endmodelname: Lucie-7B-Instruct-v1.1
     endmodellicense: Apache-2.0
     releasedate: 2025-02
-    notes: Foundationally-trained French-language LLM.
+    notes: French-language LLM trained from scratch.
 
 org:
     name: OpenLLM-France

@@ -14,22 +14,22 @@ system:
     link: https://huggingface.co/lmsys/fastchat-t5-3b-v1.0
     type: text
     performanceclass: full
-    basemodelname: Llama-3.1-70B
+    basemodelname: Flan-T5-XL
     endmodelname: FastChat-T5-3B-v1.0
     endmodellicense: Apache-2.0
     releasedate: 2023-03
-    notes: 
+    notes: Open-source T5-based chatbot.
 
 org:
     name: LMSYS
-    link: https://huggingface.co/lmsys
-    notes: 
+    link: https://lmsys.org/
+    notes: According to its website, 'The Large Model Systems Organisation develops large models and systems that are open, accessible and scalable'
 
 # availability:
 datasources_basemodel:
     class: closed
     link: 
-    notes: based on LLama3
+    notes: 
 
 datasources_endmodel:
     class: partial
