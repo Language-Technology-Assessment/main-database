@@ -18,7 +18,7 @@ system:
     endmodelname: Fietje-2-Chat
     endmodellicense: MIT License
     releasedate: 2024-04
-    notes: 
+    notes: Derivative of Phi2 fine-tuned for Dutch text generation.
 
 org:
     name: Bram Vanroy
@@ -29,33 +29,33 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: based on phi2 by microsoft
+    notes: "Based on phi2 by Microsoft, for which pretraining data has not been disclosed. Phi2 documentation says only '250B tokens, combination of NLP synthetic data created by AOAI GPT-3.5 and filtered web data from Falcon RefinedWeb and SlimPajama, which was assessed by AOAI GPT-4.'."
 
 datasources_endmodel:
-    class: open
+    class: partial
     link: https://huggingface.co/datasets/BramVanroy/wikipedia_culturax_dutch
-    notes: Wikipedia and CulturaX mix see link
+    notes: "Finetuning of Phi not fully documented; derivative uses a Wikipedia and CulturaX mix for Dutch."
 
 weights_basemodel:
     class: open
     link: https://huggingface.co/microsoft/phi-2
-    notes: phi2
+    notes: Phi 2 model weights available through HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/papers/2412.15450
+    link: https://huggingface.co/BramVanroy/fietje-2-chat
     notes: 
 
 trainingcode:
-    class: open
-    link: https://github.com/BramVanroy/fietje-2/tree/main/training
-    notes: 
+    class: partial
+    link: https://github.com/BramVanroy/fietje-2
+    notes: Source code for base model not available, but training for derivative well-documented in github repository.
 
 # documentation:
 code:
-    class: open 
+    class: partial 
     link:  https://github.com/BramVanroy/fietje-2/tree/main/training
-    notes: 
+    notes: Source code for base model not available, but training for derivative model documented in exemplary detail.
 
 hardware_architecture:
     class: open
@@ -80,7 +80,7 @@ modelcard:
 datasheet:
     class: partial
     link: 
-    notes: not for base model
+    notes: No data sheet available for base model
 
 # access:
 package:
@@ -97,4 +97,4 @@ api:
 licenses:
     class: partial
     link: 
-    notes: weights under MIT data unclear
+    notes: "Model weights provided under MIT, but training data inherits unclarity and limitations from upstream models (Falcon RefinedWeb, SlimPajama)."
