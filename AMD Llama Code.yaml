@@ -22,7 +22,7 @@ system:
 
 org:
     name: AMD
-    link: https://huggingface.co/amd
+    link: https://www.amd.com/en.html
     notes: AMD, a major chip manufacturer.
 
 # availability:

@@ -18,12 +18,12 @@ system:
     endmodelname: NOVA-D48W1024-OSP480
     endmodellicense: Apache-2.0
     releasedate: 2024-12
-    notes: 
+    notes: Autoregressive video generation model.
 
 org:
     name: Beijing Academy of Artificial Intelligence
-    link: https://huggingface.co/BAAI
-    notes: 
+    link: https://www.baai.ac.cn/en/
+    notes: Chinese non-profit AI lab.
 
 # availability:
 datasources_basemodel:

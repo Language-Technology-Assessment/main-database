@@ -22,7 +22,7 @@ system:
 
 org:
     name: StabilityAI
-    link: https://huggingface.co/stabilityai
+    link: https://stability.ai/
     notes: UK-based AI company known for its diffusion models.
 
 # availability:

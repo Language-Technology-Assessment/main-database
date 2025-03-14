@@ -13,17 +13,17 @@ system:
     name: Infinity-Instruct
     link: https://huggingface.co/BAAI/Infinity-Instruct-7M-Gen-Llama3_1-70B
     type: text
-    performanceclass: full
+    performanceclass: limited
     basemodelname: Llama-3.1-70B
     endmodelname: Infinity-Instruct-7M-Gen-Llama3.1-70B
     endmodellicense: Llama 3.1 Community License Agreement
     releasedate: 2024-08
-    notes: 
+    notes: Open-source model designed to test the performance of the Infinity-Instruct dataset.
 
 org:
     name: Beijing Academy of Artificial Intelligence
-    link: https://huggingface.co/BAAI
-    notes: 
+    link: https://www.baai.ac.cn/en/
+    notes: Chinese non-profit AI lab.
 
 # availability:
 datasources_basemodel:

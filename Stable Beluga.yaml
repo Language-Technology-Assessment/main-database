@@ -18,12 +18,12 @@ system:
     endmodelname: Orca-style (synthetic)
     endmodellicense: Stable Beluga Non-Commercial Community License
     releasedate: 2023-07
-    notes:
+    notes: Llama-based model fine-tuned on Orca.
 
 org:
     name: Stability AI
     link: https://stability.ai/
-    notes:
+    notes: UK-based AI company known for its diffusion models.
 
 # availability:
 datasources_basemodel:
