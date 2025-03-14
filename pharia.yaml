@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
+    name: Pharia
+    link: 
+    type: text
+    performanceclass: limited
+    basemodelname: Pharia 1 LLM 7B
+    endmodelname: Pharia 1 LLM 7b aligned
+    endmodellicense: Open Aleph License 1.0
+    releasedate: 2024-08
+    notes: Autoregressive transformer LLM trained in English, German, French, Spanish, Italian, Portuguese and Dutch
+
+org:
+    name: Aleph Alpha Research
+    link: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control
+    notes:
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control#pre-training
+    notes: "No specific accounting or listing available. Training data described in broad terms as 'web-crawled data and structured datasets with a total size of 7.7T, with a cutoff date 04/2023' alongside 'some additional web scraping'."
+
+datasources_endmodel:
+    class: closed
+    link: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control#instruction-fine-tuning
+    notes: "No data provided except a very generic reference to 'source-available, commercially usable datasets, as well as self-created and procured proprietary datasets'."
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control
+    notes: Pharia 1 base model made available through HuggingFace
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control-aligned
+    notes: Aligned model made available through HuggingFace
+
+trainingcode:
+    class: partial
+    link: https://github.com/Aleph-Alpha/scaling
+    notes: "Aleph Alpha claims Pharia has been trained using the Scaling code base, which it made available as a repository mirrored from an unknown source; no specific repository found documenting the training or instruction-tuning of Pharia."
+
+# documentation:
+code:
+    class: partial
+    link: 
+    notes: "No specific code for training and tuning found, so no documentation of code found. Scaling code base is reasonably documented."
+
+hardware_architecture:
+    class: open
+    link: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control#resource-usage
+    notes: Training process, architecture and resource usage are documented at above-average levels of detail.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint or in-depth scientific documentation found outside model card.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: open
+    link: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control
+    notes: Modelcard on HF provides a fair bit of documentation of training data, architecture, evaluation, and risks and limitations.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No datasheet or other detailed accounting of pretraining, finetuning or instruction tuning data found. Scant details given in model card.
+
+# access:
+package:
+    class: partial
+    link: https://github.com/Aleph-Alpha/intelligence-layer-sdk
+    notes: Package available through a bespoke Intelligence Layer SDK
+
+api:
+    class: partial
+    link:
+    notes: Paid API access available through Intelligence Layer SDK.
+    metaprompt: No information available on system prompt or metaprompts.
+
+licenses:
+    class: partial
+    link: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control/blob/main/LICENSE
+    notes: Licensed under Open Aleph License 1.0, which limits use to personal, non-profit, research and educational uses.
