@@ -68,9 +68,9 @@ preprint:
     notes: Pre-print goes into impressive detail about the data, training process, architecture, and evaluation.
 
 paper:
-    class: closed
-    link: 
-    notes: No peer-reviewed paper found.
+    class: open
+    link: https://aclanthology.org/2024.acl-long.841/
+    notes: 2024 ACL paper documents important parts of design, architecture, and processing pipelines.
 
 modelcard:
     class: open
