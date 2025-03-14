@@ -18,12 +18,12 @@ system:
     endmodelname: RWKV-x070-World-1.5B-v3-20250127-ctx4096
     endmodellicense: Apache-2.0
     releasedate: 2024-12
-    notes: Model under active development.
+    notes: RNN-based model under continuous development.
 
 org:
-    name: BlinkDL
-    link: https://huggingface.co/BlinkDL
-    notes: 
+    name: BlinkDL/RWKV
+    link: https://www.rwkv.com/
+    notes: Primary developer of RNN-based RWKV models.
 
 # availability:
 datasources_basemodel:

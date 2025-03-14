@@ -17,13 +17,13 @@ system:
     basemodelname: Llama-3.1-8B
     endmodelname: DeepHermes-3-Llama-3-8B-Preview
     endmodellicense: Llama 3 Community License Agreement
-    releasedate: 
+    releasedate: 2025-02
     notes: Evaluated model only available as preview. 
 
 org:
     name: Nous Research
-    link: https://huggingface.co/NousResearch
-    notes: 
+    link: https://nousresearch.com/
+    notes: AI research initiative.
 
 # availability:
 datasources_basemodel:

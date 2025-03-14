@@ -22,8 +22,8 @@ system:
 
 org:
     name: NVIDIA
-    link: https://huggingface.co/nvidia
-    notes: 
+    link: https://www.nvidia.com
+    notes: NVIDIA, a major chip manufacturer.
 
 # availability:
 datasources_basemodel:

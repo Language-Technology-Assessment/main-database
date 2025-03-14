@@ -14,16 +14,16 @@ system:
     link: https://huggingface.co/CohereForAI/c4ai-command-r-v01
     type: text
     performanceclass: full
-    basemodelname: 
-    endmodelname: Aya Collection
+    basemodelname: C4AI-Command-R-V01
+    endmodelname: Aya-23-35B
     endmodellicense: CC-BY-NC and C4AI acceptable use policy
     releasedate: 2024-03
-    notes:
+    notes: Multilingual open LLM.
 
 org:
     name: Cohere AI
     link: https://cohere.com
-    notes: 
+    notes: Company developing an enterprise AI platform.
 
 # availability:
 trainingcode:

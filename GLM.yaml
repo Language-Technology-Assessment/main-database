@@ -23,7 +23,7 @@ system:
 org:
     name: Zhipu AI
     link: https://github.com/THUDM
-    notes: Zhipu AI, one of China's AI start-up tigers.
+    notes: Zhipu AI, one of China's AI tigers.
 
 # availability:
 datasources_basemodel:

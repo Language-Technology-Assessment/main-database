@@ -18,12 +18,12 @@ system:
     endmodelname: Neo-7B-Instruct-v0.1
     endmodellicense: Apache 2.0
     releasedate: 2024-05
-    notes: 
+    notes: Language model aiming to be completely open-source.
 
 org:
     name: Multimodal Art Projection
-    link: https://huggingface.co/m-a-p
-    notes: 
+    link: https://m-a-p.ai/
+    notes: Open-source AI research community.
 
 # availability:
 datasources_basemodel:
@@ -34,7 +34,7 @@ datasources_basemodel:
 datasources_endmodel:
     class: partial
     link: 
-    notes: some datasets listed in preprint but some missing quote we collect over 100k multiturn dialogue data sourced from real user conversations
+    notes: Some datasets listed in preprint but some missing; "we collect over 100k multiturn dialogue data sourced from real user conversations".
 
 weights_basemodel:
     class: open

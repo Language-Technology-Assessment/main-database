@@ -18,12 +18,12 @@ system:
     endmodelname: CodeGen25-7B-Instruct-P
     endmodellicense: unknown (research purposes only)
     releasedate: 2023-06
-    notes: Base model licensed under Apache 2.0.
+    notes: Autoregressive language model for code synthesis. Base model licensed under Apache 2.0.
 
 org:
     name: Salesforce
-    link: https://huggingface.co/Salesforce
-    notes: 
+    link: https://www.salesforceairesearch.com/
+    notes: Major AI research company.
 
 # availability:
 datasources_basemodel:

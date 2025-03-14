@@ -22,7 +22,7 @@ system:
 
 org:
     name: Multimodal Art Projection
-    link: https://huggingface.co/m-a-p
+    link: https://m-a-p.ai/
     notes: Open-source AI research community.
 
 # availability:

@@ -23,7 +23,7 @@ system:
 org:
     name: Sesame AI
     link: https://www.sesame.com
-    notes: 
+    notes: Company seeking to make computers more life-like.
 
 # availability:
 datasources_basemodel:
