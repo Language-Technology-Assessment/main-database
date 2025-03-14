@@ -13,17 +13,17 @@ system:
     name: OpenMoE
     link: https://huggingface.co/OrionZheng/openmoe-8b-chat
     type: text
-    performanceclass: 
+    performanceclass: limited
     basemodelname: OpenMoE-8B
     endmodelname: OpenMoE-8B-Chat
     endmodellicense: Apache-2.0
-    releasedate: 
-    notes: 
+    releasedate: 2023-07
+    notes: An early model aiming to ignite the open-source MoE community.
 
 org:
     name: Zheng Zian
     link: https://huggingface.co/OrionZheng
-    notes: 
+    notes: Member of a student team at the National University of Singapore.
 
 # availability:
 datasources_basemodel:

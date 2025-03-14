@@ -18,12 +18,12 @@ system:
     endmodelname: Snowflake-Arctic-Instruct
     endmodellicense: Apache-2.0
     releasedate: 2024-04
-    notes: 
+    notes: Dense-MoE hybrid LLM.
 
 org:
     name: Snowflake
-    link: https://huggingface.co/Snowflake
-    notes: 
+    link: https://www.snowflake.com
+    notes: Snowflake, an AI platform provider.
 
 # availability:
 datasources_basemodel:

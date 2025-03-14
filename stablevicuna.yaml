@@ -23,7 +23,7 @@ system:
 org:
     name: CarperAI
     link: https://carper.ai
-    notes:
+    notes: CarperAI, an AI research team spun out of EleutherAI.
 
 # availability:
 datasources_basemodel:

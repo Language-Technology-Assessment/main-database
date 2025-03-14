@@ -18,12 +18,12 @@ system:
     endmodelname: Zephyr-ORPO-141B-A35B-v0.1
     endmodellicense: Apache-2.0
     releasedate: 2023-10
-    notes: 
+    notes: Open Mistral-based MoE model.
 
 org:
     name: HuggingFace
     link: https://www.huggingface.co/
-    notes: 
+    notes: HuggingFace, a large AI platform.
 
 # availability:
 datasources_basemodel:

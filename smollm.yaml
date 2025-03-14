@@ -18,12 +18,12 @@ system:
     endmodelname: SmolLM2-Instruct
     endmodellicense: Apache-2.0
     releasedate: 2024-10
-    notes: 
+    notes: Small open models by HuggingFace.
 
 org:
     name: HuggingFace
     link: https://www.huggingface.co/
-    notes: 
+    notes: HuggingFace, a large AI platform.
 
 # availability:
 datasources_basemodel:

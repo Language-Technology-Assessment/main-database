@@ -11,7 +11,7 @@
 
 system:
     name: Pharia
-    link: 
+    link: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control
     type: text
     performanceclass: limited
     basemodelname: Pharia 1 LLM 7B
@@ -22,8 +22,8 @@ system:
 
 org:
     name: Aleph Alpha Research
-    link: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control
-    notes:
+    link: https://aleph-alpha.com/
+    notes: Company providing enterprise and government AI.
 
 # availability:
 datasources_basemodel:

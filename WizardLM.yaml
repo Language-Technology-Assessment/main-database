@@ -23,7 +23,7 @@ system:
 org:
     name: Microsoft & Peking University
     link: https://github.com/nlpxucan
-    notes: 
+    notes: Microsoft, a major tech company, and Peking University, a Chinese university.
 
 # availability:
 datasources_basemodel:

@@ -23,7 +23,7 @@ system:
 org:
     name: openGPT-X
     link: https://opengpt-x.de/en/
-    notes:
+    notes: Project aiming to develop LLMs in Germany.
 
 # availability:
 trainingcode:

@@ -18,12 +18,12 @@ system:
     endmodelname: Open-Sora
     endmodellicense: Apache-2.0
     releasedate: 2024-03
-    notes: 
+    notes: Open reproduction of Sora.
 
 org:
     name: HPC-AI
-    link: https://huggingface.co/hpcai-tech
-    notes: 
+    link: https://company.hpc-ai.com/
+    notes: Company developing a deep learning platform.
 
 # availability:
 datasources_basemodel:

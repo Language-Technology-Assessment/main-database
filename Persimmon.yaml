@@ -18,12 +18,12 @@ system:
     endmodelname: Persimmon-8B-Chat
     endmodellicense: Apache-2.0
     releasedate: 2023-09
-    notes: 
+    notes: Work towards an AI agent by Adept AI.
 
 org:
     name: Adept AI Labs
-    link: https://huggingface.co/adept
-    notes: 
+    link: https://www.adept.ai/
+    notes: Company developing agentic AI.
 
 # availability:
 datasources_basemodel:

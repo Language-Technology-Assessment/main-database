@@ -22,8 +22,8 @@ system:
 
 org:
     name: HuggingFace
-    link: https://huggingface.co/HuggingFaceH4
-    notes: Major player in the AI space.
+    link: https://www.huggingface.co/
+    notes: HuggingFace, a large AI platform.
 
 # availability:
 datasources_basemodel:

@@ -18,12 +18,12 @@ system:
     endmodelname: OpenAssistant Conversations
     endmodellicense: Apache 2.0
     releasedate: 2023-02
-    notes:
+    notes: Community-built model aiming to bridge the gap between open-source models and ChatGPT.
 
 org:
     name: LAION-AI
     link: https://open-assistant.io/
-    notes:
+    notes: Early intiative to bolster the open-source community.
 
 # availability:
 datasources_basemodel:

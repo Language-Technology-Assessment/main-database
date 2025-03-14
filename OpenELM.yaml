@@ -13,17 +13,17 @@ system:
     name: OpenELM
     link: https://huggingface.co/apple/OpenELM-3B-Instruct
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: OpenELM-3B
     endmodelname: OpenELM-3B-Instruct
     endmodellicense: Apple Sample Code License
-    releasedate: 
-    notes: 
+    releasedate: 2024-04
+    notes: Open small language model by Apple.
 
 org:
     name: Apple
-    link: https://huggingface.co/apple
-    notes: 
+    link: https://www.apple.com/
+    notes: Apple, a major tech company.
 
 # availability:
 datasources_basemodel:
