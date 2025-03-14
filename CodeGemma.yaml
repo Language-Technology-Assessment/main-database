@@ -18,12 +18,12 @@ system:
     endmodelname: CodeGemma-1.1-7B-IT
     endmodellicense: Gemma license
     releasedate: 2024-07
-    notes: 
+    notes: Gemma-based coder model.
 
 org:
-    name: Google
-    link: https://huggingface.co/google
-    notes: 
+    name: Google AI
+    link: https://ai.google
+    notes: Major technology company, operator of Google Search.
 
 # availability:
 datasources_basemodel:

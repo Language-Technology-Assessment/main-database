@@ -18,12 +18,12 @@ system:
     endmodelname: Gemma-2-2B-JPN-IT
     endmodellicense: Gemma Terms of Use
     releasedate: 2024-10
-    notes: 
+    notes: Japanese-tuned Gemma model.
 
 org:
-    name: Google
-    link: https://ai.google.dev/gemma/docs
-    notes: 
+    name: Google AI
+    link: https://ai.google
+    notes: Major technology company, operator of Google Search.
 
 # availability:
 datasources_basemodel:
