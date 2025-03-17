@@ -23,7 +23,7 @@ system:
 org:
     name: Alibaba Cloud
     link: https://www.alibabacloud.com/
-    notes: "Qwen (abbr. for Tongyi Qianwen 通义千问) refers to the large language model family built by Alibaba Cloud"
+    notes: Alibaba Cloud, a subdivision of the Chinese multinational technology company Alibaba.
 
 # availability:
 datasources_basemodel:

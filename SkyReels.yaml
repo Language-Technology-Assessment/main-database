@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: SkyReels
+    link: https://huggingface.co/Skywork/SkyReels-V1-Hunyuan-T2V
+    type: video
+    performanceclass: full
+    basemodelname: HunyuanVideo-T2V-720P
+    endmodelname: SkyReels-V1-Hunyuan-T2V
+    endmodellicense: Apache-2.0
+    releasedate: 2025-02
+    notes: Video generation model by SkyReels.
+
+org:
+    name: Skywork
+    link: https://skywork.ai/
+    notes: Skywork, a company creating an AI assistant.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: No dataset found.
+
+datasources_endmodel:
+    class: closed
+    link:
+    notes: No dataset found.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/tencent/HunyuanVideo/tree/main
+    notes: Weights made available through HuggingFace.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/Skywork/SkyReels-V1-Hunyuan-T2V
+    notes: Weights made available through HuggingFace.
+
+trainingcode:
+    class: closed
+    link: https://github.com/SkyworkAI/SkyReels-V1
+    notes: Github available, however does not contain training code.
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: No training code, so no documentation.
+
+hardware_architecture:
+    class: partial
+    link:
+    notes: No architecture information found.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint found.
+
+paper:
+    class: closed
+    link:
+    notes: No paper found.
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/Skywork/SkyReels-V1-Hunyuan-T2V
+    notes: Model card primarily contains fine-tuning information.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found.
+
+api:
+    class: closed
+    link: https://www.skyreels.ai/home?utm_campaign=huggingface_V1_t2v
+    notes: Web interface available, accessible only when signing up.
+    metaprompts:
+
+licenses:
+    class: open
+    link: https://github.com/SkyworkAI/SkyReels-V1/blob/main/LICENSE.txt
+    notes: Apache-2.0, an OSI-approved license.
