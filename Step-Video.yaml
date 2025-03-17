@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: Step-Video
+    link: https://huggingface.co/stepfun-ai/stepvideo-ti2v
+    type: video
+    performanceclass: limited
+    basemodelname: StepVideo-T2V
+    endmodelname: StepVideo-TI2V
+    endmodellicense: MIT License
+    releasedate: 2025-02
+    notes: Chinese video generation model by SkyReels.
+
+org:
+    name: StepFun
+    link: https://www.stepfun.com/
+    notes: StepFun, a Chinese AI company.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: No dataset found.
+
+datasources_endmodel:
+    class: closed
+    link:
+    notes: No dataset found.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/stepfun-ai/stepvideo-t2v
+    notes: Weights made available through HuggingFace.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/stepfun-ai/stepvideo-ti2v
+    notes: Weights made available through HuggingFace.
+
+trainingcode:
+    class: closed
+    link: https://github.com/stepfun-ai/Step-Video-TI2V, https://github.com/stepfun-ai/Step-Video-T2V
+    notes: Github available, however does not contain training code.
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: No training code, so no documentation.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2502.10248
+    notes: Detailed hardware architecture information provided in paper.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2502.10248, https://arxiv.org/pdf/2503.11251
+    notes: Preprints made available through arXiv.
+
+paper:
+    class: closed
+    link: 
+    notes: No paper found.
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/stepfun-ai/stepvideo-ti2v
+    notes: Model card contains minimal information.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found.
+
+api:
+    class: closed
+    link: https://yuewen.cn/videos
+    notes: Web interface available, accessible only when signing up.
+    metaprompts:
+
+licenses:
+    class: open
+    link: https://github.com/stepfun-ai/Step-Video-TI2V/blob/main/LICENSE
+    notes: MIT License, an OSI-approved license.
