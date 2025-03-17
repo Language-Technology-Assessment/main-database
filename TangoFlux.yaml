@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: TangoFlux
+    link: https://huggingface.co/declare-lab/TangoFlux
+    type: audio
+    performanceclass: limited
+    basemodelname: TangoFlux-Base
+    endmodelname: TangoFlux
+    endmodellicense: Various
+    releasedate: 2024-12
+    notes: Text-to-audio model. VAE from Stable Audio Open.
+
+org:
+    name: Deep Cognition and Language Research Lab
+    link: https://declare-lab.github.io/
+    notes: Deep Cognition and Language Research Lab, an AI research lab.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/datasets/cvssp/WavCaps
+    notes: Dataset used made available on HuggingFace.
+
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/cvssp/WavCaps
+    notes: Dataset used made available on HuggingFace.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/declare-lab/TangoFlux-base
+    notes: Weights made available on HuggingFace.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/declare-lab/TangoFlux
+    notes: Weights made available on HuggingFace.
+
+trainingcode:
+    class: open 
+    link: https://github.com/declare-lab/TangoFlux
+    notes: Training code provided through GitHub.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/declare-lab/TangoFlux
+    notes: Repository thoroughly documented.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2412.21037
+    notes: Hardware architecture outlined in preprint.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2412.21037
+    notes: Preprint made available on arXiv.
+
+paper:
+    class: closed
+    link: 
+    notes: No paper found.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/declare-lab/TangoFlux
+    notes: Model card contains limited information regarding model usage and licensing.
+
+datasheet:
+    class: partial
+    link: https://huggingface.co/datasets/cvssp/WavCaps
+    notes: Datasheet provided, however contains no information regarding data collection or collation procedures.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found.
+
+api:
+    class: open
+    link: https://huggingface.co/spaces/declare-lab/TangoFlux
+    notes: API available through HuggingFace space.
+    metaprompts:
+
+licenses:
+    class: closed
+    link: https://huggingface.co/declare-lab/TangoFlux#license
+    notes: Various licenses provided, not all OSI-approved.
