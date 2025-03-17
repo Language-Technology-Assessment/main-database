@@ -32,9 +32,9 @@ trainingcode:
     notes:
 
 datasources_basemodel:
-    class: open
+    class: partial
     link: https://arxiv.org/pdf/2410.08800
-    notes: They have one preprint specifically dedicated to providing a highly detailed overview of the data pipeline.
+    notes: Dataset described as deriving from the CommonCrawl, but no filtered dataset provided.
     
 datasources_endmodel:
     class: open
