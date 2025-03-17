@@ -37,9 +37,9 @@ datasources_endmodel:
     notes: Datasets described in blog post but not all made available
 
 weights_basemodel:
-    class: partial
+    class: closed
     link: https://drive.google.com/drive/folders/10f7wrlAFoPIy-TECHsx9DKIvbQYunCfl
-    notes: Model weights only made available as a diff against LLaMA. OpenLLaMA provides a possible alternative?
+    notes: Model weights ostensibly made available as a diff against LLaMA, however the folder containing the weights is empty.
 
 weights_endmodel:
     class: closed
