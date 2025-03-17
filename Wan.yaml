@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: Wan
+    link: https://huggingface.co/Wan-AI/Wan2.1-T2V-14B
+    type: video
+    performanceclass: full
+    basemodelname: Wan2.1-T2V-14B
+    endmodelname: Wan2.1-T2V-14B
+    endmodellicense: Apache-2.0
+    releasedate: 2025-02
+    notes: Video-generation model by Alibaba Cloud.
+
+org:
+    name: Alibaba Cloud
+    link: https://www.alibabacloud.com/
+    notes: Alibaba Cloud, a subdivision of the Chinese multinational technology company Alibaba.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: No explicit description of data sources found.
+
+datasources_endmodel:
+    class: closed
+    link:
+    notes: No explicit description of data sources found.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/Wan-AI/Wan2.1-T2V-14B
+    notes: Weights made available on HuggingFace.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/Wan-AI/Wan2.1-T2V-14B
+    notes: Weights made available on HuggingFace.
+
+trainingcode:
+    class: closed
+    link: https://github.com/Wan-Video/Wan2.1
+    notes: Repository exists however does not contain training code. 
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: No training code, so no documentation.
+
+hardware_architecture:
+    class: closed
+    link:
+    notes: No hardware information found.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint found. Model card mentions it is forthcoming.
+
+paper:
+    class: closed
+    link: 
+    notes: No paper found.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/Wan-AI/Wan2.1-T2V-14B
+    notes: Model card primarily contains information regarding usage and architecture, little information regarding training and fine-tuning.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found.
+
+api:
+    class: open
+    link: https://huggingface.co/spaces/Wan-AI/Wan2.1
+    notes: Model available through HuggingFace space.
+    metaprompts:
+
+licenses:
+    class: open
+    link: https://huggingface.co/Wan-AI/Wan2.1-T2V-14B#license-agreement
+    notes: Model licensed through Apache-2.0, an OSI-approved license.
