@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: GPT-SW3
+    link: https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct
+    type: text
+    performanceclass: full
+    basemodelname: GPT-SW3-6.7B-V2
+    endmodelname: GPT-SW3-6.7B-V2-Instruct
+    endmodellicense: AI Sweden's LLM AI Model License Agreement
+    releasedate: 2022-12
+    notes: GPT-SW3, a series of models tuned to nordic languages.
+
+org:
+    name: AI Sweden
+    link: https://www.ai.se/en
+    notes: AI Sweden, the Swedish national center for applied AI.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b-v2
+    notes: Data sources and collection/curation process outlined extensively in model card.
+
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b-v2
+    notes: Data sources and collection/curation process outlined extensively in model card.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b-v2
+    notes: Weights made publicly available on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct
+    notes: Weights made publicly available on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/NVIDIA/NeMo/tree/main
+    notes: Model trained using the NeMo framework, an open-source generative AI framework.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/NVIDIA/NeMo/tree/main
+    notes: The NeMo framework is well-documented.
+
+hardware_architecture:
+    class: closed
+    link: 
+    notes: No hardware information found.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint found.
+
+paper:
+    class: closed
+    link: 
+    notes: No paper found.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b-v2
+    notes: Model card provides extensive information regarding model architecture, training data, frameworks used, and evaluation, however information is somewhat limited on the hardware setup.
+
+datasheet:
+    class: open
+    link: https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b-v2
+    notes: Extensive data sheet provided in model card.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct/blob/main/LICENSE
+    notes: AI Sweden's LLM AI Model License Agreement (a modified RAIL license), not an OSI-approved license.
