@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
+    name: YuLan
+    link: https://huggingface.co/yulan-team/YuLan-Mini-Instruct
+    type: text
+    performanceclass: full
+    basemodelname: YuLan-Mini
+    endmodelname: YuLan-Mini-Instruct
+    endmodellicense: MIT License
+    releasedate: 2024-12
+    notes: Small Chinese-English bilingual model.
+
+org:
+    name: Gaoling School of Artificial Intelligence
+    link: https://gsai.ruc.edu.cn
+    notes: Gaoling School of Artificial Intelligence, a Chinese university organization.
+
+# availability:
+trainingcode:
+    class: open
+    link: https://github.com/RUC-GSAI/YuLan-Mini/
+    notes: Training code available on GitHub.
+
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/datasets/yulan-team/YuLan-Mini-Datasets, https://arxiv.org/pdf/2412.17743
+    notes: Datasets shared on HuggingFace, table describing dataset mix provided in paper.
+    
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/yulan-team/YuLan-Mini-Datasets, https://arxiv.org/pdf/2412.17743
+    notes: Datasets shared on HuggingFace, table describing dataset mix provided in paper.  
+    
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/yulan-team/YuLan-Mini
+    notes: Weights available through HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/yulan-team/YuLan-Mini-Instruct
+    notes: Weights available through HuggingFace.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/RUC-GSAI/YuLan-Mini/
+    notes: Training code documented on GitHub.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2412.17743
+    notes: Hardware architecture documented in paper.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2412.17743
+    notes: Preprint made available through arXiv.
+
+paper:
+    class: closed
+    link:
+    notes: No paper found.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/yulan-team/YuLan-Mini-Instruct
+    notes: Model card provides information regarding training, fine-tuning, and evaluation, however none regarding hardware or model architecture.
+
+datasheet:
+    class: closed
+    link: https://huggingface.co/datasets/yulan-team/YuLan-Mini-Datasets
+    notes: Dataset page contains source data, however no datasheet.
+
+# access:
+package:
+    class: partial
+    link: https://github.com/RUC-GSAI/YuLan-Mini/?tab=readme-ov-file#quick-start-
+    notes: Available through either Huggingface inference or vLLM library, no proprietary release.
+
+api:
+    class: closed
+    link:
+    notes: No API found.
+    metaprompts:
+
+licenses:
+    class: open
+    link: https://huggingface.co/yulan-team/YuLan-Mini-Instruct#license
+    notes: Model released under the MIT license, an OSI-approved license.
