@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: Occiglot
+    link: https://huggingface.co/occiglot/occiglot-7b-eu5-instruct
+    type: text
+    performanceclass: full
+    basemodelname: Occiglot-7B-EU5 
+    endmodelname: Occiglot-7B-EU5-Instruct
+    endmodellicense: Apache-2.0
+    releasedate: 2024-03
+    notes: Open European multilingual model.
+
+org:
+    name: Occiglot
+    link: https://occiglot.eu/
+    notes: Occiglot, a research collective for European open-source models.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/occiglot/occiglot-7b-eu5/blob/main/lm-datasets-config.yml
+    notes: Dataset shared in configuration file.
+
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/occiglot/occiglot-7b-eu5-instruct
+    notes: Dataset shared in model card.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/occiglot/occiglot-7b-eu5
+    notes: Weights made available on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/occiglot/occiglot-7b-eu5-instruct
+    notes: Weights made available on HuggingFace.
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No training code found.
+
+# documentation:
+code:
+    class: closed
+    link:  
+    notes: No code documentation found.
+
+hardware_architecture:
+    class: open
+    link: https://huggingface.co/occiglot/occiglot-7b-eu5-instruct
+    notes: Hardware architecture described in model card.
+
+preprint:
+    class: closed
+    link: https://occiglot.eu/posts/technical-report-v01/
+    notes: No preprint found. Site mentions that a technical report is forthcoming.
+
+paper:
+    class: closed
+    link: 
+    notes: No paper found.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/occiglot/occiglot-7b-eu5-instruct
+    notes: Model card contains the requisite detail.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/occiglot/occiglot-7b-eu5-instruct#model-details
+    notes: Apache-2.0, an OSI-approved license.
