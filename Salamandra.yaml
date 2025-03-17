@@ -13,17 +13,17 @@ system:
     name: Salamandra
     link: https://huggingface.co/BSC-LT/salamandra-7b-instruct
     type: text
-    performanceclass: 
+    performanceclass: limited
     basemodelname: Salamandra-7B
     endmodelname: Salamandra-7B-Instruct
     endmodellicense: Apache-2.0
     releasedate: 2024-09
-    notes: 
+    notes: Open multilingual model.
 
 org:
     name: Barcelona Supercomputing Center
-    link: https://huggingface.co/BSC-LT
-    notes: 
+    link: https://www.bsc.es/
+    notes: Spanish supercomputing center.
 
 # availability:
 datasources_basemodel:

@@ -21,9 +21,9 @@ system:
     notes: Chinese-English image generation model.
 
 org:
-    name: THUDM
-    link: https://huggingface.co/THUDM
-    notes: Knowledge Engineering Group & Data Mining at Tsinghua University.
+    name: Zhipu AI
+    link: https://github.com/THUDM
+    notes: Zhipu AI, one of China's AI tigers.
 
 # availability:
 datasources_basemodel:

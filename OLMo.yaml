@@ -18,7 +18,7 @@ system:
     endmodelname: OLMo-2-1124-13B-Instruct
     endmodellicense: Apache 2.0
     releasedate: 2024-11
-    notes:
+    notes: Open LLM trained from scratch by Allen AI.
 
 org:
     name: Ai2

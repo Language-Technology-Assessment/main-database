@@ -18,7 +18,7 @@ system:
     endmodelname: DeepSeek-V3
     endmodellicense: DeepSeek License Agreement
     releasedate: 2024-12
-    notes: 
+    notes: Mixture-of-experts chat model.
 
 org:
     name: DeepSeek 

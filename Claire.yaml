@@ -18,12 +18,12 @@ system:
     endmodelname: Claire-7B-FR-Instruct-0.1
     endmodellicense: CC-BY-NC-SA 4.0
     releasedate: 2024-09
-    notes: 
+    notes: Falcon-based French-language LLM.
 
 org:
     name: OpenLLM-France
     link: https://huggingface.co/OpenLLM-France
-    notes: 
+    notes: Organization aiming to develop open-source French-language LLMs.
 
 # availability:
 datasources_basemodel:

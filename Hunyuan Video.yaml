@@ -18,12 +18,12 @@ system:
     endmodelname: HunyuanVideo-T2V-720P
     endmodellicense: Tencent Hunyuan Community License Agreement
     releasedate: 2024-12
-    notes: 
+    notes: Video generation model by Tencent.
 
 org:
     name: Tencent
-    link: https://huggingface.co/tencent
-    notes: 
+    link: https://www.tencent.com/
+    notes: Tencent, a Chinese conglomerate.
 
 # availability:
 datasources_basemodel:

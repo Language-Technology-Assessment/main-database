@@ -22,8 +22,8 @@ system:
 
 org:
     name: H2O.ai
-    link: https://huggingface.co/h2oai
-    notes: 
+    link: https://h2o.ai/
+    notes: End-to-end GenAI platform provider.
 
 # availability:
 datasources_basemodel:

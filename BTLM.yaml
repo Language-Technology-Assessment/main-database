@@ -18,12 +18,12 @@ system:
     endmodelname: BTLM-3B-8K-Chat
     endmodellicense: Apache-2.0
     releasedate: 2023-12
-    notes: 
+    notes: Bittensor language model.
 
 org:
     name: Cerebras
     link: https://huggingface.co/cerebras
-    notes: 
+    notes: Manufacturer of large AI systems.
 
 # availability:
 datasources_basemodel:

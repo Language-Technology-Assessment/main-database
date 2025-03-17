@@ -23,7 +23,7 @@ system:
 org:
     name: 01.AI
     link: https://www.01.ai/
-    notes:
+    notes: Chinese AI start-up.
 
 # availability:
 datasources_basemodel:

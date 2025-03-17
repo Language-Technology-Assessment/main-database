@@ -22,8 +22,8 @@ system:
 
 org:
     name: Minimax AI
-    link: https://huggingface.co/MiniMaxAI
-    notes: 
+    link: https://www.minimaxi.com/en
+    notes: Chinese artificial intelligence company.
 
 # availability:
 datasources_basemodel:

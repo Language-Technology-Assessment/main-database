@@ -23,7 +23,7 @@ system:
 org:
     name: Google AI
     link: https://ai.google
-    notes: 
+    notes: Major technology company, operator of Google Search.
 
 # availability:
 datasources_basemodel:

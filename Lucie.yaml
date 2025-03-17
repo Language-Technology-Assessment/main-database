@@ -17,13 +17,13 @@ system:
     basemodelname: Lucie-7B
     endmodelname: Lucie-7B-Instruct-v1.1
     endmodellicense: Apache-2.0
-    releasedate: 
-    notes: 
+    releasedate: 2025-02
+    notes: French-language LLM trained from scratch.
 
 org:
     name: OpenLLM-France
     link: https://huggingface.co/OpenLLM-France
-    notes: 
+    notes: Organization aiming to develop open-source French-language LLMs.
 
 # availability:
 datasources_basemodel:

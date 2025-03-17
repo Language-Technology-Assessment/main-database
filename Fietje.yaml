@@ -22,8 +22,8 @@ system:
 
 org:
     name: Bram Vanroy
-    link: https://huggingface.co/BramVanroy
-    notes: 
+    link: https://bramvanroy.github.io/
+    notes: Independent model creator.
 
 # availability:
 datasources_basemodel:

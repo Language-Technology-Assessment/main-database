@@ -18,12 +18,12 @@ system:
     endmodelname: Minerva-7B-instruct-v1.0
     endmodellicense: Apache 2.0
     releasedate: 2024-11
-    notes:
+    notes: LLM pretrained from scratch on Italian.
 
 org:
     name: Sapienza Natural Language Processing Group
     link: https://nlp.uniroma1.it/
-    notes:
+    notes: Sapienza NLP, a university research group.
 
 # availability:
 datasources_basemodel:

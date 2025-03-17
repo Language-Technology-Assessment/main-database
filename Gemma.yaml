@@ -11,19 +11,19 @@
 
 system:
     name: Gemma
-    link: https://ai.google.dev/gemma/docs
+    link: https://huggingface.co/google/gemma-3-27b-it
     type: text
-    performanceclass: full
-    basemodelname: Gemma-2-27B
-    endmodelname: Gemma-2-27B-IT
+    performanceclass: latest
+    basemodelname: Gemma-3-27B-PT
+    endmodelname: Gemma-3-27B-IT
     endmodellicense: Gemma Terms of Use
-    releasedate: 2024-02
+    releasedate: 2025-03
     notes: Model weights and developer tools
 
 org:
-    name: Google
-    link: https://ai.google.dev/gemma/docs
-    notes:
+    name: Google AI
+    link: https://ai.google
+    notes: Major technology company, operator of Google Search.
 
 # availability:
 datasources_basemodel:
@@ -34,17 +34,17 @@ datasources_basemodel:
 datasources_endmodel:
     class: closed
     link:
-    notes: "Documentation says 'These versions of the model are trained with human language interactions and can respond to conversational input, similar to a chat bot.' "
+    notes: No details found for instruction-tuning data.
 
 weights_basemodel:
     class: partial
-    link: https://www.kaggle.com/models/keras/gemma/frameworks/keras/variations/gemma_7b_en
-    notes: Base model weights shared via Kaggle, requires privacy-defying access request.
+    link: https://huggingface.co/google/gemma-3-27b-pt
+    notes: Gated model available through HuggingFace.
 
 weights_endmodel:
     class: partial
-    link:
-    notes: Instruction-tuned model weights shared via Kaggle, requires privacy-defying access request
+    link: https://huggingface.co/google/gemma-3-27b-it
+    notes: Gated model available through HuggingFace.
 
 trainingcode:
     class: partial
@@ -58,43 +58,43 @@ code:
     notes: No pretraining or finetuning code found. No code documentation except for deployment of the open weights.
 
 hardware_architecture:
-    class: partial
-    link: https://www.kaggle.com/models/google/gemma
-    notes: Architecture described in very general terms in model card
+    class: open
+    link: https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf
+    notes: Architecture described in detail in technical report.
 
 preprint:
-    class: partial
-    link: https://arxiv.org/abs/2403.08295
-    notes: Preprint released Apr 2024 details architecture and evaluation, but provides no information on pre-training, instruction tuning and SFT datasets
+    class: open
+    link: https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf
+    notes: Preprint available on Google's API servers.
 
 paper:
     class: closed
     link:
-    notes: No paper found
+    notes: No paper found.
 
 modelcard:
     class: open
-    link: https://www.kaggle.com/models/google/gemma
-    notes: Model card on Kaggle provides some detail on model internals and evaluation
+    link: https://huggingface.co/google/gemma-3-27b-it
+    notes: Model card provides the requisite information.
 
 datasheet:
     class: closed
     link:
-    notes: No datasheet found, pre-training and instruction-tuning data nowhere specified.
+    notes: No datasheet found.
 
 # access:
 package:
-    class: closed
-    link:
-    notes: No package provided, access is gated through Kaggle, Vertex Model Garden, Google Cloud
+    class: open
+    link: https://pypi.org/project/gemma/
+    notes: Package available on PyPi.
 
 api:
     class: closed
     link:
-    notes: No API provided, access gated through Kaggle, Vertex Model Garden, Google Cloud
+    notes: No API found.
     metaprompt: closed
 
 licenses:
     class: closed
-    link: https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/335?pli=1
+    link: https://huggingface.co/google/gemma-3-27b-it#gemma-3-model-card
     notes: Bespoke Gemma Community License Agreement and restrictive Terms of Use, neither open in the sense of OSI. Only Inference code shared under Apache 2.0.

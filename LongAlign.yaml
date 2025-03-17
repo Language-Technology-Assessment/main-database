@@ -13,17 +13,17 @@ system:
     name: LongAlign
     link: https://huggingface.co/THUDM/LongAlign-13B-64k
     type: text
-    performanceclass: full
+    performanceclass: limited
     basemodelname: Llama-2-13B
     endmodelname: LongAlign-13B-64k
     endmodellicense: Apache-2.0
     releasedate: 2024-01
-    notes: 
+    notes: Recipe for long-context LLM alignment.
 
 org:
-    name: THUDM
-    link: https://huggingface.co/THUDM
-    notes: 
+    name: Zhipu AI
+    link: https://github.com/THUDM
+    notes: Zhipu AI, one of China's AI tigers.
 
 # availability:
 datasources_basemodel:

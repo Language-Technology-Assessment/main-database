@@ -18,12 +18,12 @@ system:
     endmodelname: VideoCrafter2
     endmodellicense: Apache-2.0
     releasedate: 2024-01
-    notes: 
+    notes: Video-generation model operating on small amounts of data.
 
 org:
-    name: VideoCrafter
-    link: https://huggingface.co/VideoCrafter
-    notes: 
+    name: Tencent AI Lab
+    link: https://ailab.tencent.com/ailab/en/index/
+    notes: Tencent, a Chinese conglomerate.
 
 # availability:
 datasources_basemodel:

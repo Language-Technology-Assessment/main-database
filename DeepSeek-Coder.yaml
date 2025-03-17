@@ -22,7 +22,7 @@ system:
 
 org:
     name: DeepSeek
-    link: https://huggingface.co/deepseek-ai
+    link: https://www.deepseek.com/
     notes: "DeepSeek (深度求索), founded in 2023, is a Chinese company dedicated to making AGI a reality."
 
 # availability:

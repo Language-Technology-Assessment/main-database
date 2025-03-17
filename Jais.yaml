@@ -18,12 +18,12 @@ system:
     endmodelname: Jais-Adapted-70B-Chat
     endmodellicense: Apache-2.0
     releasedate: 2024-10
-    notes: 
+    notes: Bilingual English-Arabic LLM.
 
 org:
     name: G42
-    link: https://huggingface.co/inceptionai
-    notes: 
+    link: https://g42.ai/
+    notes: Abu Dhabi-based AI company.
 
 # availability:
 datasources_basemodel:

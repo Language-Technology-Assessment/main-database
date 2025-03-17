@@ -18,12 +18,12 @@ system:
     endmodelname: MPT-30B-Instruct
     endmodellicense: Apache 2.0
     releasedate: 2023-06
-    notes:
+    notes: Open LLM by Databricks.
 
 org:
-    name: MosaicML
-    link: https://www.mosaicml.com
-    notes:
+    name: Databricks
+    link: https://www.databricks.com
+    notes: Databricks, a data platform.
 
 # availability:
 datasources_basemodel:

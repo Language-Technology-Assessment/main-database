@@ -18,12 +18,12 @@ system:
     endmodelname: DynamiCrafter-1024
     endmodellicense: Apache-2.0
     releasedate: 2024-02
-    notes: 
+    notes: (Text-)Image-to-Video model (16 frames).
 
 org:
-    name: Jinbo Xing
-    link: https://huggingface.co/Doubiiu
-    notes: 
+    name: CUHK & Tencent AI Lab
+    link: https://www.cuhk.edu.hk/english/index.html, https://ailab.tencent.com/ailab/en/index/
+    notes: Chinese University of Hong Kong, an educational institution, and Tencent, a Chinese conglomerate.
 
 # availability:
 datasources_basemodel:

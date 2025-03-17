@@ -18,7 +18,7 @@ system:
     endmodelname: DeepSeek-R1
     endmodellicense: DeepSeek License Agreement
     releasedate: 2025-01
-    notes: 
+    notes: Mixture-of-experts reasoning model.
 
 org:
     name: DeepSeek 

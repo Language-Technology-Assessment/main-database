@@ -14,87 +14,87 @@ system:
     link: https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice
     type: audio
     performanceclass: full
-    basemodelname: 
-    endmodelname: 
-    endmodellicense: 
-    releasedate: 2015-04
-    notes: "Promised to be open sourced."
+    basemodelname: CSM-8B
+    endmodelname: CSM-8B
+    endmodellicense: Apache-2.0
+    releasedate: 2025-04
+    notes: Model which seeks to produce speech with realistic elements.
 
 org:
     name: Sesame AI
     link: https://www.sesame.com
-    notes: 
+    notes: Company seeking to make computers more life-like.
 
 # availability:
 datasources_basemodel:
     class: closed
-    link: 
-    notes: 
+    link: https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice
+    notes: Data source listed as 'a large dataset of publicly available audio'. No links provided.
 
 datasources_endmodel:
     class: closed
-    link: 
-    notes: 
+    link: https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice
+    notes: Data source listed as 'a large dataset of publicly available audio'. No links provided.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/sesame/csm-1b
+    notes: Weights of a smaller variant of the model released. 
 
 weights_endmodel:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/sesame/csm-1b
+    notes: Weights of a smaller variant of the model released. 
 
 trainingcode:
     class: closed
-    link: 
-    notes: 
+    link: https://github.com/SesameAILabs/csm
+    notes: Repository exists, however contains no training code.
 
 # documentation:
 code:
     class: closed
     link:  
-    notes: 
+    notes: No training code, so no documentation.
 
 hardware_architecture:
     class: closed
     link:  
-    notes: 
+    notes: No hardware architecture information found.
 
 preprint:
     class: closed
-    link: 
-    notes: 
+    link: https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice
+    notes: Model only publicized through blog post.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No paper found.
 
 modelcard:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/sesame/csm-1b
+    notes: Model card only provides information about usage.
 
 datasheet:
     class: closed
     link: 
-    notes: 
+    notes: No datasheet found.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/spaces/sesame/csm-1b
+    notes: Smaller version of the model available through a HuggingFace space. Full version of the model available through a site demo.
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice
+    notes: Model available under Apache-2.0, an OSI-approved license.

@@ -22,8 +22,8 @@ system:
 
 org:
     name: IBM
-    link: https://huggingface.co/ibm-granite
-    notes: 
+    link: https://www.ibm.com/
+    notes: Major technology company.
 
 # availability:
 datasources_basemodel:

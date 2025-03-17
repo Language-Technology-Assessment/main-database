@@ -17,13 +17,13 @@ system:
     basemodelname: Llama-2-13B
     endmodelname: Starling-LM-7B-Beta
     endmodellicense: Apache-2.0
-    releasedate: 
-    notes: 
+    releasedate: 2024-05
+    notes: Open language model trained through RLAIF.
 
 org:
     name: NexusFlow
     link: https://huggingface.co/Nexusflow
-    notes: 
+    notes: Company developing GenAI agents for enterprise workflows.
 
 # availability:
 datasources_basemodel:

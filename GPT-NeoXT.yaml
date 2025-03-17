@@ -18,12 +18,12 @@ system:
     endmodelname: GPT-NeoXT-Chat-Base-20B
     endmodellicense: Apache-2.0
     releasedate: 2023-03
-    notes: 
+    notes: GPT-NeoX-based chat model.
 
 org:
-    name: Together
-    link: https://huggingface.co/togethercomputer
-    notes: 
+    name: Together Computer
+    link: https://together.ai/
+    notes: Together Computer, a cloud platform for generative AI.
 
 # availability:
 datasources_basemodel:

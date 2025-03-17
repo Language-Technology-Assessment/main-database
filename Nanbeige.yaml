@@ -23,7 +23,7 @@ system:
 org:
     name: Nanbeige LLM lab
     link: https://huggingface.co/Nanbeige
-    notes: 
+    notes: LLM lab.
 
 # availability:
 datasources_basemodel:

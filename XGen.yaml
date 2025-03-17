@@ -13,17 +13,17 @@ system:
     name: XGen
     link: https://huggingface.co/Salesforce/xgen-7b-8k-inst
     type: text
-    performanceclass: full
+    performanceclass: limited
     basemodelname: XGen-7B-4K-Base
     endmodelname: XGen-7B-8k-Inst
     endmodellicense: Research purposes only
     releasedate: 2023-09
-    notes: 
+    notes: Long-sequence open-source LLM.
 
 org:
     name: Salesforce
-    link: https://huggingface.co/Salesforce
-    notes: 
+    link: https://www.salesforceairesearch.com/
+    notes: Major AI research company.
 
 # availability:
 datasources_basemodel:

@@ -21,8 +21,8 @@ system:
     notes: Arguable that Yi-6B is the base model instead, since Yi-9B was created from Yi-6B. Unclear whether the code model was based on the regular 9B model or the context-length-extended one.
 
 org:
-    name: 01-ai
-    link: https://huggingface.co/01-ai
+    name: 01.AI
+    link: https://www.01.ai/
     notes: Chinese AI start-up.
 
 # availability:
