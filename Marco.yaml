@@ -1,0 +1,101 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+system:
+    name: Marco
+    link: https://huggingface.co/Qwen/QwQ-32B
+    type: text 
+    performanceclass: full
+    basemodelname: Marco-LLM-GLO
+    endmodelname: Marco-LLM-AR-V4
+    endmodellicense: Apache-2.0
+    releasedate: 2025-02
+    notes: Multilingual model specialized to different languages.
+
+org:
+    name: Alibaba
+    link: https://huggingface.co/AIDC-AI
+    notes: AI subdivision of the Alibaba International Digital Commerce Group.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Pretraining data not specified or documented.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: Data not specified or documented.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/AIDC-AI/Marco-LLM-GLO
+    notes: Model weights made available on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/AIDC-AI/Marco-LLM-AR-V4
+    notes: Model weights made available on HuggingFace.
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No repository found.
+
+# documentation:
+code:
+    class: closed
+    link: 
+    notes: No training code, so no documentation.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2412.04003
+    notes: Hardware architecture outlined in paper.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2412.04003
+    notes: Preprint available on arXiv.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/Qwen/QwQ-32B
+    notes: Model card primarily contains usage instructions.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/AIDC-AI/Marco-LLM-AR-V4
+    notes: Model released under Apache-2.0, an OSI-approved license.
+
