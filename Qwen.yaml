@@ -10,15 +10,15 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Qwen
-    link: https://qwenlm.github.io/blog/qwen1.5/
+    name: QwQ-32B
+    link: https://huggingface.co/Qwen/QwQ-32B
     type: text 
     performanceclass: latest
-    basemodelname: QwenLM
-    endmodelname: Unspecified
-    endmodellicense: Qianwen License
-    releasedate: 2024-02
-    notes: This is based on the 72B version, the largest of 8 available model sizes.
+    basemodelname: Qwen2.5-32B
+    endmodelname: QwQ-32B
+    endmodellicense: Apache-2.0
+    releasedate: 2025-03
+    notes: Reasoning model based on Qwen2.5-32B.
 
 org:
     name: Alibaba Cloud
@@ -33,39 +33,39 @@ datasources_basemodel:
 
 datasources_endmodel:
     class: closed
-    link: https://qwen.readthedocs.io/en/latest/training/SFT/llama_factory.html
-    notes: Data not specified or documented. Some example code in repo provides directions but no details.
+    link: 
+    notes: Data not specified or documented.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/Qwen/Qwen1.5-110B/tree/main
-    notes: Also available in smaller model sizes
+    link: https://huggingface.co/Qwen/Qwen2.5-32B
+    notes: Model weights made available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/Qwen/Qwen1.5-110B-Chat/tree/main
-    notes: Also available in smaller model sizes
+    link: https://huggingface.co/Qwen/QwQ-32B
+    notes: Model weights made available on HuggingFace.
 
 trainingcode:
     class: partial
-    link: https://github.com/QwenLM/Qwen1.5/
+    link: https://github.com/QwenLM/Qwen2.5
     notes: Repository provides sparse source code and some examples for SFT
 
 # documentation:
 code:
     class: partial
-    link: https://github.com/QwenLM/Qwen1.5/
+    link: https://github.com/QwenLM/Qwen2.5
     notes: Repository is fairly well-documented.
 
 hardware_architecture:
-    class: partial
-    link: https://arxiv.org/abs/2309.16609
-    notes: Architecture only described in terms of how it was modified wrt Llama.
+    class: closed
+    link: 
+    notes: No description of hardware architecture found.
 
 preprint:
-    class: open
-    link: https://arxiv.org/abs/2309.16609
-    notes: Pre-print describes various techniques used when training the model and goes in-depth on model performance.
+    class: partial
+    link: https://arxiv.org/pdf/2407.10671, https://qwenlm.github.io/blog/qwen2.5/, https://qwenlm.github.io/blog/qwq-32b/
+    notes: Preprint exists for base model, subsequent stages described in blog posts.
 
 paper:
     class: closed
@@ -74,28 +74,28 @@ paper:
 
 modelcard:
     class: closed
-    link:
-    notes: Model card on HF only serves as a pointer to the model, no in-depth info provided.
+    link: https://huggingface.co/Qwen/QwQ-32B
+    notes: Model card primarily contains usage instructions.
 
 datasheet:
     class: closed
     link:
-    notes: No datasheet.
+    notes: No datasheet found.
 
 # access:
 package:
-    class: partial
-    link:
-    notes: No specific package provided by the authors but integrates well with many widely used packages
+    class: open
+    link: https://ollama.com/library/qwq
+    notes: Model available on Ollama.
 
 api:
     class: open
-    link:
-    notes: Available through various APIs
+    link: https://huggingface.co/spaces/Qwen/QwQ-32B-Demo
+    notes: Model available through HuggingFace space.
     metaprompt: closed
 
 licenses:
-    class: closed
-    link:
-    notes: Qianwen License
+    class: open
+    link: https://qwenlm.github.io/blog/qwq-32b/
+    notes: Model released under Apache-2.0, an OSI-approved license.
 
