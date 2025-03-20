@@ -86,8 +86,8 @@ datasheet:
 # access
 package:
     class: open
-    link: https://pypi.org/project/fschat/0.1.2/
-    notes: Available via pip
+    link: https://ollama.com/library/vicuna
+    notes: Model available on Ollama.
 
 api:
     class: partial

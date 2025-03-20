@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: partial
-    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct#how-to-use
-    notes: Available through transformers library or trl.
+    class: open
+    link: https://ollama.com/library/smollm2
+    notes: Model available on Ollama.
 
 api:
     class: partial

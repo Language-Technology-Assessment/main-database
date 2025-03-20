@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: closed
-    link: 
-    notes: No package found.
+    class: open
+    link: https://ollama.com/library/codellama
+    notes: Model available on Ollama.
 
 api:
     class: open

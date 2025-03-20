@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: partial
-    link:
-    notes: Available through development version of transformers.
+    class: open
+    link: https://ollama.com/library/phi4
+    notes: Model available on Ollama.
 
 api:
     class: open

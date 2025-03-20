@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: partial
-    link: https://huggingface.co/Intel/neural-chat-7b-v3-1#fp32-inference-with-transformers
-    notes: Code for running with transformers provided by Intel
+    class: open
+    link: https://ollama.com/library/neural-chat
+    notes: Model available on Ollama.
 
 api:
     class: closed

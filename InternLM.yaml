@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://ollama.com/library/internlm2
+    notes: Older version of model available on Ollama.
 
 api:
     class: closed

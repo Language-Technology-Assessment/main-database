@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: partial
-    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct
-    notes: Package only available through transformers.
+    class: open
+    link: https://ollama.com/library/olmo2
+    notes: Model available on Ollama.
 
 api:
     class: partial
