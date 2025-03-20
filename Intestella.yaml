@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: Intestella
+    link: https://huggingface.co/amd/Instella-3B-Instruct
+    type: text
+    performanceclass: full
+    basemodelname: Instella-3B
+    endmodelname: Instella-3B-Instruct
+    endmodellicense: Research-only RAIL-M5
+    releasedate: 2025-03
+    notes: Open LLM trained entirely on AMD GPUs.
+
+org:
+    name: AMD
+    link: https://www.amd.com/en.html
+    notes: AMD, a major chip manufacturer.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/amd/Instella-3B-Instruct
+    notes: Data sources laid out in model card.
+
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/amd/Instella-3B-Instruct
+    notes: Data sources laid out in model card.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/amd/Instella-3B
+    notes: Weights published on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/amd/Instella-3B-Instruct
+    notes: Weights published on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/AMD-AIG-AIMA/Instella
+    notes: Training code published on GitHub.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/AMD-AIG-AIMA/Instella
+    notes: Code is well-documented.
+
+hardware_architecture:
+    class: open
+    link: https://rocm.blogs.amd.com/artificial-intelligence/introducing-instella-3B/README.html
+    notes: Hardware architecture outlined in blog post.
+
+preprint:
+    class: closed
+    link: https://rocm.blogs.amd.com/artificial-intelligence/introducing-instella-3B/README.html
+    notes: Model only publicized through blog post.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/amd/Instella-3B-Instruct
+    notes: Model card contains the requisite detail.
+
+datasheet:
+    class: open
+    link: https://huggingface.co/amd/Instella-3B-Instruct
+    notes: All datasets used are open and documented.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: 
+    notes: Research-only RAIL-M5, not an OSI-approved license.
