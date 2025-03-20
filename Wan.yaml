@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: closed
-    link:
-    notes: No package found.
+    class: open
+    link: https://github.com/kijai/ComfyUI-WanVideoWrapper
+    notes: ComfyUI workflow for model available.
 
 api:
     class: open

@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://github.com/kijai/ComfyUI-MimicMotionWrapper
+    notes: ComfyUI workflow for model available.
 
 api:
     class: closed
