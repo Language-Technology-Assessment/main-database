@@ -11,7 +11,7 @@
 
 system:
     name: Marco
-    link: https://huggingface.co/Qwen/QwQ-32B
+    link: https://huggingface.co/AIDC-AI/Marco-LLM-GLO
     type: text 
     performanceclass: full
     basemodelname: Marco-LLM-GLO
