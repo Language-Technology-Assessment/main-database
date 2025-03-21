@@ -90,8 +90,8 @@ package:
 
 api:
     class: open
-    link: platform.deepseek.com
-    notes: Available through various APIs.
+    link: https://api-docs.deepseek.com/
+    notes: API available, modelled on OpenAI API
     metaprompt: closed
 
 licenses:
