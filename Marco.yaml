@@ -10,20 +10,20 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: QwQ-32B
-    link: https://huggingface.co/Qwen/QwQ-32B
+    name: Marco
+    link: https://huggingface.co/AIDC-AI/Marco-LLM-GLO
     type: text 
-    performanceclass: latest
-    basemodelname: Qwen2.5-32B
-    endmodelname: QwQ-32B
+    performanceclass: full
+    basemodelname: Marco-LLM-GLO
+    endmodelname: Marco-LLM-AR-V4
     endmodellicense: Apache-2.0
-    releasedate: 2025-03
-    notes: Reasoning model based on Qwen2.5-32B.
+    releasedate: 2025-02
+    notes: Multilingual model specialized to different languages.
 
 org:
-    name: Alibaba Cloud
-    link: https://www.alibabacloud.com/
-    notes: Alibaba Cloud, a subdivision of the Chinese multinational technology company Alibaba.
+    name: Alibaba
+    link: https://huggingface.co/AIDC-AI
+    notes: AI subdivision of the Alibaba International Digital Commerce Group.
 
 # availability:
 datasources_basemodel:
@@ -38,34 +38,34 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/Qwen/Qwen2.5-32B
+    link: https://huggingface.co/AIDC-AI/Marco-LLM-GLO
     notes: Model weights made available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/Qwen/QwQ-32B
+    link: https://huggingface.co/AIDC-AI/Marco-LLM-AR-V4
     notes: Model weights made available on HuggingFace.
 
 trainingcode:
-    class: partial
-    link: https://github.com/QwenLM/Qwen2.5
-    notes: Repository provides sparse source code and some examples for SFT
+    class: closed
+    link: 
+    notes: No repository found.
 
 # documentation:
 code:
-    class: partial
-    link: https://github.com/QwenLM/Qwen2.5
-    notes: Repository is fairly well-documented.
-
-hardware_architecture:
     class: closed
     link: 
-    notes: No description of hardware architecture found.
+    notes: No training code, so no documentation.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2412.04003
+    notes: Hardware architecture outlined in paper.
 
 preprint:
-    class: partial
-    link: https://arxiv.org/pdf/2407.10671, https://qwenlm.github.io/blog/qwen2.5/, https://qwenlm.github.io/blog/qwq-32b/
-    notes: Preprint exists for base model, subsequent stages described in blog posts.
+    class: open
+    link: https://arxiv.org/pdf/2412.04003
+    notes: Preprint available on arXiv.
 
 paper:
     class: closed
@@ -84,18 +84,18 @@ datasheet:
 
 # access:
 package:
-    class: open
-    link: https://ollama.com/library/qwq
-    notes: Model available on Ollama.
+    class: closed
+    link: 
+    notes: No package found.
 
 api:
-    class: open
-    link: https://huggingface.co/spaces/Qwen/QwQ-32B-Demo
-    notes: Model available through HuggingFace space.
+    class: closed
+    link: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
     class: open
-    link: https://qwenlm.github.io/blog/qwq-32b/
+    link: https://huggingface.co/AIDC-AI/Marco-LLM-AR-V4
     notes: Model released under Apache-2.0, an OSI-approved license.
 

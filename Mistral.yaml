@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: partial
-    link: https://docs.mistral.ai/quickstart/
-    notes: Docker image shared on github
+    class: open
+    link: https://ollama.com/library/mistral-large
+    notes: Model available on Ollama.
 
 api:
     class: open

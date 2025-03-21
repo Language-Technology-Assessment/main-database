@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: CascadeV
+    link: https://huggingface.co/ByteDance/CascadeV
+    type: video
+    performanceclass: limited
+    basemodelname: PixArt-Sigma
+    endmodelname: CascadeV
+    endmodellicense: CreativeML Open RAIL++-M License
+    releasedate: 2024-09
+    notes: Video generation model implementing the Würschten architecture.
+
+org:
+    name: ByteDance
+    link: https://www.bytedance.com/
+    notes: ByteDance, the parent company of TikTok.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Internal dataset, apparantly undisclosed.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: No data sources found.
+
+weights_basemodel:
+    class: open
+    link: https://github.com/PixArt-alpha/PixArt-sigma
+    notes: Model made available on GitHub.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/ByteDance/CascadeV
+    notes: Weights made available on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/bytedance/CascadeV
+    notes: Training code published on GitHub.
+
+# documentation:
+code:
+    class: partial
+    link: 
+    notes: Training code sparsely documented.
+
+hardware_architecture:
+    class: closed
+    link: 
+    notes: No hardware architecture information found.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2306.00637
+    notes: Preprint available on arXiv.
+
+paper:
+    class: open
+    link: https://openreview.net/forum?id=gU58d5QeGv
+    notes: Paper submitted to ICLR 2024 oral.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/ByteDance/CascadeV
+    notes: Model card contains most required information, but lacks details on training data and fine-tuning.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found.
+
+api:
+    class: closed
+    link:
+    notes: No API found.
+    metaprompts:
+
+licenses:
+    class: closed
+    link: https://huggingface.co/ByteDance/CascadeV
+    notes: CreativeML Open RAIL++-M License. Not an OSI-approved license.

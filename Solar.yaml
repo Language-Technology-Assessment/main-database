@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: closed
-    link:
-    notes: Package not provided
+    class: open
+    link: https://ollama.com/library/solar
+    notes: Model available on Ollama.
 
 api:
     class: partial

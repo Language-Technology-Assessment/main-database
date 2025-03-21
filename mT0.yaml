@@ -48,14 +48,14 @@ weights_endmodel:
 
 trainingcode:
     class: partial
-    link: https://arxiv.org/pdf/2010.11934
-    notes: 
+    link: https://github.com/google-research/t5x/blob/main/docs/usage/finetune.md
+    notes: Training procedure described in a guide with some code, but no model-specific repository available
 
 # documentation:
 code:
-    class: closed
-    link:  
-    notes: 
+    class: partial
+    link: https://arxiv.org/pdf/2010.11934 
+    notes: Training procedure
 
 hardware_architecture:
     class: partial

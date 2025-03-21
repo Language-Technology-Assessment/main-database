@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://docs.comfy.org/advanced/hunyuan-video
+    notes: ComfyUI workflow for model available.
 
 api:
     class: closed

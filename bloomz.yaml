@@ -21,77 +21,77 @@ system:
     notes: Large open multilingual language model.
 
 org:
-    name: bigscience-workshop
-    link: https://github.com/bigscience-workshop
+    name: BigScience Workshop
+    link: https://bigscience.huggingface.co/
     notes: Research workshop on large multilingual models.
 
 # availability:
 datasources_basemodel:
     class: open
     link: https://github.com/bigscience-workshop/xmtf#data
-    notes: Data made available & documented in detail in repo and preprint
+    notes: Data made available & documented in detail in repo and preprint.
     
 datasources_endmodel:
     class: open
     link: https://huggingface.co/datasets/bigscience/xP3all
-    notes: From the documentation 'xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks'
+    notes: From the documentation 'xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks.'
 
 weights_basemodel:
     class: open
-    link: https://github.com/bigscience-workshop/xmtf#models
-    notes: Model made available on github
+    link: https://huggingface.co/bigscience/bloom
+    notes: Weights made available on HuggingFace.
 
 weights_endmodel:
-    class: partial
-    link: https://huggingface.co/bigscience/bloomz-optimizer-states/tree/main
-    notes: Fine-tuned checkpoint available for download
+    class: open
+    link: https://huggingface.co/bigscience/bloomz-p3
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
     class: open
     link: https://github.com/bigscience-workshop/xmtf
-    notes: Repository provides a guided overview to all components
+    notes: Repository provides a guided overview to all components.
 
 # documentation
 code:
     class: open
     link: https://github.com/bigscience-workshop/xmtf
-    notes: Code well documented and actively maintained
+    notes: Code well-documented.
 
 hardware_architecture:
     class: open
-    link: https://github.com/bigscience-workshop/xmtf#create-xp3x
-    notes: Architecture described in preprint, code available in github repo, recipe on HuggingFace
+    link: https://arxiv.org/pdf/2211.05100, https://github.com/bigscience-workshop/xmtf#create-xp3x
+    notes: Architecture described in preprint, code available in github repo, recipe on HuggingFace.
 
 preprint:
     class: open
-    link: https://arxiv.org/abs/2211.05100
-    notes: Preprint (updated June 2023) of 65 pages + 10 page appendix
+    link: https://arxiv.org/abs/2211.05100, https://arxiv.org/pdf/2211.01786
+    notes: Preprints for base and fine-tuned models available on arXiv.
 
 paper:
     class: open
     link: https://aclanthology.org/2023.acl-long.891/
-    notes: Peer-reviewed paper of 9 pages + 114 page appendix describes the multitask finetuning (instruction tuning) of BLOOM (see preprint) to form BLOOMZ
+    notes: Peer-reviewed paper of 9 pages + 114 page appendix describes the multitask finetuning (instruction tuning) of BLOOM (see preprint) to form BLOOMZ.
 
 modelcard:
     class: open
-    link: https://huggingface.co/bigscience/bloomz
-    notes: Model card
+    link: https://huggingface.co/bigscience/bloomz-p3
+    notes: Model card provides the requisite detail.
 
 datasheet:
     class: open
     link: https://huggingface.co/datasets/bigscience/xP3
-    notes: Dataset documented in dataset card at HuggingFace
+    notes: Dataset documented in dataset card at HuggingFace.
 
 # access
 package:
     class: closed
     link:
-    notes: No packages published
+    notes: No packages published.
 
 api:
-    class: open
+    class: closed
     link: https://huggingface.co/spaces/bigscience/petals-api
-    notes: Petals API via HuggingFace not always available ('not enough hardware capacity')
+    notes: Petals API provides access through a HuggingFace Space, however API is currently paused.
     metaprompt: closed
     
 licenses:

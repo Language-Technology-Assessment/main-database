@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: closed
-    link:
-    notes: No package available. A package is available on PyPi, however its origin is dubious (https://github.com/pypi/support/issues/3178).
+    class: open
+    link: https://ollama.com/library/wizardlm2
+    notes: Model available on Ollama.
 
 api:
     class: closed

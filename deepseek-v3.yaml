@@ -84,9 +84,9 @@ datasheet:
 
 # access:
 package:
-    class: partial
-    link:
-    notes: No specific package provided by the authors but integrates well with many widely used packages.
+    class: open
+    link: https://ollama.com/library/deepseek-v3
+    notes: Model available on Ollama.
 
 api:
     class: open

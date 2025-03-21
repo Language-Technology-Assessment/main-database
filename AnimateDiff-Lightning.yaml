@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+
+system:
+    name: AnimateDiff-Lightning
+    link: https://huggingface.co/ByteDance/AnimateDiff-Lightning
+    type: video
+    performanceclass: limited
+    basemodelname: AnimateDiff-SD1.5-v2
+    endmodelname: AnimateDiff-Lightning
+    endmodellicense: CreativeML-OpenRAIL-M
+    releasedate: 2024-03
+    notes: Video generation model using progressive adversarial diffusion distillation. Distilled from various models.
+
+org:
+    name: ByteDance
+    link: https://www.bytedance.com/
+    notes: ByteDance, the parent company of TikTok.
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: https://arxiv.org/pdf/2307.04725
+    notes: Paper mentions WebVid-10M as one base dataset. A great deal of synthetic data was used, which is not released.
+
+datasources_endmodel:
+    class: partial
+    link: https://arxiv.org/pdf/2403.12706
+    notes: Paper mentions WebVid-10M as one base dataset. A great deal of synthetic data was used, which is not released.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/guoyww/animatediff
+    notes: Weights made available on HuggingFace.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/ByteDance/AnimateDiff-Lightning
+    notes: Weights made available on HuggingFace.
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No training code found.
+
+# documentation:
+code:
+    class: closed
+    link: 
+    notes: No training code, so no documentation.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2403.12706
+    notes: Hardware architecture described in paper.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2403.12706
+    notes: Preprint available on arXiv.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/ByteDance/AnimateDiff-Lightning
+    notes: Model card primarily contains information on usage and model architecture. No information provided on training and fine-tuning.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: open
+    link: https://huggingface.co/ByteDance/AnimateDiff-Lightning#comfyui-usage
+    notes: ComfyUI workflow for model available.
+
+api:
+    class: open
+    link: https://huggingface.co/spaces/ByteDance/AnimateDiff-Lightning
+    notes: HuggingFace space containing model available.
+    metaprompts:
+
+licenses:
+    class: closed
+    link: https://huggingface.co/ByteDance/AnimateDiff-Lightning
+    notes: Model released under CreativeML-OpenRAIL-M, not an OSI-approved license.

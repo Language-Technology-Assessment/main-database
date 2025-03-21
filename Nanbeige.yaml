@@ -89,7 +89,7 @@ package:
     notes: No package found
 
 api:
-    class: partial
+    class: open
     link: https://huggingface.co/spaces/Nanbeige/Nanbeige-Plus-Chat-v0.1
     notes: No API, but HuggingFace space available
     metaprompt: closed
