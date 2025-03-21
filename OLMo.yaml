@@ -11,11 +11,11 @@
 
 system:
     name: OLMo
-    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct
+    link: https://huggingface.co/collections/allenai/olmo-2-674117b93ab84e98afc72edc
     type: text 
     performanceclass: full
-    basemodelname: OLMo-2-1124-13B
-    endmodelname: OLMo-2-1124-13B-Instruct
+    basemodelname: OLMo-2-0325-32B
+    endmodelname: OLMo-2-0325-32B-Instruct
     endmodellicense: Apache 2.0
     releasedate: 2024-11
     notes: Open LLM trained from scratch by Allen AI.
@@ -23,7 +23,7 @@ system:
 org:
     name: Ai2
     link: https://allenai.org
-    notes: Allen Institute for AI (non-profit research institute)
+    notes: Allen Institute for AI (non-profit research institute).
 
 # availability:
 datasources_basemodel:
@@ -32,9 +32,9 @@ datasources_basemodel:
     notes: Training data for base model released and use documented.
 
 datasources_endmodel:
-    class: partial
-    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct/blob/main/allenai/tulu-3-sft-olmo-2-mixture, https://huggingface.co/datasets/allenai/olmo-2-1124-13b-preference-mix, https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints
-    notes: Data for fine-tuning published in a well-organized manner, however one of the data sets linked leads to a 404 page.
+    class: open
+    link: https://huggingface.co/datasets/allenai/tulu-3-sft-olmo-2-mixture, https://huggingface.co/datasets/allenai/olmo-2-1124-13b-preference-mix, https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints
+    notes: Data for fine-tuning published in a well-organized manner.
 
 weights_basemodel:
     class: open
@@ -49,18 +49,18 @@ weights_endmodel:
 trainingcode:
     class: open
     link: https://github.com/allenai/OLMo
-    notes: Multiple repos with training, architecture and fine-tuning code available
+    notes: Multiple repos with training, architecture and fine-tuning code available.
 
 # documentation:
 code:
     class: open
     link: https://github.com/allenai/OLMo
-    notes: repositories and code well-described, commented and documented
+    notes: Repositories and code well-described, commented and documented.
 
 hardware_architecture:
-    class: partial
+    class: open
     link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct#model-sources
-    notes: Architecture documented in some detail, however a technical blog post and/or paper is as yet missing to provide full info.
+    notes: Architecture documented in requisite detail.
 
 preprint:
     class: open
@@ -78,9 +78,9 @@ modelcard:
     notes: Model card provides broad overview and links to full details.
 
 datasheet:
-    class: partial
-    link: https://huggingface.co/datasets/allenai/olmo-2-1124-13b-preference-mix, https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints
-    notes: Data sheets are well-documented for extant links, however one link is currently not working.
+    class: open
+    link: https://huggingface.co/datasets/allenai/tulu-3-sft-olmo-2-mixture, https://huggingface.co/datasets/allenai/olmo-2-1124-13b-preference-mix, https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints
+    notes: Data sheets are well-documented and provide requisite info.
 
 # access:
 package:
@@ -91,10 +91,10 @@ package:
 api:
     class: partial
     link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct
-    notes: Available through HuggingFace though model is too large to run on free inference API
+    notes: Available through HuggingFace though model does not run on free inference API. Inference endpoints are available.
     metaprompt: closed
 
 licenses:
     class: open
     link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct#license-and-use
-    notes: Apache 2.0
+    notes: Apache 2.0, an OSI-approved license.
