@@ -10,7 +10,7 @@
 # Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
 
 system:
-    name: Tulu
+    name: Tülu
     link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B
     type: text 
     performanceclass: full
@@ -18,7 +18,7 @@ system:
     endmodelname: Llama-3.1-Tulu-3-405B
     endmodellicense: Llama 3.1 Community License Agreement
     releasedate: 2023-06
-    notes: Tülu, a Llama-based model from AllenAI.
+    notes: Tülu, a Llama-based model from AllenAI with a relatively open post-training recipe.
 
 org:
     name: Ai2
@@ -29,7 +29,7 @@ org:
 datasources_basemodel:
     class: closed
     link:
-    notes: Based on Llama3.1 so nothing known about training data.
+    notes: Based on Llama3.1 so nothing known about pre-training data of base mode.
 
 datasources_endmodel:
     class: open
