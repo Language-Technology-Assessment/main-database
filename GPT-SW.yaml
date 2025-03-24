@@ -1,13 +1,13 @@
 ---
 # Thank you for contributing!
 # In filling out this yaml file, please follow the criteria as described here:
-# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+# https://osai-index.eu/contribute
 
 # You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
-# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
-# and a citation to the paper in which the initial dataset & criteria were published:
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
 
-# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
 system:
     name: GPT-SW3
