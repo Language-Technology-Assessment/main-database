@@ -28,12 +28,12 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link: https://huggingface.co/datasets/open-web-math/open-web-math, https://huggingface.co/datasets/codeparrot/github-code-clean, https://huggingface.co/datasets/bigcode/starcoderdata
+    link: ["https://huggingface.co/datasets/open-web-math/open-web-math", "https://huggingface.co/datasets/codeparrot/github-code-clean", "https://huggingface.co/datasets/bigcode/starcoderdata"]
     notes: Base model data shared on HuggingFace.
 
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/datasets/bigcode/commitpackft, https://huggingface.co/datasets/meta-math/MetaMathQA, https://huggingface.co/datasets/TIGER-Lab/MathInstruct
+    link: ["https://huggingface.co/datasets/bigcode/commitpackft", "https://huggingface.co/datasets/meta-math/MetaMathQA", "https://huggingface.co/datasets/TIGER-Lab/MathInstruct"]
     notes: End model data shared on HuggingFace.
 
 weights_basemodel:
@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: partial
-    link: https://huggingface.co/datasets/open-web-math/open-web-math, https://huggingface.co/datasets/codeparrot/github-code-clean, https://huggingface.co/datasets/bigcode/starcoderdata, https://huggingface.co/datasets/bigcode/commitpackft, https://huggingface.co/datasets/meta-math/MetaMathQA, https://huggingface.co/datasets/TIGER-Lab/MathInstruct
+    link: ["https://huggingface.co/datasets/open-web-math/open-web-math", "https://huggingface.co/datasets/codeparrot/github-code-clean", "https://huggingface.co/datasets/bigcode/starcoderdata", "https://huggingface.co/datasets/bigcode/commitpackft", "https://huggingface.co/datasets/meta-math/MetaMathQA", "https://huggingface.co/datasets/TIGER-Lab/MathInstruct"]
     notes: Some data sources are well-documented, but not all.
 
 # access:

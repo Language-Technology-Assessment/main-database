@@ -33,12 +33,12 @@ trainingcode:
 
 datasources_basemodel:
     class: open
-    link: https://huggingface.co/datasets/yulan-team/YuLan-Mini-Datasets, https://arxiv.org/pdf/2412.17743
+    link: ["https://huggingface.co/datasets/yulan-team/YuLan-Mini-Datasets", "https://arxiv.org/pdf/2412.17743"]
     notes: Datasets shared on HuggingFace, table describing dataset mix provided in paper.
     
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/datasets/yulan-team/YuLan-Mini-Datasets, https://arxiv.org/pdf/2412.17743
+    link: ["https://huggingface.co/datasets/yulan-team/YuLan-Mini-Datasets", "https://arxiv.org/pdf/2412.17743"]
     notes: Datasets shared on HuggingFace, table describing dataset mix provided in paper.  
     
 weights_basemodel:

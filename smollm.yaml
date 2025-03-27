@@ -96,6 +96,6 @@ api:
 
 licenses:
     class: open
-    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B#license, https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct#license
+    link: ["https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B#license", "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct#license"]
     notes: Both base model and fine-tuned model are licensed under Apache-2.0.
 

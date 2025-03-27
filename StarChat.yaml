@@ -33,7 +33,7 @@ datasources_basemodel:
 
 datasources_endmodel:
     class: partial
-    link: https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized, https://huggingface.co/datasets/HuggingFaceH4/orca_dpo_pairs
+    link: ["https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized", "https://huggingface.co/datasets/HuggingFaceH4/orca_dpo_pairs"]
     notes: Data sources for end model published on HuggingFace. Data sources for intermediate model not published.
 
 weights_basemodel:
@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: partial
-    link: https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized, https://huggingface.co/datasets/HuggingFaceH4/orca_dpo_pairs
+    link: ["https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized", "https://huggingface.co/datasets/HuggingFaceH4/orca_dpo_pairs"]
     notes: Data sheets exist for end model data sources, but not intermediate model ones.
 
 # access:

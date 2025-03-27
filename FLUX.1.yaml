@@ -92,7 +92,7 @@ package:
 
 api:
     class: partial
-    link: https://docs.bfl.ml/, https://replicate.com/collections/flux, https://fal.ai/models/fal-ai/flux/dev
+    link: ["https://docs.bfl.ml/", "https://replicate.com/collections/flux", "https://fal.ai/models/fal-ai/flux/dev"]
     notes: Various paid APIs exist.
     metaprompts:
 

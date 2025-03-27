@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: partial
-    link: https://huggingface.co/datasets/CohereForAI/aya_dataset, https://huggingface.co/datasets/ClusterlabAi/InstAr-500k
+    link: ["https://huggingface.co/datasets/CohereForAI/aya_dataset", "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k"]
     notes: Datasheets and documentation available for fine-tuning datasets used. Base model data sources contain a few data sources without data sheets and a few datasets which are now unavailable.
 
 # access:

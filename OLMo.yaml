@@ -28,12 +28,12 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link: https://huggingface.co/datasets/allenai/olmo-mix-1124, https://huggingface.co/datasets/allenai/dolmino-mix-1124
+    link: ["https://huggingface.co/datasets/allenai/olmo-mix-1124", "https://huggingface.co/datasets/allenai/dolmino-mix-1124"]
     notes: Training data for base model released and use documented.
 
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/datasets/allenai/tulu-3-sft-olmo-2-mixture, https://huggingface.co/datasets/allenai/olmo-2-1124-13b-preference-mix, https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints
+    link: ["https://huggingface.co/datasets/allenai/tulu-3-sft-olmo-2-mixture", "https://huggingface.co/datasets/allenai/olmo-2-1124-13b-preference-mix", "https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints"]
     notes: Data for fine-tuning published in a well-organized manner.
 
 weights_basemodel:
@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: open
-    link: https://huggingface.co/datasets/allenai/tulu-3-sft-olmo-2-mixture, https://huggingface.co/datasets/allenai/olmo-2-1124-13b-preference-mix, https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints
+    link: ["https://huggingface.co/datasets/allenai/tulu-3-sft-olmo-2-mixture", "https://huggingface.co/datasets/allenai/olmo-2-1124-13b-preference-mix", "https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints"]
     notes: Data sheets are well-documented and provide requisite info.
 
 # access:

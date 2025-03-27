@@ -28,7 +28,7 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link: https://huggingface.co/collections/yzwang/x2i-dataset-674c66d1d700f7f816a9590d, https://arxiv.org/pdf/2409.11340
+    link: ["https://huggingface.co/collections/yzwang/x2i-dataset-674c66d1d700f7f816a9590d", "https://arxiv.org/pdf/2409.11340"]
     notes: Dataset made available, public datasets used to create it outlined in paper.
 
 datasources_endmodel:
@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: open
-    link: https://huggingface.co/datasets/yzwang/X2I-subject-driven, https://huggingface.co/datasets/yzwang/X2I-text-to-image, https://huggingface.co/datasets/yzwang/X2I-mm-instruction, https://huggingface.co/datasets/yzwang/X2I-in-context-learning, https://huggingface.co/datasets/yzwang/X2I-computer-vision
+    link: ["https://huggingface.co/datasets/yzwang/X2I-subject-driven", "https://huggingface.co/datasets/yzwang/X2I-text-to-image", "https://huggingface.co/datasets/yzwang/X2I-mm-instruction", "https://huggingface.co/datasets/yzwang/X2I-in-context-learning", "https://huggingface.co/datasets/yzwang/X2I-computer-vision"]
     notes: Data thoroughly outlined.
 
 # access:

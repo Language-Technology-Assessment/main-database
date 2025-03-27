@@ -28,7 +28,7 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link: https://huggingface.co/datasets/cerebras/SlimPajama-627B, https://huggingface.co/datasets/manu/project_gutenberg
+    link: ["https://huggingface.co/datasets/cerebras/SlimPajama-627B", "https://huggingface.co/datasets/manu/project_gutenberg"]
     notes: Data sources used to train the base model shared. Model uses a combination of SlimPajama and Project Gutenberg.
 
 datasources_endmodel:
@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: open
-    link: https://huggingface.co/datasets/cerebras/SlimPajama-627B, https://huggingface.co/datasets/manu/project_gutenberg, https://huggingface.co/datasets/bigcode/starcoderdata
+    link: ["https://huggingface.co/datasets/cerebras/SlimPajama-627B", "https://huggingface.co/datasets/manu/project_gutenberg", "https://huggingface.co/datasets/bigcode/starcoderdata"]
     notes: All data sources are well-documented.
 
 # access:

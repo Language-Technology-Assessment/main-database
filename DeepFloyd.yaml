@@ -21,8 +21,8 @@ system:
     notes: Pixel-based triple-cascaded diffusion model.
 
 org:
-    name: DeepFloyd, StabilityAI, LAION
-    link: https://huggingface.co/DeepFloyd, https://stability.ai/, LAION (major contributors)
+    name: DeepFloyd, StabilityAI, LAION (major contributors)
+    link: ["https://huggingface.co/DeepFloyd", "https://stability.ai/", "https://laion.ai/"]
     notes: Collaboration between various organizations.
 
 # availability:

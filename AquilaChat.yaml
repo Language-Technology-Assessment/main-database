@@ -48,13 +48,13 @@ weights_endmodel:
 
 trainingcode:
     class: open
-    link: https://github.com/FlagOpen/FlagScale, https://github.com/FlagAI-Open/Aquila2
+    link: ["https://github.com/FlagOpen/FlagScale", "https://github.com/FlagAI-Open/Aquila2"]
     notes: Training code made available through GitHub.
 
 # documentation:
 code:
     class: partial
-    link: https://github.com/FlagOpen/FlagScale, https://github.com/FlagAI-Open/Aquila2
+    link: ["https://github.com/FlagOpen/FlagScale", "https://github.com/FlagAI-Open/Aquila2"]
     notes: Code sparsely documented. Quite a few examples are provided.
 
 hardware_architecture:

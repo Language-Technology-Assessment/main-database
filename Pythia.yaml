@@ -22,7 +22,7 @@ system:
 
 org:
     name: EleutherAI, Together Computer
-    link: https://huggingface.co/EleutherAI, https://together.ai/
+    link: ["https://huggingface.co/EleutherAI", "https://together.ai/"]
     notes: Base model developed by EleutherAI, a major player in the open-source space. Fine-tune by Together Computer, a cloud platform for generative AI.
 
 # availability:
@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: partial
-    link: https://huggingface.co/datasets/EleutherAI/the_pile_deduplicated, https://github.com/togethercomputer/OpenDataHub
+    link: ["https://huggingface.co/datasets/EleutherAI/the_pile_deduplicated", "https://github.com/togethercomputer/OpenDataHub"]
     notes: Only end model dataset documented.
 
 # access

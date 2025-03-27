@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: partial
-    link: https://huggingface.co/datasets/nickrosh/Evol-Instruct-Code-80k-v1, https://huggingface.co/datasets/codefuse-ai/CodeExercise-Python-27k, https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1
+    link: ["https://huggingface.co/datasets/nickrosh/Evol-Instruct-Code-80k-v1", "https://huggingface.co/datasets/codefuse-ai/CodeExercise-Python-27k", "https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1"]
     notes: Data sheets available for some data sources, however synthetic data is not made publicly available.
 
 # access:

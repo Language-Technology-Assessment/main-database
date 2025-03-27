@@ -33,7 +33,7 @@ datasources_basemodel:
 
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/datasets/Open-Orca/SlimOrca, https://huggingface.co/datasets/meta-math/MetaMathQA, https://huggingface.co/datasets/Intel/orca_dpo_pairs
+    link: ["https://huggingface.co/datasets/Open-Orca/SlimOrca", "https://huggingface.co/datasets/meta-math/MetaMathQA", "https://huggingface.co/datasets/Intel/orca_dpo_pairs"]
     notes: Dataset used for fine-tuning is shared and available
 
 weights_basemodel:
@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: partial
-    link: https://huggingface.co/datasets/Open-Orca/SlimOrca, https://huggingface.co/datasets/meta-math/MetaMathQA, https://huggingface.co/datasets/Intel/orca_dpo_pairs
+    link: ["https://huggingface.co/datasets/Open-Orca/SlimOrca", "https://huggingface.co/datasets/meta-math/MetaMathQA", "https://huggingface.co/datasets/Intel/orca_dpo_pairs"]
     notes: Data sheets contain differing amounts of information.
 
 # access:

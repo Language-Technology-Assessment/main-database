@@ -59,12 +59,12 @@ code:
 
 hardware_architecture:
     class: open
-    link: https://arxiv.org/pdf/2211.05100, https://github.com/bigscience-workshop/xmtf#create-xp3x
+    link: ["https://arxiv.org/pdf/2211.05100", "https://github.com/bigscience-workshop/xmtf#create-xp3x"]
     notes: Architecture described in preprint, code available in github repo, recipe on HuggingFace.
 
 preprint:
     class: open
-    link: https://arxiv.org/abs/2211.05100, https://arxiv.org/pdf/2211.01786
+    link: ["https://arxiv.org/abs/2211.05100", "https://arxiv.org/pdf/2211.01786"]
     notes: Preprints for base and fine-tuned models available on arXiv.
 
 paper:

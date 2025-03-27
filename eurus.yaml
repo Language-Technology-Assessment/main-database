@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: partial
-    link: https://huggingface.co/datasets/openbmb/UltraFeedback, https://huggingface.co/datasets/openbmb/UltraInteract_sft
+    link: ["https://huggingface.co/datasets/openbmb/UltraFeedback", "https://huggingface.co/datasets/openbmb/UltraInteract_sft"]
     notes: Some data sheets are provided, however no data sheet for the combined mixtures. Some linked sheets lead to 404 pages.
 
 # access

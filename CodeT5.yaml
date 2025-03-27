@@ -28,12 +28,12 @@ org:
 # availability:
 datasources_basemodel:
     class: partial
-    link: https://pile.eleuther.ai/, https://cloud.google.com/bigquery/docs/datasets-intro
+    link: ["https://pile.eleuther.ai/", "https://cloud.google.com/bigquery/docs/datasets-intro"]
     notes: Model trained on The Pile, BigQuery datasets, and BigQuery. Not all datasets were found.
 
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/datasets/code-search-net/code_search_net, https://huggingface.co/datasets/codeparrot/github-code, https://github.com/sahil280114/codealpaca
+    link: ["https://huggingface.co/datasets/code-search-net/code_search_net", "https://huggingface.co/datasets/codeparrot/github-code", "https://github.com/sahil280114/codealpaca"]
     notes: Pretraining data from CodeSearchNet and GitHub Code. Instruction-tuning data from CodeAlpaca.
 
 weights_basemodel:
@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: partial
-    link: https://pile.eleuther.ai/, https://cloud.google.com/bigquery/docs/datasets-intro, https://huggingface.co/datasets/code-search-net/code_search_net, https://huggingface.co/datasets/codeparrot/github-code, https://github.com/sahil280114/codealpaca
+    link: ["https://pile.eleuther.ai/", "https://cloud.google.com/bigquery/docs/datasets-intro", "https://huggingface.co/datasets/code-search-net/code_search_net", "https://huggingface.co/datasets/codeparrot/github-code", "https://github.com/sahil280114/codealpaca"]
     notes: Data sheets available for most data sources, with varying levels of detail regarding collection and curation procedures.
 
 # access:
