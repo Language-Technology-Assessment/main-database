@@ -13,7 +13,7 @@ system:
     name: SantaCoder
     link: https://huggingface.co/bigcode/santacoder
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: SantaCoder
     endmodelname: SantaCoder
     endmodellicense: BigCode OpenRAIL-M v1 license agreement

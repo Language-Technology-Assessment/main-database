@@ -13,7 +13,7 @@ system:
     name: OmniGen
     link: https://huggingface.co/Shitao/OmniGen-v1
     type: image
-    performanceclass: 
+    performanceclass: full
     basemodelname: OmniGen-v1
     endmodelname: OmniGen-v1
     endmodellicense: MIT License
