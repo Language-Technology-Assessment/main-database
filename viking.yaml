@@ -18,7 +18,7 @@ system:
     endmodelname: Viking-33B
     endmodellicense:  Apache 2.0 
     releasedate: 2024-05
-    notes: Multilingual model trained on Nordic languages, English, and code. Also available as 7B and 13B model
+    notes: Multilingual model trained on Nordic languages, English, and code. Also available as 7B and 13B models.
 
 org:
     name: Silo AI, TurkuNLP, High Performance Language Technologies (HPLT)
@@ -98,3 +98,4 @@ licenses:
     class: partial
     link: 
     notes: Apache 2.0, unclear if both weights and code are under it though. 
+
