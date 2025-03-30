@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+system:
+    name: Poro-34B
+    link: https://huggingface.co/LumiOpen/Poro-34B
+    type: text
+    performanceclass: full
+    basemodelname: Poro-34B
+    endmodelname: Poro-34B
+    endmodellicense: Apache 2.0 
+    releasedate: 2024-04
+    notes: Bilingual model trained on Finnish, English, and programming languages
+
+org:
+    name: Silo AI, TurkuNLP, High Performance Language Technologies (HPLT)
+    link: ["https://www.silo.ai", "https://turkunlp.org", "https://hplt-project.org"]
+    notes: Silo AI was acquired by AMD in August 2024
+
+# availability:
+trainingcode:
+    class: open
+    link: https://github.com/LumiOpen/Megatron-DeepSpeed
+    notes: Custom fork of the Megatron-Deepspeed framework used for training Poro-34B.
+
+datasources_basemodel:
+    class: open
+    link: https://arxiv.org/html/2404.01856v1
+    notes: Training data includes SlimPajama, Finnish datasets, Tatoeba, Starcoder, and Project Gutenberg. The exact details are provided in the paper
+    
+datasources_endmodel:
+    class: open
+    link: https://arxiv.org/html/2404.01856v1
+    notes: Same as datasources_basemodel; no additional fine-tuning data specified.
+    
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/LumiOpen/Poro-34B
+    notes: Model weights available at various training checkpoints.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/LumiOpen/Poro-34B
+    notes: Final model weights released under Apache 2.0 license.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/TurkuNLP/Megatron-DeepSpeed/tree/main
+    notes: Training code and related scripts are publicly available.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/html/2404.01856v1
+    notes: Hardware architecture described in paper.
+
+preprint:
+    class: open 
+    link: https://arxiv.org/html/2404.01856v1
+    notes: Preprint available on arXiv.
+
+paper:
+    class: open
+    link: https://dspace.ut.ee/items/4556afe0-53bb-499d-a012-fa72a63cdd4d
+    notes: Paper published in the proceedings of NoDaLiDa/Baltic-HLT 2025
+
+modelcard:
+    class: open
+    link: https://huggingface.co/LumiOpen/Poro-34B
+    notes: Model card provides broad overview and links to full details.
+
+datasheet:
+    class: open
+    link: [https://huggingface.co/datasets/LumiOpen/Poro-34B-dataset,https://arxiv.org/html/2404.01856v1 ]
+    notes: All details provided on HuggingFace and pre-print
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No Packages published
+
+api:
+    class: closed
+    link: 
+    notes:
+    metaprompts: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/LumiOpen/Poro-34B#license
+    notes: Apache 2.0 license, an OSI-approved license
