@@ -32,12 +32,12 @@ trainingcode:
     notes: Custom fork of the Megatron-Deepspeed framework used for training Poro-34B.
 
 datasources_basemodel:
-    class: open
+    class: partial
     link: https://arxiv.org/html/2404.01856v1
-    notes: Training data includes SlimPajama, Finnish datasets, Tatoeba, Starcoder, and Project Gutenberg. The exact details are provided in the paper
+    notes: Even though all datasets are listed in the pre-print, some resources are no longer available
     
 datasources_endmodel:
-    class: open
+    class: partial
     link: https://arxiv.org/html/2404.01856v1
     notes: Same as datasources_basemodel; no additional fine-tuning data specified.
     
@@ -91,7 +91,7 @@ package:
 api:
     class: closed
     link: 
-    notes:
+    notes: No API found
     metaprompts: closed
 
 licenses:
