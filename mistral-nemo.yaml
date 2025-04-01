@@ -22,7 +22,7 @@ system:
 
 org:
     name: Mistral AI, NVIDIA
-    link: https://mistral.ai/, https://www.nvidia.com
+    link: ["https://mistral.ai/", "https://www.nvidia.com"]
     notes: Jointly trained by Mistral, a French AI company, and NVIDIA, a major chip manufacturer.
 
 # availability:

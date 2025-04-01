@@ -33,7 +33,7 @@ datasources_basemodel:
 
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-Instruct, https://huggingface.co/datasets/databricks/databricks-dolly-15k, https://huggingface.co/datasets/OpenAssistant/oasst1
+    link: ["https://huggingface.co/datasets/togethercomputer/RedPajama-Data-Instruct", "https://huggingface.co/datasets/databricks/databricks-dolly-15k", "https://huggingface.co/datasets/OpenAssistant/oasst1"]
     notes: The model was trained on a large collection of diverse data, including Chain-of-Thought (CoT), Public Pool of Prompts (P3) dataset, Natural-Instructions (NI) dataset. Chat-tuning using Databricks-Dolly and OASST1.
 
 weights_basemodel:
@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: open
-    link: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T, https://huggingface.co/datasets/togethercomputer/RedPajama-Data-Instruct, https://huggingface.co/datasets/databricks/databricks-dolly-15k, https://huggingface.co/datasets/OpenAssistant/oasst1
+    link: ["https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T", "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-Instruct", "https://huggingface.co/datasets/databricks/databricks-dolly-15k", "https://huggingface.co/datasets/OpenAssistant/oasst1"]
     notes: Base data sheet includes links to data and recipes to create from scratch. Other datasets are well-documented.
 
 # access:

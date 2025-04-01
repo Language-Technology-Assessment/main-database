@@ -13,7 +13,7 @@ system:
     name: PixArt
     link: https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS
     type: image
-    performanceclass: 
+    performanceclass: full
     basemodelname: PixArt-Sigma-XL-2-1024-MS
     endmodelname: PixArt-Sigma-XL-2-1024-MS
     endmodellicense: CreativeML Open RAIL++-M License

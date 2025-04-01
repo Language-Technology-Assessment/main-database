@@ -22,7 +22,7 @@ system:
 
 org:
     name: CUHK & Tencent AI Lab
-    link: https://www.cuhk.edu.hk/english/index.html, https://ailab.tencent.com/ailab/en/index/
+    link: ["https://www.cuhk.edu.hk/english/index.html", "https://ailab.tencent.com/ailab/en/index/"]
     notes: Chinese University of Hong Kong, an educational institution, and Tencent, a Chinese conglomerate.
 
 # availability:

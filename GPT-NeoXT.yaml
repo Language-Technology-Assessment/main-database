@@ -13,7 +13,7 @@ system:
     name: GPT-NeoXT
     link: https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: GPT-NeoX-20B
     endmodelname: GPT-NeoXT-Chat-Base-20B
     endmodellicense: Apache-2.0

@@ -64,7 +64,7 @@ hardware_architecture:
 
 preprint:
     class: partial
-    link: https://arxiv.org/pdf/2407.10671, https://qwenlm.github.io/blog/qwen2.5/, https://qwenlm.github.io/blog/qwq-32b/
+    link: ["https://arxiv.org/pdf/2407.10671", "https://qwenlm.github.io/blog/qwen2.5/", "https://qwenlm.github.io/blog/qwq-32b/"]
     notes: Preprint exists for base model, subsequent stages described in blog posts.
 
 paper:

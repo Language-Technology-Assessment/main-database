@@ -1,0 +1,101 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+system:
+    name: Viking
+    link: https://huggingface.co/LumiOpen/Viking-33B
+    type: text
+    performanceclass: full
+    basemodelname: Viking-33B
+    endmodelname: Viking-33B
+    endmodellicense:  Apache 2.0 
+    releasedate: 2024-05
+    notes: Multilingual model trained on Nordic languages, English, and code. Also available as 7B and 13B models.
+
+org:
+    name: Silo AI, TurkuNLP, High Performance Language Technologies (HPLT)
+    link: ["https://www.silo.ai", "https://turkunlp.org", "https://hplt-project.org"]
+    notes: Silo AI was acquired by AMD in August 2024
+
+# availability:
+trainingcode:
+    class: closed
+    link:
+    notes: No details of training code have been released
+
+datasources_basemodel:
+    class: partial
+    link:
+    notes: Trained on SlimPajama, Starcoder and mc4. However, exact details are yet to be published.
+    
+datasources_endmodel:
+    class: partial
+    link:
+    notes: Same as base model. No additional fine-tuning data specified.
+    
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/LumiOpen/Viking-7B
+    notes: Model weights available at various training checkpoints.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/LumiOpen/Viking-7B
+    notes:
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes:
+
+hardware_architecture:
+    class: partial
+    link:
+    notes: Uses a LLaMA-like GPT architecture. However, no further details have been provided.
+
+preprint:
+    class: closed
+    link:
+    notes: No preprint found
+
+paper:
+    class: closed
+    link:
+    notes: No peer reviewed paper found
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/LumiOpen/Viking-33B
+    notes: Model card provides a broad overview; more detailed documentation is forthcoming.
+
+datasheet:
+    class: closed
+    link:
+    notes: On HuggingFace "Viking is being trained on a 2 trillion token mixed dataset of English, Finnish, Swedish, Danish, Norwegian, Icelandic and code. Full details will be published soon."
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No Packages published
+
+api:
+    class: closed
+    link:
+    notes:
+    metaprompts: closed
+
+licenses:
+    class: partial
+    link: 
+    notes: Apache 2.0, unclear if both weights and code are under it though. 
+

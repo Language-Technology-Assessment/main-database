@@ -13,7 +13,7 @@ system:
     name: DeepFloyd
     link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0
     type: image
-    performanceclass: 
+    performanceclass: full
     basemodelname: IF-I-XL-V1.0
     endmodelname: IF-I-XL-V1.0
     endmodellicense: DeepFloyd IF Research License Agreement
@@ -21,9 +21,9 @@ system:
     notes: Pixel-based triple-cascaded diffusion model.
 
 org:
-    name: DeepFloyd, StabilityAI
-    link: https://huggingface.co/DeepFloyd, https://stability.ai/
-    notes: Collaboration between two organizations.
+    name: DeepFloyd, StabilityAI, LAION (major contributors)
+    link: ["https://huggingface.co/DeepFloyd", "https://stability.ai/", "https://laion.ai/"]
+    notes: Collaboration between various organizations.
 
 # availability:
 

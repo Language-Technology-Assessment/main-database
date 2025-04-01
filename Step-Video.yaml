@@ -48,7 +48,7 @@ weights_endmodel:
 
 trainingcode:
     class: closed
-    link: https://github.com/stepfun-ai/Step-Video-TI2V, https://github.com/stepfun-ai/Step-Video-T2V
+    link: ["https://github.com/stepfun-ai/Step-Video-TI2V", "https://github.com/stepfun-ai/Step-Video-T2V"]
     notes: Github available, however does not contain training code.
 
 # documentation:
@@ -64,7 +64,7 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: https://arxiv.org/pdf/2502.10248, https://arxiv.org/pdf/2503.11251
+    link: ["https://arxiv.org/pdf/2502.10248", "https://arxiv.org/pdf/2503.11251"]
     notes: Preprints made available through arXiv.
 
 paper:

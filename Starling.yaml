@@ -13,7 +13,7 @@ system:
     name: Starling
     link: https://huggingface.co/Nexusflow/Starling-LM-7B-beta
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Llama-2-13B
     endmodelname: Starling-LM-7B-Beta
     endmodellicense: Apache-2.0

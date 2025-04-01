@@ -13,7 +13,7 @@ system:
     name: SantaCoder
     link: https://huggingface.co/bigcode/santacoder
     type: code
-    performanceclass: 
+    performanceclass: full
     basemodelname: SantaCoder
     endmodelname: SantaCoder
     endmodellicense: BigCode OpenRAIL-M v1 license agreement
@@ -28,12 +28,12 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link: https://arxiv.org/pdf/2301.03988, https://huggingface.co/datasets/bigcode/the-stack
+    link: ["https://arxiv.org/pdf/2301.03988", "https://huggingface.co/datasets/bigcode/the-stack"]
     notes: Model trained from filtered data from The Stack v1.1.
 
 datasources_endmodel:
     class: open
-    link: https://arxiv.org/pdf/2301.03988, https://huggingface.co/datasets/bigcode/the-stack
+    link: ["https://arxiv.org/pdf/2301.03988", "https://huggingface.co/datasets/bigcode/the-stack"]
     notes: Model trained from filtered data from The Stack v1.1.
 
 weights_basemodel:

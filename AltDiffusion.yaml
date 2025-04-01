@@ -33,7 +33,7 @@ datasources_basemodel:
 
 datasources_endmodel:
     class: open
-    link: https://laion.ai/blog/laion-5b/, https://data.baai.ac.cn/details/WuDaoCorporaText
+    link: ["https://laion.ai/blog/laion-5b/", "https://data.baai.ac.cn/details/WuDaoCorporaText"]
     notes: Fine-tuned on LAION and WuDao. Both ostensibly publicly available.
 
 weights_basemodel:
@@ -79,7 +79,7 @@ modelcard:
 
 datasheet:
     class: partial
-    link: https://arxiv.org/pdf/2210.08402, https://github.com/BAAI-WuDao/Data
+    link: ["https://arxiv.org/pdf/2210.08402", "https://github.com/BAAI-WuDao/Data"]
     notes: Data collection procedures for LAION are outlined in a corresponding paper. The WuDao dataset is only sparsely documented, primarily in Chinese.
 
 # access:

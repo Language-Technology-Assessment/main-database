@@ -28,7 +28,7 @@ org:
 # availability:
 datasources_basemodel:
     class: partial
-    link: https://github.com/google-research/t5x, https://github.com/google-research/text-to-text-transfer-transformer/blob/main/README.md#dataset-preparation
+    link: ["https://github.com/google-research/t5x", "https://github.com/google-research/text-to-text-transfer-transformer/blob/main/README.md#dataset-preparation"]
     notes: "C4; pretraining T5X on The Pile and for finetuning on SQuAD and MNLI."
 
 datasources_endmodel:
@@ -74,7 +74,7 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/docs/transformers/en/model_doc/t5, https://huggingface.co/google-t5/t5-11b
+    link: ["https://huggingface.co/docs/transformers/en/model_doc/t5", "https://huggingface.co/google-t5/t5-11b"]
     notes: 
 
 datasheet:

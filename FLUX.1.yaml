@@ -13,7 +13,7 @@ system:
     name: FLUX.1
     link: https://huggingface.co/black-forest-labs/FLUX.1-dev
     type: image
-    performanceclass: 
+    performanceclass: full
     basemodelname: FLUX.1-Dev
     endmodelname: FLUX.1-Dev
     endmodellicense: FLUX.1 [dev] Non-Commercial License
@@ -92,7 +92,7 @@ package:
 
 api:
     class: partial
-    link: https://docs.bfl.ml/, https://replicate.com/collections/flux, https://fal.ai/models/fal-ai/flux/dev
+    link: ["https://docs.bfl.ml/", "https://replicate.com/collections/flux", "https://fal.ai/models/fal-ai/flux/dev"]
     notes: Various paid APIs exist.
     metaprompts:
 

@@ -13,7 +13,7 @@ system:
     name: StripedHyena
     link: https://huggingface.co/togethercomputer/StripedHyena-Nous-7B
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: StripedHyena-Hessian-7B
     endmodelname: StripedHyena-Nous-7B
     endmodellicense: Apache-2.0
