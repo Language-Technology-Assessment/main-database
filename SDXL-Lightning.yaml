@@ -1,0 +1,102 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+system:
+    name: SDXL-Lightning
+    link: https://huggingface.co/ByteDance/SDXL-Lightning
+    type: image
+    performanceclass: full
+    basemodelname: Stable Diffusion XL Base 1.0
+    endmodelname: SDXL-Lightning
+    endmodellicense: CreativeML Open RAIL++-M License
+    releasedate: 2024-02
+    notes: The model is distilled from Stable Diffusion XL
+
+org:
+    name: ByteDance
+    link: https://www.bytedance.com/
+    notes: Chinese technology company that owns Tiktok
+
+# availability:
+trainingcode:
+    class: closed
+    link: 
+    notes: The training code for SDXL-Lightning has not been publicly released.
+
+datasources_basemodel:
+    class: partial
+    link: https://arxiv.org/pdf/2307.01952
+    notes: Trained on subsets of ImageNET and COCO, but specific dataset details are not disclosed.
+
+datasources_endmodel:
+    class: partial
+    link: https://arxiv.org/pdf/2402.13929
+    notes: Trained on subsets of LAION and COYO, but specific dataset details are not disclosed.
+        
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0
+    notes: Available through HuggingFace in the form of SafeTensors
+        
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/ByteDance/SDXL-Lightning
+    notes: Available through HuggingFace in the form of SafeTensors
+
+
+# documentation:
+code:
+    class: closed
+    link: https://huggingface.co/ByteDance/SDXL-Lightning/discussions/1
+    notes: "On HuggingFace: 'We are currently not planning on releasing the training code.'"
+       
+hardware_architecture:
+    class: closed
+    link:
+    notes: Specific hardware details for training are not disclosed.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2402.13929
+    notes: 
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/ByteDance/SDXL-Lightning/blob/main/README.md
+    notes: HuggingFace model card omits many details on datasets, training, fine-tuning etc..
+        
+datasheet:
+    class: closed
+    link: 
+    notes: A formal datasheet has not been provided for SDXL-Lightning
+
+# access:
+
+package:
+    class: open
+    link: https://huggingface.co/ByteDance/SDXL-Lightning/tree/main
+    notes: Available through Hugging Face spaces and ComfyUI
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompts: 
+
+licenses:
+    class: closed
+    link: https://huggingface.co/ByteDance/SDXL-Lightning/blob/main/LICENSE.md
+    notes: The model is released under the CreativeML Open RAIL++-M License, not an OSI-approved license
