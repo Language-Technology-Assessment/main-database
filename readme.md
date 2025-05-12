@@ -2,9 +2,7 @@
 
 Every system is a separate yaml file. The first few fields contain basic metadata about the system/model, the rest of the file is a set of triples of `_class`, `_link` and `_notes`. Class can be one of three values: 🟩 open, 🟧 partial or 🟥 closed (leave empty to signify NA). Link is a URL providing evidence for the openness classification. Notes provide context and reasoning for the classification.
 
-You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the stipulation that attribution should come in the form of a link to http://osai-index.eu and a citation to the paper in which the dataset & criteria are published:
-
-> Liesenfeld, Andreas, and Mark Dingemanse. 2024. ‘Rethinking Open Source Generative AI: Open-Washing and the EU AI Act’. In _The 2024 ACM Conference on Fairness, Accountability, and Transparency_ (FAccT ’24), 1774–87. Rio de Janeiro, Brazil: ACM. doi:[10.1145/3630106.3659005](https://doi.org/10.1145/3630106.3659005).
+You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the stipulation that attribution should come in the form of a citation of the index files at Zenodo. doi:[10.5281/zenodo.15386042](https://doi.org/10.5281/zenodo.15386042)
 
 # Which models are included?
 
