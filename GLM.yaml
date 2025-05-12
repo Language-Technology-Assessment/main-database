@@ -11,14 +11,14 @@
 
 system:
     name: GLM
-    link: https://huggingface.co/THUDM/glm-4-9b-chat-1m
+    link: https://huggingface.co/THUDM/GLM-Z1-32B-0414
     type: text
     performanceclass: full
-    basemodelname: GLM-4-9B
-    endmodelname: GLM-4-9B-Chat-1M
-    endmodellicense: GLM-4 License
+    basemodelname: GLM-4-32B-0414
+    endmodelname: GLM-Z1-32B-0414
+    endmodellicense: MIT License
     releasedate: 2024-06
-    notes: Performant English-Chinese open-source model.
+    notes: English-Chinese reasoning model.
     
 org:
     name: Zhipu AI
@@ -27,7 +27,7 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: partial
+    class: closed
     link: 
         - http://doi.org/10.18653/v1/2022.acl-long.26
         - https://arxiv.org/abs/2406.12793
@@ -40,12 +40,12 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/THUDM/glm-4-9b
+    link: https://huggingface.co/THUDM/GLM-4-32B-0414
     notes: Model weights made available through HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/THUDM/glm-4-9b-chat-1m
+    link: https://huggingface.co/THUDM/GLM-Z1-32B-0414
     notes: Model weights made available through HuggingFace.
 
 trainingcode:
@@ -55,9 +55,9 @@ trainingcode:
 
 # documentation:
 code:
-    class: partial
+    class: closed
     link: https://github.com/THUDM/GLM-4/blob/main/README_en.md
-    notes: Some documentation available, but a lot of code is not commented or explained.
+    notes: No training code found.
 
 hardware_architecture:
     class: closed
@@ -76,7 +76,7 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/THUDM/glm-4-9b-chat-1m
+    link: https://huggingface.co/THUDM/GLM-Z1-32B-0414
     notes: Model card is provided, however only contains general and inference information.
 
 datasheet:
@@ -97,6 +97,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: https://huggingface.co/THUDM/glm-4-9b-chat-1m/blob/main/LICENSE
-    notes: GLM-4 License, not an OSI-approved license.
+    class: open
+    link: https://huggingface.co/THUDM/GLM-Z1-32B-0414
+    notes: MIT License, an OSI-approved license.

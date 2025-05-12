@@ -11,7 +11,7 @@
 
 system:
     name: DeepSeek V3
-    link: https://github.com/deepseek-ai/DeepSeek-V3
+    link: https://huggingface.co/deepseek-ai/DeepSeek-V3-0324
     type: text 
     performanceclass: latest
     basemodelname: DeepSeek-V3-Base
@@ -43,7 +43,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/deepseek-ai/DeepSeek-V3
+    link: https://huggingface.co/deepseek-ai/DeepSeek-V3-0324
     notes: 
 
 trainingcode:
