@@ -47,7 +47,7 @@ weights_endmodel:
     notes: Model weights available through HuggingFace.
 
 trainingcode:
-    class: open
+    class: partial
     link: https://github.com/allenai/open-instruct
     notes: Important effort to make available fine-tuning procedure and source code.
 
