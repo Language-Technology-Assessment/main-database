@@ -11,14 +11,14 @@
 
 system:
     name: XGen
-    link: https://huggingface.co/Salesforce/xgen-7b-8k-inst
+    link: https://huggingface.co/Salesforce/xgen-small-9B-instruct-r
     type: text
     performanceclass: limited
-    basemodelname: XGen-7B-4K-Base
-    endmodelname: XGen-7B-8k-Inst
+    basemodelname: XGen-Small-9B-Base-R 
+    endmodelname: XGen-Small-9B-Instruct-R
     endmodellicense: Research purposes only
-    releasedate: 2023-09
-    notes: Long-sequence open-source LLM.
+    releasedate: 2025-05
+    notes: Compact enterprise-ready LLM.
 
 org:
     name: Salesforce
@@ -28,73 +28,73 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link: 
-    notes: 
+    link: https://arxiv.org/pdf/2505.06496
+    notes: Data curation procedures outlined, no data sources specified.
 
 datasources_endmodel:
     class: closed
-    link: 
-    notes: 
+    link: https://arxiv.org/pdf/2505.06496
+    notes: Data curation procedures outlined, no data sources specified.
 
 weights_basemodel:
     class: closed
-    link: https://huggingface.co/Salesforce/xgen-7b-4k-base
-    notes: 
+    link: https://huggingface.co/Salesforce/xgen-small-9B-base-r
+    notes: Weights made available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/Salesforce/xgen-7b-8k-inst
-    notes: 
+    link: https://huggingface.co/Salesforce/xgen-small-9B-instruct-r
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
     class: closed
     link: 
-    notes: 
+    notes: No GitHub repo found.
 
 # documentation:
 code:
     class: closed
     link:  
-    notes: 
+    notes: No code, so no documentation.
 
 hardware_architecture:
     class: closed
     link:  
-    notes: 
+    notes: No hardware information provided.
 
 preprint:
     class: open
-    link: https://arxiv.org/abs/2309.03450
-    notes: 
+    link: https://arxiv.org/abs/2505.06496
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No peer-reviewed paper found.
 
 modelcard:
-    class: open
-    link: https://huggingface.co/Salesforce/xgen-7b-8k-inst
-    notes: 
+    class: partial
+    link: https://huggingface.co/Salesforce/xgen-small-9B-instruct-r
+    notes: Model card exists, however provides minimal information.
 
 datasheet:
     class: closed
     link: 
-    notes: 
+    notes: No datasheet found.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: 
-    notes: research purposes only
+    class: partial
+    link: https://huggingface.co/Salesforce/xgen-small-9B-instruct-r
+    notes: "cc-by-nc-sa-4.0"

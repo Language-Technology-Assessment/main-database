@@ -70,23 +70,23 @@ preprint:
 paper:
     class: closed
     link:
-    notes: No paper found.
+    notes: No peer-reviewed paper found.
 
 modelcard:
-    class: partial
+    class: open
     link: https://huggingface.co/yulan-team/YuLan-Mini-Instruct
-    notes: Model card provides information regarding training, fine-tuning, and evaluation, however none regarding hardware or model architecture.
+    notes: Model card provides the requisite information.
 
 datasheet:
-    class: closed
-    link: https://huggingface.co/datasets/yulan-team/YuLan-Mini-Datasets
-    notes: Dataset page contains source data, however no datasheet.
+    class: open
+    link: ["https://huggingface.co/datasets/yulan-team/YuLan-Mini-Datasets", "https://docs.google.com/spreadsheets/d/1YP8-loVUxgxo36UEpOwflR3GRHLieBnLlCy8g10g8RU/edit?gid=0#gid=0"]
+    notes: Dataset available on HuggingFace, comprehensive data source listing available.
 
 # access:
 package:
-    class: partial
+    class: open
     link: https://github.com/RUC-GSAI/YuLan-Mini/?tab=readme-ov-file#quick-start-
-    notes: Available through either Huggingface inference or vLLM library, no proprietary release.
+    notes: Model available through an Ollama setup.
 
 api:
     class: closed

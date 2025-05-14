@@ -11,7 +11,7 @@
 
 system:
     name: Open-Sora
-    link: https://huggingface.co/hpcai-tech/OpenSora-STDiT-v4
+    link: https://huggingface.co/hpcai-tech/Open-Sora-v2
     type: video
     performanceclass: limited
     basemodelname: Open-Sora
@@ -38,12 +38,12 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/hpcai-tech/Open-Sora/tree/main
+    link: https://huggingface.co/hpcai-tech/Open-Sora-v2
     notes:
     
 weights_endmodel:
     class: open
-    link: https://huggingface.co/hpcai-tech/Open-Sora/tree/main
+    link: https://huggingface.co/hpcai-tech/Open-Sora-v2
     notes:
 
 trainingcode:
@@ -64,7 +64,7 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: https://arxiv.org/abs/2412.20404
+    link: ["https://arxiv.org/pdf/2503.09642", "https://arxiv.org/abs/2412.20404"]
     notes:
 
 paper:
@@ -74,7 +74,7 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/hpcai-tech/Open-Sora
+    link: https://huggingface.co/hpcai-tech/Open-Sora-v2
     notes: lack of detail
 
 datasheet:
@@ -95,6 +95,6 @@ api:
     metaprompts:
 
 licenses:
-    class: partial
+    class: open
     link:
     notes: weights and code as apache 2

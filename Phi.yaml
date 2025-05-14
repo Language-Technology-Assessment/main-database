@@ -15,9 +15,9 @@ system:
     type: text 
     performanceclass: latest
     basemodelname: Phi-4
-    endmodelname: Phi-4
+    endmodelname: Phi-4-reasoning
     endmodellicense: MIT License
-    releasedate: 2024-05
+    releasedate: 2025-04
     notes: Text-based LLM by Microsoft.
 
 org:
@@ -28,12 +28,12 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link:
+    link: https://arxiv.org/abs/2412.08905
     notes: No datasets made available and no information on datasets disclosed except very generic claims about filtering for high quality. Large amount of synthetic data used.
 
 datasources_endmodel:
     class: closed
-    link:
+    link: https://arxiv.org/abs/2504.21318
     notes: No post-training datasets made available and no information on datasets disclosed except very generic claims about filtering for high quality. Large amount of synthetic data used.
 
 weights_basemodel:
@@ -43,7 +43,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/microsoft/phi-4
+    link: https://huggingface.co/microsoft/Phi-4-reasoning
     notes: Weights made available on HuggingFace.
 
 trainingcode:
@@ -59,13 +59,13 @@ code:
 
 hardware_architecture:
     class: open
-    link: https://arxiv.org/pdf/2412.08905
+    link: https://arxiv.org/abs/2412.08905
     notes: Architecture described in model card and preprint
 
 preprint:
     class: open
-    link: https://arxiv.org/pdf/2412.08905
-    notes: Preprint madde available through arXiv.
+    link: ["https://arxiv.org/abs/2412.08905", "https://arxiv.org/abs/2504.21318"]
+    notes: Preprints made available through arXiv.
 
 paper:
     class: closed
@@ -80,22 +80,22 @@ modelcard:
 datasheet:
     class: closed
     link:
-    notes: No datasheet made available.
+    notes: No datasheet found.
 
 # access:
 package:
     class: open
-    link: https://ollama.com/library/phi4
+    link: https://ollama.com/library/phi4-reasoning
     notes: Model available on Ollama.
 
 api:
-    class: open
+    class: closed
     link:
-    notes: Available through HuggingFace API.
+    notes: No API found.
     metaprompt: closed
 
 licenses:
     class: open
-    link: https://huggingface.co/microsoft/phi-4#model-summary
+    link: https://huggingface.co/microsoft/Phi-4-reasoning/blob/main/LICENSE
     notes: MIT License, an OSI-approved license.
 

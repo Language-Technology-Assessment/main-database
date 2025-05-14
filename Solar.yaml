@@ -11,13 +11,13 @@
 
 system:
     name: Solar
-    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit
+    link: https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0
     type: text 
     performanceclass: latest
     basemodelname: LLaMA2
-    endmodelname: Solar-0-70B
+    endmodelname: SOLAR-10.7B-Instruct-v1.0
     endmodellicense: Meta Community license, CC-BY-NC 4.0
-    releasedate: 2023-07
+    releasedate: 2023-12
     notes: HuggingFace profile says 'Solar is a great example of the progress enabled by open source.'
 
 org:
@@ -43,7 +43,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: partial
-    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit/tree/main
+    link: https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0
     notes: Finetuned checkpoints only shared through CC-BY-NC
 
 trainingcode:
@@ -74,8 +74,8 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit
-    notes: HuggingFace model card used mostly as advertising, omits many details on training, fine-tuning, evaluation.
+    link: https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0
+    notes: HuggingFace model provides partial information.
 
 datasheet:
     class: closed
@@ -96,6 +96,6 @@ api:
 
 licenses:
     class: closed
-    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit#model-details
+    link: https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0#license
     notes: Meta Community License for base model, and CC-BY-NC 4.0 for fine-tuned model weights
 

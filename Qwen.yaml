@@ -10,15 +10,15 @@
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
 system:
-    name: QwQ-32B
-    link: https://huggingface.co/Qwen/QwQ-32B
+    name: Qwen3-235B-A22B
+    link: https://huggingface.co/Qwen/Qwen3-235B-A22B
     type: text 
     performanceclass: latest
-    basemodelname: Qwen2.5-32B
-    endmodelname: QwQ-32B
+    basemodelname: Qwen3-235B-A22B-Base
+    endmodelname: Qwen3-235B-A22B
     endmodellicense: Apache-2.0
-    releasedate: 2025-03
-    notes: Reasoning model based on Qwen2.5-32B.
+    releasedate: 2025-04
+    notes: Reasoning model with claims of comparable performance to DeepSeek-R1.
 
 org:
     name: Alibaba Cloud
@@ -37,24 +37,24 @@ datasources_endmodel:
     notes: Data not specified or documented.
 
 weights_basemodel:
-    class: open
-    link: https://huggingface.co/Qwen/Qwen2.5-32B
-    notes: Model weights made available on HuggingFace.
+    class: closed
+    link: 
+    notes: No base model made available.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/Qwen/QwQ-32B
+    link: https://huggingface.co/Qwen/Qwen3-235B-A22B
     notes: Model weights made available on HuggingFace.
 
 trainingcode:
     class: partial
-    link: https://github.com/QwenLM/Qwen2.5
+    link: https://github.com/QwenLM
     notes: Repository provides sparse source code and some examples for SFT
 
 # documentation:
 code:
     class: partial
-    link: https://github.com/QwenLM/Qwen2.5
+    link: https://github.com/QwenLM
     notes: Repository is fairly well-documented.
 
 hardware_architecture:
@@ -63,9 +63,9 @@ hardware_architecture:
     notes: No description of hardware architecture found.
 
 preprint:
-    class: partial
-    link: ["https://arxiv.org/pdf/2407.10671", "https://qwenlm.github.io/blog/qwen2.5/", "https://qwenlm.github.io/blog/qwq-32b/"]
-    notes: Preprint exists for base model, subsequent stages described in blog posts.
+    class: closed
+    link: https://qwenlm.github.io/blog/qwen3/
+    notes: No preprint found, only release blog post.
 
 paper:
     class: closed
@@ -74,7 +74,7 @@ paper:
 
 modelcard:
     class: closed
-    link: https://huggingface.co/Qwen/QwQ-32B
+    link: https://huggingface.co/Qwen/Qwen3-235B-A22B
     notes: Model card primarily contains usage instructions.
 
 datasheet:
@@ -85,17 +85,17 @@ datasheet:
 # access:
 package:
     class: open
-    link: https://ollama.com/library/qwq
+    link: https://ollama.com/library/qwen3
     notes: Model available on Ollama.
 
 api:
     class: open
-    link: https://huggingface.co/spaces/Qwen/QwQ-32B-Demo
+    link: https://huggingface.co/spaces/Qwen/Qwen3-Demo
     notes: Model available through HuggingFace space.
     metaprompt: closed
 
 licenses:
     class: open
-    link: https://qwenlm.github.io/blog/qwq-32b/
+    link: https://qwenlm.github.io/blog/qwen3/
     notes: Model released under Apache-2.0, an OSI-approved license.
 
