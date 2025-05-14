@@ -17,7 +17,7 @@ system:
     basemodelname: GLM-4-32B-0414
     endmodelname: GLM-Z1-32B-0414
     endmodellicense: MIT License
-    releasedate: 2024-06
+    releasedate: 2025-04
     notes: English-Chinese reasoning model.
     
 org:
