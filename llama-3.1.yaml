@@ -60,7 +60,7 @@ code:
 hardware_architecture:
     class: partial
     link: https://ai.meta.com/research/publications/the-llama-3-herd-of-models/
-    notes: Architecture described in paper, energy consumtion and environmental impact disclosed in model card, but not in paper; training process not fully documented
+    notes: Architecture described in paper, energy consumption and environmental impact disclosed in model card, but not in paper; training process not fully documented
 
 preprint:
     class: open 
@@ -90,7 +90,7 @@ package:
 
 api:
     class: closed
-    link: https://www.meta.ai/?utm_source=ai_meta_site&utm_medium=web&utm_content=AI_nav&utm_campaign=April_moment
+    link: https://llama.developer.meta.com/join_waitlist
     notes: API not available in EU.
     metaprompt: closed
 

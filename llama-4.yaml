@@ -10,15 +10,15 @@
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
 system:
-    name: Llama 3.3
-    link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
+    name: Llama 4
+    link: https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct
     type: text 
     performanceclass: latest
-    basemodelname: Llama 3.3 70B
-    endmodelname: Llama 3.3 70B Instruct
-    endmodellicense: Llama 3.3 Community License Agreement
-    releasedate: 2024-12
-    notes: Llama AI model family by Meta. This entry provides information about Llama version 3.3.
+    basemodelname: Llama 4 Maverick 17B 128E
+    endmodelname: Llama 4 Maverick 17B 128E Instruct
+    endmodellicense: Llama 4 Community License Agreement
+    releasedate: 2025-04
+    notes: Llama AI model family by Meta. This entry provides information about Llama version 4.
 
 org:
     name: Meta
@@ -29,7 +29,7 @@ org:
 datasources_basemodel:
     class: closed
     link:
-    notes: Data nowhere disclosed or documented, and described in the model card as "a new mix of publicly available online data."
+    notes: Data listed as "A mix of publicly available, licensed data and information from Meta's products and services. This includes publicly shared posts from Instagram and Facebook and people's interactions with Meta AI."
     
 datasources_endmodel:
     class: closed
@@ -37,14 +37,14 @@ datasources_endmodel:
     notes: Data nowhere disclosed or documented, the only information regarding fine-tuning data is an assurance that the data was collected with high quality standards.
 
 weights_basemodel:
-    class: closed
-    link:  
-    notes: No HuggingFace page exists for the base model.
+    class: partial
+    link: https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E
+    notes: Inspecting the weights requires signing the Llama 4 Community License Agreement, not an OSI recognised open license, and providng a large amount of personal information.
 
 weights_endmodel:
     class: partial
-    link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
-    notes: Inspecting the training weights requires signing the Llama 3.3 Community License Agreement, not an OSI recognised open license
+    link: https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct
+    notes: Inspecting the weights requires signing the Llama 4 Community License Agreement, not an OSI recognised open license, and providng a large amount of personal information.
 
 trainingcode:
     class: partial
@@ -58,14 +58,14 @@ code:
     notes: Code provide only model architecture and an inferencing pipeline examples; some files are documented.
 
 hardware_architecture:
-    class: partial
-    link: https://ai.meta.com/research/publications/the-llama-3-herd-of-models/
-    notes: Architecture described in paper, energy consumption and environmental impact disclosed in model card, but not in paper; training process not fully documented
+    class: open
+    link: https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct
+    notes: Architecture described in model card.
 
 preprint:
     class: closed
-    link: "https://arxiv.org/abs/2407.21783"
-    notes: Preprint only exists for the base Llama 3 model
+    link: https://www.llama.com/models/llama-4/
+    notes: No preprint found. A site page provides a general introduction to the model.
 
 paper:
     class: closed
@@ -73,19 +73,19 @@ paper:
     notes: No peer-reviewed paper available.
 
 modelcard:
-    class: partial
-    link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
-    notes: There is a model card, but it does not disclose the training process
+    class: open
+    link: https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct
+    notes: Model card provides the requisite information.
 
 datasheet:
     class: closed
     link:
-    notes: Datasheet not provided at all
+    notes: No datasheet available.
 
 # access:
 package:
     class: open
-    link: https://ollama.com/library/llama3.3
+    link: https://ollama.com/library/llama4
     notes: Model available on Ollama.
 
 api:
@@ -96,5 +96,5 @@ api:
 
 licenses:
     class: closed
-    link:  https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
-    notes: Inspecting the training weights requires signing the Llama 3.3 Community License Agreement, not an OSI recognised open license
+    link: https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct
+    notes: Llama 4 Community License Agreement, not an OSI recognised open license.

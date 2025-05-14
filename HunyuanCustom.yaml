@@ -10,14 +10,14 @@
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
 system:
-    name: Hunyuan Video
-    link: https://aivideo.hunyuan.tencent.com
+    name: HunyuanCustom
+    link: https://hunyuancustom.github.io/
     type: video
     performanceclass: full
     basemodelname: HunyuanVideo-T2V-720P
-    endmodelname: HunyuanVideo-T2V-720P
+    endmodelname: HunyuanCustom
     endmodellicense: Tencent Hunyuan Community License Agreement
-    releasedate: 2024-12
+    releasedate: 2025-05
     notes: Video generation model by Tencent.
 
 org:
@@ -29,72 +29,72 @@ org:
 datasources_basemodel:
     class: closed
     link:
-    notes:
+    notes: No base model data sources found.
 
 datasources_endmodel:
     class: closed
     link:
-    notes:
+    notes: No end model data sources found.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/tencent/HunyuanVideo/tree/main
-    notes:
+    link: https://huggingface.co/tencent/HunyuanVideo
+    notes: Weights made available through HuggingFace.
     
 weights_endmodel:
     class: open
-    link: https://huggingface.co/tencent/HunyuanVideo/tree/main
-    notes:
+    link: https://huggingface.co/tencent/HunyuanCustom
+    notes: Weights made available through HuggingFace.
 
 trainingcode:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://github.com/Tencent/HunyuanCustom
+    notes: Some training code made available through GitHub.
 
 # documentation:
 code:
     class: closed
     link:
-    notes:
+    notes: No documentation for training code provided.
 
 hardware_architecture:
-    class: partial
+    class: closed
     link:
-    notes:
+    notes: No information regarding training hardware found.
 
 preprint:
     class: open
-    link: https://arxiv.org/abs/2412.03603
-    notes:
+    link: ["https://arxiv.org/abs/2412.03603", "https://arxiv.org/abs/2505.04512"]
+    notes: Preprints for base and end model made available.
 
 paper:
     class: closed
     link:
-    notes:
+    notes: No peer-reviewed paper found
 
 modelcard:
     class: open
-    link: https://huggingface.co/tencent/HunyuanVideo
-    notes:
+    link: https://huggingface.co/tencent/HunyuanCustom
+    notes: Model card published providing primarily inference information.
 
 datasheet:
     class: closed
     link:
-    notes:
+    notes: No datasheet found.
 
 # access:
 package:
     class: open
-    link: https://docs.comfy.org/advanced/hunyuan-video
-    notes: ComfyUI workflow for model available.
+    link: https://github.com/kijai/ComfyUI-HunyuanVideoWrapper
+    notes: ComfyUI workflow available.
 
 api:
     class: closed
-    link:
-    notes:
+    link: https://hunyuan.tencent.com/modelSquare/home/play
+    notes: Web demo available, no API found.
     metaprompts:
 
 licenses:
-    class: partial
-    link:
-    notes: Tencent Community License
+    class: closed
+    link: https://github.com/Tencent/HunyuanCustom/blob/main/LICENSE
+    notes: Tencent Hunyuan Community License Agreement, not an OSI-approved license

@@ -11,14 +11,14 @@
 
 system:
     name: Granite
-    link: https://huggingface.co/ibm-granite/granite-3.2-8b-instruct
+    link: https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
     type: text
     performanceclass: full
-    basemodelname: Granite-3.1-8B-Base
-    endmodelname: Granite-3.2-8B-Instruct-Preview
+    basemodelname: Granite-3.3-8B-Base
+    endmodelname: Granite-3.3-8B-Instruct
     endmodellicense: Apache-2.0
-    releasedate: 2025-02
-    notes: 
+    releasedate: 2025-05
+    notes: Text-based LLM by IBM.
 
 org:
     name: IBM
@@ -29,72 +29,72 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: mix of available and internal datasets
+    notes: Mix of available and internal datasets.
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: mix of available and internal datasets
+    notes: Mix of available and internal datasets.
 
 weights_basemodel:
     class: open
-    link: 
-    notes: 
+    link: https://huggingface.co/ibm-granite/granite-3.3-8b-base
+    notes: Weights made available through HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/ibm-granite/granite-3.2-8b-instruct
-    notes: 
+    link: https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
+    notes: Weights made available through HuggingFace.
 
 trainingcode:
     class: closed
     link: 
-    notes: 
+    notes: No training code found
 
 # documentation:
 code:
     class: closed
     link:  
-    notes: 
+    notes: No code, so no documentation.
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://huggingface.co/ibm-granite/granite-3.3-8b-base
+    notes: Hardware architecture outlined in model card.
 
 preprint:
     class: closed
     link: 
-    notes: 
+    notes: Paper listed as forthcoming.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: Paper listed as forthcoming.
 
 modelcard:
     class: open
-    link: https://huggingface.co/ibm-granite/granite-3.2-8b-instruct
-    notes: 
+    link: https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
+    notes: Modelcard available on HuggingFace.
 
 datasheet:
     class: closed
     link: 
-    notes: 
+    notes: No datasheet found.
 
 # access:
 package:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://ollama.com/library/granite3.2
+    notes: Model available on Ollama.
 
 api:
     class: closed
-    link: 
-    notes: 
+    link: https://www.ibm.com/granite/playground/
+    notes: Demo available. No API found.
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: 
-    notes: weights under apache 2
+    class: open
+    link: https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
+    notes: Apache-2.0, an OSI-approved license.
