@@ -97,4 +97,4 @@ api:
 licenses:
     class: open
     link: https://huggingface.co/openai/whisper-large-v3-turbo
-    notes: MIT License, an OSI-approved license.
+    notes: MIT License, an OSI-approved license
