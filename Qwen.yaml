@@ -63,9 +63,9 @@ hardware_architecture:
     notes: No description of hardware architecture found.
 
 preprint:
-    class: closed
-    link: https://qwenlm.github.io/blog/qwen3/
-    notes: No preprint found, only release blog post.
+    class: open
+    link: https://arxiv.org/abs/2505.09388
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed
