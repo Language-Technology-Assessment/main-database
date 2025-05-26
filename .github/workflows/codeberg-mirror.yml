@@ -18,6 +18,7 @@ jobs:
     env:
       CODEBERG_SSH_URL: ${{ vars.CODEBERG_SSH_URL }}
       SSH_KEY: ${{ secrets.CODEBERG_SSH_PRIVATE_KEY }}
+      ACTIONS_STEP_DEBUG: true
 
     steps:
       - name: Validate inputs
@@ -36,11 +37,10 @@ jobs:
           mkdir -p ~/.ssh
           echo "$SSH_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          # disable host key checking to avoid prompt
           printf "Host codeberg.org\n  StrictHostKeyChecking no\n" > ~/.ssh/config
 
       - name: Checkout all history
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0      # full history, needed for tags & all branches
 
