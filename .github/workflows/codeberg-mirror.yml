@@ -26,6 +26,15 @@ jobs:
       ACTIONS_STEP_DEBUG: true
 
     steps:
+      - name: Skip if mirror-back from Codeberg
+        run: |
+          AUTHOR_NAME=$(git log -1 --pretty=format:'%an')
+      
+          if [[ "$AUTHOR_NAME" == "Codeberg-mirror" ]]; then
+            echo "Commit is from Codeberg mirror. Skipping sync."
+            exit 0
+          fi
+    
       - name: Validate inputs
         run: |
           if [[ -z "${CODEBERG_SSH_URL}" ]]; then
@@ -51,7 +60,7 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name "DBlankvoort"
+          git config user.name "Codeberg-mirror"
           git config user.email "dick.blankvoort@ru.nl"
 
       - name: Add Codeberg remote
