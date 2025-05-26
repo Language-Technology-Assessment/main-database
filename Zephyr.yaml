@@ -39,12 +39,12 @@ datasources_endmodel:
 weights_basemodel:
     class: open
     link: https://huggingface.co/mistralai/Mistral-7B-v0.1
-    notes: 
+    notes: Weights made available on HuggingFace.
 
 weights_endmodel:
     class: open
     link: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
-    notes: 
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
     class: closed
