@@ -59,10 +59,10 @@ jobs:
           git remote remove codeberg || true
           git remote add codeberg "$CODEBERG_SSH_URL"
 
-      - name: Push main and preview branches
+      - name: Push triggering branch
         run: |
-          git push codeberg main --force
-          git push codeberg preview --force
+          echo "Pushing branch: ${{ github.ref_name }}"
+          git push codeberg ${{ github.ref_name }} --force
 
       - name: Push all tags
         run: |
