@@ -1,13 +1,13 @@
 datasources_basemodel:
   en: Are datasources for training the base model comprehensively documented and freely made available? In case a distinction between base (foundation) and end (user) model is not applicable, this mirrors the end model data entries.
 datasources_endmodel:
-  en: Are datasources for training the model that the enduser interacts with comprehensively documented and freely made available? 
+  en: Are datasources for training the model that the enduser interacts with comprehensively documented made available? 
 weights_basemodel:
   en: Are the weights of the base models made freely available? In case a distinction between base (foundation) and end (user) model is not applicable, this mirrors the end model data entries.
 weights_endmodel:
   en: Are the weights of the model that the enduser interacts with made freely available?
 trainingcode:
-  en: Is the source code of datasource processing, model training and tuining comprehensively and freely made available?
+  en: Is the source code of dataset processing, model training and tuning comprehensively made available?
 code:
   en: Is the source code of datasource processing, model training and tuning comprehensively documented?
 hardware_architecture:

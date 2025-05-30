@@ -1,0 +1,86 @@
+# File: .github/workflows/codeberg-mirror.yml
+name: Codeberg Mirror
+
+# Trigger on any push, manual dispatch, and hourly schedule to catch e.g. tags or force-pushes
+on:
+  push:
+    branches:
+      - '**'
+
+  workflow_dispatch:
+
+  repository_dispatch:
+    types: [trigger-workflow]
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  mirror:
+    name: Mirror commits & tags to Codeberg
+    runs-on: ubuntu-latest
+    env:
+      CODEBERG_SSH_URL: ${{ vars.CODEBERG_SSH_URL }}
+      SSH_KEY: ${{ secrets.CODEBERG_SSH_PRIVATE_KEY }}
+      ACTIONS_STEP_DEBUG: true
+
+    steps:
+      - name: Skip if mirror-back from Codeberg
+        run: |      
+          if [[ "$(git log -1 --pretty=format:'%an')" == "Codeberg-mirror" ]]; then
+            echo "Commit is from Codeberg mirror. Skipping sync."
+            exit 0
+          fi
+    
+      - name: Validate inputs
+        run: |
+          if [[ -z "${CODEBERG_SSH_URL}" ]]; then
+            echo "ERROR: CODEBERG_SSH_URL is not set as a repo variable."
+            exit 1
+          fi
+          if [[ -z "${SSH_KEY}" ]]; then
+            echo "ERROR: CODEBERG_SSH_PRIVATE_KEY is not set in secrets."
+            exit 1
+          fi
+
+      - name: Install SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          printf "Host codeberg.org\n  StrictHostKeyChecking no\n" > ~/.ssh/config
+
+      - name: Checkout all history
+        uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0      # full history, needed for tags & all branches
+
+      - name: Configure Git
+        run: |
+          git config user.name "Codeberg-mirror"
+          git config user.email "dick.blankvoort@ru.nl"
+
+      - name: Add Codeberg remote
+        run: |
+          git remote remove codeberg || true
+          git remote add codeberg "$CODEBERG_SSH_URL"
+
+      - name: Push triggering branch
+        run: |
+          echo "Pushing branch: ${{ github.ref_name }}"
+          git push codeberg ${{ github.ref_name }} --force
+
+      - name: Push all tags
+        run: |
+          git push codeberg --tags --force
+
+      - name: Verify remote state
+        run: |
+          echo "Listing Codeberg branches:"
+          git ls-remote --heads codeberg
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "::error ::Mirror to Codeberg failed. Please check the Actions log."
