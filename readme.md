@@ -12,7 +12,7 @@ The index aims to include any *instruct-tuned generative AI system or model* tha
 
 - The index is periodically updated by our small team (or community contributers!) to capture how models and the information supplied related to them evolve. For instance, as new models first get released and then get preprints, related 'preprint' and 'paper' entries may be updated in due course.
 
-- Models spanning across different modalities may be includes in more than one modality category (text; image; video etc) leading to multiple entries in the index.
+- Models spanning across different modalities may be included in more than one modality category (text; image; video etc) leading to multiple entries in the index.
 
 # Openness Criteria and system information
 For each model, the yaml files in this database collect (1)some general information about the system, (2) about the organization behind it, (2) and about 14 dimension of openness. The below list spells out for the openness criteria for features in the areas of system information and organisation, followed by openness criteria groupt into 'Availability', 'Documentation' and 'Access'. Use these guidelines to document determinations of openness levels as precisely as possible, including links to evidence. Notes are optional.
