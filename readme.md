@@ -8,11 +8,11 @@ You're free to build on this work and reuse the data. It is licensed under CC-BY
 
 The index aims to include any *instruct-tuned generative AI system or model* that is described by the responsible organisation or builder as "open-source" or "open", or that is marketed as such by offical outlets of the responsible organisation or builder. Generally, the index aims to:
 
-- refer to the model by its most recent version, without naming the model size. Evaluation is then based around the largest model in the family. This may skip over some nuances with how different sizes might use different base models and fails to capture how models have evolved over time.
+- Refer to the model by its most recent version, without naming the model size. Evaluation is then based around the largest model in the family. This may skip over some nuances with how different sizes might use different base models and fails to capture how models have evolved over time.
 
-- the index is periodially updated by our small team (or community contributers!) to capture how models and the information supplied related to them evolve. For instance, as new models first get released and then get preprints, related 'preprint' and 'paper' entries may be updated in due course.
+- The index is periodically updated by our small team (or community contributers!) to capture how models and the information supplied related to them evolve. For instance, as new models first get released and then get preprints, related 'preprint' and 'paper' entries may be updated in due course.
 
-- models spanning across different modalities may be includes in more than one modality category (text; image; video etc) leading to multiple entries in the index.
+- Models spanning across different modalities may be includes in more than one modality category (text; image; video etc) leading to multiple entries in the index.
 
 # Openness Criteria and system information
 For each model, the yaml files in this database collect (1)some general information about the system, (2) about the organization behind it, (2) and about 14 dimension of openness. The below list spells out for the openness criteria for features in the areas of system information and organisation, followed by openness criteria groupt into 'Availability', 'Documentation' and 'Access'. Use these guidelines to document determinations of openness levels as precisely as possible, including links to evidence. Notes are optional.
