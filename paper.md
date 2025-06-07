@@ -24,7 +24,6 @@ date: 7 June 2025
 
 # Summary
 
-The European Open Source AI Index collects 
 The European Open Source AI index is an EU-based community-driven public resource on open-source generative AI systems, created for the purposes of cataloguing and scrutinizing systems which claim to be open or open-source. This upload catalogues the index at a specific point in time (2025-05-12).
 
 The index is hosted at the Centre of Language and Speech Technology at Radboud University at [osai-index.eu](osai-index.eu), and is maintained by a small team of academics and community members.
