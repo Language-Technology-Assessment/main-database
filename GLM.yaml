@@ -28,9 +28,7 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link: 
-        - http://doi.org/10.18653/v1/2022.acl-long.26
-        - https://arxiv.org/abs/2406.12793
+    link: ["http://doi.org/10.18653/v1/2022.acl-long.26", "https://arxiv.org/abs/2406.12793"]
     notes: Training data not centrally made available, but described in 2022 ACL paper, appears to be mostly public datasets. Preprint also mentions "Our pre-training corpus consists of multilingual (mostly English and Chinese) documents from a mixture of different sources, including webpages, Wikipedia, books, code, and research papers", but does not go into more detail.
 
 datasources_endmodel:

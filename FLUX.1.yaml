@@ -26,7 +26,6 @@ org:
     notes: Image-generation model start-up.
 
 # availability:
-
 datasources_basemodel:
     class: closed
     link:

@@ -26,7 +26,6 @@ org:
     notes: Collaboration between various organizations.
 
 # availability:
-
 datasources_basemodel:
     class: partial
     link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0#training

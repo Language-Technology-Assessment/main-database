@@ -26,11 +26,6 @@ org:
     notes: Gaoling School of Artificial Intelligence, a Chinese university organization.
 
 # availability:
-trainingcode:
-    class: open
-    link: https://github.com/RUC-GSAI/YuLan-Mini/
-    notes: Training code available on GitHub.
-
 datasources_basemodel:
     class: open
     link: ["https://huggingface.co/datasets/yulan-team/YuLan-Mini-Datasets", "https://arxiv.org/pdf/2412.17743"]
@@ -50,6 +45,11 @@ weights_endmodel:
     class: open
     link: https://huggingface.co/yulan-team/YuLan-Mini-Instruct
     notes: Weights available through HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/RUC-GSAI/YuLan-Mini/
+    notes: Training code available on GitHub.
 
 # documentation:
 code:

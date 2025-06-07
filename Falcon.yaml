@@ -64,9 +64,7 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: 
-        - https://arxiv.org/abs/2306.01116
-        - https://arxiv.org/abs/2311.16867
+    link: ["https://arxiv.org/abs/2306.01116", "https://arxiv.org/abs/2311.16867"]
     notes: First preprint covers the creation and curation of RefinedWeb dataset, but not other aspects of the model. The second preprint provides more details about the model architecture, implementation, evaluation results, and limitations.
 
 paper:

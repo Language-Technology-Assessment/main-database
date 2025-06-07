@@ -26,11 +26,6 @@ org:
     notes: Project aiming to develop LLMs in Germany.
 
 # availability:
-trainingcode:
-    class: closed
-    link:
-    notes:
-
 datasources_basemodel:
     class: partial
     link: https://arxiv.org/pdf/2410.08800
@@ -51,6 +46,11 @@ weights_endmodel:
     link: https://huggingface.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4
     notes: Available via Huggingface repository.
 
+trainingcode:
+    class: closed
+    link:
+    notes:
+
 # documentation:
 code:
     class: closed
@@ -64,10 +64,7 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: 
-        - https://arxiv.org/abs/2410.03730
-        - https://arxiv.org/abs/2410.08928
-        - https://arxiv.org/abs/2410.08800
+    link: ["https://arxiv.org/abs/2410.03730", "https://arxiv.org/abs/2410.08928", "https://arxiv.org/abs/2410.08800"]
     notes: Three corresponding preprints, detailing the models, data, and evaluation.
 
 paper:

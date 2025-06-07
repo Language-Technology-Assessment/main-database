@@ -26,11 +26,6 @@ org:
     notes: Chinese technology company that owns Tiktok
 
 # availability:
-trainingcode:
-    class: closed
-    link: 
-    notes: The training code for SDXL-Lightning has not been publicly released.
-
 datasources_basemodel:
     class: partial
     link: https://arxiv.org/pdf/2307.01952
@@ -51,6 +46,10 @@ weights_endmodel:
     link: https://huggingface.co/ByteDance/SDXL-Lightning
     notes: Available through HuggingFace in the form of SafeTensors
 
+trainingcode:
+    class: closed
+    link: 
+    notes: The training code for SDXL-Lightning has not been publicly released.
 
 # documentation:
 code:

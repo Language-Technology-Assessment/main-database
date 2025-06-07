@@ -15,7 +15,7 @@ The index aims to include any *instruct-tuned generative AI system or model* tha
 - Models spanning across different modalities may be included in more than one modality category (text; image; video etc) leading to multiple entries in the index.
 
 # Openness Criteria and system information
-For each model, the yaml files in this database collect (1)some general information about the system, (2) about the organization behind it, (2) and about 14 dimension of openness. The below list spells out for the openness criteria for features in the areas of system information and organisation, followed by openness criteria groupt into 'Availability', 'Documentation' and 'Access'. Use these guidelines to document determinations of openness levels as precisely as possible, including links to evidence. Notes are optional.
+For each model, the yaml files in this database collect (1) some general information about the system, (2) about the organization behind it, (3) and about 14 dimension of openness. The below list spells out for the openness criteria for features in the areas of system information and organisation, followed by openness criteria groupt into 'Availability', 'Documentation' and 'Access'. Use these guidelines to document determinations of openness levels as precisely as possible, including links to evidence. Notes are optional.
 
 ## **System**
 
@@ -24,6 +24,8 @@ For each model, the yaml files in this database collect (1)some general informat
     link: Link to official model publisher website or, if that does not exist, platform hosting the model.
 
     type: Model type in one word, e.g. text, video, audio. Multiple keywords possible.
+
+    performanceclass: The performance class of the model. See https://osai-index.eu/news/performance-classes.
     
     basemodelname: If applicable, name of base model ("foundation model") that was used.
 
@@ -43,7 +45,7 @@ For each model, the yaml files in this database collect (1)some general informat
 
 **Datasources Basemodel**
 
-Are datasources for training the base model comprehensively documented and freely made available? 
+Are datasources for training the base model comprehensively documented and made available? In case a distinction between base (foundation) and end (user) model is not applicable, this mirrors the end model data entries.
   
     🟥 Training data sources of base large language model are not open for inspection or shared.
     
@@ -53,7 +55,7 @@ Are datasources for training the base model comprehensively documented and freel
 
 **Datasources Endmodel**
 
-Are datasources for training the model that the enduser interacts with comprehensively documented and freely made available? 
+Are datasources for training the model that the end user interacts with comprehensively documented and made available? 
 
     🟥 Training data sources of the end model are not open for inspection or shared.
     
@@ -63,7 +65,7 @@ Are datasources for training the model that the enduser interacts with comprehen
 
 **Weights basemodel**
 
-Are the weights of the base models made freely available?
+Are the weights of the base models made freely available? In case a distinction between base (foundation) and end (user) model is not applicable, this mirrors the end model data entries.
 
     🟥 Weights of the base model are not shared.
     
@@ -73,7 +75,7 @@ Are the weights of the base models made freely available?
 
 **Weights endmodel**
 
-Are the weights of the model that the enduser interacts with made freely available?
+Are the weights of the model that the end user interacts with made freely available?
 
     🟥 Weights of the user-facing end model are not shared.
     
@@ -83,7 +85,7 @@ Are the weights of the model that the enduser interacts with made freely availab
 
  **Training Code**
  
- Is the source code of datasource processing, model training and tuning comprehensively and freely made available?
+Is the source code of dataset processing, model training and tuning comprehensively made available?
 
     🟥 No source code available.
     
@@ -135,7 +137,7 @@ Are peer-reviewed scientific publications available that detail all major parts 
 
 **Model card**
 
-Is a model card in standardized format available that provides comprehensive insight on model architecture, training, fine-tuning, and evaluation are available?
+Is a model card available in standardized format that provides comprehensive insight on model architecture, training, fine-tuning, and evaluation?
 
     🟥 Model card(s) not available.
     
@@ -151,7 +153,7 @@ Is a datasheet as defined in "Datasheets for Datasets" (Gebru et al. 2021) avail
     
     🟧 Datasheet(s) that provide partial insight on data collection and curation are available.
     
-    🟩 Datasheet(s) are available that provide comprehensive insight on data collection and curation are available following the standards defined in [Datasheets for Datasets](https://doi.org/10.1145/3458723) by Gebru et al. (2021)
+    🟩 Datasheet(s) are available that provide comprehensive insight on data collection and curation are available following the standards defined in Datasheets for Datasets (https://doi.org/10.1145/3458723) by Gebru et al. (2021)
 
 
 ## **Access methods**
@@ -169,7 +171,7 @@ Is a packaged release of the model available on a software repository (e.g. a Py
 
 **API**
 
-Is an API available that provides unrestricted access to the model (other than security and CDN restrictions)?
+Is an API available that provides unrestricted access to the model (other than security and CDN restrictions)? If applicable, this entry also collects information on the use and availability of meta prompts.
 
     🟥 No API access.
     

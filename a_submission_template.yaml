@@ -26,11 +26,6 @@ org:
     notes:
 
 # availability:
-trainingcode:
-    class: closed
-    link:
-    notes:
-
 datasources_basemodel:
     class: closed
     link:
@@ -47,6 +42,11 @@ weights_basemodel:
     notes:
 
 weights_endmodel:
+    class: closed
+    link:
+    notes:
+
+trainingcode:
     class: closed
     link:
     notes:

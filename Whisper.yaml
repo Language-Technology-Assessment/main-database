@@ -26,11 +26,6 @@ org:
     notes: American AI research organisation founded in 2015, widely known for ChatGPT.
 
 # availability:
-trainingcode:
-    class: partial
-    link: https://github.com/openai/whisper
-    notes: Inference code is released, but training code is not disclosed.
-
 datasources_basemodel:
     class: closed
     link:
@@ -50,6 +45,11 @@ weights_endmodel:
     class: open
     link: https://huggingface.co/openai/whisper-large-v3-turbo/tree/main
     notes: 
+
+trainingcode:
+    class: partial
+    link: https://github.com/openai/whisper
+    notes: Inference code is released, but training code is not disclosed.
 
 # documentation:
 code:

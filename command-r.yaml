@@ -26,11 +26,6 @@ org:
     notes: Company developing an enterprise AI platform.
 
 # availability:
-trainingcode:
-    class: closed
-    link:
-    notes: No codebase available to study or adjust model architecture, training, or inner workings.
-
 datasources_basemodel:
     class: closed
     link: https://docs.cohere.com/docs/data-statement
@@ -50,6 +45,11 @@ weights_endmodel:
     class: open
     link: https://huggingface.co/CohereForAI/c4ai-command-r-v01/tree/main
     notes: Fine-tuned model weights made available for download
+
+trainingcode:
+    class: closed
+    link:
+    notes: No codebase available to study or adjust model architecture, training, or inner workings.
 
 # documentation:
 code:
