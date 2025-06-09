@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+system:
+    name: dots.llm1
+    link: https://huggingface.co/rednote-hilab/dots.llm1.inst
+    type: text 
+    performanceclass: latest
+    basemodelname: dots.llm1.base
+    endmodelname: dots.llm1.inst
+    endmodellicense: MIT License
+    releasedate: 2025-05
+    notes: MoE model with claims of comparable performance to Qwen2.5-72B.
+
+org:
+    name: RedNote
+    link: https://red-note.co/
+    notes: Chinese social media platform.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Pretraining data not specified or documented.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: Data not specified or documented.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/rednote-hilab/dots.llm1.base
+    notes: Model weights made available on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/rednote-hilab/dots.llm1.inst
+    notes: Model weights made available on HuggingFace.
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No training code found.
+
+# documentation:
+code:
+    class: closed
+    link: 
+    notes: No code, so no documentation.
+
+hardware_architecture:
+    class: closed
+    link: 
+    notes: No description of hardware architecture found.
+
+preprint:
+    class: open
+    link: https://github.com/rednote-hilab/dots.llm1/blob/main/dots1_tech_report.pdf
+    notes: Tech report published on GitHub.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/rednote-hilab/dots.llm1.inst
+    notes: Model card primarily contains usage instructions.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: No package found.
+
+api:
+    class: open
+    link: https://huggingface.co/spaces/rednote-hilab/dots-demo
+    notes: Model available through HuggingFace space.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/rednote-hilab/dots.llm1.inst/blob/main/LICENSE
+    notes: MIT license, an OSI-approved license.
+
