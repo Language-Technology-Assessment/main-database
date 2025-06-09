@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: China
+# - Contributor type: Non-academic (AI Tiger)
+
 system:
     name: DeepSeek-Coder
     link: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724

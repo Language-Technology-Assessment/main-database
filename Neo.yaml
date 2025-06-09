@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: China
+# - Contributor type: Academic (Research community)
+
 system:
     name: Neo
     link: https://huggingface.co/m-a-p/neo_7b_instruct_v0.1
