@@ -1,9 +1,6 @@
 - name: Availability
   ref: availability
   params: 
-    - ref: trainingcode
-      name: Training Code
-      types: ['text', 'image','code','video','audio']
     - ref: datasources_basemodel
       name: Base Model Data
       types: ['text', 'image','code','video','audio']
@@ -16,18 +13,9 @@
     - ref: weights_endmodel
       name: End User Model Weights
       types: ['text', 'image','code','video','audio']
-    - ref: datasources
-      name: Model Data
-      types: []
-    - ref: weights
-      name: Model Weights 
-      types: []
-    - ref: watermarking
-      name: Watermarking
-      types: []
-    - ref: prompt_moderation
-      name: Prompt Moderation
-      types: []
+    - ref: trainingcode
+      name: Training Code
+      types: ['text', 'image','code','video','audio']
 - name: Documentation
   ref: documentation
   params: 

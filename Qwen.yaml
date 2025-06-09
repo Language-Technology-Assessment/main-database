@@ -10,7 +10,7 @@
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
 system:
-    name: Qwen3-235B-A22B
+    name: Qwen
     link: https://huggingface.co/Qwen/Qwen3-235B-A22B
     type: text 
     performanceclass: latest

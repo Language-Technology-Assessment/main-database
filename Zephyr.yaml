@@ -96,5 +96,5 @@ api:
 
 licenses:
     class: partial
-    link: 
+
     notes: "weights under MIT, datasets mixed"

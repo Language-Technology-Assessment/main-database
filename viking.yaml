@@ -26,11 +26,6 @@ org:
     notes: Silo AI was acquired by AMD in August 2024
 
 # availability:
-trainingcode:
-    class: closed
-    link:
-    notes: No details of training code have been released
-
 datasources_basemodel:
     class: partial
     link:
@@ -50,6 +45,11 @@ weights_endmodel:
     class: open
     link: https://huggingface.co/LumiOpen/Viking-7B
     notes:
+
+trainingcode:
+    class: closed
+    link:
+    notes: No details of training code have been released
 
 # documentation:
 code:

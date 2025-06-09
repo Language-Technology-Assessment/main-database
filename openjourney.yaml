@@ -25,6 +25,7 @@ org:
     link: https://prompthero.com/
     notes: Prompt engineering site.
 
+# availability:
 datasources_basemodel:
     class: partial
     link: https://arxiv.org/abs/2210.08402

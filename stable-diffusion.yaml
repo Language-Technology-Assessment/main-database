@@ -25,6 +25,7 @@ org:
     link: https://stability.ai/
     notes: UK-based AI company known for its diffusion models.
 
+# availability
 datasources_basemodel:
     class: partial
     link: https://arxiv.org/abs/2210.08402

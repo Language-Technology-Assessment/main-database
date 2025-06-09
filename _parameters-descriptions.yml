@@ -1,11 +1,11 @@
 datasources_basemodel:
-  en: Are datasources for training the base model comprehensively documented and freely made available? In case a distinction between base (foundation) and end (user) model is not applicable, this mirrors the end model data entries.
+  en: Are datasources for training the base model comprehensively documented and made available? In case a distinction between base (foundation) and end (user) model is not applicable, this mirrors the end model data entries.
 datasources_endmodel:
-  en: Are datasources for training the model that the enduser interacts with comprehensively documented made available? 
+  en: Are datasources for training the model that the end user interacts with comprehensively documented and made available? 
 weights_basemodel:
   en: Are the weights of the base models made freely available? In case a distinction between base (foundation) and end (user) model is not applicable, this mirrors the end model data entries.
 weights_endmodel:
-  en: Are the weights of the model that the enduser interacts with made freely available?
+  en: Are the weights of the model that the end user interacts with made freely available?
 trainingcode:
   en: Is the source code of dataset processing, model training and tuning comprehensively made available?
 code:
@@ -17,7 +17,7 @@ preprint:
 paper:
   en: Are peer-reviewed scientific publications available that detail all major parts of the system including datasource processing, model training and tuning steps?
 modelcard:
-  en: Is a model card in standardized format available that provides comprehensive insight on model architecture, training, fine-tuning, and evaluation are available?
+  en: Is a model card available in standardized format that provides comprehensive insight on model architecture, training, fine-tuning, and evaluation?
 datasheet:
   en: Is a datasheet as defined in "Datasheets for Datasets" (Gebru et al. 2021) available?
 package:

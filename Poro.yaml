@@ -10,7 +10,7 @@
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
 system:
-    name: Poro-34B
+    name: Poro
     link: https://huggingface.co/LumiOpen/Poro-34B
     type: text
     performanceclass: full
@@ -26,11 +26,6 @@ org:
     notes: Silo AI was acquired by AMD in August 2024
 
 # availability:
-trainingcode:
-    class: open
-    link: https://github.com/LumiOpen/Megatron-DeepSpeed
-    notes: Custom fork of the Megatron-Deepspeed framework used for training Poro-34B.
-
 datasources_basemodel:
     class: partial
     link: https://arxiv.org/html/2404.01856v1
@@ -50,6 +45,11 @@ weights_endmodel:
     class: open
     link: https://huggingface.co/LumiOpen/Poro-34B
     notes: Final model weights released under Apache 2.0 license.
+
+trainingcode:
+    class: open
+    link: https://github.com/LumiOpen/Megatron-DeepSpeed
+    notes: Custom fork of the Megatron-Deepspeed framework used for training Poro-34B.
 
 # documentation:
 code:
