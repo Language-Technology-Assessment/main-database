@@ -18,8 +18,8 @@ system:
     link: https://huggingface.co/openbmb/UltraLM-13b-v2.0
     type: text 
     performanceclass: full
-    basemodelname: LLaMA2
-    endmodelname: UltraFeedback (part synthetic)
+    basemodelname: Llama-13B
+    endmodelname: UltraLM-13B-v2.0
     endmodellicense: Meta Community License
     releasedate: 2023-09
     notes: Model trained using high-quality feedback.

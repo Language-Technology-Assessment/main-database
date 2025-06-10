@@ -18,8 +18,8 @@ system:
     link: https://huggingface.co/lmsys/vicuna-13b-v1.3
     type: text 
     performanceclass: full
-    basemodelname: LLaMA
-    endmodelname: ShareGPT
+    basemodelname: Vicuna-13B
+    endmodelname: Vicuna-13B-v1.3
     endmodellicense: Non-commercial license
     releasedate: 2023-03
     notes: 'Vicuna is a chat assistant trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT.'

@@ -18,8 +18,8 @@ system:
     link: https://huggingface.co/stabilityai/StableBeluga2
     type: text 
     performanceclass: full
-    basemodelname: LLaMA2
-    endmodelname: Orca-style (synthetic)
+    basemodelname: Llama-2-70B
+    endmodelname: StableBeluga2
     endmodellicense: Stable Beluga Non-Commercial Community License
     releasedate: 2023-07
     notes: Llama-based model fine-tuned on Orca.

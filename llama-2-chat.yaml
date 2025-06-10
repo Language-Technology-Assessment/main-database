@@ -18,8 +18,8 @@ system:
     link: https://ai.meta.com/resources/models-and-libraries/llama/
     type: text 
     performanceclass: full
-    basemodelname: LLaMA2
-    endmodelname: Meta, StackExchange, Anthropic
+    basemodelname: Llama-2-70B
+    endmodelname: Llama-2-70B-Chat
     endmodellicense: Unclear
     releasedate: 
     notes: Llama AI model family by Meta. This entry provides information about Llama version 2.
