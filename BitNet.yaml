@@ -18,8 +18,8 @@ system:
     link: https://huggingface.co/microsoft/bitnet-b1.58-2B-4T
     type: text
     performanceclass: full
-    basemodelname: BitNet b1.58 2B4T
-    endmodelname: BitNet b1.58 2B4T
+    basemodelname: BitNet-b1.58-2B4T
+    endmodelname: BitNet-b1.58-2B4T
     endmodellicense: MIT License
     releasedate: 2025-04
     notes: Native 1-bit LLM.
