@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Stable-Diffusion-2-Base
     endmodelname: SD2.1-Nitro
-    endlicense:  Apache-2.0
+    endmodellicense:  Apache-2.0
     releasedate: 2024-11
     notes: More efficient implementation of Stable Diffusion 2.1.
 
