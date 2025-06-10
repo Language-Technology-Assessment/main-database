@@ -25,7 +25,7 @@ system:
     notes: Llama-based model fine-tuned on Orca.
 
 org:
-    name: Stability AI
+    name: StabilityAI
     link: https://stability.ai/
     notes: UK-based AI company known for its diffusion models.
 

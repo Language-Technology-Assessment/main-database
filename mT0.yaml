@@ -25,7 +25,7 @@ system:
     notes: Large open multilingual language model.
 
 org:
-    name: bigscience-workshop
+    name: BigScience Workshop
     link: https://github.com/bigscience-workshop
     notes: Research workshop on large multilingual models.
 

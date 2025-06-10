@@ -25,7 +25,7 @@ system:
     notes: Open-source model and open-source tool for building chatbots.
 
 org:
-    name: EleutherAI, Together Computer
+    name: EleutherAI and Together Computer
     link: ["https://huggingface.co/EleutherAI", "https://together.ai/"]
     notes: Base model developed by EleutherAI, a major player in the open-source space. Fine-tune by Together Computer, a cloud platform for generative AI.
 

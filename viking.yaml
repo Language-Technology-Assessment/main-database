@@ -25,7 +25,7 @@ system:
     notes: Multilingual model trained on Nordic languages, English, and code. Also available as 7B and 13B models.
 
 org:
-    name: Silo AI, TurkuNLP, High Performance Language Technologies (HPLT)
+    name: Silo AI and TurkuNLP and High Performance Language Technologies (HPLT)
     link: ["https://www.silo.ai", "https://turkunlp.org", "https://hplt-project.org"]
     notes: Silo AI was acquired by AMD in August 2024
 

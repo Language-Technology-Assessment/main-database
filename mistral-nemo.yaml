@@ -25,7 +25,7 @@ system:
     notes: Multilingual model trained by Mistral AI.
 
 org:
-    name: Mistral AI, NVIDIA
+    name: Mistral AI and NVIDIA
     link: ["https://mistral.ai/", "https://www.nvidia.com"]
     notes: Jointly trained by Mistral, a French AI company, and NVIDIA, a major chip manufacturer.
 
