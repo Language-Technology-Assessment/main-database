@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: BLOOM
     endmodelname: BLOOMZ-P3
-    endmodellicense: Apache-2.0 and RAIL
+    endmodellicense: Apache-2.0 and BigScience RAIL License v1.0
     releasedate: 2022-09
     notes: Large open multilingual language model.
 
