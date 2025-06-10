@@ -21,7 +21,7 @@ system:
     basemodelname: HunyuanVideo-T2V-720P
     endmodelname: HunyuanCustom
     endmodellicense: Tencent Hunyuan Community License Agreement
-    releasedate: 2025-05
+    releasedate: 2024-12
     notes: Video generation model by Tencent.
 
 org:

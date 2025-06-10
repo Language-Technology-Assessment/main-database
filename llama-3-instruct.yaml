@@ -21,7 +21,7 @@ system:
     basemodelname: Meta-Llama-3-70B
     endmodelname: Meta-Llama-3-70B-Instruct    
     endmodellicense: Meta Llama 3 Community License
-    releasedate: 
+    releasedate: 2024-04
     notes: Llama AI model family by Meta. This entry provides information about Llama version 3.
 
 org:

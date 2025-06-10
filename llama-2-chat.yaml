@@ -21,7 +21,7 @@ system:
     basemodelname: Llama-2-70B
     endmodelname: Llama-2-70B-Chat
     endmodellicense: Unclear
-    releasedate: 
+    releasedate: 2023-08
     notes: Llama AI model family by Meta. This entry provides information about Llama version 2.
 
 org:
