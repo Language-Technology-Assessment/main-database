@@ -94,7 +94,7 @@ package:
 
 api:
     class: open
-    link: platform.deepseek.com
+    link: https://platform.deepseek.com
     notes: Available through various APIs.
     metaprompt: closed
 
