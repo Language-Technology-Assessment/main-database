@@ -15,11 +15,11 @@
 
 system:
     name: Llama 3.1
-    link: https://huggingface.co/meta-llama/Meta-Llama-3.1-405B
+    link: https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct
     type: text 
     performanceclass: latest
-    basemodelname: Meta Llama 3
-    endmodelname: Meta, undocumented
+    basemodelname: Llama-3.1-405B
+    endmodelname: Llama-3.1-405B-Instruct
     endmodellicense: Meta Llama 3 Community License
     releasedate: 
     notes: Llama AI model family by Meta. This entry provides information about Llama version 3.1.

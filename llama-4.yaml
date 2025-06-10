@@ -18,8 +18,8 @@ system:
     link: https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct
     type: text 
     performanceclass: latest
-    basemodelname: Llama 4 Maverick 17B 128E
-    endmodelname: Llama 4 Maverick 17B 128E Instruct
+    basemodelname: Llama-4-Maverick-17B-128E
+    endmodelname: Llama-4-Maverick-17B-128E-Instruct
     endmodellicense: Llama 4 Community License Agreement
     releasedate: 2025-04
     notes: Llama AI model family by Meta. This entry provides information about Llama version 4.

@@ -18,8 +18,8 @@ system:
     link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
     type: text 
     performanceclass: latest
-    basemodelname: Llama 3.3 70B
-    endmodelname: Llama 3.3 70B Instruct
+    basemodelname: Llama-3.3-70B
+    endmodelname: Llama-3.3-70B-Instruct
     endmodellicense: Llama 3.3 Community License Agreement
     releasedate: 2024-12
     notes: Llama AI model family by Meta. This entry provides information about Llama version 3.3.

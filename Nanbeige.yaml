@@ -15,11 +15,11 @@
 
 system:
     name: Nanbeige
-    link: https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat
+    link: https://huggingface.co/Nanbeige/Nanbeige2-16B-Chat
     type: text 
     performanceclass: limited
-    basemodelname: Unknown
-    endmodelname: Unknown
+    basemodelname: Nanbeige2-16B
+    endmodelname: Nanbeige2-16B-Chat
     endmodellicense: Apache 2.0 and bespoke community license
     releasedate: 2024-03
     notes: Comes in 8B and 16B versions

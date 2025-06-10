@@ -18,8 +18,8 @@ system:
     link: https://github.com/ethanyanjiali/minChatGPT
     type: text 
     performanceclass: limited
-    basemodelname: GPT2
-    endmodelname: anthropic
+    basemodelname: GPT2-Medium
+    endmodelname: minChatGPT
     endmodellicense: GNU General Public License v3.0
     releasedate: 2023-02
     notes: GPT-2 aligned with human feedback.

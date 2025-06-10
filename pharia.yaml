@@ -18,8 +18,8 @@ system:
     link: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control
     type: text
     performanceclass: limited
-    basemodelname: Pharia 1 LLM 7B
-    endmodelname: Pharia 1 LLM 7b aligned
+    basemodelname: Pharia-1-LLM-7B
+    endmodelname: Pharia-1-LLM-7B-control
     endmodellicense: Open Aleph License 1.0
     releasedate: 2024-08
     notes: Autoregressive transformer LLM trained in English, German, French, Spanish, Italian, Portuguese and Dutch

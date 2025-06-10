@@ -18,8 +18,8 @@ system:
     link: https://mistral.ai/news/mistral-nemo/
     type: text 
     performanceclass: full
-    basemodelname: Mistral NeMo
-    endmodelname: unspecified
+    basemodelname: Mistral-NeMo-12B-Base
+    endmodelname: Mistral-NeMo-12B-Instruct
     endmodellicense: Apache 2.0 (model weights only)
     releasedate: 2024-07
     notes: Multilingual model trained by Mistral AI.

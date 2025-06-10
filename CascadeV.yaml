@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/ByteDance/CascadeV
     type: video
     performanceclass: limited
-    basemodelname: PixArt-Sigma
+    basemodelname: PixArt-Sigma-XL-2-1024-MS
     endmodelname: CascadeV
     endmodellicense: CreativeML Open RAIL++-M License
     releasedate: 2024-09

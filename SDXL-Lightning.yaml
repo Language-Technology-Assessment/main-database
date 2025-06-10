@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/ByteDance/SDXL-Lightning
     type: image
     performanceclass: full
-    basemodelname: Stable Diffusion XL Base 1.0
+    basemodelname: Stable-Diffusion-XL-Base-1.0
     endmodelname: SDXL-Lightning
     endmodellicense: CreativeML Open RAIL++-M License
     releasedate: 2024-02
