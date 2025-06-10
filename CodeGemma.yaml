@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Gemma-7B
     endmodelname: CodeGemma-1.1-7B-IT
-    endmodellicense: Gemma license
+    endmodellicense: Gemma Terms of Use
     releasedate: 2024-07
     notes: Gemma-based coder model.
 

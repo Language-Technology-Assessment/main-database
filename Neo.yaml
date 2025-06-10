@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Neo-7B
     endmodelname: Neo-7B-Instruct-v0.1
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2024-05
     notes: Language model aiming to be completely open-source.
 

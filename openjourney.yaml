@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Stable-Diffusion-v1.5
     endmodelname: OpenJourney-v4
-    endmodellicense: creativeml-openrail-m
+    endmodellicense: CreativeML Open RAIL-M
     releasedate: 2022-11
     notes: Model trained on MidJourney images.
 

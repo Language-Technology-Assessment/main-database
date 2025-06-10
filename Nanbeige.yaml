@@ -20,7 +20,7 @@ system:
     performanceclass: limited
     basemodelname: Nanbeige2-16B
     endmodelname: Nanbeige2-16B-Chat
-    endmodellicense: Apache 2.0 and bespoke community license
+    endmodellicense: Apache-2.0 and bespoke community license
     releasedate: 2024-03
     notes: Comes in 8B and 16B versions
 

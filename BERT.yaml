@@ -20,7 +20,7 @@ system:
     performanceclass: limited
     basemodelname: BERT
     endmodelname: BERT
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2018-11
     notes: "This entry collates base BERT and its many derivatives"
 

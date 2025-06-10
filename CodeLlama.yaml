@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Llama-2-70B
     endmodelname: CodeLlama-70B-Instruct
-    endmodellicense: Llama 2 License
+    endmodellicense: Llama 2 Community License Agreement
     releasedate: 2024-03
     notes: Coder model by Meta.
 

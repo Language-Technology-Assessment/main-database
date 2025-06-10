@@ -20,7 +20,7 @@ system:
     performanceclass: latest
     basemodelname: Mistral-7B-v0.1
     endmodelname: SOLAR-10.7B-Instruct-v1.0
-    endmodellicense: Meta Community license, CC-BY-NC 4.0
+    endmodellicense: Meta Community License and CC-BY-NC 4.0
     releasedate: 2023-12
     notes: HuggingFace profile says 'Solar is a great example of the progress enabled by open source.'
 

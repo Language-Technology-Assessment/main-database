@@ -20,7 +20,7 @@ system:
     performanceclass: latest
     basemodelname: Yi-9B
     endmodelname: Yi-Coder-9B-Chat
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2024-07 
     notes: Arguable that Yi-6B is the base model instead, since Yi-9B was created from Yi-6B. Unclear whether the code model was based on the regular 9B model or the context-length-extended one.
 

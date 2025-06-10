@@ -20,7 +20,7 @@ system:
     performanceclass: limited
     basemodelname: Mixtral-8x22B-v0.1
     endmodelname: Eurux-8x22B-NCA
-    endmodellicense: Apache 2.0 
+    endmodellicense: Apache-2.0 
     releasedate: 2024-04
     notes: Reasoning MoE model.
 

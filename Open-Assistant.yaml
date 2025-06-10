@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Pythia-12B
     endmodelname: Pythia-12B-SFT-v8-7K-Steps
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2023-02
     notes: Community-built model aiming to bridge the gap between open-source models and ChatGPT.
 

@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: OLMo-2-0325-32B
     endmodelname: OLMo-2-0325-32B-Instruct
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2024-11
     notes: Open LLM trained from scratch by Allen AI.
 

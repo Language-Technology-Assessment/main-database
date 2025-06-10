@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: LLaMA-7B
     endmodelname: Evol-Instruct (synthetic)
-    endmodellicense: Llama 2 license
+    endmodellicense: Llama 2 Community License Agreement
     releasedate: 2023-04
     notes: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
 

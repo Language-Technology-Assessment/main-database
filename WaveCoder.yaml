@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Deepseek-Coder-6.7B-Base
     endmodelname: WaveCoder-Ultra-6.7B
-    endmodellicense: MIT license
+    endmodellicense: MIT License
     releasedate: 2024-07
     notes: Not absolutely clear that base rather than instruct-tuned model was used, but can be assumed.
 

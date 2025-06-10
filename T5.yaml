@@ -20,7 +20,7 @@ system:
     performanceclass: limited
     basemodelname: T5
     endmodelname: T5X
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2019-10
     notes: "This entry collates T5 base, T5X, and FLAN T5"
 

@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Falcon-7B
     endmodelname: Claire-7B-FR-Instruct-0.1
-    endmodellicense: CC-BY-NC-SA 4.0
+    endmodellicense: CC-BY-NC-SA-4.0
     releasedate: 2024-09
     notes: Falcon-based French-language LLM.
 

@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Teuken-7B-base
     endmodelname: Teuken-7B-instruct
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2024-09
     notes: Open-source multilingual LLM that claims to support all 24 official languages of the European Union.
 

@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: C4AI-Command-R-V01
     endmodelname: Aya-23-35B
-    endmodellicense: CC-BY-NC and C4AI acceptable use policy
+    endmodellicense: CC-BY-NC-4.0 and C4AI acceptable use policy
     releasedate: 2024-03
     notes: Multilingual open LLM.
 

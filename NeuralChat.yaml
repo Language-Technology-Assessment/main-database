@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Mistral-7B-v0.1
     endmodelname: Neural-Chat-7B-v3.3
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2023-11
     notes: Mistral-based Orca-finetuned chat model.
 

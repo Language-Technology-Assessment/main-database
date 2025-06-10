@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Viking-33B
     endmodelname: Viking-33B
-    endmodellicense:  Apache 2.0 
+    endmodellicense:  Apache-2.0 
     releasedate: 2024-05
     notes: Multilingual model trained on Nordic languages, English, and code. Also available as 7B and 13B models.
 

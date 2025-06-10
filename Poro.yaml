@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Poro-34B
     endmodelname: Poro-34B
-    endmodellicense: Apache 2.0 
+    endmodellicense: Apache-2.0 
     releasedate: 2024-04
     notes: Bilingual model trained on Finnish, English, and programming languages
 

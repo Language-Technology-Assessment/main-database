@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Minerva-7B-base-v1.0
     endmodelname: Minerva-7B-instruct-v1.0
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2024-11
     notes: LLM pretrained from scratch on Italian.
 

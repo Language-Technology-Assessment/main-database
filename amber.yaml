@@ -20,7 +20,7 @@ system:
     performanceclass: limited
     basemodelname: Amber
     endmodelname: AmberSafe
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2023-11
     notes: Model released to make LLM training knowledge accessible to all.
 

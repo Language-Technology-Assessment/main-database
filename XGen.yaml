@@ -20,7 +20,7 @@ system:
     performanceclass: limited
     basemodelname: XGen-Small-9B-Base-R 
     endmodelname: XGen-Small-9B-Instruct-R
-    endmodellicense: Research purposes only
+    endmodellicense: CC-BY-NC-4.0
     releasedate: 2025-05
     notes: Compact enterprise-ready LLM.
 

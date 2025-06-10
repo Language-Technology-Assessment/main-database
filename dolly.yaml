@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Pythia-12B
     endmodelname: Dolly-V2-12B
-    endmodellicense: MIT license
+    endmodellicense: MIT License
     releasedate: 2023-03
     notes: Pythia-based instruction-following model.
 

@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: MPT-30B
     endmodelname: MPT-30B-Instruct
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2023-06
     notes: Open LLM by Databricks.
 

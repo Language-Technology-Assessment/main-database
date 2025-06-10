@@ -20,7 +20,7 @@ system:
     performanceclass: limited
     basemodelname: AnimateDiff-SD1.5-v2
     endmodelname: AnimateDiff-Lightning
-    endmodellicense: CreativeML-OpenRAIL-M
+    endmodellicense: CreativeML Open RAIL-M
     releasedate: 2024-03
     notes: Video generation model using progressive adversarial diffusion distillation. Distilled from various models.
 

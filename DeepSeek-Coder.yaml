@@ -20,7 +20,7 @@ system:
     performanceclass: latest
     basemodelname: DeepSeek-V2
     endmodelname: DeepSeek-Coder-V2-Instruct-0724
-    endmodellicense: DeepSeek License
+    endmodellicense: DeepSeek License Agreement
     releasedate: 2024-09
     notes: Continued pretrained from an intermediate checkpoint of DeepSeek-v2; model inheritance is arguable.
 
