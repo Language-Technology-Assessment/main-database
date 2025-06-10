@@ -14,7 +14,7 @@
 # - Contributor type: Non-academic (Big Tech)
 
 system:
-    name: LLaMA2 Chat
+    name: Llama 2
     link: https://ai.meta.com/resources/models-and-libraries/llama/
     type: text 
     performanceclass: full

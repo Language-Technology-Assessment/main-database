@@ -14,7 +14,7 @@
 # - Contributor type: Non-academic (Big Tech)
 
 system:
-    name: Llama 3 Instruct
+    name: Llama 3
     link: https://huggingface.co/collections/meta-llama/meta-llama-3-66214712577ca38149ebb2b6
     type: text 
     performanceclass: latest
