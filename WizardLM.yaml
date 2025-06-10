@@ -62,7 +62,7 @@ code:
     notes: Code is comprehensively documented and contains demos.
 
 hardware_architecture:
-    class: parial
+    class: partial
     link: https://arxiv.org/abs/2304.12244
     notes: Architecture described in preprint and partly accessible in code repository
 
