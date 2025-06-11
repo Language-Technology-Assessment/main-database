@@ -89,7 +89,8 @@ datasheet:
 # access:
 package:
     class: closed
-    link: No package found.
+    link: 
+    notes: No package found.
 
 api:
     class: open
