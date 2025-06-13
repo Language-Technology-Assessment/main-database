@@ -14,7 +14,7 @@
 # - Contributor type: Non-academic (Company)
 
 system:
-    name: Intestella
+    name: Instella
     link: https://huggingface.co/amd/Instella-3B-Instruct
     type: text
     performanceclass: full
