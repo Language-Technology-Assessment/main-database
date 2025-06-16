@@ -25,7 +25,7 @@ system:
     notes: Community-built model aiming to bridge the gap between open-source models and ChatGPT.
 
 org:
-    name: LAION-AI
+    name: LAION
     link: https://open-assistant.io/
     notes: Early intiative to bolster the open-source community.
 
