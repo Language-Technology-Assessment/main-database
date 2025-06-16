@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: Finland
+# - Contributor type: Academic (Research community)
+
 system:
     name: Poro
     link: https://huggingface.co/LumiOpen/Poro-34B
@@ -16,12 +20,12 @@ system:
     performanceclass: full
     basemodelname: Poro-34B
     endmodelname: Poro-34B
-    endmodellicense: Apache 2.0 
+    endmodellicense: Apache-2.0 
     releasedate: 2024-04
     notes: Bilingual model trained on Finnish, English, and programming languages
 
 org:
-    name: Silo AI, TurkuNLP, High Performance Language Technologies (HPLT)
+    name: Silo AI and TurkuNLP and High Performance Language Technologies (HPLT)
     link: ["https://www.silo.ai", "https://turkunlp.org", "https://hplt-project.org"]
     notes: Silo AI was acquired by AMD in August 2024
 

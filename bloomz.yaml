@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: International
+# - Contributor type: Academic (Research community)
+
 system:
     name: BLOOMZ
     link: https://huggingface.co/bigscience/bloomz-p3
@@ -16,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: BLOOM
     endmodelname: BLOOMZ-P3
-    endmodellicense: Apache 2.0 and RAIL (responsible AI license)
+    endmodellicense: Apache-2.0 and BigScience RAIL License v1.0
     releasedate: 2022-09
     notes: Large open multilingual language model.
 

@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
 system:
     name: XGen
     link: https://huggingface.co/Salesforce/xgen-small-9B-instruct-r
@@ -16,7 +20,7 @@ system:
     performanceclass: limited
     basemodelname: XGen-Small-9B-Base-R 
     endmodelname: XGen-Small-9B-Instruct-R
-    endmodellicense: Research purposes only
+    endmodellicense: CC-BY-NC-4.0
     releasedate: 2025-05
     notes: Compact enterprise-ready LLM.
 

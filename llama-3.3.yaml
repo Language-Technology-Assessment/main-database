@@ -9,13 +9,17 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (American Big Tech)
+
 system:
     name: Llama 3.3
     link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
     type: text 
     performanceclass: latest
-    basemodelname: Llama 3.3 70B
-    endmodelname: Llama 3.3 70B Instruct
+    basemodelname: Llama-3.3-70B
+    endmodelname: Llama-3.3-70B-Instruct
     endmodellicense: Llama 3.3 Community License Agreement
     releasedate: 2024-12
     notes: Llama AI model family by Meta. This entry provides information about Llama version 3.3.

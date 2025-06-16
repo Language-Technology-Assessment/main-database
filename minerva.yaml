@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: Italy
+# - Contributor type: Academic (University)
+
 system:
     name: Minerva
     link: https://huggingface.co/sapienzanlp/Minerva-7B-instruct-v1.0
@@ -16,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Minerva-7B-base-v1.0
     endmodelname: Minerva-7B-instruct-v1.0
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2024-11
     notes: LLM pretrained from scratch on Italian.
 

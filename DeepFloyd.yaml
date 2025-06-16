@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: International
+# - Contributor type: Academic (Research community)
+
 system:
     name: DeepFloyd
     link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0
@@ -21,7 +25,7 @@ system:
     notes: Pixel-based triple-cascaded diffusion model.
 
 org:
-    name: DeepFloyd, StabilityAI, LAION (major contributors)
+    name: DeepFloyd and StabilityAI and LAION (major contributors)
     link: ["https://huggingface.co/DeepFloyd", "https://stability.ai/", "https://laion.ai/"]
     notes: Collaboration between various organizations.
 

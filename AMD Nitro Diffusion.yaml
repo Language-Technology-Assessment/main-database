@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
 system:
     name: AMD Nitro Diffusion
     link: https://huggingface.co/amd/SD2.1-Nitro
@@ -16,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Stable-Diffusion-2-Base
     endmodelname: SD2.1-Nitro
-    endlicense:  Apache-2.0
+    endmodellicense:  Apache-2.0
     releasedate: 2024-11
     notes: More efficient implementation of Stable Diffusion 2.1.
 

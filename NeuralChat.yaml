@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
 system:
     name: NeuralChat
     link: https://huggingface.co/Intel/neural-chat-7b-v3-3
@@ -16,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Mistral-7B-v0.1
     endmodelname: Neural-Chat-7B-v3.3
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2023-11
     notes: Mistral-based Orca-finetuned chat model.
 

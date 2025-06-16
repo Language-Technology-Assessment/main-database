@@ -9,14 +9,18 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: International
+# - Contributor type: Non-academic (Company)
+
 system:
     name: Solar
     link: https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0
     type: text 
     performanceclass: latest
-    basemodelname: LLaMA2
+    basemodelname: Mistral-7B-v0.1
     endmodelname: SOLAR-10.7B-Instruct-v1.0
-    endmodellicense: Meta Community license, CC-BY-NC 4.0
+    endmodellicense: Meta Community License and CC-BY-NC-4.0
     releasedate: 2023-12
     notes: HuggingFace profile says 'Solar is a great example of the progress enabled by open source.'
 

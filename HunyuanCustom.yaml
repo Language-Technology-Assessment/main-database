@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: China
+# - Contributor type: Non-academic (Chinese Big Tech)
+
 system:
     name: HunyuanCustom
     link: https://hunyuancustom.github.io/
@@ -17,7 +21,7 @@ system:
     basemodelname: HunyuanVideo-T2V-720P
     endmodelname: HunyuanCustom
     endmodellicense: Tencent Hunyuan Community License Agreement
-    releasedate: 2025-05
+    releasedate: 2024-12
     notes: Video generation model by Tencent.
 
 org:

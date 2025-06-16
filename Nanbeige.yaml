@@ -9,14 +9,18 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: China
+# - Contributor type: Academic (Research institution)
+
 system:
     name: Nanbeige
-    link: https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat
+    link: https://huggingface.co/Nanbeige/Nanbeige2-16B-Chat
     type: text 
     performanceclass: limited
-    basemodelname: Unknown
-    endmodelname: Unknown
-    endmodellicense: Apache 2.0 and bespoke community license
+    basemodelname: Nanbeige2-16B
+    endmodelname: Nanbeige2-16B-Chat
+    endmodellicense: Apache-2.0 and bespoke community license
     releasedate: 2024-03
     notes: Comes in 8B and 16B versions
 

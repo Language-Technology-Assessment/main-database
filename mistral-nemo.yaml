@@ -9,19 +9,23 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: France
+# - Contributor type: Non-academic (Company)
+
 system:
     name: Mistral NeMo
     link: https://mistral.ai/news/mistral-nemo/
     type: text 
     performanceclass: full
-    basemodelname: Mistral NeMo
-    endmodelname: unspecified
-    endmodellicense: Apache 2.0 (model weights only)
+    basemodelname: Mistral-NeMo-12B-Base
+    endmodelname: Mistral-NeMo-12B-Instruct
+    endmodellicense: Apache-2.0
     releasedate: 2024-07
     notes: Multilingual model trained by Mistral AI.
 
 org:
-    name: Mistral AI, NVIDIA
+    name: Mistral AI and NVIDIA
     link: ["https://mistral.ai/", "https://www.nvidia.com"]
     notes: Jointly trained by Mistral, a French AI company, and NVIDIA, a major chip manufacturer.
 

@@ -9,10 +9,14 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
 system:
     name: Snowflake Arctic
     link: https://huggingface.co/Snowflake/snowflake-arctic-instruct
-    type: text, code
+    type: text,code
     performanceclass: full
     basemodelname: Snowflake-Arctic-Base
     endmodelname: Snowflake-Arctic-Instruct

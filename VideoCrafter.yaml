@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: China
+# - Contributor type: Non-academic (Chinese Big Tech)
+
 system:
     name: VideoCrafter
     link: https://huggingface.co/VideoCrafter/VideoCrafter2
@@ -21,7 +25,7 @@ system:
     notes: Video-generation model operating on small amounts of data.
 
 org:
-    name: Tencent AI Lab
+    name: Tencent
     link: https://ailab.tencent.com/ailab/en/index/
     notes: Tencent, a Chinese conglomerate.
 

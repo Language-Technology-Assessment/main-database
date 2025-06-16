@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: China
+# - Contributor type: Academic (Individual)
+
 system:
     name: DynamiCrafter
     link: https://huggingface.co/Doubiiu/DynamiCrafter_1024
@@ -21,7 +25,7 @@ system:
     notes: (Text-)Image-to-Video model (16 frames).
 
 org:
-    name: CUHK & Tencent AI Lab
+    name: CUHK and Tencent
     link: ["https://www.cuhk.edu.hk/english/index.html", "https://ailab.tencent.com/ailab/en/index/"]
     notes: Chinese University of Hong Kong, an educational institution, and Tencent, a Chinese conglomerate.
 

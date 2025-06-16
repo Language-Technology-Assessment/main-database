@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: Germany
+# - Contributor type: Non-academic (Research institution)
+
 system:
     name: Teuken
     link: https://huggingface.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4
@@ -16,12 +20,12 @@ system:
     performanceclass: full
     basemodelname: Teuken-7B-base
     endmodelname: Teuken-7B-instruct
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2024-09
     notes: Open-source multilingual LLM that claims to support all 24 official languages of the European Union.
 
 org:
-    name: openGPT-X
+    name: OpenGPT-X
     link: https://opengpt-x.de/en/
     notes: Project aiming to develop LLMs in Germany.
 

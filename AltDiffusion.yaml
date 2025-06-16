@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: China
+# - Contributor type: Non-academic (Research institution)
+
 system:
     name: AltDiffusion
     link: https://huggingface.co/BAAI/AltDiffusion
@@ -16,7 +20,7 @@ system:
     performanceclass: limited
     basemodelname: Stable-Diffusion-2-Base
     endmodelname: AltDiffusion
-    endmodellicense: CreativeML Open RAIL-M License
+    endmodellicense: CreativeML Open RAIL-M
     releasedate: 2022-12
     notes: Early multilingual text-to-image model.
 

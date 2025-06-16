@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: International
+# - Contributor type: Non-academic (American Big Tech)
+
 system:
     name: WizardLM
     link: https://github.com/nlpxucan/WizardLM
@@ -16,12 +20,12 @@ system:
     performanceclass: full
     basemodelname: LLaMA-7B
     endmodelname: Evol-Instruct (synthetic)
-    endmodellicense: Llama 2 license
+    endmodellicense: Llama 2 Community License Agreement
     releasedate: 2023-04
     notes: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
 
 org:
-    name: Microsoft & Peking University
+    name: Microsoft and Peking University
     link: https://github.com/nlpxucan
     notes: Microsoft, a major tech company, and Peking University, a Chinese university.
 
@@ -58,7 +62,7 @@ code:
     notes: Code is comprehensively documented and contains demos.
 
 hardware_architecture:
-    class: parial
+    class: partial
     link: https://arxiv.org/abs/2304.12244
     notes: Architecture described in preprint and partly accessible in code repository
 

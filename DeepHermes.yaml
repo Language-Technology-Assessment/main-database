@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: International
+# - Contributor type: Non-academic (Research community)
+
 system:
     name: DeepHermes
     link: https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview
@@ -37,9 +41,9 @@ datasources_endmodel:
     notes: mix of synthetic data
 
 weights_basemodel:
-    class: open
-    link: 
-    notes: Llama3
+    class: partial
+    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
+    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
 
 weights_endmodel:
     class: open

@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
 system:
     name: CodeGen
     link: https://huggingface.co/Salesforce/codegen25-7b-instruct_P
@@ -16,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: CodeGen25-7B-Multi-P
     endmodelname: CodeGen25-7B-Instruct-P
-    endmodellicense: unknown (research purposes only)
+    endmodellicense: Unknown (research purposes only)
     releasedate: 2023-06
     notes: Autoregressive language model for code synthesis. Base model licensed under Apache 2.0.
 

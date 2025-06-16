@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
 system:
     name: MPT
     link: https://huggingface.co/mosaicml/mpt-30b-instruct
@@ -16,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: MPT-30B
     endmodelname: MPT-30B-Instruct
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2023-06
     notes: Open LLM by Databricks.
 

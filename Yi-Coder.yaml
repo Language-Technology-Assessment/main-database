@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: China
+# - Contributor type: Non-academic (Chinese AI Tiger)
+
 system:
     name: Yi-Coder
     link: https://huggingface.co/01-ai/Yi-Coder-9B-Chat
@@ -16,7 +20,7 @@ system:
     performanceclass: latest
     basemodelname: Yi-9B
     endmodelname: Yi-Coder-9B-Chat
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2024-07 
     notes: Arguable that Yi-6B is the base model instead, since Yi-9B was created from Yi-6B. Unclear whether the code model was based on the regular 9B model or the context-length-extended one.
 

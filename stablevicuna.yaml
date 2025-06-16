@@ -9,13 +9,17 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Academic (Research community)
+
 system:
     name: StableVicuna
     link: https://huggingface.co/CarperAI/stable-vicuna-13b-delta
     type: text 
     performanceclass: full
-    basemodelname: LLaMA
-    endmodelname: OASST1 (human), GPT4All (human), Alpaca (synthetic)
+    basemodelname: LLaMA-13B
+    endmodelname: StableVicuna-13B
     endmodellicense: Meta Community License
     releasedate: 2023-04
     notes: StableVicuna-13B is a Vicuna-13B v0 model fine-tuned using reinforcement learning from human feedback (RLHF) via Proximal Policy Optimization (PPO) on various conversational and instructional datasets

@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (American Big Tech)
+
 system:
     name: WaveCoder
     link: https://huggingface.co/microsoft/wavecoder-ultra-6.7b
@@ -16,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Deepseek-Coder-6.7B-Base
     endmodelname: WaveCoder-Ultra-6.7B
-    endmodellicense: MIT license
+    endmodellicense: MIT License
     releasedate: 2024-07
     notes: Not absolutely clear that base rather than instruct-tuned model was used, but can be assumed.
 

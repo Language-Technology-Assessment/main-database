@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: Finland
+# - Contributor type: Academic (Research community)
+
 system:
     name: Viking
     link: https://huggingface.co/LumiOpen/Viking-33B
@@ -16,12 +20,12 @@ system:
     performanceclass: full
     basemodelname: Viking-33B
     endmodelname: Viking-33B
-    endmodellicense:  Apache 2.0 
+    endmodellicense:  Apache-2.0 
     releasedate: 2024-05
     notes: Multilingual model trained on Nordic languages, English, and code. Also available as 7B and 13B models.
 
 org:
-    name: Silo AI, TurkuNLP, High Performance Language Technologies (HPLT)
+    name: Silo AI and TurkuNLP and High Performance Language Technologies (HPLT)
     link: ["https://www.silo.ai", "https://turkunlp.org", "https://hplt-project.org"]
     notes: Silo AI was acquired by AMD in August 2024
 

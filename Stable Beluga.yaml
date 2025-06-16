@@ -9,19 +9,23 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United Kingdom
+# - Contributor type: Non-academic (Company)
+
 system:
     name: Stable Beluga
     link: https://huggingface.co/stabilityai/StableBeluga2
     type: text 
     performanceclass: full
-    basemodelname: LLaMA2
-    endmodelname: Orca-style (synthetic)
+    basemodelname: Llama-2-70B
+    endmodelname: StableBeluga2
     endmodellicense: Stable Beluga Non-Commercial Community License
     releasedate: 2023-07
     notes: Llama-based model fine-tuned on Orca.
 
 org:
-    name: Stability AI
+    name: StabilityAI
     link: https://stability.ai/
     notes: UK-based AI company known for its diffusion models.
 

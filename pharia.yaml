@@ -9,13 +9,17 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: Germany
+# - Contributor type: Non-academic (Company)
+
 system:
     name: Pharia
     link: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control
     type: text
     performanceclass: limited
-    basemodelname: Pharia 1 LLM 7B
-    endmodelname: Pharia 1 LLM 7b aligned
+    basemodelname: Pharia-1-LLM-7B
+    endmodelname: Pharia-1-LLM-7B-control
     endmodellicense: Open Aleph License 1.0
     releasedate: 2024-08
     notes: Autoregressive transformer LLM trained in English, German, French, Spanish, Italian, Portuguese and Dutch

@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United Arab Emirates
+# - Contributor type: Academic (Research institution)
+
 system:
     name: Llama-Sherkala
     link: https://huggingface.co/inceptionai/Llama-3.1-Sherkala-8B-Chat
@@ -37,9 +41,9 @@ datasources_endmodel:
     notes: few shared 
 
 weights_basemodel:
-    class: open
-    link: 
-    notes: LLama3
+    class: partial
+    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
+    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
 
 weights_endmodel:
     class: partial

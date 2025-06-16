@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (American Big Tech)
+
 system:
     name: T5
     link: https://huggingface.co/docs/transformers/en/model_doc/t5
@@ -16,7 +20,7 @@ system:
     performanceclass: limited
     basemodelname: T5
     endmodelname: T5X
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2019-10
     notes: "This entry collates T5 base, T5X, and FLAN T5"
 

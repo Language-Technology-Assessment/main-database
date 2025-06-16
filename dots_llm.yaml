@@ -10,45 +10,45 @@
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
 # Organization tags:
-# - National origin: United States
+# - National origin: China
 # - Contributor type: Non-academic (Company)
 
 system:
-    name: Saul
-    link: https://huggingface.co/Equall/SaulLM-141B-Instruct
-    type: text
-    performanceclass: full
-    basemodelname: Mixtral-8x22B-v0.1
-    endmodelname: SaulLM-141B-Instruct
+    name: dots.llm1
+    link: https://huggingface.co/rednote-hilab/dots.llm1.inst
+    type: text 
+    performanceclass: latest
+    basemodelname: dots.llm1.base
+    endmodelname: dots.llm1.inst
     endmodellicense: MIT License
-    releasedate: 2024-05
-    notes: Model specialized to the legal domain.
+    releasedate: 2025-05
+    notes: MoE model with claims of comparable performance to Qwen2.5-72B.
 
 org:
-    name: Equall
-    link: https://equall.com/
-    notes: Company building AI systems to solve legal problems.
+    name: RedNote
+    link: https://red-note.co/
+    notes: Chinese social media platform.
 
 # availability:
 datasources_basemodel:
     class: closed
     link:
-    notes: No information provided on pretraining data
+    notes: Pretraining data not specified or documented.
 
 datasources_endmodel:
-    class: partial
-    link: https://arxiv.org/pdf/2403.03883
-    notes: Data sources outlined in paper. No data sets provided, data only described.
+    class: closed
+    link: 
+    notes: Data not specified or documented.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/mistralai/Mixtral-8x22B-v0.1
-    notes: Weights available through HuggingFace.
+    link: https://huggingface.co/rednote-hilab/dots.llm1.base
+    notes: Model weights made available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/jondurbin/airoboros-dpo-110b-3.3
-    notes: Weights available through HuggingFace.
+    link: https://huggingface.co/rednote-hilab/dots.llm1.inst
+    notes: Model weights made available on HuggingFace.
 
 trainingcode:
     class: closed
@@ -59,17 +59,17 @@ trainingcode:
 code:
     class: closed
     link: 
-    notes: No training code, so no documentation.
+    notes: No code, so no documentation.
 
 hardware_architecture:
-    class: open
-    link: https://arxiv.org/pdf/2403.03883
-    notes: Hardware architecture outlined in paper.
+    class: closed
+    link: 
+    notes: No description of hardware architecture found.
 
 preprint:
     class: open
-    link: https://arxiv.org/pdf/2403.03883
-    notes: Preprint available through arXiv.
+    link: https://github.com/rednote-hilab/dots.llm1/blob/main/dots1_tech_report.pdf
+    notes: Tech report published on GitHub.
 
 paper:
     class: closed
@@ -77,13 +77,13 @@ paper:
     notes: No peer-reviewed paper found.
 
 modelcard:
-    class: partial
-    link: https://huggingface.co/Equall/SaulLM-141B-Instruct
-    notes: Model card touches on the necessary details on a high level.
+    class: closed
+    link: https://huggingface.co/rednote-hilab/dots.llm1.inst
+    notes: Model card primarily contains usage instructions.
 
 datasheet:
     class: closed
-    link: 
+    link:
     notes: No datasheet found.
 
 # access:
@@ -93,12 +93,13 @@ package:
     notes: No package found.
 
 api:
-    class: closed
-    link:
-    notes: No API found.
+    class: open
+    link: https://huggingface.co/spaces/rednote-hilab/dots-demo
+    notes: Model available through HuggingFace space.
     metaprompt: closed
 
 licenses:
     class: open
-    link: https://huggingface.co/Equall/SaulLM-141B-Instruct#model-description
+    link: https://huggingface.co/rednote-hilab/dots.llm1.inst/blob/main/LICENSE
     notes: MIT license, an OSI-approved license.
+

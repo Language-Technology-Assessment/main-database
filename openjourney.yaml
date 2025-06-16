@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
 system:
     name: Openjourney
     link: https://openjourney.art
@@ -16,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: Stable-Diffusion-v1.5
     endmodelname: OpenJourney-v4
-    endmodellicense: creativeml-openrail-m
+    endmodellicense: CreativeML Open RAIL-M
     releasedate: 2022-11
     notes: Model trained on MidJourney images.
 

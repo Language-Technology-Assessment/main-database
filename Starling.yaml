@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
 system:
     name: Starling
     link: https://huggingface.co/Nexusflow/Starling-LM-7B-beta
@@ -37,9 +41,9 @@ datasources_endmodel:
     notes: 
 
 weights_basemodel:
-    class: open
-    link: 
-    notes: llama2
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
 
 weights_endmodel:
     class: open

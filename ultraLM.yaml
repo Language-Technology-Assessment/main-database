@@ -9,13 +9,17 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: China
+# - Contributor type: Academic (Research institution)
+
 system:
     name: UltraLM
     link: https://huggingface.co/openbmb/UltraLM-13b-v2.0
     type: text 
     performanceclass: full
-    basemodelname: LLaMA2
-    endmodelname: UltraFeedback (part synthetic)
+    basemodelname: Llama-13B
+    endmodelname: UltraLM-13B-v2.0
     endmodellicense: Meta Community License
     releasedate: 2023-09
     notes: Model trained using high-quality feedback.

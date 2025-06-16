@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Research institution)
+
 system:
     name: Amber
     link: https://huggingface.co/LLM360/AmberSafe
@@ -16,7 +20,7 @@ system:
     performanceclass: limited
     basemodelname: Amber
     endmodelname: AmberSafe
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2023-11
     notes: Model released to make LLM training knowledge accessible to all.
 

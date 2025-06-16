@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: International
+# - Contributor type: Academic (Research community)
+
 system:
     name: Open Assistant
     link: https://open-assistant.io/
@@ -16,12 +20,12 @@ system:
     performanceclass: full
     basemodelname: Pythia-12B
     endmodelname: Pythia-12B-SFT-v8-7K-Steps
-    endmodellicense: Apache 2.0
+    endmodellicense: Apache-2.0
     releasedate: 2023-02
     notes: Community-built model aiming to bridge the gap between open-source models and ChatGPT.
 
 org:
-    name: LAION-AI
+    name: LAION
     link: https://open-assistant.io/
     notes: Early intiative to bolster the open-source community.
 

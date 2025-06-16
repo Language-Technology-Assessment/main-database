@@ -9,6 +9,10 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: International
+# - Contributor type: Non-academic (Company)
+
 system:
     name: Pythia
     link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B
@@ -21,7 +25,7 @@ system:
     notes: Open-source model and open-source tool for building chatbots.
 
 org:
-    name: EleutherAI, Together Computer
+    name: EleutherAI and Together Computer
     link: ["https://huggingface.co/EleutherAI", "https://together.ai/"]
     notes: Base model developed by EleutherAI, a major player in the open-source space. Fine-tune by Together Computer, a cloud platform for generative AI.
 

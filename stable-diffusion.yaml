@@ -9,19 +9,23 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United Kingdom
+# - Contributor type: Non-academic (Company)
+
 system:
     name: Stable Diffusion
     link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
     type: image
     performanceclass: latest
-    basemodelname: Stable Diffusion 3.5 large
-    endmodelname: Stable Diffusion 3.5 large
+    basemodelname: Stable-Diffusion-3.5-Large
+    endmodelname: Stable-Diffusion-3.5-Large
     endmodellicense: Stability AI Community License
     releasedate: 2024-10
     notes: Popular image-generation model.
 
 org:
-    name: Stability AI
+    name: StabilityAI
     link: https://stability.ai/
     notes: UK-based AI company known for its diffusion models.
 
