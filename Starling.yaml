@@ -41,9 +41,9 @@ datasources_endmodel:
     notes: 
 
 weights_basemodel:
-    class: open
-    link: 
-    notes: llama2
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
 
 weights_endmodel:
     class: open

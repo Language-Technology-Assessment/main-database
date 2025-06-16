@@ -41,9 +41,9 @@ datasources_endmodel:
     notes: few shared 
 
 weights_basemodel:
-    class: open
-    link: 
-    notes: LLama3
+    class: partial
+    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
+    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
 
 weights_endmodel:
     class: partial
