@@ -26,14 +26,14 @@ system:
 
 org:
     name: Tencent
-    link: https://www.tencent.com/
+    link: https://ailab.tencent.com/ailab/en/index/
     notes: Tencent, a Chinese conglomerate.
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://laion.ai/blog/laion-5b/
+    notes: Trained on a subset of LAION-5B, an openly available dataset.
 
 datasources_endmodel:
     class: closed
@@ -42,8 +42,8 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/tencent/MimicMotion
-    notes:
+    link: https://huggingface.co/stabilityai/stable-diffusion-2-base
+    notes: Weights available through HuggingFace.
     
 weights_endmodel:
     class: open
@@ -82,9 +82,9 @@ modelcard:
     notes:
 
 datasheet:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://arxiv.org/pdf/2210.08402
+    notes: Data collection procedures for LAION are outlined in a corresponding paper. No datasheet found for end model.
 
 # access:
 package:

@@ -32,24 +32,24 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: partial
-    link: https://github.com/young-geng/koala_data_pipeline
-    notes: Repo contains data pipeline for preprocessing. Based on LLaMA which is said to be based on 'publicly available datasets' which are not made directly available.
+    class: closed
+    link: https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md#training-dataset
+    notes: Based on LLaMA whose pretraining data has nowhere been disclosed or documented.
 
 datasources_endmodel:
     class: partial
-    link: https://bair.berkeley.edu/blog/2023/04/03/koala/#datasets-and-training
+    link: ["https://bair.berkeley.edu/blog/2023/04/03/koala/#datasets-and-training", "https://github.com/young-geng/koala_data_pipeline"]
     notes: Datasets described in blog post but not all made available
 
 weights_basemodel:
     class: closed
-    link: https://drive.google.com/drive/folders/10f7wrlAFoPIy-TECHsx9DKIvbQYunCfl
-    notes: Model weights ostensibly made available as a diff against LLaMA, however the folder containing the weights is empty.
+    link: 
+    notes: Based on LLaMA weights, which are not openly available though a leaked versions is in wide circulation.
 
 weights_endmodel:
     class: closed
-    link:
-    notes: RL weights not made available separately
+    link: https://drive.google.com/drive/folders/10f7wrlAFoPIy-TECHsx9DKIvbQYunCfl
+    notes: Model weights ostensibly made available as a diff against LLaMA, however the folder containing the weights is empty.
 
 trainingcode:
     class: open
@@ -85,7 +85,7 @@ modelcard:
 datasheet:
     class: closed
     link:
-    notes: No systematic data sheet available
+    notes: No datasheet found
 
 # access
 package:

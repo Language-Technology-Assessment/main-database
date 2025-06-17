@@ -32,7 +32,7 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link:
+    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
     notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
 
 datasources_endmodel:
@@ -42,8 +42,8 @@ datasources_endmodel:
 
 weights_basemodel:
     class: partial
-    link: https://huggingface.co/meta-llama/Llama-2-70b-hf
-    notes: Gated model available on HuggingFace.
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
 
 weights_endmodel:
     class: open

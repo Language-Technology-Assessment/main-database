@@ -27,7 +27,7 @@ system:
 org:
     name: ByteDance
     link: https://www.bytedance.com/
-    notes: Chinese technology company that owns Tiktok
+    notes: ByteDance, the parent company of TikTok.
 
 # availability:
 datasources_basemodel:

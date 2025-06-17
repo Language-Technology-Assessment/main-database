@@ -32,8 +32,8 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link:
-    notes: Pretraining data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
 
 datasources_endmodel:
     class: closed
@@ -62,9 +62,9 @@ code:
     notes: Code on HuggingFace only covers minimal examples; no documentation available. 
 
 hardware_architecture:
-    class: partial
+    class: closed
     link: https://huggingface.co/stabilityai/StableBeluga2#model-details
-    notes: "Says 'Stable Beluga 2 is a Llama2 70B model finetuned on an Orca style Dataset'."
+    notes: Hyperparameters provided, but no hardware.
 
 preprint:
     class: partial

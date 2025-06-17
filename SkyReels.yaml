@@ -33,7 +33,7 @@ org:
 datasources_basemodel:
     class: closed
     link:
-    notes: No dataset found.
+    notes: No base model data sources found.
 
 datasources_endmodel:
     class: closed
@@ -42,7 +42,7 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/tencent/HunyuanVideo/tree/main
+    link: https://huggingface.co/tencent/HunyuanVideo
     notes: Weights made available through HuggingFace.
     
 weights_endmodel:
@@ -62,9 +62,9 @@ code:
     notes: No training code, so no documentation.
 
 hardware_architecture:
-    class: partial
+    class: closed
     link:
-    notes: No architecture information found.
+    notes: No information regarding training hardware found.
 
 preprint:
     class: closed

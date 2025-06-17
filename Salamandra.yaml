@@ -33,12 +33,12 @@ org:
 datasources_basemodel:
     class: partial
     link: 
-    notes: detailed in model card but not readily available or linked
+    notes: Detailed in model card but not readily available or linked.
 
 datasources_endmodel:
     class: partial
     link: 
-    notes: finetuning data listed in model card but not linked or shared
+    notes: Finetuning data listed in model card but not linked or shared.
 
 weights_basemodel:
     class: open
@@ -53,23 +53,23 @@ weights_endmodel:
 trainingcode:
     class: closed
     link: 
-    notes: no training code found
+    notes: No training code found.
 
 # documentation:
 code:
     class: closed
     link:  
-    notes: no code documentation found
+    notes: No code documentation found.
 
 hardware_architecture:
     class: open
     link:  
-    notes: model card contains details
+    notes: Model card contains details.
 
 preprint:
     class: open
     link: 
-    notes: various preprints available
+    notes: Various preprints available.
 
 paper:
     class: closed
@@ -84,7 +84,7 @@ modelcard:
 datasheet:
     class: open
     link: https://huggingface.co/BSC-LT/salamandra-7b-instruct
-    notes: datasheet part of model cart
+    notes: Datasheet part of model card.
 
 # access:
 package:
@@ -101,4 +101,4 @@ api:
 licenses:
     class: partial
     link: 
-    notes: weights as apache 2
+    notes: Apache-2.0, an OSI-approved license.

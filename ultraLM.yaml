@@ -26,14 +26,14 @@ system:
 
 org:
     name: OpenBMB
-    link: https://www.openbmb.org/
+    link: https://www.openbmb.cn/
     notes: "OpenBMB (Open Lab for Big Model Base), founded by TsinghuaNLP & ModelBest Inc (面壁智能), aims to build foundation models and systems towards AGI."
 
 # availability:
 datasources_basemodel:
     class: closed
-    link:
-    notes: Based on Llama2, which means pretraining data is nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+    link: https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md#training-dataset
+    notes: Based on LLaMA whose pretraining data has nowhere been disclosed or documented.
 
 datasources_endmodel:
     class: open
@@ -41,9 +41,9 @@ datasources_endmodel:
     notes: UltraFeedback dataset made available along with model release
 
 weights_basemodel:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
+    class: closed
+    link: 
+    notes: Based on LLaMA weights, which are not openly available though a leaked versions is in wide circulation.
 
 weights_endmodel:
     class: partial

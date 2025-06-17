@@ -42,12 +42,12 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1
+    link: https://huggingface.co/bigcode/starcoder2-15b
     notes: Weights made available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/bigcode/starcoder2-15b
+    link: https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1
     notes: Weights made available on HuggingFace.
 
 trainingcode:
