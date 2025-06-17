@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (American Big Tech)
+
+system:
+    name: 33x-Coder
+    link: https://huggingface.co/senseable/33x-coder
+    type: code
+    performanceclass: limited
+    basemodelname: Llama-2-34B
+    endmodelname: 33x-Coder
+    endmodellicense: Apache-2.0
+    releasedate: 2024-01
+    notes: Pre-CodeLlama coder model
+
+org:
+    name: Common Sense
+    link: https://huggingface.co/senseable
+    notes: Common Sense, a collective of LLM developers
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+
+datasources_endmodel:
+    class: partial
+    link: ["https://huggingface.co/datasets/andersonbcdefg/synthetic_retrieval_tasks", "https://huggingface.co/datasets/ise-uiuc/Magicoder-Evol-Instruct-110K"]
+    notes: Two data sources linked, however unclear if they are the only ones used.
+
+weights_basemodel:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/senseable/33x-coder
+    notes: Weights made available on HuggingFace.
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No repo containing training code found.
+
+# documentation:
+code:
+    class: closed
+    link:  
+    notes: No training code, so undocumented.
+
+hardware_architecture:
+    class: closed
+    link: 
+    notes: No hardware architecture documented.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint found.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/senseable/33x-coder
+    notes: Model card provides only surface-level detail.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: https://huggingface.co/spaces/senseable/senseable-33x-coder
+    notes: HuggingFace space returns error.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/senseable/33x-coder
+    notes: Apache-2.0, an OSI-approved license.
