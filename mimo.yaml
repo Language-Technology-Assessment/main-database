@@ -1,0 +1,105 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: China
+# - Contributor type: Non-academic (Chinese Big Tech)
+
+system:
+    name: MiMo
+    link: https://huggingface.co/XiaomiMiMo/MiMo-7B-SFT
+    type: text 
+    performanceclass: latest
+    basemodelname: MiMo-7B-Base
+    endmodelname: MiMo-7B-SFT
+    endmodellicense: MIT License
+    releasedate: 2025-04
+    notes: Reasoning model with claims of great performance.
+
+org:
+    name: Xiaomi
+    link: https://www.mi.com/global/
+    notes: Xiaomi, a Chinese consumer electronics company.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: https://arxiv.org/pdf/2505.07608
+    notes: Pretraining data only specified on a high level.
+
+datasources_endmodel:
+    class: closed
+    link: https://arxiv.org/pdf/2505.07608
+    notes: End model training data only specified on a high level.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/XiaomiMiMo/MiMo-7B-Base
+    notes: Model weights made available on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/XiaomiMiMo/MiMo-7B-SFT
+    notes: Model weights made available on HuggingFace.
+
+trainingcode:
+    class: closed
+    link: https://github.com/XiaomiMiMo/MiMo
+    notes: Repository only provides information on report.
+
+# documentation:
+code:
+    class: closed
+    link: 
+    notes: No code, so no documentation.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2505.07608
+    notes: Hardware architecture outlined in paper.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2505.07608
+    notes: Technical report published on arXiv.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/XiaomiMiMo/MiMo-7B-SFT
+    notes: Model card provides high-level info about the model.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/mit.md
+    notes: MIT License, an OSI-approved license.
+
