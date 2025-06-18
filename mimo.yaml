@@ -77,7 +77,7 @@ paper:
     notes: No peer-reviewed paper found.
 
 modelcard:
-    class: closed
+    class: partial
     link: https://huggingface.co/XiaomiMiMo/MiMo-7B-SFT
     notes: Model card provides high-level info about the model.
 
