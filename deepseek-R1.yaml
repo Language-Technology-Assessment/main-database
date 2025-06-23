@@ -15,7 +15,7 @@
 
 system:
     name: DeepSeek R1
-    link: https://github.com/deepseek-ai/DeepSeek-R1
+    link: https://huggingface.co/deepseek-ai/DeepSeek-R1-0528
     type: text 
     performanceclass: latest
     basemodelname: DeepSeek-V3-Base
