@@ -26,7 +26,7 @@ system:
 
 org:
     name: BigScience Workshop
-    link: https://github.com/bigscience-workshop
+    link: https://bigscience.huggingface.co/
     notes: Research workshop on large multilingual models.
 
 # availability:

@@ -22,7 +22,7 @@ system:
     endmodelname: BELLE-Llama2-13B-Chat-0.4M
     endmodellicense: Apache-2.0
     releasedate: 2023-03
-    notes: Llama-2 fine-tuned on a small amount of Chinese data.
+    notes: Llama-2 fine-tuned on a small amount of Chinese data. Earlier variants exist based on BLOOMZ.
 
 org:
     name: KE Technologies
@@ -31,9 +31,9 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: partial
-    link:
-    notes: Open for variants based on BLOOMZ. Closed for variants based on LLaMA, whose pretraining data is nowhere disclosed or documented.
+    class: closed
+    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta.
 
 datasources_endmodel:
     class: partial
@@ -42,8 +42,8 @@ datasources_endmodel:
 
 weights_basemodel:
     class: partial
-    link:
-    notes: LLaMA based but copyright status unclear
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
 
 weights_endmodel:
     class: partial
@@ -63,8 +63,8 @@ code:
 
 hardware_architecture:
     class: open
-    link: https://github.com/LianjiaTech/BELLE/blob/main/README_en.md
-    notes: Specified in a fair bit of detail on github
+    link: "https://github.com/LianjiaTech/BELLE/blob/main/README_en.md"
+    notes: Specified in a fair bit of detail on GitHub.
 
 preprint:
     class: open
@@ -84,7 +84,7 @@ modelcard:
 datasheet:
     class: closed
     link: 
-    notes: No data sheet found
+    notes: No datasheet found.
 
 # access:
 package:

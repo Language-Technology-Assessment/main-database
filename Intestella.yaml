@@ -15,7 +15,7 @@
 
 system:
     name: Instella
-    link: https://huggingface.co/amd/Instella-3B-Instruct
+    link: https://huggingface.co/amd/Instella-3B-Long-Instruct
     type: text
     performanceclass: full
     basemodelname: Instella-3B
@@ -32,12 +32,12 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link: https://huggingface.co/amd/Instella-3B-Instruct
+    link: https://huggingface.co/amd/Instella-3B-Long-Instruct
     notes: Data sources laid out in model card.
 
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/amd/Instella-3B-Instruct
+    link: https://huggingface.co/amd/Instella-3B-Long-Instruct
     notes: Data sources laid out in model card.
 
 weights_basemodel:
@@ -47,7 +47,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/amd/Instella-3B-Instruct
+    link: https://huggingface.co/amd/Instella-3B-Long-Instruct
     notes: Weights published on HuggingFace.
 
 trainingcode:
@@ -78,12 +78,12 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/amd/Instella-3B-Instruct
+    link: https://huggingface.co/amd/Instella-3B-Long-Instruct
     notes: Model card contains the requisite detail.
 
 datasheet:
     class: open
-    link: https://huggingface.co/amd/Instella-3B-Instruct
+    link: https://huggingface.co/amd/Instella-3B-Long-Instruct
     notes: All datasets used are open and documented.
 
 # access:

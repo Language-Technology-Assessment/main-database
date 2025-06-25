@@ -15,7 +15,7 @@
 
 system:
     name: Tülu
-    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B
+    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B-DPO
     type: text 
     performanceclass: full
     basemodelname: Llama-3.1-405B
@@ -47,7 +47,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B
+    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B-DPO
     notes: Model weights available through HuggingFace.
 
 trainingcode:
@@ -63,7 +63,7 @@ code:
 
 hardware_architecture:
     class: partial
-    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B
+    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B-DPO
     notes: Fine-tuning hardware architecture well-documented, but base model is irrevocably closed.
 
 preprint:
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B
+    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B-DPO
     notes: Model card provides the requisite detail.
 
 datasheet:
@@ -100,6 +100,6 @@ api:
 
 licenses:
     class: closed
-    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B#model-description
+    link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B-DPO#model-description
     notes: Llama 3.1 Community License Agreement, not an OSI-approved license.
 

@@ -33,12 +33,12 @@ org:
 datasources_basemodel:
     class: closed
     link: https://huggingface.co/papers/2404.14619
-    notes: publically available datasets cited as training data but not further specified 
+    notes: Publicly available datasets cited as training data but not further specified.
 
 datasources_endmodel:
     class: closed
     link: https://huggingface.co/papers/2404.14619
-    notes: publically available datasets cited as training data but not further specified
+    notes: Publicly available datasets cited as training data but not further specified.
 
 weights_basemodel:
     class: open
@@ -53,7 +53,7 @@ weights_endmodel:
 trainingcode:
     class: partial
     link: 
-    notes: config and generation code on Hugginface
+    notes: Config and generation code on HuggingFace.
 
 # documentation:
 code:
@@ -64,7 +64,7 @@ code:
 hardware_architecture:
     class: partial
     link:  
-    notes: some details on the modelcard 
+    notes: Some details on the modelcard.
 
 preprint:
     class: open
@@ -101,4 +101,4 @@ api:
 licenses:
     class: partial
     link: 
-    notes: weights under custom Apple license 
+    notes: Weights under custom Apple license.

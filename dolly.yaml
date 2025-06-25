@@ -32,8 +32,8 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link:
-    notes:
+    link: https://huggingface.co/datasets/EleutherAI/the_pile_deduplicated
+    notes: Training data published on HuggingFace for Pythia-based models.
     
 datasources_endmodel:
     class: open
@@ -42,8 +42,8 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link:
-    notes:
+    link: https://huggingface.co/EleutherAI/pythia-12b-deduped
+    notes: Model weights available via HuggingFace.
 
 weights_endmodel:
     class: closed

@@ -32,8 +32,8 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link:
-    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+    link: https://huggingface.co/mistralai/Mistral-7B-v0.1/discussions/8
+    notes: Mistral has not disclosed anything about its training data.
 
 datasources_endmodel:
     class: closed
@@ -41,9 +41,9 @@ datasources_endmodel:
     notes: No RLHF datasets specified or shared, docs say 'Orca-style dataset, Alpaca-style dataset'
 
 weights_basemodel:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
+    class: open
+    link: https://huggingface.co/mistralai/Mistral-7B-v0.1
+    notes: Weights available through HuggingFace.
 
 weights_endmodel:
     class: partial

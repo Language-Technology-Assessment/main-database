@@ -1,0 +1,105 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: China
+# - Contributor type: Non-academic (Chinese AI Tiger)
+
+system:
+    name: Kimi
+    link: https://huggingface.co/moonshotai/Kimi-Dev-72B
+    type: code 
+    performanceclass: latest
+    basemodelname: Kimi-Dev-72B
+    endmodelname: Kimi-Dev-72B
+    endmodellicense: MIT License
+    releasedate: 2025-06
+    notes: Coding LLM by Moonshot AI.
+
+org:
+    name: Moonshot AI
+    link: https://www.moonshot.cn/Kimi-Dev
+    notes: Chinese AI Tiger.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: No information on data sources found.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: No information on data sources found.
+
+weights_basemodel:
+    class: closed
+    link: 
+    notes: No base model made available.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/moonshotai/Kimi-Dev-72B
+    notes: Model weights made available on HuggingFace.
+
+trainingcode:
+    class: closed
+    link: https://huggingface.co/moonshotai/Kimi-Dev-72B
+    notes: Repository only provides harness for benchmarking.
+
+# documentation:
+code:
+    class: closed
+    link: 
+    notes: No code, so no documentation.
+
+hardware_architecture:
+    class: closed
+    link: 
+    notes: Architecture not described.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint found.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/moonshotai/Kimi-Dev-72B
+    notes: Model card provides minimal information about the model (mainly benchmarks).
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/mit.md
+    notes: MIT License, an OSI-approved license.
+

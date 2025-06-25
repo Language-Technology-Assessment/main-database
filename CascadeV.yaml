@@ -42,8 +42,8 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://github.com/PixArt-alpha/PixArt-sigma
-    notes: Model made available on GitHub.
+    link: https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS
+    notes: Weights made available through HuggingFace.
     
 weights_endmodel:
     class: open

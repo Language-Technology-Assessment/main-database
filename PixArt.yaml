@@ -43,12 +43,12 @@ datasources_endmodel:
 weights_basemodel:
     class: open
     link: https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS
-    notes:
+    notes: Weights made available through HuggingFace.
     
 weights_endmodel:
     class: open
-    link:
-    notes: Weights available through HuggingFace.
+    link: https://huggingface.co/PixArt-alpha/PixArt-Sigma-XL-2-1024-MS
+    notes: Weights made available through HuggingFace.
 
 trainingcode:
     class: open
