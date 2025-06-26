@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: China
+# - Contributor type: Academic (University)
+
+system:
+    name: CodeUp
+    link: https://huggingface.co/juyongjiang/CodeUp-Llama-3-8B
+    type: code
+    performanceclass: full
+    basemodelname: Meta-Llama-3-8B
+    endmodelname: CodeUp-Llama-3-8B
+    endmodellicense: Stable-Diffusion-OpenRail++-M License and Apache-2.0 and CC-BY-NC-4.0
+    releasedate: 2024-12
+    notes: Multilingual code generation model.
+
+org:
+    name: John
+    link: https://github.com/juyongjiang
+    notes: PhD student at HKUST.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a release blog post
+
+datasources_endmodel:
+    class: open
+    link: ["https://huggingface.co/datasets/WizardLMTeam/WizardLM_evol_instruct_V2_196k", "https://huggingface.co/datasets/meta-math/MetaMathQA", "https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1"]
+    notes: Datasets used for tuning published on HuggingFace.
+
+weights_basemodel:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+weights_endmodel:
+    class: partial
+    link: https://huggingface.co/juyongjiang/CodeUp-Llama-3-8B
+    notes: Model available on HuggingFace.
+
+trainingcode:
+    class: partial
+    link: ["https://github.com/meta-llama/llama3", "https://github.com/juyongjiang/CodeUp"]
+    notes: Base model repository only offers minimal code. End model repo contains some code.
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/juyongjiang/CodeUp/blob/master/README.md
+    notes: End model repo documented.
+
+hardware_architecture:
+    class: partial
+    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+    notes: Architecture sketched in glossy blog post.
+
+preprint:
+    class: partial
+    link: https://arxiv.org/pdf/2406.00515
+    notes: Preprint exists for a very tangentially related document.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf
+    notes: Model card provides some information about training and inference, however mostly contains usage instructions.
+
+datasheet:
+    class: partial
+    link: ["https://huggingface.co/datasets/WizardLMTeam/WizardLM_evol_instruct_V2_196k", "https://huggingface.co/datasets/meta-math/MetaMathQA", "https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1"]
+    notes: Datasheets found with various levels of detail.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: partial
+    link: https://huggingface.co/juyongjiang/CodeUp-Llama-3-8B
+    notes: Stable-Diffusion-OpenRail++-M License and Apache-2.0 and CC-BY-NC-4.0. Not all OSI-approved licenses.
