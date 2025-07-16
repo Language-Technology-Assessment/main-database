@@ -1,10 +1,14 @@
-# How to contribute 
+# European Open Source AI Index main database
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15386042.svg)](https://doi.org/10.5281/zenodo.15386042)
+
+
+## How to contribute 
 
 Every system is a separate yaml file. The first few fields contain basic metadata about the system/model, the rest of the file is a set of triples of `_class`, `_link` and `_notes`. Class can be one of three values: 🟩 open, 🟧 partial or 🟥 closed (leave empty to signify NA). Link is a URL providing evidence for the openness classification. Notes provide context and reasoning for the classification.
 
-You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the stipulation that attribution should come in the form of a citation of the index files at Zenodo. doi:[10.5281/zenodo.15386042](https://doi.org/10.5281/zenodo.15386042)
+You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the stipulation that attribution should come in the form of a citation of the index files. doi:[10.5281/zenodo.15386042](https://doi.org/10.5281/zenodo.15386042)
 
-# Which models are included?
+## Which models are included?
 
 The index aims to include any *instruct-tuned generative AI system or model* that is described by the responsible organisation or builder as "open-source" or "open", or that is marketed as such by offical outlets of the responsible organisation or builder. Generally, the index aims to:
 
@@ -14,10 +18,10 @@ The index aims to include any *instruct-tuned generative AI system or model* tha
 
 - Models spanning across different modalities may be included in more than one modality category (text; image; video etc) leading to multiple entries in the index.
 
-# Openness Criteria and system information
+## Openness Criteria and system information
 For each model, the yaml files in this database collect (1) some general information about the system, (2) about the organization behind it, (3) and about 14 dimension of openness. The below list spells out for the openness criteria for features in the areas of system information and organisation, followed by openness criteria groupt into 'Availability', 'Documentation' and 'Access'. Use these guidelines to document determinations of openness levels as precisely as possible, including links to evidence. Notes are optional.
 
-## **System**
+### **System**
 
     name: Name of the model including eventual version number or size indication, e.g. Llama 3.1 or Olmo-7B-instruct
     
@@ -35,13 +39,13 @@ For each model, the yaml files in this database collect (1) some general informa
 
     releasedate: Earliest release date of the model through any offical source, in YYYY MMM format, e.g. 2024 NOV.
 
-## **Organisation**
+### **Organisation**
 
     name:  Organisation that released the model. Usually synonymous with model builder.
 
     link: Link to offical source of information about model release, e.g. offical website or blog.
 
-## **Availability**
+### **Availability**
 
 **Datasources Basemodel**
 
@@ -93,7 +97,7 @@ Is the source code of dataset processing, model training and tuning comprehensiv
     
     🟩 Project source code openly available and fully open available for inspection.
 
-## **Documentation**
+### **Documentation**
 
 **Code Documentation**
 
@@ -156,7 +160,7 @@ Is a datasheet as defined in "Datasheets for Datasets" (Gebru et al. 2021) avail
     🟩 Datasheet(s) are available that provide comprehensive insight on data collection and curation are available following the standards defined in Datasheets for Datasets (https://doi.org/10.1145/3458723) by Gebru et al. (2021)
 
 
-## **Access methods**
+### **Access methods**
 
 **Package**
 
