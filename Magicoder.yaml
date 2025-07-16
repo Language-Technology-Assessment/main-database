@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Academic (University)
+
+system:
+    name: Magicoder
+    link: https://huggingface.co/ise-uiuc/Magicoder-S-CL-7B
+    type: code
+    performanceclass: full
+    basemodelname: Llama-2-7B
+    endmodelname: Magicoder-S-CL-7B
+    endmodellicense: Llama 2 Community License Agreement
+    releasedate: 2023-12
+    notes: Coder model by student team at UIUC
+
+org:
+    name: Intelligent Software Engineering
+    link: https://github.com/ise-uiuc
+    notes: Student team at University of Illinois Urbana-Champaign.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+
+datasources_endmodel:
+    class: open
+    link: ["https://huggingface.co/datasets/ise-uiuc/Magicoder-OSS-Instruct-75K", "https://huggingface.co/datasets/ise-uiuc/Magicoder-Evol-Instruct-110K"]
+    notes: Datasets for instruct-tuning published on HuggingFace.
+
+weights_basemodel:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/ise-uiuc/Magicoder-S-CL-7B
+    notes: Model available on HuggingFace.
+
+trainingcode:
+    class: partial
+    link: ["https://github.com/meta-llama/codellama", "https://github.com/ise-uiuc/magicoder"]
+    notes: Repos exists, but only tuning code is available.
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/ise-uiuc/magicoder/blob/main/README.md
+    notes: End model training repo sparsely documented.
+
+hardware_architecture:
+    class: partial
+    link: "https://arxiv.org/pdf/2308.12950"
+    notes: Hardware architecture discussed in aggregate and with a low level of detail in the model's paper.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2312.02120
+    notes: Preprint available through arXiv.
+
+paper:
+    class: open
+    link: https://dl.acm.org/doi/10.5555/3692070.3694228
+    notes: Paper published in ACM.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf
+    notes: Model card provides some information about training and inference, however mostly contains usage instructions.
+
+datasheet:
+    class: partial
+    link: ["https://huggingface.co/datasets/ise-uiuc/Magicoder-OSS-Instruct-75K", "https://huggingface.co/datasets/ise-uiuc/Magicoder-OSS-Instruct-75K"]
+    notes: Datasheets found with scarce detail.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf#model-details
+    notes: Llama 2 Community License Agreement, not an OSI-approved license.
