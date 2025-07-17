@@ -1,5 +1,5 @@
 ---
-title: open-genAI-assess: A framework to build community-driven generative AI assessment indexes
+title: open-genAI-assess A framework to build community-driven generative AI assessment indexes
 tags:
   - open-source
   - generative AI
