@@ -1,5 +1,5 @@
 ---
-title: Language Technology Assessment main database - OSAI Index
+title: open-genAI-assess: A framework to build community-driven generative AI assessment indexes
 tags:
   - open-source
   - generative AI
@@ -9,14 +9,14 @@ authors:
   - name: Andreas Liesenfeld
     orcid: 0000-0001-6076-4406
     affiliation: 'Centre of Language and Speech Technology, Radboud University'
-  - name: Mark Dingemanse
-    orcid: 0000-0002-3290-5723
-    affiliation: 'Centre of Language and Speech Technology, Radboud University'
+  - name: Dick Blankvoort
+    orcid: 0009-0003-0766-4678
+    affiliation: 'Centre of Language and Speech Technology, Radboud University'  
   - name: Nityaa Kalra
     orcid: 0009-0005-0958-553X
     affiliation: 'Centre of Language and Speech Technology, Radboud University'
-  - name: Dick Blankvoort
-    orcid: 0009-0003-0766-4678
+  - name: Mark Dingemanse
+    orcid: 0000-0002-3290-5723
     affiliation: 'Centre of Language and Speech Technology, Radboud University'
 
 date: 7 June 2025
