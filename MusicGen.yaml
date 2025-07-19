@@ -20,7 +20,7 @@ system:
     performanceclass: full
     basemodelname: MusicGen-Melody-Large
     endmodelname: MusicGen-Stereo-Melody-Large
-    endmodellicense: CC-BY-NC-4.0
+    endmodellicense: MIT License
     releasedate: 2024-02
     notes: Music generation model.
 
