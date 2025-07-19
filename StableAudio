@@ -1,0 +1,105 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (American Big Tech)
+
+system:
+    name: Stable Audio Open
+    link: https://github.com/Stability-AI/stable-audio-tools
+    type: audio
+    performanceclass: full
+    basemodelname: stable-audio-open-1.0
+    endmodelname: stable-audio-open-1.0
+    endmodel license: Stability AI Community License
+    releasedate: 2024-07
+    notes: Music generation model
+
+org:
+    name: Stability AI
+    link: https://stability.ai/
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: https://huggingface.co/stabilityai/stable-audio-open-1.0/blob/main/fma_dataset_attribution2.csv
+    notes: Requires user information and login to access the data
+
+datasources_endmodel:
+    class: partial
+    link: https://huggingface.co/stabilityai/stable-audio-open-1.0/blob/main/fma_dataset_attribution2.csv
+    notes: Requires user information and login to access the data
+
+weights_basemodel:
+    class: partial
+    link: https://huggingface.co/stabilityai/stable-audio-open-1.0/tree/main
+    notes: Requires user information and login to access model weights
+
+    
+weights_endmodel:
+    class: partial
+    link: https://huggingface.co/stabilityai/stable-audio-open-1.0/tree/main
+    notes: Requires user information and login to access model weights
+
+trainingcode:
+    class: open
+    link: https://github.com/Stability-AI/stable-audio-tools
+    notes: 
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/Stability-AI/stable-audio-tools/blob/main/README.md
+    notes:
+
+hardware_architecture:
+    class: closed
+    link:
+    notes:
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2407.14358
+    notes:
+
+paper:
+    class: closed
+    link: 
+    notes:
+
+modelcard:
+    class: open
+    link: https://huggingface.co/stabilityai/stable-audio-open-1.0
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompts:
+
+licenses:
+    class: closed
+    link: https://huggingface.co/stabilityai/stable-audio-open-1.0/blob/main/LICENSE.md
+    notes: Stability AI Community License, Not an OSI approved license. 
