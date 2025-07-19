@@ -93,13 +93,13 @@ package:
     notes:
 
 api:
-    class: partial
-    link:
-    notes: limited access API 
+    class: open
+    link: https://huggingface.co/spaces/facebook/MusicGen
+    notes: provided through HuggingFace 
     metaprompts:
 
 licenses:
-    class: partial
+    class: open
     link:
-    notes: "weights as cc-by-nc-4.0"
+    notes: MIT license, an OSI-approved license.
 
