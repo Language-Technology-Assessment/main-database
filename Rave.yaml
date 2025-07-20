@@ -1,0 +1,105 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (American Big Tech)
+
+system:
+    name: Rave
+    link: https://github.com/acids-ircam/RAVE
+    type: audio
+    performanceclass: full
+    basemodelname: Variational Autoencoder (VAE)
+    endmodelname: RAVE
+    endmodel license: CC BY-NC 4.0 license
+    releasedate: 2021-09
+    notes: Music generation model
+
+org:
+    name: IRCAM
+    link: https://www.ircam.fr/
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: 
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: 
+
+weights_basemodel:
+    class: partial
+    link:  https://acids-ircam.github.io/rave_models_download
+    notes: VAE weights are embedded in final model checkpoints, but standalone VAE-only (pre-finetuning) weights are not released.
+
+    
+weights_endmodel:
+    class: open
+    link: https://acids-ircam.github.io/rave_models_download
+    notes: 
+
+trainingcode:
+    class: open
+    link: https://github.com/acids-ircam/RAVE
+    notes: 
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/acids-ircam/RAVE/blob/master/README.md
+    notes:
+
+hardware_architecture:
+    class: closed
+    link:
+    notes:
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2111.05011
+    notes:
+
+paper:
+    class: closed
+    link:  
+    notes: No peer reviewed version found. 
+
+modelcard:
+    class: open
+    link: https://acids-ircam.github.io/rave_models_download
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link: https://forum.ircam.fr/projects/detail/rave-vst/
+    notes: 
+    metaprompts:
+
+licenses:
+    class: closed
+    link: https://github.com/acids-ircam/RAVE/blob/main/LICENSE
+    notes: Not an OSI approved license 
