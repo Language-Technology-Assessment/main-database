@@ -1,0 +1,107 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (American Big Tech)
+
+system:
+    name: GANsynth
+    link: https://github.com/magenta/magenta/tree/main/magenta/models/gansynth
+    type: audio
+    performanceclass: full
+    basemodelname: GANsynth
+    endmodelname: GANsynth
+    endmodel license: Apache 2.0
+    releasedate: 2019-02
+    notes: Music generation model by Google Magenta
+
+org:
+    name: Google
+    link: https://magenta.withgoogle.com
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: https://magenta.tensorflow.org/datasets/nsynth
+    notes: Dataset is available, but the reduced version that they use and the newly
+    created test/train splits are not provided.
+
+datasources_endmodel:
+    class: partial
+    link: https://magenta.tensorflow.org/datasets/nsynth
+    notes: Dataset is available, but the reduced version that they use and the newly
+    created test/train splits are not provided.
+
+weights_basemodel:
+    class: open
+    link:  https://magenta.tensorflow.org/datasets/nsynth
+    notes:
+
+    
+weights_endmodel:
+    class: open
+    link:  https://magenta.tensorflow.org/datasets/nsynth
+    notes: 
+
+trainingcode:
+    class: open
+    link: https://github.com/magenta/magenta/tree/main/magenta/models/gansynth
+    notes: 
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/magenta/magenta/blob/main/magenta/models/gansynth/README.md
+    notes:
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/1902.08710
+    notes:
+
+preprint:
+    class: open
+    link: hhttps://arxiv.org/pdf/1902.08710
+    notes:
+
+paper:
+    class: open
+    link: https://openreview.net/forum?id=H1xQVn09FX
+    notes:
+
+modelcard:
+    class: closed
+    link: 
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link: 
+    notes: 
+    metaprompts:
+
+licenses:
+    class: open
+    link: https://github.com/magenta/magenta/blob/main/LICENSE
+    notes: Apache 2.0, an OSI approved license 
