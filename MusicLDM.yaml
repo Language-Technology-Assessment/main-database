@@ -33,17 +33,13 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes:  MusicLDM is trained on the Audiostock dataset, which contains 9000 music
-    tracks for training and 1000 tracks for testing. Dataset is not directly provided,
-    no information about the original sources accessibility or requirements is provided. 
+    notes:  MusicLDM is trained on the Audiostock dataset, which contains 9000 music tracks for training and 1000 tracks for testing. Dataset is not directly provided, no information about the original sources accessibility or requirements is provided. 
 
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: MusicLDM is trained on the Audiostock dataset, which contains 9000 music
-    tracks for training and 1000 tracks for testing. Dataset is not directly provided,
-    no information about the original sources accessibility or requirements is provided. 
+    notes: MusicLDM is trained on the Audiostock dataset, which contains 9000 music tracks for training and 1000 tracks for testing. Dataset is not directly provided, no information about the original sources accessibility or requirements is provided. 
 
 weights_basemodel:
     class: open
@@ -69,8 +65,7 @@ code:
 hardware_architecture:
     class: open
     link: https://arxiv.org/pdf/2308.01546
-    notes: Training procedure and architecture is documented in the preprint and in
-    the appendix additional page for the peer-reviewed version (https://musicldm.github.io/appendix/).
+    notes: Training procedure and architecture is documented in the preprint and in the appendix additional page for the peer-reviewed version (https://musicldm.github.io/appendix/).
     
 
 preprint:
@@ -91,9 +86,7 @@ modelcard:
 datasheet:
     class: partial
     link: https://github.com/LAION-AI/audio-dataset/blob/main/data_card/Audiostock.md
-    notes: Content is limited to data sources origin and details on how to reproduce
-    the data collection. Details on curation and other considerations, such as consent,
-    limitations and selection strategies are missing. 
+    notes: Content is limited to data sources origin and details on how to reproduce the data collection. Details on curation and other considerations, such as consent, limitations and selection strategies are missing. 
 
 # access:
 package:
