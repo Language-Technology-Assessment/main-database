@@ -33,21 +33,18 @@ org:
 datasources_basemodel:
     class: partial
     link: https://magenta.tensorflow.org/datasets/nsynth
-    notes: Dataset is available, but the reduced version that they use and the newly
-    created test/train splits are not provided.
+    notes: Dataset is available, but the reduced version that they use and the newly created test/train splits are not provided.
 
 datasources_endmodel:
     class: partial
     link: https://magenta.tensorflow.org/datasets/nsynth
-    notes: Dataset is available, but the reduced version that they use and the newly
-    created test/train splits are not provided.
+    notes: Dataset is available, but the reduced version that they use and the newly created test/train splits are not provided.
 
 weights_basemodel:
     class: open
     link:  https://magenta.tensorflow.org/datasets/nsynth
     notes:
 
-    
 weights_endmodel:
     class: open
     link:  https://magenta.tensorflow.org/datasets/nsynth
