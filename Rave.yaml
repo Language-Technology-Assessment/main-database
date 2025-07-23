@@ -16,51 +16,52 @@
 # This system assessment is based on work by the MusGO team, database published here: https://github.com/roserbatlleroca/MusGO_framework/tree/main/projects
 
 system:
-    name: MusicGen
-    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
+    name: Rave
+    link: https://github.com/acids-ircam/RAVE
     type: audio
     performanceclass: full
-    basemodelname: MusicGen-Melody-Large
-    endmodelname: MusicGen-Stereo-Melody-Large
-    endmodellicense: MIT License
-    releasedate: 2024-02
-    notes: Music generation model.
+    basemodelname: Variational Autoencoder (VAE)
+    endmodelname: RAVE
+    endmodel license: CC BY-NC 4.0 license
+    releasedate: 2021-09
+    notes: Music generation model
 
 org:
-    name: Meta
-    link: https://ai.meta.com/
-    notes: Meta, a major technology company.
+    name: IRCAM
+    link: https://www.ircam.fr/
+    notes: 
 
 # availability:
 datasources_basemodel:
     class: closed
-    link:
-    notes: internal 10k hrs and ShutterStock and Pond5 music data referenced in paper
+    link: 
+    notes: 
 
 datasources_endmodel:
     class: closed
-    link:
-    notes: internal 10k hrs and ShutterStock and Pond5 music data referenced in paper
+    link: 
+    notes: 
 
 weights_basemodel:
-    class: open
-    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
-    notes:
+    class: partial
+    link:  https://acids-ircam.github.io/rave_models_download
+    notes: VAE weights are embedded in final model checkpoints, but standalone VAE-only (pre-finetuning) weights are not released.
+
     
 weights_endmodel:
     class: open
-    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
-    notes:
+    link: https://acids-ircam.github.io/rave_models_download
+    notes: 
 
 trainingcode:
-    class: closed
-    link:
-    notes: just demo code found
+    class: open
+    link: https://github.com/acids-ircam/RAVE
+    notes: 
 
 # documentation:
 code:
-    class: closed
-    link:
+    class: open
+    link: https://github.com/acids-ircam/RAVE/blob/master/README.md
     notes:
 
 hardware_architecture:
@@ -70,17 +71,17 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: https://arxiv.org/abs/2306.05284
+    link: https://arxiv.org/abs/2111.05011
     notes:
 
 paper:
-    class: open
-    link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/94b472a1842cd7c56dcb125fb2765fbd-Abstract-Conference.html
-    notes:
+    class: closed
+    link:  
+    notes: No peer reviewed version found. 
 
 modelcard:
     class: open
-    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
+    link: https://acids-ircam.github.io/rave_models_download
     notes:
 
 datasheet:
@@ -95,13 +96,12 @@ package:
     notes:
 
 api:
-    class: open
-    link: https://huggingface.co/spaces/facebook/MusicGen
-    notes: provided through HuggingFace 
+    class: closed
+    link: https://forum.ircam.fr/projects/detail/rave-vst/
+    notes: 
     metaprompts:
 
 licenses:
-    class: open
-    link:
-    notes: MIT license, an OSI-approved license.
-
+    class: closed
+    link: https://github.com/acids-ircam/RAVE/blob/main/LICENSE
+    notes: Not an OSI approved license 

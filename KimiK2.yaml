@@ -1,0 +1,105 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+system:
+    name: Kimi K2
+    link: https://moonshotai.github.io/Kimi-K2/
+    type: text
+    performanceclass: latest
+    basemodelname: Kimi K2 Base
+    endmodelname: Kimi K2 Instruct
+    endmodellicense: Modified MIT License
+    releasedate: 2025-07
+    notes: MoE model optimised for Agentic Tasks
+
+
+org:
+    name: Moonshot AI 
+    link: https://www.moonshot.cn/
+    notes:
+
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes:
+    
+datasources_endmodel:
+    class: closed
+    link:
+    notes:
+    
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/moonshotai/Kimi-K2-Base/tree/main
+    notes:
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/moonshotai/Kimi-K2-Instruct/tree/main
+    notes:
+
+trainingcode:
+    class: partial
+    link: https://github.com/MoonshotAI/Kimi-K2
+    notes: GitHub repository provides code of some aspects of their training process, such as the custom MuonClip optimizer but not the entire pipeline 
+  
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes:
+
+hardware_architecture:
+    class: open
+    link: https://github.com/MoonshotAI/Kimi-K2
+    notes:
+
+preprint:
+    class: closed
+    link:
+    notes: "Paper Link (coming soon)"
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: open
+    link: https://huggingface.co/moonshotai/Kimi-K2-Instruct
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: open
+    link:  https://platform.moonshot.ai/
+    notes: Accessible through Moonshot AI's official API
+    metaprompts: open
+
+licenses:
+    class: partial 
+    link: https://github.com/MoonshotAI/Kimi-K2/blob/main/LICENSE
+    notes: Modified MIT license
+

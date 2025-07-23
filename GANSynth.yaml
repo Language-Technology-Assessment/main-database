@@ -16,71 +16,72 @@
 # This system assessment is based on work by the MusGO team, database published here: https://github.com/roserbatlleroca/MusGO_framework/tree/main/projects
 
 system:
-    name: MusicGen
-    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
+    name: GANsynth
+    link: https://github.com/magenta/magenta/tree/main/magenta/models/gansynth
     type: audio
     performanceclass: full
-    basemodelname: MusicGen-Melody-Large
-    endmodelname: MusicGen-Stereo-Melody-Large
-    endmodellicense: MIT License
-    releasedate: 2024-02
-    notes: Music generation model.
+    basemodelname: GANsynth
+    endmodelname: GANsynth
+    endmodel license: Apache 2.0
+    releasedate: 2019-02
+    notes: Music generation model by Google Magenta
 
 org:
-    name: Meta
-    link: https://ai.meta.com/
-    notes: Meta, a major technology company.
+    name: Google
+    link: https://magenta.withgoogle.com
+    notes: 
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link:
-    notes: internal 10k hrs and ShutterStock and Pond5 music data referenced in paper
+    class: partial
+    link: https://magenta.tensorflow.org/datasets/nsynth
+    notes: Dataset is available, but the reduced version that they use and the newly created test/train splits are not provided.
 
 datasources_endmodel:
-    class: closed
-    link:
-    notes: internal 10k hrs and ShutterStock and Pond5 music data referenced in paper
+    class: partial
+    link: https://magenta.tensorflow.org/datasets/nsynth
+    notes: Dataset is available, but the reduced version that they use and the newly created test/train splits are not provided.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
-    notes:
-    
-weights_endmodel:
-    class: open
-    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
+    link:  https://magenta.tensorflow.org/datasets/nsynth
     notes:
 
+weights_endmodel:
+    class: open
+    link:  https://magenta.tensorflow.org/datasets/nsynth
+    notes: 
+
 trainingcode:
-    class: closed
-    link:
-    notes: just demo code found
+    class: open
+    link: https://github.com/magenta/magenta/tree/main/magenta/models/gansynth
+    notes: 
 
 # documentation:
 code:
-    class: closed
-    link:
+    class: open
+    link: https://github.com/magenta/magenta/blob/main/magenta/models/gansynth/README.md
     notes:
 
 hardware_architecture:
-    class: closed
-    link:
+    class: open
+    link: https://arxiv.org/pdf/1902.08710
     notes:
 
 preprint:
     class: open
-    link: https://arxiv.org/abs/2306.05284
+    link: hhttps://arxiv.org/pdf/1902.08710
     notes:
+
 
 paper:
     class: open
-    link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/94b472a1842cd7c56dcb125fb2765fbd-Abstract-Conference.html
+    link: https://openreview.net/forum?id=H1xQVn09FX
     notes:
 
 modelcard:
-    class: open
-    link: https://huggingface.co/facebook/musicgen-stereo-melody-large
+    class: closed
+    link: 
     notes:
 
 datasheet:
@@ -95,13 +96,12 @@ package:
     notes:
 
 api:
-    class: open
-    link: https://huggingface.co/spaces/facebook/MusicGen
-    notes: provided through HuggingFace 
+    class: closed
+    link: 
+    notes: 
     metaprompts:
 
 licenses:
     class: open
-    link:
-    notes: MIT license, an OSI-approved license.
-
+    link: https://github.com/magenta/magenta/blob/main/LICENSE
+    notes: Apache 2.0, an OSI approved license 

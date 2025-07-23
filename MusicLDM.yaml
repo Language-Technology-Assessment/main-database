@@ -1,0 +1,108 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (American Big Tech)
+
+# This system assessment is based on work by the MusGO team, database published here: https://github.com/roserbatlleroca/MusGO_framework/tree/main/projects
+
+system:
+    name: MusicLDM
+    link: https://github.com/RetroCirce/MusicLDM
+    type: audio
+    performanceclass: full
+    basemodelname: musicldm
+    endmodelname: mudicldm
+    endmodel license: Attribution-NonCommercial-ShareAlike 4.0 International
+    releasedate: 2023-08
+    notes: Music generation model
+
+org:
+    name: University of California San Diego, Mila-Quebec AI Institute, University of Surre and LAION
+    link: 
+    notes: 
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes:  MusicLDM is trained on the Audiostock dataset, which contains 9000 music tracks for training and 1000 tracks for testing. Dataset is not directly provided, no information about the original sources accessibility or requirements is provided. 
+
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: MusicLDM is trained on the Audiostock dataset, which contains 9000 music tracks for training and 1000 tracks for testing. Dataset is not directly provided, no information about the original sources accessibility or requirements is provided. 
+
+weights_basemodel:
+    class: open
+    link: https://drive.google.com/drive/folders/15VDVcIgf99YRM5oGXhRxa_Rowl54uWho
+    notes: 
+    
+weights_endmodel:
+    class: open
+    link: https://drive.google.com/drive/folders/15VDVcIgf99YRM5oGXhRxa_Rowl54uWho
+    notes: 
+
+trainingcode:
+    class: partial
+    link: https://github.com/RetroCirce/MusicLDM
+    notes: 
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/RetroCirce/MusicLDM/blob/main/README.md
+    notes:
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2308.01546
+    notes: Training procedure and architecture is documented in the preprint and in the appendix additional page for the peer-reviewed version (https://musicldm.github.io/appendix/).
+    
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2308.01546
+    notes:
+
+paper:
+    class: open
+    link: https://ieeexplore.ieee.org/document/10447265
+    notes: Accepted at ICASSP 2024
+
+modelcard:
+    class: open
+    link: https://huggingface.co/ucsd-reach/musicldm
+    notes: 
+
+datasheet:
+    class: partial
+    link: https://github.com/LAION-AI/audio-dataset/blob/main/data_card/Audiostock.md
+    notes: Content is limited to data sources origin and details on how to reproduce the data collection. Details on curation and other considerations, such as consent, limitations and selection strategies are missing. 
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link: 
+    notes: API is shut down temporarily. Should be released again soon. 
+    metaprompts:
+
+licenses:
+    class: closed
+    link: https://github.com/RetroCirce/MusicLDM/blob/main/LICENSE
+    notes: Attribution-NonCommercial-ShareAlike 4.0 International

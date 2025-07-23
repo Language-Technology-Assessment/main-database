@@ -13,6 +13,8 @@
 # - National origin: United States
 # - Contributor type: Non-academic (Research institution)
 
+# This system assessment is based on work by the MusGO team, database published here: https://github.com/roserbatlleroca/MusGO_framework/tree/main/projects
+
 system:
     name: Guru
     link: https://huggingface.co/LLM360/guru-32B
