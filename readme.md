@@ -55,7 +55,7 @@ Are datasources for training the base model comprehensively documented and made 
     
     🟧 Some of the training data sources of base large language model are open for inspection or shared.
     
-    🟩 All training  data sources of base large language model are not open for inspection or shared.
+    🟩 All training  data sources of base large language model are open for inspection or shared.
 
 **Datasources Endmodel**
 
@@ -65,7 +65,7 @@ Are datasources for training the model that the end user interacts with comprehe
     
     🟧 Some of the training data sources of end large language model are open for inspection or shared.
     
-    🟩 All training  data sources of end large language model are not open for inspection or shared.
+    🟩 All training  data sources of end large language model are open for inspection or shared.
 
 **Weights basemodel**
 
