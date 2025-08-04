@@ -15,11 +15,11 @@
 
 system:
     name: Wan
-    link: https://huggingface.co/Wan-AI/Wan2.1-T2V-14B
+    link: https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B
     type: video
     performanceclass: full
-    basemodelname: Wan2.1-T2V-14B
-    endmodelname: Wan2.1-T2V-14B
+    basemodelname: Wan2.2-T2V-A14B
+    endmodelname: Wan2.2-T2V-A14B
     endmodellicense: Apache-2.0
     releasedate: 2025-02
     notes: Video-generation model by Alibaba Cloud.
@@ -42,17 +42,17 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/Wan-AI/Wan2.1-T2V-14B
+    link: https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B
     notes: Weights made available on HuggingFace.
     
 weights_endmodel:
     class: open
-    link: https://huggingface.co/Wan-AI/Wan2.1-T2V-14B
+    link: https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B
     notes: Weights made available on HuggingFace.
 
 trainingcode:
     class: closed
-    link: https://github.com/Wan-Video/Wan2.1
+    link: https://github.com/Wan-Video/Wan2.2
     notes: Repository exists however does not contain training code. 
 
 # documentation:
@@ -67,18 +67,18 @@ hardware_architecture:
     notes: No hardware information found.
 
 preprint:
-    class: closed
-    link: 
-    notes: No preprint found. Model card mentions it is forthcoming.
+    class: open
+    link: https://arxiv.org/pdf/2503.20314
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed
     link: 
-    notes: No paper found.
+    notes: No peer-reviewed paper found.
 
 modelcard:
     class: partial
-    link: https://huggingface.co/Wan-AI/Wan2.1-T2V-14B
+    link: https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B
     notes: Model card primarily contains information regarding usage and architecture, little information regarding training and fine-tuning.
 
 datasheet:
@@ -93,12 +93,12 @@ package:
     notes: ComfyUI workflow for model available.
 
 api:
-    class: open
-    link: https://huggingface.co/spaces/Wan-AI/Wan2.1
-    notes: Model available through HuggingFace space.
+    class: closed
+    link: 
+    notes: No API found.
     metaprompts:
 
 licenses:
     class: open
-    link: https://huggingface.co/Wan-AI/Wan2.1-T2V-14B#license-agreement
+    link: https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B#license-agreement
     notes: Model licensed through Apache-2.0, an OSI-approved license.
