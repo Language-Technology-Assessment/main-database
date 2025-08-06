@@ -41,9 +41,9 @@ datasources_endmodel:
     notes: The Huggingface shows a table with all datasets used for the end model.
     
 weights_basemodel:
-    class: partial
-    link: https://huggingface.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4
-    notes: The base model is available on request through e-mail.
+    class: open
+    link: https://huggingface.co/openGPT-X/Teuken-7B-base-v0.6
+    notes: Available via Huggingface repository.
 
 weights_endmodel:
     class: open
