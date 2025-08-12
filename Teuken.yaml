@@ -51,15 +51,15 @@ weights_endmodel:
     notes: Available via Huggingface repository.
 
 trainingcode:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://github.com/OpenGPTX/Megatron-LM/blob/main/examples/7B_EU24_juwels_part_3_fw_after3T.sbatch
+    notes: SBATCH script with training code available at fork of Megatron-LM.
 
 # documentation:
 code:
     class: closed
     link:
-    notes:
+    notes: README of Megatron-LM repo containing training code is unchanged from base repo.
 
 hardware_architecture:
     class: open
@@ -72,9 +72,9 @@ preprint:
     notes: Three corresponding preprints, detailing the models, data, and evaluation.
 
 paper:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://ecai2025.org/accepted-papers/
+    notes: Peer-reviewed paper published in ECAI.
 
 modelcard:
     class: open
