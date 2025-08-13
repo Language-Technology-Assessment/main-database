@@ -14,7 +14,7 @@
 # - Contributor type: Non-academic (Company)
 
 system:
-    name: gpt-oss-120b
+    name: GPT OSS
     link: https://huggingface.co/openai/gpt-oss-120b
     type: text
     performanceclass: latest
