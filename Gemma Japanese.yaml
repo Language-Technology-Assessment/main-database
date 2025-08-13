@@ -93,9 +93,9 @@ package:
     notes: 
 
 api:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/google/gemma-2-2b-jpn-it
+    notes: Modedl available through inference API.
     metaprompt: closed
 
 licenses:
