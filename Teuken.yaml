@@ -33,7 +33,7 @@ org:
 datasources_basemodel:
     class: partial
     link: https://arxiv.org/pdf/2410.08800
-    notes: Dataset described as deriving from the CommonCrawl, but no filtered dataset provided.
+    notes: Dataset described as deriving from the CommonCrawl, but no filtered dataset provided. Either a filtered dataset or a fully reproducible and persistent data pipeline would be warranted.
     
 datasources_endmodel:
     class: open
@@ -53,13 +53,13 @@ weights_endmodel:
 trainingcode:
     class: partial
     link: https://github.com/OpenGPTX/Megatron-LM/blob/main/examples/7B_EU24_juwels_part_3_fw_after3T.sbatch
-    notes: SBATCH script with training code available at fork of Megatron-LM.
+    notes: SBATCH script with training code available at fork of Megatron-LM. However, no easily visible and easily navigable repository containing the code used to train the model is available.
 
 # documentation:
 code:
     class: closed
     link:
-    notes: README of Megatron-LM repo containing training code is unchanged from base repo.
+    notes: README of Megatron-LM repo containing training code is unchanged from base repo. More elaborate documentation would be warranted.
 
 hardware_architecture:
     class: open
@@ -84,7 +84,7 @@ modelcard:
 datasheet:
     class: closed
     link:
-    notes:
+    notes: No datasheet containing a detailed description of data collection and curation is found attached to a persistent version of the model data, as would be preferred here.
 
 # access:
 package:
@@ -95,10 +95,10 @@ package:
 api:
     class: closed
     link:
-    notes:
+    notes: No API found.
     metaprompts:
 
 licenses:
     class: open
     link:
-    notes: Apache 2.0
+    notes: Apache 2.0, an OSI-approved license.
