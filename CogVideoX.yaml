@@ -1,0 +1,100 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+system:
+    name: CogVideoX 
+    link: https://huggingface.co/zai-org/CogVideoX-5b 
+    type: video
+    performanceclass: full
+    basemodelname: CogVideoX-5b 
+    endmodelname: CogVideoX1.5-5B
+    endmodellicense: Apache-2.0
+    releasedate: 2024-08
+    notes: text-to-video generation model by QingYing
+
+org:
+    name: Zhipu AI (Z.ai)
+    link: https://www.zhipuai.cn/en/ 
+    notes: Zhipu AI, branded as Z.ai, is a Chinese technology company specializing in artificial intelligence.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: https://arxiv.org/abs/2205.15868 
+    notes: They use CogView which has closed dataset along other datasets.
+    
+datasources_endmodel:
+    class: partial
+    link: https://arxiv.org/abs/2205.15868  
+    notes:
+    
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/zai-org/CogVideoX-2b
+    notes: Weights are available on HuggingFace.
+
+weights_endmodel:
+    class: open 
+    link: https://huggingface.co/zai-org/CogVideoX1.5-5B 
+    notes: Weights are available on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/zai-org/CogVideo?tab=readme-ov-file 
+    notes:
+
+# documentation:
+code:
+    class: open
+    link: https://huggingface.co/zai-org/CogVideoX1.5-5B
+    notes:
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/abs/2205.15868 
+    notes: Explained in the paper. 
+
+preprint:
+    class: open
+    link: https://openreview.net/forum?id=LQzN6TRFg9 
+    notes: Newest paper on their newest model. 
+
+paper:
+    class: open
+    link: https://iclr.cc/virtual/2023/poster/11213 
+    notes: Presented in ICLR in 2023. 
+
+modelcard:
+    class: open
+    link: https://huggingface.co/zai-org/CogVideoX1.5-5B
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: open
+    link: https://huggingface.co/spaces/zai-org/CogVideoX-5B-Space
+    notes:
+    metaprompts:
+
+licenses:
+    class: open
+    link: https://huggingface.co/zai-org/CogVideoX1.5-5B#model-license 
+    notes: Model licensed under Apache-2.0, an OSI-approved license.
