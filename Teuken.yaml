@@ -72,9 +72,9 @@ preprint:
     notes: Three corresponding preprints, detailing the models, data, and evaluation.
 
 paper:
-    class: open
+    class: partial
     link: https://ecai2025.org/accepted-papers/
-    notes: Peer-reviewed paper published in ECAI.
+    notes: Peer-reviewed paper published in ECAI. Other publications only available as preprints.
 
 modelcard:
     class: open
