@@ -1,0 +1,105 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: China
+# - Contributor type: Non-academic (Company)
+
+system:
+    name: XBai-04
+    link: https://huggingface.co/MetaStoneTec/XBai-o4
+    type: text 
+    performanceclass: latest
+    basemodelname: Qwen3-32B
+    endmodelname: XBai-o4
+    endmodellicense: Apache-2.0
+    releasedate: 2025-08
+    notes: Open-source reasoning model with claims of surpassing OpenAI-o3-mini and Claude Opus 4.
+
+org:
+    name: Yuan Shi Technology
+    link: https://www.wenxiaobai.com/
+    notes: Yuan Shi Technology, a Beijing-based company.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Pretraining data not specified or documented.
+
+datasources_endmodel:
+    class: closed
+    link: https://arxiv.org/pdf/2507.01951
+    notes: Data presumably similar to that mentioned in source paper. Therein described on a high level.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/Qwen/Qwen3-32B
+    notes: Base model weights made available on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/MetaStoneTec/XBai-o4
+    notes: End model weights made available on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/MetaStone-AI/XBai-o4/
+    notes: Training code made available on GitHub.
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/MetaStone-AI/XBai-o4/
+    notes: Repository sparsely documented.
+
+hardware_architecture:
+    class: closed
+    link: 
+    notes: No description of hardware architecture found.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2507.01951
+    notes: Preprint published on arXiv.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/MetaStoneTec/XBai-o4
+    notes: Model card primarily contains usage instructions.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: https://www.wenxiaobai.com/
+    notes: Site available, but model not apparently available.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/MetaStoneTec/XBai-o4
+    notes: Model released under Apache-2.0, an OSI-approved license.
+

@@ -33,7 +33,7 @@ org:
 datasources_basemodel:
     class: partial
     link: https://arxiv.org/pdf/2410.08800
-    notes: Dataset described as deriving from the CommonCrawl, but no filtered dataset provided.
+    notes: Dataset described as deriving from the CommonCrawl, but no filtered dataset provided. Either a filtered dataset or a fully reproducible and persistent data pipeline would be preferred here.
     
 datasources_endmodel:
     class: open
@@ -41,9 +41,9 @@ datasources_endmodel:
     notes: The Huggingface shows a table with all datasets used for the end model.
     
 weights_basemodel:
-    class: partial
-    link: https://huggingface.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4
-    notes: The base model is available on request through e-mail.
+    class: open
+    link: https://huggingface.co/openGPT-X/Teuken-7B-base-v0.6
+    notes: Available via Huggingface repository.
 
 weights_endmodel:
     class: open
@@ -51,15 +51,15 @@ weights_endmodel:
     notes: Available via Huggingface repository.
 
 trainingcode:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://github.com/OpenGPTX/Megatron-LM/blob/main/examples/7B_EU24_juwels_part_3_fw_after3T.sbatch
+    notes: SBATCH script with training code available at fork of Megatron-LM. However, no easily visible and easily navigable repository containing the code used to train the model is available. Making the repository more easily visible would alleviate this.
 
 # documentation:
 code:
     class: closed
     link:
-    notes:
+    notes: "README of containing training code is unchanged from base repo. More elaborate documentation would be warranted. A good example for a good documentation style would be the repository for the OLMo model: https://github.com/allenai/OLMo"
 
 hardware_architecture:
     class: open
@@ -72,9 +72,9 @@ preprint:
     notes: Three corresponding preprints, detailing the models, data, and evaluation.
 
 paper:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://ecai2025.org/accepted-papers/
+    notes: Peer-reviewed paper published in ECAI. Other publications only available as preprints.
 
 modelcard:
     class: open
@@ -84,7 +84,7 @@ modelcard:
 datasheet:
     class: closed
     link:
-    notes:
+    notes: No datasheet containing a detailed description of data collection and curation is found attached to a persistent version of the model data, as would be preferred here. A persistent version of the filtered data with attached the information in the data preprint at https://arxiv.org/abs/2410.08800 would be sufficient here.
 
 # access:
 package:
@@ -95,10 +95,10 @@ package:
 api:
     class: closed
     link:
-    notes:
+    notes: No API found.
     metaprompts:
 
 licenses:
     class: open
     link:
-    notes: Apache 2.0
+    notes: Apache 2.0, an OSI-approved license.

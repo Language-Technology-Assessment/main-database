@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: Israel
+# - Contributor type: Non-academic (Company)
+
+system:
+    name: LTX-Video
+    link: https://github.com/Lightricks/LTX-Video
+    type: video
+    performanceclass: full
+    basemodelname: LTXV-13B-0.9.8-Distilled
+    endmodelname: LTXV-13B-0.9.8-Distilled
+    endmodellicense: LTX-Video-Open-Weights-License-0.X
+    releasedate: 2024-11
+    notes: Video-generation model by Alibaba Cloud.
+
+org:
+    name: Lightricks
+    link: https://www.lightricks.com/
+    notes: Israel-based AI company.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: https://arxiv.org/pdf/2501.00103
+    notes: No explicit description of data sources found.
+
+datasources_endmodel:
+    class: closed
+    link: https://arxiv.org/pdf/2501.00103
+    notes: No explicit description of data sources found.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/Lightricks/LTX-Video-0.9.8-13B-distilled
+    notes: Weights made available on HuggingFace.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/Lightricks/LTX-Video-0.9.8-13B-distilled
+    notes: Weights made available on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/Lightricks/LTX-Video
+    notes: Repository containing training code made available on GitHub.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/Lightricks/LTX-Video
+    notes: Code repository is well-documented.
+
+hardware_architecture:
+    class: closed
+    link: https://arxiv.org/pdf/2501.00103
+    notes: Preprint does not go into detail about training setup.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2501.00103
+    notes: Preprint published on arXiv.
+
+paper:
+    class: closed
+    link: 
+    notes: No paper found.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/Lightricks/LTX-Video-0.9.8-13B-distilled
+    notes: Model card primarily contains information regarding usage.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: open
+    link: https://github.com/Lightricks/ComfyUI-LTXVideo/
+    notes: ComfyUI workflow for model available.
+
+api:
+    class: open
+    link: https://huggingface.co/spaces/Lightricks/ltx-video-distilled
+    notes: Model available through HuggingFace space.
+    metaprompts:
+
+licenses:
+    class: closed
+    link: https://huggingface.co/Lightricks/LTX-Video-0.9.8-13B-distilled
+    notes: Model licensed through LTX-Video-Open-Weights-License-0.X, not an OSI-approved license.
