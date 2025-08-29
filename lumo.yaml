@@ -22,12 +22,12 @@ system:
     endmodelname: Undisclosed
     endmodellicense: Undisclosed
     releasedate: 2025-07
-    notes: Lumo by Proton.
+    notes: "Lumo by Proton, advertised as 'open source' and 'based upon open-source language models'."
 
 org:
     name: Proton
-    link: https://proton.me/
-    notes: Proton, a privacy-aware ISP.
+    link: https://proton.me/blog/lumo-ai
+    notes: Proton, a privacy-aware ISP based in Switzerland.
 
 # availability:
 datasources_basemodel:
@@ -38,12 +38,13 @@ datasources_basemodel:
 datasources_endmodel:
     class: closed
     link: 
-    notes: Source code not disclosed. Link on Proton website points to code for web app, not code for LLM
+    notes: Source code not disclosed. Link on Proton website points to code for web app, not code for LLM.
 
 weights_basemodel:
     class: closed
     link: 
-    notes: Based model weights not shared.
+    notes: Based model weights not shared or disclosed. Some web app code contains a trace that points to Mistral 7B.
+    # https://github.com/ProtonMail/WebClients/blob/main/packages/llm/resources/Mistral-7B-Instruct-v0.2-q4f16_1-MLC/ndarray-cache.json
 
 weights_endmodel:
     class: closed
@@ -53,18 +54,18 @@ weights_endmodel:
 trainingcode:
     class: closed
     link: 
-    notes: No code repository available for training or architecture.
+    notes: No source code made available for training or architecture of the model.
 
 # documentation:
 code:
     class: closed
     link:  
-    notes: No source code for model made available
+    notes: No source code, so no documentation.
 
 hardware_architecture:
     class: closed
     link:  
-    notes: No details above underlying model provided.
+    notes: No details about underlying model provided.
 
 preprint:
     class: closed
@@ -79,7 +80,7 @@ paper:
 modelcard:
     class: closed
     link: 
-    notes: No model card available 
+    notes: No model card available. Evaluations, risks, biases, guardrails and safety measures unclear.
 
 datasheet:
     class: closed
