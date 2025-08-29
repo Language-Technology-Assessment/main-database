@@ -17,7 +17,7 @@ system:
     name: Lumo AI
     link: https://lumo.proton.me/about
     type: text
-    performanceclass: 
+    performanceclass: full
     basemodelname: Undisclosed
     endmodelname: Undisclosed
     endmodellicense: Undisclosed
