@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: Undisclosed
+# - Contributor type: Non-academic (European Big Tech)
+
+system:
+    name: Lumo AI
+    link: https://lumo.proton.me/about
+    type: text
+    performanceclass: 
+    basemodelname: Undisclosed
+    endmodelname: Undisclosed
+    endmodellicense: Undisclosed
+    releasedate: 2025-07
+    notes: Lumo by Proton.
+
+org:
+    name: Proton
+    link: https://proton.me/
+    notes: Proton, a privacy-aware ISP.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: Training data not disclosed.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: Source code not disclosed. Link on Proton website points to code for web app, not code for LLM
+
+weights_basemodel:
+    class: closed
+    link: 
+    notes: Based model weights not shared.
+
+weights_endmodel:
+    class: closed
+    link: 
+    notes: Post-trained or instruction-tuned model weights not shared nor disclosed.
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No code repository available for training or architecture.
+
+# documentation:
+code:
+    class: closed
+    link:  
+    notes: No source code for model made available
+
+hardware_architecture:
+    class: closed
+    link:  
+    notes: No details above underlying model provided.
+
+preprint:
+    class: closed
+    link: 
+    notes: No scientific documentation. 
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed scientific documentation.
+
+modelcard:
+    class: closed
+    link: 
+    notes: No model card available 
+
+datasheet:
+    class: closed
+    link: 
+    notes: No data sheet available. Training data undisclosed.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package available.
+
+api:
+    class: closed
+    link: 
+    notes: No API available.
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: 
+    notes: License unclear.
