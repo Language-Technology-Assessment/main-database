@@ -14,14 +14,14 @@
 # - Contributor type: Non-academic (Chinese AI Tiger)
 
 system:
-    name: DeepSeek V3
-    link: https://huggingface.co/deepseek-ai/DeepSeek-V3-0324
+    name: DeepSeek V3.1
+    link: https://huggingface.co/deepseek-ai/DeepSeek-V3.1
     type: text 
     performanceclass: latest
-    basemodelname: DeepSeek-V3-Base
-    endmodelname: DeepSeek-V3
-    endmodellicense: DeepSeek License Agreement
-    releasedate: 2024-12
+    basemodelname: DeepSeek-V3.1-Base
+    endmodelname: DeepSeek-V3.1
+    endmodellicense: MIT License
+    releasedate: 2026-08
     notes: Mixture-of-experts chat model.
 
 org:
@@ -79,7 +79,7 @@ paper:
 modelcard:
     class: partial
     link: https://huggingface.co/deepseek-ai/DeepSeek-V3-Base
-    notes: Model card on HF provides basic summary but no info on intended downstream uses, scope, biases, risks and limitations.
+    notes: Model card on HF provides basic summary but no info on intended, scope, biases, risks and limitations.
 
 datasheet:
     class: closed
@@ -89,7 +89,7 @@ datasheet:
 # access:
 package:
     class: open
-    link: https://ollama.com/library/deepseek-v3
+    link: https://ollama.com/library/deepseek-v3.1
     notes: Model available on Ollama.
 
 api:
@@ -99,6 +99,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: partial
-    link: https://huggingface.co/deepseek-ai/DeepSeek-V3-Base/blob/main/LICENSE-MODEL
-    notes: MIT License and a separate Model License.
+    class: open
+    link: https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Base/blob/main/LICENSE
+    notes: MIT License, an OSI-approved license
