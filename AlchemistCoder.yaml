@@ -72,9 +72,9 @@ preprint:
     notes: Preprint made available on arXiv.
 
 paper:
-    class: closed
-    link: https://openreview.net/pdf?id=E5ZHBvWrXIU
-    notes: Paper has been submitted to ACL, however it has not been published yet.
+    class: open
+    link: https://dl.acm.org/doi/abs/10.5555/3737916.3737987
+    notes: Paper published in ACM.
 
 modelcard:
     class: closed

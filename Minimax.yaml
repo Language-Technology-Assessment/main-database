@@ -14,15 +14,15 @@
 # - Contributor type: Non-academic (Chinese AI Tiger)
 
 system:
-    name: Minimax-Text
-    link: https://huggingface.co/MiniMaxAI/MiniMax-Text-01
+    name: Minimax-M1
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M1-80k
     type: text
     performanceclass: latest
     basemodelname: MiniMax-Text-01
-    endmodelname: MiniMax-Text-01
-    endmodellicense: Minimax Model License
-    releasedate: 2025-01
-    notes: Only end model released.
+    endmodelname: MiniMax-M1-80k
+    endmodellicense: Apache-2.0
+    releasedate: 2025-06
+    notes: SOTA model by Minimax
 
 org:
     name: Minimax AI
@@ -33,72 +33,72 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: 
+    notes: No base model datasources found.
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: No end model datasources found.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/MiniMaxAI/MiniMax-Text-01
+    notes: Model weights released on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/MiniMaxAI/MiniMax-Text-01
-    notes: 
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M1-80k
+    notes: Model weights released on HuggingFace.
 
 trainingcode:
     class: closed
-    link: 
-    notes: 
+    link: https://github.com/MiniMax-AI/MiniMax-M1
+    notes: Repo exists, however does not contain training code.
 
 # documentation:
 code:
     class: closed
-    link:  
+    link: 
     notes: 
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: 
+    class: partial
+    link: https://arxiv.org/pdf/2506.13585
+    notes: Architecture described on very high level in paper.
 
 preprint:
     class: open
-    link: https://arxiv.org/pdf/2501.08313
-    notes: 
+    link: https://arxiv.org/pdf/2506.13585
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No peer-reviewed paper found.
 
 modelcard:
     class: closed
-    link: 
-    notes: 
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M1-80k
+    notes: Model primarily contains inference information.
 
 datasheet:
     class: closed
     link: 
-    notes: 
+    notes: No datasheet found.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
     class: closed
-    link: 
+    link: https://www.minimax.io/platform/document/platform%20introduction?key=66701c8e1d57f38758d58198
     notes: closed API only
     metaprompt: closed
 
 licenses:
-    class: closed
-    link: 
-    notes: custom license  
+    class: open
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M1-80k
+    notes: Apache-2.0, an OSI-approved license.

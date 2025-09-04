@@ -10,49 +10,49 @@
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
 # Organization tags:
-# - National origin: United States
+# - National origin: South Korea
 # - Contributor type: Non-academic (Company)
 
 system:
-    name: NexusRaven
-    link: https://huggingface.co/Nexusflow/NexusRaven-V2-13B
-    type: code
-    performanceclass: limited
-    basemodelname: Llama-2-13B
-    endmodelname: NexusRaven-V2-13B
-    endmodellicense: NexusFlow community license
-    releasedate: 2023-12
-    notes: Function-calling LLM.
+    name: EXAONE
+    link: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B
+    type: text
+    performanceclass: latest
+    basemodelname: 
+    endmodelname: EXAONE-4.0.1-32B
+    endmodellicense: EXAONE AI Model License Agreement 1.2
+    releasedate: 2025-07
+    notes: Hybrid reasoning-non reasoning model by LG.
 
 org:
-    name: NexusFlow
-    link: https://huggingface.co/Nexusflow
-    notes: Company developing GenAI agents for enterprise workflows.
+    name: LG
+    link: https://lgcorp.com/
+    notes: South Korean multinational conglomerate.
 
 # availability:
 datasources_basemodel:
     class: closed
-    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
-    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta.
+    link: 
+    notes: No pretraining data found.
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: Proprietary dataset used.
+    notes: No finetuning data found.
 
 weights_basemodel:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
+    class: closed
+    link: 
+    notes: No weights found.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/Nexusflow/NexusRaven-V2-13B
+    link: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B
     notes: Weights made available through HuggingFace.
 
 trainingcode:
     class: closed
-    link: https://github.com/nexusflowai/NexusRaven-V2
+    link: https://github.com/LG-AI-EXAONE/EXAONE-4.0
     notes: Repo exists, but does not contain training code.
 
 # documentation:
@@ -68,18 +68,18 @@ hardware_architecture:
 
 preprint:
     class: closed
-    link: https://nexusflow.ai/blogs/ravenv2
-    notes: Model only publicized through blog post.
+    link: https://github.com/LG-AI-EXAONE/EXAONE-4.0
+    notes: Preprint published through arXiv.
 
 paper:
     class: closed
     link: 
-    notes: No paper found.
+    notes: No peer-reviewed paper found.
 
 modelcard:
     class: closed
-    link: https://huggingface.co/Nexusflow/NexusRaven-V2-13B
-    notes: Model card contains general information, but none about model architecture, training, or fine-tuning.
+    link: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B
+    notes: Model card primarily contains usage instructions.
 
 datasheet:
     class: closed
@@ -88,9 +88,9 @@ datasheet:
 
 # access:
 package:
-    class: open
-    link: https://pypi.org/project/nexusraven/
-    notes: Package made available on PyPi.
+    class: closed
+    link: 
+    notes: No package found.
 
 api:
     class: closed
@@ -100,5 +100,5 @@ api:
 
 licenses:
     class: closed
-    link: 
-    notes: NexusFlow community license, not an OSI-approved license.
+    link: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B
+    notes: EXAONE AI Model License Agreement, not an OSI-approved license.
