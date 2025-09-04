@@ -72,9 +72,9 @@ preprint:
     notes: Preprint describes architecture, design choices, training and fine-tuning.
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper yet.
+    class: open
+    link: https://openreview.net/forum?id=QdWhj0QZFw
+    notes: Paper published in COLM.
 
 modelcard:
     class: partial
