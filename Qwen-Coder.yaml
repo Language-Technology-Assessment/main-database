@@ -15,14 +15,14 @@
 
 system:
     name: Qwen
-    link: https://huggingface.co/Qwen/Qwen3-235B-A22B
-    type: text 
+    link: https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct
+    type: code
     performanceclass: latest
-    basemodelname: Qwen3-235B-A22B-Base
-    endmodelname: Qwen3-235B-A22B
+    basemodelname: Qwen3-Coder-480B-A35B?
+    endmodelname: Qwen3-Coder-480B-A35B-Instruct
     endmodellicense: Apache-2.0
-    releasedate: 2025-04
-    notes: Reasoning model with claims of comparable performance to DeepSeek-R1.
+    releasedate: 2025-07
+    notes: Agentic code model.
 
 org:
     name: Alibaba
@@ -47,18 +47,18 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/Qwen/Qwen3-235B-A22B
+    link: https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct
     notes: Model weights made available on HuggingFace.
 
 trainingcode:
     class: partial
-    link: https://github.com/QwenLM/Qwen3
+    link: https://github.com/QwenLM/Qwen3-Coder
     notes: Repository provides sparse source code and some examples for SFT
 
 # documentation:
 code:
     class: partial
-    link: https://github.com/QwenLM/Qwen3
+    link: https://github.com/QwenLM/Qwen3-Coder
     notes: Repository is fairly well-documented.
 
 hardware_architecture:
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: closed
-    link: https://huggingface.co/Qwen/Qwen3-235B-A22B
+    link: https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct
     notes: Model card primarily contains usage instructions.
 
 datasheet:
@@ -89,13 +89,13 @@ datasheet:
 # access:
 package:
     class: open
-    link: https://ollama.com/library/qwen3
+    link: https://ollama.com/library/qwen3-coder
     notes: Model available on Ollama.
 
 api:
     class: open
-    link: https://huggingface.co/spaces/Qwen/Qwen3-Demo
-    notes: Model available through HuggingFace space.
+    link: https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct
+    notes: Model available through Inference API.
     metaprompt: closed
 
 licenses:
