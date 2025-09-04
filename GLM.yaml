@@ -15,11 +15,11 @@
 
 system:
     name: GLM
-    link: https://huggingface.co/THUDM/GLM-Z1-32B-0414
+    link: https://huggingface.co/zai-org/GLM-4.5
     type: text
     performanceclass: full
-    basemodelname: GLM-4-32B-0414
-    endmodelname: GLM-Z1-32B-0414
+    basemodelname: GLM-4.5
+    endmodelname: GLM-4.5
     endmodellicense: MIT License
     releasedate: 2024-06
     notes: English-Chinese reasoning model.
@@ -32,33 +32,33 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link: ["http://doi.org/10.18653/v1/2022.acl-long.26", "https://arxiv.org/abs/2406.12793"]
-    notes: Training data not centrally made available, but described in 2022 ACL paper, appears to be mostly public datasets. Preprint also mentions "Our pre-training corpus consists of multilingual (mostly English and Chinese) documents from a mixture of different sources, including webpages, Wikipedia, books, code, and research papers", but does not go into more detail.
+    link: 
+    notes: No base model data sources found.
 
 datasources_endmodel:
     class: closed
     link:
-    notes: Docs mention "supervised fine-tuning, feedback bootstrap, and reinforcement learning wit human feedback", but none of the datasets used are clearly specified.
+    notes: No end model data sources found.
 
 weights_basemodel:
-    class: open
-    link: https://huggingface.co/THUDM/GLM-4-32B-0414
-    notes: Model weights made available through HuggingFace.
+    class: close
+    link: 
+    notes: No base model weights found.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/THUDM/GLM-Z1-32B-0414
+    link: https://huggingface.co/zai-org/GLM-4.5
     notes: Model weights made available through HuggingFace.
 
 trainingcode:
     class: partial
-    link: https://github.com/THUDM/GLM-4
+    link: https://github.com/zai-org/GLM-4.5
     notes: Some code made available on Github.
 
 # documentation:
 code:
     class: closed
-    link: https://github.com/THUDM/GLM-4/blob/main/README_en.md
+    link: https://github.com/zai-org/GLM-4.5
     notes: No training code found.
 
 hardware_architecture:
@@ -68,17 +68,17 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: https://arxiv.org/abs/2406.12793
-    notes: Describes training data, architecture, and shows performance evaluation results of various ChatGLM models.
+    link: https://arxiv.org/pdf/2508.06471
+    notes: Paper published on arXiv.
 
 paper:
-    class: partial
-    link: https://aclanthology.org/2022.acl-long.26/
-    notes: ACL 2022 paper describes the training of the GLM base model, but the RLHF portion is more recent (there is also a related ICLR paper for a newer generation https://openreview.net/forum?id=-Aw0rrrPUF)
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
 
 modelcard:
-    class: partial
-    link: https://huggingface.co/THUDM/GLM-Z1-32B-0414
+    class: closed
+    link: https://huggingface.co/zai-org/GLM-4.5
     notes: Model card is provided, however only contains general and inference information.
 
 datasheet:
@@ -88,9 +88,9 @@ datasheet:
 
 # access:
 package:
-    class: open
-    link: https://ollama.com/library/glm4
-    notes: Model available on Ollama.
+    class: closed
+    link: 
+    notes: No package found.
 
 api:
     class: partial
@@ -100,5 +100,5 @@ api:
 
 licenses:
     class: open
-    link: https://huggingface.co/THUDM/GLM-Z1-32B-0414
+    link: https://huggingface.co/zai-org/GLM-4.5
     notes: MIT License, an OSI-approved license.
