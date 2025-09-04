@@ -46,7 +46,7 @@ weights_basemodel:
     notes: Download only after requesting access; requires signing a consent form
 
 weights_endmodel:
-    class: closed
+    class: open
     link: https://huggingface.co/Nexusflow/NexusRaven-V2-13B
     notes: Weights made available through HuggingFace.
 
