@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: China
+# - Contributor type: Non-academic (Chinese Big Tech)
+
+system:
+    name: ModelScopeT2V
+    link: https://modelscope.cn/models/iic/text-to-video-synthesis/summary
+    type: video
+    performanceclass: limited
+    basemodelname: Stable Diffusion (version unknown)
+    endmodelname: ModelScopeT2V-V1.5
+    endmodellicense: CC-BY-NC-ND
+    releasedate: 2023-02
+    notes: Video-generation model based on Stable Diffusion.
+
+org:
+    name: Tongyi Lab
+    link: https://careers-tongyi.alibaba.com/home
+    notes: Tonyi Lab, a lab under Alibaba.
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: https://arxiv.org/abs/2210.08402
+    notes: Originally trained on LAION-5B, which is ostensibly open. In general the language used is not very clear, however.
+
+datasources_endmodel:
+    class: partial
+    link: https://arxiv.org/pdf/2308.06571
+    notes: Trained on LAION-5B, WebVid, and MSR-VTT. Unclear what data was used to train V1.5.
+
+weights_basemodel:
+    class: partial
+    link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
+    notes: Available through HuggingFace, however requires providing contact information and agreeing to a license agreement. Version is also unknown.
+    
+weights_endmodel:
+    class: open
+    link: https://modelscope.cn/models/iic/text-to-video-synthesis/summary
+    notes: Model made available through ModelScope.
+
+trainingcode:
+    class: open
+    link: https://github.com/ali-vilab/VGen
+    notes: Code made available on GitHub.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/ali-vilab/VGen
+    notes: Repo thoroughly documented.
+
+hardware_architecture:
+    class: open
+    link: ["https://arxiv.org/pdf/2308.06571", "https://github.com/ali-vilab/VGen/blob/main/configs/t2v_train.yaml"]
+    notes: Training setup disclosed in paper, config published on GitHub.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2308.06571
+    notes: Preprint available on arXiv.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: partial
+    link: https://modelscope.cn/models/iic/text-to-video-synthesis/summary
+    notes: Model card primarily contain information about inference, with some description of training data.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found.
+
+api:
+    class: closed
+    link:
+    notes: No API found.
+    metaprompts:
+
+licenses:
+    class: open
+    link: https://modelscope.cn/models/iic/text-to-video-synthesis/summary
+    notes: CC-BY-NC-ND
