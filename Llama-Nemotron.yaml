@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
+system:
+    name: Llama Nemotron    
+    link: https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5
+    type: text
+    performanceclass: latest
+    basemodelname: Llama-3.3-70B-Instruct
+    endmodelname: Llama-3_3-Nemotron-Super-49B-v1_5
+    endmodellicense: NVIDIA Open Model License
+    releasedate: 2025-07
+    notes: Reasoning model by NVIDIA.
+
+org:
+    name: NVIDIA
+    link: https://www.nvidia.com
+    notes: NVIDIA, a major chip manufacturer.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Data nowhere disclosed or documented.
+    
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/nvidia/Llama-Nemotron-Post-Training-Dataset
+    notes: Dataset published on HuggingFace.
+
+weights_basemodel:
+    class: partial
+    link: https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
+    notes: Inspecting the training weights requires signing the Llama 3.3 Community License Agreement, not an OSI recognised open license
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5
+    notes: Weights made available through HuggingFace.
+
+trainingcode:
+    class: open
+    link: ["https://github.com/NVIDIA-NeMo/NeMo", "https://github.com/NVIDIA/NeMo-Aligner/tree/llama-nemotron-dev", "https://github.com/NVIDIA/Megatron-LM"]
+    notes: Training code available across three repos.
+
+# documentation:
+code:
+    class: open
+    link: ["https://github.com/NVIDIA-NeMo/NeMo", "https://github.com/NVIDIA/NeMo-Aligner/tree/llama-nemotron-dev", "https://github.com/NVIDIA/Megatron-LM"]
+    notes: Repos well-documented.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2505.00949
+    notes: Architecture described in-detail in source preprint.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2505.00949
+    notes: Preprint published through arXiv.
+
+paper:
+    class: partial
+    link: https://icml.cc/virtual/2025/51490
+    notes: Preprint published as poster at ICML.
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/Nexusflow/NexusRaven-V2-13B
+    notes: Model card contains general information, but none about model architecture, training, or fine-tuning.
+
+datasheet:
+    class: partial
+    link: ["https://huggingface.co/datasets/nvidia/Llama-Nemotron-Post-Training-Dataset", "https://arxiv.org/pdf/2505.00949"]
+    notes: Data collection procedures described with a fair degree of detail in source paper.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5
+    notes: NVIDIA Open Model License Agreement, not an OSI-approved license.
