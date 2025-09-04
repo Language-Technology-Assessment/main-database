@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: China
+# - Contributor type: Non-academic (Chinese Big Tech)
+
+system:
+    name: DreamVideo
+    link: https://dreamvideo-t2v.github.io/
+    type: video
+    performanceclass: limited
+    basemodelname: ModelScopeT2V-V1.5
+    endmodelname: DreamVideo
+    endmodellicense: Unknown
+    releasedate: 2024-04
+    notes: Video-generation model with customized subject and motion.
+
+org:
+    name: Tongyi Lab
+    link: https://careers-tongyi.alibaba.com/home
+    notes: Tonyi Lab, a lab under Alibaba.
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: ["https://arxiv.org/abs/2210.08402", "https://arxiv.org/pdf/2308.06571"]
+    notes: ModelScopeT2V's data sources are not traceable for V1.5, its underlying model Stable Diffusion is also slightly problematic.
+
+datasources_endmodel:
+    class: open
+    link: https://arxiv.org/pdf/2312.04433
+    notes: "For subject customization, we select subjects from image customization papers for a total of 20 customized subjects, including 9 pets and 11 objects. For motion customization, we collect a dataset of 30 motion patterns from the Internet, the UCF101 dataset, the UCF Sports Action dataset, and the DAVIS dataset. We also provide 42 text prompts used for extensive experimental validation, where the prompts are designed to generate new motions of subjects, new contexts of subjects and motions, and etc."
+
+weights_basemodel:
+    class: open
+    link: https://modelscope.cn/models/iic/text-to-video-synthesis/summary
+    notes: Model made available through ModelScope.
+    
+weights_endmodel:
+    class: open
+    link: https://modelscope.cn/models/iic/dreamvideo-t2v/summary
+    notes: Model made available through ModelScope.
+
+trainingcode:
+    class: open
+    link: https://github.com/ali-vilab/VGen
+    notes: Code made available on GitHub.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/ali-vilab/VGen
+    notes: Repo thoroughly documented.
+
+hardware_architecture:
+    class: open
+    link: ["https://arxiv.org/pdf/2312.04433", "https://github.com/ali-vilab/VGen/blob/main/configs/t2v_train.yaml"]
+    notes: Training setup disclosed in paper, config published on GitHub.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2312.04433
+    notes: Preprint published on arXiv.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: partial
+    link: https://modelscope.cn/models/iic/dreamvideo-t2v/summary
+    notes: Model card gives limited information.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found.
+
+api:
+    class: closed
+    link:
+    notes: No API found.
+    metaprompts:
+
+licenses:
+    class: closed
+    link:
+    notes: No license found.
