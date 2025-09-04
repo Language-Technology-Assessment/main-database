@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United Kingdom
+# - Contributor type: Academic (Research institution)
+
+system:
+    name: AudioLDM
+    link: https://huggingface.co/cvssp/audioldm2
+    type: audio
+    performanceclass: full
+    basemodelname: AudioLDM2
+    endmodelname: AudioLDM2
+    endmodellicense: CC-BY-NC-SA-4.0
+    releasedate: 2023-08
+    notes: General audio generation model.
+
+org:
+    name: Centre for Vision, Speech and Signal Processing
+    link: https://www.surrey.ac.uk/centre-vision-speech-signal-processing
+    notes: UK-based research centre.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://arxiv.org/pdf/2308.05734
+    notes: Datasets mentioned in source paper.
+
+datasources_endmodel:
+    class: open
+    link: https://arxiv.org/pdf/2308.05734
+    notes: Datasets mentioned in source paper.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/cvssp/audioldm2
+    notes: Weights made available on HuggingFace.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/cvssp/audioldm2
+    notes: Weights made available on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/haoheliu/audioldm2
+    notes: Repo with training code available.
+
+# documentation:
+code:
+    class: closed
+    link: https://github.com/haoheliu/audioldm2
+    notes: Repo primarily contains information regarding inference.
+
+hardware_architecture:
+    class: partial
+    link: https://arxiv.org/pdf/2308.05734
+    notes: Hardware setup describedd on a high level in source paper.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2308.05734
+    notes: Preprint available on arXiv.
+
+paper:
+    class: open
+    link: https://ieeexplore.ieee.org/abstract/document/10530074
+    notes: Paper published in IEEE.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/cvssp/audioldm2
+    notes: Model card primarily contains inference information.
+
+datasheet:
+    class: open
+    link: https://arxiv.org/pdf/2308.05734
+    notes: All datasets sourced.
+
+# access:
+package:
+    class: open
+    link: https://arxiv.org/pdf/2308.05734
+    notes: Package published on PyPI.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompts:
+
+licenses:
+    class: open
+    link: https://huggingface.co/cvssp/audioldm2
+    notes: CC-BY-NC-SA-4.0
