@@ -14,11 +14,11 @@
 # - Contributor type: Non-academic (Chinese Big Tech)
 
 system:
-    name: Qwen
+    name: Qwen-Coder
     link: https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct
     type: code
     performanceclass: latest
-    basemodelname: Qwen3-Coder-480B-A35B?
+    basemodelname: Qwen3-Coder-480B-A35B
     endmodelname: Qwen3-Coder-480B-A35B-Instruct
     endmodellicense: Apache-2.0
     releasedate: 2025-07
