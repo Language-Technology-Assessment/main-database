@@ -73,8 +73,8 @@ preprint:
 
 paper:
     class: partial
-    link: https://arxiv.org/abs/2304.01373
-    notes: Foundational paper has been peer-reviewed.
+    link: https://proceedings.mlr.press/v202/biderman23a.html
+    notes: Paper published in Proceedings of Machine Learning Research.
 
 modelcard:
     class: partial

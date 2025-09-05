@@ -15,90 +15,90 @@
 
 system:
     name: Poro
-    link: https://huggingface.co/LumiOpen/Poro-34B
+    link: https://huggingface.co/LumiOpen/Llama-Poro-2-70B-Instruct
     type: text
     performanceclass: full
-    basemodelname: 
-    endmodelname: Poro-34B
-    endmodellicense: Apache-2.0 
-    releasedate: 2024-04
-    notes: Bilingual model trained on Finnish, English, and programming languages
+    basemodelname: Llama-Poro-2-70B-Base
+    endmodelname: Llama-Poro-2-70B-Instruct
+    endmodellicense: Llama 3.3 Community License Agreement
+    releasedate: 2025-03
+    notes: Bilingual model trained on Finnish and English.
 
 org:
-    name: Silo AI and TurkuNLP and High Performance Language Technologies (HPLT)
+    name: AMD Silo AI and TurkuNLP and High Performance Language Technologies (HPLT)
     link: ["https://www.silo.ai", "https://turkunlp.org", "https://hplt-project.org"]
     notes: Silo AI was acquired by AMD in August 2024
 
 # availability:
 datasources_basemodel:
-    class: partial
-    link: https://arxiv.org/html/2404.01856v1
-    notes: Even though all datasets are listed in the pre-print, some resources are no longer available
+    class: closed
+    link:
+    notes: Model based on Llama, whose data is nowhere disclosed or documented.
     
 datasources_endmodel:
-    class: partial
-    link: https://arxiv.org/html/2404.01856v1
-    notes: Same as datasources_basemodel; no additional fine-tuning data specified.
+    class: open
+    link: https://huggingface.co/datasets/LumiOpen/poro2-instruction-collection
+    notes: Finetuning data published on HuggingFace.
     
 weights_basemodel:
     class: open
-    link: https://huggingface.co/LumiOpen/Poro-34B
-    notes: Model weights available at various training checkpoints.
+    link: https://huggingface.co/LumiOpen/Llama-Poro-2-70B-Instruct
+    notes: Weights made available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/LumiOpen/Poro-34B
-    notes: Final model weights released under Apache 2.0 license.
+    link: https://huggingface.co/LumiOpen/Llama-Poro-2-70B-Instruct
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
     class: open
-    link: https://github.com/LumiOpen/Megatron-DeepSpeed
+    link: https://github.com/LumiOpen/Megatron-LM-lumi
     notes: Custom fork of the Megatron-Deepspeed framework used for training Poro-34B.
 
 # documentation:
 code:
     class: open
-    link: https://github.com/TurkuNLP/Megatron-DeepSpeed/tree/main
+    link: https://github.com/LumiOpen/Megatron-LM-lumi/tree/main
     notes: Training code and related scripts are publicly available.
 
 hardware_architecture:
     class: open
-    link: https://arxiv.org/html/2404.01856v1
-    notes: Hardware architecture described in paper.
+    link: https://rocm.blogs.amd.com/artificial-intelligence/multilingual-continued-pretraining/README.html
+    notes: Hardware architecture described in blog post.
 
 preprint:
-    class: open 
-    link: https://arxiv.org/html/2404.01856v1
-    notes: Preprint available on arXiv.
+    class: closed 
+    link: https://rocm.blogs.amd.com/artificial-intelligence/multilingual-continued-pretraining/README.html
+    notes: No preprint found. Release-by-blogpost.
 
 paper:
-    class: open
-    link: https://dspace.ut.ee/items/4556afe0-53bb-499d-a012-fa72a63cdd4d
-    notes: Paper published in the proceedings of NoDaLiDa/Baltic-HLT 2025
+    class: closed
+    link: 
+    notes: No paper found.
 
 modelcard:
     class: open
-    link: https://huggingface.co/LumiOpen/Poro-34B
+    link: https://huggingface.co/LumiOpen/Llama-Poro-2-70B-Instruct
     notes: Model card provides broad overview and links to full details.
 
 datasheet:
     class: open
-    link: [https://huggingface.co/datasets/LumiOpen/Poro-34B-dataset,https://arxiv.org/html/2404.01856v1 ]
-    notes: All details provided on HuggingFace and pre-print
+    link: https://huggingface.co/datasets/LumiOpen/poro2-instruction-collection
+    notes: Datasheet describes sourcing.
 
 # access:
 package:
     class: closed
     link:
-    notes: No Packages published
+    notes: No packages published.
 
 api:
     class: closed
     link: 
-    notes: No API found
+    notes: No API found.
     metaprompts: closed
 
 licenses:
-    class: open
-    link: https://huggingface.co/LumiOpen/Poro-34B#license
-    notes: Apache 2.0 license, an OSI-approved license
+    class: closed
+    link: https://huggingface.co/LumiOpen/Llama-Poro-2-70B-Instruct#license
+    notes: Llama 3.3 Community License Agreement, not an OSI recognised open license
