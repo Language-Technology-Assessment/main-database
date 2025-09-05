@@ -62,13 +62,13 @@ code:
     notes: No training code, so no documentation.
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: No architecture information found.
+    class: open
+    link: https://arxiv.org/pdf/2507.11407
+    notes: Hardware architecture documented in paper.
 
 preprint:
-    class: closed
-    link: https://github.com/LG-AI-EXAONE/EXAONE-4.0
+    class: open
+    link: https://arxiv.org/abs/2507.11407
     notes: Preprint published through arXiv.
 
 paper:
@@ -77,7 +77,7 @@ paper:
     notes: No peer-reviewed paper found.
 
 modelcard:
-    class: closed
+    class: partial
     link: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B
     notes: Model card primarily contains usage instructions.
 
