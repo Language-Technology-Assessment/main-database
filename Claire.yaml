@@ -36,9 +36,9 @@ datasources_basemodel:
     notes: Based on Falcon
 
 datasources_endmodel:
-    class: partial
-    link: https://github.com/bofenghuang/vigogne
-    notes: edited Alpaca
+    class: full
+    link: https://huggingface.co/datasets/OpenLLM-France/Claire-Dialogue-French-0.1
+    notes: Dataset published on HuggingFace.
 
 weights_basemodel:
     class: open
@@ -67,9 +67,9 @@ hardware_architecture:
     notes: 
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://arxiv.org/pdf/2311.16840
+    notes: Preprint released for training dataset, however not for end model.
 
 paper:
     class: closed
@@ -82,9 +82,9 @@ modelcard:
     notes: 
 
 datasheet:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://huggingface.co/datasets/OpenLLM-France/Claire-Dialogue-French-0.1
+    notes: French language dataset reasonably documented.
 
 # access:
 package:
@@ -102,4 +102,3 @@ licenses:
     class: partial
     link: 
     notes: "cc-by-nc-sa-4.0"
-
