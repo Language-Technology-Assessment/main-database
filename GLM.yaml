@@ -41,7 +41,7 @@ datasources_endmodel:
     notes: No end model data sources found.
 
 weights_basemodel:
-    class: close
+    class: closed
     link: 
     notes: No base model weights found.
 
