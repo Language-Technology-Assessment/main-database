@@ -15,7 +15,7 @@
 
 system:
     name: CogView
-    link: https://huggingface.co/THUDM/CogView4-6B
+    link: https://huggingface.co/zai-org/CogView4-6B
     type: image
     performanceclass: full
     basemodelname: CogView4-6B
@@ -26,7 +26,7 @@ system:
 
 org:
     name: Zhipu AI
-    link: https://github.com/THUDM
+    link: https://github.com/zai-org
     notes: "Zhipu AI, one of China's AI tigers."
 
 # availability:
@@ -42,17 +42,17 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/THUDM/CogView4-6B
+    link: https://huggingface.co/zai-org/CogView4-6B
     notes: "Weights made available on HuggingFace."
     
 weights_endmodel:
     class: open
-    link: https://huggingface.co/THUDM/CogView4-6B
+    link: https://huggingface.co/zai-org/CogView4-6B
     notes: "Weights made available on HuggingFace."
 
 trainingcode:
     class: closed
-    link: https://github.com/THUDM/CogView4
+    link: https://github.com/zai-org/CogView4
     notes: Only inference code made available on GitHub.
 
 # documentation:
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/THUDM/CogView4-6B
+    link: https://huggingface.co/zai-org/CogView4-6B
     notes: "Model card only contains information about inference and licensing."
 
 datasheet:
@@ -100,5 +100,5 @@ api:
 
 licenses:
     class: open
-    link: https://huggingface.co/THUDM/CogView4-6B#license
+    link: https://huggingface.co/zai-org/CogView4-6B#license
     notes: "Apache-2.0, an OSI-approved license."

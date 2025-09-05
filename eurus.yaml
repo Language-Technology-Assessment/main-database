@@ -72,9 +72,9 @@ preprint:
     notes: Preprint published on ArXiV
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper found.
+    class: partial
+    link: https://icml.cc/virtual/2024/38051
+    notes: Model presented as poster on ICML 2024.
 
 modelcard:
     class: partial

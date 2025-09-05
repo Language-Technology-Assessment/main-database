@@ -15,14 +15,14 @@
 
 system:
     name: DeepHermes
-    link: https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview
+    link: https://huggingface.co/NousResearch/Hermes-4-70B
     type: text
     performanceclass: full
-    basemodelname: Llama-3.1-8B
-    endmodelname: DeepHermes-3-Llama-3-8B-Preview
+    basemodelname: Llama-3.1-70B
+    endmodelname: Hermes-4-70B
     endmodellicense: Llama 3 Community License Agreement
-    releasedate: 2025-02
-    notes: Evaluated model only available as preview. 
+    releasedate: 2025-08
+    notes: Hybrid reasoning model based on Llama.
 
 org:
     name: Nous Research
@@ -36,69 +36,69 @@ datasources_basemodel:
     notes: based on LLama3
 
 datasources_endmodel:
-    class: closed
-    link: 
-    notes: mix of synthetic data
+    class: partial
+    link: https://huggingface.co/datasets/NousResearch/Hermes-3-Dataset
+    notes: Mix of synthetic data. Data for previous model version made available.
 
 weights_basemodel:
     class: partial
-    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
+    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-70B
     notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview
-    notes: 
+    link: https://huggingface.co/NousResearch/Hermes-4-70B
+    notes: Model made available through HuggingFace.
 
 trainingcode:
-    class: closed
-    link: 
-    notes: 
+    class: full
+    link: https://github.com/NousResearch/atropos
+    notes: Training code published on GitHub.
 
 # documentation:
 code:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://huggingface.co/datasets/NousResearch/Hermes-3-Dataset
+    notes: Code comprehensively documented.
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2508.18255
+    notes: Hardware setup comprehensively documented in paper.
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2508.18255
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No peer-reviewed paper found.
 
 modelcard:
-    class: open
-    link: https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview
-    notes: 
+    class: partial
+    link: https://huggingface.co/NousResearch/Hermes-4-70B
+    notes: Model card primarily contains usage information.
 
 datasheet:
     class: closed
     link: 
-    notes: 
+    notes: No datasheet found.
 
 # access:
 package:
     class: closed
     link: 
-    notes: 
+    notes: No package found.
 
 api:
     class: closed
     link: 
-    notes: 
+    notes: No API found.
     metaprompt: closed
 
 licenses:
     class: closed
-    link: 
+    link: https://huggingface.co/datasets/NousResearch/Hermes-3-Dataset
     notes: Meta custom license

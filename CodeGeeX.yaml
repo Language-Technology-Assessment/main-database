@@ -68,13 +68,13 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: https://arxiv.org/pdf/2406.12793
-    notes: 
+    link: https://arxiv.org/abs/2303.17568v2
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed
-    link: 
-    notes: 
+    link: https://dl.acm.org/doi/abs/10.1145/3580305.3599790
+    notes: Paper published in ACM.
 
 modelcard:
     class: open
