@@ -68,8 +68,8 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: 
-    notes: Various preprints available.
+    link: https://huggingface.co/BSC-LT/salamandra-7b-instruct
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed
