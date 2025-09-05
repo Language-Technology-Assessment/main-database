@@ -15,7 +15,7 @@
 
 system:
     name: LongAlign
-    link: https://huggingface.co/THUDM/LongAlign-13B-64k
+    link: https://huggingface.co/zai-org/LongAlign-13B-64k
     type: text
     performanceclass: limited
     basemodelname: Llama-2-13B
@@ -37,7 +37,7 @@ datasources_basemodel:
 
 datasources_endmodel:
     class: partial
-    link: https://huggingface.co/datasets/THUDM/LongAlign-10k
+    link: https://huggingface.co/datasets/zai-org/LongAlign-10k
     notes: some on HF
 
 weights_basemodel:
@@ -47,7 +47,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/THUDM/LongAlign-13B-64k
+    link: https://huggingface.co/zai-org/LongAlign-13B-64k
     notes: 
 
 trainingcode:
