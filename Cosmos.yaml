@@ -67,9 +67,9 @@ hardware_architecture:
     notes:
 
 preprint:
-    class: closed
+    class: open
     link: https://arxiv.org/abs/2501.03575
-    notes:
+    notes: preprint published on arXiv.
 
 paper:
     class: closed
