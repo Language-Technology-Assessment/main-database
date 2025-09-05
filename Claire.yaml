@@ -36,7 +36,7 @@ datasources_basemodel:
     notes: Based on Falcon
 
 datasources_endmodel:
-    class: full
+    class: open
     link: https://huggingface.co/datasets/OpenLLM-France/Claire-Dialogue-French-0.1
     notes: Dataset published on HuggingFace.
 

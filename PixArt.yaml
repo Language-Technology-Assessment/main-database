@@ -72,7 +72,7 @@ preprint:
     notes: Preprint made available on arXiv.
 
 paper:
-    class: partial
+    class: open
     link: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04633.pdf
     notes: Paper published as conference paper.
 
