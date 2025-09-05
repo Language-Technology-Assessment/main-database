@@ -15,13 +15,13 @@
 
 system:
     name: RWKV
-    link: https://huggingface.co/BlinkDL/rwkv-7-world
+    link: https://huggingface.co/BlinkDL/rwkv-7-g1
     type: text
     performanceclass: full
-    basemodelname: RWKV-x070-Pile-1.47B-ctx4096
-    endmodelname: RWKV-x070-World-1.5B-v3-20250127-ctx4096
+    basemodelname: 
+    endmodelname: RWKV7-g0a-7.2B-20250829-ctx4096
     endmodellicense: Apache-2.0
-    releasedate: 2024-12
+    releasedate: 2025-08
     notes: RNN-based model under continuous development.
 
 org:
@@ -47,7 +47,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/BlinkDL/rwkv-7-world
+    link: https://huggingface.co/BlinkDL/rwkv7-g1
     notes: 
 
 trainingcode:
@@ -67,9 +67,9 @@ hardware_architecture:
     notes: 
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://huggingface.co/papers/2503.14456
+    notes: Preprint published on arXiv
 
 paper:
     class: closed
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/BlinkDL/rwkv-7-world
+    link: https://huggingface.co/BlinkDL/rwkv-7-g1
     notes: 
 
 datasheet:

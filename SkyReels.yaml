@@ -15,14 +15,14 @@
 
 system:
     name: SkyReels
-    link: https://huggingface.co/Skywork/SkyReels-V1-Hunyuan-T2V
+    link: https://huggingface.co/Skywork/SkyReels-V2-T2V-14B-720P-Diffusers
     type: video
     performanceclass: full
-    basemodelname: HunyuanVideo-T2V-720P
-    endmodelname: SkyReels-V1-Hunyuan-T2V
-    endmodellicense: Apache-2.0
-    releasedate: 2025-02
-    notes: Video generation model by SkyReels.
+    basemodelname: 
+    endmodelname: SkyReels-V2-T2V-14B-720P
+    endmodellicense: Skywork Terms and Conditions
+    releasedate: 2025-06
+    notes: Video generation model by Skywork.
 
 org:
     name: Skywork
@@ -31,28 +31,28 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: closed
-    link:
-    notes: No base model data sources found.
+    class: partial
+    link: https://arxiv.org/pdf/2504.13074
+    notes: Data sources mentioned as Koala-36M and HumanVid, however a great deal more data (both self-collected and from external sources0 was used.
 
 datasources_endmodel:
-    class: closed
-    link:
-    notes: No dataset found.
+    class: partial
+    link: https://arxiv.org/pdf/2504.13074
+    notes: Data sources mentioned as Koala-36M and HumanVid, however a great deal more data (both self-collected and from external sources0 was used.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/tencent/HunyuanVideo
+    link: https://huggingface.co/Skywork/SkyReels-V2-T2V-14B-720P-Diffusers
     notes: Weights made available through HuggingFace.
     
 weights_endmodel:
     class: open
-    link: https://huggingface.co/Skywork/SkyReels-V1-Hunyuan-T2V
+    link: https://huggingface.co/Skywork/SkyReels-V2-T2V-14B-720P-Diffusers
     notes: Weights made available through HuggingFace.
 
 trainingcode:
     class: closed
-    link: https://github.com/SkyworkAI/SkyReels-V1
+    link: https://github.com/SkyworkAI/SkyReels-V2
     notes: Github available, however does not contain training code.
 
 # documentation:
@@ -62,14 +62,14 @@ code:
     notes: No training code, so no documentation.
 
 hardware_architecture:
-    class: closed
-    link:
-    notes: No information regarding training hardware found.
+    class: open
+    link: https://arxiv.org/pdf/2504.13074
+    notes: Hardware architecture documented in detail
 
 preprint:
-    class: closed
-    link: 
-    notes: No preprint found.
+    class: open
+    link: https://arxiv.org/pdf/2504.13074
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed
@@ -77,9 +77,9 @@ paper:
     notes: No paper found.
 
 modelcard:
-    class: closed
-    link: https://huggingface.co/Skywork/SkyReels-V1-Hunyuan-T2V
-    notes: Model card primarily contains fine-tuning information.
+    class: open
+    link: https://huggingface.co/Skywork/SkyReels-V2-T2V-14B-720P-Diffusers
+    notes: Model card contains requisite information
 
 datasheet:
     class: closed
@@ -94,11 +94,11 @@ package:
 
 api:
     class: closed
-    link: https://www.skyreels.ai/home?utm_campaign=huggingface_V1_t2v
+    link: https://www.skyreels.ai/home
     notes: Web interface available, accessible only when signing up.
     metaprompts:
 
 licenses:
-    class: open
-    link: https://github.com/SkyworkAI/SkyReels-V1/blob/main/LICENSE.txt
-    notes: Apache-2.0, an OSI-approved license.
+    class: closed
+    link: https://huggingface.co/Skywork/SkyReels-V2-T2V-14B-720P-Diffusers/blob/main/LICENSE
+    notes: Skywork Terms and Conditions, not an OSI-approved license.
