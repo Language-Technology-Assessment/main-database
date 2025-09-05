@@ -15,14 +15,14 @@
 
 system:
     name: Hunyuan
-    link: https://huggingface.co/tencent/Tencent-Hunyuan-Large
+    link: https://huggingface.co/tencent/Hunyuan-7B-Instruct
     type: text
     performanceclass: latest
-    basemodelname: Hunyuan-A52B-Pretrain
-    endmodelname: Hunyuan-A52B-Instruct
+    basemodelname: Hunyuan-7B-Pretrain
+    endmodelname: Hunyuan-7B-Instruct
     endmodellicense: Tencent Hunyuan Community License Agreement
-    releasedate: 2024-12
-    notes: MoE model by Tencent.
+    releasedate: 2025-07
+    notes: Dense model by Tencent.
 
 org:
     name: Tencent
@@ -42,63 +42,63 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: 
-    notes: 
+    link: https://huggingface.co/tencent/Hunyuan-7B-Pretrain
+    notes: Weights made available through HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/tencent/Tencent-Hunyuan-Large
-    notes: 
+    link: https://huggingface.co/tencent/Hunyuan-7B-Instruct
+    notes: Weights made available through HuggingFace.
 
 trainingcode:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://github.com/Tencent-Hunyuan/Hunyuan-7B
+    notes: Training code made available on GitHub.
 
 # documentation:
 code:
-    class: closed
-    link:  
-    notes: only some demo code shared
+    class: open
+    link: https://github.com/Tencent-Hunyuan/Hunyuan-7B
+    notes: Repo well-structured and documented.
 
 hardware_architecture:
-    class: closed
-    link:  
-    notes: limited details
+    class: open
+    link: https://github.com/Tencent-Hunyuan/Hunyuan-7B/blob/main/train/llama_factory_support/example_configs/hunyuan_full.yaml
+    notes: Architecture made available on GitHub.
 
 preprint:
     class: closed
-    link: https://arxiv.org/pdf/2411.02265?
-    notes: 
+    link: 
+    notes: No preprint found.
 
 paper:
     class: closed
     link: 
-    notes: 
+    notes: No paper found.
 
 modelcard:
     class: open
-    link: https://huggingface.co/tencent/Tencent-Hunyuan-Large
-    notes: 
+    link: https://huggingface.co/tencent/Hunyuan-7B-Instruct
+    notes: Model card provides requisite detail.
 
 datasheet:
     class: closed
     link: 
-    notes: 
+    notes: No datasheet found.
 
 # access:
 package:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://github.com/Tencent-Hunyuan/Hunyuan-7B
+    notes: Model made available through vllm.
 
 api:
     class: closed
-    link: 
-    notes: 
+    link: https://cloud.tencent.com/product/tclm
+    notes: Proprietary API
     metaprompt: closed
 
 licenses:
     class: closed
-    link: 
+    link: https://github.com/Tencent-Hunyuan/Hunyuan-7B/tree/main?tab=License-1-ov-file#readme
     notes: custom license 
