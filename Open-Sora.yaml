@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/hpcai-tech/Open-Sora-v2
     type: video
     performanceclass: limited
-    basemodelname: Open-Sora
+    basemodelname: 
     endmodelname: Open-Sora
     endmodellicense: Apache-2.0
     releasedate: 2024-03

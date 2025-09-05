@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/zai-org/CogView4-6B
     type: image
     performanceclass: full
-    basemodelname: CogView4-6B
+    basemodelname: 
     endmodelname: CogView4-6B
     endmodellicense: Apache-2.0
     releasedate: 2025-03

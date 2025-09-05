@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/cvssp/audioldm2
     type: audio
     performanceclass: full
-    basemodelname: AudioLDM2
+    basemodelname: 
     endmodelname: AudioLDM2
     endmodellicense: CC-BY-NC-SA-4.0
     releasedate: 2023-08

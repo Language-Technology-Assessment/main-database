@@ -18,7 +18,7 @@ system:
     link: https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/
     type: text
     performanceclass: limited
-    basemodelname: BERT
+    basemodelname: 
     endmodelname: BERT
     endmodellicense: Apache-2.0
     releasedate: 2018-11

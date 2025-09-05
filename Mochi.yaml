@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/genmo/mochi-1-preview
     type: video
     performanceclass: full
-    basemodelname: Mochi-1-Preview
+    basemodelname: 
     endmodelname: Mochi-1-Preview
     endmodellicense: Apache-2.0
     releasedate: 2024-10

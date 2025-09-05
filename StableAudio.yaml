@@ -20,7 +20,7 @@ system:
     link: https://github.com/Stability-AI/stable-audio-tools
     type: audio
     performanceclass: full
-    basemodelname: stable-audio-open-1.0
+    basemodelname: 
     endmodelname: stable-audio-open-1.0
     endmodel license: Stability AI Community License
     releasedate: 2024-07

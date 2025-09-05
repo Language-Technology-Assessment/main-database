@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/google/magenta-realtime
     type: audio
     performanceclass: full
-    basemodelname: Magenta RealTime
+    basemodelname: 
     endmodelname: Magenta RealTime
     endmodellicense: Apache-2.0 and CC-BY-NC-4.0 and additional terms
     releasedate: 2025-06

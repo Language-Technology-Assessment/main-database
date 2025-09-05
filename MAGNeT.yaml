@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/facebook/hybrid-magnet-medium
     type: audio
     performanceclass: limited
-    basemodelname: Hybrid-MAGNeT-Medium
+    basemodelname: 
     endmodelname: Hybrid-MAGNeT-Medium
     endmodellicense: CC-BY-NC-4.0
     releasedate: 2024-02

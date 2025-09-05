@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/facebook/jasco-chords-drums-melody-1B
     type: audio
     performanceclass: limited
-    basemodelname: JASCO-Chords-Drums-Melody-1B
+    basemodelname: 
     endmodelname: JASCO-Chords-Drums-Melody-1B
     endmodellicense: CC-BY-NC-4.0
     releasedate: 2025-01
