@@ -67,14 +67,14 @@ hardware_architecture:
     notes: Architecture described at a high level in model card.
 
 preprint:
-    class: closed
-    link: 
-    notes: No preprint found.
+    class: open
+    link: https://aclanthology.org/2024.clicit-1.77/
+    notes: Paper published in ACL.
 
 paper:
-    class: closed
-    link:
-    notes: No peer reviewed paper available
+    class: open
+    link: https://aclanthology.org/2024.clicit-1.77/
+    notes: Paper published in ACL.
 
 modelcard:
     class: open
