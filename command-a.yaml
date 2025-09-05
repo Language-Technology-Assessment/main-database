@@ -14,14 +14,14 @@
 # - Contributor type: Non-academic (Company)
 
 system:
-    name: Command-R
-    link: https://huggingface.co/CohereForAI/c4ai-command-r-v01
+    name: Command A
+    link: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025
     type: text
     performanceclass: full
-    basemodelname: C4AI-Command-R-V01
-    endmodelname: Aya-23-35B
+    basemodelname: Command A?
+    endmodelname: Command A Reasoning
     endmodellicense: CC-BY-NC-4.0 and C4AI acceptable use policy
-    releasedate: 2024-03
+    releasedate: 2025-08
     notes: Multilingual open LLM.
 
 org:
@@ -32,13 +32,13 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link: https://docs.cohere.com/docs/data-statement
-    notes: No documentation, listing or audit of pre-training data available. Cohere itself identifies it as coheretext-filtered and gives the size as 200Gb.
+    link: 
+    notes: No information regarding data sources found.
 
 datasources_endmodel:
-    class: open
-    link: https://huggingface.co/collections/CohereForAI/aya-datasets-660415741bd4852f01c81c77
-    notes: Aya Collection (Aya Open Science initiative) is a multilingual collection of 513 million instances of promts and completions including instruction-style templates.
+    class: closed
+    link: 
+    notes: No information regarding data sources found.
 
 weights_basemodel:
     class: closed
@@ -46,9 +46,9 @@ weights_basemodel:
     notes: No checkpoint or model prior to SFT and instruction-tuning made available
 
 weights_endmodel:
-    class: open
-    link: https://huggingface.co/CohereForAI/c4ai-command-r-v01/tree/main
-    notes: Fine-tuned model weights made available for download
+    class: partial
+    link: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025
+    notes: Downloading end-model requires signing license agreement.
 
 trainingcode:
     class: closed
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/CohereForAI/c4ai-command-r-v01-4bit
+    link: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025
     notes: Model card on HF document some aspects but provides no data on training data, instruction-tuning methods
 
 datasheet:
@@ -89,7 +89,7 @@ datasheet:
 # access:
 package:
     class: open
-    link: https://ollama.com/library/command-r
+    link: https://ollama.com/library/command-a
     notes: Model available on Ollama.
 
 api:
