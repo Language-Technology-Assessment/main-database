@@ -69,12 +69,12 @@ hardware_architecture:
 preprint:
     class: open
     link: https://arxiv.org/abs/2401.04577
-    notes:
+    notes: Preprint published on arXiv.
 
 paper:
-    class: open
+    class: partial
     link: https://openreview.net/forum?id=Ny8NiVfi95
-    notes:
+    notes: Preprint published as ICLR 2024 poster.
 
 modelcard:
     class: open
