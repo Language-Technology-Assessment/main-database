@@ -42,13 +42,13 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/mosaicml/mpt-30b-instruct/tree/main
+    link: https://huggingface.co/mosaicml/mpt-30b
     notes: Weights available via HuggingFace
     
 weights_endmodel:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/mosaicml/mpt-30b-instruct/tree/main
+    notes: Weights available via HuggingFace
 
 trainingcode:
     class: open
