@@ -21,7 +21,7 @@ system:
     basemodelname: Llama-3.1-70B
     endmodelname: Hermes-4-70B
     endmodellicense: Llama 3 Community License Agreement
-    releasedate: 2025-02
+    releasedate: 2025-08
     notes: Hybrid reasoning model based on Llama.
 
 org:
