@@ -41,7 +41,7 @@ datasources_endmodel:
     notes: No end model data sources found.
 
 weights_basemodel:
-    class: close
+    class: closed
     link: 
     notes: No base model weights found.
 
@@ -69,7 +69,7 @@ hardware_architecture:
 preprint:
     class: open
     link: https://arxiv.org/pdf/2508.06471
-    notes: Paper published on arXiv.
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed

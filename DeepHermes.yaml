@@ -51,7 +51,7 @@ weights_endmodel:
     notes: Model made available through HuggingFace.
 
 trainingcode:
-    class: full
+    class: open
     link: https://github.com/NousResearch/atropos
     notes: Training code published on GitHub.
 

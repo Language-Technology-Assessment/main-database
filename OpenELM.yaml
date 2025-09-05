@@ -69,12 +69,12 @@ hardware_architecture:
 preprint:
     class: open
     link: https://arxiv.org/abs/2404.14619
-    notes: 
+    notes: Preprint published on arXiv.
 
 paper:
-    class: open
+    class: partial
     link: https://openreview.net/pdf?id=XNMbTkxroF
-    notes: 
+    notes: Paper published as ES-FoMo-II 2024 Poster.
 
 modelcard:
     class: open

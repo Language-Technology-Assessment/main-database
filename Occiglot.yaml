@@ -67,9 +67,9 @@ hardware_architecture:
     notes: Hardware architecture described in model card.
 
 preprint:
-    class: closed
-    link: https://occiglot.eu/posts/technical-report-v01/
-    notes: No preprint found. Site mentions that a technical report is forthcoming.
+    class: partial
+    link: ["https://occiglot.eu/posts/technical-report-v01/", "https://aclanthology.org/2024.wmt-1.23/"]
+    notes: No preprint found. Site mentions that a technical report is forthcoming. Tangentially related report published.
 
 paper:
     class: closed

@@ -68,8 +68,8 @@ hardware_architecture:
 
 preprint:
     class: closed
-    link: 
-    notes: No preprint found.
+    link: https://www.genmo.ai/blog
+    notes: No preprint found. Blog post available.
 
 paper:
     class: closed

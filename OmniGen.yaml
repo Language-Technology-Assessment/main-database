@@ -69,12 +69,12 @@ hardware_architecture:
 preprint:
     class: open
     link: https://arxiv.org/pdf/2409.11340
-    notes: preprint made available on arXiv.
+    notes: Preprint made available on arXiv.
 
 paper:
-    class: closed
-    link: 
-    notes:
+    class: open
+    link: https://ieeexplore.ieee.org/document/11093711
+    notes: Paper published in IEEE.
 
 modelcard:
     class: partial
