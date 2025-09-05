@@ -73,8 +73,8 @@ preprint:
 
 paper:
     class: closed
-    link: 
-    notes: No paper found.
+    link: https://iclr.cc/virtual/2023/14995
+    notes: Paper presented at ICLR 2023.
 
 modelcard:
     class: open
