@@ -67,14 +67,14 @@ hardware_architecture:
     notes: Processors used are described, for the rest scarce info is provided.
 
 preprint:
-    class: closed
-    link: https://magenta.withgoogle.com/magenta-realtime
-    notes: Model publicized through blog post. Paper is mentioned as being forthcoming.
+    class: open
+    link: https://arxiv.org/abs/2508.04651
+    notes: Model published on arXiv.
 
 paper:
     class: closed
     link:
-    notes: No paper found.
+    notes: No peer-reviewed paper found.
 
 modelcard:
     class: open
