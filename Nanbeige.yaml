@@ -22,7 +22,7 @@ system:
     endmodelname: Nanbeige2-16B-Chat
     endmodellicense: Apache-2.0 and bespoke community license
     releasedate: 2024-03
-    notes: Comes in 8B and 16B versions
+    notes: Comes in 8B and 16B versions. Since defunct.
 
 org:
     name: Nanbeige LLM lab
@@ -33,12 +33,12 @@ org:
 datasources_basemodel:
     class: closed
     link:
-    notes: No information on pre-training datasets except a claim of 4.5T tokens. Request for information on HF community was closed without comment.
+    notes: No information regarding model data
 
 datasources_endmodel:
     class: closed
-    link: https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat/discussions/2#6621e15a4d17641cf788cbd5
-    notes: No information on finetuning and DPO datasets. Some information provided on request (see link), but official documentation not updated.
+    link: 
+    notes: No information regarding model data
 
 weights_basemodel:
     class: closed
@@ -47,13 +47,13 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat/tree/main
-    notes: Model weights for finetuned model shared 
+    link: 
+    notes: Model weights deleted 
 
 trainingcode:
-    class: open
-    link: https://github.com/Nanbeige/Nanbeige
-    notes: github repo contains sparse but clear code for training, tuning, and inference
+    class: closed
+    link: 
+    notes: Training code deleted
 
 # documentation:
 code:
@@ -93,9 +93,9 @@ package:
     notes: No package found
 
 api:
-    class: open
-    link: https://huggingface.co/spaces/Nanbeige/Nanbeige-Plus-Chat-v0.1
-    notes: No API, but HuggingFace space available
+    class: closed
+    link: 
+    notes: API deleted
     metaprompt: closed
 
 licenses:
