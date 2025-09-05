@@ -16,11 +16,11 @@
 # This system assessment is based on work by the MusGO team, database published here: https://github.com/roserbatlleroca/MusGO_framework/tree/main/projects
 
 system:
-    name: Rave
+    name: RAVE
     link: https://github.com/acids-ircam/RAVE
     type: audio
     performanceclass: full
-    basemodelname: Variational Autoencoder (VAE)
+    basemodelname: 
     endmodelname: RAVE
     endmodel license: CC BY-NC 4.0 license
     releasedate: 2021-09
