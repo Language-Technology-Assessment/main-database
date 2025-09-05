@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/LumiOpen/Poro-34B
     type: text
     performanceclass: full
-    basemodelname: Poro-34B
+    basemodelname: 
     endmodelname: Poro-34B
     endmodellicense: Apache-2.0 
     releasedate: 2024-04

@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/stabilityai/stable-diffusion-3.5-large
     type: image
     performanceclass: latest
-    basemodelname: Stable-Diffusion-3.5-Large
+    basemodelname: 
     endmodelname: Stable-Diffusion-3.5-Large
     endmodellicense: Stability AI Community License
     releasedate: 2024-10

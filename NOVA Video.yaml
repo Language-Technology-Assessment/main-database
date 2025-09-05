@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/BAAI/nova-d48w1024-osp480
     type: video
     performanceclass: limited
-    basemodelname: NOVA-D48W1024-OSP480
+    basemodelname: 
     endmodelname: NOVA-D48W1024-OSP480
     endmodellicense: Apache-2.0
     releasedate: 2024-12

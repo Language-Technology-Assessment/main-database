@@ -18,7 +18,7 @@ system:
     link: https://github.com/Lightricks/LTX-Video
     type: video
     performanceclass: full
-    basemodelname: LTXV-13B-0.9.8-Distilled
+    basemodelname: 
     endmodelname: LTXV-13B-0.9.8-Distilled
     endmodellicense: LTX-Video-Open-Weights-License-0.X
     releasedate: 2024-11

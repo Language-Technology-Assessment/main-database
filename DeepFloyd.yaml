@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0
     type: image
     performanceclass: full
-    basemodelname: IF-I-XL-V1.0
+    basemodelname: 
     endmodelname: IF-I-XL-V1.0
     endmodellicense: DeepFloyd IF Research License Agreement
     releasedate: 2023-04

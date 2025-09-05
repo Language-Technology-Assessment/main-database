@@ -20,7 +20,7 @@ system:
     link: https://github.com/magenta/magenta/tree/main/magenta/models/gansynth
     type: audio
     performanceclass: full
-    basemodelname: GANsynth
+    basemodelname: 
     endmodelname: GANsynth
     endmodel license: Apache 2.0
     releasedate: 2019-02

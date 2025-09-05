@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/moonshotai/Kimi-Dev-72B
     type: code 
     performanceclass: latest
-    basemodelname: Kimi-Dev-72B
+    basemodelname: 
     endmodelname: Kimi-Dev-72B
     endmodellicense: MIT License
     releasedate: 2025-06

@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/Shitao/OmniGen-v1
     type: image
     performanceclass: full
-    basemodelname: OmniGen-v1
+    basemodelname: 
     endmodelname: OmniGen-v1
     endmodellicense: MIT License
     releasedate: 2024-10

@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/h2oai/h2o-danube3.1-4b-chat
     type: text
     performanceclass: full
-    basemodelname: H2O-Danube3.1-4B-Chat
+    basemodelname: H2O-Danube3.1-4B-Base
     endmodelname: H2O-Danube3.1-4B-Chat
     endmodellicense: Apache-2.0
     releasedate: 2024-07

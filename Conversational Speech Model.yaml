@@ -18,7 +18,7 @@ system:
     link: https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice
     type: audio
     performanceclass: full
-    basemodelname: CSM-8B
+    basemodelname: 
     endmodelname: CSM-8B
     endmodellicense: Apache-2.0
     releasedate: 2025-04

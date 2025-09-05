@@ -69,12 +69,12 @@ hardware_architecture:
 preprint:
     class: open
     link: https://arxiv.org/abs/2406.19680
-    notes:
+    notes: Preprint published on arXiv.
 
 paper:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://icml.cc/virtual/2025/poster/46679
+    notes: Preprint published as ICML 2025 poster.
 
 modelcard:
     class: closed

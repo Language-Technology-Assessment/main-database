@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/openai/gpt-oss-120b
     type: text
     performanceclass: latest
-    basemodelname: GPT-OSS-120B
+    basemodelname: 
     endmodelname: GPT-OSS-120B
     endmodellicense: Apache 2.0
     releasedate: 2025-08

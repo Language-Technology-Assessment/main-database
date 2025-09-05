@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/facebook/hybrid-magnet-medium
     type: audio
     performanceclass: limited
-    basemodelname: Hybrid-MAGNeT-Medium
+    basemodelname: 
     endmodelname: Hybrid-MAGNeT-Medium
     endmodellicense: CC-BY-NC-4.0
     releasedate: 2024-02
@@ -69,12 +69,12 @@ hardware_architecture:
 preprint:
     class: open
     link: https://arxiv.org/abs/2401.04577
-    notes:
+    notes: Preprint published on arXiv.
 
 paper:
-    class: open
+    class: partial
     link: https://openreview.net/forum?id=Ny8NiVfi95
-    notes:
+    notes: Preprint published as ICLR 2024 poster.
 
 modelcard:
     class: open

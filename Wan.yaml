@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B
     type: video
     performanceclass: full
-    basemodelname: Wan2.2-T2V-A14B
+    basemodelname: 
     endmodelname: Wan2.2-T2V-A14B
     endmodellicense: Apache-2.0
     releasedate: 2025-05

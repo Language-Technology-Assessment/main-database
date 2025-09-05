@@ -18,7 +18,7 @@ system:
     link: https://huggingface.co/VideoCrafter/VideoCrafter2
     type: video
     performanceclass: limited
-    basemodelname: VideoCrafter2
+    basemodelname: 
     endmodelname: VideoCrafter2
     endmodellicense: Apache-2.0
     releasedate: 2024-01
