@@ -72,9 +72,9 @@ preprint:
     notes:
 
 paper:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://openreview.net/forum?id=JE9tCwe3lp
+    notes: Model published through ICLR 2025 poster.
 
 modelcard:
     class: open
