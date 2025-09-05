@@ -18,9 +18,9 @@ system:
     link: https://lumo.proton.me/about
     type: text
     performanceclass: full
-    basemodelname: Undisclosed
-    endmodelname: Undisclosed
-    endmodellicense: Undisclosed
+    basemodelname: 
+    endmodelname: 
+    endmodellicense: 
     releasedate: 2025-07
     notes: "Lumo by Proton, advertised as 'open source' and 'based upon open-source language models'."
 
