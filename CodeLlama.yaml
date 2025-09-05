@@ -73,8 +73,8 @@ preprint:
 
 paper:
     class: closed
-    link: 
-    notes: No peer-reviewed paper found.
+    link: https://conf.researchr.org/details/icse-2024/llm4code-2024-papers/2/Code-Llama-Open-Foundation-Models-for-Code
+    notes: No peer-reviewed paper found. Paper presented as keynote in ICSE24.
 
 modelcard:
     class: partial
