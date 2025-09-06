@@ -72,9 +72,9 @@ preprint:
     notes: Preprint describes method for creating large amounts of LLM-based synthetic RLHF data and fine-tuning WizardLM based on it
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper or data audit found. Preprint mentions it is 'under review'.
+    class: open
+    link: https://proceedings.iclr.cc/paper_files/paper/2024/hash/82eec786fdfbbfa53450c5feb7d1ac92-Abstract-Conference.html
+    notes: Paper published in ICLR.
 
 modelcard:
     class: closed
