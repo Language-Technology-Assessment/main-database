@@ -72,9 +72,9 @@ preprint:
     notes: Preprint published on arXiv.
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper found.
+    class: partial
+    link: https://openreview.net/forum?id=3c6FeVrfK9
+    notes: Paper submitted for ACL 2025.
 
 modelcard:
     class: closed
