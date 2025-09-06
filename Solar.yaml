@@ -67,14 +67,14 @@ hardware_architecture:
     notes: Precise architecture, training, fine-tuning procedures not given.
 
 preprint:
-    class: closed
-    link: 
-    notes: No preprint or any form of scientific documentation found.
+    class: open
+    link: https://arxiv.org/pdf/2312.15166
+    notes: Preprint made available on arXiv.
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper found
+    class: open
+    link: https://aclanthology.org/2024.naacl-industry.3/
+    notes: Paper published in ACL.
 
 modelcard:
     class: partial

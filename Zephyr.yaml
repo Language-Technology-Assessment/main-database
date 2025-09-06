@@ -72,9 +72,9 @@ preprint:
     notes: 
 
 paper:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://openreview.net/forum?id=aKkAwZB6JV
+    notes: Paper published in COLM 2024.
 
 modelcard:
     class: open

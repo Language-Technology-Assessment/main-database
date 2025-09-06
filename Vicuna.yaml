@@ -15,11 +15,11 @@
 
 system:
     name: Vicuna
-    link: https://huggingface.co/lmsys/vicuna-13b-v1.3
+    link: https://huggingface.co/lmsys/vicuna-13b-v1.5
     type: text 
     performanceclass: full
     basemodelname: Vicuna-13B
-    endmodelname: Vicuna-13B-v1.3
+    endmodelname: Vicuna-13B-v1.5
     endmodellicense: Non-commercial license
     releasedate: 2023-03
     notes: 'Vicuna is a chat assistant trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT.'
@@ -47,9 +47,9 @@ weights_basemodel:
     notes: Unlike Vicuna 13B v0, these weights do not require applying delta
 
 weights_endmodel:
-    class: closed
-    link: https://github.com/lm-sys/FastChat#fine-tuning
-    notes: No model weights are shared for the instruction tuning
+    class: open
+    link: https://huggingface.co/lmsys/vicuna-13b-v1.5
+    notes: Model weights made available on HuggingFace.
 
 trainingcode:
     class: open
@@ -73,9 +73,9 @@ preprint:
     notes: Preprint covers training of the Vicuna model.
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper.
+    class: open
+    link: https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html
+    notes: Paper published in NeurIPS.
 
 modelcard:
     class: partial

@@ -21,7 +21,7 @@ system:
     basemodelname: Snowflake-Arctic-Base
     endmodelname: Snowflake-Arctic-Instruct
     endmodellicense: Apache-2.0
-    releasedate: 2024-04
+    releasedate: 2023-04
     notes: Dense-MoE hybrid LLM.
 
 org:
@@ -51,15 +51,15 @@ weights_endmodel:
     notes: 
 
 trainingcode:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link: https://github.com/Snowflake-Labs/snowflake-arctic
+    notes: Repo exists, but contains sparse training code.
 
 # documentation:
 code:
-    class: closed
-    link:  
-    notes: 
+    class: partial
+    link: https://github.com/Snowflake-Labs/snowflake-arctic
+    notes: The training code which exists is well-documented.
 
 hardware_architecture:
     class: closed

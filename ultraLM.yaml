@@ -72,9 +72,9 @@ preprint:
     notes: Preprint describes creation of UltraFeedback dataset but also offers some detail on training and architecture of UltraRM models
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper found
+    class: open
+    link: https://dl.acm.org/doi/10.5555/3692070.3692454
+    notes: Paper published in ICML.
 
 modelcard:
     class: partial

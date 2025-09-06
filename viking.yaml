@@ -68,8 +68,8 @@ hardware_architecture:
 
 preprint:
     class: closed
-    link:
-    notes: No preprint found
+    link: https://www.amd.com/en/blogs/2024/viking-7b-13b-33b-sailing-the-nordic-seas-of-multilinguality.html
+    notes: No preprint found. Some information published through blog post.
 
 paper:
     class: closed

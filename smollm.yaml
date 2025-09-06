@@ -15,13 +15,13 @@
 
 system:
     name: SmolLM
-    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct
+    link: https://huggingface.co/HuggingFaceTB/SmolLM3-3B
     type: text 
     performanceclass: full
-    basemodelname: SmolLM2-1.7B
-    endmodelname: SmolLM2-Instruct
+    basemodelname: SmolLM3-3B-Base
+    endmodelname: SmolLM3-3B
     endmodellicense: Apache-2.0
-    releasedate: 2024-10
+    releasedate: 2025-07
     notes: Small open models by HuggingFace.
 
 org:
@@ -31,29 +31,29 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: partial
-    link:
-    notes: Data sources described in very broad terms in model card as 'FineWeb-Edu, DCLM, The Stack, along with new mathematics and coding datasets that we curated and will release soon'.
+    class: open
+    link: ["https://huggingface.co/datasets/HuggingFaceTB/smollm3-configs", "https://huggingface.co/collections/HuggingFaceTB/smollm3-pretraining-datasets-685a7353fdc01aecde51b1d9"]
+    notes: Data source mixture described in training config. Pretraining data sources published as part of the collection.
 
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/datasets/HuggingFaceTB/smoltalk
+    link: https://huggingface.co/datasets/HuggingFaceTB/smoltalk2
     notes: Data sources for fine-tuning provided through HuggingFace.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B/tree/main
+    link: https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base
     notes: Weights for the base model freely available under Apache-2.0 license.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct/tree/main
+    link: https://huggingface.co/HuggingFaceTB/SmolLM3-3B
     notes: Weights for the fine-tuned model freely available under Apache-2.0 license.
 
 trainingcode:
     class: open
     link: https://github.com/huggingface/smollm
-    notes: Training code made available on GitHub, though pre-training code does not mention the datasets to use.
+    notes: Training code made available on GitHub.
 
 # documentation:
 code:
@@ -62,44 +62,44 @@ code:
     notes: GitHub repository is well-documented.
 
 hardware_architecture:
-    class: closed
-    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct
-    notes: Model card only mentions architecture is a 'transformer decoder', no details provided.
+    class: open
+    link: https://huggingface.co/datasets/HuggingFaceTB/smollm3-configs
+    notes: Full model architecture provided on GitHub.
 
 preprint:
-    class: closed
-    link: 
-    notes: No preprint found.
+    class: partial
+    link: https://huggingface.co/blog/smollm3
+    notes: Release-by-blogpost, however the blogpost provides all the technical details expected of a preprint.
 
 paper:
     class: closed
     link:
-    notes: No peer-reviewed paper found
+    notes: No peer-reviewed paper found.
 
 modelcard:
-    class: partial
-    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct
-    notes: Model card provides information about training, fine-tuning, and evaluation, but not about architecture.
+    class: full
+    link: https://huggingface.co/HuggingFaceTB/SmolLM3-3B
+    notes: Model card provides the requisite information.
 
 datasheet:
     class: open
-    link: https://huggingface.co/datasets/HuggingFaceTB/smoltalk
-    notes: Datasheet contains requisite information.
+    link: ["https://huggingface.co/datasets/HuggingFaceTB/smoltalk2", "https://huggingface.co/collections/HuggingFaceTB/smollm3-pretraining-datasets-685a7353fdc01aecde51b1d9"]
+    notes: Datasheets contain requisite information.
 
 # access:
 package:
-    class: open
-    link: https://ollama.com/library/smollm2
-    notes: Model available on Ollama.
+    class: closed
+    link: 
+    notes: No package found.
 
 api:
     class: partial
-    link: https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct
+    link: https://huggingface.co/HuggingFaceTB/SmolLM3-3B
     notes: model available through HuggingFace inference API. 
     metaprompt: closed
 
 licenses:
     class: open
-    link: ["https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B#license", "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct#license"]
+    link: ["https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base#license", "https://huggingface.co/HuggingFaceTB/SmolLM3-3B#license"]
     notes: Both base model and fine-tuned model are licensed under Apache-2.0.
 

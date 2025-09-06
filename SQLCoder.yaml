@@ -15,13 +15,13 @@
 
 system:
     name: SQLCoder
-    link: https://huggingface.co/defog/sqlcoder2
+    link: https://huggingface.co/defog/sqlcoder-7b-2
     type: code
     performanceclass: latest
-    basemodelname: StarCoder2-15B
-    endmodelname: SQLCoder-2
-    endmodellicense: CC-BY-SA-4.0 and Apache-2.0 and BigCode OpenRAIL-M v1 license agreement
-    releasedate: 2023-10
+    basemodelname: CodeLlama-7B
+    endmodelname: SQLCoder-7B-2
+    endmodellicense: CC-BY-SA-4.0
+    releasedate: 2024-02
     notes: Text-to-SQL model.
 
 org:
@@ -31,9 +31,9 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: open
-    link: https://arxiv.org/pdf/2402.19173
-    notes: Unfiltered data sources described in paper.
+    class: closed
+    link: 
+    notes: Proprietary dataset used.
 
 datasources_endmodel:
     class: open
@@ -41,13 +41,13 @@ datasources_endmodel:
     notes: Data sources published in GitHub repo
 
 weights_basemodel:
-    class: open
-    link: https://huggingface.co/bigcode/starcoder2-15b
-    notes: Weights made available on HuggingFace.
+    class: partial
+    link: https://huggingface.co/meta-llama/CodeLlama-7b-Instruct-hf
+    notes: Gated model available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/defog/sqlcoder2
+    link: https://huggingface.co/defog/sqlcoder-7b-2
     notes: Weights made available on HuggingFace.
 
 trainingcode:
@@ -68,8 +68,8 @@ hardware_architecture:
 
 preprint:
     class: closed
-    link: ["https://defog.ai/blog/open-sourcing-sqlcoder2-7b", "https://dl.acm.org/doi/pdf/10.1145/3531146.3533779"]
-    notes: Info about model released through blog posts.
+    link: https://defog.ai/blog/open-sourcing-sqlcoder2-7b
+    notes: Info about model released through blog post.
 
 paper:
     class: closed
@@ -78,27 +78,27 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/defog/sqlcoder2
+    link: https://huggingface.co/defog/sqlcoder-7b-2
     notes: Model card provides a decent amount of information.
 
 datasheet:
-    class: open
-    link: https://huggingface.co/defog/sqlcoder2
-    notes: Information regarding datasheet provided in detail.
+    class: closed
+    link: 
+    notes: No datasheet found.
 
 # access:
 package:
-    class: closed
-    link: 
-    notes: No package found
+    class: open
+    link: https://pypi.org/project/sqlcoder/
+    notes: Package available through PyPi.
 
 api:
-    class: open
+    class: partial
     link: https://defog.ai/sqlcoder-demo
     notes: Demo available
     metaprompt: closed
 
 licenses:
-    class: partial
-    link: https://huggingface.co/defog/sqlcoder2
-    notes: Model almost fully open-source licensed, but inherits some properties from BigCode OpenRAIL-M v1 license agreement.
+    class: open
+    link: https://huggingface.co/defog/sqlcoder-7b-2
+    notes: CC-BY-SA-4.0.

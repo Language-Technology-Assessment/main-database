@@ -74,7 +74,7 @@ preprint:
 paper:
     class: closed
     link: https://dl.acm.org/doi/abs/10.1145/3580305.3599790
-    notes: Paper published in ACM.
+    notes: Paper published in SIGKDD.
 
 modelcard:
     class: open

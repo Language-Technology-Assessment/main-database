@@ -74,7 +74,7 @@ preprint:
 paper:
     class: open
     link: https://dl.acm.org/doi/10.5555/3692070.3694363
-    notes: Paper published in ACM.
+    notes: Paper published in ICML.
 
 modelcard:
     class: open
