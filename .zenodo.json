@@ -28,7 +28,8 @@
     "contributors": [
         {
             "name": "Kaya, Adem",
-            "affiliation": "Radboud University Nijmegen"
+            "affiliation": "Radboud University Nijmegen",
+            "role": "Contributor"
         }
     ],
     "title": "European Open Source AI Index database",
