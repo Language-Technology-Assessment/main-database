@@ -72,9 +72,9 @@ preprint:
     notes: Preprint made available through arXiv.
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper found.
+    class: open
+    link: https://aclanthology.org/2025.acl-long.268/
+    notes: Paper published in ACL.
 
 modelcard:
     class: open
