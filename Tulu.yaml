@@ -72,9 +72,9 @@ preprint:
     notes: Preprint available through arXiv.
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed work found.
+    class: open
+    link: https://openreview.net/forum?id=QdWhj0QZFw
+    notes: Paper published in COLM.
 
 modelcard:
     class: open
