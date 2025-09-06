@@ -72,9 +72,9 @@ preprint:
     notes: various research preprints available
 
 paper:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://proceedings.mlr.press/v202/poli23a.html
+    notes: Preprint published in ICML.
 
 modelcard:
     class: open
