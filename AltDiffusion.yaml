@@ -74,7 +74,7 @@ preprint:
 paper:
     class: open
     link: https://dl.acm.org/doi/10.1609/aaai.v38i7.28487
-    notes: Paper published in ACM.
+    notes: Paper published in AAAI.
 
 modelcard:
     class: partial
