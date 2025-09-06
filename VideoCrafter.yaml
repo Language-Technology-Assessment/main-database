@@ -69,12 +69,12 @@ hardware_architecture:
 preprint:
     class: open
     link: https://arxiv.org/abs/2401.09047
-    notes:
+    notes: Preprint published in arXiv.
 
 paper:
-    class: open
-    link: https://openreview.net/forum?id=31K494Mn2f
-    notes:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
 
 modelcard:
     class: partial
