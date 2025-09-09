@@ -1,0 +1,101 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+system:
+    name: VGen
+    link: https://huggingface.co/ali-vilab/i2vgen-xl
+    type: video
+    performanceclass: 
+    basemodelname: i2vgen-xl
+    endmodelname: i2vgen-xl
+    endmodellicense:
+    releasedate: 2023
+    notes: an open-source video synthesis codebase developed by the Tongyi Lab
+
+org:
+    name: Alibaba Group
+    link: https://huggingface.co/ali-vilab 
+    notes: Alibaba TongYi Vision Intelligence Lab
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: 
+    
+datasources_endmodel:
+    class: partial
+    link: https://huggingface.co/ali-vilab/i2vgen-xl
+    notes: WebVid-10M and LAION-400M datasets
+    
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/ali-vilab/i2vgen-xl/tree/main/models
+    notes:
+
+weights_endmodel:
+    class: open
+    link:
+    notes:
+
+trainingcode:
+    class: open
+    link:
+    notes:
+
+# documentation:
+code:
+    class: open
+    link:
+    notes:
+
+hardware_architecture:
+    class: closed
+    link:
+    notes:
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2311.04145
+    notes: I2VGen-XL High-Quality Image-to-Video Synthesis via Cascaded Diffusion Models
+
+
+paper:
+    class: open
+    link: https://dl.acm.org/doi/abs/10.5555/3666122.3666456 
+    notes: 37th International Conference on Neural Information Processing Systems
+
+modelcard:
+    class: open
+    link: https://huggingface.co/ali-vilab/i2vgen-xl
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: partial
+    link: https://huggingface.co/ali-vilab/i2vgen-xl
+    notes: Included in other library (diffusers)
+
+api:
+    class: open
+    link: https://replicate.com/ali-vilab/i2vgen-xl
+    notes:
+    metaprompts:
+
+licenses:
+    class: open
+    link:
+    notes: MIT License
