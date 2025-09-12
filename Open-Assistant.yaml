@@ -17,7 +17,7 @@ system:
     name: Open Assistant
     link: https://open-assistant.io/
     type: text 
-    performanceclass: full
+    performanceclass: limited
     basemodelname: Pythia-12B
     endmodelname: Pythia-12B-SFT-v8-7K-Steps
     endmodellicense: Apache-2.0
@@ -25,7 +25,7 @@ system:
     notes: Community-built model aiming to bridge the gap between open-source models and ChatGPT.
 
 org:
-    name: LAION
+    name: Open Assistant
     link: https://open-assistant.io/
     notes: Early intiative to bolster the open-source community.
 

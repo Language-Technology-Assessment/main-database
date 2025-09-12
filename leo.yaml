@@ -1,0 +1,105 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: International
+# - Contributor type: Academic (Research community)
+
+system:
+    name: LeoLM
+    link: https://huggingface.co/LeoLM/leo-hessianai-70b-chat
+    type: text 
+    performanceclass: limited
+    basemodelname: Llama-2-70B
+    endmodelname: Leo-HessianAI-70B-Chat
+    endmodellicense: Llama 2 Community License Agreement
+    releasedate: 2023-11
+    notes: Open and commercially available German Foundation Language Model built on Llama-2. 
+
+org:
+    name: LAION
+    link: https://laion.ai
+    notes: Non-profit organization dedicated to releasing large-scale ML models, infrastructure, and related code.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+
+datasources_endmodel:
+    class: partial
+    link: ["https://laion.ai/blog/leo-lm/", "https://huggingface.co/datasets/oscar-corpus/OSCAR-2301", "https://huggingface.co/datasets/LeoLM/OpenSchnabeltier", "https://huggingface.co/datasets/LeoLM/OpenSchnabeltier", "https://huggingface.co/datasets/LeoLM/German_Poems", "https://huggingface.co/datasets/LeoLM/German_Songs"]
+    notes: Datasets described in associated blog post. Only unfiltered pretraining dataset provided.
+
+weights_basemodel:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/LeoLM/leo-hessianai-70b-chat
+    notes: Model weights available via HuggingFace.
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No repo containing training code found.
+
+# documentation
+code:
+    class: closed
+    link: 
+    notes: No code, so no documentation.
+
+hardware_architecture:
+    class: closed
+    link: https://laion.ai/blog/leo-lm/
+    notes: Hyperparameters provided, but no hardware.
+
+preprint:
+    class: closed
+    link: https://laion.ai/blog/leo-lm/
+    notes: Only blog post found.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/LeoLM/leo-hessianai-70b-chat
+    notes: Model card provides partial insight on the requisite attributes.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No datasheet found.
+
+# access
+package:
+    class: closed
+    link:
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/LeoLM/leo-hessianai-70b-chat#model-details
+    notes: Llama 2 Community License Agreement, not an OSI-approved license.
+
