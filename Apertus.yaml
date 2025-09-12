@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: Switzerland
+# - Contributor type: Academic (Research institution)
+
+system:
+    name: Apertus
+    link: https://huggingface.co/collections/swiss-ai/apertus-llm-68b699e65415c231ace3b059
+    type: text 
+    performanceclass: full
+    basemodelname: Apertus-70B-2509
+    endmodelname: Apertus-70B-Instruct-2509
+    endmodellicense: Apache-2.0
+    releasedate: 2025-09
+    notes: Open-data open-weights models, multilingual in >1000 languages, developed at Swiss public universities.
+
+org:
+    name: Swiss AI Initiative
+    link: https://swiss-ai.org
+    notes: Swiss National AI Institute (non-profit research institute) collaboration with Swiss National Supercomputing Centre (CSCS).
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: ["https://huggingface.co/datasets/swiss-ai/fineweb-2-compliant-tag", "https://huggingface.co/datasets/swiss-ai/fineweb-edu-compliant-tag", "https://huggingface.co/datasets/swiss-ai/fineweb-compliant-tag"]
+    notes: Training data for base model released and use documented.
+
+datasources_endmodel:
+    class: open
+    link: ["https://huggingface.co/swiss-ai/datasets"]
+    notes: Data for fine-tuning published in a well-organized manner.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/swiss-ai/Apertus-70B-2509/tree/main
+    notes: Model weights available in many stages.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509/tree/main
+    notes: Model weights available in many stages.
+
+trainingcode:
+    class: open
+    link: https://github.com/swiss-ai/
+    notes: Multiple repos with training, architecture and fine-tuning code available.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/swiss-ai/
+    notes: Repositories and code well-described, commented and documented.
+
+hardware_architecture:
+    class: open
+    link: https://github.com/swiss-ai/apertus-tech-report
+    notes: Architecture documented in requisite detail.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint version of the paper available yet.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed version of the paper available yet.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/swiss-ai/Apertus-70B-2509/
+    notes: Model card provides broad overview and links to full details.
+
+datasheet:
+    class: open
+    link: ["https://huggingface.co/datasets/swiss-ai/fineweb-compliant-tag", "https://huggingface.co/datasets/swiss-ai/fineweb-2-compliant-tag", "https://huggingface.co/datasets/swiss-ai/fineweb-edu-compliant-tag", "https://huggingface.co/datasets/swiss-ai/robots-txt-blocked-domains-english", "https://huggingface.co/datasets/swiss-ai/robots-txt-blocked-domains-multilingual", "https://huggingface.co/datasets/swiss-ai/fineweb-robots-txt-files-compressed"]
+    notes: Data sheets are well-documented and provide requisite info.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: Model is not yet available on Ollama.
+
+api:
+    class: partial
+    link: 
+    notes: Available through Hugging Face, though not yet with a free endpoint or commercial provider.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509/blob/main/LICENSE.txt
+    notes: Apache 2.0, an OSI-approved license.
