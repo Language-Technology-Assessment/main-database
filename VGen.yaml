@@ -13,11 +13,11 @@ system:
     name: VGen
     link: https://huggingface.co/ali-vilab/i2vgen-xl
     type: video
-    performanceclass: 
+    performanceclass: limited
     basemodelname: i2vgen-xl
     endmodelname: i2vgen-xl
-    endmodellicense:
-    releasedate: 2023
+    endmodellicense: Unknown
+    releasedate: 2023-12
     notes: an open-source video synthesis codebase developed by the Tongyi Lab
 
 org:
