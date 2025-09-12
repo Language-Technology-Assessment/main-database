@@ -14,15 +14,15 @@
 # - Contributor type: Non-academic (Company)
 
 system:
-    name: Step-Video
-    link: https://huggingface.co/stepfun-ai/stepvideo-ti2v
-    type: video
-    performanceclass: limited
-    basemodelname: StepVideo-T2V
-    endmodelname: StepVideo-TI2V
-    endmodellicense: MIT License
-    releasedate: 2025-02
-    notes: Video generation model by StepFun.
+    name: NextStep
+    link: https://huggingface.co/stepfun-ai/NextStep-1-Large
+    type: image
+    performanceclass: full
+    basemodelname: NextStep-1-Large-Pretrain
+    endmodelname: NextStep-1-Large
+    endmodellicense: Apache-2.0
+    releasedate: 2025-08
+    notes: Image generation model by StepFun.
 
 org:
     name: StepFun
@@ -33,43 +33,43 @@ org:
 datasources_basemodel:
     class: closed
     link:
-    notes: No dataset found.
+    notes: Data sources described only in abstract.
 
 datasources_endmodel:
     class: closed
     link:
-    notes: No dataset found.
+    notes: Data sources described only in abstract.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/stepfun-ai/stepvideo-t2v
+    link: https://huggingface.co/stepfun-ai/NextStep-1-Large-Pretrain
     notes: Weights made available through HuggingFace.
     
 weights_endmodel:
     class: open
-    link: https://huggingface.co/stepfun-ai/stepvideo-ti2v
+    link: https://huggingface.co/stepfun-ai/NextStep-1-Large
     notes: Weights made available through HuggingFace.
 
 trainingcode:
     class: closed
-    link: ["https://github.com/stepfun-ai/Step-Video-TI2V", "https://github.com/stepfun-ai/Step-Video-T2V"]
-    notes: Github available, however does not contain training code.
+    link: ["https://github.com/stepfun-ai/NextStep-1"]
+    notes: Github available, however does not (yet) contain training code.
 
 # documentation:
 code:
     class: closed
     link:
-    notes: No training code, so no documentation.
+    notes: No training code, so no documentation (yet).
 
 hardware_architecture:
-    class: open
-    link: https://arxiv.org/pdf/2502.10248
-    notes: Detailed hardware architecture information provided in paper.
+    class: partial
+    link: https://arxiv.org/pdf/2508.10711
+    notes: Partial hardware architecture information provided in paper.
 
 preprint:
     class: open
-    link: ["https://arxiv.org/pdf/2502.10248", "https://arxiv.org/pdf/2503.11251"]
-    notes: Preprints made available through arXiv.
+    link: https://arxiv.org/pdf/2508.10711
+    notes: Preprint made available through arXiv.
 
 paper:
     class: closed
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: closed
-    link: https://huggingface.co/stepfun-ai/stepvideo-ti2v
+    link: https://huggingface.co/stepfun-ai/NextStep-1-Large
     notes: Model card contains minimal information.
 
 datasheet:
@@ -88,17 +88,17 @@ datasheet:
 
 # access:
 package:
-    class: open
-    link: https://github.com/stepfun-ai/ComfyUI-StepVideo
-    notes: ComfyUI workflow for model available.
+    class: closed
+    link: 
+    notes: No package found.
 
 api:
     class: closed
-    link: https://yuewen.cn/videos
-    notes: Web interface available, accessible only when signing up.
+    link: 
+    notes: No API found.
     metaprompts:
 
 licenses:
     class: open
-    link: https://github.com/stepfun-ai/Step-Video-TI2V/blob/main/LICENSE
-    notes: MIT License, an OSI-approved license.
+    link: https://huggingface.co/stepfun-ai/NextStep-1-Large
+    notes: Apache-2.0, an OSI-approved license.

@@ -75,7 +75,7 @@ preprint:
 paper:
     class: closed
     link:
-    notes: No paper found.
+    notes: No peer-reviewed paper found.
 
 modelcard:
     class: partial

@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
+system:
+    name: Skywork-OR1
+    link: https://huggingface.co/Skywork/Skywork-OR1-32B
+    type: text
+    performanceclass: full
+    basemodelname: DeepSeek-R1-Distill-Qwen-32B
+    endmodelname: Skywork-OR1-32B
+    endmodellicense: Unknown (Apache-2.0?)
+    releasedate: 2025-05
+    notes: Reasoning model by Skywork.
+
+org:
+    name: Skywork
+    link: https://skywork.ai/
+    notes: Skywork, a company creating an AI assistant.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: Pretraining data not specified or documented.
+
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/Skywork/Skywork-OR1-RL-Data
+    notes: Finetuning dataset published on HuggingFace.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+    notes: Weights made available through HuggingFace.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/Skywork/Skywork-OR1-32B
+    notes: Weights made available through HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/SkyworkAI/Skywork-OR1
+    notes: Repo containing training code available on GitHub.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/SkyworkAI/Skywork-OR1
+    notes: Repo well-documented
+
+hardware_architecture:
+    class: open
+    link: https://github.com/SkyworkAI/Skywork-OR1/blob/main/or1_scripts/train/32b_32k.sh
+    notes: Training script provided on GitHub.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2505.22312
+    notes: Preprint published on arXiv.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: open
+    link: https://arxiv.org/pdf/2505.22312
+    notes: Model card contains requisite information
+
+datasheet:
+    class: open
+    link: https://huggingface.co/datasets/Skywork/Skywork-OR1-RL-Data
+    notes: Datasheet contains data sourcing info.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompts:
+
+licenses:
+    class: closed
+    link: https://huggingface.co/Skywork/Skywork-OR1-32B
+    notes: License not specified. Training code released under Apache-2.0.

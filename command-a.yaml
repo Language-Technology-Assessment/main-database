@@ -74,7 +74,7 @@ preprint:
 paper:
     class: closed
     link:
-    notes: No paper known to document the Cohere Command R+ model or architecture.
+    notes: No peer-reviewed paper known to document the Cohere Command R+ model or architecture.
 
 modelcard:
     class: partial

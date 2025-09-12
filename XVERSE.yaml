@@ -1,0 +1,105 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: China
+# - Contributor type: Non-academic (Company)
+
+system:
+    name: XVERSE
+    link: https://huggingface.co/xverse/XVERSE-MoE-A4.2B-Chat
+    type: text 
+    performanceclass: full
+    basemodelname: XVERSE-MoE-A4.2B
+    endmodelname: XVERSE-MoE-A4.2B-Chat
+    endmodellicense: Apache-2.0
+    releasedate: 2024-05
+    notes: Multilingual MoE model.
+
+org:
+    name: Shenzhen Yuanxiang Technology
+    link: https://www.yuanxiangmall.com/aboutus.html
+    notes: E-commerce company oriented towards tech.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: No detailed information on data sources found.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: No detailed information on data sources found.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/xverse/XVERSE-MoE-A4.2B
+    notes: Weights made available through HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/xverse/XVERSE-MoE-A4.2B-Chat
+    notes: Weights made available through HuggingFace.
+
+trainingcode:
+    class: closed
+    link: https://github.com/xverse-ai/XVERSE-13B/blob/main/README_EN.md
+    notes: Repo claims to contain source code, however does not contain it.
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: No documentation available.
+
+hardware_architecture:
+    class: open
+    link: "https://arxiv.org/pdf/2405.20335"
+    notes: Architecture is fully outlined in the preprint.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint found.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper available.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/xverse/XVERSE-MoE-A4.2B-Chat
+    notes: Model card provides limited information.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link:
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/xverse/XVERSE-MoE-A4.2B-Chat#open-source-license
+    notes: Apache-2.0, an OSI-approved license.
+

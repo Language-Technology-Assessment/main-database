@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (American Big Tech)
+
+system:
+    name: MobileLLM
+    link: https://huggingface.co/facebook/MobileLLM-R1-950M
+    type: text,code
+    performanceclass: full
+    basemodelname: MobileLLM-R1-950M-base
+    endmodelname: MobileLLM-R1-950M
+    endmodellicense: FAIR Noncommercial Research License v1
+    releasedate: 2025-09
+    notes: Small reasoning model.
+
+org:
+    name: Meta
+    link: https://ai.meta.com/
+    notes: Meta, a major technology company.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/facebook/MobileLLM-R1-950M
+    notes: Datasources listed on model card.
+    
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/facebook/MobileLLM-R1-950M
+    notes: Datasources listed on model card.
+
+weights_basemodel:
+    class: partial
+    link: https://huggingface.co/facebook/MobileLLM-R1-950M-base
+    notes: Gated model available on HuggingFace.
+
+weights_endmodel:
+    class: partial
+    link: https://huggingface.co/facebook/MobileLLM-R1-950M
+    notes: Gated model available on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/facebookresearch/MobileLLM
+    notes: Repo containing training code available on GitHub.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/facebookresearch/MobileLLM
+    notes: Repository is well-documented.
+
+hardware_architecture:
+    class: open
+    link: ["https://arxiv.org/pdf/2402.14905", "https://github.com/facebookresearch/MobileLLM"]
+    notes: Hardware architecture described in preprint and on GitHub.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2402.14905
+    notes: Preprint made available on arXiv.
+
+paper:
+    class: open
+    link: https://dl.acm.org/doi/10.5555/3692070.3693386
+    notes: Paper published in ICML.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/facebook/MobileLLM-R1-950M
+    notes: Model card provides the requisite information.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/facebook/MobileLLM-R1-950M
+    notes: FAIR Noncommercial Research License v1, not an OSI recognised open license.
