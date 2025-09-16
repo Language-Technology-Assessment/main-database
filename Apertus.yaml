@@ -72,7 +72,7 @@ preprint:
     notes: Preprint version of the paper available here.
 
 paper:
-    class: open
+    class: closed
     link: 
     notes: Paper under peer review
 
