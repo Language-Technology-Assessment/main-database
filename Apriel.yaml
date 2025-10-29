@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
+system:
+    name: Apriel
+    link: https://huggingface.co/ServiceNow-AI/Apriel-Nemotron-15b-Thinker
+    type: text
+    performanceclass: latest
+    basemodelname: Mistral-Nemo-Base-2407
+    endmodelname: Apriel-Nemotron-15b-Thinker
+    endmodellicense: MIT License
+    releasedate: 2025-05
+    notes: Competitive OS model by ServiceNow.
+
+org:
+    name: ServiceNow
+    link: https://www.servicenow.com/
+    notes: American software company.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link:
+    notes: No information provided on pretraining data.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: No information provided on fine-tuning data.
+
+weights_basemodel:
+    class: closed
+    link: 
+    notes: No base model weights published.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/ServiceNow-AI/Apriel-Nemotron-15b-Thinker
+    notes: End model weights published on HuggingFace.
+
+trainingcode:
+    class: open
+    link: https://github.com/ServiceNow/Fast-LLM
+    notes: Training code published on GitHub.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/ServiceNow/Fast-LLM
+    notes: Repo is well-documented.
+
+hardware_architecture:
+    class: partial
+    link: https://arxiv.org/pdf/2508.10948
+    notes: Some information about hardware setup provided, however information is not comprehensive.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2508.10948
+    notes: Preprint published on arXiv.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/ServiceNow-AI/Apriel-Nemotron-15b-Thinker
+    notes: Model card contains some information about the model, however info is not comprehensive.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/ServiceNow-AI/Apriel-Nemotron-15b-Thinker
+    notes: MIT license, an open-source license.
