@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: International
+# - Contributor type: Non-academic (Company)
+
+system:
+    name: TildeOpen
+    link: https://huggingface.co/TildeAI/TildeOpen-30b
+    type: text
+    performanceclass: limited
+    basemodelname: TildeOpen-30b
+    endmodelname: 
+    endmodellicense: Apache-2.0
+    releasedate: 2024-09
+    notes: Open multilingual model.
+
+org:
+    name: Tilde.ai
+    link: tilde.ai
+    notes: European language technology company.
+
+# availability:
+datasources_basemodel:
+    class: partial
+    link: https://huggingface.co/TildeAI/TildeOpen-30b
+    notes: Broad data sources linked on HuggingFace page but no guidance provided on how it was filtered/sampled for multilinguicity.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: 
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/TildeAI/TildeOpen-30b
+    notes: Weights made available through HuggingFace
+
+weights_endmodel:
+    class: closed
+    link: 
+    notes: 
+
+trainingcode:
+    class: open
+    link: https://github.com/tilde-nlp/llm-gpt-neox
+    notes: Training code made available through GitHub.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/tilde-nlp/llm-gpt-neox
+    notes: Training code is well-documented.
+
+hardware_architecture:
+    class: open
+    link: https://github.com/tilde-nlp/llm-gpt-neox
+    notes: Hyperparameters and GPU count outlined on HF page.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint found.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/TildeAI/TildeOpen-30b
+    notes: Model card contains the requisite information.
+
+datasheet:
+    class: open
+    link: ["https://huggingface.co/datasets/uonlp/CulturaX", "https://huggingface.co/datasets/HuggingFaceFW/fineweb-2", "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned"]
+    notes: Datasheets available for all data sources.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: 
+    notes: CC-BY-4.0, an OSI-approved license.
