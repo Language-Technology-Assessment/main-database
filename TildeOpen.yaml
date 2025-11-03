@@ -20,8 +20,8 @@ system:
     performanceclass: limited
     basemodelname: TildeOpen-30b
     endmodelname: 
-    endmodellicense: Apache-2.0
-    releasedate: 2024-09
+    endmodellicense: CC-BY-4.0
+    releasedate: 2025-08
     notes: Open multilingual model.
 
 org:
