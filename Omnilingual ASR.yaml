@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Big Tech)
+
+system:
+    name: Omnilingual ASR
+    link: https://ai.meta.com/research/publications/omnilingual-asr-open-source-multilingual-speech-recognition-for-1600-languages/
+    type: text
+    performanceclass: latest
+    basemodelname: Omnilingual ASR
+    endmodelname: Omnilingual ASR
+    endmodellicense: Apache and CC-BY-4.0
+    releasedate: 2025-11
+    notes: Model for automatic speech recognition (ASR) and speech translation by Meta
+
+org:
+    name: Meta
+    link: https://ai.meta.com/
+    notes: Meta, a major technology company.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/datasets/facebook/omnilingual-asr-corpus
+    notes: Dataset published on HuggingFace.
+    
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/facebook/omnilingual-asr-corpus
+    notes: Dataset published on HuggingFace.
+    
+weights_basemodel:
+    class: open
+    link: https://github.com/facebookresearch/omnilingual-asr
+    notes: Model published on GitHub.
+
+weights_endmodel:
+    class: open
+    link: https://github.com/facebookresearch/omnilingual-asr
+    notes: Model published on GitHub.
+
+trainingcode:
+    class: open
+    link: https://github.com/facebookresearch/fairseq2
+    notes: Training code published on Github.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/facebookresearch/fairseq2
+    notes: Repository is well-documented.
+
+hardware_architecture:
+    class: open
+    link: https://scontent-dub4-1.xx.fbcdn.net/v/t39.2365-6/581068541_867604242498398_5662399655411595851_n.pdf?_nc_cat=104&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=roRXUCWwUzgQ7kNvwGLmwQF&_nc_oc=AdnSs3YBgJbFNxEFxlm2BdFMMMqqrFKWy3TOuQ9Xc8RBlq8KjiYSLeafapB06-uj6Uo&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=vMb20NhmVNeCfcraPoS7ag&oh=00_AfhwbZjCtn39lDo_5rmpLjG2UOiOB1Grw1isXj-wekLhAQ&oe=691A8C1F
+    notes: Hardware architecture described in corresponding preprint.
+
+preprint:
+    class: open
+    link: https://scontent-dub4-1.xx.fbcdn.net/v/t39.2365-6/581068541_867604242498398_5662399655411595851_n.pdf?_nc_cat=104&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=roRXUCWwUzgQ7kNvwGLmwQF&_nc_oc=AdnSs3YBgJbFNxEFxlm2BdFMMMqqrFKWy3TOuQ9Xc8RBlq8KjiYSLeafapB06-uj6Uo&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=vMb20NhmVNeCfcraPoS7ag&oh=00_AfhwbZjCtn39lDo_5rmpLjG2UOiOB1Grw1isXj-wekLhAQ&oe=691A8C1F
+    notes: Preprint published along with blogpost.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: open
+    link: https://github.com/facebookresearch/omnilingual-asr?tab=readme-ov-file
+    notes: Modelcard contains the requisite info.
+
+datasheet:
+    class: open
+    link: ["https://huggingface.co/datasets/facebook/omnilingual-asr-corpus", "https://scontent-dub4-1.xx.fbcdn.net/v/t39.2365-6/581068541_867604242498398_5662399655411595851_n.pdf?_nc_cat=104&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=roRXUCWwUzgQ7kNvwGLmwQF&_nc_oc=AdnSs3YBgJbFNxEFxlm2BdFMMMqqrFKWy3TOuQ9Xc8RBlq8KjiYSLeafapB06-uj6Uo&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=vMb20NhmVNeCfcraPoS7ag&oh=00_AfhwbZjCtn39lDo_5rmpLjG2UOiOB1Grw1isXj-wekLhAQ&oe=691A8C1F"]
+    notes: Datasheet contains a decent amount of info, with corresponding paper digging into very great detail about data sourcing.
+
+# access:
+package:
+    class: open
+    link:  https://github.com/facebookresearch/omnilingual-asr?tab=readme-ov-file
+    notes: Available through PyPI
+
+api:
+    class: open
+    link: https://github.com/facebookresearch/omnilingual-asr?tab=readme-ov-file
+    notes: Available through huggingface
+    metaprompts:
+
+licenses:
+    class: open
+    link: ["https://github.com/facebookresearch/omnilingual-asr/blob/main/LICENSE", "https://github.com/facebookresearch/omnilingual-asr/blob/main/LICENSE-CC-BY-4.0.md"]
+    notes: Apache and CC-BY-4.0, both OSI-approved licenses
