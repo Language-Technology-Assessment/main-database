@@ -33,12 +33,12 @@ org:
 datasources_basemodel:
     class: open
     link: https://huggingface.co/datasets/facebook/omnilingual-asr-corpus
-    notes: Dataset published on HuggingFace.
+    notes: Only eval dataset published on HuggingFace.
     
 datasources_endmodel:
     class: open
     link: https://huggingface.co/datasets/facebook/omnilingual-asr-corpus
-    notes: Dataset published on HuggingFace.
+    notes: Only eval dataset published on HuggingFace.
     
 weights_basemodel:
     class: open
