@@ -18,7 +18,7 @@ system:
     endmodelname: Bark
     endmodellicense: MIT License
     releasedate: 2023-04
-    notes: a transformer-based model 
+    notes: A transformer-based audio-generation model. 
 
 org:
     name: Suno
