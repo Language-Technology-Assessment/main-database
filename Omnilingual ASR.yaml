@@ -31,14 +31,14 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: open
+    class: closed
     link: https://huggingface.co/datasets/facebook/omnilingual-asr-corpus
-    notes: Only eval dataset published on HuggingFace.
+    notes: Only small eval dataset published on HuggingFace. A small fraction of the full training data. 
     
 datasources_endmodel:
-    class: open
+    class: closed
     link: https://huggingface.co/datasets/facebook/omnilingual-asr-corpus
-    notes: Only eval dataset published on HuggingFace.
+    notes: Inherits closed source base training data.  
     
 weights_basemodel:
     class: open
