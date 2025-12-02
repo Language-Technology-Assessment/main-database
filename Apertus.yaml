@@ -67,9 +67,9 @@ hardware_architecture:
     notes: Architecture documented in requisite detail.
 
 preprint:
-    class: closed
+    class: open
     link: 
-    notes: No preprint version of the paper available yet.
+    notes: https://arxiv.org/abs/2509.14233
 
 paper:
     class: closed
@@ -88,9 +88,9 @@ datasheet:
 
 # access:
 package:
-    class: closed
+    class: open
     link: 
-    notes: Model is not yet available on Ollama.
+    notes: https://ollama.com/MichelRosselli/apertus
 
 api:
     class: partial
