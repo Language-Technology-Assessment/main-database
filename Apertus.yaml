@@ -32,7 +32,7 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link: ["https://huggingface.co/datasets/swiss-ai/fineweb-2-compliant-tag", "https://huggingface.co/datasets/swiss-ai/fineweb-edu-compliant-tag", "https://huggingface.co/datasets/swiss-ai/fineweb-compliant-tag"]
+    link: ["https://github.com/swiss-ai/pretrain-data", "https://huggingface.co/datasets/epfml/FineWeb2-HQ", "https://huggingface.co/datasets/swiss-ai/fineweb-2-compliant-tag", "https://huggingface.co/datasets/swiss-ai/fineweb-compliant-tag"]
     notes: Training data for base model released and use documented.
 
 datasources_endmodel:
@@ -69,12 +69,12 @@ hardware_architecture:
 preprint:
     class: open
     link: https://arxiv.org/abs/2509.14233
-    notes: 
+    notes: Preprint version of the paper available here.
 
 paper:
     class: closed
-    link:
-    notes: No peer-reviewed version of the paper available yet.
+    link: 
+    notes: Paper under peer review
 
 modelcard:
     class: open
@@ -89,13 +89,13 @@ datasheet:
 # access:
 package:
     class: open
-    link: https://ollama.com/MichelRosselli/apertus
-    notes: 
+    link: https://huggingface.co/models?search=apertus%20mlx 
+    notes: Model is available on LM Studio, MLX (also in quantized versions), vLLM, SGLang.
 
 api:
-    class: partial
-    link: 
-    notes: Available through Hugging Face, though not yet with a free endpoint or commercial provider.
+    class: open
+    link: https://publicai.co/
+    notes: Available through Hugging Face, though AWS, Azure and other providers, and though a free endpoint (chat and API) at publicai.co
     metaprompt: closed
 
 licenses:
