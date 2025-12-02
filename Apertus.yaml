@@ -68,8 +68,8 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: 
-    notes: https://arxiv.org/abs/2509.14233
+    link: https://arxiv.org/abs/2509.14233
+    notes: 
 
 paper:
     class: closed
@@ -89,8 +89,8 @@ datasheet:
 # access:
 package:
     class: open
-    link: 
-    notes: https://ollama.com/MichelRosselli/apertus
+    link: https://ollama.com/MichelRosselli/apertus
+    notes: 
 
 api:
     class: partial
