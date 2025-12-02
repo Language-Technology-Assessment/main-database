@@ -15,14 +15,14 @@
 
 system:
     name: AMD Llama Code
-    link: https://huggingface.co/amd/AMD-Llama-135m-code
+    link: https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO
     type: code
-    performanceclass: full
-    basemodelname: AMD-Llama-135m
-    endmodelname: AMD-Llama-135m-code
+    performanceclass: limited
+    basemodelname: AMD-OLMo-1B
+    endmodelname: AMD-OLMo-1B-SFT-DPO
     endmodellicense: Apache-2.0
-    releasedate: 2024-07
-    notes: Very tiny coder model, useful for speculative decoding.
+    releasedate: 2024-10
+    notes: Version of OLMo trained from scratch on AMD GPUs.
 
 org:
     name: AMD
@@ -32,43 +32,43 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link: ["https://huggingface.co/datasets/cerebras/SlimPajama-627B", "https://huggingface.co/datasets/manu/project_gutenberg"]
-    notes: Data sources used to train the base model shared. Model uses a combination of SlimPajama and Project Gutenberg.
+    link: https://huggingface.co/datasets/allenai/dolma
+    notes: Data sources used to train the base model shared. Model based on Dolma dataset.
 
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/datasets/bigcode/starcoderdata
-    notes: Model uses the Python split of StarCoder. 
+    link: ["https://huggingface.co/datasets/allenai/tulu-v2-sft-mixture", "https://huggingface.co/datasets/teknium/OpenHermes-2.5", "https://huggingface.co/datasets/TIGER-Lab/WebInstructSub", "https://huggingface.co/datasets/m-a-p/Code-Feedback", "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences-cleaned"]
+    notes: Model trained on a combination of different datasets.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/amd/AMD-Llama-135m
+    link: https://huggingface.co/amd/AMD-OLMo-1B
     notes: Weights published on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/amd/AMD-Llama-135m-code
+    link: https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO
     notes: Weights published on HuggingFace.
 
 trainingcode:
     class: open
-    link: https://github.com/AMD-AIG-AIMA/AMD-LLM
+    link: "https://github.com/allenai/OLMo"
     notes: Training code shared on GitHub.
 
 # documentation:
 code:
     class: open
-    link: https://github.com/AMD-AIG-AIMA/AMD-LLM
-    notes: Model code well-documented.
+    link: ["https://github.com/allenai/OLMo", "https://huggingface.co/amd/AMD-OLMo"]
+    notes: Training code well-documented, and instructions provided on how to set up training in model card.
 
 hardware_architecture:
     class: open
-    link: https://huggingface.co/amd/AMD-Llama-135m-code
+    link: https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO
     notes: Hardware architecture shared on model card.
 
 preprint:
     class: closed
-    link: https://www.amd.com/en/developer/resources/technical-articles/introducing-amd-first-slm-135m-model-fuels-ai-advancements.html
+    link: https://www.amd.com/en/developer/resources/technical-articles/introducing-the-first-amd-1b-language-model.html
     notes: No preprint available.
 
 paper:
@@ -78,12 +78,12 @@ paper:
 
 modelcard:
     class: open
-    link: https://github.com/AMD-AIG-AIMA/AMD-LLM
+    link: https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO
     notes: Model card provides detail on model architecture, training, fine-tuning, and evaluation.
 
 datasheet:
     class: open
-    link: ["https://huggingface.co/datasets/cerebras/SlimPajama-627B", "https://huggingface.co/datasets/manu/project_gutenberg", "https://huggingface.co/datasets/bigcode/starcoderdata"]
+    link: ["https://huggingface.co/datasets/allenai/dolma", "https://huggingface.co/datasets/allenai/tulu-v2-sft-mixture", "https://huggingface.co/datasets/teknium/OpenHermes-2.5", "https://huggingface.co/datasets/TIGER-Lab/WebInstructSub", "https://huggingface.co/datasets/m-a-p/Code-Feedback", "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences-cleaned"]
     notes: All data sources are well-documented.
 
 # access:
@@ -100,5 +100,5 @@ api:
 
 licenses:
     class: open
-    link: https://huggingface.co/amd/AMD-Llama-135m-code#license
+    link: https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO#license
     notes: Licensed under Apache-2.0, an OSI-approved license.

@@ -68,7 +68,7 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: https://github.com/swiss-ai/apertus-tech-report
+    link: https://arxiv.org/abs/2509.14233
     notes: Preprint version of the paper available here.
 
 paper:
