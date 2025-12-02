@@ -21,7 +21,7 @@ system:
     basemodelname: mistral-large-2512
     endmodelname: mistral-large-2512
     endmodellicense: Apache 2
-    releasedate: 2025-012
+    releasedate: 2025-02
     notes: 675b MoE model of the Mistral 3 model family.
 
 org:
