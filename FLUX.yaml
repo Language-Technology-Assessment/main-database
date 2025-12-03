@@ -14,14 +14,14 @@
 # - Contributor type: Non-academic (Company)
 
 system:
-    name: FLUX.1
-    link: https://huggingface.co/black-forest-labs/FLUX.1-Krea-dev
+    name: FLUX
+    link: https://huggingface.co/black-forest-labs/FLUX.2-dev
     type: image
     performanceclass: full
-    basemodelname: FLUX.1-Dev
-    endmodelname: FLUX.1-Krea-dev
-    endmodellicense: FLUX.1 [dev] Non-Commercial License
-    releasedate: 2024-07
+    basemodelname: FLUX.2-Dev
+    endmodelname: FLUX.2-Dev
+    endmodellicense: FLUX [dev] Non-Commercial License v2.0
+    releasedate: 2025-11
     notes: Rectified flow image-generation model.
 
 org:
@@ -42,12 +42,12 @@ datasources_endmodel:
 
 weights_basemodel:
     class: partial
-    link: https://huggingface.co/black-forest-labs/FLUX.1-dev
+    link: https://huggingface.co/black-forest-labs/FLUX.2-dev
     notes: Gated model made available through HuggingFace.
     
 weights_endmodel:
     class: partial
-    link: https://huggingface.co/black-forest-labs/FLUX.1-Krea-dev
+    link: https://huggingface.co/black-forest-labs/FLUX.2-dev
     notes: Gated model made available through HuggingFace.
 
 trainingcode:
@@ -69,7 +69,7 @@ hardware_architecture:
 
 preprint:
     class: closed
-    link: https://www.krea.ai/blog/flux-krea-open-source-release
+    link: https://bfl.ai/blog/flux-2
     notes: No preprint found. Blog post released.
 
 paper:
@@ -79,8 +79,8 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/black-forest-labs/FLUX.1-Krea-dev
-    notes: Model card primarily contains inference and license information.
+    link: https://huggingface.co/black-forest-labs/FLUX.2-dev
+    notes: Model card contains inference, risks, and license information.
 
 datasheet:
     class: closed
@@ -89,17 +89,17 @@ datasheet:
 
 # access:
 package:
-    class: partial
-    link: https://pypi.org/project/mflux/
-    notes: Only package found for mac.
+    class: closed
+    link: 
+    notes: No package found.
 
 api:
     class: partial
-    link: ["https://docs.bfl.ml/", "https://replicate.com/collections/flux", "https://fal.ai/models/fal-ai/flux/dev"]
+    link: ["https://fal.ai/models/fal-ai/flux-2", "https://replicate.com/black-forest-labs/flux-2-dev", "https://runware.ai/models#image-flux", "https://verda.com/managed-endpoints/flux-2", "https://www.together.ai/models/flux-2-dev", "https://blog.cloudflare.com//flux-2-workers-ai/", "https://deepinfra.com/black-forest-labs/FLUX-2-dev"]
     notes: Various paid APIs exist.
     metaprompts:
 
 licenses:
     class: closed
-    link: https://huggingface.co/black-forest-labs/FLUX.1-Krea-dev#license
-    notes: FLUX.1 [dev] Non-Commercial License, not an OSI-approved license.
+    link: https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.txt
+    notes: FLUX.2 [dev] Non-Commercial License, not an OSI-approved license.
