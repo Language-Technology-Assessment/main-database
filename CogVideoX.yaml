@@ -11,7 +11,7 @@
 
 system:
     name: CogVideoX 
-    link: https://huggingface.co/zai-org/CogVideoX-5b 
+    link: https://huggingface.co/zai-org/CogVideoX1.5-5B
     type: video
     performanceclass: full
     basemodelname: CogVideoX-5b 
