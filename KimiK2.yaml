@@ -15,9 +15,9 @@ system:
     type: text
     performanceclass: latest
     basemodelname: Kimi K2 Base
-    endmodelname: Kimi K2 Instruct
+    endmodelname: Kimi K2 Thinking
     endmodellicense: Modified MIT License
-    releasedate: 2025-07
+    releasedate: 2025-11
     notes: MoE model optimised for Agentic Tasks
 
 
@@ -45,7 +45,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/moonshotai/Kimi-K2-Instruct/tree/main
+    link: https://huggingface.co/moonshotai/Kimi-K2-Thinking
     notes:
 
 trainingcode:
@@ -77,7 +77,7 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/moonshotai/Kimi-K2-Instruct
+    link: https://huggingface.co/moonshotai/Kimi-K2-Thinking
     notes:
 
 datasheet:
