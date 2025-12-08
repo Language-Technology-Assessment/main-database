@@ -32,12 +32,12 @@ org:
 # availability:
 datasources_basemodel:
     class: partial
-    link: https://arxiv.org/pdf/2504.13074
+    link: https://arxiv.org/abs/2504.13074
     notes: Data sources mentioned as Koala-36M and HumanVid, however a great deal more data (both self-collected and from external sources0 was used.
 
 datasources_endmodel:
     class: partial
-    link: https://arxiv.org/pdf/2504.13074
+    link: https://arxiv.org/abs/2504.13074
     notes: Data sources mentioned as Koala-36M and HumanVid, however a great deal more data (both self-collected and from external sources0 was used.
 
 weights_basemodel:
@@ -63,12 +63,12 @@ code:
 
 hardware_architecture:
     class: open
-    link: https://arxiv.org/pdf/2504.13074
+    link: https://arxiv.org/abs/2504.13074
     notes: Hardware architecture documented in detail
 
 preprint:
     class: open
-    link: https://arxiv.org/pdf/2504.13074
+    link: https://arxiv.org/abs/2504.13074
     notes: Preprint published on arXiv.
 
 paper:
