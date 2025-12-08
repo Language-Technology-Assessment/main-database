@@ -15,14 +15,14 @@
 
 system:
     name: Nanbeige
-    link: https://huggingface.co/Nanbeige/Nanbeige2-16B-Chat
+    link: https://huggingface.co/Nanbeige/Nanbeige4-3B-Thinking-2511
     type: text 
     performanceclass: limited
-    basemodelname: Nanbeige2-16B
-    endmodelname: Nanbeige2-16B-Chat
-    endmodellicense: Apache-2.0 and bespoke community license
-    releasedate: 2024-03
-    notes: Comes in 8B and 16B versions. Since defunct.
+    basemodelname: Nanbeige4-3B-Base
+    endmodelname: Nanbeige4-3B-Thinking-2511
+    endmodellicense: Apache-2.0
+    releasedate: 2025-11
+    notes: Chinese text-only LLM. Claims good performance on writing.
 
 org:
     name: Nanbeige LLM lab
@@ -41,14 +41,14 @@ datasources_endmodel:
     notes: No information regarding model data
 
 weights_basemodel:
-    class: closed
-    link:
-    notes: Base model not shared
+    class: open
+    link: https://huggingface.co/Nanbeige/Nanbeige4-3B-Base
+    notes: Model weights made available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: 
-    notes: Model weights deleted 
+    link: https://huggingface.co/Nanbeige/Nanbeige4-3B-Thinking-2511
+    notes: Model weights made available on HuggingFace.
 
 trainingcode:
     class: closed
@@ -64,12 +64,12 @@ code:
 hardware_architecture:
     class: closed
     link:
-    notes: Architecture not clearly specified
+    notes: Hardware architecture not clearly specified
 
 preprint:
-    class: closed
-    link:
-    notes: No preprint found. Paper linked on HuggingFace was authored by LMSYS.
+    class: open
+    link: https://huggingface.co/Nanbeige/Nanbeige4-3B-Thinking-2511/blob/main/Nanbeige4-3B-Technical-Report.pdf
+    notes: Technical report published on HuggingFace.
 
 paper:
     class: closed
@@ -77,9 +77,9 @@ paper:
     notes: No peer-reviewed paper found
 
 modelcard:
-    class: closed
-    link:
-    notes: No model card found
+    class: partial
+    link: https://huggingface.co/Nanbeige/Nanbeige4-3B-Thinking-2511
+    notes: Model card primarily contains eval results, with some limitations mentioned.
 
 datasheet:
     class: closed
@@ -95,10 +95,10 @@ package:
 api:
     class: closed
     link: 
-    notes: API deleted
+    notes: No API found.
     metaprompt: closed
 
 licenses:
-    class: partial
+    class: open
     link:
-    notes: Apache 2.0 but commercial use requires signup and an additional community license 
+    notes: Apache 2.0, an OSI-approved license. 

@@ -63,7 +63,7 @@ code:
 
 hardware_architecture:
     class: open
-    link: "https://arxiv.org/pdf/2405.20335"
+    link: https://arxiv.org/pdf/2405.20335
     notes: Architecture is fully outlined in the preprint.
 
 preprint:

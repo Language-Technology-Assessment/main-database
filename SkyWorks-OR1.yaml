@@ -68,7 +68,7 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: https://arxiv.org/pdf/2505.22312
+    link: https://arxiv.org/abs/2505.22312
     notes: Preprint published on arXiv.
 
 paper:
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: open
-    link: https://arxiv.org/pdf/2505.22312
+    link: https://arxiv.org/abs/2505.22312
     notes: Model card contains requisite information
 
 datasheet:

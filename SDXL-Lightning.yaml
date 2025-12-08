@@ -32,12 +32,12 @@ org:
 # availability:
 datasources_basemodel:
     class: partial
-    link: https://arxiv.org/pdf/2307.01952
+    link: https://arxiv.org/abs/2402.13929
     notes: Trained on subsets of ImageNET and COCO, but specific dataset details are not disclosed.
 
 datasources_endmodel:
     class: partial
-    link: https://arxiv.org/pdf/2402.13929
+    link: https://arxiv.org/abs/2402.13929
     notes: Trained on subsets of LAION and COYO, but specific dataset details are not disclosed.
         
 weights_basemodel:
@@ -68,8 +68,8 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: https://arxiv.org/pdf/2402.13929
-    notes: 
+    link: https://arxiv.org/abs/2402.13929
+    notes: Preprint published in arXiv.
 
 paper:
     class: closed

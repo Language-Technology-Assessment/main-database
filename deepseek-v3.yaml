@@ -14,14 +14,14 @@
 # - Contributor type: Non-academic (Chinese AI Tiger)
 
 system:
-    name: DeepSeek V3.1
-    link: https://huggingface.co/deepseek-ai/DeepSeek-V3.1
+    name: DeepSeek V3.2
+    link: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale
     type: text 
     performanceclass: latest
     basemodelname: DeepSeek-V3.1-Base
-    endmodelname: DeepSeek-V3.1
+    endmodelname: DeepSeek-V3.2-Speciale
     endmodellicense: MIT License
-    releasedate: 2026-08
+    releasedate: 2025-11
     notes: Mixture-of-experts chat model.
 
 org:
@@ -43,17 +43,17 @@ datasources_endmodel:
 weights_basemodel:
     class: open
     link: https://huggingface.co/deepseek-ai/DeepSeek-V3-Base
-    notes: 
+    notes: Weights made available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/deepseek-ai/DeepSeek-V3-0324
-    notes: 
+    link: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
     class: partial
     link: https://github.com/deepseek-ai/DeepSeek-V3/tree/main/inference
-    notes: Repository provides sparse source code and some examples for inference.
+    notes: Outdated repository provides sparse source code and some examples for inference.
 
 # documentation:
 code:
@@ -63,12 +63,12 @@ code:
 
 hardware_architecture:
     class: partial
-    link:  https://arxiv.org/pdf/2412.19437
+    link:  https://arxiv.org/abs/2512.02556
     notes: Model architecture described in a fair bit of detail in technical report.
 
 preprint:
     class: open
-    link: https://arxiv.org/pdf/2412.19437
+    link: https://arxiv.org/abs/2512.02556
     notes: Corporate technical report provides info on infrastructure compute, performance, but nothing on pre- or post-training data.
 
 paper:
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/deepseek-ai/DeepSeek-V3-Base
+    link: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale
     notes: Model card on HF provides basic summary but no info on intended, scope, biases, risks and limitations.
 
 datasheet:
@@ -100,5 +100,5 @@ api:
 
 licenses:
     class: open
-    link: https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Base/blob/main/LICENSE
+    link: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale#license
     notes: MIT License, an OSI-approved license

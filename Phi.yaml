@@ -82,9 +82,9 @@ modelcard:
     notes: Model card provides required information.
 
 datasheet:
-    class: closed
-    link:
-    notes: No datasheet found.
+    class: partial
+    link: https://huggingface.co/microsoft/phi-4/blob/main/data_summary_card.md
+    notes: Limited data summary, disclosed according to the template put forward by the EU AI Act. 
 
 # access:
 package:

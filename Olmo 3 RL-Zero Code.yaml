@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Academic (Research institution)
+
+system:
+    name: Olmo 3 RL-Zero Code
+    link: https://huggingface.co/allenai/Olmo-3-7B-RL-Zero-Code
+    type: code
+    performanceclass: full
+    basemodelname: Olmo-3-1025-7B
+    endmodelname: Olmo-3-7B-RL-Zero-Code
+    endmodellicense: Apache-2.0
+    releasedate: 2025-11
+    notes: Experimental open code model for the scientific exploration of RLVR training, from the Olmo family.
+
+org:
+    name: Ai2
+    link: https://allenai.org
+    notes: Allen Institute for AI (non-profit research institute)
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/datasets/allenai/dolma3_mix-6T-1025
+    notes: Pretraining dataset published on HuggingFace.
+
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/allenai/Dolci-RL-Zero-Code-7B
+    notes: Dataset for end model published on HuggingFace.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/allenai/Olmo-3-1025-7B
+    notes: Base model available on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/allenai/Olmo-3-7B-RL-Zero-Code
+    notes: Model weights published on HuggingFace.
+
+trainingcode:
+    class: open
+    link: ["https://github.com/allenai/OLMo-core", "https://github.com/allenai/open-instruct"]
+    notes: Training code made available on GitHub, open-source projects.
+
+# documentation:
+code:
+    class: open
+    link: ["https://github.com/allenai/OLMo-core", "https://github.com/allenai/open-instruct"]
+    notes: Repositories are well-documented.
+
+hardware_architecture:
+    class: partial
+    link: https://www.datocms-assets.com/64837/1763662397-1763646865-olmo_3_technical_report-1.pdf
+    notes: Hardware architecture for base model described in preprint.
+
+preprint:
+    class: partial
+    link: https://www.datocms-assets.com/64837/1763662397-1763646865-olmo_3_technical_report-1.pdf
+    notes: Preprint made available on model creator's website.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/datasets/allenai/Dolci-RL-Zero-Code-7B
+    notes: Model card provides the requisite info.
+
+datasheet:
+    class: partial
+    link: ["https://huggingface.co/datasets/allenai/dolma3_mix-6T-1025", "https://huggingface.co/datasets/allenai/dolma3_mix-6T-1025"]
+    notes: Datasets well-documented, however information is not centralized on dataset page.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/allenai/Olmo-3-7B-RL-Zero-Code
+    notes: Apache-2.0, an OSI-approved license.

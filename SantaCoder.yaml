@@ -72,7 +72,7 @@ preprint:
     notes: Preprint made available on arXiv.
 
 paper:
-    class: closed
+    class: partial
     link: https://iclr.cc/virtual/2023/14995
     notes: Paper presented at ICLR 2023.
 
