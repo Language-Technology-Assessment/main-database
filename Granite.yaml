@@ -15,13 +15,13 @@
 
 system:
     name: Granite
-    link: https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
+    link: https://huggingface.co/ibm-granite/granite-4.0-h-small
     type: text
     performanceclass: full
-    basemodelname: Granite-3.3-8B-Base
-    endmodelname: Granite-3.3-8B-Instruct
+    basemodelname: Granite-4.0-H-Small-Base
+    endmodelname: Granite-4.0-H-Small
     endmodellicense: Apache-2.0
-    releasedate: 2025-05
+    releasedate: 2025-09
     notes: Text-based LLM by IBM.
 
 org:
@@ -42,12 +42,12 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/ibm-granite/granite-3.3-8b-base
+    link: https://huggingface.co/ibm-granite/granite-4.0-h-small-base
     notes: Weights made available through HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
+    link: https://huggingface.co/ibm-granite/granite-4.0-h-small
     notes: Weights made available through HuggingFace.
 
 trainingcode:
@@ -63,7 +63,7 @@ code:
 
 hardware_architecture:
     class: open
-    link: https://huggingface.co/ibm-granite/granite-3.3-8b-base
+    link: https://huggingface.co/ibm-granite/granite-4.0-h-small
     notes: Hardware architecture outlined in model card.
 
 preprint:
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
+    link: https://huggingface.co/ibm-granite/granite-4.0-h-small
     notes: Modelcard available on HuggingFace.
 
 datasheet:
@@ -89,7 +89,7 @@ datasheet:
 # access:
 package:
     class: open
-    link: https://ollama.com/library/granite3.2
+    link: https://ollama.com/library/granite4
     notes: Model available on Ollama.
 
 api:
@@ -100,5 +100,5 @@ api:
 
 licenses:
     class: open
-    link: https://huggingface.co/ibm-granite/granite-3.3-8b-instruct
+    link: https://huggingface.co/ibm-granite/granite-4.0-h-small
     notes: Apache-2.0, an OSI-approved license.
