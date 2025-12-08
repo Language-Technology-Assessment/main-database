@@ -15,11 +15,11 @@
 
 system:
     name: OLMo
-    link: https://huggingface.co/collections/allenai/olmo-2-674117b93ab84e98afc72edc
+    link: https://huggingface.co/allenai/Olmo-3-32B-Think
     type: text 
     performanceclass: full
-    basemodelname: OLMo-2-0325-32B
-    endmodelname: OLMo-2-0325-32B-Instruct
+    basemodelname: Olmo-3-1125-32B
+    endmodelname: Olmo-3-32B-Think
     endmodellicense: Apache-2.0
     releasedate: 2024-11
     notes: Open LLM trained from scratch by Allen AI.
@@ -32,58 +32,58 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link: ["https://huggingface.co/datasets/allenai/olmo-mix-1124", "https://huggingface.co/datasets/allenai/dolmino-mix-1124"]
+    link: ["https://huggingface.co/datasets/allenai/dolma3_mix-5.5T-1125", "https://huggingface.co/datasets/allenai/dolma3_longmino_mix-100B-1125", "https://huggingface.co/datasets/allenai/dolma3_dolmino_mix-100B-1125"]
     notes: Training data for base model released and use documented.
 
 datasources_endmodel:
     class: open
-    link: ["https://huggingface.co/datasets/allenai/tulu-3-sft-olmo-2-mixture", "https://huggingface.co/datasets/allenai/olmo-2-1124-13b-preference-mix", "https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints"]
+    link: ["https://huggingface.co/datasets/allenai/Dolci-Think-RL-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-RL-7B", "https://huggingface.co/datasets/allenai/Dolci-Think-DPO-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-DPO-7B", "huggingface.co/datasets/allenai/Dolci-Think-SFT-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-SFT-7B"]
     notes: Data for fine-tuning published in a well-organized manner.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/collections/allenai/olmo-2-674117b93ab84e98afc72edc
-    notes: Model weights available in many stages.
+    link: https://huggingface.co/allenai/Olmo-3-1125-32B
+    notes: Model weights made available on HuggingFace.
     
 weights_endmodel:
     class: open
-    link: https://huggingface.co/collections/allenai/olmo-2-674117b93ab84e98afc72edc
-    notes: Model weights available in many stages.
+    link: https://huggingface.co/allenai/Olmo-3-32B-Think
+    notes: Model weights made available on HuggingFace.
 
 trainingcode:
     class: open
-    link: https://github.com/allenai/OLMo
+    link: ["https://github.com/allenai/open-instruct", "https://github.com/allenai/OLMo-core"]
     notes: Multiple repos with training, architecture and fine-tuning code available.
 
 # documentation:
 code:
     class: open
-    link: https://github.com/allenai/OLMo
+    link: ["https://github.com/allenai/open-instruct", "https://github.com/allenai/OLMo-core"]
     notes: Repositories and code well-described, commented and documented.
 
 hardware_architecture:
     class: open
-    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct#model-sources
+    link: https://aclanthology.org/2024.acl-long.841/
     notes: Architecture documented in requisite detail.
 
 preprint:
     class: open
     link: https://arxiv.org/abs/2501.00656
-    notes: Pre-print goes into impressive detail about the data, training process, architecture, and evaluation.
+    notes: Pre-print goes into impressive detail about the data, training process, architecture, and evaluation. Preprint/paper for OLMo 3 forthcoming.
 
 paper:
     class: open
     link: https://aclanthology.org/2024.acl-long.841/
-    notes: 2024 ACL paper documents important parts of design, architecture, and processing pipelines.
+    notes: 2024 ACL paper documents important parts of design, architecture, and processing pipelines. Preprint/paper for OLMo 3 forthcoming.
 
 modelcard:
     class: open
-    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct
+    link: https://huggingface.co/allenai/Olmo-3-32B-Think
     notes: Model card provides broad overview and links to full details.
 
 datasheet:
     class: open
-    link: ["https://huggingface.co/datasets/allenai/tulu-3-sft-olmo-2-mixture", "https://huggingface.co/datasets/allenai/olmo-2-1124-13b-preference-mix", "https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints"]
+    link: ["https://huggingface.co/datasets/allenai/dolma3_mix-5.5T-1125", "https://huggingface.co/datasets/allenai/dolma3_longmino_mix-100B-1125", "https://huggingface.co/datasets/allenai/dolma3_dolmino_mix-100B-1125","https://huggingface.co/datasets/allenai/Dolci-Think-RL-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-RL-7B", "https://huggingface.co/datasets/allenai/Dolci-Think-DPO-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-DPO-7B", "huggingface.co/datasets/allenai/Dolci-Think-SFT-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-SFT-7B"]
     notes: Data sheets are well-documented and provide requisite info.
 
 # access:
@@ -94,11 +94,11 @@ package:
 
 api:
     class: partial
-    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct
-    notes: Available through HuggingFace though model does not run on free inference API. Inference endpoints are available.
+    link: https://huggingface.co/allenai/Olmo-3-32B-Think
+    notes: Available through HuggingFace. Inference endpoints are available.
     metaprompt: closed
 
 licenses:
     class: open
-    link: https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct#license-and-use
+    link: https://huggingface.co/allenai/Olmo-3-32B-Think#model-description
     notes: Apache 2.0, an OSI-approved license.
