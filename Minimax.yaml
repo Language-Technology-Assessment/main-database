@@ -14,14 +14,14 @@
 # - Contributor type: Non-academic (Chinese AI Tiger)
 
 system:
-    name: Minimax-M1
-    link: https://huggingface.co/MiniMaxAI/MiniMax-M1-80k
+    name: Minimax-M2
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M2
     type: text
     performanceclass: latest
-    basemodelname: MiniMax-Text-01
-    endmodelname: MiniMax-M1-80k
-    endmodellicense: Apache-2.0
-    releasedate: 2025-06
+    basemodelname: MiniMax-Text-01?
+    endmodelname: MiniMax-M2
+    endmodellicense: Modified MIT
+    releasedate: 2025-10
     notes: SOTA model by Minimax
 
 org:
@@ -47,12 +47,12 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/MiniMaxAI/MiniMax-M1-80k
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M2
     notes: Model weights released on HuggingFace.
 
 trainingcode:
     class: closed
-    link: https://github.com/MiniMax-AI/MiniMax-M1
+    link: https://github.com/MiniMax-AI/MiniMax-M2
     notes: Repo exists, however does not contain training code.
 
 # documentation:
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: closed
-    link: https://huggingface.co/MiniMaxAI/MiniMax-M1-80k
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M2
     notes: Model primarily contains inference information.
 
 datasheet:
@@ -99,6 +99,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: open
-    link: https://huggingface.co/MiniMaxAI/MiniMax-M1-80k
-    notes: Apache-2.0, an OSI-approved license.
+    class: closed
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M2
+    notes: Modified MIT, not an OSI-approved license.
