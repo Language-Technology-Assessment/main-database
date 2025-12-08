@@ -68,8 +68,8 @@ hardware_architecture:
 
 preprint:
     class: closed
-    link: 
-    notes: 
+    link: https://www.snowflake.com/en/blog/arctic-open-efficient-foundation-language-models-snowflake/
+    notes: Release-by-blogpost.
 
 paper:
     class: closed
