@@ -77,7 +77,7 @@ paper:
     notes: No peer-reviewed paper found.
 
 modelcard:
-    class: full
+    class: open
     link: https://huggingface.co/HuggingFaceTB/SmolLM3-3B
     notes: Model card provides the requisite information.
 
