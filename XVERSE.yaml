@@ -62,9 +62,9 @@ code:
     notes: No documentation available.
 
 hardware_architecture:
-    class: open
-    link: "https://arxiv.org/pdf/2405.20335"
-    notes: Architecture is fully outlined in the preprint.
+    class: closed
+    link: 
+    notes: No architecture information available.
 
 preprint:
     class: closed
