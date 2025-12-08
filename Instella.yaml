@@ -63,13 +63,13 @@ code:
 
 hardware_architecture:
     class: open
-    link: https://rocm.blogs.amd.com/artificial-intelligence/introducing-instella-3B/README.html
+    link: https://arxiv.org/pdf/2511.10628
     notes: Hardware architecture outlined in blog post.
 
 preprint:
-    class: closed
-    link: https://rocm.blogs.amd.com/artificial-intelligence/introducing-instella-3B/README.html
-    notes: Model only publicized through blog post.
+    class: open
+    link: https://arxiv.org/pdf/2511.10628
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed
