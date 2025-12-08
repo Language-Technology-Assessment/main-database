@@ -72,9 +72,9 @@ preprint:
     notes: Preprint published in arXiv.
 
 paper:
-    class: closed
-    link: 
-    notes: No peer-reviewed paper found.
+    class: open
+    link: https://ieeexplore.ieee.org/document/10656452
+    notes: Paper published in IEEE CVPR.
 
 modelcard:
     class: partial
