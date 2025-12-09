@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: International
+# - Contributor type: Non-academic (Company)
+
+system:
+    name: Reka Flash
+    link: https://huggingface.co/RekaAI/reka-flash-3.1
+    type: text
+    performanceclass: full
+    basemodelname: unknown
+    endmodelname: Reka Flash 3.1
+    endmodellicense: Apache-2.0
+    releasedate: 2025-05
+    notes: Only end model released.
+
+org:
+    name: Reka AI
+    link: https://reka.ai/
+    notes: AI model builder.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: No data sources found.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: No data sources found.
+
+weights_basemodel:
+    class: open
+    link: 
+    notes: No base model weights found.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/RekaAI/reka-flash-3.1/tree/main
+    notes: End model weights published on HuggingFace.
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No training code found.
+
+# documentation:
+code:
+    class: closed
+    link:  
+    notes: No code, so no documentation.
+
+hardware_architecture:
+    class: closed
+    link:  
+    notes: No description of hardware architecture found.
+
+preprint:
+    class: closed
+    link: https://reka.ai/news/reinforcement-learning-for-reka-flash-3-1
+    notes: Release-by-blogpost.
+
+paper:
+    class: closed
+    link: 
+    notes: No paper found.
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/RekaAI/reka-flash-3.1
+    notes: Model card contains sparse information.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: https://app.reka.ai/chat
+    notes: Only playground available.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/RekaAI/reka-flash-3.1
+    notes: Apache-2.0, an OSI-approved license.
