@@ -37,7 +37,7 @@ datasources_basemodel:
 
 datasources_endmodel:
     class: open
-    link: ["https://huggingface.co/datasets/allenai/Dolci-Think-RL-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-RL-7B", "https://huggingface.co/datasets/allenai/Dolci-Think-DPO-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-DPO-7B", "huggingface.co/datasets/allenai/Dolci-Think-SFT-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-SFT-7B"]
+    link: ["https://huggingface.co/datasets/allenai/Dolci-Think-RL-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-RL-7B", "https://huggingface.co/datasets/allenai/Dolci-Think-DPO-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-DPO-7B", "https://huggingface.co/datasets/allenai/Dolci-Think-SFT-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-SFT-7B"]
     notes: Data for fine-tuning published in a well-organized manner.
 
 weights_basemodel:
