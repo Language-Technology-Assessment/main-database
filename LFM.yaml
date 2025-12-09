@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
+system:
+    name: LFM2
+    link: https://huggingface.co/ibm-granite/granite-4.0-h-small
+    type: text
+    performanceclass: full
+    basemodelname: unknown
+    endmodelname: LFM2-8B-A1B
+    endmodellicense: LFM Open License v1.0 
+    releasedate: 2025-10
+    notes: Hybrid model for edge and on-device deployment.
+
+org:
+    name: Liquid AI
+    link: https://www.liquid.ai/
+    notes: AI startup.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: No base model data sources found.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: No end model data sources found.
+
+weights_basemodel:
+    class: closed
+    link: 
+    notes: No base model weights published.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/LiquidAI/LFM2-8B-A1B
+    notes: End model weights published on HuggingFace.
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No training code found.
+
+# documentation:
+code:
+    class: closed
+    link:  
+    notes: No code, so no documentation.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2511.23404
+    notes: Hardware architecture outlined in preprint.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2511.23404
+    notes: Preprint published on arXiv.
+
+paper:
+    class: closed
+    link: 
+    notes: Paper listed as forthcoming.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/LiquidAI/LFM2-8B-A1B
+    notes: Modelcard contains information about hardware architecture and training approach, but none about data sources and downstream risks.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: https://playground.liquid.ai/login?callbackUrl=%2F
+    notes: Demo available. No API found.
+    metaprompt: closed
+
+licenses:
+    class: closed
+    link: https://huggingface.co/LiquidAI/LFM2-8B-A1B/blob/main/LICENSE
+    notes: LFM Open License v1.0, not an OSI-approved license.
