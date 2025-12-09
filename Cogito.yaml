@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
+system:
+    name: Cogito
+    link: https://huggingface.co/deepcogito/cogito-671b-v2.1
+    type: text
+    performanceclass: latest
+    basemodelname: DeepSeek-V3-Base
+    endmodelname: Cogito v2.1 671B MoE 
+    endmodellicense: MIT License
+    releasedate: 2025-10
+    notes: Open-weight LLM post-trained on 'the open-licensed Deepseek base model from November 2024'.
+
+org:
+    name: DeepCogito
+    link: https://www.deepcogito.com/
+    notes: Snowflake, an AI platform provider.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: Pretraining data not specified or documented besides the claim that it amounts to 14.8T tokens in Chinese and English. Proprietary dataset.
+
+datasources_endmodel:
+    class: closed
+    link: 
+    notes: No end model data sources found.
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/deepseek-ai/DeepSeek-V3-Base
+    notes: Base model weights made available on HuggingFace.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/deepcogito/cogito-671b-v2.1
+    notes: End model weights made available on HuggingFace.
+
+trainingcode:
+    class: closed
+    link: https://github.com/DeepCogito/cogito-v2
+    notes: Repo exists, but contains no training code.
+
+# documentation:
+code:
+    class: closed
+    link: 
+    notes: No code, so no documentation.
+
+hardware_architecture:
+    class: closed
+    link:  
+    notes: No information about hardware architecture found.
+
+preprint:
+    class: closed
+    link: https://www.deepcogito.com/research/cogito-v2-1
+    notes: Release-by-blogpost.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/deepcogito/cogito-671b-v2.1
+    notes: Model card contains primarily usage information.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: 
+    notes: MIT License, an OSI-approved license.
