@@ -1,0 +1,105 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: China
+# - Contributor type: Non-academic (Chinese Big Tech)
+
+system:
+    name: Ling
+    link: https://huggingface.co/inclusionAI/Ling-1T
+    type: text 
+    performanceclass: latest
+    basemodelname: Ling-1T
+    endmodelname: Ring-1T
+    endmodellicense: MIT License
+    releasedate: 2025-10
+    notes: Reasoning model with claims of comparable performance to DeepSeek-R1.
+
+org:
+    name: Inclusion AI
+    link: https://github.com/inclusionAI
+    notes: Inclusion AI, an organization within the Ant Group, an affiliate company of the Chinese multinational technology company Alibaba.
+
+# availability:
+datasources_basemodel:
+    class: closed
+    link: 
+    notes: Pretraining datasets not disclosed.
+
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/inclusionAI/datasets
+    notes: Finetuning datasets published on HuggingFace.
+
+weights_basemodel:
+    class: closed
+    link: 
+    notes: No base model made available.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/inclusionAI/Ring-1T
+    notes: Model weights made available on HuggingFace.
+
+trainingcode:
+    class: open
+    link: ["https://github.com/inclusionAI/Ling-V2", "https://github.com/inclusionAI/Ring-V2"]
+    notes: Training code made available on GitHub.
+
+# documentation:
+code:
+    class: open
+    link: ["https://github.com/inclusionAI/Ling-V2", "https://github.com/inclusionAI/Ring-V2"]
+    notes: Repository is well-documented.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2510.22115
+    notes: Hardware architecture outlined in preprint.
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2510.22115
+    notes: Preprint published on arXiv.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/inclusionAI/Ring-1T
+    notes: Model card contains some useful info.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: partial
+    link: https://huggingface.co/inclusionAI/Ling-1T
+    notes: Inference provider through HuggingFace.
+    metaprompt: closed
+
+licenses:
+    class: open
+    link: https://huggingface.co/inclusionAI/Ling-1T#license
+    notes: Model released under MIT license, an OSI-approved license.
+
