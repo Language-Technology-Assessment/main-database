@@ -83,7 +83,7 @@ modelcard:
 
 datasheet:
     class: open
-    link: ["https://huggingface.co/datasets/allenai/dolma3_mix-5.5T-1125", "https://huggingface.co/datasets/allenai/dolma3_longmino_mix-100B-1125", "https://huggingface.co/datasets/allenai/dolma3_dolmino_mix-100B-1125","https://huggingface.co/datasets/allenai/Dolci-Think-RL-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-RL-7B", "https://huggingface.co/datasets/allenai/Dolci-Think-DPO-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-DPO-7B", "huggingface.co/datasets/allenai/Dolci-Think-SFT-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-SFT-7B"]
+    link: ["https://huggingface.co/datasets/allenai/dolma3_mix-5.5T-1125", "https://huggingface.co/datasets/allenai/dolma3_longmino_mix-100B-1125", "https://huggingface.co/datasets/allenai/dolma3_dolmino_mix-100B-1125","https://huggingface.co/datasets/allenai/Dolci-Think-RL-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-RL-7B", "https://huggingface.co/datasets/allenai/Dolci-Think-DPO-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-DPO-7B", "https://huggingface.co/datasets/allenai/Dolci-Think-SFT-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-SFT-7B"]
     notes: Data sheets are well-documented and provide requisite info.
 
 # access:
