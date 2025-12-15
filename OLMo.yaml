@@ -68,13 +68,13 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: https://arxiv.org/abs/2501.00656
-    notes: Pre-print goes into impressive detail about the data, training process, architecture, and evaluation. Preprint/paper for OLMo 3 forthcoming.
+    link: https://www.datocms-assets.com/64837/1765558567-olmo_3_technical_report-4.pdf
+    notes: Pre-print goes into impressive detail about the data, training process, architecture, and evaluation.
 
 paper:
     class: open
-    link: https://aclanthology.org/2024.acl-long.841/
-    notes: 2024 ACL paper documents important parts of design, architecture, and processing pipelines. Preprint/paper for OLMo 3 forthcoming.
+    link: https://openreview.net/forum?id=2ezugTT9kU#discussion
+    notes: Conference paper published in COLM 2025.
 
 modelcard:
     class: open
