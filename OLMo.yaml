@@ -72,9 +72,9 @@ preprint:
     notes: Pre-print goes into impressive detail about the data, training process, architecture, and evaluation.
 
 paper:
-    class: open
+    class: partial
     link: https://openreview.net/forum?id=2ezugTT9kU#discussion
-    notes: Conference paper published in COLM 2025.
+    notes: Conference paper published in COLM 2025. More under review?
 
 modelcard:
     class: open
