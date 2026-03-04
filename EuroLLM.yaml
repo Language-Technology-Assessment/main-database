@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: International
+# - Contributor type: Academic (Research community)
+
+system:
+    name: EuroLLM
+    link: https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512
+    type: text
+    performanceclass: full
+    basemodelname: EuroLLM-22B-2512
+    endmodelname: EuroLLM-22B-Instruct-2512
+    endmodellicense: Apache-2.0
+    releasedate: 2025-12
+    notes: Highly multilingual LLM funded by the European Union.
+
+org:
+    name: UTTER
+    link: https://he-utter.eu/
+    notes: Collaborative Research and Innovation Project funded under Horizon Europe.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://arxiv.org/pdf/2602.05879
+    notes: Pretraining datasets described with versions in the technical report.
+    
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/utter-project/EuroBlocks-SFT-2512
+    notes: Supervised fine-tuning dataset published on HuggingFace.
+    
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/utter-project/EuroLLM-22B-2512
+    notes: Base model published on HuggingFace with an open license.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512
+    notes: End model published on HuggingFace with an open license.
+
+trainingcode:
+    class: open
+    link: https://github.com/axolotl-ai-cloud/axolotl
+    notes: Training makes use of a public framework.
+
+# documentation:
+code:
+    class: open
+    link: https://github.com/axolotl-ai-cloud/axolotl
+    notes: Framework is well-documented.
+
+hardware_architecture:
+    class: open
+    link: https://arxiv.org/pdf/2602.05879
+    notes: Preprint shows architecture, providing details about design decisions and hyperparameters. 
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2602.05879
+    notes: Preprint published on arXiv.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed version of preprint found.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512
+    notes: Model card contains the requisite information.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link:
+    notes: No API found.
+    metaprompts:
+
+licenses:
+    class: open
+    link:
+    notes: Apache 2.0, an OSI-approved license.
