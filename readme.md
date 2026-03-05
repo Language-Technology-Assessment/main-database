@@ -151,7 +151,7 @@ Is a model card available in standardized format that provides comprehensive ins
 
 **Datasheet**
 
-Is a datasheet as defined in "Datasheets for Datasets" (Gebru et al. 2021) available?
+Is a datasheet as defined in "Datasheets for Datasets" (Gebru et al. 2021), or a training data summary as required by the EU AI Act Article 53 (1)(d), available?
 
     🟥 Datasheet(s) are not available.
     
