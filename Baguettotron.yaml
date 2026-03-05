@@ -1,0 +1,104 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: France
+# - Contributor type: Non-academic (Research lab)
+
+system:
+    name: Baguettotron
+    link: https://huggingface.co/PleIAs/Baguettotron
+    type: text
+    performanceclass: limited
+    basemodelname: Baguettotron
+    endmodelname: Baguettotron
+    endmodellicense: Apache-2.0
+    releasedate: 2025-11
+    notes: Small reasoning model with 321 million parameters.
+
+org:
+    name: PleIAs
+    link: https://huggingface.co/PleIAs
+    notes: French private AI lab.
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: https://huggingface.co/datasets/PleIAs/SYNTH
+    notes: Data source linked on model card.
+    
+datasources_endmodel:
+    class: open
+    link: https://huggingface.co/datasets/PleIAs/SYNTH
+    notes: Data source linked on model card.
+    
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/PleIAs/Baguettotron
+    notes: Model weights available via Huggingface repository.
+
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/PleIAs/Baguettotron
+    notes: Model weights available via Huggingface repository.
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No repository containing training code found.
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: No training code, so no documentation.
+
+hardware_architecture:
+    class: closed
+    link: 
+    notes: No information on hyperparameters found.
+
+preprint:
+    class: closed
+    link: https://pleias.fr/blog/blogsynth-the-new-data-frontier
+    notes: Release-by-blogpost.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/PleIAs/Baguettotron
+    notes: Model card contains the requisite information.
+
+datasheet:
+    class: open
+    link: https://huggingface.co/datasets/PleIAs/SYNTH
+    notes: Dataset contains detailed information.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No package found.
+
+api:
+    class: closed
+    link: 
+    notes: No API found.
+    metaprompts:
+
+licenses:
+    class: open
+    link: https://huggingface.co/PleIAs/Baguettotron
+    notes: Apache-2.0, an OSI-approved license.
