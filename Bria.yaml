@@ -82,9 +82,9 @@ modelcard:
     notes: Model card primarily contains usage information.
 
 datasheet:
-    class: closed
-    link:
-    notes: No datasheet found.
+    class: open
+    link: https://drive.google.com/file/d/13BhHQhd7vcDArPmpBrl_b2FpdBqkYU4n/view
+    notes: Article 53 (1)(d) training data summary found.
 
 # access:
 package:
