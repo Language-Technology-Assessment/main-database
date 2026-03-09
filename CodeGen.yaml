@@ -99,6 +99,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: partial
+    class: open
     link: 
-    notes: weights under apache 2
+    notes: Apache-2.0, an OSI-approved license.
