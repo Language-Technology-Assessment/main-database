@@ -72,9 +72,9 @@ preprint:
     notes: Paper provides information about techniques used for constructing model, but nothing on pre- or post-training data.
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper found.
+    class: open
+    link: https://www.nature.com/articles/s41586-025-09422-z
+    notes: Peer-reviewed article found.
 
 modelcard:
     class: partial
