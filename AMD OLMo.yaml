@@ -14,7 +14,7 @@
 # - Contributor type: Non-academic (Company)
 
 system:
-    name: AMD Llama Code
+    name: AMD OLMo
     link: https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO
     type: code
     performanceclass: limited
