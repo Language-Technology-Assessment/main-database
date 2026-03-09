@@ -31,12 +31,12 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: partial
+    class: open
     link: https://huggingface.co/m-a-p/CT-LLM-Base
-    notes: some datasets listed 
+    notes: Model card lists datasets. 
 
 datasources_endmodel:
-    class: partial
+    class: open
     link: https://huggingface.co/m-a-p/CT-LLM-SFT-DPO
     notes: list of datasets provided 
 
@@ -47,7 +47,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://arxiv.org/abs/2404.04167
+    link: https://huggingface.co/m-a-p/CT-LLM-SFT-DPO
     notes: 
 
 trainingcode:
@@ -72,9 +72,9 @@ preprint:
     notes: 
 
 paper:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://openreview.net/forum?id=RCdoMrg4I0
+    notes: Paper accepted at COLM.
 
 modelcard:
     class: open
@@ -99,6 +99,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: closed
+    class: open
     link: 
     notes: weights as apache2
