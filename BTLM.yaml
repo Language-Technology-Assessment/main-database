@@ -62,14 +62,14 @@ code:
     notes: 
 
 hardware_architecture:
-    class: partial
-    link:  https://huggingface.co/cerebras/btlm-3b-8k-chat
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2309.11568
+    notes: Hardware architecture outlined in preprint
 
 preprint:
-    class: closed
-    link: 
-    notes: 
+    class: open
+    link: https://arxiv.org/pdf/2309.11568
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed
