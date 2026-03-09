@@ -72,8 +72,8 @@ preprint:
     notes: Preprint published on arXiv.
 
 paper:
-    class: closed
-    link: 
+    class: partial
+    link: https://cvpr.thecvf.com/Conferences/2024/AcceptedPapers
     notes: No peer-reviewed paper found.
 
 modelcard:
