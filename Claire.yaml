@@ -99,6 +99,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: partial
+    class: open
     link: 
     notes: "cc-by-nc-sa-4.0"
