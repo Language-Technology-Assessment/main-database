@@ -10,21 +10,21 @@
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
 system:
-    name: Kimi K2
-    link: https://moonshotai.github.io/Kimi-K2/
+    name: Kimi K2.5
+    link: https://huggingface.co/moonshotai/Kimi-K2.5
     type: text
     performanceclass: latest
-    basemodelname: Kimi K2 Base
-    endmodelname: Kimi K2 Thinking
+    basemodelname: 
+    endmodelname: Kimi K2.5
     endmodellicense: Modified MIT License
-    releasedate: 2025-11
+    releasedate: 2026-01
     notes: MoE model optimised for Agentic Tasks
 
 
 org:
     name: Moonshot AI 
     link: https://www.moonshot.cn/
-    notes:
+    notes: Chinese AI Tiger.
 
 
 # availability:
@@ -39,35 +39,35 @@ datasources_endmodel:
     notes:
     
 weights_basemodel:
-    class: open
-    link: https://huggingface.co/moonshotai/Kimi-K2-Base/tree/main
-    notes:
+    class: closed
+    link: 
+    notes: No base model weights found.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/moonshotai/Kimi-K2-Thinking
-    notes:
+    link: https://huggingface.co/moonshotai/Kimi-K2.5
+    notes: Weights made available on HuggingFace.
 
 trainingcode:
-    class: partial
-    link: https://github.com/MoonshotAI/Kimi-K2
-    notes: GitHub repository provides code of some aspects of their training process, such as the custom MuonClip optimizer but not the entire pipeline 
+    class: closed
+    link: https://github.com/MoonshotAI/Kimi-K2.5
+    notes: GitHub repository does not contain code.
   
 
 # documentation:
 code:
     class: closed
     link:
-    notes:
+    notes: No code, so no documentation.
 
 hardware_architecture:
     class: open
-    link: https://github.com/MoonshotAI/Kimi-K2
-    notes:
+    link: https://arxiv.org/pdf/2602.02276
+    notes: Information about hardware architecture provided to the requisite extent.
 
 preprint:
     class: open
-    link: https://arxiv.org/pdf/2507.20534v1
+    link: https://arxiv.org/pdf/2602.02276
     notes: Preprint published on arXiv.
 
 paper:
@@ -77,8 +77,8 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/moonshotai/Kimi-K2-Thinking
-    notes:
+    link: https://huggingface.co/moonshotai/Kimi-K2.5
+    notes: 
 
 datasheet:
     class: closed
@@ -100,6 +100,6 @@ api:
 
 licenses:
     class: partial 
-    link: https://github.com/MoonshotAI/Kimi-K2/blob/main/LICENSE
+    link: https://huggingface.co/moonshotai/Kimi-K2.5/blob/main/LICENSE
     notes: Modified MIT license
 
