@@ -15,13 +15,13 @@
 
 system:
     name: Jais
-    link: https://huggingface.co/inceptionai/jais-adapted-70b-chat
+    link: https://huggingface.co/inceptionai/Jais-2-70B-Chat
     type: text
     performanceclass: full
-    basemodelname: Llama-2-70B
-    endmodelname: Jais-Adapted-70B-Chat
+    basemodelname: 
+    endmodelname: Jais-2-70B-Chat
     endmodellicense: Apache-2.0
-    releasedate: 2024-10
+    releasedate: 2025-12
     notes: Bilingual English-Arabic LLM.
 
 org:
@@ -32,23 +32,23 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
-    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+    link: 
+    notes: No data sources found.
 
 datasources_endmodel:
     class: closed
     link: 
-    notes: 
+    notes: No data sources found.
 
 weights_basemodel:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
-
-weights_endmodel:
     class: closed
     link: 
-    notes: behind consent form
+    notes: No information about base model found.
+
+weights_endmodel:
+    class: partial
+    link: https://huggingface.co/inceptionai/Jais-2-70B-Chat
+    notes: Gated model published on HuggingFace.
 
 trainingcode:
     class: closed
@@ -63,12 +63,12 @@ code:
 
 hardware_architecture:
     class: partial
-    link: "https://huggingface.co/inceptionai/jais-adapted-70b-chat"
+    link: "https://huggingface.co/inceptionai/Jais-2-70B-Chat"
     notes: Hardware architecture described at a high level on model card.
 
 preprint:
-    class: open
-    link: https://arxiv.org/abs/2308.16149
+    class: closed
+    link: 
     notes: 
 
 paper:
@@ -78,8 +78,8 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/inceptionai/jais-adapted-70b-chat
-    notes: 
+    link: https://huggingface.co/inceptionai/Jais-2-70B-Chat
+    notes: Model card published on HuggingFace.
 
 datasheet:
     class: closed
@@ -99,6 +99,6 @@ api:
     metaprompt: closed
 
 licenses:
-    class: partial
+    class: open
     link: 
-    notes: weights under apache 2
+    notes: Weights published under Apache-2.0.
