@@ -64,7 +64,7 @@ code:
 hardware_architecture:
     class: open
     link: https://arxiv.org/pdf/2511.10628
-    notes: Hardware architecture outlined in blog post.
+    notes: Hardware architecture outlined in preprint.
 
 preprint:
     class: open
