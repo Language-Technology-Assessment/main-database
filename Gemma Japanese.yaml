@@ -42,7 +42,7 @@ datasources_endmodel:
 
 weights_basemodel:
     class: partial
-    link: 
+    link: https://huggingface.co/google/gemma-2-2b-it
     notes: behind consent form
 
 weights_endmodel:
@@ -95,7 +95,7 @@ package:
 api:
     class: open
     link: https://huggingface.co/google/gemma-2-2b-jpn-it
-    notes: Modedl available through inference API.
+    notes: Model available through inference API.
     metaprompt: closed
 
 licenses:
