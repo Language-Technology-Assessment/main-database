@@ -67,9 +67,9 @@ hardware_architecture:
     notes: Some information on architecture provided in github repo and HF model card. Training was done using alignment handbook.
 
 preprint:
-    class: partial
+    class: open
     link: https://arxiv.org/abs/2312.12852v1
-    notes: Preprint documents Dutch language resources but architecture and scientific documentation otherwise lacking due to Mistral base
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed
