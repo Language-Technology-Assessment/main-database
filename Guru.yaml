@@ -74,9 +74,9 @@ preprint:
     notes: Preprints published on arXiv.
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper found.
+    class: open
+    link: https://openreview.net/forum?id=xUBgfvyip3
+    notes: Peer-reviewed paper submitted to NeurIPS.
 
 modelcard:
     class: closed
