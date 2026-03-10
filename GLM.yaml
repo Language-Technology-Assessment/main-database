@@ -67,9 +67,9 @@ hardware_architecture:
     notes: No hardware architecture information found.
 
 preprint:
-    class: closed
-    link: 
-    notes: Technical report mentioned as forthcoming.
+    class: open
+    link: https://arxiv.org/abs/2602.15763
+    notes: Technical report published on arXiv.
 
 paper:
     class: closed
