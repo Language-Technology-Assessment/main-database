@@ -99,6 +99,6 @@ api:
     metaprompts:
 
 licenses:
-    class: partial
+    class: open
     link:
     notes: "weights as CC-BY-NC-4.0"
