@@ -72,9 +72,9 @@ preprint:
     notes: Model published on arXiv.
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper found.
+    class: partial
+    link: https://neurips.cc/virtual/2025/loc/san-diego/129287
+    notes: Published as poster in NeurIPS.
 
 modelcard:
     class: open
