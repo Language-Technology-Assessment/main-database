@@ -72,9 +72,9 @@ preprint:
     notes: Preprint made available on arXiv.
 
 paper:
-    class: open
-    link: https://openreview.net/forum?id=xviitwRwwD
-    notes: Paper submitted to CoRR 2024.
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
 
 modelcard:
     class: partial
