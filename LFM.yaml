@@ -15,14 +15,14 @@
 
 system:
     name: LFM2
-    link: https://huggingface.co/ibm-granite/granite-4.0-h-small
+    link: https://huggingface.co/LiquidAI/LFM2-24B-A2B
     type: text
     performanceclass: full
     basemodelname: unknown
-    endmodelname: LFM2-8B-A1B
+    endmodelname: LFM2-24B-A2B
     endmodellicense: LFM Open License v1.0 
-    releasedate: 2025-10
-    notes: Hybrid model for edge and on-device deployment.
+    releasedate: 2026-02
+    notes: Hybrid model for on-device deployment.
 
 org:
     name: Liquid AI
@@ -47,7 +47,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/LiquidAI/LFM2-8B-A1B
+    link: https://huggingface.co/LiquidAI/LFM2-24B-A2B
     notes: End model weights published on HuggingFace.
 
 trainingcode:
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/LiquidAI/LFM2-8B-A1B
+    link: https://huggingface.co/LiquidAI/LFM2-24B-A2B
     notes: Modelcard contains information about hardware architecture and training approach, but none about data sources and downstream risks.
 
 datasheet:
@@ -100,5 +100,5 @@ api:
 
 licenses:
     class: closed
-    link: https://huggingface.co/LiquidAI/LFM2-8B-A1B/blob/main/LICENSE
+    link: https://huggingface.co/LiquidAI/LFM2-24B-A2B/blob/main/LICENSE
     notes: LFM Open License v1.0, not an OSI-approved license.
