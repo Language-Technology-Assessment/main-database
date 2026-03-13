@@ -86,7 +86,7 @@ datasheet:
     link: https://arxiv.org/pdf/2210.08402
     notes: Data collection procedures for LAION are outlined in a corresponding paper.
 
-# access:    metaprompts:
+# access:
 
 licenses:
     class: closed

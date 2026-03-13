@@ -87,7 +87,7 @@ datasheet:
     notes: A formal datasheet has not been provided for SDXL-Lightning
 
 # access:
-    metaprompts: 
+ 
 
 licenses:
     class: closed
