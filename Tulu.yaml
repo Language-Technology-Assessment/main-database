@@ -87,17 +87,6 @@ datasheet:
     notes: Some datasheets available (for instruction tuning), but base model entirely undocumented.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/tulu3
-    notes: Model available on Ollama.
-
-api:
-    class: open
-    link: https://playground.allenai.org/
-    notes: Available via various APIs.
-    metaprompt: closed
-
 licenses:
     class: closed
     link: https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B-DPO#model-description

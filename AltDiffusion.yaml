@@ -87,17 +87,6 @@ datasheet:
     notes: Data collection procedures for LAION are outlined in a corresponding paper. The WuDao dataset is only sparsely documented, primarily in Chinese.
 
 # access:
-package:
-    class: closed
-    link:
-    notes: No package found. Model available through diffusers.
-
-api:
-    class: closed
-    link: https://huggingface.co/spaces/BAAI/AltDiffusion
-    notes: HuggingFace space exists, however displays a runtime error.
-    metaprompts:
-
 licenses:
     class: closed
     link: https://huggingface.co/BAAI/AltDiffusion#%E8%AE%B8%E5%8F%AFlicense

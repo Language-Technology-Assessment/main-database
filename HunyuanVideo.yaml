@@ -86,17 +86,7 @@ datasheet:
     link:
     notes: No datasheet found.
 
-# access:
-package:
-    class: open
-    link: https://github.com/kijai/ComfyUI-HunyuanVideoWrapper
-    notes: ComfyUI workflow available.
-
-api:
-    class: closed
-    link: https://hunyuan.tencent.com/modelSquare/home/play
-    notes: Web demo available, no API found.
-    metaprompts:
+# access:    metaprompts:
 
 licenses:
     class: closed

@@ -87,17 +87,6 @@ datasheet:
     notes: Data sheets are well-documented and provide requisite info.
 
 # access:
-package:
-    class: open
-    link: https://huggingface.co/models?search=apertus%20mlx 
-    notes: Model is available on LM Studio, MLX (also in quantized versions), vLLM, SGLang.
-
-api:
-    class: open
-    link: https://publicai.co/
-    notes: Available through Hugging Face, though AWS, Azure and other providers, and though a free endpoint (chat and API) at publicai.co
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509/blob/main/LICENSE.txt

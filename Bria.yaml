@@ -87,17 +87,6 @@ datasheet:
     notes: Article 53 (1)(d) training data summary found.
 
 # access:
-package:
-    class: open
-    link: https://github.com/Bria-AI/ComfyUI-BRIA-API
-    notes: ComfyUI workflow available.
-
-api:
-    class: open
-    link: https://docs.bria.ai/image-generation/endpoints/text-to-image-base
-    notes: API available.
-    metaprompts:
-
 licenses:
     class: open
     link: https://huggingface.co/briaai/BRIA-3.2

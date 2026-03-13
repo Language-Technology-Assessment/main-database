@@ -87,17 +87,6 @@ datasheet:
     notes: Dataset card is available, but provides no information about data collection and curation. The preprint outlines data collection (based on a 52K instruction dataset from Alpaca) and curation at a high level.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/wizardlm2
-    notes: Model available on Ollama.
-
-api:
-    class: closed
-    link:
-    notes: No API available
-    metaprompt: closed
-
 licenses:
     class: partial
     link: https://github.com/nlpxucan/WizardLM/blob/main/WizardLM/MODEL_DIFF_LICENSE

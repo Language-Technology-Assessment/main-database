@@ -87,17 +87,6 @@ datasheet:
     notes: Almost all datasets outlined in detail, however some data not shared.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: 
-
-api:
-    class: closed
-    link: 
-    notes: 
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-v1.1

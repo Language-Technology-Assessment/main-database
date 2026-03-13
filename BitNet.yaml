@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet found.
 
 # access
-package:
-    class: closed
-    link:
-    notes: No package found.
-
-api:
-    class: closed
-    link: https://bitnet-demo.azurewebsites.net/
-    notes: Demo available. No API found.
-    metaprompt: closed
-    
 licenses:
     class: open
     link: https://huggingface.co/microsoft/bitnet-b1.58-2B-4T/blob/main/LICENSE

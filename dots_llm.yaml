@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: No package found.
-
-api:
-    class: open
-    link: https://huggingface.co/spaces/rednote-hilab/dots-demo
-    notes: Model available through HuggingFace space.
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/rednote-hilab/dots.llm1.inst/blob/main/LICENSE

@@ -87,17 +87,6 @@ datasheet:
     notes: No data published, so no data sheet.
 
 # access:
-package:
-    class: closed
-    link:
-    notes: No package found.
-
-api:
-    class: open
-    link: https://huggingface.co/prompthero/openjourney-v4
-    notes: Inference API available through HuggingFace.
-    metaprompts:
-
 licenses:
     class: closed
     link: https://huggingface.co/prompthero/openjourney-v4

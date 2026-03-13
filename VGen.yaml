@@ -84,17 +84,6 @@ datasheet:
     notes:
 
 # access:
-package:
-    class: partial
-    link: https://huggingface.co/ali-vilab/i2vgen-xl
-    notes: Included in other library (diffusers)
-
-api:
-    class: open
-    link: https://replicate.com/ali-vilab/i2vgen-xl
-    notes:
-    metaprompts:
-
 licenses:
     class: open
     link:

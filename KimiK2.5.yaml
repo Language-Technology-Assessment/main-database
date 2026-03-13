@@ -87,17 +87,6 @@ datasheet:
 
 
 # access:
-package:
-    class: closed
-    link:
-    notes:
-
-api:
-    class: open
-    link:  https://platform.moonshot.ai/
-    notes: Accessible through Moonshot AI's official API
-    metaprompts: open
-
 licenses:
     class: partial 
     link: https://huggingface.co/moonshotai/Kimi-K2.5/blob/main/LICENSE

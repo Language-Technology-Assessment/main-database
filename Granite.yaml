@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/granite4
-    notes: Model available on Ollama.
-
-api:
-    class: closed
-    link: https://www.ibm.com/granite/playground/
-    notes: Demo available. No API found.
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/ibm-granite/granite-4.0-h-small

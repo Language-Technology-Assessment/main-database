@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/codellama
-    notes: Model available on Ollama.
-
-api:
-    class: open
-    link: 
-    notes: Model available on various APIs.
-    metaprompt: closed
-
 licenses:
     class: closed
     link: https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf#model-details

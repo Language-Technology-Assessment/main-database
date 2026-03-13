@@ -87,17 +87,6 @@ datasheet:
     notes: Data sheets available for some data sources.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: No package found.
-
-api:
-    class: partial
-    link: https://github.com/FlagAI-Open/Aquila2/blob/main/assets/wechat-qrcode.jpg
-    notes: API accessible through WeChat.
-    metaprompt: closed
-
 licenses:
     class: closed
     link: https://huggingface.co/BAAI/AquilaChat2-70B-Expr/blob/main/BAAI-Aquila-70B-Model-License-Agreement.pdf.pdf

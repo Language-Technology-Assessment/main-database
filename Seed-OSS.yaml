@@ -86,17 +86,7 @@ datasheet:
     link:
     notes: No datasheet found.
 
-# access:
-package:
-    class: closed
-    link: 
-    notes: No package found.
-
-api:
-    class: closed
-    link: 
-    notes: No API found.
-    metaprompts:
+# access:    metaprompts:
 
 licenses:
     class: open

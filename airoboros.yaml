@@ -87,17 +87,6 @@ datasheet:
     notes: Datasheets contain differing levels of documentation. Exact data used as well as data collection and curation procedure unknown. No data sheet for base model data exists.
 
 # access:
-package:
-    class: partial
-    link: https://pypi.org/project/airoboros/
-    notes: Pip package available, however only supports older versions of airoboros.
-
-api:
-    class: closed
-    link:
-    notes: No API found.
-    metaprompt: closed
-
 licenses:
     class: partial
     link: https://huggingface.co/jondurbin/airoboros-dpo-110b-3.3#licence-and-usage-restrictions

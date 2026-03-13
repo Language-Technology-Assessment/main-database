@@ -87,17 +87,6 @@ datasheet:
     notes: Dataset documented in dataset card at HuggingFace.
 
 # access
-package:
-    class: closed
-    link:
-    notes: No packages published.
-
-api:
-    class: closed
-    link: https://huggingface.co/spaces/bigscience/petals-api
-    notes: Petals API provides access through a HuggingFace Space, however API is currently paused.
-    metaprompt: closed
-    
 licenses:
     class: partial
     link: https://bigscience.huggingface.co/blog/the-bigscience-rail-license

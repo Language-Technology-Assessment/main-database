@@ -86,17 +86,7 @@ datasheet:
     link: ["https://huggingface.co/datasets/facebook/omnilingual-asr-corpus", "https://scontent-dub4-1.xx.fbcdn.net/v/t39.2365-6/581068541_867604242498398_5662399655411595851_n.pdf?_nc_cat=104&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=roRXUCWwUzgQ7kNvwGLmwQF&_nc_oc=AdnSs3YBgJbFNxEFxlm2BdFMMMqqrFKWy3TOuQ9Xc8RBlq8KjiYSLeafapB06-uj6Uo&_nc_zt=14&_nc_ht=scontent-dub4-1.xx&_nc_gid=vMb20NhmVNeCfcraPoS7ag&oh=00_AfhwbZjCtn39lDo_5rmpLjG2UOiOB1Grw1isXj-wekLhAQ&oe=691A8C1F"]
     notes: Datasheet contains a decent amount of info, with corresponding paper digging into very great detail about data sourcing.
 
-# access:
-package:
-    class: open
-    link:  https://github.com/facebookresearch/omnilingual-asr?tab=readme-ov-file
-    notes: Available through PyPI
-
-api:
-    class: open
-    link: https://github.com/facebookresearch/omnilingual-asr?tab=readme-ov-file
-    notes: Available through huggingface
-    metaprompts:
+# access:    metaprompts:
 
 licenses:
     class: open

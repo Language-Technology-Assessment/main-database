@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/yi-coder
-    notes: Model available on Ollama.
-
-api:
-    class: partial
-    link: https://platform.01.ai/docs
-    notes: Commercial API available.
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/01-ai/Yi-Coder-9B-Chat

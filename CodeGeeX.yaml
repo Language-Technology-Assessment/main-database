@@ -87,17 +87,6 @@ datasheet:
     notes: 
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/codegeex4
-    notes: Model available on Ollama.
-
-api:
-    class: closed
-    link: 
-    notes: 
-    metaprompt: closed
-
 licenses:
     class: closed
     link: 

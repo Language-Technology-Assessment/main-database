@@ -87,16 +87,6 @@ datasheet:
     notes: A formal datasheet has not been provided for SDXL-Lightning
 
 # access:
-
-package:
-    class: open
-    link: https://huggingface.co/ByteDance/SDXL-Lightning/tree/main
-    notes: Available through Hugging Face spaces and ComfyUI
-
-api:
-    class: closed
-    link: 
-    notes: 
     metaprompts: 
 
 licenses:

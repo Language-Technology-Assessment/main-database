@@ -83,17 +83,6 @@ datasheet:
     notes:
 
 # access:
-package:
-    class: open
-    link: https://github.com/suno-ai/bark 
-    notes: pip install git+https://github.com/suno-ai/bark.git
-
-api:
-    class: open
-    link: https://huggingface.co/spaces/suno/bark 
-    notes:
-    metaprompts:
-
 licenses:
     class: open
     link: https://github.com/suno-ai/bark?tab=MIT-1-ov-file

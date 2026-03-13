@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: No package found.
-
-api:
-    class: closed
-    link: https://huggingface.co/spaces/senseable/senseable-33x-coder
-    notes: HuggingFace space returns error.
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/senseable/33x-coder

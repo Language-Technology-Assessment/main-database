@@ -87,17 +87,6 @@ datasheet:
     notes: Data sheets exist for end model data sources, but not intermediate model ones.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: No package found.
-
-api:
-    class: partial
-    link: https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1
-    notes: API available through HuggingFace inference.
-    metaprompt: closed
-
 licenses:
     class: closed
     link: https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1

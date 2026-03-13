@@ -40,12 +40,6 @@
 - name: Access
   ref: access
   params: 
-    - ref: package
-      name: Package
-      types: ['text', 'image','code','video','audio']
-    - ref: api
-      name: API and Meta Prompts
-      types: ['text', 'image','code','video','audio']
     - ref: licenses
       name: Licenses
       types: ['text', 'image','code','video','audio']

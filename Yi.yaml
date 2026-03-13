@@ -86,18 +86,7 @@ datasheet:
     link:
     notes: No data sheets found.
 
-# access:
-package:
-    class: open
-    link: https://ollama.com/library/yi
-    notes: Model available on Ollama.
-
-api:
-    class: partial
-    link: https://platform.01.ai/docs
-    notes: Model is gated and commercially available.
-    metaprompt: closed
-    
+# access:    
 licenses:
     class: open
     link: https://huggingface.co/01-ai/Yi-1.5-34B-Chat-16K

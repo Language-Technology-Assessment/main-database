@@ -87,17 +87,6 @@ datasheet:
     notes: Dataset available on HuggingFace, comprehensive data source listing available.
 
 # access:
-package:
-    class: open
-    link: https://github.com/RUC-GSAI/YuLan-Mini/?tab=readme-ov-file#quick-start-
-    notes: Model available through an Ollama setup.
-
-api:
-    class: closed
-    link:
-    notes: No API found.
-    metaprompts:
-
 licenses:
     class: open
     link: https://huggingface.co/yulan-team/YuLan-Mini-Instruct#license

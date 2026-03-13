@@ -88,17 +88,6 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: open
-    link: https://pypi.org/project/deepfloyd-if/
-    notes: Package available on PyPi.
-
-api:
-    class: closed
-    link:
-    notes: No API found.
-    metaprompts:
-
 licenses:
     class: closed
     link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0#model-details

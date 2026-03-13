@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet available
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/mistral-large
-    notes: Model available on Ollama.
-
-api:
-    class: open
-    link: https://docs.mistral.ai/api
-    notes: API specification provided by vLLM 
-    metaprompt: closed
-
 licenses:
     class: partial
     link: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/blob/main/README.md

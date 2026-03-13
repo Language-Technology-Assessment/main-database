@@ -87,17 +87,6 @@ datasheet:
     notes: Data sheets are well-documented and provide requisite info.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/olmo2
-    notes: Model available on Ollama.
-
-api:
-    class: partial
-    link: https://huggingface.co/allenai/Olmo-3-32B-Think
-    notes: Available through HuggingFace. Inference endpoints are available.
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/allenai/Olmo-3-32B-Think#model-description

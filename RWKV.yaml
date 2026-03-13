@@ -87,17 +87,6 @@ datasheet:
     notes: 
 
 # access:
-package:
-    class: open
-    link: https://pypi.org/project/rwkv/
-    notes: 
-
-api:
-    class: closed
-    link: 
-    notes: 
-    metaprompt: closed
-
 licenses:
     class: partial
     link: 

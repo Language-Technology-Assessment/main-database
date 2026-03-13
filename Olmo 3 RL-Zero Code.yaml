@@ -87,17 +87,6 @@ datasheet:
     notes: Datasets well-documented, however information is not centralized on dataset page.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: No package found.
-
-api:
-    class: closed
-    link: 
-    notes: No API found.
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/allenai/Olmo-3-7B-RL-Zero-Code

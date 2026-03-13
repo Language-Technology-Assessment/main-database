@@ -87,17 +87,6 @@ datasheet:
     notes: Datasheet available for RLHF portion, but not for Llama2-based pretraining data, hence partial
 
 # access:
-package:
-    class: closed
-    link:
-    notes: Package not provided
-
-api:
-    class: closed
-    link:
-    notes: API not provided and model too big for HuggingFace inference API
-    metaprompt: closed
-
 licenses:
     class: closed
     link: https://huggingface.co/openbmb/UltraLM-13b

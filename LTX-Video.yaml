@@ -86,17 +86,7 @@ datasheet:
     link:
     notes: No datasheet found.
 
-# access:
-package:
-    class: open
-    link: https://github.com/Lightricks/ComfyUI-LTXVideo/
-    notes: ComfyUI workflow for model available.
-
-api:
-    class: open
-    link: https://huggingface.co/spaces/Lightricks/LTX-2-3
-    notes: Model available through HuggingFace space.
-    metaprompts:
+# access:    metaprompts:
 
 licenses:
     class: closed

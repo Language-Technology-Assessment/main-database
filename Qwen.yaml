@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/qwen3
-    notes: Model available on Ollama.
-
-api:
-    class: open
-    link: https://huggingface.co/spaces/Qwen/Qwen3-Demo
-    notes: Model available through HuggingFace space.
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://qwenlm.github.io/blog/qwen3/

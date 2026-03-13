@@ -87,17 +87,6 @@ datasheet:
     notes: No data sheet found.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/starcoder2
-    notes: Model available on Ollama.
-
-api:
-    class: closed
-    link: 
-    notes: No API found.
-    metaprompt: closed
-
 licenses:
     class: closed
     link: https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1

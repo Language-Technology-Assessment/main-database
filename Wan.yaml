@@ -86,17 +86,7 @@ datasheet:
     link:
     notes: No datasheet found.
 
-# access:
-package:
-    class: open
-    link: https://comfyanonymous.github.io/ComfyUI_examples/wan/
-    notes: ComfyUI workflow for model available.
-
-api:
-    class: closed
-    link: 
-    notes: No API found.
-    metaprompts:
+# access:    metaprompts:
 
 licenses:
     class: open

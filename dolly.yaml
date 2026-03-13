@@ -87,17 +87,6 @@ datasheet:
     notes:
 
 # access
-package:
-    class: open
-    link:
-    notes:
-
-api:
-    class: closed
-    link:
-    notes:
-    metaprompt: closed
-
 licenses:
     class: open
     link:

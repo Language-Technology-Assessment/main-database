@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: closed
-    link:
-    notes: No package found.
-
-api:
-    class: closed
-    link: https://www.skyreels.ai/home
-    notes: Web interface available, accessible only when signing up.
-    metaprompts:
-
 licenses:
     class: closed
     link: https://huggingface.co/Skywork/SkyReels-V2-T2V-14B-720P-Diffusers/blob/main/LICENSE

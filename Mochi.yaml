@@ -86,17 +86,7 @@ datasheet:
     link:
     notes: No datasheet found.
 
-# access:
-package:
-    class: open
-    link: https://github.com/kijai/ComfyUI-MochiWrapper
-    notes: ComfyUI workflow for model available.
-
-api:
-    class: open
-    link: https://huggingface.co/genmo/mochi-1-preview
-    notes: Inference api available
-    metaprompts:
+# access:    metaprompts:
 
 licenses:
     class: open

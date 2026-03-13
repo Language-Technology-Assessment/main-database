@@ -87,17 +87,6 @@ datasheet:
     notes: Datasheet not available.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/command-a
-    notes: Model available on Ollama.
-
-api:
-    class: closed
-    link:
-    notes: API access available only when signing up.
-    metaprompt: closed
-
 licenses:
     class: partial
     link: https://docs.cohere.com/docs/c4ai-acceptable-use-policy

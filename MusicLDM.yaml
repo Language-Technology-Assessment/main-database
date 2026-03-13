@@ -91,17 +91,6 @@ datasheet:
     notes: Content is limited to data sources origin and details on how to reproduce the data collection. Details on curation and other considerations, such as consent, limitations and selection strategies are missing. 
 
 # access:
-package:
-    class: closed
-    link:
-    notes:
-
-api:
-    class: closed
-    link: 
-    notes: API is shut down temporarily. Should be released again soon. 
-    metaprompts:
-
 licenses:
     class: closed
     link: https://github.com/RetroCirce/MusicLDM/blob/main/LICENSE

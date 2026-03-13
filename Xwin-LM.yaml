@@ -87,17 +87,6 @@ datasheet:
     notes: Datasheet provides limited information about model. No datasheet available for base model data.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/xwinlm
-    notes: Model available on Ollama.
-
-api:
-    class: partial
-    link:
-    notes: API available through vllm and HuggingFace.
-    metaprompt: closed
-
 licenses:
     class: closed
     link: https://github.com/facebookresearch/llama/blob/main/LICENSE
