@@ -72,9 +72,9 @@ preprint:
     notes: Preprint made available through arXiv.
 
 paper:
-    class: closed
-    link: 
-    notes: No peer-reviewed paper found.
+    class: open
+    link: https://openreview.net/forum?id=Ndnwg9oOQO
+    notes: Paper peer-reviewed at ICLR 2026.
 
 modelcard:
     class: closed
@@ -86,8 +86,7 @@ datasheet:
     link:
     notes: No datasheet found.
 
-# access:    metaprompts:
-
+# access:
 licenses:
     class: open
     link: https://huggingface.co/stepfun-ai/NextStep-1-Large
