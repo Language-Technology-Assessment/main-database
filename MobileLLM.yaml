@@ -15,13 +15,13 @@
 
 system:
     name: MobileLLM
-    link: https://huggingface.co/facebook/MobileLLM-R1-950M
+    link: https://huggingface.co/facebook/MobileLLM-R1.5-950M
     type: text,code
     performanceclass: full
     basemodelname: MobileLLM-R1-950M-base
-    endmodelname: MobileLLM-R1-950M
+    endmodelname: MobileLLM-R1.5-950M
     endmodellicense: FAIR Noncommercial Research License v1
-    releasedate: 2025-09
+    releasedate: 2025-10
     notes: Small reasoning model.
 
 org:
@@ -47,7 +47,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: partial
-    link: https://huggingface.co/facebook/MobileLLM-R1-950M
+    link: https://huggingface.co/facebook/MobileLLM-R1.5-950M/
     notes: Gated model available on HuggingFace.
 
 trainingcode:
@@ -63,7 +63,7 @@ code:
 
 hardware_architecture:
     class: open
-    link: ["https://arxiv.org/pdf/2402.14905", "https://github.com/facebookresearch/MobileLLM"]
+    link: ["https://arxiv.org/pdf/2402.14905", "https://huggingface.co/facebook/MobileLLM-R1.5-950M"]
     notes: Hardware architecture described in preprint and on GitHub.
 
 preprint:
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/facebook/MobileLLM-R1-950M
+    link: https://huggingface.co/facebook/MobileLLM-R1.5-950M
     notes: Model card provides the requisite information.
 
 datasheet:
@@ -89,5 +89,5 @@ datasheet:
 # access:
 licenses:
     class: closed
-    link: https://huggingface.co/facebook/MobileLLM-R1-950M
+    link: https://huggingface.co/facebook/MobileLLM-R1.5-950M
     notes: FAIR Noncommercial Research License v1, not an OSI recognised open license.
