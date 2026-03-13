@@ -15,13 +15,13 @@
 
 system:
     name: Nanbeige
-    link: https://huggingface.co/Nanbeige/Nanbeige4-3B-Thinking-2511
+    link: https://huggingface.co/Nanbeige/Nanbeige4.1-3B
     type: text 
     performanceclass: limited
     basemodelname: Nanbeige4-3B-Base
-    endmodelname: Nanbeige4-3B-Thinking-2511
+    endmodelname: Nanbeige4.1-3B
     endmodellicense: Apache-2.0
-    releasedate: 2025-11
+    releasedate: 2026-02
     notes: Chinese text-only LLM. Claims good performance on writing.
 
 org:
@@ -47,7 +47,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/Nanbeige/Nanbeige4-3B-Thinking-2511
+    link: https://huggingface.co/Nanbeige/Nanbeige4.1-3B
     notes: Model weights made available on HuggingFace.
 
 trainingcode:
@@ -68,7 +68,7 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: https://huggingface.co/Nanbeige/Nanbeige4-3B-Thinking-2511/blob/main/Nanbeige4-3B-Technical-Report.pdf
+    link: https://huggingface.co/Nanbeige/Nanbeige4.1-3B/blob/main/Nanbeige4.1-3B-Report.pdf
     notes: Technical report published on HuggingFace.
 
 paper:
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/Nanbeige/Nanbeige4-3B-Thinking-2511
+    link: https://huggingface.co/Nanbeige/Nanbeige4.1-3B
     notes: Model card primarily contains eval results, with some limitations mentioned.
 
 datasheet:
