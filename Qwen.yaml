@@ -15,15 +15,14 @@
 
 system:
     name: Qwen
-    link: https://huggingface.co/Qwen/Qwen3-235B-A22B
+    link: https://huggingface.co/Qwen/Qwen3.5-397B-A17B
     type: text 
     performanceclass: latest
-    basemodelname: Qwen3-235B-A22B-Base
-    endmodelname: Qwen3-235B-A22B
+    basemodelname: 
+    endmodelname: Qwen3.5-397B-A17B
     endmodellicense: Apache-2.0
-    releasedate: 2025-04
-    notes: Reasoning model with claims of comparable performance to DeepSeek-R1.
-
+    releasedate: 2026-02
+    notes: MoE VL model by Alibaba Cloud.
 org:
     name: Alibaba
     link: https://www.alibabacloud.com/
@@ -47,19 +46,19 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/Qwen/Qwen3-235B-A22B
+    link: https://huggingface.co/Qwen/Qwen3.5-397B-A17B
     notes: Model weights made available on HuggingFace.
 
 trainingcode:
-    class: partial
-    link: https://github.com/QwenLM/Qwen3
-    notes: Repository provides sparse source code and some examples for SFT
+    class: closed
+    link: https://github.com/QwenLM/Qwen3.5
+    notes: Repository does not contain code.
 
 # documentation:
 code:
-    class: partial
-    link: https://github.com/QwenLM/Qwen3
-    notes: Repository is fairly well-documented.
+    class: closed
+    link: https://github.com/QwenLM/Qwen3.5
+    notes: No code, so no documentation.
 
 hardware_architecture:
     class: closed
@@ -67,9 +66,9 @@ hardware_architecture:
     notes: No description of hardware architecture found.
 
 preprint:
-    class: open
-    link: https://arxiv.org/abs/2505.09388
-    notes: Preprint published on arXiv.
+    class: closed
+    link: https://qwen.ai/blog?id=qwen3.5
+    notes: No preprint found. May be forthcoming. For now release-by-blogpost.
 
 paper:
     class: closed
@@ -78,7 +77,7 @@ paper:
 
 modelcard:
     class: closed
-    link: https://huggingface.co/Qwen/Qwen3-235B-A22B
+    link: https://huggingface.co/Qwen/Qwen3.5-397B-A17B
     notes: Model card primarily contains usage instructions.
 
 datasheet:
@@ -89,6 +88,6 @@ datasheet:
 # access:
 licenses:
     class: open
-    link: https://qwenlm.github.io/blog/qwen3/
+    link: https://huggingface.co/Qwen/Qwen3.5-397B-A17B
     notes: Model released under Apache-2.0, an OSI-approved license.
 
