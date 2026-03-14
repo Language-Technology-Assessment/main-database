@@ -15,13 +15,13 @@
 
 system:
     name: OLMo
-    link: https://huggingface.co/allenai/Olmo-3-32B-Think
+    link: https://huggingface.co/allenai/Olmo-3.1-32B-Think
     type: text 
     performanceclass: full
     basemodelname: Olmo-3-1125-32B
-    endmodelname: Olmo-3-32B-Think
+    endmodelname: Olmo-3.1-32B-Think
     endmodellicense: Apache-2.0
-    releasedate: 2024-11
+    releasedate: 2025-12
     notes: Open LLM trained from scratch by Allen AI.
 
 org:
@@ -37,7 +37,7 @@ datasources_basemodel:
 
 datasources_endmodel:
     class: open
-    link: ["https://huggingface.co/datasets/allenai/Dolci-Think-RL-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-RL-7B", "https://huggingface.co/datasets/allenai/Dolci-Think-DPO-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-DPO-7B", "https://huggingface.co/datasets/allenai/Dolci-Think-SFT-32B", "https://huggingface.co/datasets/allenai/Dolci-Instruct-SFT-7B"]
+    link: https://huggingface.co/datasets/allenai/Dolci-Think-RL-32B
     notes: Data for fine-tuning published in a well-organized manner.
 
 weights_basemodel:
@@ -47,7 +47,7 @@ weights_basemodel:
     
 weights_endmodel:
     class: open
-    link: https://huggingface.co/allenai/Olmo-3-32B-Think
+    link: https://huggingface.co/allenai/Olmo-3.1-32B-Think
     notes: Model weights made available on HuggingFace.
 
 trainingcode:
@@ -68,7 +68,7 @@ hardware_architecture:
 
 preprint:
     class: open
-    link: https://www.datocms-assets.com/64837/1765558567-olmo_3_technical_report-4.pdf
+    link: https://huggingface.co/papers/2512.13961
     notes: Pre-print goes into impressive detail about the data, training process, architecture, and evaluation.
 
 paper:
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/allenai/Olmo-3-32B-Think
+    link: https://huggingface.co/allenai/Olmo-3.1-32B-Think
     notes: Model card provides broad overview and links to full details.
 
 datasheet:
@@ -89,5 +89,5 @@ datasheet:
 # access:
 licenses:
     class: open
-    link: https://huggingface.co/allenai/Olmo-3-32B-Think#model-description
+    link: https://huggingface.co/allenai/Olmo-3.1-32B-Think#model-description
     notes: Apache 2.0, an OSI-approved license.
