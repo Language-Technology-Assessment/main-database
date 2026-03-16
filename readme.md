@@ -10,7 +10,7 @@ You're free to build on this work and reuse the data. It is licensed under CC-BY
 
 ## Which models are included?
 
-The index aims to include any *instruct-tuned generative AI system or model* that is described by the responsible organisation or builder as "open-source" or "open", or that is marketed as such by offical outlets of the responsible organisation or builder. Generally, the index aims to:
+The index aims to include any *instruct-tuned generative AI system or model* that is described by the responsible organisation or builder as "open-source" or "open", or that is marketed as such by official outlets of the responsible organisation or builder. Generally, the index aims to:
 
 - Refer to the model by its most recent version, without naming the model size. Evaluation is then based around the largest model in the family. This may skip over some nuances with how different sizes might use different base models and fails to capture how models have evolved over time.
 
@@ -19,7 +19,7 @@ The index aims to include any *instruct-tuned generative AI system or model* tha
 - Models spanning across different modalities may be included in more than one modality category (text; image; video etc) leading to multiple entries in the index.
 
 ## Openness Criteria and system information
-For each model, the yaml files in this database collect (1) some general information about the system, (2) about the organization behind it, (3) and about 14 dimension of openness. The below list spells out for the openness criteria for features in the areas of system information and organisation, followed by openness criteria groupt into 'Availability', 'Documentation' and 'Access'. Use these guidelines to document determinations of openness levels as precisely as possible, including links to evidence. Notes are optional.
+For each model, the yaml files in this database collect (1) some general information about the system, (2) about the organization behind it, (3) and about 14 dimension of openness. The below list spells out for the openness criteria for features in the areas of system information and organisation, followed by openness criteria grouped into 'Availability', 'Documentation' and 'Access'. Use these guidelines to document determinations of openness levels as precisely as possible, including links to evidence. Notes are optional.
 
 ### **System**
 
@@ -37,35 +37,35 @@ For each model, the yaml files in this database collect (1) some general informa
     
     endmodellicense: License that applies to enduser interaction with the model.
 
-    releasedate: Earliest release date of the model through any offical source, in YYYY MMM format, e.g. 2024 NOV.
+    releasedate: Earliest release date of the model through any official source, in YYYY MMM format, e.g. 2024 NOV.
 
 ### **Organisation**
 
     name:  Organisation that released the model. Usually synonymous with model builder.
 
-    link: Link to offical source of information about model release, e.g. offical website or blog.
+    link: Link to official source of information about model release, e.g. official website or blog.
 
 ### **Availability**
 
-**Datasources Basemodel**
+**Datasources basemodel**
 
-Are datasources for training the base model comprehensively documented and made available? In case a distinction between base (foundation) and end (user) model is not applicable, this mirrors the end model data entries.
+Are the datasources used for training the base model made available? In case a distinction between base (foundation) and end (user) model is not applicable, this mirrors the end model data entries.
   
     🟥 Training data sources of base large language model are not open for inspection or shared.
     
     🟧 Some of the training data sources of base large language model are open for inspection or shared.
     
-    🟩 All training  data sources of base large language model are open for inspection or shared.
+    🟩 All training data sources of base large language model are open for inspection or shared.
 
-**Datasources Endmodel**
+**Datasources endmodel**
 
-Are datasources for training the model that the end user interacts with comprehensively documented and made available? 
+Are the datasources used for fine-tuning the model made available? 
 
     🟥 Training data sources of the end model are not open for inspection or shared.
     
     🟧 Some of the training data sources of end large language model are open for inspection or shared.
     
-    🟩 All training  data sources of end large language model are open for inspection or shared.
+    🟩 All training data sources of end large language model are open for inspection or shared.
 
 **Weights basemodel**
 
@@ -73,7 +73,7 @@ Are the weights of the base models made freely available? In case a distinction 
 
     🟥 Weights of the base model are not shared.
     
-    🟧 Weights of the base model are partially/not fully shared.
+    🟧 Weights of the base model are partially/not fully shared. E.g. gated downloads.
     
     🟩 Weights of the base model are shared.
 
@@ -83,7 +83,7 @@ Are the weights of the model that the end user interacts with made freely availa
 
     🟥 Weights of the user-facing end model are not shared.
     
-    🟧 Weights of the user-facing end model are partially/not fully shared.
+    🟧 Weights of the user-facing end model are partially/not fully shared. E.g. gated downloads.
     
     🟩 Weights of the user-facing end model are shared.
 
@@ -93,7 +93,7 @@ Is the source code of dataset processing, model training and tuning comprehensiv
 
     🟥 No source code available.
     
-    🟧 Some source code is open.
+    🟧 Sparse source code is available.
     
     🟩 Project source code openly available and fully open available for inspection.
 
@@ -105,7 +105,7 @@ Is the source code of datasource processing, model training and tuning comprehen
    
     🟥 Code documentation not available.
     
-    🟧 Some components of the system features code documentation, but not every step of base and/or end model training and tuning  is documented (irrespective of whether these components are shared).
+    🟧 Some components of the system features code documentation, but not every step of base and/or end model training and tuning is documented (irrespective of whether these components are shared).
     
     🟩 All components of the system features a comprehensive code documentation.
 
@@ -166,8 +166,8 @@ Is a datasheet as defined in "Datasheets for Datasets" (Gebru et al. 2021), or a
 
 Is the project fully covered by open licenses, including all data sources and training pipeline code? In particular, are the model weights, training code, and data sources (as available) covered by open licenses?
 
-    🟥 The project is not licensed clearly or does not use an Open Source Initiative (OSI)-approved license.
+    🟥 The project is not licensed clearly or does not use an open license.
     
-    🟧 Only parts of the model and data sources are released under an  Open Source Initiative (OSI)-approved license, such as model weights.
+    🟧 Only parts of the model and data sources are released under an open license, such as model weights.
     
-    🟩 The project is fully covered by Open Source Initiative (OSI)-approved license, including all data sources and training pipeline code.
+    🟩 The project is fully covered by open licenses, including all data sources and training pipeline code.
