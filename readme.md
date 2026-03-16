@@ -161,32 +161,10 @@ Is a datasheet as defined in "Datasheets for Datasets" (Gebru et al. 2021), or a
 
 
 ### **Access methods**
-
-**Package**
-
-Is a packaged release of the model available on a software repository (e.g. a Python Package Index, Homebrew)?
-
-    🟥 No index software package is available.
-    
-    🟧 User-oriented code or web-interface is available but not as a versioned package.
-    
-    🟩 A packaged release of the model available on a software repository is available (e.g. a Python Package Index, Homebrew).
-
-
-**API**
-
-Is an API available that provides unrestricted access to the model (other than security and CDN restrictions)? If applicable, this entry also collects information on the use and availability of meta prompts.
-
-    🟥 No API access.
-    
-    🟧 Commerial or restricted-access user API is available.
-    
-    🟩 An API available that provides unrestricted access to the model (other than security and CDN restrictions).
-
     
 **Licenses**
 
-Is the project fully covered by Open Source Initiative (OSI)-approved licenses, including all data sources and training pipeline code?
+Is the project fully covered by open licenses, including all data sources and training pipeline code? In particular, are the model weights, training code, and data sources (as available) covered by open licenses?
 
     🟥 The project is not licensed clearly or does not use an Open Source Initiative (OSI)-approved license.
     
