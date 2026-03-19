@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet containing a detailed description of data collection and curation is found attached to a persistent version of the model data, as would be preferred here. A persistent version of the filtered data with attached the information in the data preprint at https://arxiv.org/abs/2410.08800 would be sufficient here.
 
 # access:
-package:
-    class: partial
-    link: https://huggingface.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4#how-to-get-started-with-the-model
-    notes: Available through either Huggingface API or vLLM library, no proprietary release.
-
-api:
-    class: closed
-    link:
-    notes: No API found.
-    metaprompts:
-
 licenses:
     class: open
     link:

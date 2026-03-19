@@ -87,16 +87,6 @@ datasheet:
     notes: Data collection procedures for LAION are outlined in a corresponding paper.
 
 # access:
-package:
-    class: open
-    link: https://pypi.org/project/stable-diffusion/
-    notes: Package available on PyPI.
-
-api:
-    class: open
-    link: https://platform.stability.ai/docs/api-reference#tag/Generate/paths/~1v2beta~1stable-image~1generate~1sd3/post
-    notes: API publicly available.
-    metaprompts:
 
 licenses:
     class: closed

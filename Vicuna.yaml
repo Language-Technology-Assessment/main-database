@@ -88,17 +88,6 @@ datasheet:
     notes: No datasheet provided.
 
 # access
-package:
-    class: open
-    link: https://ollama.com/library/vicuna
-    notes: Model available on Ollama.
-
-api:
-    class: partial
-    link: https://github.com/lm-sys/FastChat#api
-    notes: Support provided for several APIs OpenAI restful, HuggingFace, Langchain
-    metaprompt: closed
-
 licenses:
     class: partial
     link: https://github.com/lm-sys/FastChat#vicuna-weights

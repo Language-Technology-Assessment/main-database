@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet found, and nothing is known about the data used for training or fine-tuning.
 
 # access:
-package:
-    class: open
-    link: https://pypi.org/project/llama-models/
-    notes: Package is provided in Pypi
-
-api:
-    class: closed
-    link: https://llama.developer.meta.com/join_waitlist
-    notes: API not available in EU.
-    metaprompt: closed
-
 licenses:
     class: closed
     link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B

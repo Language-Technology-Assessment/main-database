@@ -87,17 +87,6 @@ datasheet:
     notes: Only end model dataset documented.
 
 # access
-package:
-    class: partial
-    link: https://pypi.org/project/openchatkit/
-    notes: Package is available on PyPi.
-
-api:
-    class: closed
-    link:
-    notes: Reference seems to be made to a feedback app on HuggingFace, however the link redirects to a 404 page.
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B#model-details

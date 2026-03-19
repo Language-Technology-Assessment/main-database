@@ -86,18 +86,7 @@ datasheet:
     link:
     notes: Datasheet not provided.
 
-# access:
-package:
-    class: closed
-    link:
-    notes: Package not provided
-
-api:
-    class: closed
-    link: https://llama.developer.meta.com/join_waitlist
-    notes: API not available in EU.
-    metaprompt: closed
-    
+# access:    
 licenses:
     class: closed
     link: https://github.com/facebookresearch/llama/blob/main/LICENSE

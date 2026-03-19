@@ -87,18 +87,7 @@ datasheet:
     notes:
 
 # access:
-package:
-    class: closed
-    link:
-    notes:
-
-api:
-    class: closed
-    link:
-    notes:
-    metaprompts:
-
 licenses:
-    class: partial
+    class: open
     link:
     notes: "weights as CC-BY-NC-4.0"

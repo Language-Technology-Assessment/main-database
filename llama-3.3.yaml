@@ -87,17 +87,6 @@ datasheet:
     notes: Datasheet not provided at all
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/llama3.3
-    notes: Model available on Ollama.
-
-api:
-    class: closed
-    link: https://llama.developer.meta.com/join_waitlist
-    notes: API not available in EU.
-    metaprompt: closed
-
 licenses:
     class: closed
     link:  https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct

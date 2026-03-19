@@ -15,7 +15,7 @@
 
 system:
     name: CodeGeeX
-    link: https://huggingface.co/THUDM/codegeex4-all-9b
+    link: https://huggingface.co/zai-org/codegeex4-all-9b
     type: code
     performanceclass: full
     basemodelname: GLM-4-9B
@@ -26,7 +26,7 @@ system:
 
 org:
     name: Zhipu AI
-    link: https://github.com/THUDM
+    link: https://huggingface.co/zai-org/
     notes: Zhipu AI, one of China's AI tigers.
 
 # availability:
@@ -72,7 +72,7 @@ preprint:
     notes: Preprint published on arXiv.
 
 paper:
-    class: closed
+    class: open
     link: https://dl.acm.org/doi/abs/10.1145/3580305.3599790
     notes: Paper published in SIGKDD.
 
@@ -87,17 +87,6 @@ datasheet:
     notes: 
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/codegeex4
-    notes: Model available on Ollama.
-
-api:
-    class: closed
-    link: 
-    notes: 
-    metaprompt: closed
-
 licenses:
     class: closed
     link: 

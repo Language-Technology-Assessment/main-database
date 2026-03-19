@@ -15,11 +15,11 @@
 
 system:
     name: Falcon
-    link: https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct
+    link: https://huggingface.co/tiiuae/Falcon-H1R-7B
     type: text
     performanceclass: full
-    basemodelname: Falcon-H1-34B-Base
-    endmodelname: Falcon-H1-34B-Instruct
+    basemodelname: Falcon-H1-7B-Base
+    endmodelname: Falcon-H1R-7B
     endmodellicense: Falcon LLM License
     releasedate: 2025-05
     notes: Open foundation model.
@@ -36,18 +36,18 @@ datasources_basemodel:
     notes: From the documentation 'The key ingredient for the high quality of the Falcon models is their training data, predominantly based (>80%) on RefinedWeb — a novel massive web dataset based on CommonCrawl' (https://huggingface.co/blog/falcon). However, only a small sample is made available.
 
 datasources_endmodel:
-    class: partial
-    link: https://arxiv.org/pdf/2507.22448
-    notes: Instruct-tuning data described in preprint.
+    class: closed
+    link: 
+    notes: Instruct-tuning data not detailed.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct
+    link: https://huggingface.co/tiiuae/Falcon-H1-7B-Base
     notes: Model weights available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct
+    link: https://huggingface.co/tiiuae/Falcon-H1R-7B
     notes: Model weights available on HuggingFace.
 
 trainingcode:
@@ -63,13 +63,13 @@ code:
 
 hardware_architecture:
     class: open
-    link: https://arxiv.org/pdf/2507.22448
+    link: https://github.com/tiiuae/falcon-h1r/blob/main/tech_report.pdf
     notes: Hardware setup described in paper.
 
 preprint:
     class: open
-    link: https://arxiv.org/pdf/2507.22448
-    notes: Preprint published on arXiv.
+    link: https://github.com/tiiuae/falcon-h1r/blob/main/tech_report.pdf
+    notes: Preprint published in GitHub repository.
 
 paper:
     class: closed
@@ -77,9 +77,9 @@ paper:
     notes: No peer-reviewed paper found.
 
 modelcard:
-    class: open
-    link: https://falcon-lm.github.io/blog/falcon-h1/
-    notes: Model card contains comprehensive documentation.
+    class: closed
+    link: https://huggingface.co/tiiuae/Falcon-H1R-7B
+    notes: Model card contains partial relevant information.
 
 datasheet:
     class: closed
@@ -87,18 +87,7 @@ datasheet:
     notes: No datasheet found.
 
 # access
-package:
-    class: partial
-    link: https://ollama.com/library/falcon3
-    notes: Previous version of model available on Ollama.
-
-api:
-    class: closed
-    link: 
-    notes: No API found.
-    metaprompt: closed
-
 licenses:
     class: closed
-    link: https://ollama.com/library/falcon3
+    link: https://huggingface.co/tiiuae/Falcon-H1R-7B
     notes: Falcon LLM License, not an open license.

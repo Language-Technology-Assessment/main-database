@@ -87,17 +87,6 @@ datasheet:
     notes: Datasheets contain differing amounts of information. No datasheet available for the base model.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/neural-chat
-    notes: Model available on Ollama.
-
-api:
-    class: closed
-    link: 
-    notes: Provided through HuggingFace but model too large to run via inference API, local deployment or paid access needed 
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/Intel/neural-chat-7b-v3-1#fp32-inference-with-transformers

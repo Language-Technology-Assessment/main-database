@@ -87,17 +87,6 @@ datasheet:
     notes: Datasheet not provided.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/stable-beluga
-    notes: Model available on Ollama.
-
-api:
-    class: closed
-    link:
-    notes: model too large to run on HuggingFace free inference API
-    metaprompt: closed
-
 licenses:
     class: partial
     link: https://huggingface.co/stabilityai/StableBeluga2/blob/main/LICENSE.txt

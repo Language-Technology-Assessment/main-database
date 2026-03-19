@@ -14,14 +14,14 @@
 # - Contributor type: Non-academic (Chinese Big Tech)
 
 system:
-    name: HunyuanCustom
-    link: https://hunyuancustom.github.io/
+    name: HunyuanVideo
+    link: https://huggingface.co/tencent/HunyuanVideo-1.5
     type: video
     performanceclass: full
-    basemodelname: HunyuanVideo-T2V-720P
-    endmodelname: HunyuanCustom
+    basemodelname: HunyuanVideo-1.5
+    endmodelname: HunyuanVideo-1.5
     endmodellicense: Tencent Hunyuan Community License Agreement
-    releasedate: 2024-12
+    releasedate: 2025-11
     notes: Video generation model by Tencent.
 
 org:
@@ -42,34 +42,34 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/tencent/HunyuanVideo
+    link: https://huggingface.co/tencent/HunyuanVideo-1.5
     notes: Weights made available through HuggingFace.
     
 weights_endmodel:
     class: open
-    link: https://huggingface.co/tencent/HunyuanCustom
+    link: https://huggingface.co/tencent/HunyuanVideo-1.5
     notes: Weights made available through HuggingFace.
 
 trainingcode:
-    class: partial
-    link: https://github.com/Tencent/HunyuanCustom
+    class: open
+    link: https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5
     notes: Some training code made available through GitHub.
 
 # documentation:
 code:
     class: closed
-    link:
-    notes: No documentation for training code provided.
+    link: ["https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5", "https://huggingface.co/tencent/HunyuanVideo-1.5"]
+    notes: Some documentation for training code provided, in various locations.
 
 hardware_architecture:
-    class: closed
-    link:
-    notes: No information regarding training hardware found.
+    class: partial
+    link: https://arxiv.org/pdf/2511.18870
+    notes: Some information regarding training hardware found.
 
 preprint:
     class: open
-    link: ["https://arxiv.org/abs/2412.03603", "https://arxiv.org/abs/2505.04512"]
-    notes: Preprints for base and end model made available.
+    link: https://arxiv.org/abs/2511.18870
+    notes: Preprint made available on arXiv.
 
 paper:
     class: closed
@@ -78,8 +78,8 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/tencent/HunyuanCustom
-    notes: Model card published providing primarily inference information.
+    link: https://huggingface.co/tencent/HunyuanVideo-1.5
+    notes: Model card contains requisite information.
 
 datasheet:
     class: closed
@@ -87,18 +87,8 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: open
-    link: https://github.com/kijai/ComfyUI-HunyuanVideoWrapper
-    notes: ComfyUI workflow available.
-
-api:
-    class: closed
-    link: https://hunyuan.tencent.com/modelSquare/home/play
-    notes: Web demo available, no API found.
-    metaprompts:
 
 licenses:
     class: closed
-    link: https://github.com/Tencent/HunyuanCustom/blob/main/LICENSE
+    link: https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5/blob/main/LICENSE
     notes: Tencent Hunyuan Community License Agreement, not an OSI-approved license

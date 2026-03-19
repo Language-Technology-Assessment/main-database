@@ -87,17 +87,6 @@ datasheet:
     notes: Datasheets and documentation available for fine-tuning datasets used. Base model data sources contain a few data sources without data sheets and a few datasets which are now unavailable.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: No package found.
-
-api:
-    class: closed
-    link: 
-    notes: No API found.
-    metaprompt: closed
-
 licenses:
     class: closed
     link: https://huggingface.co/stabilityai/ar-stablelm-2-chat#model-details

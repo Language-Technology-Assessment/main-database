@@ -14,15 +14,15 @@
 # - Contributor type: Non-academic (Company)
 
 system:
-    name: AMD Nitro Diffusion
-    link: https://huggingface.co/amd/SD2.1-Nitro
+    name: Nitro-AR
+    link: https://huggingface.co/amd/Nitro-AR
     type: image
-    performanceclass: full
-    basemodelname: Stable-Diffusion-2-Base
-    endmodelname: SD2.1-Nitro
+    performanceclass: limited
+    basemodelname: Nitro-AR
+    endmodelname: Nitro-AR
     endmodellicense:  Apache-2.0
-    releasedate: 2024-11
-    notes: More efficient implementation of Stable Diffusion 2.1.
+    releasedate: 2026-01
+    notes: Autoregressive image gen model.
 
 org:
     name: AMD
@@ -32,39 +32,39 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link: https://laion.ai/blog/laion-5b/
-    notes: Trained on a subset of LAION-5B, an openly available dataset.
+    link: ["https://ai.meta.com/datasets/segment-anything/", "https://github.com/JourneyDB/JourneyDB", "https://github.com/poloclub/diffusiondb", "https://github.com/mlfoundations/datacomp"]
+    notes: All datasets listed on model card.
 
 datasources_endmodel:
     class: open
-    link:
-    notes: Distilled model, so not applicable.
+    link: ["https://ai.meta.com/datasets/segment-anything/", "https://github.com/JourneyDB/JourneyDB", "https://github.com/poloclub/diffusiondb", "https://github.com/mlfoundations/datacomp"]
+    notes: All datasets listed on model card.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/stabilityai/stable-diffusion-2-base
+    link: https://huggingface.co/amd/Nitro-AR
     notes: Weights available through HuggingFace.
     
 weights_endmodel:
     class: open
-    link: https://huggingface.co/amd/SD2.1-Nitro
+    link: https://huggingface.co/amd/Nitro-AR
     notes: Weights available through HuggingFace.
 
 trainingcode:
     class: open
-    link: https://github.com/AMD-AIG-AIMA/AMD-Diffusion-Distillation
+    link: https://github.com/AMD-AGI/Nitro-E/tree/main/Nitro-AR
     notes: Training code made available through GitHub.
 
 # documentation:
 code:
     class: open
-    link: https://github.com/AMD-AIG-AIMA/AMD-LLM
+    link: https://github.com/AMD-AGI/Nitro-E/tree/main/Nitro-AR
     notes: Model code well-documented.
 
 hardware_architecture:
     class: open
-    link: https://huggingface.co/amd/SD2.1-Nitro
-    notes: Hardware outlined in model card.
+    link: https://github.com/AMD-AGI/Nitro-E/blob/main/Nitro-AR/configs/config.yaml
+    notes: Outlined on GitHub.
 
 preprint:
     class: closed
@@ -78,27 +78,16 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/amd/SD2.1-Nitro
+    link: https://huggingface.co/amd/Nitro-AR
     notes: Model card provides superficial knowledge about architecture, training, the fine-tuning approach used, and evaluation. 
 
 datasheet:
     class: open
-    link: https://arxiv.org/pdf/2210.08402
-    notes: Data collection procedures for LAION are outlined in a corresponding paper.
+    link: ["https://arxiv.org/abs/2304.02643", "https://arxiv.org/abs/2307.00716", "https://poloclub.github.io/diffusiondb/datasheet.html", "https://arxiv.org/abs/2304.14108"]
+    notes: All datasets have associated preprints or datasheets.
 
 # access:
-package:
-    class: closed
-    link:
-    notes: No package found.
-
-api:
-    class: closed
-    link:
-    notes: No API found.
-    metaprompts:
-
 licenses:
     class: open
-    link: https://huggingface.co/amd/SD2.1-Nitro#license
+    link: https://huggingface.co/amd/Nitro-AR#license
     notes: Model licensed under Apache-2.0, an OSI-approved license.

@@ -42,29 +42,29 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-v1.1
     notes: 
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-v1.1
     notes: 
 
 trainingcode:
-    class: partial
-    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
-    notes: 
+    class: open
+    link: https://github.com/OpenLLM-France/Lucie-Training
+    notes: Training code published on GitHub.
 
 # documentation:
 code:
-    class: partial
-    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
-    notes: 
+    class: open
+    link: https://github.com/OpenLLM-France/Lucie-Training
+    notes: Code is well-documented
 
 hardware_architecture:
     class: open
-    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
-    notes: 
+    link: https://arxiv.org/pdf/2503.12294
+    notes: Hardware architecture outlined in preprint.
 
 preprint:
     class: open
@@ -78,27 +78,16 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
-    notes: 
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-v1.1
+    notes: Model card describes model in good detail.
 
 datasheet:
     class: partial
-    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data
-    notes: links to datasets that have sheets
+    link: ["https://huggingface.co/datasets/OpenLLM-France/Lucie-Training-Dataset", "https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data"]
+    notes: Almost all datasets outlined in detail, however some data not shared.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: 
-
-api:
-    class: closed
-    link: 
-    notes: 
-    metaprompt: closed
-
 licenses:
-    class: partial
-    link: 
-    notes: models under apache 2
+    class: open
+    link: https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-v1.1
+    notes: Apache-2.0, an OSI-approved license.

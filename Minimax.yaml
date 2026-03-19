@@ -14,14 +14,14 @@
 # - Contributor type: Non-academic (Chinese AI Tiger)
 
 system:
-    name: Minimax-M2
-    link: https://huggingface.co/MiniMaxAI/MiniMax-M2
+    name: Minimax-M2.5
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M2.5
     type: text
     performanceclass: latest
     basemodelname: MiniMax-Text-01?
-    endmodelname: MiniMax-M2
+    endmodelname: MiniMax-M2.5
     endmodellicense: Modified MIT
-    releasedate: 2025-10
+    releasedate: 2026-02
     notes: SOTA model by Minimax
 
 org:
@@ -47,12 +47,12 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/MiniMaxAI/MiniMax-M2
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M2.5
     notes: Model weights released on HuggingFace.
 
 trainingcode:
     class: closed
-    link: https://github.com/MiniMax-AI/MiniMax-M2
+    link: https://github.com/MiniMax-AI/MiniMax-M2.5
     notes: Repo exists, however does not contain training code.
 
 # documentation:
@@ -67,9 +67,9 @@ hardware_architecture:
     notes: Architecture described on very high level in paper.
 
 preprint:
-    class: open
-    link: https://arxiv.org/pdf/2506.13585
-    notes: Preprint published on arXiv.
+    class: closed
+    link: 
+    notes: No preprint found.
 
 paper:
     class: closed
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: closed
-    link: https://huggingface.co/MiniMaxAI/MiniMax-M2
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M2.5
     notes: Model primarily contains inference information.
 
 datasheet:
@@ -87,18 +87,7 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: No package found.
-
-api:
-    class: closed
-    link: https://www.minimax.io/platform/document/platform%20introduction?key=66701c8e1d57f38758d58198
-    notes: closed API only
-    metaprompt: closed
-
 licenses:
     class: closed
-    link: https://huggingface.co/MiniMaxAI/MiniMax-M2
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M2.5
     notes: Modified MIT, not an OSI-approved license.

@@ -15,13 +15,13 @@
 
 system:
     name: Ling
-    link: https://huggingface.co/inclusionAI/Ling-1T
+    link: https://huggingface.co/inclusionAI/Ling-2.5-1T
     type: text 
     performanceclass: latest
-    basemodelname: Ling-1T
-    endmodelname: Ring-1T
+    basemodelname: Ling-2.5-1T
+    endmodelname: Ring-2.5-1T
     endmodellicense: MIT License
-    releasedate: 2025-10
+    releasedate: 2026-02
     notes: Reasoning model with claims of comparable performance to DeepSeek-R1.
 
 org:
@@ -41,35 +41,35 @@ datasources_endmodel:
     notes: Finetuning datasets published on HuggingFace.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: No base model made available.
+    class: open
+    link: https://huggingface.co/inclusionAI/Ling-2.5-1T
+    notes: Model weights made available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/inclusionAI/Ring-1T
+    link: https://huggingface.co/inclusionAI/Ring-2.5-1T
     notes: Model weights made available on HuggingFace.
 
 trainingcode:
-    class: open
-    link: ["https://github.com/inclusionAI/Ling-V2", "https://github.com/inclusionAI/Ring-V2"]
-    notes: Training code made available on GitHub.
+    class: closed
+    link: 
+    notes: No training code found.
 
 # documentation:
 code:
-    class: open
-    link: ["https://github.com/inclusionAI/Ling-V2", "https://github.com/inclusionAI/Ring-V2"]
-    notes: Repository is well-documented.
+    class: closed
+    link: 
+    notes: No code, so no documentation.
 
 hardware_architecture:
-    class: open
-    link: https://arxiv.org/pdf/2510.22115
-    notes: Hardware architecture outlined in preprint.
+    class: closed
+    link: 
+    notes: No information on hardware architecture found.
 
 preprint:
-    class: open
-    link: https://arxiv.org/pdf/2510.22115
-    notes: Preprint published on arXiv.
+    class: closed
+    link: 
+    notes: No preprint found.
 
 paper:
     class: closed
@@ -87,19 +87,8 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: No package found.
-
-api:
-    class: partial
-    link: https://huggingface.co/inclusionAI/Ling-1T
-    notes: Inference provider through HuggingFace.
-    metaprompt: closed
-
 licenses:
     class: open
-    link: https://huggingface.co/inclusionAI/Ling-1T#license
+    link: https://huggingface.co/inclusionAI/Ling-2.5-1T#license
     notes: Model released under MIT license, an OSI-approved license.
 

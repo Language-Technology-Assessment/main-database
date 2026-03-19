@@ -72,9 +72,9 @@ preprint:
     notes: Paper provides information about techniques used for constructing model, but nothing on pre- or post-training data.
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper found.
+    class: open
+    link: https://www.nature.com/articles/s41586-025-09422-z
+    notes: Peer-reviewed article found.
 
 modelcard:
     class: partial
@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet provided.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/deepseek-r1
-    notes: Model available on Ollama.
-
-api:
-    class: open
-    link: https://platform.deepseek.com
-    notes: Available through various APIs.
-    metaprompt: closed
-
 licenses:
     class: partial
     link: https://huggingface.co/deepseek-ai/DeepSeek-V3-Base/blob/main/LICENSE-MODEL

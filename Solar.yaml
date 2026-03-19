@@ -15,14 +15,14 @@
 
 system:
     name: Solar
-    link: https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0
+    link: https://huggingface.co/upstage/Solar-Open-100B
     type: text 
     performanceclass: latest
-    basemodelname: Mistral-7B-v0.1
-    endmodelname: SOLAR-10.7B-Instruct-v1.0
-    endmodellicense: Meta Community License and CC-BY-NC-4.0
-    releasedate: 2023-12
-    notes: HuggingFace profile says 'Solar is a great example of the progress enabled by open source.'
+    basemodelname: 
+    endmodelname: Solar-Open-100B
+    endmodellicense: Upstage Solar License
+    releasedate: 2025-12
+    notes: MoE model trained entirely from scratch.
 
 org:
     name: Upstage AI
@@ -32,22 +32,22 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link: https://huggingface.co/mistralai/Mistral-7B-v0.1/discussions/8
-    notes: Mistral has not disclosed anything about its training data.
+    link: 
+    notes: No data sources found.
 
 datasources_endmodel:
     class: closed
     link:
-    notes: No RLHF datasets specified or shared, docs say 'Orca-style dataset, Alpaca-style dataset'
+    notes: No data sources found.
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/mistralai/Mistral-7B-v0.1
-    notes: Weights available through HuggingFace.
+    link: 
+    notes: No base model weights found.
 
 weights_endmodel:
     class: partial
-    link: https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0
+    link: https://huggingface.co/upstage/Solar-Open-100B
     notes: Finetuned checkpoints only shared through CC-BY-NC
 
 trainingcode:
@@ -59,47 +59,36 @@ trainingcode:
 code:
     class: closed
     link:
-    notes: HuggingFace code only comprises configuration json; no documentation available. 
+    notes: No code, so no documentation.
 
 hardware_architecture:
-    class: closed
-    link: 
-    notes: Precise architecture, training, fine-tuning procedures not given.
+    class: open
+    link: https://arxiv.org/pdf/2601.07022
+    notes: Hardware architecture outlined in preprint
 
 preprint:
     class: open
-    link: https://arxiv.org/pdf/2312.15166
+    link: https://arxiv.org/pdf/2601.07022
     notes: Preprint made available on arXiv.
 
 paper:
-    class: open
-    link: https://aclanthology.org/2024.naacl-industry.3/
-    notes: Paper published in ACL.
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
 
 modelcard:
     class: partial
-    link: https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0
+    link: https://huggingface.co/upstage/Solar-Open-100B
     notes: HuggingFace model provides partial information.
 
 datasheet:
     class: closed
     link:
-    notes: Datasheet not provided.
+    notes: No data, so no datasheet.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/solar
-    notes: Model available on Ollama.
-
-api:
-    class: partial
-    link:
-    notes: API only available by signing up for 'private LLM' service
-    metaprompt: closed
-
 licenses:
-    class: closed
-    link: https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0#license
-    notes: Meta Community License for base model, and CC-BY-NC 4.0 for fine-tuned model weights
+    class: open
+    link: https://huggingface.co/upstage/Solar-Open-100B/blob/main/LICENSE
+    notes: Upstage Solar License, written to be permissive.
 

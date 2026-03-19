@@ -15,14 +15,14 @@
 
 system:
     name: K2
-    link: https://huggingface.co/LLM360/K2-Chat
+    link: https://huggingface.co/LLM360/K2-Think-V2
     type: text
     performanceclass: full
-    basemodelname: K2
-    endmodelname: K2-Chat
+    basemodelname: K2-V2-Instruct
+    endmodelname: K2-Think-V2
     endmodellicense: Apache-2.0
-    releasedate: 2024-05
-    notes: Large fully-reproducible model.
+    releasedate: 2026-01
+    notes: Large open-weights model.
 
 org:
     name: LLM360
@@ -32,44 +32,44 @@ org:
 # availability:
 datasources_basemodel:
     class: open
-    link: https://huggingface.co/LLM360/K2-Chat
+    link: https://huggingface.co/collections/LLM360/k2-v2
     notes: 
 
 datasources_endmodel:
     class: open
-    link: https://huggingface.co/LLM360/K2-Chat
+    link: https://huggingface.co/collections/LLM360/k2-v2
     notes: 
 
 weights_basemodel:
     class: open
-    link: https://huggingface.co/LLM360/K2-Chat
+    link: https://huggingface.co/LLM360/K2-Think-V2
     notes: 
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/LLM360/K2-Chat
+    link: https://huggingface.co/LLM360/K2-Think-V2
     notes: 
 
 trainingcode:
     class: open
-    link: https://github.com/LLM360
+    link: https://github.com/LLM360/Reasoning360
     notes: 
 
 # documentation:
 code:
     class: open
-    link:  https://github.com/LLM360
+    link: https://github.com/LLM360/Reasoning360
     notes: 
 
 hardware_architecture:
     class: open
-    link:  https://github.com/LLM360
+    link: https://github.com/LLM360/Reasoning360
     notes: 
 
 preprint:
-    class: open
-    link: https://arxiv.org/abs/2501.07124
-    notes: 
+    class: closed
+    link: https://mbzuai.ac.ae/news/k2-think-v2-a-fully-sovereign-reasoning-model/
+    notes: Release-by-blogpost
 
 paper:
     class: closed
@@ -78,26 +78,15 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/LLM360/K2-Chat
+    link: https://huggingface.co/LLM360/K2-Think-V2
     notes: 
 
 datasheet:
-    class: partial
-    link: https://huggingface.co/LLM360/K2-Chat
-    notes: some found
+    class: open
+    link: https://huggingface.co/collections/LLM360/k2-v2
+    notes: Some information on data found.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: 
-
-api:
-    class: closed
-    link: 
-    notes: 
-    metaprompt: closed
-
 licenses:
     class: partial
     link: 

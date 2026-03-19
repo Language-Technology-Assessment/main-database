@@ -14,7 +14,7 @@
 # - Contributor type: Non-academic (Company)
 
 system:
-    name: AMD Llama Code
+    name: AMD OLMo
     link: https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO
     type: code
     performanceclass: limited
@@ -87,17 +87,6 @@ datasheet:
     notes: All data sources are well-documented.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: No package found.
-
-api:
-    class: closed
-    link: 
-    notes: No API found.
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO#license

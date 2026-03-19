@@ -15,14 +15,14 @@
 
 system:
     name: Apriel
-    link: https://huggingface.co/ServiceNow-AI/Apriel-Nemotron-15b-Thinker
+    link: https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker
     type: text
     performanceclass: latest
-    basemodelname: Mistral-Nemo-Base-2407
-    endmodelname: Apriel-Nemotron-15b-Thinker
+    basemodelname: Apriel-1.5-15b-Thinker
+    endmodelname: Apriel-1.6-15b-Thinker
     endmodellicense: MIT License
-    releasedate: 2025-05
-    notes: Competitive OS model by ServiceNow.
+    releasedate: 2025-12
+    notes: OS model by ServiceNow.
 
 org:
     name: ServiceNow
@@ -41,35 +41,35 @@ datasources_endmodel:
     notes: No information provided on fine-tuning data.
 
 weights_basemodel:
-    class: closed
-    link: 
-    notes: No base model weights published.
+    class: open
+    link: https://huggingface.co/ServiceNow-AI/Apriel-1.5-15b-Thinker
+    notes: Base model weights published on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/ServiceNow-AI/Apriel-Nemotron-15b-Thinker
+    link: https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker
     notes: End model weights published on HuggingFace.
 
 trainingcode:
     class: open
-    link: https://github.com/ServiceNow/Fast-LLM
+    link: ["https://github.com/ServiceNow/Fast-LLM", "https://github.com/verl-project/verl"]
     notes: Training code published on GitHub.
 
 # documentation:
 code:
     class: open
-    link: https://github.com/ServiceNow/Fast-LLM
+    link: ["https://github.com/ServiceNow/Fast-LLM", "https://github.com/verl-project/verl"]
     notes: Repo is well-documented.
 
 hardware_architecture:
     class: partial
-    link: https://arxiv.org/pdf/2508.10948
+    link: https://arxiv.org/pdf/2510.01141
     notes: Some information about hardware setup provided, however information is not comprehensive.
 
 preprint:
-    class: open
-    link: https://arxiv.org/pdf/2508.10948
-    notes: Preprint published on arXiv.
+    class: closed
+    link: https://huggingface.co/blog/ServiceNow-AI/apriel-1p6-15b-thinker
+    notes: Release-by-blogpost.
 
 paper:
     class: closed
@@ -78,8 +78,8 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/ServiceNow-AI/Apriel-Nemotron-15b-Thinker
-    notes: Model card contains some information about the model, however info is not comprehensive.
+    link: https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker
+    notes: Model card contains some information about the model, however info is not comprehensive on architecture.
 
 datasheet:
     class: closed
@@ -87,18 +87,7 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: No package found.
-
-api:
-    class: closed
-    link: 
-    notes: No API found.
-    metaprompt: closed
-
 licenses:
     class: open
-    link: https://huggingface.co/ServiceNow-AI/Apriel-Nemotron-15b-Thinker
+    link: https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker
     notes: MIT license, an open-source license.

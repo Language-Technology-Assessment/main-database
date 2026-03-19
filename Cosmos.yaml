@@ -15,14 +15,14 @@
 
 system:
     name: Cosmos
-    link: https://huggingface.co/nvidia/Cosmos-1.0-Diffusion-14B-Video2World
+    link: https://huggingface.co/nvidia/Cosmos-Predict2.5-2B
     type: video
     performanceclass: full
-    basemodelname: Cosmos-1.0-Diffusion-14B-Text2World
-    endmodelname: Cosmos-1.0-Diffusion-14B-Video2World
+    basemodelname: Cosmos-Predict2.5-14B-Pre-trained
+    endmodelname: Cosmos-Predict2.5-14B-Post-trained
     endmodellicense: NVIDIA Open Model License
-    releasedate: 2025-01
-    notes: Given a text or video input, predicts the next 120 frames.
+    releasedate: 2025-10
+    notes: Given a text or video input, predicts the next five seconds.
 
 org:
     name: NVIDIA
@@ -32,72 +32,61 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link: https://arxiv.org/pdf/2501.03575
-    notes: "We use both proprietary video datasets and publicly available open-domain Internet videos to train our models."
+    link: https://arxiv.org/pdf/2511.00062
+    notes: Preprint only provides high-level description.
 
 datasources_endmodel:
     class: closed
-    link: https://arxiv.org/pdf/2501.03575
-    notes: "We use both proprietary video datasets and publicly available open-domain Internet videos to train our models."
+    link: https://arxiv.org/pdf/2511.00062
+    notes: Preprint only provides high-level description.
 
 weights_basemodel:
-    class: partial
-    link: https://huggingface.co/nvidia/Cosmos-1.0-Diffusion-14B-Video2World/tree/main
-    notes: behind consent form
+    class: open
+    link: https://huggingface.co/nvidia/Cosmos-Predict2.5-14B
+    notes: Weights available on HuggingFace.
     
 weights_endmodel:
-    class: partial
-    link: https://huggingface.co/nvidia/Cosmos-1.0-Diffusion-14B-Video2World/tree/main
-    notes: behind consent form
+    class: open
+    link: https://huggingface.co/nvidia/Cosmos-Predict2.5-14B
+    notes: Weights available on HuggingFace.
 
 trainingcode:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://github.com/nvidia-cosmos/cosmos-predict2.5
+    notes: Repository exists with training script.
 
 # documentation:
 code:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://github.com/nvidia-cosmos/cosmos-predict2.5
+    notes: Repository is well-documented.
 
 hardware_architecture:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://arxiv.org/pdf/2511.00062
+    notes: Hardware architecture outlined in preprint.
 
 preprint:
     class: open
-    link: https://arxiv.org/abs/2501.03575
+    link: https://arxiv.org/pdf/2511.00062
     notes: preprint published on arXiv.
 
 paper:
     class: closed
     link:
-    notes:
+    notes: No peer-reviewed publication found.
 
 modelcard:
     class: open
-    link: https://huggingface.co/nvidia/Cosmos-1.0-Diffusion-14B-Video2World
-    notes: 
+    link: https://huggingface.co/nvidia/Cosmos-Predict2.5-14B
+    notes: Model card contains requisite information.
 
 datasheet:
     class: closed
     link:
-    notes:
+    notes: No datasheet found.
 
 # access:
-package:
-    class: open
-    link: https://comfyanonymous.github.io/ComfyUI_examples/cosmos/
-    notes: ComfyUI workflow for model available.
-
-api:
-    class: closed
-    link:
-    notes:
-    metaprompts:
-
 licenses:
     class: closed
     link:

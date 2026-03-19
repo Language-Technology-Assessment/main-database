@@ -73,7 +73,7 @@ preprint:
 
 paper:
     class: closed
-    link: https://openreview.net/forum?id=xviitwRwwD
+    link: 
     notes: No peer-reviewed paper found.
 
 modelcard:
@@ -87,17 +87,6 @@ datasheet:
     notes: Some data sources are well-documented, but not all.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/granite-code
-    notes: Model available on Ollama.
-
-api:
-    class: closed
-    link: 
-    notes: No API found.
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/ibm-granite/granite-20b-code-instruct-r1.1

@@ -87,17 +87,6 @@ datasheet:
     notes: Limited data summary, disclosed according to the template put forward by the EU AI Act. 
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/phi4-reasoning
-    notes: Model available on Ollama.
-
-api:
-    class: closed
-    link:
-    notes: No API found.
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/microsoft/Phi-4-reasoning/blob/main/LICENSE

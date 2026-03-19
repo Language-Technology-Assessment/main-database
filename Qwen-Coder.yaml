@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/qwen3-coder
-    notes: Model available on Ollama.
-
-api:
-    class: open
-    link: https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct
-    notes: Model available through Inference API.
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://qwenlm.github.io/blog/qwen3/

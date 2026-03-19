@@ -87,16 +87,6 @@ datasheet:
     notes: Datasheet contains a decent amount of info, with corresponding paper digging into very great detail about data sourcing.
 
 # access:
-package:
-    class: open
-    link:  https://github.com/facebookresearch/omnilingual-asr?tab=readme-ov-file
-    notes: Available through PyPI
-
-api:
-    class: open
-    link: https://github.com/facebookresearch/omnilingual-asr?tab=readme-ov-file
-    notes: Available through huggingface
-    metaprompts:
 
 licenses:
     class: open

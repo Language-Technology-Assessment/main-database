@@ -14,15 +14,15 @@
 # - Contributor type: Academic (Research institution)
 
 system:
-    name: Olmo 3 RL-Zero Code
-    link: https://huggingface.co/allenai/Olmo-3-7B-RL-Zero-Code
+    name: Olmo 3.1 RL-Zero Code
+    link: https://huggingface.co/allenai/Olmo-3.1-7B-RL-Zero-Code
     type: code
     performanceclass: full
     basemodelname: Olmo-3-1025-7B
-    endmodelname: Olmo-3-7B-RL-Zero-Code
+    endmodelname: Olmo-3.1-7B-RL-Zero-Code
     endmodellicense: Apache-2.0
-    releasedate: 2025-11
-    notes: Experimental open code model for the scientific exploration of RLVR training, from the Olmo family.
+    releasedate: 2025-12
+    notes: Experimental pen code model for the scientific exploration of RLVR training, from the Olmo family.
 
 org:
     name: Ai2
@@ -47,7 +47,7 @@ weights_basemodel:
 
 weights_endmodel:
     class: open
-    link: https://huggingface.co/allenai/Olmo-3-7B-RL-Zero-Code
+    link: https://huggingface.co/allenai/Olmo-3.1-7B-RL-Zero-Code
     notes: Model weights published on HuggingFace.
 
 trainingcode:
@@ -63,13 +63,13 @@ code:
 
 hardware_architecture:
     class: partial
-    link: https://www.datocms-assets.com/64837/1763662397-1763646865-olmo_3_technical_report-1.pdf
+    link: https://arxiv.org/pdf/2512.13961
     notes: Hardware architecture for base model described in preprint.
 
 preprint:
-    class: partial
-    link: https://www.datocms-assets.com/64837/1763662397-1763646865-olmo_3_technical_report-1.pdf
-    notes: Preprint made available on model creator's website.
+    class: open
+    link: https://arxiv.org/pdf/2512.13961
+    notes: Preprint published on arXiv.
 
 paper:
     class: closed
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: open
-    link: https://huggingface.co/datasets/allenai/Dolci-RL-Zero-Code-7B
+    link: https://huggingface.co/allenai/Olmo-3.1-7B-RL-Zero-Code
     notes: Model card provides the requisite info.
 
 datasheet:
@@ -87,18 +87,7 @@ datasheet:
     notes: Datasets well-documented, however information is not centralized on dataset page.
 
 # access:
-package:
-    class: closed
-    link: 
-    notes: No package found.
-
-api:
-    class: closed
-    link: 
-    notes: No API found.
-    metaprompt: closed
-
 licenses:
     class: open
-    link: https://huggingface.co/allenai/Olmo-3-7B-RL-Zero-Code
+    link: https://huggingface.co/allenai/Olmo-3.1-7B-RL-Zero-Code
     notes: Apache-2.0, an OSI-approved license.

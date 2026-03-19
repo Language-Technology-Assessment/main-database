@@ -87,17 +87,6 @@ datasheet:
     notes:
 
 # access:
-package:
-    class: partial
-    link: https://github.com/chaojie/ComfyUI-Open-Sora
-    notes: ComfyUI workflow for model available, only supports Linux.
-
-api:
-    class: closed
-    link:
-    notes:
-    metaprompts:
-
 licenses:
     class: open
     link:

@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet found.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/zephyr
-    notes: Model available on Ollama.
-
-api:
-    class: closed
-    link: 
-    notes: 
-    metaprompt: closed
-
 licenses:
     class: partial
 

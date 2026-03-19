@@ -48,7 +48,7 @@ weights_basemodel:
 weights_endmodel:
     class: closed
     link: https://huggingface.co/databricks/dolly-v2-7b
-    notes: downloadable on their huggingface repositories.
+    notes: Model taken down after release.
 
 trainingcode:
     class: open
@@ -87,17 +87,6 @@ datasheet:
     notes:
 
 # access
-package:
-    class: open
-    link:
-    notes:
-
-api:
-    class: closed
-    link:
-    notes:
-    metaprompt: closed
-
 licenses:
     class: open
     link:

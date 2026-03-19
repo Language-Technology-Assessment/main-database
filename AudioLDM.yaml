@@ -87,17 +87,6 @@ datasheet:
     notes: All datasets sourced.
 
 # access:
-package:
-    class: open
-    link: https://arxiv.org/pdf/2308.05734
-    notes: Package published on PyPI.
-
-api:
-    class: closed
-    link: 
-    notes: No API found.
-    metaprompts:
-
 licenses:
     class: open
     link: https://huggingface.co/cvssp/audioldm2

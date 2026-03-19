@@ -15,14 +15,14 @@
 
 system:
     name: Mistral Large 3
-    link: https://docs.mistral.ai/models/mistral-large-3-25-12
+    link: https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512
     type: text 
     performanceclass: latest
-    basemodelname: mistral-large-2512
-    endmodelname: mistral-large-2512
-    endmodellicense: Apache 2
-    releasedate: 2025-02
-    notes: 675b MoE model of the Mistral 3 model family.
+    basemodelname: Mistral-Large-3-675B-Base-2512
+    endmodelname: Mistral-Large-3-675B-Instruct-2512
+    endmodellicense: Apache 2.0
+    releasedate: 2025-12
+    notes: 675B MoE model of the Mistral 3 model family.
 
 org:
     name: Mistral AI
@@ -33,53 +33,53 @@ org:
 datasources_basemodel:
     class: closed
     link:
-    notes: No information provided on pretraining data
+    notes: No information provided on pretraining data.
 
 datasources_endmodel:
     class: closed
-    link: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1
-    notes: No information provided expect that instruction tuning is done using an unspecified 'variety of publicly available conversation datasets'
+    link: 
+    notes: No information provided on fine-tuning data.
 
 weights_basemodel:
     class: open
-    link: https://github.com/mistralai/mistral-inference
-    notes: Models available for download through their GitHub repository as .rar archives
+    link: https://huggingface.co/mistralai/Mistral-Large-3-675B-Base-2512
+    notes: Model weights made available on HuggingFace.
     
 weights_endmodel:
     class: open
-    link: https://github.com/mistralai/mistral-inference
-    notes: Models available for download through their GitHub repository as .rar archives
+    link: https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512
+    notes: Model weights made available on HuggingFace.
 
 trainingcode:
-    class: partial
-    link: https://github.com/mistralai/mistral-src
-    notes: repository provides 'minimal code to run our 7B model'
+    class: closed
+    link: 
+    notes: No training code found.
 
 # documentation:
 code:
-    class: partial
-    link: https://github.com/mistralai/mistral-inference/tree/main/src/mistral_inference
-    notes: repository contains minimal code to run the models; also open source code, althought it is mostly uncommented and not documented very well.
+    class: closed
+    link: 
+    notes: No code, so no documentation
 
 hardware_architecture:
-    class: partial
-    link: https://github.com/mistralai/mistral-src
-    notes: Some information on architecture provided in github repo
+    class: closed
+    link: 
+    notes: No information on hardware architecture found.
 
 preprint:
-    class: partial
-    link: http://arxiv.org/abs/2310.06825
-    notes: Preprint rehashes marketing blurbs also given in blog and provides no details about pretraining datasets, instruction tuning datasets, or fine-tuning process, hence partial.
+    class: closed
+    link: 
+    notes: No preprint found.
 
 paper:
     class: closed
     link:
-    notes: No peer reviewed paper available
+    notes: No peer-reviewed paper available.
 
 modelcard:
-    class: closed
-    link:
-    notes: No model card available, HuggingFace modelcard just points to a corporate blog post
+    class: partial
+    link: https://huggingface.co/MiniMaxAI/MiniMax-M2.5
+    notes: Model card contains primarily inference information
 
 datasheet:
     class: closed
@@ -87,18 +87,7 @@ datasheet:
     notes: No datasheet available
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/mistral-large
-    notes: Model available on Ollama.
-
-api:
-    class: open
-    link: https://docs.mistral.ai/api
-    notes: API specification provided by vLLM 
-    metaprompt: closed
-
 licenses:
-    class: partial
-    link: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/blob/main/README.md
-    notes: Weights under Apache 2.0
+    class: open
+    link: 
+    notes: Apache-2.0

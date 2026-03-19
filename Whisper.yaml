@@ -87,16 +87,6 @@ datasheet:
     notes:
 
 # access:
-package:
-    class: open
-    link:  https://pypi.org/project/openai-whisper/
-    notes: Available through PyPI
-
-api:
-    class: open
-    link: https://huggingface.co/openai/whisper-large-v3-turbo
-    notes: Available through huggingface
-    metaprompts:
 
 licenses:
     class: open

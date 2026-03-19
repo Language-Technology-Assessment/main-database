@@ -87,17 +87,6 @@ datasheet:
     notes: No datasheet provided.
 
 # access:
-package:
-    class: open
-    link: https://ollama.com/library/deepseek-v3.1
-    notes: Model available on Ollama.
-
-api:
-    class: open
-    link: https://api-docs.deepseek.com/
-    notes: API available, modelled on OpenAI API
-    metaprompt: closed
-
 licenses:
     class: open
     link: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale#license
