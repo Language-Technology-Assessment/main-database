@@ -72,12 +72,12 @@ hardware_architecture:
 preprint:
     class: open
     link: https://arxiv.org/abs/2407.14358
-    notes:
+    notes: Preprint published on arXiv.
 
 paper:
-    class: closed
-    link: 
-    notes:
+    class: open
+    link: https://ieeexplore.ieee.org/abstract/document/10888461
+    notes: Peer-reviewed paper published in ICASSP 2025.
 
 modelcard:
     class: open
