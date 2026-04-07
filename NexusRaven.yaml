@@ -68,8 +68,8 @@ hardware_architecture:
 
 preprint:
     class: closed
-    link: https://nexusflow.ai/blogs/ravenv2
-    notes: Model only publicized through blog post.
+    link: 
+    notes: No preprint found.
 
 paper:
     class: closed
