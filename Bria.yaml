@@ -52,7 +52,7 @@ weights_endmodel:
 
 trainingcode:
     class: closed
-    link: https://bria.ai/technology#training
+    link: 
     notes: Proprietary training pipeline.
 
 # documentation:
