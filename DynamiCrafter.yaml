@@ -20,7 +20,7 @@ system:
     performanceclass: limited
     basemodelname: Stable-Diffusion-2-Base
     endmodelname: DynamiCrafter-1024
-    endmodellicense: Apache-2.0
+    endmodellicense: 
     releasedate: 2024-02
     notes: (Text-)Image-to-Video model (16 frames).
 

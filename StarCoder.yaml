@@ -73,7 +73,7 @@ preprint:
 
 paper:
     class: open
-    link: https://ccs.neu.edu/~arjunguha/main/papers/2024-wei-starcoder-self-alignment.html
+    link: https://openreview.net/forum?id=xXRnUU7xTL
     notes: Paper published in NeurIPS.
 
 modelcard:

@@ -88,6 +88,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
+    class: partial
     link: https://modelscope.cn/models/iic/text-to-video-synthesis/summary
     notes: CC-BY-NC-ND
