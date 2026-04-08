@@ -20,9 +20,9 @@ system:
     performanceclass: latest
     basemodelname: Mistral-Large-3-675B-Base-2512
     endmodelname: Mistral-Large-3-675B-Instruct-2512
-    endmodellicense: Apache 2.0
+    endmodellicense: Modified MIT License
     releasedate: 2025-12
-    notes: 675B MoE model of the Mistral 3 model family.
+    notes: Mistral model built for SWE.
 
 org:
     name: Mistral AI
@@ -41,13 +41,13 @@ datasources_endmodel:
     notes: No information provided on fine-tuning data.
 
 weights_basemodel:
-    class: open
-    link: https://huggingface.co/mistralai/Mistral-Large-3-675B-Base-2512
-    notes: Model weights made available on HuggingFace.
+    class: closed
+    link: 
+    notes: No weights found.
     
 weights_endmodel:
     class: open
-    link: https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512
+    link: https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512
     notes: Model weights made available on HuggingFace.
 
 trainingcode:
@@ -68,8 +68,8 @@ hardware_architecture:
 
 preprint:
     class: closed
-    link: 
-    notes: No preprint found.
+    link: https://mistral.ai/news/devstral-2-vibe-cli
+    notes: No preprint found. Release-by-blogpost.
 
 paper:
     class: closed
@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: partial
-    link: https://huggingface.co/MiniMaxAI/MiniMax-M2.5
+    link: https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512
     notes: Model card contains primarily inference information
 
 datasheet:
@@ -88,6 +88,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
+    class: closed
     link: 
-    notes: Apache-2.0
+    notes: Modified MIT License
