@@ -21,7 +21,7 @@ system:
     basemodelname: Devstral-2-123B-Base-2512
     endmodelname: Devstral-2-123B-Instruct-2512
     endmodellicense: Modified MIT License
-    releasedate: 2025-12
+    releasedate: 2025-05
     notes: Mistral model built for SWE.
 
 org:
