@@ -15,11 +15,11 @@
 
 system:
     name: Mistral Large 3
-    link: https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512
-    type: text 
+    link: https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512
+    type: code
     performanceclass: latest
-    basemodelname: Mistral-Large-3-675B-Base-2512
-    endmodelname: Mistral-Large-3-675B-Instruct-2512
+    basemodelname: Devstral-2-123B-Base-2512
+    endmodelname: Devstral-2-123B-Instruct-2512
     endmodellicense: Modified MIT License
     releasedate: 2025-12
     notes: Mistral model built for SWE.
