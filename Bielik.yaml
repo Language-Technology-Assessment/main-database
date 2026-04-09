@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: Poland
 # - Contributor type: Non-academic (Research community)
+# - Base model training compute: ~7.0e+22 FLOP +- 0.30 OoM (param count & dataset size)
+# - End model training compute: unknown (likely negligible)
 
 system:
     name: Bielik

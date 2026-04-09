@@ -12,13 +12,15 @@
 # Organization tags:
 # - National origin: United States
 # - Contributor type: Non-academic (American Big Tech)
+# - Base model training compute: -
+# - End model training compute: ~2.85e+20 FLOP +- 0.30 OoM (param count & dataset size)
 
 system:
     name: BERT
     link: https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/
     type: text
     performanceclass: limited
-    basemodelname: 
+    basemodelname: BERT
     endmodelname: BERT
     endmodellicense: Apache-2.0
     releasedate: 2018-11

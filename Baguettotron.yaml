@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: France
 # - Contributor type: Non-academic (Research lab)
+# - Base model training compute: -
+# - End model training compute: ~3.86e+20 FLOP +- 0.36 OoM (param count & dataset size)
 
 system:
     name: Baguettotron

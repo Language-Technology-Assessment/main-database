@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: China
 # - Contributor type: Non-academic (Chinese AI Tiger)
+# - Base model training compute: ~2.03e+23 FLOP +- 0.36 OoM (param count & dataset size)
+# - End model training compute: unknown (likely negligible)
 
 system:
     name: Baichuan

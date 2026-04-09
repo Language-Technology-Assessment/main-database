@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: United States
 # - Contributor type: Non-academic (Company)
+# - Base model training compute: ~9.78e+21 FLOP +- 0.30 OoM (param count & dataset size)
+# - End model training compute: unknown (likely negligible)
 
 system:
     name: BTLM

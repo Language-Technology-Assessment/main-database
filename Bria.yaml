@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: International
 # - Contributor type: Non-academic (Company)
+# - Base model training compute: -
+# - End model training compute: ~2.8e22 FLOP +- 1 OoM (hardware figures from Bria 2)
 
 system:
     name: Bria
