@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: United States
 # - Contributor type: Non-academic (Company)
+# - Base model training compute: -
+# - End model training compute: ~3e+20 - 1e+21 FLOP (hardware estimation based on comparison with Nitro-E)
 
 system:
     name: Nitro-AR

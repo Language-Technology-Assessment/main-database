@@ -12,13 +12,15 @@
 # Organization tags:
 # - National origin: United Kingdom
 # - Contributor type: Academic (Research institution)
+# - Base model training compute: -
+# - End model training compute: ~1e+21 FLOP +- 0.45 OoM (hardware figures)
 
 system:
     name: AudioLDM
     link: https://huggingface.co/cvssp/audioldm2
     type: audio
     performanceclass: full
-    basemodelname: 
+    basemodelname: AudioLDM2
     endmodelname: AudioLDM2
     endmodellicense: CC-BY-NC-SA-4.0
     releasedate: 2023-08

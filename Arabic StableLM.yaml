@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: United Kingdom
 # - Contributor type: Non-academic (Company)
+# - Base model training compute: 1.92e+22 FLOP +- 0.5 OoM (Epoch AI)
+# - End model training compute: unknown (likely negligible)
 
 system:
     name: Arabic StableLM

@@ -12,13 +12,15 @@
 # Organization tags:
 # - National origin: United States
 # - Contributor type: Non-academic (Company)
+# - Base model training compute: unknown (~1e23?)
+#  - End model training compute: 2.84e+22 FLOP +- 0.45 OoM (hardware figures)
 
 system:
     name: Apriel
     link: https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker
     type: text
     performanceclass: latest
-    basemodelname: Apriel-1.5-15b-Thinker
+    basemodelname: Pixtral-12B
     endmodelname: Apriel-1.6-15b-Thinker
     endmodellicense: MIT License
     releasedate: 2025-12
