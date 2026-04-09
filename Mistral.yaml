@@ -14,12 +14,12 @@
 # - Contributor type: Non-academic (Company)
 
 system:
-    name: Devstral 2
-    link: https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512
-    type: code
+    name: Mistral Large 3
+    link: https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512
+    type: text
     performanceclass: latest
-    basemodelname: Devstral-2-123B-Base-2512
-    endmodelname: Devstral-2-123B-Instruct-2512
+    basemodelname: Mistral-Large-3-675B-Base-2512
+    endmodelname: Mistral-Large-3-675B-Instruct-2512
     endmodellicense: Apache 2.0
     releasedate: 2025-12
     notes: 675B MoE model of the Mistral 3 model family.
