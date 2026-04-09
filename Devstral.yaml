@@ -14,7 +14,7 @@
 # - Contributor type: Non-academic (Company)
 
 system:
-    name: Mistral Large 3
+    name: Devstral 2
     link: https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512
     type: code
     performanceclass: latest
