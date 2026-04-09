@@ -52,7 +52,7 @@ weights_endmodel:
 
 trainingcode:
     class: closed
-    link: https://bria.ai/technology#training
+    link: 
     notes: Proprietary training pipeline.
 
 # documentation:
@@ -88,6 +88,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
+    class: partial
     link: https://huggingface.co/briaai/BRIA-3.2
-    notes: CC-BY-NC-4.0, an OSI-approved license.
+    notes: CC-BY-NC-4.0

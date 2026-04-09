@@ -21,7 +21,7 @@ system:
     basemodelname: Falcon-H1-7B-Base
     endmodelname: Falcon-H1R-7B
     endmodellicense: Falcon LLM License
-    releasedate: 2025-05
+    releasedate: 2026-01
     notes: Open foundation model.
 
 org:

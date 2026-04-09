@@ -88,6 +88,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
+    class: partial
     link: 
     notes: "cc-by-nc-sa-4.0"

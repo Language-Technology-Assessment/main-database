@@ -92,5 +92,5 @@ datasheet:
 # access:
 licenses:
     class: closed
-    link: https://github.com/acids-ircam/RAVE/blob/main/LICENSE
+    link: https://github.com/acids-ircam/RAVE/blob/master/LICENSE
     notes: Not an OSI approved license 

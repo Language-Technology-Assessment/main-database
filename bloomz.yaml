@@ -26,7 +26,7 @@ system:
 
 org:
     name: BigScience Workshop
-    link: https://bigscience.huggingface.co/
+    link: https://huggingface.co/bigscience/
     notes: Research workshop on large multilingual models.
 
 # availability:
@@ -90,4 +90,4 @@ datasheet:
 licenses:
     class: partial
     link: https://bigscience.huggingface.co/blog/the-bigscience-rail-license
-    notes: Code licensed under Apache 2.0, model under bespoke 'Responsible AI License' which imposes some limitations
+    notes: Code licensed under Apache 2.0, model under bespoke 'Responsible AI License' which imposes some limitations. Blog post taken down.

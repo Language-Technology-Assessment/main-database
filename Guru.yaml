@@ -90,7 +90,7 @@ datasheet:
 
 # access:
 licenses:
-    class: open
+    class: partial
     link: https://huggingface.co/LLM360/guru-32B
-    notes: CC-BY-NC-4.0, an OSI-approved license.
+    notes: CC-BY-NC-4.0
 

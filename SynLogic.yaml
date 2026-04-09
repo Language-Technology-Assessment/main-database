@@ -20,7 +20,7 @@ system:
     performanceclass: latest
     basemodelname: SynLogic-32B
     endmodelname: Qwen2.5-32B
-    endmodellicense: CC-BY-NC-4.0
+    endmodellicense: MIT License
     releasedate: 2025-05
     notes: SynLogic, a Qwen-based model trained on a novel dataset.
 

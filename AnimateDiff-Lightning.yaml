@@ -78,7 +78,7 @@ paper:
 
 modelcard:
     class: closed
-    link: hhttps://huggingface.co/ByteDance/BindWeave
+    link: https://huggingface.co/ByteDance/BindWeave
     notes: Model card primarily contains information on model performance.
 
 datasheet:

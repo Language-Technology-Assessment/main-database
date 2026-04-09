@@ -88,6 +88,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
+    class: partial
     link:
     notes: "weights as CC-BY-NC-4.0"

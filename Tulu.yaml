@@ -21,7 +21,7 @@ system:
     basemodelname: Llama-3.1-405B
     endmodelname: Llama-3.1-Tulu-3-405B
     endmodellicense: Llama 3.1 Community License Agreement
-    releasedate: 2023-06
+    releasedate: 2025-01
     notes: Tülu, a Llama-based model from AllenAI with a relatively open post-training recipe.
 
 org:
