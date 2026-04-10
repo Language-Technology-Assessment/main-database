@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: International
 # - Contributor type: Academic (Research community)
+
+# Training compute:
 # - Base model training compute: ~5.64e+23 FLOP +- 0.30 OoM (param count & dataset size)
 # - End model training compute: unknown (likely negligible)
 

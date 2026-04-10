@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: China
 # - Contributor type: Non-academic (Research institution)
+
+# Training compute:
 # - Base model training compute: unknown
 # - End model training compute: ~9.85e+21 +- 0.36 OoM (tuning on 64xA100 for 19 days)
 

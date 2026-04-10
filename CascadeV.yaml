@@ -13,6 +13,10 @@
 # - National origin: China
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: ~1.20e+22 FLOP +- 0.36 OoM (hardware figures)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: CascadeV
     link: https://huggingface.co/ByteDance/CascadeV

@@ -13,6 +13,10 @@
 # - National origin: China
 # - Contributor type: Academic (Research community)
 
+# Training compute:
+# - Base model training compute: ~8.4e+22 FLOP +- 0.5 OoM (Epoch AI)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: ChatMusician
     link: https://huggingface.co/m-a-p/ChatMusician

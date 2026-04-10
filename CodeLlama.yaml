@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Non-academic (American Big Tech)
 
+# Training compute:
+# - Base model training compute: ~8.1e+23 FLOP +- 0.5 OoM (Epoch AI)
+# - End model training compute: ~4.2e+23 FLOP +- 0.3 OoM (param count & dataset size)
+
 system:
     name: CodeLlama
     link: https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf

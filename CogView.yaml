@@ -13,12 +13,16 @@
 # - National origin: China
 # - Contributor type: Non-academic (Chinese AI Tiger)
 
+# Training compute:
+# - Base model training compute: -
+# - End model training compute: ~2.68e+22 FLOP +- 0.5 OoM (Epoch AI)
+
 system:
     name: CogView
     link: https://huggingface.co/zai-org/CogView4-6B
     type: image
     performanceclass: full
-    basemodelname: 
+    basemodelname: CogView4-6B
     endmodelname: CogView4-6B
     endmodellicense: Apache-2.0
     releasedate: 2025-03

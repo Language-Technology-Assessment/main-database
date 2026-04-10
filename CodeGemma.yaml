@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Non-academic (American Big Tech)
 
+# Training compute:
+# - Base model training compute: ~3.07e+23 FLOP +- 0.5 OoM (Epoch AI)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: CodeGemma
     link: https://huggingface.co/google/codegemma-1.1-7b-it

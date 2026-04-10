@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: United Kingdom
 # - Contributor type: Academic (Research institution)
+
+# Training compute:
 # - Base model training compute: -
 # - End model training compute: ~1e+21 FLOP +- 0.45 OoM (hardware figures)
 

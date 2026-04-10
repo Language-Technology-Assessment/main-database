@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: >= 1.18e+22 FLOP (lower bound from 2x Chinchilla)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: CodeGen
     link: https://huggingface.co/Salesforce/codegen25-7b-instruct_P

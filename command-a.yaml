@@ -13,6 +13,10 @@
 # - National origin: Canada
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: >= 3.0e+24 FLOP (lower bound from 2x Chinchilla)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: Command A
     link: https://huggingface.co/CohereLabs/command-a-reasoning-08-2025

@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: United States
 # - Contributor type: Non-academic (American Big Tech)
+
+# Training compute:
 # - Base model training compute: -
 # - End model training compute: ~4.80e+22 FLOP +- 0.30 OoM (param count & dataset size)
 

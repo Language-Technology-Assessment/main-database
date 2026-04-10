@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: Switzerland
 # - Contributor type: Academic (Research institution)
+
+# Training compute:
 # - Base model training compute: 6.74e+24 FLOP (from preprint)
 # - End model training compute: unknown (likely negligible)
 

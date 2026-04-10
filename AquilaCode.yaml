@@ -12,6 +12,8 @@
 # Organization tags:
 # - National origin: China
 # - Contributor type: Non-academic (Research institution)
+
+# Training compute:
 # - Base model training compute: >= 1.18e+22 FLOP (lower bound from 2x Chinchilla)
 # - End model training compute: unknown (likely negligible)
 

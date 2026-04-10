@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: >= 3.3e+24 FLOP (lower bound from Chinchilla)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: Cogito
     link: https://huggingface.co/deepcogito/cogito-671b-v2.1

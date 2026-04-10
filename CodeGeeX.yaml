@@ -13,6 +13,10 @@
 # - National origin: China
 # - Contributor type: Non-academic (Chinese AI Tiger)
 
+# Training compute:
+# - Base model training compute: ~6.63e+22 FLOP +- 0.5 OoM (Epoch AI)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: CodeGeeX
     link: https://huggingface.co/zai-org/codegeex4-all-9b

@@ -9,6 +9,14 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
+# Training compute:
+# - Base model training compute: >= 1.335e+22 FLOP (lower bound from Chinchilla)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: CogVideoX 
     link: https://huggingface.co/zai-org/CogVideoX1.5-5B
