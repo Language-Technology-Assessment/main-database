@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: closed
-    link: 
-    notes: custom
+    link: "https://huggingface.co/google/codegemma-1.1-7b-it/tree/main"
+    notes: "Weights: Gemma Terms of Use. Code: not released. Data: not disclosed."

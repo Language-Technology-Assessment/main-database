@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: closed
-    link: https://huggingface.co/ByteDance/CascadeV
-    notes: CreativeML Open RAIL++-M License. Not an OSI-approved license.
+    link: ["https://huggingface.co/ByteDance/CascadeV", "https://github.com/bytedance/CascadeV"]
+    notes: "Weights: CreativeML Open RAIL++-M License. Code: AGPL-3.0 license. Data: unspecified."

@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: partial
-    link: 
-    notes: "cc-by-nc-sa-4.0"
+    link: ["https://huggingface.co/OpenLLM-France/Claire-7B-FR-Instruct-0.1", "https://huggingface.co/datasets/OpenLLM-France/Claire-Dialogue-French-0.1"]
+    notes: "Weights: CC-BY-NC-SA-4.0. Code: not released. Data: CC-BY-NC-SA-4.0."

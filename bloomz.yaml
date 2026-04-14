@@ -93,5 +93,5 @@ datasheet:
 # access
 licenses:
     class: partial
-    link: https://bigscience.huggingface.co/blog/the-bigscience-rail-license
-    notes: Code licensed under Apache 2.0, model under bespoke 'Responsible AI License' which imposes some limitations. Blog post taken down.
+    link: ["https://bigscience.huggingface.co/blog/the-bigscience-rail-license", "https://github.com/bigscience-workshop/xmtf", "https://github.com/bigscience-workshop/xmtf#data", "https://huggingface.co/datasets/bigscience/xP3all"]
+    notes: "Weights: Apache-2.0 and BigScience RAIL License v1.0. Code: Apache-2.0. Data: Apache-2.0."

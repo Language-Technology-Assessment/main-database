@@ -35,9 +35,9 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: open
+    class: closed
     link: https://huggingface.co/datasets/cerebras/SlimPajama-627B
-    notes: 
+    notes: Dataset taken down.
 
 datasources_endmodel:
     class: open
@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: partial
-    link: 
-    notes: weights under apache 2
+    link: ["https://huggingface.co/cerebras/btlm-3b-8k-chat", "https://huggingface.co/datasets/Anthropic/hh-rlhf", "https://huggingface.co/datasets/cerebras/SlimPajama-627B"]
+    notes: "Weights: Apache-2.0. Code: not released. Data: Apache-2.0, MIT."

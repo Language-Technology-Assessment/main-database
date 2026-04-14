@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: open
-    link: https://huggingface.co/ByteDance/BindWeave
-    notes: Apache-2.0, an OSI-approved license.
+    link: ["https://huggingface.co/ByteDance/BindWeave", "https://arxiv.org/pdf/2510.00438"]
+    notes: "Weights: Apache-2.0. Code: not released. Data: CC-BY-4.0."

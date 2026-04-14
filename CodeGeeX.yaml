@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: closed
-    link: 
-    notes: The CodeGeeX4 License
+    link: "https://huggingface.co/THUDM/codegeex4-all-9b/tree/main"
+    notes: "Weights: CodeGeeX4 license. Code: not released. Data: not disclosed."

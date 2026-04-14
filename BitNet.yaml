@@ -93,5 +93,5 @@ datasheet:
 # access
 licenses:
     class: open
-    link: https://huggingface.co/microsoft/bitnet-b1.58-2B-4T/blob/main/LICENSE
-    notes: MIT License, an OSI-approved license.
+    link: ["https://huggingface.co/microsoft/bitnet-b1.58-2B-4T/blob/main/LICENSE", "https://arxiv.org/pdf/2504.12285"]
+    notes: "Weights: MIT. Code: not released. Data: partially disclosed."

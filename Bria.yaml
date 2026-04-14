@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: partial
+    class: closed
     link: https://huggingface.co/briaai/BRIA-3.2
-    notes: CC-BY-NC-4.0
+    notes: "Weights: CC-BY-NC-4.0. Code: not released. Data: not specified."

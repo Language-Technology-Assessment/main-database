@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: open
-    link:
-    notes: weights as MIT MusicPile as cc
+    link: ["https://huggingface.co/m-a-p/ChatMusician", "https://github.com/hf-lin/ChatMusician", "https://huggingface.co/datasets/m-a-p/MusicPile"]
+    notes: "Weights: MIT. Code: MIT. Data: Creative Commons."
