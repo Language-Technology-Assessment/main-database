@@ -13,6 +13,10 @@
 # - National origin: International
 # - Contributor type: Non-academic (Research community)
 
+# Training compute:
+# - Base model training compute: ~7.929e+24 +- 0.5 OoM (geometric mean of param count & dataset size, and hardware figures) [Epoch AI]
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: DeepHermes
     link: https://huggingface.co/NousResearch/Hermes-4-70B

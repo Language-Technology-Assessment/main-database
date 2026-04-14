@@ -15,7 +15,7 @@
 
 # Training compute:
 # - Base model training compute: -
-# - End model training compute: ~2.68e+22 FLOP +- 0.5 OoM (Epoch AI)
+# - End model training compute: ~2.68e+22 FLOP +- 1.0 OoM (param count & dataset size)
 
 system:
     name: CogView

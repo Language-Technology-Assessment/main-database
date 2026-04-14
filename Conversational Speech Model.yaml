@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: unknown
+# - End model training compute: unknown
+
 system:
     name: Conversational Speech Model
     link: https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice

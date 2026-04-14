@@ -12,7 +12,7 @@
 # Organization tags:
 # - National origin: United States
 # - Contributor type: Non-academic (Company)
-# - Base model training compute: ~3.072e+22 +- 0.3 OoM (param count & dataset size)
+# - Base model training compute: ~3.072e+22 +- 0.5 OoM (param count & dataset size)
 # - End model training compute: unknown (likely negligible)
 
 system:

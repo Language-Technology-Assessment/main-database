@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Non-academic (Research institution)
 
+# Training compute:
+# - Base model training compute: >= 5.88e+22 FLOP +- 0.5 OoM (param count & dataset size)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: Crystal
     link: https://huggingface.co/LLM360/CrystalChat

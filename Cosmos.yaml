@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: unknown
+# - End model training compute: unknown
+
 system:
     name: Cosmos
     link: https://huggingface.co/nvidia/Cosmos-Predict2.5-2B

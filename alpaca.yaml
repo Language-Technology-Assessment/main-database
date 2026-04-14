@@ -14,8 +14,8 @@
 # - Contributor type: Academic (University)
 
 # Training compute:
-# - Base model training compute: ~4e+22 FLOP +- 0.5 OoM (Epoch AI)
-# - End model training compute: ~8.087e18 FLOP +- 0.5 OoM (Epoch AI)
+# - Base model training compute: ~4e+22 FLOP +- 0.5 OoM (param count & dataset size) [Epoch AI]
+# - End model training compute: ~8.087e18 FLOP +- 0.5 OoM (hardware figures) [Epoch AI]
 
 system:
     name: Stanford Alpaca

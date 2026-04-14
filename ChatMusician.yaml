@@ -14,7 +14,7 @@
 # - Contributor type: Academic (Research community)
 
 # Training compute:
-# - Base model training compute: ~8.4e+22 FLOP +- 0.5 OoM (Epoch AI)
+# - Base model training compute: ~8.4e+22 FLOP +- 0.5 OoM (param count & dataset size) [Epoch AI]
 # - End model training compute: unknown (likely negligible)
 
 system:
@@ -22,7 +22,7 @@ system:
     link: https://huggingface.co/m-a-p/ChatMusician
     type: audio
     performanceclass: limited
-    basemodelname: ChatMusician-Base
+    basemodelname: Llama-2-7B
     endmodelname: ChatMusician
     endmodellicense: MIT License
     releasedate: 2024-04
@@ -35,9 +35,9 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: partial
-    link: https://huggingface.co/datasets/m-a-p/MusicPile
-    notes:
+    class: closed
+    link: 
+    notes: No dataset information found.
 
 datasources_endmodel:
     class: partial
@@ -45,9 +45,9 @@ datasources_endmodel:
     notes: 
 
 weights_basemodel:
-    class: open
-    link: https://huggingface.co/m-a-p/ChatMusician
-    notes:
+    class: partial
+    link: https://huggingface.co/meta-llama/Llama-2-7b
+    notes: Gated model on HuggingFace.
     
 weights_endmodel:
     class: open

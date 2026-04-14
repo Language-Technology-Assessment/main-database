@@ -13,6 +13,10 @@
 # - National origin: China
 # - Contributor type: Academic (Research community)
 
+# Training compute:
+# - Base model training compute: >= 1.81e+22 FLOP +- 0.5 OoM (param count & dataset size)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: CT-LLM
     link: https://huggingface.co/m-a-p/CT-LLM-SFT-DPO

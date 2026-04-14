@@ -13,6 +13,10 @@
 # - National origin: International
 # - Contributor type: Academic (Research community)
 
+# Training compute:
+# - Base model training compute: unknown
+# - End model training compute: unknown
+
 system:
     name: DeepFloyd
     link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0
