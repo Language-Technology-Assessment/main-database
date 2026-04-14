@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: closed
+    class: partial
     link: ["https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform", "https://github.com/tatsu-lab/stanford_alpaca", "https://github.com/tatsu-lab/stanford_alpaca#data-release"]
     notes: "Weights: LLaMA license agreement. Code: CC-BY-NC-4.0. Data: CC-BY-NC-4.0 for end model, base model data not disclosed."

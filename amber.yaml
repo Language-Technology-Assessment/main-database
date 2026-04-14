@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: open
-    link: https://huggingface.co/LLM360/AmberChat
-    notes: Everything licensed under Apache 2.0.
+    link: ["https://huggingface.co/LLM360/AmberChat", "https://github.com/LLM360", "https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k", "https://huggingface.co/datasets/LLM360/AmberDatasets"]
+    notes: "Weights: Apache-2.0. Code: Apache-2.0. Data: Apache-2.0."

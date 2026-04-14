@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: open
-    link: https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO#license
-    notes: Licensed under Apache-2.0, an OSI-approved license.
+    link: ["https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO#license", "https://github.com/allenai/OLMo", "https://huggingface.co/amd/AMD-OLMo", "https://huggingface.co/datasets/allenai/dolma", "https://huggingface.co/datasets/allenai/tulu-v2-sft-mixture", "https://huggingface.co/datasets/teknium/OpenHermes-2.5", "https://huggingface.co/datasets/TIGER-Lab/WebInstructSub", "https://huggingface.co/datasets/m-a-p/Code-Feedback", "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences-cleaned"]
+    notes: "Weights: Apache-2.0. Code: Apache-2.0. Data: Apache-2.0, ODC-By."

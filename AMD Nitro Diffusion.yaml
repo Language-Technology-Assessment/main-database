@@ -15,7 +15,7 @@
 
 # Training compute:
 # - Base model training compute: -
-# - End model training compute: ~3e+20 - 1e+21 FLOP (hardware estimation based on comparison with Nitro-E)
+# - End model training compute: ~3e+20 FLOP to ~1e+21 FLOP (hardware estimation based on comparison with Nitro-E)
 
 system:
     name: Nitro-AR
@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/amd/Nitro-AR#license
-    notes: Model licensed under Apache-2.0, an OSI-approved license.
+    class: partial
+    link: ["https://huggingface.co/amd/Nitro-AR#license", "https://github.com/AMD-AGI/Nitro-E/tree/main/Nitro-AR", "https://ai.meta.com/datasets/segment-anything/", "https://github.com/JourneyDB/JourneyDB", "https://github.com/poloclub/diffusiondb", "https://github.com/mlfoundations/datacomp"]
+    notes: "Weights: Apache-2.0. Code: Apache-2.0. Data: limited."

@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: closed
-    link: https://huggingface.co/BAAI/AquilaChat2-70B-Expr/blob/main/BAAI-Aquila-70B-Model-License-Agreement.pdf.pdf
-    notes: BAAI Aquila Model Licence Agreement, not an OSI-approved license.
+    link: ["https://huggingface.co/BAAI/AquilaChat2-70B-Expr/blob/main/BAAI-Aquila-70B-Model-License-Agreement.pdf.pdf", "https://github.com/FlagOpen/FlagScale", "https://github.com/FlagAI-Open/Aquila2", "https://arxiv.org/pdf/2408.07410"]
+    notes: "Weights: BAAI Aquila Model Licence Agreement. Code: Aquila License. Data: not specified (inaccessible pages)."

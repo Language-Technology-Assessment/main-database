@@ -168,6 +168,6 @@ Is the project fully covered by open licenses, including all data sources and tr
 
     🟥 The project is not licensed clearly or does not use an open license.
     
-    🟧 Only parts of the model and data sources are released under an open license, such as model weights.
+    🟧 Only parts of the model and data sources are released under an open license, at least two (partially or fully) of model weights, training code, and training data.
     
     🟩 The project is fully covered by open licenses, including all data sources and training pipeline code.

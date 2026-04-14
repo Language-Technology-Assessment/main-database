@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: open
-    link: https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509/blob/main/LICENSE.txt
-    notes: Apache 2.0, an OSI-approved license.
+    link: ["https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509/blob/main/LICENSE.txt", "https://github.com/swiss-ai/", "https://github.com/swiss-ai/pretrain-data", "https://huggingface.co/datasets/epfml/FineWeb2-HQ", "https://huggingface.co/datasets/swiss-ai/fineweb-2-compliant-tag", "https://huggingface.co/datasets/swiss-ai/fineweb-compliant-tag", "https://huggingface.co/swiss-ai/datasets"]
+    notes: "Weights: Apache-2.0. Code: Apache-2.0. Data: OpenRAIL, ODC-By 1.0, ODC-BY."

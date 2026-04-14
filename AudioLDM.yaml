@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: partial
-    link: https://huggingface.co/cvssp/audioldm2
-    notes: CC-BY-NC-SA-4.0
+    class: open
+    link: ["https://huggingface.co/cvssp/audioldm2", "https://github.com/haoheliu/audioldm2", "https://arxiv.org/pdf/2308.05734"]
+    notes: "Weights: CC-BY-NC-SA-4.0. Code: CC-BY-NC-SA-4.0. Data: variable licensing. Looks to all be permissively licensed."

@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: partial
+    class: closed
     link: ["https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md", "https://arxiv.org/pdf/2405.19265", "https://arxiv.org/pdf/2401.14196"]
     notes: "Weights: Apache-2.0. Code: not released. Data: not specified; base model data not disclosed."

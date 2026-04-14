@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker
-    notes: MIT license, an open-source license.
+    class: partial
+    link: ["https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker", "https://github.com/ServiceNow/Fast-LLM", "https://github.com/verl-project/verl"]
+    notes: "Weights: MIT. Code: MIT. Data: not specified."
