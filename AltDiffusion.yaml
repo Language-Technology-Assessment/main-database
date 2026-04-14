@@ -94,4 +94,4 @@ datasheet:
 licenses:
     class: closed
     link: https://huggingface.co/BAAI/AltDiffusion#%E8%AE%B8%E5%8F%AFlicense
-    notes: CreativeML Open RAIL-M License. Not an OSI-approved license.
+    notes: "Weights: CreativeML Open RAIL-M. Code: unlicensed. Data: CC-BY-4.0 for end model, variable for base model."

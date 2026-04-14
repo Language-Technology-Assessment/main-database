@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/senseable/33x-coder
-    notes: Apache-2.0, an OSI-approved license.
+    class: partial
+    link: ["https://huggingface.co/senseable/33x-coder", "https://huggingface.co/datasets/andersonbcdefg/synthetic_retrieval_tasks", "https://huggingface.co/datasets/ise-uiuc/Magicoder-Evol-Instruct-110K"]
+    notes: "Weights: Apache-2.0. Code: not released. Data: Apache-2.0 for end model, base model data not disclosed."
