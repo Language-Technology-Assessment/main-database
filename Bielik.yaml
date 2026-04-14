@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/speakleash/Bielik-11B-v3.0-Instruct#model-description
-    notes: Apache-2.0, an OSI-approved license.
+    class: partial
+    link: ["https://huggingface.co/speakleash/Bielik-11B-v3.0-Instruct#model-description", "https://github.com/speakleash/bielik-papers/blob/main/v3/Bielik_11B_v3.pdf"]
+    notes: "Weights: Apache-2.0. Code: not released. Data: variably-licensed."

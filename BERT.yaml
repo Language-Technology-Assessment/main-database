@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: partial
-    link: 
-    notes: "weights under apache 2.0, training data unclear"
+    link: "https://github.com/google-research/bert"
+    notes: "Weights: Apache-2.0. Code: Apache-2.0. Data: partially unavailable, rest open domain."

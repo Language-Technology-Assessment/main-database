@@ -94,4 +94,4 @@ datasheet:
 licenses:
     class: closed
     link: https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat
-    notes: Community License for Baichuan2 Model, not an OSI-recognized model.
+    notes: "Weights: Apache-2.0 and Community License for Baichuan2 Model. Code: not released. Data: not specified."

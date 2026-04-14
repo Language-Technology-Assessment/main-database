@@ -94,4 +94,4 @@ datasheet:
 licenses:
     class: closed
     link:
-    notes: Lowest common denominator is non-OSI approved LLaMA licence agreement
+    notes: "Weights: Llama 2 Community License Agreement. Code: Apache-2.0. Data: unspecified."
