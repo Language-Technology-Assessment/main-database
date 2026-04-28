@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: 
-    notes: Apache-2.0, an OSI-approved license.
+    class: closed
+    link: ["https://huggingface.co/Salesforce/codegen25-7b-instruct_P/tree/main", "https://huggingface.co/datasets/bigcode/starcoderdata"]
+    notes: "Weights: Research purposes only. Code: Not released. Data: Apache-2.0 for partial data."

@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: partial
-    link: 
-    notes: weights as apache 2
+    class: closed
+    link: "https://huggingface.co/LLM360/CrystalChat"
+    notes: "Weights: Apache-2.0. Code: not released. Data: not disclosed."

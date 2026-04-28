@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: 
-    notes: MIT License, an OSI-approved license.
+    class: closed
+    link: "https://huggingface.co/deepcogito/cogito-671b-v2.1"
+    notes: "Weights: MIT. Code: not released. Data: not disclosed."

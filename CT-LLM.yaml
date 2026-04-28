@@ -35,14 +35,14 @@ org:
 
 # availability:
 datasources_basemodel:
-    class: open
-    link: https://huggingface.co/m-a-p/CT-LLM-Base
-    notes: Model card lists datasets. 
+    class: closed
+    link: 
+    notes: No information about data sources found. 
 
 datasources_endmodel:
-    class: open
-    link: https://huggingface.co/m-a-p/CT-LLM-SFT-DPO
-    notes: list of datasets provided 
+    class: partial
+    link: ["https://huggingface.co/m-a-p/CT-LLM-SFT-DPO", "https://arxiv.org/pdf/2404.04167", "https://huggingface.co/datasets/m-a-p/COIG-CQIA", "https://data.baai.ac.cn/details/OL-CC", "https://huggingface.co/datasets/BAAI/COIG-PC", "https://huggingface.co/datasets/argilla/OpenHermesPreferences", "https://huggingface.co/datasets/Skepsun/cvalues_rlhf", "https://github.com/HIT-SCIR/huozi", "https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k", "https://github.com/hiyouga/LlamaFactory", "https://github.com/PKU-Alignment/beavertails"]
+    notes: List of datasets provided. Synthetic data used and not disclosed.
 
 weights_basemodel:
     class: open
@@ -61,7 +61,7 @@ trainingcode:
 
 # documentation:
 code:
-    class: partial
+    class: open
     link:  https://github.com/Chinese-Tiny-LLM/Chinese-Tiny-LLM
     notes: 
 
@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: 
-    notes: weights as apache2
+    class: partial
+    link: ["https://huggingface.co/m-a-p/CT-LLM-SFT-DPO", "https://arxiv.org/pdf/2404.04167", "https://huggingface.co/datasets/m-a-p/COIG-CQIA", "https://data.baai.ac.cn/details/OL-CC", "https://huggingface.co/datasets/BAAI/COIG-PC", "https://huggingface.co/datasets/argilla/OpenHermesPreferences", "https://huggingface.co/datasets/Skepsun/cvalues_rlhf", "https://github.com/HIT-SCIR/huozi", "https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k", "https://github.com/hiyouga/LlamaFactory", "https://github.com/PKU-Alignment/beavertails"]
+    notes: "Weights: Apache-2.0. Code: CC-BY-4.0. Data: various licenses, some unknown and/or unclear."

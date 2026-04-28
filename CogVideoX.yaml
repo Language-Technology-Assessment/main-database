@@ -40,9 +40,9 @@ datasources_basemodel:
     notes: They use CogView which has closed dataset along other datasets.
     
 datasources_endmodel:
-    class: partial
-    link: https://arxiv.org/abs/2205.15868  
-    notes:
+    class: closed
+    link:  
+    notes: No data sources found.
     
 weights_basemodel:
     class: open
@@ -62,7 +62,7 @@ trainingcode:
 # documentation:
 code:
     class: open
-    link: https://huggingface.co/zai-org/CogVideoX1.5-5B
+    link: https://github.com/zai-org/CogVideo
     notes:
 
 hardware_architecture:
@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/zai-org/CogVideoX1.5-5B#model-license 
-    notes: Model licensed under Apache-2.0, an OSI-approved license.
+    class: partial
+    link: ["https://huggingface.co/zai-org/CogVideoX1.5-5B#model-license", "https://github.com/zai-org/CogVideo"]
+    notes: "Weights: CogVideoX License. Code: Apache-2.0. Data: not disclosed."

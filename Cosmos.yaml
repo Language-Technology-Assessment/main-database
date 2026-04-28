@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: closed
-    link:
-    notes: weights under Nvidia Open World License and some code under Apache 2
+    class: partial
+    link: ["https://huggingface.co/nvidia/Cosmos-Predict2.5-14B", "https://github.com/nvidia-cosmos/cosmos-predict2.5"]
+    notes: "Weights: NVIDIA Open Model License. Code: Apache-2.0. Data: not released."

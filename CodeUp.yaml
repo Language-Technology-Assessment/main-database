@@ -93,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: partial
-    link: https://huggingface.co/juyongjiang/CodeUp-Llama-3-8B
-    notes: Stable-Diffusion-OpenRail++-M License and Apache-2.0 and CC-BY-NC-4.0. Not all OSI-approved licenses.
+    link: ["https://huggingface.co/juyongjiang/CodeUp-Llama-3-8B", "https://github.com/juyongjiang/CodeUp/blob/master/LICENSE", "https://huggingface.co/datasets/WizardLMTeam/WizardLM_evol_instruct_V2_196k", "https://huggingface.co/datasets/meta-math/MetaMathQA", "https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1"]
+    notes: "Weights: OpenRAIL++. Code: Apache-2.0. Data: CC-BY-NC-4.0."

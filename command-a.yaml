@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: partial
-    link: https://docs.cohere.com/docs/c4ai-acceptable-use-policy
-    notes: Licensed under CC-BY-NC and requires agreeing to C4AI acceptable use policy
+    class: closed
+    link: "https://docs.cohere.com/docs/c4ai-acceptable-use-policy"
+    notes: "Weights: CC-BY-NC-4.0 and C4AI acceptable use policy. Code: not released. Data: not disclosed."

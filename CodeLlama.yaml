@@ -94,4 +94,4 @@ datasheet:
 licenses:
     class: closed
     link: https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf#model-details
-    notes: Llama 2 Community License Agreement, not an OSI-approved license.
+    notes: "Weights: Llama 2 Community License Agreement (not OSI-approved). Code: not released. Data: not disclosed."
