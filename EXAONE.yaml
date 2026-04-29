@@ -13,6 +13,10 @@
 # - National origin: South Korea
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: ~2.69e+24 FLOP +- 1.5 OoM (param count & dataset size) [Epoch AI]
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: EXAONE
     link: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B
@@ -90,4 +94,4 @@ datasheet:
 licenses:
     class: closed
     link: https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B
-    notes: EXAONE AI Model License Agreement, not an OSI-approved license.
+    notes: "Weights: EXAONE AI Model License Agreement 1.2. Code: not released. Data: not disclosed."
