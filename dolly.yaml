@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: ~2.515e+14 FLOP +- 0.5 OoM (param count & dataset size) [Epoch AI]
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: Dolly
     link: https://huggingface.co/databricks/dolly-v2-12b
@@ -88,6 +92,6 @@ datasheet:
 
 # access
 licenses:
-    class: open
-    link:
-    notes:
+    class: partial
+    link: ["https://huggingface.co/databricks/dolly-v2-7b", "https://github.com/databrickslabs/dolly/tree/master/training", "https://huggingface.co/datasets/EleutherAI/the_pile_deduplicated", "https://huggingface.co/datasets/databricks/databricks-dolly-15k"]
+    notes: "Weights: Not available. Code: Apache-2.0. Data: CC-BY-SA-3.0, variable."

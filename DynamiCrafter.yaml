@@ -13,6 +13,10 @@
 # - National origin: China
 # - Contributor type: Academic (Individual)
 
+# Training compute:
+# - Base model training compute: unknown
+# - End model training compute: unknown
+
 system:
     name: DynamiCrafter
     link: https://huggingface.co/Doubiiu/DynamiCrafter_1024
@@ -89,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: closed
-    link:
-    notes: unspecified 
+    link: ["https://huggingface.co/Doubiiu/DynamiCrafter_1024/tree/main", "https://github.com/Doubiiu/DynamiCrafter", "https://laion.ai/blog/laion-5b/"]
+    notes: "Weights: unknown. Code: Apache-2.0. Data: CC-BY-4.0 (partially disclosed)."

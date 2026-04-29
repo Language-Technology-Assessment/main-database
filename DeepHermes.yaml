@@ -14,7 +14,7 @@
 # - Contributor type: Non-academic (Research community)
 
 # Training compute:
-# - Base model training compute: ~7.929e+24 +- 0.5 OoM (geometric mean of param count & dataset size, and hardware figures) [Epoch AI]
+# - Base model training compute: ~7.929e+24 FLOP +- 0.5 OoM (geometric mean of param count & dataset size, and hardware figures) [Epoch AI]
 # - End model training compute: unknown (likely negligible)
 
 system:

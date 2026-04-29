@@ -13,6 +13,10 @@
 # - National origin: China
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: ~1.216e+24 FLOP +- 0.5 OoM (param count & dataset size) [Epoch AI]
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: dots.llm1
     link: https://huggingface.co/rednote-hilab/dots.llm1.inst
@@ -88,7 +92,7 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/rednote-hilab/dots.llm1.inst/blob/main/LICENSE
-    notes: MIT license, an OSI-approved license.
+    class: closed
+    link: "https://huggingface.co/rednote-hilab/dots.llm1.inst/blob/main/LICENSE"
+    notes: "Weights: MIT. Code: not released. Data: not disclosed."
 
