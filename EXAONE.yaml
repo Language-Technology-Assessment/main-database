@@ -14,7 +14,7 @@
 # - Contributor type: Non-academic (Company)
 
 # Training compute:
-# - Base model training compute: ~2.69e+24 FLOP +- 1.5 OoM (param count & dataset size) [Epoch AI]
+# - Base model training compute: ~2.69e+24 FLOP +- 0.5 OoM (param count & dataset size)
 # - End model training compute: unknown (likely negligible)
 
 system:

@@ -13,6 +13,10 @@
 # - National origin: International
 # - Contributor type: Non-academic (Research institution)
 
+# Training compute:
+# - Base model training compute: >= 9.75e+20 FLOP (lower bound from Chinchilla)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: FastChat-T5
     link: https://huggingface.co/lmsys/fastchat-t5-3b-v1.0
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: partial    
-    link: 
-    notes: weights under apache2
+    class: closed    
+    link: https://huggingface.co/lmsys/fastchat-t5-3b-v1.0
+    notes: "Weights: Apache-2.0. Code: not released. Data: partially disclosed, disclosed elements proprietary."

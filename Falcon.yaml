@@ -13,6 +13,10 @@
 # - National origin: United Arab Emirates
 # - Contributor type: Academic (Research institution)
 
+# Training compute:
+# - Base model training compute: >= 1.18e+22 FLOP (lower bound from 2x Chinchilla)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: Falcon
     link: https://huggingface.co/tiiuae/Falcon-H1R-7B
@@ -89,5 +93,5 @@ datasheet:
 # access
 licenses:
     class: closed
-    link: https://huggingface.co/tiiuae/Falcon-H1R-7B
-    notes: Falcon LLM License, not an open license.
+    link: ["https://huggingface.co/tiiuae/Falcon-H1R-7B", "https://huggingface.co/datasets/tiiuae/falcon-refinedweb"]
+    notes: "Weights: Falcon LLM License. Code: not released. Data: ODC-By."
