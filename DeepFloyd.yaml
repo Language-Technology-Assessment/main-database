@@ -56,15 +56,15 @@ weights_endmodel:
 
 trainingcode:
     class: closed
-    link: https://github.com/deep-floyd/IF
-    notes: No training code found.
+    link: https://github.com/deep-floyd/IF/tree/develop
+    notes: Training code published on GitHub.
 
 
 # documentation:
 code:
-    class: closed
-    link:
-    notes: No training code, so no documentation.
+    class: partial
+    link: https://github.com/deep-floyd/IF/tree/develop
+    notes: Code is well-documented, however README does not make direct reference to it.
 
 hardware_architecture:
     class: open
@@ -93,6 +93,6 @@ datasheet:
 
 # access:
 licenses:
-    class: closed
-    link: https://huggingface.co/DeepFloyd/IF-I-XL-v1.0#model-details
-    notes: DeepFloyd IF Research License Agreement, not an OSI-approved license.
+    class: partial
+    link: ["https://huggingface.co/DeepFloyd/IF-I-XL-v1.0#model-details", "https://laion.ai/blog/laion-5b/"]
+    notes: "Weights: DeepFloyd IF Research License Agreement. Code: Modified MIT. Data: partially released, LAION under CC-BY-4.0."

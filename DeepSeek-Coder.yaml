@@ -13,6 +13,10 @@
 # - National origin: China
 # - Contributor type: Non-academic (Chinese AI Tiger)
 
+# Training compute:
+# - Base model training compute: ~1.285e+24 +- 0.5 OoM (param count & dataset size) [Epoch AI]
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: DeepSeek-Coder
     link: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724
@@ -42,12 +46,12 @@ datasources_endmodel:
 
 weights_basemodel:
     class: open
-    link: https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/paper.pdf
+    link: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Base
     notes: Weights made available on HuggingFace.
 
 weights_endmodel:
     class: open
-    link: https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/paper.pdf
+    link: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724
     notes: Weights made available on HuggingFace.
 
 trainingcode:
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: partial
-    link: https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724#6-license
-    notes: Code licensed under MIT, an open-source license. Model licensed under DeepSeek-License, not an OSI-approved license.
+    class: closed
+    link: "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct-0724#6-license"
+    notes: "Weights: DeepSeek License Agreement. Code: not released. Data: not disclosed."

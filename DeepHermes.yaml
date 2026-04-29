@@ -62,7 +62,7 @@ trainingcode:
 # documentation:
 code:
     class: open
-    link: https://huggingface.co/datasets/NousResearch/Hermes-3-Dataset
+    link: https://github.com/NousResearch/atropos
     notes: Code comprehensively documented.
 
 hardware_architecture:
@@ -92,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: closed
-    link: https://huggingface.co/datasets/NousResearch/Hermes-3-Dataset
-    notes: Meta custom license
+    class: partial
+    link: ["https://huggingface.co/NousResearch/Hermes-4-70B", "https://github.com/NousResearch/atropos", "https://huggingface.co/datasets/NousResearch/Hermes-3-Dataset"]
+    notes: "Weights: Llama 3 Community License Agreement. Code: MIT. Data: partially disclosed and available under Apache-2.0."
