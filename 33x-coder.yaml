@@ -37,7 +37,7 @@ org:
 datasources_basemodel:
     class: closed
     link: 
-    notes: Proprietary dataset.
+    notes: Proprietary dataset. Includes GitHub (possibly without licensing filtering) and StackExchange.
 
 datasources_endmodel:
     class: partial
