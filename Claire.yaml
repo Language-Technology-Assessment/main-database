@@ -13,6 +13,10 @@
 # - National origin: France
 # - Contributor type: Academic (Research community)
 
+# Training compute:
+# - Base model training compute: ~6.3e+22 FLOP +- 0.5 OoM (both param count & dataset site, and hardware figures) [Epoch AI]
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: Claire
     link: https://huggingface.co/OpenLLM-France/Claire-7B-FR-Instruct-0.1
@@ -89,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: partial
-    link: 
-    notes: "cc-by-nc-sa-4.0"
+    link: ["https://huggingface.co/OpenLLM-France/Claire-7B-FR-Instruct-0.1", "https://huggingface.co/datasets/OpenLLM-France/Claire-Dialogue-French-0.1"]
+    notes: "Weights: CC-BY-NC-SA-4.0. Code: not released. Data: CC-BY-NC-SA-4.0."

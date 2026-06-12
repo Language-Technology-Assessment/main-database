@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Non-academic (Individual)
 
+# Training compute:
+# - Base model training compute: >= 2.904e+24 FLOP (lower bound from 2x Chinchilla)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: Airoboros
     link: https://huggingface.co/jondurbin/airoboros-dpo-110b-3.3
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: partial
+    class: closed
     link: https://huggingface.co/jondurbin/airoboros-dpo-110b-3.3#licence-and-usage-restrictions
-    notes: Licensing left ambiguous because of murky status of OpenAI-derived Self-Instruct data.
+    notes: "Weights: Purposely left ambiguous. Code: Apache-2.0. Data: Research-only."

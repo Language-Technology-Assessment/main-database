@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Non-academic (Research institution)
 
+# Training compute:
+# - Base model training compute: ~4.790e+22 FLOP +- 0.5 OoM (geometric mean of param count & dataset site, and hardware figures) [Epoch AI]
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: Amber
     link: https://huggingface.co/LLM360/AmberSafe
@@ -89,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: open
-    link: https://huggingface.co/LLM360/AmberChat
-    notes: Everything licensed under Apache 2.0.
+    link: ["https://huggingface.co/LLM360/AmberChat", "https://github.com/LLM360", "https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k", "https://huggingface.co/datasets/LLM360/AmberDatasets"]
+    notes: "Weights: Apache-2.0. Code: Apache-2.0. Data: Apache-2.0."

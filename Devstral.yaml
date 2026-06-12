@@ -13,6 +13,10 @@
 # - National origin: France
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: unknown
+# - End model training compute: unknown
+
 system:
     name: Devstral 2
     link: https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512
@@ -89,5 +93,5 @@ datasheet:
 # access:
 licenses:
     class: closed
-    link: 
-    notes: Modified MIT License
+    link: https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512
+    notes: "Weights: Modified MIT License. Code: not released. Data: not disclosed."

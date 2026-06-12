@@ -9,6 +9,14 @@
 
 # Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
 
+# Organization tags:
+# - National origin: United States
+# - Contributor type: Non-academic (Company)
+
+# Training compute:
+# - Base model training compute: >= 1.335e+22 FLOP (lower bound from Chinchilla)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: CogVideoX 
     link: https://huggingface.co/zai-org/CogVideoX1.5-5B
@@ -32,9 +40,9 @@ datasources_basemodel:
     notes: They use CogView which has closed dataset along other datasets.
     
 datasources_endmodel:
-    class: partial
-    link: https://arxiv.org/abs/2205.15868  
-    notes:
+    class: closed
+    link:  
+    notes: No data sources found.
     
 weights_basemodel:
     class: open
@@ -54,7 +62,7 @@ trainingcode:
 # documentation:
 code:
     class: open
-    link: https://huggingface.co/zai-org/CogVideoX1.5-5B
+    link: https://github.com/zai-org/CogVideo
     notes:
 
 hardware_architecture:
@@ -84,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/zai-org/CogVideoX1.5-5B#model-license 
-    notes: Model licensed under Apache-2.0, an OSI-approved license.
+    class: partial
+    link: ["https://huggingface.co/zai-org/CogVideoX1.5-5B#model-license", "https://github.com/zai-org/CogVideo"]
+    notes: "Weights: CogVideoX License. Code: Apache-2.0. Data: not disclosed."

@@ -13,6 +13,10 @@
 # - National origin: France
 # - Contributor type: Non-academic (Research lab)
 
+# Training compute:
+# - Base model training compute: -
+# - End model training compute: ~3.86e+20 FLOP +- 0.36 OoM (param count & dataset size)
+
 system:
     name: Baguettotron
     link: https://huggingface.co/PleIAs/Baguettotron
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/PleIAs/Baguettotron
-    notes: Apache-2.0, an OSI-approved license.
+    class: partial
+    link: ["https://huggingface.co/PleIAs/Baguettotron", "https://huggingface.co/datasets/PleIAs/SYNTH"]
+    notes: "Weights: Apache-2.0. Code: not released. Data: CDLA Permissive 2.0."

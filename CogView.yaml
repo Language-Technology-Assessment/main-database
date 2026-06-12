@@ -13,12 +13,16 @@
 # - National origin: China
 # - Contributor type: Non-academic (Chinese AI Tiger)
 
+# Training compute:
+# - Base model training compute: -
+# - End model training compute: ~2.68e+22 FLOP +- 1.0 OoM (param count & dataset size)
+
 system:
     name: CogView
     link: https://huggingface.co/zai-org/CogView4-6B
     type: image
     performanceclass: full
-    basemodelname: 
+    basemodelname: CogView4-6B
     endmodelname: CogView4-6B
     endmodellicense: Apache-2.0
     releasedate: 2025-03
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/zai-org/CogView4-6B#license
-    notes: "Apache-2.0, an OSI-approved license."
+    class: closed
+    link: ["https://huggingface.co/zai-org/CogView4-6B#license"]
+    notes: "Weights: Apache-2.0. Code: not released. Data: not specified."

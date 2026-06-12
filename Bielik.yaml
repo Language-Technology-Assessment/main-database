@@ -13,6 +13,10 @@
 # - National origin: Poland
 # - Contributor type: Non-academic (Research community)
 
+# Training compute:
+# - Base model training compute: ~7.0e+22 FLOP +- 0.30 OoM (param count & dataset size)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: Bielik
     link: https://huggingface.co/speakleash/Bielik-11B-v3.0-Instruct
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/speakleash/Bielik-11B-v3.0-Instruct#model-description
-    notes: Apache-2.0, an OSI-approved license.
+    class: partial
+    link: ["https://huggingface.co/speakleash/Bielik-11B-v3.0-Instruct#model-description", "https://github.com/speakleash/bielik-papers/blob/main/v3/Bielik_11B_v3.pdf"]
+    notes: "Weights: Apache-2.0. Code: not released. Data: variably-licensed."

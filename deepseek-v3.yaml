@@ -13,6 +13,10 @@
 # - National origin: China
 # - Contributor type: Non-academic (Chinese AI Tiger)
 
+# Training compute:
+# - Base model training compute: ~3.3e+24 FLOP +- 0.5 OoM (param count & dataset size) [Epoch AI]
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: DeepSeek V3.2
     link: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale
@@ -51,7 +55,7 @@ weights_endmodel:
     notes: Weights made available on HuggingFace.
 
 trainingcode:
-    class: partial
+    class: closed
     link: https://github.com/deepseek-ai/DeepSeek-V3/tree/main/inference
     notes: Outdated repository provides sparse source code and some examples for inference.
 
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale#license
-    notes: MIT License, an OSI-approved license
+    class: closed
+    link: "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale#license"
+    notes: "Weights: MIT. Code: not released. Data: not disclosed."

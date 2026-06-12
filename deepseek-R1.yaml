@@ -13,6 +13,10 @@
 # - National origin: China
 # - Contributor type: Non-academic (Chinese AI Tiger)
 
+# Training compute:
+# - Base model training compute: ~3.3e+24 FLOP +- 0.5 OoM (param count & dataset size) [Epoch AI]
+# - End model training compute: ~4.02e+24 FLOP +- 0.5 OoM (param count & dataset size) [Epoch AI]
+
 system:
     name: DeepSeek R1
     link: https://huggingface.co/deepseek-ai/DeepSeek-R1-0528
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: partial
-    link: https://huggingface.co/deepseek-ai/DeepSeek-V3-Base/blob/main/LICENSE-MODEL
-    notes: MIT License and a separate Model License. Derived model (R1) claims to be fully licensed through MIT.
+    class: closed
+    link: "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    notes: "Weights: MIT. Code: not released. Data: not disclosed."

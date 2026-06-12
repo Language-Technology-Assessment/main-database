@@ -13,6 +13,10 @@
 # - National origin: China
 # - Contributor type: Non-academic (Research institution)
 
+# Training compute:
+# - Base model training compute: unknown
+# - End model training compute: ~9.85e+21 +- 0.36 OoM (tuning on 64xA100 for 19 days)
+
 system:
     name: AltDiffusion
     link: https://huggingface.co/BAAI/AltDiffusion
@@ -90,4 +94,4 @@ datasheet:
 licenses:
     class: closed
     link: https://huggingface.co/BAAI/AltDiffusion#%E8%AE%B8%E5%8F%AFlicense
-    notes: CreativeML Open RAIL-M License. Not an OSI-approved license.
+    notes: "Weights: CreativeML Open RAIL-M. Code: unlicensed. Data: CC-BY-4.0 for end model, variable for base model."

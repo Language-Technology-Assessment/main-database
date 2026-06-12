@@ -13,6 +13,10 @@
 # - National origin: United Kingdom
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: ~1.92e+22 FLOP +- 0.5 OoM (param count & dataset site) [Epoch AI]
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: Arabic StableLM
     link: https://huggingface.co/stabilityai/ar-stablelm-2-chat
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: closed
-    link: https://huggingface.co/stabilityai/ar-stablelm-2-chat#model-details
-    notes: Stability AI Non-Commercial Research Community License Agreement, not an OSI-approved license.
+    class: partial
+    link: ["https://huggingface.co/stabilityai/ar-stablelm-2-chat#model-details", "https://github.com/axolotl-ai-cloud/axolotl/tree/main/docs", "https://arxiv.org/pdf/2402.17834", "https://arxiv.org/pdf/2412.04277"]
+    notes: "Weights: Stability AI Non-Commercial Research Community License. Code: Apache-2.0. Data: Apache-2.0."

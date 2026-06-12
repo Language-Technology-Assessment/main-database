@@ -13,6 +13,10 @@
 # - National origin: China
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: ~1.6e+23 FLOP +- 0.5 OoM (param count & dataset size) [Epoch AI]
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: BELLE
     link: https://huggingface.co/BELLE-2/BELLE-Llama2-13B-chat-0.4M
@@ -90,4 +94,4 @@ datasheet:
 licenses:
     class: closed
     link:
-    notes: Lowest common denominator is non-OSI approved LLaMA licence agreement
+    notes: "Weights: Llama 2 Community License Agreement. Code: Apache-2.0. Data: unspecified."

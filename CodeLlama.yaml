@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Non-academic (American Big Tech)
 
+# Training compute:
+# - Base model training compute: ~8.1e+23 FLOP +- 0.5 OoM (geometric mean of param count & dataset site, and hardware figures) [Epoch AI]
+# - End model training compute: ~4.2e+23 FLOP +- 0.5 OoM (param count & dataset size)
+
 system:
     name: CodeLlama
     link: https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf
@@ -90,4 +94,4 @@ datasheet:
 licenses:
     class: closed
     link: https://huggingface.co/meta-llama/CodeLlama-70b-Instruct-hf#model-details
-    notes: Llama 2 Community License Agreement, not an OSI-approved license.
+    notes: "Weights: Llama 2 Community License Agreement (not OSI-approved). Code: not released. Data: not disclosed."

@@ -13,6 +13,10 @@
 # - National origin: International
 # - Contributor type: Academic (Research community)
 
+# Training compute:
+# - Base model training compute: ~5.28e+23 FLOP +- 0.5 OoM (param count & dataset size)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: EuroLLM
     link: https://huggingface.co/utter-project/EuroLLM-22B-Instruct-2512
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link:
-    notes: Apache 2.0, an OSI-approved license.
+    class: partial
+    link: ["https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu", "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2", "https://huggingface.co/datasets/nvidia/Nemotron-CC-v2", "https://huggingface.co/datasets/HPLT/HPLT3.0", "https://huggingface.co/datasets/allenai/MADLAD-400", "https://huggingface.co/datasets/uonlp/CulturaX", "https://huggingface.co/datasets/allenai/c4"]
+    notes: "Weights: Apache-2.0. Code: Apache-2.0. Data: ODC-BY, NVIDIA Open Data License Agreement, CC0, OSCAR license."

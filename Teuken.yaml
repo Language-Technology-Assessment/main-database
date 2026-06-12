@@ -51,7 +51,7 @@ weights_endmodel:
     notes: Available via Huggingface repository.
 
 trainingcode:
-    class: partial
+    class: closed
     link: https://github.com/OpenGPTX/Megatron-LM/blob/main/examples/7B_EU24_juwels_part_3_fw_after3T.sbatch
     notes: SBATCH script with training code available at fork of Megatron-LM. However, no easily visible and easily navigable repository containing the code used to train the model is available. Making the repository more easily visible would alleviate this.
 

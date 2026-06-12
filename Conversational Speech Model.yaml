@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Non-academic (Company)
 
+# Training compute:
+# - Base model training compute: unknown
+# - End model training compute: unknown
+
 system:
     name: Conversational Speech Model
     link: https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
+    class: closed
     link: https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice
-    notes: Model available under Apache-2.0, an OSI-approved license.
+    notes: "Weights: Apache-2.0. Code: not released. Data: not disclosed."

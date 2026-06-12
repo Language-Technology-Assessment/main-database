@@ -13,6 +13,10 @@
 # - National origin: Netherlands
 # - Contributor type: Academic (Individual)
 
+# Training compute:
+# - Base model training compute: >= 9.75e+20 FLOP (lower bound from Chinchilla)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: Fietje
     link: https://huggingface.co/BramVanroy/fietje-2-chat

@@ -13,6 +13,10 @@
 # - National origin: China
 # - Contributor type: Academic (Research institution)
 
+# Training compute:
+# - Base model training compute: >= 1.09e+22 FLOP (lower bound from 2x Chinchilla)
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: AlchemistCoder
     link: https://huggingface.co/internlm/AlchemistCoder-DS-6.7B
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md
-    notes: Model licensed under Apache-2.0.
+    class: closed
+    link: ["https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md", "https://arxiv.org/pdf/2405.19265", "https://arxiv.org/pdf/2401.14196"]
+    notes: "Weights: Apache-2.0. Code: not released. Data: not specified; base model data not disclosed."

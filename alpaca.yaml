@@ -13,6 +13,10 @@
 # - National origin: United States
 # - Contributor type: Academic (University)
 
+# Training compute:
+# - Base model training compute: ~4e+22 FLOP +- 0.5 OoM (param count & dataset size) [Epoch AI]
+# - End model training compute: ~8.087e18 FLOP +- 0.5 OoM (hardware figures) [Epoch AI]
+
 system:
     name: Stanford Alpaca
     link: https://crfm.stanford.edu/2023/03/13/alpaca.html
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: closed
-    link: https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform
-    notes: Pegged to LLaMA license agreement.
+    class: partial
+    link: ["https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform", "https://github.com/tatsu-lab/stanford_alpaca", "https://github.com/tatsu-lab/stanford_alpaca#data-release"]
+    notes: "Weights: LLaMA license agreement. Code: CC-BY-NC-4.0. Data: CC-BY-NC-4.0 for end model, base model data not disclosed."

@@ -13,12 +13,16 @@
 # - National origin: United States
 # - Contributor type: Non-academic (Research community)
 
+# Training compute:
+# - Base model training compute: ~4.08e+23 FLOP +- 0.5 OoM (param count & dataset size) [Epoch AI]
+# - End model training compute: unknown (likely negligible)
+
 system:
     name: 33x-Coder
     link: https://huggingface.co/senseable/33x-coder
     type: code
     performanceclass: limited
-    basemodelname: Llama-2-34B
+    basemodelname: Deepseek-Coder-33B-Base
     endmodelname: 33x-Coder
     endmodellicense: Apache-2.0
     releasedate: 2024-01
@@ -32,8 +36,8 @@ org:
 # availability:
 datasources_basemodel:
     class: closed
-    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
-    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+    link: 
+    notes: Proprietary dataset. Includes GitHub (possibly without licensing filtering) and StackExchange.
 
 datasources_endmodel:
     class: partial
@@ -41,9 +45,9 @@ datasources_endmodel:
     notes: Two data sources linked, however unclear if they are the only ones used.
 
 weights_basemodel:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download only after requesting access; requires signing a consent form
+    class: open
+    link: https://huggingface.co/deepseek-ai/deepseek-coder-33b-base
+    notes: Model available on HuggingFace.
 
 weights_endmodel:
     class: open
@@ -88,6 +92,6 @@ datasheet:
 
 # access:
 licenses:
-    class: open
-    link: https://huggingface.co/senseable/33x-coder
-    notes: Apache-2.0, an OSI-approved license.
+    class: partial
+    link: ["https://huggingface.co/senseable/33x-coder", "https://huggingface.co/datasets/andersonbcdefg/synthetic_retrieval_tasks", "https://huggingface.co/datasets/ise-uiuc/Magicoder-Evol-Instruct-110K"]
+    notes: "Weights: Apache-2.0. Code: not released. Data: Apache-2.0 for end model, base model data not disclosed."
