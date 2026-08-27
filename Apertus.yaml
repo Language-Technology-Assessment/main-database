@@ -76,8 +76,8 @@ preprint:
     notes: Preprint version of the paper available here.
 
 paper:
-    class: closed
-    link: 
+    class: open
+    link: https://aclanthology.org/2026.acl-long.2172/
     notes: Paper under peer review
 
 modelcard:
