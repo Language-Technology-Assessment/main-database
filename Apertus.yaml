@@ -73,12 +73,12 @@ hardware_architecture:
 preprint:
     class: open
     link: https://arxiv.org/abs/2509.14233
-    notes: Preprint version of the paper available here.
+    notes: Preprint version of the technical report.
 
 paper:
-    class: closed
-    link: 
-    notes: Paper under peer review
+    class: open
+    link: https://aclanthology.org/2026.acl-long.2172/
+    notes: Apertus paper published at ACL 2026.
 
 modelcard:
     class: open
