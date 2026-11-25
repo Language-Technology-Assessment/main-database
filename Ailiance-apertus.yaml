@@ -1,0 +1,97 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here:
+# https://osai-index.eu/contribute
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to https://osai-index.eu/
+# and a citation to the peer-reviewed paper in which the dataset & criteria were published:
+
+# Liesenfeld, A. and Dingemanse, M., 2024. Rethinking open source generative AI: open-washing and the EU AI Act. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (pp. 1774-1787).
+
+# Organization tags:
+# - National origin: France
+# - Contributor type: Non-academic (Company)
+
+# Training compute:
+# - Base model training compute: 6.74e+24 FLOP (from preprint)
+# - End model training compute: unknown (likely negligible)
+
+system:
+    name: Apertus Electronics HW LoRA
+    link: https://huggingface.co/Ailiance-fr/apertus-electronics-hw-lora
+    type: text 
+    performanceclass: limited
+    basemodelname: Apertus-70B-2509
+    endmodelname: Apertus Electronics HW LoRA
+    endmodellicense: Apache-2.0
+    releasedate: 2026-05
+    notes: Special-purpose LoRA for electronics applications
+
+org:
+    name: Ailiance software
+    link: https://www.ailiance.fr/
+    notes: French AI company
+
+# availability:
+datasources_basemodel:
+    class: open
+    link: ["https://github.com/swiss-ai/pretrain-data", "https://huggingface.co/datasets/epfml/FineWeb2-HQ", "https://huggingface.co/datasets/swiss-ai/fineweb-2-compliant-tag", "https://huggingface.co/datasets/swiss-ai/fineweb-compliant-tag"]
+    notes: Training data for base model released and use documented.
+
+datasources_endmodel:
+    class: partial
+    link: ["https://dumps.wikimedia.org/"]
+    notes: Data source disclosed, but not which part of the data was selected beyond a generic "topical filter" and "electronics".
+
+weights_basemodel:
+    class: open
+    link: https://huggingface.co/swiss-ai/Apertus-70B-2509/tree/main
+    notes: Model weights available in many stages.
+    
+weights_endmodel:
+    class: open
+    link: https://huggingface.co/Ailiance-fr/apertus-electronics-hw-lora
+    notes: Model weights available on HuggingFace.
+
+trainingcode:
+    class: closed
+    link: 
+    notes: No training code found.
+
+# documentation:
+code:
+    class: closed
+    link: 
+    notes: No code, so no documentation.
+
+hardware_architecture:
+    class: closed
+    link: 
+    notes: No information on hardware architecture found.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint found.
+
+paper:
+    class: closed
+    link: 
+    notes: No peer-reviewed paper found.
+
+modelcard:
+    class: open
+    link: 
+    notes: Model card provides broad overview.
+
+datasheet:
+    class: closed
+    link: 
+    notes: No datasheet found.
+
+# access:
+licenses:
+    class: open
+    link: ["https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509/blob/main/LICENSE.txt", "https://huggingface.co/Ailiance-fr/apertus-electronics-hw-lora", "https://github.com/swiss-ai/", "https://github.com/swiss-ai/pretrain-data", "https://huggingface.co/datasets/epfml/FineWeb2-HQ", "https://huggingface.co/datasets/swiss-ai/fineweb-2-compliant-tag", "https://huggingface.co/datasets/swiss-ai/fineweb-compliant-tag", "https://huggingface.co/swiss-ai/datasets"]
+    notes: "Weights: Apache-2.0. Code: Apache-2.0. Data: OpenRAIL, ODC-By 1.0, ODC-BY."
